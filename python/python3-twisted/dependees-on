@@ -1,0 +1,5 @@
+deluge
+buildbot
+buildbot-worker
+python3-tubes
+swtpm

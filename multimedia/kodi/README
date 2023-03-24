@@ -1,0 +1,24 @@
+Kodi is an award winning media center application for Linux, Mac OS X,
+Windows and XBox. The ultimate hub for all your media, Kodi is easy to
+use, looks slick, and has a large helpful community.  Kodi supports
+viewing and playing a vast library of audio, video and image formats.
+Kodi has a sophisticated library management system that allows you to
+organize all your media to give you quick and immediate access.
+
+Optional autodetected dependencies:
+avahi - Network discovery
+cwiid - Controller support
+dav1d - AV1 codec support
+libcec - CEC support
+libmicrohttpd - Web interface support
+libnfs - Browse NFS shares
+lirc - Remote support
+shairplay - Airplay Support
+
+NOTE:
+Kodi can be compiled with jdk11 instead of zulu-openjdk11.
+
+ADDITIONAL NOTE:
+If you are having issues with addons crashing, please ensure you're
+upgraded to at least python3-3.9.14 or later from the patches/
+directory on your favorite mirror. 3.9.12 and earlier had issues.

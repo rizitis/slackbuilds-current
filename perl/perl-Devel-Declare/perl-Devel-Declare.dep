@@ -1,0 +1,11 @@
+perl-Test-Requires
+perl-Sub-Name
+perl-Variable-Magic
+perl-Sub-Exporter-Progressive
+perl-Try-Tiny
+perl-Test-Fatal
+perl-Module-Implementation
+perl-B-Hooks-EndOfScope
+perl-extutils-depends
+perl-B-Hooks-OP-Check
+perl-Devel-Declare

@@ -1,0 +1,8 @@
+ghc
+haskell-old-locale
+haskell-old-time
+haskell-unix-time
+haskell-easy-file
+haskell-bytestring-builder
+haskell-auto-update
+haskell-fast-logger

@@ -1,0 +1,6 @@
+lua
+luajit
+tbb
+libminizip
+fuzzylite
+vcmi

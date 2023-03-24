@@ -1,0 +1,131 @@
+#!/bin/bash
+
+# Slackware build script for jzintv
+
+# Written by B. Watson (urchlay@slackware.uk)
+
+# Licensed under the WTFPL. See http://www.wtfpl.net/txt/copying/ for details.
+
+# 20230107 bkw: BUILD=3
+# - fix permissions in doc dir.
+# - go ahead and include the ROMs in the package.
+
+# 20211023 bkw: BUILD=2
+# - fix -current build.
+# - binaries in /usr/games.
+# - /usr/share/jzintv/ => /usr/share/game/jzintv
+# - add patch to make the default window size 1024x768.
+# - include ROM images in package, if they exist in the SlackBuild dir.
+
+cd $(dirname $0) ; CWD=$(pwd)
+
+PRGNAM=jzintv
+VERSION=${VERSION:-r1025}
+BUILD=${BUILD:-3}
+TAG=${TAG:-_SBo}
+PKGTYPE=${PKGTYPE:-tgz}
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX="64"
+else
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+fi
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION.tar.?z*
+cd $PRGNAM-$VERSION
+chown -R root:root .
+find . -type f -a -exec chmod 644 {} \+ -o \
+       -type d -a -exec chmod 755 {} \+
+
+# 20211024 bkw: these patches are gzipped because they contain \r\n
+# line endings, and we can't trust git to preserve them.
+
+# Don't see a way to redefine the ROM path on the make command
+# line (it's hard-coded to /usr/local/share/jzintv/rom).
+zcat $CWD/rompath.diff.gz | patch -p1
+
+# It's 2021, make the default window size bigger than 320x240.
+# This sets it to 1024x768, and also fixes the --help output to show
+# all the available modes.
+zcat $CWD/resolution.diff.gz | patch -p1
+
+# Fix for gcc-4.7.x and up.
+sed -i '/^LFLAGS/s,$, -lm,' src/Makefile
+
+make -C src OPT_FLAGS="$SLKCFLAGS -fcommon"
+
+# There's no 'make install'
+rm -f bin/README* bin/*.dll
+strip bin/*
+mkdir -p $PKG/usr/games
+cp -a bin/* $PKG/usr/games
+
+# The rompath patch above makes jzintv look here for the
+# system ROMs
+ROMDIR=$PKG/usr/share/games/$PRGNAM/rom
+mkdir -p $ROMDIR
+
+# 20211022 bkw: if the ROMs are in the slackbuild dir, include them.
+# ROM finding/extraction script is separate, as it's fairly
+# complex (or at least tedious).
+sh $CWD/extract_roms.sh $CWD $ROMDIR
+
+ROMS=""
+for romfile in exec.bin grom.bin ecs.bin; do
+  if [ -e $ROMDIR/$romfile ]; then
+    ROMS+="$romfile "
+  fi
+done
+
+if [ "$ROMS" = "" ]; then
+  ROMS="This package does NOT include ROM images."
+else
+  ROMS="This package includes ROM images: $ROMS"
+fi
+
+PKGDOC=$PKG/usr/doc/$PRGNAM-$VERSION
+mkdir -p $PKGDOC
+echo "This directory is empty on purpose" > examples/spacepat/genasm/.dontdelete
+cp -r *.txt doc examples rom misc $PKGDOC
+cat $CWD/$PRGNAM.SlackBuild > $PKGDOC/$PRGNAM.SlackBuild
+cat $CWD/README > $PKGDOC/README_SBo.txt
+
+mkdir -p $PKG/install
+sed "14s/:/: $ROMS/" $CWD/slack-desc > $PKG/install/slack-desc
+
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

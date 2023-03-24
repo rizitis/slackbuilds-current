@@ -1,0 +1,8 @@
+ghc
+haskell-regex-base
+haskell-regex-pcre-builtin
+haskell-blaze-builder
+haskell-blaze-markup
+haskell-blaze-html
+haskell-utf8-string
+haskell-highlighting-kate

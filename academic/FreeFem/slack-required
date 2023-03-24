@@ -1,0 +1,11 @@
+chrpath
+OpenBLAS
+blas
+lapack
+suitesparse
+libaec
+hdf5
+suitesparseconfig
+camd
+arpack-ng
+FreeFem

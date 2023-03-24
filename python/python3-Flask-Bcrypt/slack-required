@@ -1,0 +1,9 @@
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+python3-bcrypt
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-Flask-Bcrypt

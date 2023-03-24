@@ -1,0 +1,29 @@
+--- xen-4.15.0/tools/xenstore/Makefile.orig	2021-04-06 19:14:18.000000000 +0200
++++ xen-4.15.0/tools/xenstore/Makefile	2021-04-09 20:43:12.613910598 +0200
+@@ -76,7 +76,7 @@
+ 	$(AR) cr $@ $^
+ 
+ $(CLIENTS): xenstore
+-	ln -f xenstore $@
++	ln -sf xenstore $@
+ 
+ xenstore: xenstore_client.o
+ 	$(CC) $< $(LDFLAGS) $(LDLIBS_libxenstore) $(LDLIBS_libxentoolcore) $(SOCKET_LIBS) -o $@ $(APPEND_LDFLAGS)
+@@ -117,7 +117,7 @@
+ 	$(INSTALL_PROG) xenstore-control $(DESTDIR)$(bindir)
+ 	$(INSTALL_PROG) xenstore $(DESTDIR)$(bindir)
+ 	set -e ; for c in $(CLIENTS) ; do \
+-		ln -f $(DESTDIR)$(bindir)/xenstore $(DESTDIR)$(bindir)/$${c} ; \
++		ln -sf xenstore $(DESTDIR)$(bindir)/$${c} ; \
+ 	done
+ 
+ .PHONY: uninstall
+@@ -144,7 +144,7 @@
+ 	$(INSTALL_DIR) $(DESTDIR)$(bindir)
+ 	$(INSTALL_PROG) xenstore $(DESTDIR)$(bindir)
+ 	set -e ; for c in $(CLIENTS) ; do \
+-		ln -f $(DESTDIR)$(bindir)/xenstore $(DESTDIR)$(bindir)/$${c} ; \
++		ln -sf xenstore $(DESTDIR)$(bindir)/$${c} ; \
+ 	done
+ 
+ -include $(DEPS_INCLUDE)

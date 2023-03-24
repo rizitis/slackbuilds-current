@@ -1,0 +1,10 @@
+pyasn1
+pyasn1-modules
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+wheel
+asn1crypto
+cryptography
+python3-attrs
+python3-service-identity

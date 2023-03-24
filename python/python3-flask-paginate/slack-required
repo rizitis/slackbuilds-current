@@ -1,0 +1,5 @@
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-flask-paginate

@@ -1,0 +1,15 @@
+ghc
+haskell-primitive
+haskell-vector
+haskell-th-abstraction
+haskell-generic-deriving
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-transformers-compat
+haskell-tagged
+haskell-semigroups
+haskell-void
+haskell-indexed-traversable
+haskell-OneTuple
+haskell-indexed-traversable-instances

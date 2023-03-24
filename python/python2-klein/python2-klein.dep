@@ -1,0 +1,12 @@
+werkzeug
+python2-pyhamcrest
+hyperlink
+wheel
+python2-attrs
+python2-setuptools-scm
+python2-automat
+incremental
+constantly
+zope.interface
+python2-twisted
+python2-klein

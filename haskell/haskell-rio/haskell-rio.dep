@@ -1,0 +1,14 @@
+ghc
+haskell-transformers-compat
+haskell-microlens
+haskell-microlens-mtl
+haskell-primitive
+haskell-vector
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-unliftio-core
+haskell-async
+haskell-unliftio
+haskell-typed-process
+haskell-rio

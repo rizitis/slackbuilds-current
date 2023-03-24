@@ -1,0 +1,6 @@
+iniconfig
+python3-pluggy
+python3-attrs
+python2-setuptools-scm
+py
+python3-pytest

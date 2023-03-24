@@ -1,0 +1,15 @@
+python-toml
+python2-setuptools-scm
+tqdm
+python-ruamel.yaml
+gunicorn
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-flask-paginate
+python3-tabulate
+python3-dateutil
+monty
+pymongo
+FireWorks

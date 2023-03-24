@@ -1,0 +1,14 @@
+perl-Switch
+perl-IPC-System-Simple
+perl-PAR-Dist
+perl-Module-Build
+perl-File-Which
+perl-file-basedir
+perl-Unix-Syslog
+perl-Try-Tiny
+perl-Capture-Tiny
+perl-DBD-SQLite
+perl-File-ReadBackwards
+perl-Config-Simple
+nx-libs
+x2goserver

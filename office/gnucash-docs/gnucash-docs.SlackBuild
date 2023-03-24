@@ -1,0 +1,116 @@
+#!/bin/bash
+
+# Slackware build script for gnucash-docs
+
+# Copyright 2018, 2019, 2020, 2021, 2022 Lenard Spencer, Orlando, Florida, USA
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+# THIS SOFTWARE IS PROVIDED BY THE AUTHOR ''AS IS'' AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+# EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+# OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+# OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+# ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+cd $(dirname $0) ; CWD=$(pwd)
+
+PRGNAM=gnucash-docs
+VERSION=${VERSION:-4.11}
+BUILD=${BUILD:-1}
+TAG=${TAG:-_SBo}
+PKGTYPE=${PKGTYPE:-tgz}
+
+# Docs only, no binaries
+ARCH=noarch
+
+# If the variable PRINT_PACKAGE_NAME is set, then this script will report what
+# the name of the created package would be, and then exit. This information
+# could be useful to other scripts.
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+DOCLANG=${DOCLANG:-"C"}
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION.tar.?z*
+cd $PRGNAM-$VERSION
+chown -R root:root .
+find -L . \
+ \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
+  -o -perm 511 \) -exec chmod 755 {} \; -o \
+ \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+
+if [ "${MOBI:-no}" = "yes" ]; then
+  WITHMOBI="-DWITH_MOBI=ON"
+else
+  WITHMOBI=""
+fi
+
+mkdir -p build
+cd build
+  cmake \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    $WITHMOBI \
+    -DCMAKE_BUILD_TYPE=Release ..
+  make
+  if [ "${HTML:-no}" = "yes" ]; then
+    make $DOCLANG-gnucash-guide-html || make C-gnucash-guide-html
+    make $DOCLANG-gnucash-help-html || make C-gnucash-help-html
+  fi
+  if [ "$MOBI" = "yes" ]; then
+    make $DOCLANG-gnucash-guide-mobi || make C-gnucash-guide-mobi
+    make $DOCLANG-gnucash-help-mobi || make C-gnucash-help-mobi
+  elif [ "${EPUB:-no}" = "yes" ]; then
+    make $DOCLANG-gnucash-guide-epub || make C-gnucash-guide-epub
+    make $DOCLANG-gnucash-help-epub || make C-gnucash-help-epub
+  fi
+  if [ "${PDF:-no}" = "yes" ]; then
+    make $DOCLANG-gnucash-guide-pdf || make C-gnucash-guide-pdf
+    make $DOCLANG-gnucash-help-pdf || make C-gnucash-help-pdf
+  fi
+
+  make install DESTDIR=$PKG
+
+# Move the files to where they belong:
+  mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
+  cp -Rv share/doc/$DOCLANG/* $PKG/usr/doc/$PRGNAM-$VERSION
+  cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+# There is no help system for Japanese, so:
+  if [ "$DOCLANG" = "ja" ]; then
+    cp -Rv share/doc/C/gnucash-help* $PKG/usr/doc/$PRGNAM-$VERSION
+  fi
+  mv $PKG/usr/share/$PRGNAM/* $PKG/usr/doc/$PRGNAM-$VERSION
+# get rid of unused folders:
+  rm -rf $PKG/usr/share/{$PRGNAM,doc}
+cd ..
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG
+/sbin/makepkg -p -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

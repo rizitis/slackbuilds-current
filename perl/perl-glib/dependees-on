@@ -1,0 +1,8 @@
+remotebox
+perl-Cairo-GObject
+perl-Glib-Object-Introspection
+perl-Gnome2-Vte
+perl-gnome2-gconf
+perl-gnome2-vfs
+perl-gstreamer
+perl-pango

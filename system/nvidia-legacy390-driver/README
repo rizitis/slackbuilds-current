@@ -1,0 +1,55 @@
+This is the proprietary binary video driver from NVidia for the X.Org
+X-server. This package does not include the kernel module - it is a
+part of the nvidia-legacy390-kernel package at SlackBuilds.org.
+
+Installing the 32-bit compatibility libraries in 64-bit multilib is
+available.  If desired, do:
+  COMPAT32="yes" ./nvidia-legacy390-driver.SlackBuild
+
+This script now gives the option of installing the nvidia-persistenced
+daemon.  For details see README.nvidia-persistenced.
+
+Several useful utilities are included: nvidia-xsettings, nvidia-smi,
+and nvidia-settings.  Please refer to the Nvidia documentation and man
+pages for details and usage.
+
+For CUDA/OpenCL to work after reboot, and for utilites such as
+nvidia-smi, you might need to include the following line in your
+/etc/rc.d/rc.local: (this is REQUIRED for nvidia-persistenced to work
+properly)
+
+    # Create missing nvidia device nodes after reboot
+    /usr/bin/nvidia-modprobe -c 0 -u
+
+NOTES:
+It is now no longer required to remove the old driver before running
+this script.
+
+Since nvidia-legacy390-driver conflicts with some files of xorg, it's a
+bit complex to install/uninstall the driver.  However, installation of
+the nvidia-legacy390-driver package backs up the conflicting files and
+puts the nvidia-specific files into place by automatically running
+nvidia-switch --install in doinst.sh.
+
+This package now includes a douninst.sh script, so it is no longer
+necessary to run nvidia-switch --remove before uninstalling or
+upgrading.  However, nvidia-switch is still included for use when
+xorg-server is upgraded.  Usage of nvidia-switch:
+
+  nvidia-switch --install  <--> save the stock xorg files and
+                                install the nvidia symlinks.
+  nvidia-switch --remove   <--> remove the nvidia symlinks
+                                and restore the stock xorg files.
+The affected files are:
+/usr/lib[64]/xorg/modules/extensions/libglx.so (xorg-server)
+/usr/lib[64]/xorg/modules/libnvidia-wfb.so.1 (nvidia-specific symlink)
+
+If you forget to run nvidia-switch --remove before upgrading
+xorg-server, all you need to do is run nvidia-switch --install and all
+should be well.
+
+CAUTION!  Please DO NOT USE this script for Slackware(64) versions 14.2
+or older as it WILL corrupt the mesa and xorg installations.
+Please use the script from those repos instead.
+
+The Nvidia 390.xx series will be supported through December 2022.

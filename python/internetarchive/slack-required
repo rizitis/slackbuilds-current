@@ -1,0 +1,7 @@
+python-toml
+python2-setuptools-scm
+tqdm
+contextlib2
+schema
+docopt
+internetarchive

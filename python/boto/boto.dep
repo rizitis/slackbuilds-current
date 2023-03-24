@@ -1,0 +1,12 @@
+simplejson
+python2-PyYAML
+pyasn1
+rsa
+wheel
+asn1crypto
+ipaddress
+pycparser
+cffi
+python2-cryptography
+python2-paramiko
+boto

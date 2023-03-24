@@ -1,0 +1,15 @@
+perl-Try-Tiny
+perl-JSON
+perl-Test-Harness
+perl-ExtUtils-Helpers
+perl-ExtUtils-Config
+perl-ExtUtils-InstallPaths
+perl-Module-Build-Tiny
+perl-Readonly
+perl-Devel-StackTrace
+perl-Class-Data-Inheritable
+perl-Test-Requires
+perl-Exception-Class
+perl-extutils-pkgconfig
+perl-extutils-depends
+perl-Image-Sane

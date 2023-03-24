@@ -1,0 +1,10 @@
+protobuf3
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+wheel
+asn1crypto
+pyasn1
+cryptography
+python-axolotl-curve25519
+python-axolotl

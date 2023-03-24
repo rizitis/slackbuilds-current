@@ -1,0 +1,206 @@
+#!/bin/bash
+
+# Slackware build script for rstudio-desktop
+
+# Copyright 2018 Ekin Akoglu, Erdemli/Mersin, Turkey <ekinakoglu@gmail.com>
+# Copyright 2022 Isaac Yu <isaacyu1@isaacyu1.com>
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+cd $(dirname $0) ; CWD=$(pwd)
+
+PRGNAM=rstudio-desktop
+SRCNAM=rstudio
+VERSION=${VERSION:-2022.12.0+353}
+SRCVER=${SRCVER:-$(echo $VERSION | sed 's/+/-/g')}
+GITCOMMIT_VER=7d165dc
+NODE_VER=${NODE_VER:-16.14.0}
+PANDOCVER=current
+BUILD=${BUILD:-1}
+TAG=${TAG:-_SBo}
+PKGTYPE=${PKGTYPE:-tgz}
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+# If the variable PRINT_PACKAGE_NAME is set, then this script will report what
+# the name of the created package would be, and then exit. This information
+# could be useful to other scripts.
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX="64"
+else
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+fi
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $SRCNAM-$SRCVER
+tar xvf $CWD/$SRCNAM-$SRCVER.tar.gz
+cd $SRCNAM-$SRCVER
+chown -R root:root .
+find -L . \
+ \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
+  -o -perm 511 \) -exec chmod 755 {} \; -o \
+ \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+
+# patches 
+patch -p1 < $CWD/pandoc_version.patch     # Do not use outdated pandoc version number
+patch -p1 < $CWD/87754b26d9a8c588dd71593ab97c210ecd474602.patch
+
+cd dependencies/common
+mkdir -p pandoc/$PANDOCVER
+
+ln -sfT /usr/share/myspell/dicts dictionaries
+ln -sfT /usr/share/mathjax2 mathjax-27
+ln -sfT /usr/bin/pandoc pandoc/$PANDOCVER/pandoc
+
+mkdir -p node
+cd node && tar xvf $CWD/node-v$NODE_VER-linux-x64.tar.gz
+cd ../
+mv node/node-v$NODE_VER-linux-x64 node/$NODE_VER
+export PATH=$TMP/$SRCNAM-$SRCVER/dependencies/common/node/$NODE_VER/bin:$PATH     # use bundled node
+cd $TMP/$SRCNAM-$SRCVER/src/gwt/panmirror/src/editor
+
+# Prevent creation of cache files in /usr/local/share/
+env YARN_DISABLE_SELF_UPDATE_CHECK=true \
+  YARN_CACHE_FOLDER=$TMP/$SRCNAM-$SRCVER/cache/yarn \
+  yarn install --ignore-engines
+
+# Fix links for src/cpp/session/CMakeLists.txt
+cd $TMP/$SRCNAM-$SRCVER/dependencies
+ln -sfT common/dictionaries dictionaries
+ln -sfT common/mathjax-27 mathjax-27
+ln -sfT common/pandoc pandoc
+
+cd $TMP/$SRCNAM-$SRCVER
+
+# Environmental variables (RStudio version numbers, architecture, etc.)
+VERSION_AWK=${VERSION_AWK:-$(echo $VERSION | sed 's/+/\.+/g')}
+export RSTUDIO_VERSION_MAJOR=$(echo $VERSION_AWK | awk -F '.' '{print $1}')
+export RSTUDIO_VERSION_MINOR=$(echo $VERSION_AWK | awk -F '.' '{print $2}')
+export RSTUDIO_VERSION_PATCH=$(echo $VERSION_AWK | awk -F '.' '{print $3}')
+export RSTUDIO_VERSION_SUFFIX=$(echo $VERSION_AWK | awk -F '.' '{print $4}')
+export GIT_COMMIT=$GITCOMMIT_VER
+export PACKAGE_OS=$(uname -om)
+
+# Ensure that RStudio builds successfully on multilib systems
+QT5_CORE=-DQt5Core_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Core
+QT5_DBUS=-DQt5DBus_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5DBus
+QT5_GUI=-DQt5Gui_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Gui
+QT5_NETWORK=-DQt5Network_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Network
+QT5_OPENGL=-DQt5OpenGL_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5OpenGL
+QT5_POSITIONING=-DQt5Positioning_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Positioning
+QT5_PRINTSUPPORT=-DQt5PrintSupport_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5PrintSupport
+QT5_QMLMODELS=-DQt5QmlModels_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5QmlModels
+QT5_QML=-DQt5Qml_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Qml
+QT5_QUICKWIDGETS=-DQt5QuickWidgets_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5QuickWidgets
+QT5_QUICK=-DQt5Quick_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Quick
+QT5_SENSORS=-DQt5Sensors_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Sensors
+QT5_SQL=-DQt5Sql_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Sql
+QT5_SVG=-DQt5Svg_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Svg
+QT5_WEBCHANNEL=-DQt5WebChannel_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5WebChannel
+QT5_WEBENGINECORE=-DQt5WebEngineCore_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5WebEngineCore
+QT5_WEBENGINEWIDGETS=-DQt5WebEngineWidgets_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5WebEngineWidgets
+QT5_WEBENGINE=-DQt5WebEngine_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5WebEngine
+QT5_WIDGETS=-DQt5Widgets_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Widgets
+QT5_XMLPATTERNS=-DQt5XmlPatterns_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5XmlPatterns
+QT5_XML=-DQt5Xml_DIR:PATH=/usr/lib${LIBDIRSUFFIX}/cmake/Qt5Xml
+
+MULTILIB=($QT5_CORE $QT5_DBUS $QT5_GUI $QT5_NETWORK $QT5_NETWORK $QT5_OPENGL \
+	  $QT5_POSITIONING $QT5_PRINTSUPPORT $QT5_QMLMODELS $QT5_QML $QT5_QUICKWIDGETS \
+          $QT5_QUICK $QT5_SENSORS $QT5_SQL $QT5_SVG $QT5_WEBCHANNEL $QT5_WEBENGINECORE \
+          $QT5_WEBENGINEWIDGETS $QT5_WEBENGINE $QT5_WIDGETS $QT5_XMLPATTERNS $QT5_XML)
+
+mkdir -p build
+cd build
+  cmake -S "$TMP/$SRCNAM-$SRCVER" \
+    -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
+    -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
+    -DRSTUDIO_TARGET=Desktop \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr/lib/rstudio \
+    -DRSTUDIO_USE_SYSTEM_BOOST=yes \
+    -DRSTUDIO_USE_SYSTEM_YAML_CPP=yes \
+    -DQT_QMAKE_EXECUTABLE=/usr/bin/qmake-qt5 \
+    -DBoost_NO_BOOST_CMAKE=ON \
+    -DQUARTO_ENABLED=FALSE \
+    -DRSTUDIO_USE_SYSTEM_SOCI=yes \
+    -DRSTUDIO_BUNDLE_QT=FALSE \
+    ${MULTILIB[@]}
+  make
+  make install DESTDIR=$PKG
+cd ..
+
+find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
+
+mkdir -p $PKG/usr/bin
+(
+  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG/usr/bin
+  ln -sf ../lib/rstudio/bin/rstudio rstudio
+)
+
+# Update symlinks to be relative
+ln -sfrT /usr/share/myspell/dicts $PKG/usr/lib/rstudio/resources/dictionaries
+ln -sfrT /usr/share/mathjax2 $PKG/usr/lib/rstudio/resources/mathjax-27
+ln -sfrT /usr/bin/pandoc $PKG/usr/lib/rstudio/bin/pandoc/pandoc
+
+mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a \
+  $PKG/usr/lib/rstudio/{COPYING,INSTALL,NOTICE,README.md,SOURCE} \
+  $PKG/usr/doc/$PRGNAM-$VERSION
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
+
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

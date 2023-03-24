@@ -1,0 +1,8 @@
+ghc
+haskell-primitive
+haskell-vector
+haskell-integer-logarithms
+haskell-base-orphans
+haskell-hashable
+haskell-scientific
+haskell-attoparsec

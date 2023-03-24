@@ -1,0 +1,8 @@
+nlohmann_json
+mdbook
+libcpuid
+lowdown
+libeditline
+jq
+gtest
+nix

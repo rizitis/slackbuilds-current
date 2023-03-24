@@ -1,0 +1,8 @@
+perl-CGI
+perl-Inline
+perl-Module-Manifest
+perl-Syntax-Highlight-Engine-Kate
+perl-Test-MockObject
+perl-Test-Most
+perl-parallel-forkmanager
+perl-www-mechanize

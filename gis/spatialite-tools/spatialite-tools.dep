@@ -1,0 +1,12 @@
+readosm
+libminizip
+protobuf3
+protobuf-c
+postgresql
+proj
+geos
+gdal
+postgis
+freexl
+libspatialite
+spatialite-tools

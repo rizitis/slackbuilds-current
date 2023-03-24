@@ -1,0 +1,15 @@
+Qtile is simple, small, and extensible. It's easy to write your own
+layouts, widgets, and built-in commands. Qtile is written and configured
+entirely in Python, which means you can leverage the full power and
+flexibility of the language to make it fit your needs.
+
+You will need to build cairocffi with its optional python3-xcffib
+dependency.
+
+python3-dbus-next is an optional dependency for qtile.
+It sends notifications through dbus - please additionally install a
+notification daemon such as dunst for displaying notifications on qtile.
+
+python3-pywlroots (another optional dependency) provides experimental
+Wayland support. If python3-pywlroots is installed, then this SlackBuild
+will also install a Wayland .desktop session file.

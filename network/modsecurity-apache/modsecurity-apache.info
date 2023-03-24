@@ -1,0 +1,12 @@
+PRGNAM="modsecurity-apache"
+VERSION="2.9.7"
+HOMEPAGE="https://www.modsecurity.org/"
+DOWNLOAD="https://github.com/SpiderLabs/ModSecurity/releases/download/v2.9.7/modsecurity-2.9.7.tar.gz \
+          https://github.com/SpiderLabs/owasp-modsecurity-crs/archive/v3.2.0/owasp-modsecurity-crs-3.2.0.tar.gz"
+MD5SUM="f2ccb0d6b3ba59a5677accb5569abbbd \
+        9dd31ff7e74bd797d2013b93c02df304"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES=""
+MAINTAINER="pyllyukko"
+EMAIL="pyllyukko AT maimed dot org"

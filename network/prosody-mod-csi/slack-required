@@ -1,0 +1,7 @@
+lua
+lua-filesystem
+luaexpat
+luasocket
+luasec
+prosody
+prosody-mod-csi

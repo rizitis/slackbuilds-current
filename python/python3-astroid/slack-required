@@ -1,0 +1,8 @@
+python3-installer
+python3-flit_core
+python3-pep517
+python3-build
+typing-extensions
+python3-wrapt
+python3-lazy-object-proxy
+python3-astroid

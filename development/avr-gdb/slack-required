@@ -1,0 +1,4 @@
+guile2.2
+avr-binutils
+avr-gcc
+avr-gdb

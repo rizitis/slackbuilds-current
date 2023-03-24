@@ -1,0 +1,6 @@
+gscan2pdf
+perl-Config-IniFiles
+perl-DateTime-Locale
+perl-Dist-CheckConflicts
+perl-Package-DeprecationManager
+perl-Statistics-Descriptive

@@ -1,0 +1,5 @@
+perl-PAR-Dist
+perl-Module-Build
+perl-file-path-expand
+perl-class-accessor
+perl-lirc-client

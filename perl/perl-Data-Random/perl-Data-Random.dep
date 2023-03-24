@@ -1,0 +1,16 @@
+perl-Test-MockTime
+perl-File-ShareDir-Install
+perl-Pod-Parser
+perl-Devel-Symdump
+perl-Pod-Coverage
+perl-Test-Pod-Coverage
+perl-Test-Pod
+perl-YAML-Tiny
+perl-extutils-pkgconfig
+perl-GD
+perl-Sub-Uplevel
+perl-Test-Exception
+perl-Carp-Clan
+perl-Bit-Vector
+perl-Date-Calc
+perl-Data-Random

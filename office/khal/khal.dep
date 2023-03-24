@@ -1,0 +1,9 @@
+click-log
+click
+pytz
+tzlocal
+configobj
+atomicwrites
+python3-dateutil
+icalendar
+khal

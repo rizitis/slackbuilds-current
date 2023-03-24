@@ -1,0 +1,18 @@
+Matplotlib strives to produce publication quality 2D graphics for
+interactive graphing, scientific publishing, user interface
+development and web application servers targeting multiple user
+interfaces and hardcopy output formats.  The 'pylab' mode
+of ipython uses matplotlib to emulate matlab graphics.
+
+This is the Python 3 version of matplotlib and can coexist with
+SBo's matplotlib package.
+
+OPTIONAL DEPENDENCIES: wxPython4, python3-pytest, avconv, Inkscape
+
+
+NOTES: If you want to enable the optional subpackages tests and
+       toolkits_tests you need to set the variable ENABLE_TESTS
+       to "yes" when executing the SlackBuild and make sure that
+       python3-pytest, ffmpeg, avconv and Inkscape are already
+       installed. Besides ffmpeg/avconv are also needed if you
+       wish better support of animation output formats.

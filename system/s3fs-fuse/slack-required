@@ -1,0 +1,10 @@
+pyasn1
+python3-rsa
+colorama
+bcdoc
+jmespath
+python3-dateutil
+botocore
+s3transfer
+awscli
+s3fs-fuse

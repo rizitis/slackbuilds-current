@@ -1,0 +1,9 @@
+ghc
+haskell-transformers-compat
+haskell-transformers-base
+haskell-monad-control
+haskell-lifted-base
+haskell-base-orphans
+haskell-hashable
+haskell-async
+haskell-enclosed-exceptions

@@ -1,0 +1,9 @@
+ghc
+haskell-primitive
+haskell-vector
+haskell-transformers-compat
+haskell-transformers-base
+haskell-monad-control
+haskell-base-orphans
+haskell-hashable
+haskell-resource-pool

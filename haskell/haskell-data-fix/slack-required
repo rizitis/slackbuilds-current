@@ -1,0 +1,5 @@
+ghc
+haskell-transformers-compat
+haskell-base-orphans
+haskell-hashable
+haskell-data-fix

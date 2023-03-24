@@ -1,0 +1,5 @@
+ghc
+haskell-primitive
+haskell-vector
+haskell-text-metrics
+haskell-infer-license

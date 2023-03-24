@@ -1,0 +1,6 @@
+ghc
+haskell-text-icu
+haskell-stringprep
+haskell-cereal
+haskell-punycode
+haskell-idna

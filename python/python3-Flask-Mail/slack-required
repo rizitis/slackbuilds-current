@@ -1,0 +1,6 @@
+python3-blinker
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-Flask-Mail

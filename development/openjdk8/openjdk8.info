@@ -1,0 +1,12 @@
+PRGNAM="openjdk8"
+VERSION="8u352"
+HOMEPAGE="https://openjdk.java.net"
+DOWNLOAD="https://icedtea.classpath.org/download/source/icedtea-3.25.0.tar.xz \
+          https://icedtea.classpath.org/download/drops/icedtea8/3.25.0/openjdk-git.tar.xz"
+MD5SUM="b72a08333146e30a3a66cfafb7046c6a \
+        165643698098d052e19e465efaf6f002"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="openjdk7"
+MAINTAINER="Strahil Yordanov"
+EMAIL="strahilski@yahoo.com"

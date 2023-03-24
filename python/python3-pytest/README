@@ -1,0 +1,14 @@
+The pytest testing tool makes it easy to write small tests, yet
+scales to support complex functional testing.
+
+This is installed with python3.
+
+IMPORTANT: The scripts py.test and pytest are renamed to py.test3
+and pytest3 respectively to avoid conflicts with the pytest installed
+with python.
+
+NOTE: py and iniconfig have automatic python3 support.
+
+On Slackware 15.0, newer versions of python3-pytest (>= 7.2.0) require
+a newer python-setuptools_scm for building new dependencies.
+Therefore, this SlackBuild has kept python3-pytest at 7.1.3.

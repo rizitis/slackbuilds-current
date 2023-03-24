@@ -1,0 +1,7 @@
+perl-Variable-Magic
+perl-Sub-Exporter-Progressive
+perl-Test-Requires
+perl-Try-Tiny
+perl-Test-Fatal
+perl-Module-Implementation
+perl-B-Hooks-EndOfScope

@@ -1,0 +1,8 @@
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+wheel
+asn1crypto
+pyasn1
+cryptography
+python3-paramiko

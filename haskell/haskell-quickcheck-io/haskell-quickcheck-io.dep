@@ -1,0 +1,11 @@
+ghc
+haskell-splitmix
+haskell-random
+haskell-primitive
+haskell-tf-random
+haskell-extensible-exceptions
+haskell-erf
+haskell-QuickCheck
+haskell-call-stack
+haskell-HUnit
+haskell-quickcheck-io

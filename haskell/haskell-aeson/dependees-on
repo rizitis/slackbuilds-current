@@ -1,0 +1,11 @@
+haskell-ShellCheck
+haskell-aeson-compat
+haskell-aeson-pretty
+haskell-doctemplates
+haskell-hslua-aeson
+haskell-http-conduit
+haskell-ipynb
+haskell-pandoc-types
+haskell-path
+haskell-skylighting-core
+haskell-yaml

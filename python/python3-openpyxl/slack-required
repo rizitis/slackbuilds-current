@@ -1,0 +1,12 @@
+python3-webencodings
+html5lib
+python-toml
+python2-setuptools-scm
+functools-lru-cache
+python2-soupsieve
+python2-BeautifulSoup4
+python3-soupsieve
+BeautifulSoup4
+lxml
+et_xmlfile
+python3-openpyxl

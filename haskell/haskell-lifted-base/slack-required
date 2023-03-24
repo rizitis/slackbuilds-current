@@ -1,0 +1,5 @@
+ghc
+haskell-transformers-compat
+haskell-transformers-base
+haskell-monad-control
+haskell-lifted-base

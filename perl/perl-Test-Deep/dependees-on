@@ -1,0 +1,7 @@
+perl-CGI
+perl-CPAN-Meta-Check
+perl-File-Copy-Recursive
+perl-PPI
+perl-Test-CleanNamespaces
+perl-Test-Most
+perl-Test-Spec

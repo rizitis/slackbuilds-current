@@ -1,0 +1,10 @@
+wheel
+python3-installer
+python3-pep517
+python3-build
+python3-ujson
+python3-lsp-jsonrpc
+python3-pluggy
+python3-parso
+python3-jedi
+python3-lsp-server

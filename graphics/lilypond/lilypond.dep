@@ -1,0 +1,5 @@
+guile2.2
+# %README%: see the texi2html README file. 
+texi2html
+fontforge
+lilypond

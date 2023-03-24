@@ -1,0 +1,18 @@
+gzdoom (OpenGL port of DOOM)
+
+Enhanced OpenGL port of the official DOOM source code that also supports
+Heretic, Hexen, and Strife.
+
+This is the latest version of gzdoom, which may not run well
+on older/slower systems. If you have problems, try running with
+"-glversion 3.3". If it still won't start, or doesn't run smoothly on
+your system, try installing gzdoom-legacy instead. Note that gzdoom
+and gzdoom-legacy conflict: only install one or the other.
+
+See README_SBo.txt for optional runtime dependencies.
+
+Note to 32-bit users: gzdoom requires the SSE2 extension. If you
+get "illegal instruction" errors when trying to run gzdoom, your
+CPU doesn't have SSE2, and you should use gzdoom-legacy instead.
+At this point (2022), there aren't that many non-SSE2 x86 CPUs still
+in service, so probably this won't be a problem for you.

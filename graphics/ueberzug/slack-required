@@ -1,0 +1,10 @@
+python3-attrs
+python2-setuptools-scm
+python-xlib
+wheel
+python3-installer
+python3-pep517
+python3-build
+python3-psutil
+docopt
+ueberzug

@@ -1,0 +1,9 @@
+perl-PAR-Dist
+perl-Module-Build
+perl-Try-Tiny
+perl-Test-Fatal
+perl-ExtUtils-CChecker
+perl-XS-Parse-Keyword
+perl-Syntax-Keyword-Try
+perl-Feature-Compat-Try
+perl-Parser-MGC

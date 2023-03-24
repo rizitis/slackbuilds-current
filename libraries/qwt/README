@@ -1,0 +1,11 @@
+Qwt is an extension to the Qt GUI library from Troll Tech AS.  The Qwt
+library contains widgets and components which are primarily useful
+for technical and scientifical purposes. It includes a 2-D plotting
+widget, different kinds of sliders, and much more.
+
+Optional dependency: qt4. If installed, the package will include qt4
+support.
+
+If you're interested in developing software that uses qwt, you might
+want to build this with EXAMPLES=yes in the environment. This will
+compile the example programs and install them in the doc dir.

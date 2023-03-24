@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+     |-----handy-ruler------------------------------------------------------|
+slpkg: slpkg (Slackware Packaging Tool)
+slpkg:
+slpkg: Slpkg is a software package manager that installs, updates and
+slpkg: removes packages on Slackware-based systems. It automatically
+slpkg: calculates dependencies and figures out what things need to
+slpkg: happen to install packages. Slpkg makes it easier to manage
+slpkg: groups of machines without the need for manual updates.
+slpkg:
+slpkg: Homepage: https://dslackw.gitlab.io/slpkg
+slpkg:
+slpkg:

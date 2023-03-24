@@ -1,0 +1,13 @@
+python3-installer
+python3-flit_core
+python3-pep517
+python3-build
+typing-extensions
+wheel
+python3-pydantic
+python3-inflect
+python3-autocommand
+python3-more-itertools
+python3-jaraco.functools
+python3-jaraco.context
+python3-jaraco.text

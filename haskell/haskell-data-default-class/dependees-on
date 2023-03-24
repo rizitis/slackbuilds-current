@@ -1,0 +1,8 @@
+haskell-X11
+haskell-data-default-instances-base
+haskell-data-default-instances-containers
+haskell-data-default-instances-dlist
+haskell-data-default-instances-old-locale
+haskell-retry
+haskell-x509-validation
+haskell-xml-conduit

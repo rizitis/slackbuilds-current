@@ -1,0 +1,7 @@
+python2-setuptools-scm
+python2-dateutil
+python2-editor
+python2-MarkupSafe
+greenlet
+SQLAlchemy
+alembic

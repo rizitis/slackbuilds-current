@@ -1,0 +1,6 @@
+ghc
+haskell-transformers-compat
+haskell-colour
+haskell-ansi-terminal
+haskell-ansi-wl-pprint
+haskell-optparse-applicative

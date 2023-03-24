@@ -1,0 +1,9 @@
+suitesparseconfig
+ccolamd
+colamd
+camd
+amd
+blas
+lapack
+cholmod
+umfpack

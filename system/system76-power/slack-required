@@ -1,0 +1,6 @@
+# %README%: see the system76-power README file. 
+rust16
+rustup
+dkms
+system76-io-dkms
+system76-power

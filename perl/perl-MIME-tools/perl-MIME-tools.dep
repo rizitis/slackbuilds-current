@@ -1,0 +1,10 @@
+perl-TimeDate
+perl-MailTools
+perl-IO-stringy
+perl-Convert-BinHex
+perl-PAR-Dist
+perl-Module-Build
+perl-File-Remove
+perl-YAML-Tiny
+perl-Module-Install
+perl-MIME-tools

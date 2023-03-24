@@ -1,0 +1,15 @@
+ldns
+perl-Carp-Clan
+perl-DateTime
+perl-HTML-Tidy
+perl-HTML-Tree
+perl-Linux-FD
+perl-Module-Manifest
+perl-PDF-Builder
+perl-Term-ProgressBar
+perl-Test-Class
+perl-Test-MockObject
+perl-Test-Most
+perl-Tree-Simple
+perl-data-page
+perlbrew

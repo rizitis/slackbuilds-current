@@ -1,0 +1,12 @@
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+wheel
+asn1crypto
+pyasn1
+cryptography
+pyOpenSSL
+pyasn1-modules
+characteristic
+python2-attrs
+service_identity

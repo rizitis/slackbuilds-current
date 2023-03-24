@@ -1,0 +1,17 @@
+ghc
+haskell-basement
+haskell-foundation
+haskell-memory
+haskell-cryptonite
+haskell-byteable
+haskell-cryptohash
+haskell-hourglass
+haskell-asn1-types
+haskell-asn1-encoding
+haskell-crypto-pubkey-types
+haskell-primitive
+haskell-vector
+haskell-securemem
+haskell-crypto-random
+haskell-crypto-numbers
+haskell-crypto-pubkey

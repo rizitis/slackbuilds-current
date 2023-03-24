@@ -1,0 +1,16 @@
+gnome-bluetooth
+xvfb-run
+geocode-glib
+libgweather
+gnome-desktop
+geoclue2
+libgusb
+colord
+gnome-settings-daemon
+mutter
+gnome-menus
+gnome-session
+budgie-screensaver
+uuid
+libpeas
+budgie-desktop

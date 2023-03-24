@@ -1,0 +1,5 @@
+asgiref
+sqlparse
+pytz
+python3-django
+django-debug-toolbar

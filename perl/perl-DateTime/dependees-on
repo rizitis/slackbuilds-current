@@ -1,0 +1,5 @@
+perl-DateTime-Format-DateParse
+perl-DateTime-Format-Strptime
+perl-MaxMind-DB-Common
+perl-MaxMind-DB-Reader
+perl-MooseX-Types-Structured

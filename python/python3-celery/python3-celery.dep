@@ -1,0 +1,12 @@
+click-repl
+click
+click-plugins
+click-didyoumean
+pytz
+python3-wcwidth
+python3-prompt_toolkit
+python3-billiard
+vine
+python3-amqp
+python3-kombu
+python3-celery

@@ -1,0 +1,8 @@
+pitivi (video editor)
+
+Pitivi is a Free video editor with a beautiful and intuitive user
+interface, a clean codebase and a fantastic community.
+
+It uses the gstreamer media framework, so it has support for most
+audio/video formats. It includes hundreds of animated effects,
+transitions and filters.

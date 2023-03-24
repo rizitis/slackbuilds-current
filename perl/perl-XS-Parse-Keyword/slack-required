@@ -1,0 +1,6 @@
+perl-Try-Tiny
+perl-Test-Fatal
+perl-PAR-Dist
+perl-Module-Build
+perl-ExtUtils-CChecker
+perl-XS-Parse-Keyword

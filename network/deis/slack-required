@@ -1,0 +1,16 @@
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+wheel
+asn1crypto
+pyasn1
+cryptography
+pyOpenSSL
+ndg_httpsclient
+python2-tabulate
+python2-PyYAML
+termcolor
+python2-setuptools-scm
+python2-dateutil
+docopt
+deis

@@ -1,0 +1,14 @@
+ghc
+haskell-transformers-compat
+haskell-transformers-base
+haskell-monad-control
+haskell-lifted-base
+haskell-type-equality
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-tagged
+haskell-semigroups
+haskell-constraints
+haskell-async
+haskell-lifted-async

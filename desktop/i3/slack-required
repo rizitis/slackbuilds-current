@@ -1,0 +1,10 @@
+perl-AnyEvent
+perl-common-sense
+perl-Types-Serialiser
+perl-Canary-Stability
+perl-JSON-XS
+yajl
+xcb-util-xrm
+libev
+dmenu
+i3

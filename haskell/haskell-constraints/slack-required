@@ -1,0 +1,9 @@
+ghc
+haskell-type-equality
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-transformers-compat
+haskell-tagged
+haskell-semigroups
+haskell-constraints

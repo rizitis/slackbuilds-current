@@ -1,0 +1,9 @@
+ghc
+haskell-zlib
+haskell-random
+haskell-network
+haskell-blaze-builder
+haskell-base-orphans
+haskell-hashable
+haskell-async
+haskell-streaming-commons

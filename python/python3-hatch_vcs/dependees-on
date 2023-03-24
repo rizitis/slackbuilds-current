@@ -1,0 +1,6 @@
+pylast
+python3-plumbum
+humanize
+python3-black
+python3-filelock
+python3-jsonschema

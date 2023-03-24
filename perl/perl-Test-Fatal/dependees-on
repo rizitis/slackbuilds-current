@@ -1,0 +1,14 @@
+perl-Class-Load-XS
+perl-Class-Method-Modifiers
+perl-Devel-OverloadInfo
+perl-Dist-CheckConflicts
+perl-Eval-Closure
+perl-ExtUtils-CChecker
+perl-File-Copy-Recursive
+perl-HTML-Tree
+perl-Module-Implementation
+perl-Package-Stash-XS
+perl-Params-Validate
+perl-Role-Tiny
+perl-Sub-Override
+perl-Test-File-ShareDir-Dist

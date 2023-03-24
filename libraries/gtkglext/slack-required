@@ -1,0 +1,2 @@
+pangox-compat
+gtkglext

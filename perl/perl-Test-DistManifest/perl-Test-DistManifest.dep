@@ -1,0 +1,12 @@
+perl-PAR-Dist
+perl-Module-Build
+perl-File-Remove
+perl-YAML-Tiny
+perl-Module-Install
+perl-Sub-Uplevel
+perl-test-warn
+perl-Test-Exception
+perl-Params-Util
+perl-Module-Manifest
+perl-Test-NoWarnings
+perl-Test-DistManifest

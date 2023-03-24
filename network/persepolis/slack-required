@@ -1,0 +1,9 @@
+youtube-dl
+aria2
+wheel
+python3-installer
+python3-pep517
+python3-build
+python3-psutil
+setproctitle
+persepolis

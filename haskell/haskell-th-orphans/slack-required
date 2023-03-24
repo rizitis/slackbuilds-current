@@ -1,0 +1,13 @@
+ghc
+haskell-th-compat
+haskell-th-abstraction
+haskell-syb
+haskell-th-expand-syns
+haskell-safe
+haskell-th-reify-many
+haskell-primitive
+haskell-vector
+haskell-th-lift
+haskell-th-lift-instances
+haskell-generic-deriving
+haskell-th-orphans

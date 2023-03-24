@@ -1,0 +1,15 @@
+perl-YAML-Tiny
+perl-PAR-Dist
+perl-Module-Build
+perl-MIME-Charset
+perl-Unicode-LineBreak
+perl-Pod-Parser
+po4a
+# %README%: see the dmd README file. 
+dmd
+ldc
+GtkD
+libxmlb
+AppStream
+# %README%: see the dmd README file. 
+tilix

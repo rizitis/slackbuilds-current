@@ -1,0 +1,9 @@
+configobj
+atomicwrites
+python-ruamel.yaml
+python3-dateutil
+python2-setuptools-scm
+python2-dateutil
+vobject
+Unidecode
+khard

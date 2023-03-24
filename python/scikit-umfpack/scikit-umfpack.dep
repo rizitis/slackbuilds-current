@@ -1,0 +1,12 @@
+suitesparseconfig
+ccolamd
+colamd
+camd
+amd
+blas
+lapack
+cholmod
+umfpack
+python2-numpy
+python2-scipy
+scikit-umfpack

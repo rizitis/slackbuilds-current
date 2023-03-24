@@ -1,0 +1,5 @@
+blas
+lapack
+lapacke
+cblas
+chameleon

@@ -1,0 +1,7 @@
+zope.interface
+zope.proxy
+zope.event
+ZConfig
+zdaemon
+python2-transaction
+ZODB3

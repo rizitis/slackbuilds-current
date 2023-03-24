@@ -1,0 +1,15 @@
+python3-platformdirs
+python3-tomlkit
+python3-dill
+python3-mccabe
+python3-isort
+python3-installer
+python3-flit_core
+python3-pep517
+python3-build
+typing-extensions
+python3-wrapt
+python3-lazy-object-proxy
+python3-astroid
+python-toml
+python3-pylint

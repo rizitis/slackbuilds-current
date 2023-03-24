@@ -1,0 +1,6 @@
+python2-pycrypto
+python2-oauth2client
+simplejson
+python2-uri-templates
+httplib2
+google-api-python-client

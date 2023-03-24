@@ -1,0 +1,10 @@
+dkimproxy
+ferm
+postgrey
+sieve-connect
+sqlninja
+perl-Mail-DKIM
+perl-Mail-DomainKeys
+perl-Mail-SPF
+perl-Mail-SPF-Query
+perl-Net-DNS-SEC

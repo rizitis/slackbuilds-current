@@ -1,0 +1,7 @@
+python3-numpy
+openrazer-kernel
+python-daemonize
+pyudev
+setproctitle
+openrazer-daemon
+razerCommander

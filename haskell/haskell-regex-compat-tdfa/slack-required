@@ -1,0 +1,10 @@
+ghc
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-transformers-compat
+haskell-tagged
+haskell-semigroups
+haskell-regex-base
+haskell-regex-tdfa
+haskell-regex-compat-tdfa

@@ -1,0 +1,12 @@
+email-validator
+passlib
+python3-WTForms
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-Flask-WTF
+python3-blinker
+python3-Flask-Principal
+python3-Flask-Login
+python3-Flask-Security-Too

@@ -1,0 +1,5 @@
+python3-installer
+python3-pep517
+python3-build
+wheel
+python3-attrdict

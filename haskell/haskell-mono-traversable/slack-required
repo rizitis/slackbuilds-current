@@ -1,0 +1,12 @@
+ghc
+haskell-primitive
+haskell-vector
+haskell-transformers-compat
+haskell-tagged
+haskell-vector-algorithms
+haskell-split
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-semigroups
+haskell-mono-traversable

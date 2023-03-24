@@ -1,0 +1,15 @@
+python2-setuptools-scm
+python2-dateutil
+python2-scandir
+pathlib2
+funcsigs
+atomicwrites
+more-itertools
+pluggy
+python2-attrs
+py
+pytest
+python2-pytest-runner
+rebulk
+babelfish
+guessit

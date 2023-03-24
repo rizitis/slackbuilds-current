@@ -1,0 +1,10 @@
+ghc
+haskell-base-compat
+haskell-wl-pprint-text
+haskell-random
+haskell-temporary
+haskell-polyparse
+haskell-fgl
+haskell-dlist
+haskell-colour
+haskell-graphviz

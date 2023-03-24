@@ -1,0 +1,10 @@
+python2-scandir
+pathlib2
+funcsigs
+atomicwrites
+more-itertools
+python2-setuptools-scm
+pluggy
+python2-attrs
+py
+pytest

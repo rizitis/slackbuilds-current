@@ -1,0 +1,11 @@
+clap
+vst3sdk
+tomlplusplus
+ghc_filesystem
+gtest
+function2
+bitsery
+asio
+wine-staging
+# %README%: see the yabridge README file. 
+yabridge

@@ -1,0 +1,15 @@
+ghc
+haskell-xml
+haskell-regex-base
+haskell-regex-posix
+haskell-random
+haskell-old-locale
+haskell-hostname
+haskell-colour
+haskell-ansi-terminal
+haskell-ansi-wl-pprint
+haskell-extensible-exceptions
+haskell-test-framework
+haskell-call-stack
+haskell-HUnit
+haskell-test-framework-hunit

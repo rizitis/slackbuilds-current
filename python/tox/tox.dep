@@ -1,0 +1,5 @@
+python2-setuptools-scm
+pluggy
+virtualenv
+py
+tox

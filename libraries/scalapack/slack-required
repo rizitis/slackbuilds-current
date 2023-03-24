@@ -1,0 +1,4 @@
+openmpi
+blas
+lapack
+scalapack

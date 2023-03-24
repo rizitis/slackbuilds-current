@@ -1,0 +1,7 @@
+perl-PAR-Dist
+perl-Module-Build
+perl-Test-Requires
+perl-Try-Tiny
+perl-Test-Fatal
+perl-Module-Implementation
+perl-Params-Validate

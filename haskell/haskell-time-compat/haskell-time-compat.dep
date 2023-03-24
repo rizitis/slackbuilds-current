@@ -1,0 +1,4 @@
+ghc
+haskell-base-orphans
+haskell-hashable
+haskell-time-compat

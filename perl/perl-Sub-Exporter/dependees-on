@@ -1,0 +1,9 @@
+perl-Devel-PartialDump
+perl-Dist-CheckConflicts
+perl-Linux-FD
+perl-Moose
+perl-MooseX-Types-Structured
+perl-Sub-Exporter-ForMethods
+perl-Test-CleanNamespaces
+perl-Test-HexDifferences
+perl-TryCatch

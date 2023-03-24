@@ -1,0 +1,11 @@
+greenlet
+SQLAlchemy
+python3-ptyprocess
+python3-pexpect
+wheel
+python3-installer
+python3-pep517
+python3-build
+python3-psutil
+python3-websockets
+pychess

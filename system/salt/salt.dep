@@ -1,0 +1,10 @@
+python2-pycrypto
+zeromq
+python2-pyzmq
+singledispatch
+backports-abc
+tornado
+python2-MarkupSafe
+python2-PyYAML
+msgpack-python
+salt

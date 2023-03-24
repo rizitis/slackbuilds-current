@@ -1,0 +1,5 @@
+docopt
+pyflakes
+wcwidth
+prompt_toolkit
+pyvim

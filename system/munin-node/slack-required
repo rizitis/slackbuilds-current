@@ -1,0 +1,14 @@
+zulu-openjdk8
+perl-Log-Log4perl
+perl-Sub-Uplevel
+perl-test-warn
+perl-Test-NoWarnings
+perl-Test-Deep
+perl-html-tagset
+perl-html-parser
+perl-CGI
+perl-HTML-Template
+perl-PAR-Dist
+perl-Module-Build
+perl-Net-Server
+munin-node

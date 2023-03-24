@@ -1,0 +1,16 @@
+python3-installer
+python3-flit_core
+python3-pep517
+python3-build
+typing-extensions
+python3-platformdirs
+wheel
+python3-pathspec
+mypy_extensions
+click
+python3-pluggy
+python3-editables
+python3-hatchling
+python3-hatch_vcs
+python3-hatch_fancy_pypi_readme
+python3-black

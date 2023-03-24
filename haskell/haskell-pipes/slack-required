@@ -1,0 +1,11 @@
+ghc
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-transformers-compat
+haskell-tagged
+haskell-semigroups
+haskell-void
+haskell-mmorph
+haskell-fail
+haskell-pipes

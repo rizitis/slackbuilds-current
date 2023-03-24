@@ -1,0 +1,8 @@
+perl-YAML-Tiny
+perl-Test-Requires
+perl-Module-ScanDeps
+perl-PAR-Dist
+perl-Module-Build
+perl-File-Remove
+perl-inc-module-install
+perl-data-messagepack

@@ -1,0 +1,5 @@
+libspatialite
+osm2pgsql
+pgrouting
+pgsql-ogr-fdw
+qgis

@@ -1,0 +1,9 @@
+ghc
+haskell-random
+haskell-temporary
+haskell-lua
+haskell-hslua-core
+haskell-hslua-marshalling
+haskell-hslua-objectorientation
+haskell-hslua-packaging
+haskell-hslua-module-system

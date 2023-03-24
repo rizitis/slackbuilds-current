@@ -1,0 +1,5 @@
+python2-pbr
+stevedore
+virtualenv-clone
+virtualenv
+virtualenvwrapper

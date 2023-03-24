@@ -1,0 +1,12 @@
+haskell-Glob
+haskell-case-insensitive
+haskell-cmdargs
+haskell-constraints
+haskell-distributive
+haskell-mono-traversable
+haskell-parser-combinators
+haskell-regex-tdfa
+haskell-system-filepath
+haskell-void
+haskell-zeromq4-haskell
+xmonad-contrib

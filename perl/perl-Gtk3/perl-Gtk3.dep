@@ -1,0 +1,7 @@
+perl-extutils-pkgconfig
+perl-extutils-depends
+perl-cairo
+perl-glib
+perl-Cairo-GObject
+perl-Glib-Object-Introspection
+perl-Gtk3

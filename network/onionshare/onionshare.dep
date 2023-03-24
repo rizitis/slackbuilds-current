@@ -1,0 +1,11 @@
+pysha3
+PySocks
+python3-pycrypto
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-Flask-httpauth
+stem
+tor
+onionshare

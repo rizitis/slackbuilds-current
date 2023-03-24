@@ -1,0 +1,12 @@
+xroar (emulator for 6809-based systems)
+
+XRoar is a Dragon emulator for Linux, Unix, Mac OS X, GP32, Nintendo
+DS and Windows. Due to hardware similarities, XRoar also emulates the
+Tandy Colour Computer (CoCo) models 1 & 2. For more information on the
+Dragon and CoCo computers, see:
+
+http://en.wikipedia.org/wiki/TRS-80_Color_Computer
+http://archive.worldofdragon.org/index.php?title=Main_Page
+http://archive.worldofdragon.org/archive/index.php
+
+For optional dependencies and build options, see README_SBo.txt.

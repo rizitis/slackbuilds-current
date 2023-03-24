@@ -1,0 +1,5 @@
+This package contains texmf files which don't fit in the
+texlive package shipped by Slackware.
+Appropriate docs are included as well.
+
+Optional dependency: openjdk8

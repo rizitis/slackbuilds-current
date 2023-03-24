@@ -1,0 +1,16 @@
+rapidjson
+# %README%: see the unixODBC README file. 
+unixODBC
+zulu-openjdk8
+vsqlite++
+wheel
+asn1crypto
+ipaddress
+pycparser
+cffi
+pyasn1
+python2-cryptography
+python2-paramiko
+proj
+ctemplate
+mysql-workbench

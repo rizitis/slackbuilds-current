@@ -1,0 +1,14 @@
+python-socks
+frozenlist
+aiosignal
+python3-multidict
+yarl
+python3-attrs
+python3-installer
+python3-flit_core
+python3-pep517
+python3-build
+typing-extensions
+async-timeout
+python3-aiohttp
+python3-aiohttp-socks

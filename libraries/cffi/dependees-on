@@ -1,0 +1,7 @@
+rpy2
+PySoundCard
+python-librtmp
+pynacl
+python2-cryptography
+python2-xcffib
+sounddevice

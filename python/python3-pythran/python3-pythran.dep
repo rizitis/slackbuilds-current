@@ -1,0 +1,17 @@
+wheel
+python3-installer
+python3-pep517
+python3-build
+iniconfig
+python3-pluggy
+python3-attrs
+python2-setuptools-scm
+py
+python3-pytest
+python3-pytest-runner
+doctest
+xsimd
+python3-numpy
+python3-gast
+python3-beniget
+python3-pythran

@@ -1,0 +1,6 @@
+python2-pbr
+mock
+nose
+python2-django
+optional-django
+python-webpack

@@ -1,0 +1,15 @@
+python2-pbr
+python2-swiftclient
+python2-memcached
+python2-daemon
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+wheel
+asn1crypto
+pyasn1
+cryptography
+pyOpenSSL
+pysendfile
+pyftpdlib
+ftp-cloudfs

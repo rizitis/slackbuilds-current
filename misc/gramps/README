@@ -1,0 +1,9 @@
+Gramps is a genealogy program for Linux and other UNIX-like
+systems. Gramps stands for Genealogical Research and Analysis
+Management Programming System.  Gramps helps you track your family
+tree.  It allows you to store, edit, and research genealogical data.
+
+Optional Dependency: osm-gps-map
+
+For a list of programs Gramps can use if they are installed, see
+  https://github.com/gramps-project/gramps#requirements

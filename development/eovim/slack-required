@@ -1,0 +1,14 @@
+tree-sitter
+libvterm
+unibilium
+libtermkey
+lua
+luajit
+lua-luv
+lua-lpeg
+lua-mpack
+msgpack-c
+neovim
+bullet
+efl
+eovim

@@ -1,0 +1,112 @@
+#!/bin/bash
+
+# Slackware build script for HandBrake
+
+# This slackbuild maintained by Klaatu at klaatu@hackerpublicradio.org
+# Modified by David Somero at SlackBuilds.org.
+# Modified by Erik Hanson at SlackBuilds.org
+# Patched to fix x264 segfault by John Vogel
+
+cd $(dirname $0) ; CWD=$(pwd)
+
+PRGNAM=HandBrake
+VERSION=${VERSION:-1.5.1}
+BUILD=${BUILD:-2}
+TAG=${TAG:-_SBo}
+PKGTYPE=${PKGTYPE:-tgz}
+DOCDIR=${DOCDIR:-/usr/doc}
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i686 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -fPIC"
+  LIBDIRSUFFIX="64"
+else
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+fi
+
+SLKCFLAGS="$SLKCFLAGS -fno-aggressive-loop-optimizations"
+export CFLAGS="$SLKCFLAGS"
+export CXXFLAGS="$SLKCFLAGS"
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION-source.tar.bz2
+cd $PRGNAM-$VERSION
+mkdir -p download
+cp -r $CWD/*{gz,bz2} download
+chown -R root:root .
+find -L . \
+ \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
+  -o -perm 511 \) -exec chmod 755 {} \; -o \
+ \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+
+# 20220324 bkw: this fixes the 32-bit build, at the cost of adding
+# x265 as a required dep. It's based on Debian's
+# 0001-Remove-embedded-downloaded-copies-of-various-librari.patch
+# ...but it only affects x265.
+patch -p1 < $CWD/system_x265.diff
+
+# Autodetect onevpl support
+if pkg-config --exists vpl ; then qsv="--enable-qsv" ; else qsv="" ; fi
+
+CFLAGS="$SLKCFLAGS" \
+CXXFLAGS="$SLKCFLAGS" \
+./configure \
+  --prefix=/usr \
+  --disable-gtk-update-checks \
+  --enable-fdk-aac \
+  --enable-nvenc \
+  --enable-vce \
+  --enable-x265 \
+  $qsv \
+  --arch=$ARCH
+
+cd build
+  make
+  make install DESTDIR=$PKG
+strip $PKG/usr/bin/*
+
+cd $TMP/$PRGNAM-$VERSION
+
+mkdir -p $PKG/$DOCDIR/$PRGNAM-$VERSION
+cp -a AUTHORS.markdown COPYING NEWS.markdown THANKS.markdown README.markdown \
+ $PKG/$DOCDIR/$PRGNAM-$VERSION
+cat $CWD/$PRGNAM.SlackBuild > $PKG/$DOCDIR/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
+
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

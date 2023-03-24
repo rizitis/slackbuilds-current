@@ -1,0 +1,6 @@
+LXTerminal is a quick configurable terminal emulator, based on vte libs.
+It uses a single process for each window/tab so it's very light on
+resources.
+
+Pass the script the variable GTK3=yes if you want to link this against
+gtk+3 instead of the default gtk+2.

@@ -1,0 +1,17 @@
+perl-Algorithm-Diff
+perl-Text-Diff
+perl-Test-NoWarnings
+perl-Capture-Tiny
+perl-PAR-Dist
+perl-Module-Build
+perl-Test-Differences
+perl-Pod-Parser
+perl-Devel-Symdump
+perl-Pod-Coverage
+perl-Test-Pod-Coverage
+perl-Test-Pod
+perl-Sub-Install
+perl-Params-Util
+perl-Data-OptList
+perl-Sub-Exporter
+perl-Test-HexDifferences

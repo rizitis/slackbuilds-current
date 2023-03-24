@@ -1,0 +1,20 @@
+PRGNAM="uqm-megamod"
+VERSION="0.8.2"
+HOMEPAGE="https://uqm-mods.sourceforge.net/Home"
+DOWNLOAD="https://github.com/Serosis/UQM-MegaMod/archive/0.8.2/UQM-MegaMod-0.8.2.tar.gz \
+          https://downloads.sourceforge.net/project/uqm-mods/MegaMod/0.8.2/Content/mm-0.8.2-content.uqm \
+          https://downloads.sourceforge.net/project/uqm-mods/MegaMod/0.8.2/Content/mm-0.8.2-hd.uqm \
+          https://downloads.sourceforge.net/project/uqm-mods/MegaMod/0.8.2/Content/mm-0.8.2-3dovoice.uqm \
+          https://downloads.sourceforge.net/project/uqm-mods/MegaMod/0.8.2/Content/uqm-0.8.0-3DOMusicRemastered.uqm \
+          https://downloads.sourceforge.net/project/uqm-mods/MegaMod/0.8.2/Content/uqm-0.8.0-3dovideo.uqm"
+MD5SUM="e399ca893a0974889c2423aea8f23570 \
+        6f21ae41751b4bed4ae98244730b9f97 \
+        37d1918188df4c60f9f1bb2b0a273e00 \
+        3be61785ab05344fd315e75d2efa313d \
+        293a8b036746bcee3823f0b33c2a16a7 \
+        8412ced77245d2f6cac31feee6df05c6"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES=""
+MAINTAINER="B. Watson"
+EMAIL="urchlay@slackware.uk"

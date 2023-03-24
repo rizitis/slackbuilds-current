@@ -1,0 +1,16 @@
+TatSu
+python3-dateutil
+python3-arrow
+python3-attrs
+wheel
+python3-installer
+python3-pep517
+python3-build
+ics
+jdatetime
+korean_lunar_calendar
+convertdate
+PyMeeus
+hijri-converter
+holidays
+calcure

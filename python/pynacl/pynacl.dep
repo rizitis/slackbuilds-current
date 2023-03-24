@@ -1,0 +1,4 @@
+wheel
+pycparser
+cffi
+pynacl

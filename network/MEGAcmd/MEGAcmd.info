@@ -1,0 +1,12 @@
+PRGNAM="MEGAcmd"
+VERSION="1.6.0"
+HOMEPAGE="https://github.com/meganz/MEGAcmd"
+DOWNLOAD="https://github.com/meganz/MEGAcmd/archive/1.6.0_Linux/MEGAcmd-1.6.0_Linux.tar.gz \
+          https://github.com/meganz/sdk/archive/v4.16.0b/sdk-4.16.0b.tar.gz"
+MD5SUM="4ae22d7c551023638c25602310ecdc57 \
+        6334efefe2cda5b1223d9dc4845f4d8d"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="FreeImage libmediainfo"
+MAINTAINER="JW(Shinichi Abe)"
+EMAIL="shin1.abe@nifty.com"

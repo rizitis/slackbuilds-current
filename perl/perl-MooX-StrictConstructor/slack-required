@@ -1,0 +1,13 @@
+perl-strictures
+perl-Try-Tiny
+perl-Test-Fatal
+perl-Role-Tiny
+perl-Test-Requires
+perl-JSON
+perl-Test-Harness
+perl-ExtUtils-Helpers
+perl-ExtUtils-Config
+perl-ExtUtils-InstallPaths
+perl-Module-Build-Tiny
+perl-Class-Method-Modifiers
+perl-MooX-StrictConstructor

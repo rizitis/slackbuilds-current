@@ -1,0 +1,9 @@
+TatSu
+python3-dateutil
+python3-arrow
+python3-attrs
+wheel
+python3-installer
+python3-pep517
+python3-build
+ics

@@ -1,0 +1,10 @@
+protobuf3
+protobuf-c
+postgresql
+proj
+geos
+gdal
+postgis
+lua
+luajit
+osm2pgsql

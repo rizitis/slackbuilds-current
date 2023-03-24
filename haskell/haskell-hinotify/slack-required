@@ -1,0 +1,5 @@
+ghc
+haskell-base-orphans
+haskell-hashable
+haskell-async
+haskell-hinotify

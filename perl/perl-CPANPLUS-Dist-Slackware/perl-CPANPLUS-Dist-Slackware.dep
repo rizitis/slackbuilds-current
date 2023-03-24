@@ -1,0 +1,16 @@
+perl-Module-Pluggable
+perl-PAR-Dist
+perl-Module-Build
+perl-Log-Message
+perl-Log-Message-Simple
+perl-Term-UI
+perl-Term-ReadLine-Gnu
+perl-Package-Constants
+perl-Object-Accessor
+perl-DBIx-Simple
+perl-DBD-SQLite
+perl-Archive-Extract
+perl-CPANPLUS
+perl-CPANPLUS-Dist-Build
+fakeroot
+perl-CPANPLUS-Dist-Slackware
