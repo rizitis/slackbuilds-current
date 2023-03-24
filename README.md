@@ -45,4 +45,6 @@ and at the end of script
 ### CAN YOU?
 + Can you try this repo if working with slack-only?
 + Can you try it with the package manager you use?
-+ Can you support [Slackware](https://www.patreon.com/slackwarelinux/posts) ?
++ Can you rememder that SlackBuilds required A FULL Slackware installation ?
+- Can you support [Slackware](https://www.patreon.com/slackwarelinux/posts) ?
+
