@@ -39,3 +39,10 @@ and at the end of script
 *This error means nothing, its just a notification for not looking the package.dep file in the $OUTPUT*
 
 
+### TODO
+- update repo every week
+
+### CAN YOU?
++ Can you try this repo if working with slack-only?
++ Can you try it with the package manager you use?
++ Can you support [Slackware](https://www.patreon.com/slackwarelinux/posts) ?
