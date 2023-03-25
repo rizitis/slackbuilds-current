@@ -9,6 +9,7 @@ This is a fork of [ponce](https://github.com/Ponce/slackbuilds) slackbulds repo 
 * slack-required
 - package.dep
 + dependees-on
+
 Also a SLACKBUILDS.TXT included.
 
 *EVERYTHING ELSE IS EXACTLY THE SAME*
