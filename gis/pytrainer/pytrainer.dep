@@ -1,4 +1,5 @@
 zenity
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

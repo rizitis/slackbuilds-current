@@ -4,6 +4,7 @@ clutter-gtk
 libchamplain
 libhandy
 telepathy-glib
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

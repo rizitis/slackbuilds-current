@@ -8,6 +8,7 @@ geoclue2
 libgusb
 colord
 gnome-settings-daemon
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

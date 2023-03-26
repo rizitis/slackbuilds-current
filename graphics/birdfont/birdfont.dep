@@ -2,6 +2,7 @@ pyinotify
 cloudpickle
 doit
 libxmlbird
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

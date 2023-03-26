@@ -1,5 +1,6 @@
 lua
 lua-filesystem
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

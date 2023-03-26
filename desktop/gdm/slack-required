@@ -10,6 +10,7 @@ mutter
 cups-pk-helper
 libhandy
 gsound
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

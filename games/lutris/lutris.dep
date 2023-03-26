@@ -8,6 +8,7 @@ python2-BeautifulSoup4
 python3-soupsieve
 BeautifulSoup4
 lxml
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

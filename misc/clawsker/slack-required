@@ -1,7 +1,9 @@
+perl-File-Which
 perl-extutils-pkgconfig
 perl-extutils-depends
-perl-glib
 perl-cairo
-perl-pango
-perl-gtk2
+perl-glib
+perl-Cairo-GObject
+perl-Glib-Object-Introspection
+perl-Gtk3
 clawsker

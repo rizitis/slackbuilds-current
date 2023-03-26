@@ -5,6 +5,7 @@ wheel
 python3-attrdict
 python2-scandir
 pathlib2
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo

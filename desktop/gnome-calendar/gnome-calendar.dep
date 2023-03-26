@@ -2,6 +2,7 @@ geocode-glib
 libgweather
 libhandy
 libdazzle
+unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo
