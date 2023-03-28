@@ -32,7 +32,9 @@ Also a SLACKBUILDS.TXT included.
 `if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi`
 
 and at the end of script
+
 `set +e`
+
 `cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep`
 
 *Last command if a .dep files exist will copy it in /tmp after the creation of binary package*
