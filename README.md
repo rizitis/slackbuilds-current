@@ -39,7 +39,7 @@ and at the end of script
 
 *Last command if a .dep files exist will copy it in /tmp after the creation of binary package*
 *else if .dep file not exist, "because not needed", then it will print in terminal an "error"*
-*This error means nothing, its just a notification to not looking for the package.dep file in the $OUTPUT*
+*This error means nothing, its just a notification for user to not looking for the package.dep file in the $OUTPUT*
 
 
 ### TODO
