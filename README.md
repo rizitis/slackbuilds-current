@@ -25,14 +25,14 @@ Also a SLACKBUILDS.TXT included.
 *ChangeLog.txt is exactly the same with ponce repo*
 *I dont create new ChangeLog.txt* because I dont touch build commands in SlackBuilds.
 
-*I Only add 3 lines in scripts*
+*I Only add 4 lines in scripts*
 
 `if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi`
 
 `if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi`
 
 and at the end of script
-
+`set +e`
 `cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep`
 
 *Last command if a .dep files exist will copy it in /tmp after the creation of binary package*
