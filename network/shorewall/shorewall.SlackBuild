@@ -100,4 +100,5 @@ if [ "$1" = "--cleanup" ]; then
   rm -rf $TMP/$PRGNAM-$BASEVERS
   rm -rf $PKG
 fi
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

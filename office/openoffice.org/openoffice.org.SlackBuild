@@ -182,4 +182,5 @@ find . -type d -exec chmod 755 {} \;
 chmod -R u+rw,go+r-w,a-s .
 
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}_${PKG_LANG}-$PKGARCH-$BUILD$TAG.$PKGTYPE
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

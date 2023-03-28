@@ -93,4 +93,5 @@ find -L . \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 find . -type d -name '.svn' | xargs rm -rf
 /sbin/makepkg -c n -l y $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

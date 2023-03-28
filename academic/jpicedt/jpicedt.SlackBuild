@@ -101,4 +101,5 @@ if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees
 cd $PKG
 chown -R root:root .
 /sbin/makepkg -c n -l y $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

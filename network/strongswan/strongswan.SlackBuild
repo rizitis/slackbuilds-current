@@ -206,4 +206,5 @@ done
 sed -i -e 's/load = yes/load = no/' $PKG/etc/strongswan.d/charon/bypass-lan.conf.new
 
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

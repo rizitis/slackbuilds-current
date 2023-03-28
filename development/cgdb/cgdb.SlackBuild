@@ -113,4 +113,5 @@ if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees
 cd $PKG
 find . -perm /111 -exec chmod 755 {} + -o -perm /444 ! -perm /111 -exec chmod 644 {} +
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

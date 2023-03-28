@@ -161,4 +161,5 @@ find -L . \
 # No stripping of binaries and such, as Firefox doesn't like naked acroread :D
 # Just build the package...  ;P
 /sbin/makepkg -p -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

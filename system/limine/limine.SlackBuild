@@ -100,4 +100,5 @@ cat "$SRC/README.md"     > "$PKG/usr/doc/$NAMVER/repository-README.md"
 
 cd "$PKG"
 /sbin/makepkg -l y -c n "$OUTPUT/$NAMVER-$ARCH-$BUILD$TAG.$PKGTYPE"
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

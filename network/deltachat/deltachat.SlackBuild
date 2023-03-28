@@ -95,4 +95,5 @@ find . -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep 
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 /sbin/makepkg -l y -c n "$OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+set +e
 cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep
