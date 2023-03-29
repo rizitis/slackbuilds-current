@@ -46,7 +46,7 @@ and at the end of script
 - update repo every week
 
 ### CAN YOU?
-+ Can you try this repo if working with slack-only?
++ Can you try this repo if working with slackrepo?
 + Can you try it with the package manager you use?
 + Can you rememder that SlackBuilds required A FULL Slackware installation ?
 + Can you support [Slackware](https://www.patreon.com/slackwarelinux/posts) ?
