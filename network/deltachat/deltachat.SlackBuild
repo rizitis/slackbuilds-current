@@ -69,6 +69,7 @@ mkdir -p "$PKG/usr/bin"
 mkdir -p "$PKG/opt"
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/opt
 install -m 755 $CWD/$APPIMGNAM .
 ./$APPIMGNAM --appimage-extract
@@ -95,5 +96,3 @@ find . -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep 
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 /sbin/makepkg -l y -c n "$OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
-set +e
-cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

@@ -116,11 +116,13 @@ mv opt $PKG
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 
 ## Create symlinks in /usr/bin to actual binaries
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/bin/
   for FILE in \
     sbase scalc sdraw simpress smath soffice spadmin swriter unopkg ; do
@@ -132,6 +134,7 @@ cd -
 ## Correct scripts so that they don't conflict with other soffice derivatives
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/opt/${SRCNAM}${SRCSHORT}/program
   for FILE in \
     sbase scalc sdraw simpress smath spadmin swriter unopkg; do
@@ -162,6 +165,7 @@ cp -R $TMP/$SOURCEDIR/RPMS/desktop-integration/usr/share/icons $PKG/usr/share/
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/opt/${SRCNAM}${SRCSHORT}
   mv README* share/readme/* $PKG/usr/doc/$PRGNAM-$VERSION
 	rmdir share/readme
@@ -182,5 +186,3 @@ find . -type d -exec chmod 755 {} \;
 chmod -R u+rw,go+r-w,a-s .
 
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}_${PKG_LANG}-$PKGARCH-$BUILD$TAG.$PKGTYPE
-set +e
-cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep

@@ -363,6 +363,7 @@ ANTLJAR=$(echo $CWD/antlr-*.jar | tail -1)
   if [ -d $PKG/usr/man ]; then
     ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/man
       for manpagedir in $(find . -type d -name "man*") ; do
         ( cd $manpagedir
@@ -379,6 +380,7 @@ cd $PKG/usr/man
   if [ -d $PKG/usr/info ]; then
     ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/info
       rm -f dir
       gzip -9 *
@@ -500,6 +502,7 @@ rm -f $PKG/usr/lib/libgcj-tools.a
 # Fix stuff up:
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/info
   rm dir
   for eachinfo in *.info ; do
@@ -510,6 +513,7 @@ cd $PKG/usr/info
 
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/bin
   ln -sf g++-${MAJVER} c++-${MAJVER}
   ln -sf gcc-${MAJVER} cc-${MAJVER}
@@ -522,6 +526,7 @@ cd $PKG/usr/bin
 
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/man
   rm -r man7  # Part of the system gcc package
   gzip -9 */*
@@ -549,6 +554,7 @@ for JAVAPROG in gcj gcjh gcj-dbtool gjar gjarsigner gjavah ; do
 done
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
   for JAVALIB in usr/lib${LIBDIRSUFFIX}/gcc/${TARGET}/${VERSION}/libgcj* ; do
     ln -s /${JAVALIB} $PKG/usr/lib${LIBDIRSUFFIX}/
@@ -575,6 +581,7 @@ cat $CWD/libgcj-5.pc \
 # Filter all .la files (thanks much to Mark Post for the sed script):
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
   for file in $(find . -type f -name "*.la") ; do
     cat $file | sed -e 's%-L'${TMP}'[[:graph:]]* % %g' > $TMP/tmp-la-file
@@ -586,6 +593,7 @@ cd $PKG
 ## Strip bloated binaries and libraries:
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
   find . -name "lib*so*" -exec strip --strip-unneeded "{}" \+
   find . -name "lib*a" -exec strip -g "{}" \+
@@ -605,7 +613,6 @@ fi
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 /sbin/makepkg -l y -c n "$OUTPUT/${PRGNAM}-${PKGVER}-$ARCH-$BUILD$TAG.$PKGTYPE"
-set +e
-cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep
