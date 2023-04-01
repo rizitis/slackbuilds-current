@@ -35,9 +35,6 @@ and at the end of script
 
 `if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi`
 
-*Last command if a .dep files exist will copy it in /tmp after the creation of binary package*
-*else if .dep file not exist, "because not needed", then it will print in terminal an "error"*
-*This error means nothing, its just a notification for user to not looking for the package.dep file in the $OUTPUT*
 
 
 ### TODO
