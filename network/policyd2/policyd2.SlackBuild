@@ -144,7 +144,6 @@ chown -R $WEBUSER:$WEBGROUP $PKG/$DOCROOT/policyd2-webui
 install -m 0640 -D contrib/httpd/$SRCNAM-httpd.conf $PKG/etc/httpd/extra/httpd-$PRGNAM.conf.new
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/etc/httpd/extra; patch -p0 < $CWD/patches/httpd_policyd2_conf.patch; sed -i s:@DOCROOT@:$DOCROOT: $PKG/etc/httpd/extra/httpd-$PRGNAM.conf.new )
 
 ### install rc script
@@ -154,7 +153,6 @@ install -m 0755 -D $CWD/rc.policyd2 $PKG/etc/rc.d/rc.policyd2.new
 install -m 0640 -D $SRCNAM.conf $PKG/etc/$PRGNAM.conf.new
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/etc; patch -p0 < $CWD/patches/policyd2_config.patch )
 
 ### install logrotate script
@@ -173,6 +171,6 @@ sed s:@DOCROOT@:$(echo $DOCROOT | sed s:/::): $CWD/doinst.sh > $PKG/install/doin
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

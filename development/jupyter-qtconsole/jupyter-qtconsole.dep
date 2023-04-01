@@ -21,6 +21,8 @@ python3-platformdirs
 jupyter_core
 entrypoints
 jupyter_client
+python3-flit_core
+typing-extensions
 python3-pure_eval
 python3-executing
 python-toml

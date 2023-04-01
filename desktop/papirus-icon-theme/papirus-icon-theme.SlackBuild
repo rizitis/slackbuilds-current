@@ -58,7 +58,6 @@ mkdir -p $PKG/usr/share/icons
 (
   if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/share/icons
   for theme in $THEMES; do
     tar xvf $CWD/$PRGNAM-$VERSION.tar.gz --xform "s/$PRGNAM-$VERSION//" \
@@ -73,7 +72,6 @@ find . -perm /111 -a \! -perm 755 -a -exec chmod 755 {} + \
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/doc
 tar xvf $CWD/$PRGNAM-$VERSION.tar.gz $PRGNAM-$VERSION/{AUTHORS,LICENSE,README.md}
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
@@ -86,7 +84,6 @@ zcat $CWD/doinst.sh.gz > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 
 # To create a new doinst.sh, comment the next line, uncomment the lines below
@@ -101,3 +98,4 @@ find . -type l -delete
 #  sed 's,cd \./,cd ,' >> $PKG/install/doinst.sh
 
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

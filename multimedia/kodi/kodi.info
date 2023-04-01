@@ -2,23 +2,27 @@ PRGNAM="kodi"
 VERSION="20.1"
 HOMEPAGE="https://kodi.tv/"
 DOWNLOAD="https://github.com/xbmc/xbmc/archive/20.1-Nexus/xbmc-20.1-Nexus.tar.gz \
+          https://github.com/xbmc/crossguid/archive/ca1bf4b/crossguid-ca1bf4b810e2d188d04cb6286f957008ee1b7681.tar.gz \
           https://github.com/xbmc/libdvdcss/archive/refs/tags/1.4.3-Next-Nexus-Alpha2-2/libdvdcss-1.4.3-Next-Nexus-Alpha2-2.tar.gz \
           https://github.com/xbmc/libdvdnav/archive/refs/tags/6.1.1-Next-Nexus-Alpha2-2/libdvdnav-6.1.1-Next-Nexus-Alpha2-2.tar.gz \
           https://github.com/xbmc/libdvdread/archive/refs/tags/6.1.3-Next-Nexus-Alpha2-2/libdvdread-6.1.3-Next-Nexus-Alpha2-2.tar.gz \
-          https://mirrors.kodi.tv/build-deps/sources/crossguid-ca1bf4b810e2d188d04cb6286f957008ee1b7681.tar.gz \
-          https://fstrcmp.sourceforge.net/fstrcmp-0.7.D001.tar.gz \
-          https://mirrors.kodi.tv/build-deps/sources/libudfread-1.1.2.tar.gz \
-          https://github.com/xbmc/FFmpeg/archive/4.4.1-Nexus-Alpha1/ffmpeg-4.4.1-Nexus-Alpha1.tar.gz"
+          https://github.com/fmtlib/fmt/archive/refs/tags/9.1.0/fmt-9.1.0.tar.gz \
+          https://github.com/gabime/spdlog/archive/refs/tags/v1.10.0/spdlog-1.10.0.tar.gz \
+          https://github.com/miloyip/rapidjson/archive/v1.1.0/rapidjson-1.1.0.tar.gz \
+          https://code.videolan.org/videolan/libudfread/-/archive/1.1.2/libudfread-1.1.2.tar.gz \
+          https://fstrcmp.sourceforge.net/fstrcmp-0.7.D001.tar.gz"
 MD5SUM="ed115f2fac4d425fdd4fd228065ef2c4 \
+        d4a8d62f3f8d6d946be75cf5bfa92687 \
         42dc3770ae928103e8033a18b007e79d \
         2349cde54d950af21fa4936371ad3349 \
         0d24c950abfef9dc02e231dda56912ac \
-        d4a8d62f3f8d6d946be75cf5bfa92687 \
-        9c440bbdfcad9fd22e38f2388715b0cc \
+        21fac48cae8f3b4a5783ae06b443973a \
+        effea813cd81cfb5588806c5754e14f1 \
+        badd12c511e081fec6c89c43a7027bce \
         e53c37085c3bf01d5c6623021563dcae \
-        9f84fff2a7ddbaa83e6e85e3a12a5f91"
+        9c440bbdfcad9fd22e38f2388715b0cc"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="zulu-openjdk11 libass flatbuffers fmt rapidjson spdlog tinyxml gtest"
+REQUIRES="zulu-openjdk11 libass flatbuffers tinyxml gtest"
 MAINTAINER="Jeremy Hansen"
 EMAIL="jebrhansen+SBo@gmail.com"

@@ -119,7 +119,6 @@ rm -rf desktop-integration *.rpm
 mv opt usr $PKG
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 
 # Kill a broken symlink
@@ -128,7 +127,6 @@ rm -f $PKG/usr/share/applications/broffice.org3-startcenter.desktop
 # Create symlinks in /usr/bin to actual binaries
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/bin
   for FILE in \
     sbase scalc sdraw simpress smath soffice spadmin swriter unopkg ; do
@@ -144,7 +142,6 @@ rm -f opt/openoffice.org/basis3.2/share/fonts/truetype/[DL]*.ttf
 # See http://bugzilla.xfce.org/show_bug.cgi?id=2430
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/opt/broffice.org3/share/xdg/
   for APP in base calc draw impress math writer; do
     sed -i 's%Exec=broffice.org3 -%Exec=s%' $APP.desktop ;
@@ -166,7 +163,6 @@ fi
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/opt/broffice.org3
   mv README* *LICENSE* readmes licenses $PKG/usr/doc/$PRGNAM-$VERSION
 cd -
@@ -191,3 +187,4 @@ find -L . \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 /sbin/makepkg -c n -l y $OUTPUT/$PRGNAM-${VERSION}_${PKG_LANG}-$PKGARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

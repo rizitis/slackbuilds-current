@@ -62,7 +62,6 @@ rm -rf $PKG
 mkdir -p $TMP $OUTPUT $PKG/{install,etc/profile.d,usr/{bin,lib${LIBDIRSUFFIX},doc/$PRGNAM-$VERSION,man/man1}}
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}
 tar -xvf $CWD/jdk-${VERSION}_linux*.tar.gz
 mv $(tar -tf $CWD/jdk-${VERSION}_linux*.tar.gz | head -1 | cut -d/ -f1) $PRGNAM-$VERSION
@@ -94,7 +93,6 @@ cat $CWD/$PRGNAM.SlackBuild > $PRGNAM.SlackBuild
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 cat > etc/profile.d/$PRGNAM.sh << EOF
 #!/bin/sh
@@ -110,3 +108,4 @@ chmod 755 etc/profile.d/*
 cat $CWD/slack-desc > install/slack-desc
 
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

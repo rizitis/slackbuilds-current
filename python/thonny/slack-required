@@ -12,6 +12,7 @@ typing-extensions
 mypy
 pyserial
 python3-platformdirs
+python3-poetry-core
 python3-tomlkit
 python3-dill
 python3-mccabe

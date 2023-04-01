@@ -1,5 +1,6 @@
 python3-soupsieve
 BeautifulSoup4
+python3-attrs
 python3-jsonlines
 python3-cloudflare
 certbot-dns-cloudflare

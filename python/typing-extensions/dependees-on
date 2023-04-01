@@ -1,5 +1,6 @@
 hyfetch
 async-timeout
+ipython
 mypy
 python3-astroid
 python3-black

@@ -3,7 +3,7 @@
 # Slackware build script for spotify.
 #
 # Copyright 2017 Dhaby Xiloj <slack.dhabyx@gmail.com>
-# Copyright 2022 Edinaldo P. Silva, Rio de Janeiro, Brazil
+# Copyright 2022-2023  Edinaldo P. Silva, Rio de Janeiro, Brazil
 #
 # Based on Ryan's SlackBuild:
 # Ryan P.C. McQuen | Everett, WA | ryanpcmcquen@member.fsf.org
@@ -30,11 +30,11 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=spotify
 SRCNAM=spotify-client
-VERSION=${VERSION:-1.1.84.716}
-RELVER=${RELVER:-gc5f8b819-2}
+VERSION=${VERSION:-1.2.8.923}
+RELVER=${RELVER:-g4f94bf0d}
 VERSION32=${VERSION32:-1.0.72.117}
 RELVER32=${RELVER32:-g6bd7cc73-35}
-BUILD=${BUILD:-4}
+BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
 
@@ -60,7 +60,6 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 ar -p $CWD/${SRCNAM}_${VERSION}.${RELVER}${DEBARCH}.deb data.tar.gz | tar zxv
 chown -R root:root .
@@ -96,6 +95,6 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

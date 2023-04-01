@@ -209,7 +209,6 @@ chmod +x $PKG/usr/bin/ld$VERSION
 # that use that name:
 #( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/$PREFIX/bin ; ln -sf strings strings-GNU )
 
 ## OBSOLETE, since we're using tooldir=/usr. But we'll keep this cruft as a
@@ -218,7 +217,6 @@ cd $PKG/$PREFIX/bin ; ln -sf strings strings-GNU )
 #mv $PKG/usr/${TARGET}/lib/ldscripts $PKG/usr/lib${LIBDIRSUFFIX}
 #( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/${TARGET}
 #  ln -s /usr/lib${LIBDIRSUFFIX}/ldscripts lib/ldscripts
 #  for FILE in ar as ld ld.bfd ld.gold nm objcopy objdump ranlib strip ; do
@@ -235,7 +233,6 @@ cd $PKG/usr/${TARGET}
 #if [ -r $PKG/$PREFIX/bin/$DEFAULT_LD ]; then
 #  ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/$PREFIX/bin ; rm -f ld ; ln -sf $DEFAULT_LD ld )
 #fi
 
@@ -245,12 +242,10 @@ find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | gr
 # Remove some unneeded man pages, and then compress the rest
 (if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/man/man1; mv ld.1 ld$VERSION.1)
 rm -f $PKG/usr/man/man1/{addr2line,ar,as,c++filt,dlltool,dllwrap,elfedit,gprof,nm,objcopy,objdump,ranlib,readelf,size,strings,strip,windmc,windres}.1
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/man
   find . -type f -exec gzip -9 {} \+
   for i in $(find . -type l) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
@@ -259,7 +254,6 @@ cd $PKG/usr/man
 # Compress info pages
 (if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/usr/info; mv ld.info ld$VERSION.info)
 rm -f $PKG/usr/info/{as,nm,bfd,binutils,gprof}.info
 rm -f $PKG/usr/info/dir
@@ -283,6 +277,6 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

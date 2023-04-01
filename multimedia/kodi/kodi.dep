@@ -1,7 +1,5 @@
 gtest
 tinyxml
-spdlog
-rapidjson
 flatbuffers
 libass
 zulu-openjdk11

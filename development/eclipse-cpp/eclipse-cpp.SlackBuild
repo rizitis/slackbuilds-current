@@ -29,8 +29,8 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=eclipse-cpp
-VERSION=${VERSION:-4.26}
-SRCVERSION=${SRCVERSION:-2022-12-R}
+VERSION=${VERSION:-4.27}
+SRCVERSION=${SRCVERSION:-2023-03-R}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -57,15 +57,14 @@ rm -rf $PKG
 mkdir -p $TMP $PKG/opt/$PRGNAM $OUTPUT
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/opt/$PRGNAM
 
 # Untar source code tarball according with ARCH value
-# ARCH can only be 'x86_64'
-if [ "$ARCH" = "x86_64" ]; then
+# ARCH can only be 'x86_64' or 'aarch64'
+if [ "$ARCH" = "x86_64" ] || [ "$ARCH" = "aarch64" ] ; then
   tar --strip-components=1 -xvf $CWD/$PRGNAM-$SRCVERSION-linux-gtk-$ARCH.tar.gz
 else
-  printf "$ARCH is not supported...\n"
+  printf "%s is not supported...\n" "$ARCH"
   exit 1
 fi
 
@@ -104,7 +103,6 @@ mv $PKG/opt/$PRGNAM/eclipse.ini $PKG/opt/$PRGNAM/eclipse.ini.new
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG/opt/$PRGNAM
 cp -a readme/*.html $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
@@ -115,6 +113,6 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

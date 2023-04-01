@@ -25,6 +25,7 @@ python3-tornado
 python3-ptyprocess
 terminado
 jupyter_server_terminals
+python3-poetry-core
 python3-tomlkit
 python3-deprecation
 jupyter_packaging
@@ -76,6 +77,7 @@ jupyter-notebook_shim
 jupyter-nbclassic
 python3-comm
 python3-psutil
+typing-extensions
 python3-pure_eval
 python3-executing
 python-toml
