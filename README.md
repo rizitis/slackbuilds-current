@@ -23,7 +23,7 @@ Also a SLACKBUILDS.TXT included.
 
 ### NOTES
 *ChangeLog.txt is exactly the same with ponce repo*
-*I dont create new ChangeLog.txt* because I dont touch build commands in SlackBuilds.
+*I dont create new ChangeLog.txt* because I dont touch build commands in SlackBuilds or versions, etc.
 
 *I Only add 3 lines in scripts*
 
