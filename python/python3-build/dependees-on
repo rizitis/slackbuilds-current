@@ -10,15 +10,18 @@ pelican
 python-jeepney
 python3-Flask-Dance
 python3-attrdict
+python3-calver
 python3-confuse
 python3-distlib
 python3-docker
 python3-editables
+python3-flit_scm
 python3-isoduration
 python3-jaraco.context
 python3-kiwisolver
 python3-mdurl
 python3-more-itertools
+python3-nltk
 python3-pathspec
 python3-poetry-core
 python3-psutil
@@ -27,6 +30,7 @@ python3-pydantic
 python3-pypng
 python3-pytest-runner
 python3-seaborn
+python3-teletype
 python3-threadpoolctl
 python3-tomli_w
 python3-ujson

@@ -11,6 +11,9 @@ python3-pytest
 python3-pytest-runner
 python3-rfc3986_validator
 python3-rfc3339_validator
+python3-calver
+python3-trove-classifiers
+python3-flit_core
 python3-pathspec
 python3-editables
 python3-hatchling

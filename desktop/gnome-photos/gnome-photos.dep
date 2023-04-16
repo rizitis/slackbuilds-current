@@ -12,7 +12,9 @@ gnome-online-accounts
 uhttpmock
 libgdata
 libdazzle
+libuchardet
 totem-pl-parser
+liboauth
 grilo
 gfbgraph
 geocode-glib

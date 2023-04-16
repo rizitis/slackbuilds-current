@@ -21,6 +21,8 @@ python3-Flask-Cors
 python3-Flask-Login
 python3-Flask-Compress
 pytz
+python3-calver
+python3-trove-classifiers
 python3-pluggy
 python3-pathspec
 python3-editables

@@ -3,9 +3,11 @@ argon2-cffi
 python-jeepney
 python3-Flask-Dance
 python3-confuse
+python3-flit_scm
 python3-mdurl
 python3-mediafile
 python3-more-itertools
+python3-pathspec
 python3-seaborn
 python3-threadpoolctl
 python3-tomli_w

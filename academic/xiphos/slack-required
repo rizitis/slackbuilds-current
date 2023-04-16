@@ -23,6 +23,7 @@ gcab
 appstream-glib
 libminizip
 gtkhtml
+tinyxml
 rarian
 biblesync
 sword

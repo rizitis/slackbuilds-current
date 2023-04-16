@@ -4,10 +4,12 @@ python3-pep517
 python3-build
 typing-extensions
 python3-platformdirs
-wheel
 python3-pathspec
 mypy_extensions
 click
+wheel
+python3-calver
+python3-trove-classifiers
 python3-pluggy
 python3-editables
 python3-hatchling

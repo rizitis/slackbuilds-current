@@ -11,6 +11,9 @@ asn1crypto
 pyasn1
 cryptography
 pyOpenSSL
+python3-installer
+python3-pep517
+python3-build
 python3-regex
 python3-nltk
 python3-webencodings
