@@ -1,5 +1,5 @@
-xattr
 python3-installer
+xattr
 python3-flit_core
 python3-configargparse
 python3-pep517

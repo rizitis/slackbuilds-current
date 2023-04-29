@@ -27,8 +27,8 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=android-tools
-VERSION=${VERSION:-33.0.3p2}
-BUILD=${BUILD:-1}
+VERSION=${VERSION:-34.0.0}
+BUILD=${BUILD:-2}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
 
