@@ -7,7 +7,7 @@ python3-dateutil
 python3-numpy
 python3-pandas
 python3-tornado
-wheel
+python3-wheel
 cppy
 python3-kiwisolver
 python3-cycler

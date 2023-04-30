@@ -1,7 +1,9 @@
 python2-uuid
 python2-pyhamcrest
 hyperlink
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 python2-attrs
 python2-setuptools-scm
 python2-automat

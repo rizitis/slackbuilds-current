@@ -4,13 +4,14 @@ python3-flit_core
 python3-pep517
 python3-build
 typing-extensions
-pyasn1
-pyasn1-modules
+python3-pyasn1
+python3-pyasn1-modules
 python-toml
 python3-semantic-version
 python3-setuptools-rust
-wheel
+python3-wheel
 asn1crypto
+pyasn1
 cryptography
 python3-attrs
 python3-service-identity

@@ -2,7 +2,9 @@ simplejson
 python2-PyYAML
 pyasn1
 rsa
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 asn1crypto
 ipaddress
 pycparser

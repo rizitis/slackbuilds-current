@@ -1,6 +1,6 @@
-python3-flit_core
 python3-installer
-wheel
+python3-flit_core
+python3-wheel
 python3-pep517
 python3-build
 python-jeepney

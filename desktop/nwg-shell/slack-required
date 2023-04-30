@@ -22,7 +22,9 @@ py
 python3-pytest
 python3-xlib
 i3ipc
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 python3-autotiling
 nwg-displays
 nwg-wrapper
@@ -30,7 +32,6 @@ nwg-shell-wallpapers
 nwg-shell-config
 wlr-randr
 python3-netifaces
-python3-installer
 python3-pep517
 python3-build
 python3-psutil

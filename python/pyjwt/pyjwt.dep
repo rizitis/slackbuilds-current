@@ -3,7 +3,9 @@ python2-pycrypto
 python-toml
 python3-semantic-version
 python3-setuptools-rust
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 asn1crypto
 pyasn1
 cryptography

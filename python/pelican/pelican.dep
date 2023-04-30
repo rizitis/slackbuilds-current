@@ -11,5 +11,5 @@ pytz
 python3-blinker
 Unidecode
 feedgenerator
-wheel
+python3-wheel
 pelican

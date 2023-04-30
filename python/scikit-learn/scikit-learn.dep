@@ -3,7 +3,7 @@ python3-flit_core
 python3-pep517
 python3-build
 python3-threadpoolctl
-wheel
+python3-wheel
 iniconfig
 python3-pluggy
 python3-attrs

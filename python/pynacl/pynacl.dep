@@ -1,4 +1,6 @@
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 pycparser
 cffi
 pynacl

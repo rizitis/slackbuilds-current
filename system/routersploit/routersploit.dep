@@ -8,7 +8,9 @@ python2-soupsieve
 python2-BeautifulSoup4
 python3-soupsieve
 BeautifulSoup4
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 asn1crypto
 ipaddress
 pycparser

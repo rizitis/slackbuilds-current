@@ -1,7 +1,7 @@
 pytz
-wheel
-python3-flit_core
 python3-installer
+python3-flit_core
+python3-wheel
 python3-pep517
 python3-build
 python3-more-itertools

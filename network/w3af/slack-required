@@ -6,12 +6,13 @@ pygtksourceview
 python-toml
 python3-semantic-version
 python3-setuptools-rust
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 asn1crypto
 pyasn1
 cryptography
 pyOpenSSL
-python3-installer
 python3-pep517
 python3-build
 python3-regex

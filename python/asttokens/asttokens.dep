@@ -1,4 +1,6 @@
 python-toml
-wheel
+python3-installer
+python3-flit_core
+python3-wheel
 python2-setuptools-scm
 asttokens
