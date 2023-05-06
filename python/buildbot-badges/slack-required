@@ -10,8 +10,7 @@ python3-build
 iniconfig
 python3-pluggy
 python3-attrs
-python2-setuptools-scm
-py
+python3-py
 python3-pytest
 python3-pytest-runner
 cairocffi
@@ -24,8 +23,7 @@ python3-pyasn1-modules
 python-toml
 python3-semantic-version
 python3-setuptools-rust
-asn1crypto
-pyasn1
+python3-asn1crypto
 cryptography
 python3-service-identity
 zope.interface

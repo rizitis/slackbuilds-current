@@ -1,5 +1,5 @@
 python2-setuptools-scm
 pluggy
 virtualenv
-py
+python2-py
 tox

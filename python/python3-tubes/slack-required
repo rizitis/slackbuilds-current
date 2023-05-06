@@ -10,8 +10,7 @@ python-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-wheel
-asn1crypto
-pyasn1
+python3-asn1crypto
 cryptography
 python3-attrs
 python3-service-identity

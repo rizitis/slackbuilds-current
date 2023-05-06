@@ -12,6 +12,7 @@ python3-Flask-Dance
 python3-attrdict
 python3-calver
 python3-confuse
+python3-diff-match-patch
 python3-distlib
 python3-docker
 python3-editables

@@ -17,7 +17,6 @@ pelican
 pygsl
 pynacl
 python-jeepney
-python2-automat
 python2-cryptography
 python3-attrdict
 python3-automat

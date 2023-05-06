@@ -7,8 +7,7 @@ python3-wheel
 iniconfig
 python3-pluggy
 python3-attrs
-python2-setuptools-scm
-py
+python3-py
 python3-pytest
 python3-pytest-runner
 doctest

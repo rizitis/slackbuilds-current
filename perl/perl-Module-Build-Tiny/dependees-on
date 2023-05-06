@@ -1,5 +1,6 @@
 perl-Class-Load
 perl-Class-Method-Modifiers
+perl-Devel-CheckCompiler
 perl-HTML-HTMLDoc
 perl-Readonly
 perl-aliased

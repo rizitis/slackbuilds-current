@@ -6,7 +6,6 @@ perl-Module-Implementation
 perl-List-SomeUtils
 perl-Scalar-List-Utils
 perl-List-AllUtils
-perl-PAR-Dist
 perl-Module-Build
 perl-Params-Validate
 perl-Class-Singleton

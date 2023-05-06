@@ -1,5 +1,5 @@
 python-discid
-python-ruamel.yaml
+python3-ruamel.yaml
 pycdio
 musicbrainzngs
 python3-installer

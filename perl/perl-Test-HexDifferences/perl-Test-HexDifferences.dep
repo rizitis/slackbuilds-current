@@ -2,7 +2,6 @@ perl-Algorithm-Diff
 perl-Text-Diff
 perl-Test-NoWarnings
 perl-Capture-Tiny
-perl-PAR-Dist
 perl-Module-Build
 perl-Test-Differences
 perl-Pod-Parser

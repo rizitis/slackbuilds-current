@@ -32,7 +32,7 @@ lxml
 iniconfig
 python3-pluggy
 python3-attrs
-py
+python3-py
 python3-pytest
 python3-pytest-runner
 doctest

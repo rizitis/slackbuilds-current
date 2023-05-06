@@ -6,5 +6,5 @@ more-itertools
 python2-setuptools-scm
 pluggy
 python2-attrs
-py
+python2-py
 pytest

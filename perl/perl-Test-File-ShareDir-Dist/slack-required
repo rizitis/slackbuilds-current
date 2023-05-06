@@ -3,7 +3,6 @@ perl-Try-Tiny
 perl-Test-Fatal
 perl-Scope-Guard
 perl-Test-Warnings
-perl-PAR-Dist
 perl-Module-Build
 perl-File-Remove
 perl-YAML-Tiny

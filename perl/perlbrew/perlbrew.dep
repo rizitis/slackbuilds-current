@@ -29,7 +29,6 @@ perl-Capture-Tiny
 perl-Test-Output
 perl-Sub-Uplevel
 perl-Test-Exception
-perl-PAR-Dist
 perl-Module-Build
 perl-Path-Class
 perl-IO-All

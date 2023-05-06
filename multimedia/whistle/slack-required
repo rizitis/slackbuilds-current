@@ -13,7 +13,6 @@ perl-http-cookies
 perl-file-listing
 libwww-perl
 perl-IPC-System-Simple
-perl-PAR-Dist
 perl-Module-Build
 perl-File-Which
 perl-file-basedir

@@ -9,7 +9,6 @@ perl-Tidy
 perl-Test-PerlTidy
 perl-Sort-Naturally
 perl-Capture-Tiny
-perl-PAR-Dist
 perl-Module-Build
 perl-Test-Differences
 perl-File-Remove

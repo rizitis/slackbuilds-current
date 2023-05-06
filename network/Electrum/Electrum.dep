@@ -24,8 +24,8 @@ secp256k1
 python-toml
 python3-semantic-version
 python3-setuptools-rust
-asn1crypto
-pyasn1
+python3-asn1crypto
+python3-pyasn1
 cryptography
 protobuf3
 Electrum

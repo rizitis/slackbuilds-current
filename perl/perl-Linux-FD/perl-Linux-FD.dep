@@ -9,6 +9,5 @@ perl-Sub-Install
 perl-Params-Util
 perl-Data-OptList
 perl-Sub-Exporter
-perl-PAR-Dist
 perl-Module-Build
 perl-Linux-FD

@@ -17,7 +17,6 @@ webkit2gtk
 wxPython4
 # %README%: see the unixODBC README file. 
 unixODBC
-openmpi
 ngspice
 glm
 VTK

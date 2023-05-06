@@ -1,7 +1,6 @@
 pyzor
 perl-Net-Server
 perl-Net-Ident
-perl-PAR-Dist
 perl-Module-Build
 perl-net-ip
 perl-digest-sha1

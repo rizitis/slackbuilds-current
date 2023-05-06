@@ -1,7 +1,6 @@
 zulu-openjdk8
 fop
 perl-YAML-Tiny
-perl-PAR-Dist
 perl-Module-Build
 perl-MIME-Charset
 perl-Unicode-LineBreak

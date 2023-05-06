@@ -7,7 +7,6 @@ perl-Glib-Object-Introspection
 perl-Gtk3
 Crypt-SSLeay
 perl-IO-SessionData
-perl-PAR-Dist
 perl-Module-Build
 perl-File-Remove
 perl-YAML-Tiny

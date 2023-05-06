@@ -6,8 +6,7 @@ python3-build
 iniconfig
 python3-pluggy
 python3-attrs
-python2-setuptools-scm
-py
+python3-py
 python3-pytest
 python3-pytest-runner
 python2-scandir
@@ -15,8 +14,10 @@ pathlib2
 funcsigs
 atomicwrites
 more-itertools
+python2-setuptools-scm
 pluggy
 python2-attrs
+python2-py
 pytest
 python2-pytest-runner
 dropbox-python

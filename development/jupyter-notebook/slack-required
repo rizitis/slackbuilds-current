@@ -63,8 +63,7 @@ python3-defusedxml
 bleach
 jupyter-nbconvert
 iniconfig
-python2-setuptools-scm
-py
+python3-py
 python3-pytest
 python3-pytest-runner
 python3-rfc3986_validator
@@ -83,6 +82,7 @@ typing-extensions
 python3-pure_eval
 python3-executing
 python-toml
+python2-setuptools-scm
 asttokens
 python3-stack_data
 backcall

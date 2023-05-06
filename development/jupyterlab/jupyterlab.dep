@@ -82,7 +82,7 @@ python3-defusedxml
 bleach
 jupyter-nbconvert
 iniconfig
-py
+python3-py
 python3-pytest
 python3-pytest-runner
 python3-rfc3986_validator

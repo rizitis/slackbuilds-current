@@ -1,6 +1,5 @@
 perl-Net-Server
 perl-Net-CIDR
-perl-PAR-Dist
 perl-Module-Build
 perl-net-ip
 perl-digest-sha1

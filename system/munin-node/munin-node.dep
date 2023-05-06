@@ -8,7 +8,6 @@ perl-html-tagset
 perl-html-parser
 perl-CGI
 perl-HTML-Template
-perl-PAR-Dist
 perl-Module-Build
 perl-Net-Server
 munin-node

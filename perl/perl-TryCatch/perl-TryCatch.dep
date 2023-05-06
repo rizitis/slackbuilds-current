@@ -23,7 +23,6 @@ perl-Test-SubCalls
 perl-Class-Inspector
 perl-Test-Simple
 perl-Test-Object
-perl-PAR-Dist
 perl-Module-Build
 perl-File-Remove
 perl-YAML-Tiny

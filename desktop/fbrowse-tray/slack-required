@@ -1,6 +1,5 @@
 perl-encode-locale
 perl-IPC-System-Simple
-perl-PAR-Dist
 perl-Module-Build
 perl-File-Which
 perl-file-basedir

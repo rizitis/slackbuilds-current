@@ -15,7 +15,6 @@ perl-http-cookies
 perl-file-listing
 libwww-perl
 perl-XML-Catalog
-perl-PAR-Dist
 perl-Module-Build
 perl-Try-Tiny
 perl-Test-Fatal

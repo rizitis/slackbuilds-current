@@ -40,7 +40,6 @@ perl-Math-BigInt
 perl-List-UtilsBy
 perl-List-SomeUtils
 perl-List-AllUtils
-perl-PAR-Dist
 perl-Module-Build
 perl-Test-Warnings
 perl-Sub-Uplevel

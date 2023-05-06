@@ -13,7 +13,6 @@ perl-Test-Harness
 perl-Test-Simple
 perl-Parse-RecDescent
 perl-CSS
-perl-PAR-Dist
 perl-Module-Build
 perl-Try-Tiny
 perl-Test-Fatal

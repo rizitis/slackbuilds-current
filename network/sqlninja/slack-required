@@ -4,7 +4,6 @@ perl-digest-hmac
 perl-net-dns
 perl-NetPacket
 perl-Net-RawIP
-perl-PAR-Dist
 perl-Module-Build
 perl-IO-Interface
 perl-Net-Pcap

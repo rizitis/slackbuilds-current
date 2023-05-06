@@ -6,7 +6,6 @@ perl-Class-Inspector
 perl-Test-Harness
 perl-Test-Simple
 perl-Test-Object
-perl-PAR-Dist
 perl-Module-Build
 perl-File-Remove
 perl-YAML-Tiny

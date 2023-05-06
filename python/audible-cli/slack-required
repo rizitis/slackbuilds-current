@@ -30,7 +30,7 @@ python3-rfc3986
 python3-httpx
 python3-aiofiles
 python-pbkdf2
-pyasn1
+python3-pyasn1
 python3-rsa
 pyaes
 python3-soupsieve

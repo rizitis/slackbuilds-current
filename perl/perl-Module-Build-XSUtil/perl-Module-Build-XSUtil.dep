@@ -1,0 +1,13 @@
+perl-Capture-Tiny
+perl-Test-Requires
+perl-Module-Build
+perl-Cwd-Guard
+perl-File-Copy-Recursive-Reduced
+perl-JSON
+perl-Test-Harness
+perl-ExtUtils-Helpers
+perl-ExtUtils-Config
+perl-ExtUtils-InstallPaths
+perl-Module-Build-Tiny
+perl-Devel-CheckCompiler
+perl-Module-Build-XSUtil

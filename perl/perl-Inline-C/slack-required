@@ -1,7 +1,6 @@
 perl-Try-Tiny
 perl-Test-Fatal
 perl-Test-Warnings
-perl-PAR-Dist
 perl-Module-Build
 perl-File-Remove
 perl-YAML-Tiny

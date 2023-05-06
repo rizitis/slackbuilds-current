@@ -23,6 +23,5 @@ perl-Devel-Symdump
 perl-Pod-Coverage
 perl-Test-Pod-Coverage
 perl-Test-Pod
-perl-PAR-Dist
 perl-Module-Build
 perl-WebService-Gyazo-B

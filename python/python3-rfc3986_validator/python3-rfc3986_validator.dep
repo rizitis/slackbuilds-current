@@ -6,8 +6,7 @@ python3-build
 iniconfig
 python3-pluggy
 python3-attrs
-python2-setuptools-scm
-py
+python3-py
 python3-pytest
 python3-pytest-runner
 python3-rfc3986_validator

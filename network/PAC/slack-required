@@ -2,7 +2,6 @@ uuid
 perl-yaml
 perl-Socket6
 perl-Net-ARP
-perl-PAR-Dist
 perl-Module-Build
 perl-IO-Stty
 perl-extutils-pkgconfig
