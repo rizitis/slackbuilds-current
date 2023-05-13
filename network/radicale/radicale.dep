@@ -7,7 +7,7 @@ python2-dateutil
 vobject
 pytz
 python3-defusedxml
-python3-pep517
+python3-pyproject-hooks
 python3-build
 python-toml
 python3-semantic-version

@@ -17,7 +17,7 @@ ndg_httpsclient
 werkzeug
 python3-configargparse
 python-parsedatetime
-python3-pep517
+python3-pyproject-hooks
 python3-build
 python3-psutil
 pyrfc3339

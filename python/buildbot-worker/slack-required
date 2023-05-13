@@ -11,7 +11,7 @@ python3-pyasn1
 cryptography
 python3-txaio
 python3-autobahn
-python3-pep517
+python3-pyproject-hooks
 python3-build
 typing-extensions
 python3-pyasn1-modules

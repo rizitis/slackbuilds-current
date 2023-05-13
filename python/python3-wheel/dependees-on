@@ -26,6 +26,7 @@ python3-distlib
 python3-docker
 python3-editables
 python3-gensim
+python3-iso3166
 python3-isoduration
 python3-jaraco.classes
 python3-jaraco.context

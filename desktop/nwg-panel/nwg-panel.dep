@@ -25,7 +25,7 @@ python3-py
 python3-pytest
 python3-xlib
 i3ipc
-python3-pep517
+python3-pyproject-hooks
 python3-build
 python3-psutil
 playerctl

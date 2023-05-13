@@ -1,6 +1,6 @@
 python3-installer
 python3-flit_core
-python3-pep517
+python3-pyproject-hooks
 python3-build
 pytz
 python3-dateutil

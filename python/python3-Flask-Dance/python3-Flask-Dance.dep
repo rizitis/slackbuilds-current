@@ -7,6 +7,6 @@ python3-itsdangerous
 werkzeug
 Flask
 python3-flit_core
-python3-pep517
+python3-pyproject-hooks
 python3-build
 python3-Flask-Dance

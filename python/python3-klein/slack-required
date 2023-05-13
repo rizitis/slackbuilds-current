@@ -3,7 +3,7 @@ python3-flit_core
 python3-wheel
 werkzeug
 python3-characteristic
-python3-pep517
+python3-pyproject-hooks
 python3-build
 typing-extensions
 python3-pyasn1

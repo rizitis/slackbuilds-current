@@ -7,8 +7,10 @@ libgusb
 colord
 gnome-settings-daemon
 mutter
-cups-pk-helper
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
 libhandy
+libgnomekbd
 gsound
 unifdef
 xdg-dbus-proxy
@@ -18,7 +20,9 @@ bubblewrap
 webkit2gtk
 rest
 gnome-online-accounts
+gnome-color-manager
 gnome-bluetooth
+cups-pk-helper
 colord-gtk
 gnome-control-center
 gnome-autoar

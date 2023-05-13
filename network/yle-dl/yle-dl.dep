@@ -2,7 +2,7 @@ python3-installer
 xattr
 python3-flit_core
 python3-configargparse
-python3-pep517
+python3-pyproject-hooks
 python3-build
 python3-attrs
 python3-webencodings

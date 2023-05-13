@@ -1,5 +1,7 @@
-cups-pk-helper
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
 libhandy
+libgnomekbd
 gsound
 geocode-glib
 libgweather
@@ -16,6 +18,8 @@ bubblewrap
 webkit2gtk
 rest
 gnome-online-accounts
+gnome-color-manager
 gnome-bluetooth
+cups-pk-helper
 colord-gtk
 gnome-control-center

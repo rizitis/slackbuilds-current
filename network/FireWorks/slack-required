@@ -1,7 +1,7 @@
 python-toml
 python2-setuptools-scm
 tqdm
-python-ruamel.yaml
+python3-ruamel.yaml
 gunicorn
 click
 python3-itsdangerous

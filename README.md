@@ -1,4 +1,4 @@
-# slackbuilds2dep
+# slackbuilds-current
 
 This is a fork of [ponce](https://github.com/Ponce/slackbuilds) slackbulds repo for Slackware-current.
 

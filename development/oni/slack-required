@@ -2,11 +2,10 @@ tree-sitter
 libvterm
 unibilium
 libtermkey
+msgpack-c
 lua
-luajit
-lua-luv
+LuaBitOp
 lua-lpeg
 lua-mpack
-msgpack-c
 neovim
 oni

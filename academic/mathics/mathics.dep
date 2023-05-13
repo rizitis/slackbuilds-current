@@ -1,5 +1,5 @@
 python2-setuptools-scm
-python-mpmath
+python2-mpmath
 python2-sympy
 python2-numpy
 mathics

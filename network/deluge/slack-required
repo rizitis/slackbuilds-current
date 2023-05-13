@@ -9,7 +9,7 @@ python3-asn1crypto
 python3-pyasn1
 cryptography
 pyOpenSSL
-python3-pep517
+python3-pyproject-hooks
 python3-build
 typing-extensions
 python3-pyasn1-modules

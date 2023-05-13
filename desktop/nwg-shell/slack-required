@@ -31,7 +31,7 @@ nwg-shell-wallpapers
 nwg-shell-config
 wlr-randr
 python3-netifaces
-python3-pep517
+python3-pyproject-hooks
 python3-build
 python3-psutil
 playerctl
@@ -61,10 +61,20 @@ seatd
 wlroots
 sway
 swappy
+python-distutils-extra
+python3-ptyprocess
+python3-pexpect
+mugshot
+gtklock
+# %README%: see the gtklock-userinfo-module README file. 
+gtklock-userinfo-module
+gtklock-powerbar-module
+gtklock-playerctl-module
 slurp
 geopy
 papirus-icon-theme
 light
+brightnessctl
 jq
 grim
 tllist

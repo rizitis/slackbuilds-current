@@ -6,7 +6,7 @@ python3-wheel
 python2-setuptools-scm
 asttokens
 mypy_extensions
-python3-pep517
+python3-pyproject-hooks
 python3-build
 typing-extensions
 mypy

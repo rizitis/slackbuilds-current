@@ -17,6 +17,7 @@ python3-distlib
 python3-docker
 python3-editables
 python3-flit_scm
+python3-iso3166
 python3-isoduration
 python3-jaraco.context
 python3-kiwisolver
