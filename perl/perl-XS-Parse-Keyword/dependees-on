@@ -1,1 +1,4 @@
+perl-Feature-Compat-Try
+perl-Parser-MGC
 perl-Syntax-Keyword-Try
+perl-XS-Parse-Keyword

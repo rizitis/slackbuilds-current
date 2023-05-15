@@ -1,2 +1,5 @@
+perl-IO-Interface
 perl-IO-Socket-Multicast
 perl-Net-Pcap
+perl-Net-Write
+sqlninja

@@ -1,6 +1,7 @@
 Kst
 MetaPhlAn2
 PyAMG
-tstoolbox
+python2-scipy
 scikit-umfpack
 statsmodels
+tstoolbox

@@ -1,3 +1,13 @@
+darcs
+haskell-cereal
+haskell-connection
+haskell-hpack
+haskell-http-client-tls
+haskell-http-client
+haskell-http-conduit
+haskell-idna
+haskell-publicsuffixlist
 haskell-punycode
 haskell-socks
 haskell-tls
+pandoc

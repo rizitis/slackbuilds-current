@@ -1,1 +1,7 @@
+dkimproxy
+perl-Crypt-OpenSSL-Guess
 perl-Crypt-OpenSSL-RSA
+perl-Mail-DKIM
+perl-Mail-DomainKeys
+perl-Net-DNS-SEC
+spamassassin

@@ -1,4 +1,13 @@
-screengrab
 liblxqt
+libqtxdg
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-panel
+lxqt-policykit
 lxqt-qtplugin
+lxqt-session
+lxqt-sudo
+qps
 qtxdg-tools
+screengrab

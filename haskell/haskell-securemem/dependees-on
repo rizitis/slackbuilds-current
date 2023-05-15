@@ -1,2 +1,15 @@
+darcs
+haskell-cipher-aes
+haskell-cipher-des
+haskell-cipher-rc4
+haskell-connection
 haskell-crypto-cipher-types
+haskell-crypto-numbers
+haskell-crypto-pubkey
 haskell-crypto-random
+haskell-hpack
+haskell-http-client-tls
+haskell-http-conduit
+haskell-securemem
+haskell-tls
+pandoc

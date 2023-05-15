@@ -1,2 +1,11 @@
 haskell-citeproc
 haskell-skylighting-core
+haskell-skylighting
+haskell-test-framework-hunit
+haskell-test-framework-quickcheck2
+haskell-test-framework
+haskell-texmath
+haskell-xml-conduit
+haskell-xml
+pandoc
+pandoc

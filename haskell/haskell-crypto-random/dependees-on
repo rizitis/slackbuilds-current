@@ -1,1 +1,10 @@
+darcs
+haskell-connection
 haskell-crypto-numbers
+haskell-crypto-pubkey
+haskell-crypto-random
+haskell-hpack
+haskell-http-client-tls
+haskell-http-conduit
+haskell-tls
+pandoc

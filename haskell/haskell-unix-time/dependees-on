@@ -1,1 +1,4 @@
 haskell-fast-logger
+haskell-monad-logger
+haskell-unix-time
+nix

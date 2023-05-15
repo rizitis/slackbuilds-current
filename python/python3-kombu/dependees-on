@@ -1,1 +1,4 @@
+Kallithea
+kallithea-frontend
 python3-celery
+python3-kombu

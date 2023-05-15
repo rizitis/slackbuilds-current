@@ -1,1 +1,4 @@
+perl-Clone
 perl-PPI
+perl-Parse-Method-Signatures
+perl-TryCatch

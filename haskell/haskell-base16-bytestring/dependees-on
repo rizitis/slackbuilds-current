@@ -1,3 +1,7 @@
 darcs
+e16
+haskell-base16-bytestring
+haskell-doctemplates
 haskell-resolv
 haskell-text-conversions
+pandoc

@@ -1,2 +1,4 @@
+cholmod
+scikit-umfpack
 spqr
 umfpack

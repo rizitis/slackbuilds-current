@@ -1,2 +1,9 @@
+docker-machine-kvm
+libvirt-glib
+libvirt-glib
+libvirt-python
+libvirt
 virt-manager
+virt-manager
+virt-viewer
 virt-viewer

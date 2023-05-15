@@ -1,2 +1,12 @@
 FreeFem
+amd
+camd
 cholmod
+cholmod
+klu
+scikit-umfpack
+scikit-umfpack
+spqr
+spqr
+umfpack
+umfpack

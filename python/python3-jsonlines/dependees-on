@@ -1,1 +1,3 @@
+certbot-dns-cloudflare
 python3-cloudflare
+python3-jsonlines

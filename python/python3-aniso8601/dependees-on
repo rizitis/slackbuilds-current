@@ -1,2 +1,4 @@
+flexget
 python3-Flask-RESTX
 python3-Flask-RESTful
+python3-aniso8601

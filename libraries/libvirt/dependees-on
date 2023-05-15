@@ -1,3 +1,6 @@
+docker-machine-kvm
 libvirt-glib
 libvirt-python
-docker-machine-kvm
+libvirt
+virt-manager
+virt-viewer

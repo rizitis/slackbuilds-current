@@ -1,6 +1,16 @@
-xmonad
+darcs
 haskell-X11-xft
 haskell-highlighting-kate
+haskell-hpack
+haskell-http-client-tls
+haskell-http-client
+haskell-http-conduit
 haskell-publicsuffixlist
 haskell-skylighting-core
+haskell-skylighting
+haskell-utf8-string
 haskell-zip-archive
+pandoc
+xmobar
+xmonad-contrib
+xmonad

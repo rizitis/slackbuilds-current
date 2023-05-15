@@ -1,2 +1,6 @@
+internetarchive
+schema
 zope.configuration
 zope.location
+zope.schema
+zope.security

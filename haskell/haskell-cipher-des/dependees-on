@@ -1,1 +1,8 @@
+darcs
+haskell-cipher-des
+haskell-connection
+haskell-hpack
+haskell-http-client-tls
+haskell-http-conduit
 haskell-tls
+pandoc

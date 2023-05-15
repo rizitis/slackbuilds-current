@@ -1,4 +1,13 @@
-xmonad
+darcs
 haskell-citeproc
 haskell-cookie
+haskell-data-default
+haskell-hpack
+haskell-http-client-tls
+haskell-http-client
+haskell-http-conduit
 haskell-publicsuffixlist
+pandoc
+xmobar
+xmonad-contrib
+xmonad

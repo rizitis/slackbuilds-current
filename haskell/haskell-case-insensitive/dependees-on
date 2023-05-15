@@ -1,3 +1,11 @@
+darcs
+haskell-case-insensitive
 haskell-citeproc
+haskell-hpack
+haskell-http-client-tls
+haskell-http-client
+haskell-http-conduit
 haskell-http-types
 haskell-skylighting-core
+haskell-skylighting
+pandoc

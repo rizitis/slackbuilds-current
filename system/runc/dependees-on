@@ -1,3 +1,7 @@
 buildah
 containerd
+docker-cli
+docker
 podman
+runc
+subuser

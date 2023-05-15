@@ -1,1 +1,8 @@
+darcs
+haskell-appar
+haskell-hpack
+haskell-http-client-tls
+haskell-http-client
+haskell-http-conduit
 haskell-iproute
+pandoc

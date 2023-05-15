@@ -1,2 +1,7 @@
 python3-glances
+python3-lsp-black
 python3-lsp-jsonrpc
+python3-lsp-server
+python3-pyls-spyder
+python3-ujson
+spyder

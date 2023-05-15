@@ -1,4 +1,7 @@
 apprise
+ptwit
 python2-twitter
 python3-Flask-Dance
+requests-oauthlib
 tweepy
+weetwit

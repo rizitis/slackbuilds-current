@@ -1,3 +1,14 @@
-jupyter-nbconvert
 Kallithea
+bleach
+jupyter-nbclassic
+jupyter-nbconvert
+jupyter-notebook
+jupyter-notebook_shim
+jupyter_server
+jupyterlab
+jupyterlab_server
+kallithea-frontend
+le
 readme_renderer
+spyder
+twine

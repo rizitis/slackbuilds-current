@@ -1,5 +1,13 @@
+meme-suite
+monitorix
+munin-node
 nagiosgraph
 perl-CGI-Application
+perl-CGI
 perl-HTML-Template
+perl-HTML-WikiConverter-Markdown
+perl-HTML-WikiConverter
 perl-Test-MockModule
 perl-http-server-simple
+perl-www-mechanize
+shutter

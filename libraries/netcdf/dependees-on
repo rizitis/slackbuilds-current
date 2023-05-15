@@ -1,7 +1,9 @@
+GMT
 cdo
+et
 grace
 nco
 ncview
-GMT
-python3-netcdf4-python
 netcdf-fortran
+netcdf
+python3-netcdf4-python

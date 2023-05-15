@@ -1,2 +1,4 @@
 ZODB3
 zope.location
+zope.proxy
+zope.security

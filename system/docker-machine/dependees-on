@@ -1,1 +1,5 @@
+docker-cli
 docker-machine-kvm
+docker-machine
+docker
+subuser

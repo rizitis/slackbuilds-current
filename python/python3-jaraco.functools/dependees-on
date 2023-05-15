@@ -1,3 +1,9 @@
+flexget
+python3-CherryMusic
+python3-CherryPy
 python3-cheroot
+python3-jaraco.collections
+python3-jaraco.functools
 python3-jaraco.text
+python3-portend
 python3-tempora

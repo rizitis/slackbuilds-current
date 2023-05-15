@@ -1,1 +1,5 @@
+clint
 haskell-aeson-pretty
+haskell-cmdargs
+pandoc
+weathercli

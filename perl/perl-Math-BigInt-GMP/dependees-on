@@ -1,1 +1,4 @@
-
+perl-Math-BigInt-GMP
+perl-MaxMind-DB-Common
+perl-MaxMind-DB-Reader-XS
+perl-MaxMind-DB-Reader

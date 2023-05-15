@@ -1,6 +1,8 @@
 mobiperl
-perl-HTML-FormatText-WithLinks
 perl-HTML-FormatText-WithLinks-AndTables
+perl-HTML-FormatText-WithLinks
 perl-HTML-Formatter
+perl-HTML-Tree
+perl-HTML-WikiConverter-Markdown
 perl-HTML-WikiConverter
 perl-XML-TreeBuilder

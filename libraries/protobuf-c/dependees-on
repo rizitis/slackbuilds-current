@@ -1,6 +1,15 @@
-postgis
 et
+fwupd
 kismet
+librasterlite
+libspatialite
+osm2pgrouting
+osm2pgsql
+pgrouting
+pgsql-ogr-fdw
+postgis
+protobuf-c
 purple-googlechat
 purple-hangouts
-fwupd
+qgis
+spatialite-tools

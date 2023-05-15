@@ -1,1 +1,8 @@
+le
 perl-Moose
+perl-MooseX-Traits
+perl-MooseX-Types-Structured
+perl-MooseX-Types
+perl-Parse-Method-Signatures
+perl-Test-CleanNamespaces
+perl-TryCatch

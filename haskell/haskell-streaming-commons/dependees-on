@@ -1,2 +1,17 @@
+darcs
+haskell-citeproc
 haskell-conduit-extra
+haskell-cryptonite-conduit
+haskell-hpack
+haskell-http-client-tls
 haskell-http-client
+haskell-http-conduit
+haskell-monad-logger
+haskell-project-template
+haskell-skylighting-core
+haskell-skylighting
+haskell-streaming-commons
+haskell-xml-conduit
+pandoc
+scalpel
+vis

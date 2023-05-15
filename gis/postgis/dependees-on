@@ -1,5 +1,9 @@
+librasterlite
 libspatialite
+osm2pgrouting
 osm2pgsql
 pgrouting
 pgsql-ogr-fdw
+postgis
 qgis
+spatialite-tools

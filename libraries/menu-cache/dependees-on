@@ -1,5 +1,12 @@
 jgmenu
-lxlauncher
-openbox-menu
-libfm
 libfm-qt
+libfm
+lxhotkey
+lxlauncher
+lxpanel
+lxqt-qtplugin
+lxtask
+menu-cache
+openbox-menu
+pcmanfm-qt
+pcmanfm

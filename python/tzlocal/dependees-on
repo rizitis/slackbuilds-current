@@ -1,4 +1,6 @@
-rpy2
-khal
 APScheduler
+flexget
+khal
 python3-APScheduler
+rpy2
+tzlocal

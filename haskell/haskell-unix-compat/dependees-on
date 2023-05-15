@@ -1,4 +1,8 @@
 darcs
 haskell-filemanip
+haskell-fsnotify
 haskell-path-io
 haskell-shelly
+haskell-unix-compat
+nix
+pandoc

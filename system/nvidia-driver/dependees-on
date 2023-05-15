@@ -1,2 +1,5 @@
 cudatoolkit
+cudnn
 libxnvctrl
+nvidia-driver
+river

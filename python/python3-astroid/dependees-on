@@ -1,1 +1,8 @@
+astroid
+pylint
+python3-astroid
+python3-pylint-venv
 python3-pylint
+requirements-detector
+spyder
+thonny

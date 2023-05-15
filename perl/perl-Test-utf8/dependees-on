@@ -1,1 +1,7 @@
+findimagedupes
+perl-File-Copy-Recursive
+perl-Inline-C
+perl-Test-File-ShareDir-Dist
 perl-Test-File
+perl-Test-utf8
+shutter

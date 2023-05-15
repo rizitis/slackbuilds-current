@@ -1,5 +1,10 @@
-pyCRAC
+MetaPhlAn2
 geopandas
-python3-xarray
+pandas
+pyCRAC
+python3-pandas
 python3-seaborn
 python3-statsmodels
+python3-xarray
+statsmodels
+tstoolbox

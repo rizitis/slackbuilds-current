@@ -1,1 +1,9 @@
+buildbot-badges
+buildbot-worker
+buildbot
+deluge
+python3-automat
+python3-klein
+python3-tubes
 python3-twisted
+swtpm

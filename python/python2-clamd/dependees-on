@@ -1,1 +1,7 @@
-
+amd
+cholmod
+klu
+python2-clamd
+scikit-umfpack
+spqr
+umfpack

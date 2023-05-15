@@ -1,4 +1,6 @@
+avarice
+avr-gcc
 avr-gdb
+avr-libc
 simavr
 simulavr
-avr-libc

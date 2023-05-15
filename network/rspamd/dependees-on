@@ -1,1 +1,7 @@
-
+amd
+cholmod
+klu
+rspamd
+scikit-umfpack
+spqr
+umfpack

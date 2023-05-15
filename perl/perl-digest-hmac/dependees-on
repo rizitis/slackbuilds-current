@@ -1,1 +1,14 @@
+dkimproxy
+ferm
+perl-Mail-DKIM
+perl-Mail-DomainKeys
+perl-Mail-SPF-Query
+perl-Mail-SPF
+perl-Net-DNS-SEC
+perl-digest-hmac
 perl-net-dns
+policyd2
+postgrey
+sieve-connect
+spamassassin
+sqlninja

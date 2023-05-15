@@ -1,4 +1,5 @@
-geopandas
-qgis
-odoo
 barman
+geopandas
+odoo
+python3-psycopg2
+qgis

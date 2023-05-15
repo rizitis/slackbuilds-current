@@ -1,2 +1,4 @@
 ClusterSSH
 perl-Test-Spec
+perl-Test-Trap
+perlbrew

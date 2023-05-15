@@ -1,2 +1,8 @@
-awscli
+audible-cli
 audible
+awscli
+boto
+conan
+python3-rsa
+rsa
+s3fs-fuse

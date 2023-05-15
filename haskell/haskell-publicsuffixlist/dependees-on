@@ -1,1 +1,9 @@
+calcure
+darcs
+haskell-hpack
+haskell-http-client-tls
 haskell-http-client
+haskell-http-conduit
+haskell-publicsuffixlist
+ics
+pandoc

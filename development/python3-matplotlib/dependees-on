@@ -1,8 +1,10 @@
 cadabra2
+image-analyzer
 kolorcontrol
-python3-basemap
-python3-cartopy
 paraview
 pitivi
+python3-basemap
+python3-cartopy
+python3-matplotlib
+python3-obspy
 python3-seaborn
-image-analyzer

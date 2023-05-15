@@ -1,7 +1,9 @@
-lxqt-notificationd
-lxqt-sudo
+liblxqt
 lxqt-config
 lxqt-globalkeys
+lxqt-notificationd
+lxqt-panel
 lxqt-policykit
 lxqt-session
+lxqt-sudo
 qps

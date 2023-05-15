@@ -1,2 +1,6 @@
 awscli
 python3-boto3
+python3-gensim
+python3-smart_open
+s3fs-fuse
+s3transfer

@@ -1,1 +1,4 @@
 perl-PPI
+perl-Parse-Method-Signatures
+perl-Test-SubCalls
+perl-TryCatch

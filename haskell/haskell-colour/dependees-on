@@ -1,2 +1,15 @@
+darcs
 haskell-ansi-terminal
+haskell-ansi-wl-pprint
+haskell-colour
 haskell-graphviz
+haskell-hspec-core
+haskell-hspec-smallcheck
+haskell-hspec
+haskell-optparse-applicative
+haskell-skylighting-core
+haskell-skylighting
+haskell-test-framework-hunit
+haskell-test-framework-quickcheck2
+haskell-test-framework
+pandoc

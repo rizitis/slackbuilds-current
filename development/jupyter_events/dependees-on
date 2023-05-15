@@ -1,1 +1,10 @@
+jupyter-nbclassic
+jupyter-notebook
+jupyter-notebook_shim
+jupyter_events
 jupyter_server
+jupyterlab
+jupyterlab_server
+nts
+pymux
+pyte

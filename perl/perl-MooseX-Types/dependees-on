@@ -1,3 +1,10 @@
+perl-Moose
+perl-MooseX-Traits
 perl-MooseX-Types-Structured
+perl-MooseX-Types-Structured
+perl-MooseX-Types
+perl-MooseX-Types
 perl-Parse-Method-Signatures
+perl-Parse-Method-Signatures
+perl-TryCatch
 perl-TryCatch

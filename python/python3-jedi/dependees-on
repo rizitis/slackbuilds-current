@@ -1,4 +1,16 @@
 ipython
+jedi
+jupyter-ipykernel
+jupyter-notebook
+jupyter-qtconsole
+jupyter_console
+jupyterlab
 ptpython
+python3-ipython-sql
+python3-jedi
+python3-lsp-black
 python3-lsp-server
+python3-pyls-spyder
+python3-spyder-kernels
+spyder
 thonny

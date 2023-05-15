@@ -1,2 +1,7 @@
+haskell-enclosed-exceptions
+haskell-fsnotify
+haskell-hpack
 haskell-shelly
 haskell-yaml
+ion
+pandoc

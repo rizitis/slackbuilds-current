@@ -1,1 +1,5 @@
+haskell-doctemplates
+haskell-errors
 haskell-text-conversions
+pandoc
+rr

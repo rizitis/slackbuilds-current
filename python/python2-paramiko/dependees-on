@@ -1,5 +1,7 @@
-mysql-workbench
-sftp-cloudfs
 boto
+conan
 fabric
+mysql-workbench
+python2-paramiko
 routersploit
+sftp-cloudfs

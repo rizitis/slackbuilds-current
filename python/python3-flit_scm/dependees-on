@@ -1,1 +1,5 @@
+python3-cattrs
 python3-exceptiongroup
+python3-flit
+python3-flit_scm
+python3-requests-cache

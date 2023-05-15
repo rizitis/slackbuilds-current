@@ -1,1 +1,8 @@
+ion
+jupyter-nbclassic
+jupyter-notebook
+jupyter-notebook_shim
 jupyter_server
+jupyterlab
+jupyterlab_server
+python3-isoduration

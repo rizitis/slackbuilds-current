@@ -1,4 +1,14 @@
+ClusterSSH
+frozen-bubble
+pangzero
+perl-Alien-SDL
+perl-Parse-Method-Signatures
+perl-SDL
+perl-Syntax-Highlight-Engine-Kate
 perl-Test-Differences
 perl-Test-HexDifferences
+perl-Test-Most
 perl-Test-PerlTidy
+perl-Text-Diff
 perl-Text-Patch
+perl-TryCatch

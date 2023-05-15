@@ -1,2 +1,13 @@
+amd
 cholmod
+cholmod
+colamd
 klu
+klu
+ola
+scikit-umfpack
+scikit-umfpack
+spqr
+spqr
+umfpack
+umfpack

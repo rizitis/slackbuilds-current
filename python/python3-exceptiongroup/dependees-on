@@ -1,1 +1,4 @@
+ion
 python3-cattrs
+python3-exceptiongroup
+python3-requests-cache

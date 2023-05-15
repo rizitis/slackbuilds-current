@@ -1,3 +1,6 @@
 meme-suite
-perl-CGI-Application
 munin-node
+perl-CGI-Application
+perl-HTML-Template
+perl-HTML-WikiConverter-Markdown
+perl-HTML-WikiConverter

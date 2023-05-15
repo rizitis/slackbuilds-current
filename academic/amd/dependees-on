@@ -1,3 +1,6 @@
+amd
 cholmod
 klu
+scikit-umfpack
+spqr
 umfpack

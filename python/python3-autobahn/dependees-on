@@ -1,2 +1,4 @@
-buildbot
+buildbot-badges
 buildbot-worker
+buildbot
+python3-autobahn

@@ -1,1 +1,7 @@
+darcs
+haskell-connection
+haskell-hpack
 haskell-http-client-tls
+haskell-http-conduit
+ion
+pandoc

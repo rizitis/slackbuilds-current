@@ -1,1 +1,5 @@
+onionshare
+perl-Class-Factory-Util
 perl-DateTime-Format-Builder
+perl-DateTime-Format-ISO8601
+ttdnsd

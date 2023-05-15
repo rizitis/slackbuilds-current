@@ -1,2 +1,5 @@
+hare
+perl-IO-Socket-Timeout
 perl-PerlIO-via-Timeout
+perl-Test-SharedFork
 perl-Test-TCP

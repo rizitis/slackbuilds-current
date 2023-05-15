@@ -1,2 +1,5 @@
-xmonad
 haskell-X11-xft
+haskell-X11
+xmobar
+xmonad-contrib
+xmonad

@@ -1,3 +1,7 @@
+le
 perl-Config-Find
 perl-Data-Printer
 perl-ExtUtils-ModuleMaker
+perl-File-HomeDir
+perl-MaxMind-DB-Reader-XS
+perl-MaxMind-DB-Reader

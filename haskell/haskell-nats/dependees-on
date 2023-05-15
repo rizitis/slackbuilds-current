@@ -1,3 +1,7 @@
 haskell-HsYAML
 haskell-aeson-compat
+haskell-doctemplates
+haskell-hspec-smallcheck
+haskell-nats
 haskell-smallcheck
+pandoc

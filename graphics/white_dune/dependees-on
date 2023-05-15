@@ -1,1 +1,5 @@
-
+dune
+menhir
+ocaml-camomile
+opam
+white_dune

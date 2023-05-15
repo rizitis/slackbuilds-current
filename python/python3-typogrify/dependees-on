@@ -1,2 +1,6 @@
-gi-docgen
 fwupd
+gi-docgen
+gnome-builder
+jsonrpc-glib
+python3-typogrify
+vala-language-server

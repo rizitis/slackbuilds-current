@@ -1,3 +1,5 @@
 gaphor
-zope.location
 letsencrypt
+zope.component
+zope.location
+zope.security

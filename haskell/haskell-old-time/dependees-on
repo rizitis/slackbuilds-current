@@ -1,3 +1,7 @@
 darcs
+haskell-fast-logger
+haskell-monad-logger
+haskell-old-time
 haskell-unix-time
+xmobar
 xmonad-contrib

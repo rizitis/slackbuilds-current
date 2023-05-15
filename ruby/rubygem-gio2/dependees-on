@@ -1,2 +1,5 @@
+rubygem-gdk3
 rubygem-gdk_pixbuf2
+rubygem-gio2
+rubygem-gtk2
 rubygem-gtk3

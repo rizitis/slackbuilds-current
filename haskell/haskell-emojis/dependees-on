@@ -1,2 +1,6 @@
 haskell-commonmark-extensions
+haskell-commonmark-pandoc
 haskell-doclayout
+haskell-doctemplates
+haskell-emojis
+pandoc

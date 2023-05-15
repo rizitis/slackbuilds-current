@@ -1,3 +1,10 @@
 rubygem-atk
 rubygem-cairo-gobject
+rubygem-gdk3
+rubygem-gdk_pixbuf2
+rubygem-gio2
+rubygem-glib2
 rubygem-gobject-introspection
+rubygem-gtk2
+rubygem-gtk3
+rubygem-pango

@@ -1,2 +1,10 @@
+jupyter-nbclassic
+jupyter-nbconvert
+jupyter-notebook
+jupyter-notebook_shim
 jupyter_server
+jupyterlab
+jupyterlab_server
+pymux
+pyte
 spyder

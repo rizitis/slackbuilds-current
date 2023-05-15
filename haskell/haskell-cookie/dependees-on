@@ -1,1 +1,7 @@
+darcs
+haskell-cookie
+haskell-hpack
+haskell-http-client-tls
 haskell-http-client
+haskell-http-conduit
+pandoc

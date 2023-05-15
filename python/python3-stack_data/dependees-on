@@ -1,1 +1,10 @@
 ipython
+jupyter-ipykernel
+jupyter-notebook
+jupyter-qtconsole
+jupyter_console
+jupyterlab
+python3-ipython-sql
+python3-spyder-kernels
+python3-stack_data
+spyder
