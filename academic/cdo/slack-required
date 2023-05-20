@@ -1,4 +1,5 @@
 libaec
+eccodes
 hdf5
 netcdf
 udunits
