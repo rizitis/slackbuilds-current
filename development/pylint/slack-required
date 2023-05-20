@@ -1,7 +1,7 @@
 python2-scandir
 pathlib2
 funcsigs
-atomicwrites
+python2-atomicwrites
 more-itertools
 python2-setuptools-scm
 pluggy

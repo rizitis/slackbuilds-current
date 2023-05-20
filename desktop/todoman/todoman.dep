@@ -19,5 +19,5 @@ pytz
 icalendar
 click-log
 click
-atomicwrites
+python3-atomicwrites
 todoman

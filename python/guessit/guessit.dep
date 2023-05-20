@@ -3,7 +3,7 @@ python2-dateutil
 python2-scandir
 pathlib2
 funcsigs
-atomicwrites
+python2-atomicwrites
 more-itertools
 pluggy
 python2-attrs

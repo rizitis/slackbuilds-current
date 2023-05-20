@@ -1,4 +1,3 @@
-GtkD
 I-Nex
 Kallithea
 PyPy
@@ -10,9 +9,7 @@ cdrkit
 cfpeek
 cronie
 csh
-d-tools
 digimend-kernel-drivers
-dmd
 docbook-xml5
 docbookMathML1mods
 etlegacy
@@ -25,7 +22,6 @@ grub_legacy
 gtklock-userinfo-module
 kallithea-frontend
 kicad
-ldc
 leftwm
 libsidplay
 lilypond
@@ -33,6 +29,7 @@ lvm2-lockd
 mailfromd
 mailutils
 mathML2dtd
+mbuffer
 mimi
 mlt-bindings
 moedict-desktop.app
@@ -40,7 +37,6 @@ mysql-workbench
 netcat-openbsd
 nwg-shell
 octave
-onedrive
 openGLRefToMan
 openGLRefToMan
 openGLRefToMan
@@ -56,8 +52,6 @@ stream2chromecast
 syslog-ng
 system76-power
 texi2html
-tilix
-tilix
 tox-extension-messages
 toxext
 uTox
@@ -65,7 +59,6 @@ universal-ctags
 unixODBC
 vokoscreenNG
 wps-office
-xasm
 xearth
 yabridge
 zabbix_proxy

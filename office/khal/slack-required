@@ -3,7 +3,7 @@ click
 pytz
 tzlocal
 configobj
-atomicwrites
+python3-atomicwrites
 python3-dateutil
 icalendar
 khal

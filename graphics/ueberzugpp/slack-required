@@ -3,6 +3,7 @@ vips
 spdlog
 oneTBB
 nlohmann_json
+microsoft-gsl
 libsixel
 Catch
 cppzmq

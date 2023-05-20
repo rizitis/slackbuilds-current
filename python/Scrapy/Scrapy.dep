@@ -28,7 +28,7 @@ w3lib
 python2-scandir
 pathlib2
 funcsigs
-atomicwrites
+python2-atomicwrites
 more-itertools
 pluggy
 python2-py

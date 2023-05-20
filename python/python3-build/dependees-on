@@ -90,6 +90,7 @@ python3-aiohttp-socks
 python3-aiohttp
 python3-ase
 python3-astroid
+python3-async-timeout
 python3-attrdict
 python3-basemap
 python3-black
@@ -134,6 +135,7 @@ python3-lsp-black
 python3-lsp-jsonrpc
 python3-lsp-server
 python3-markdown-it-py
+python3-mat2
 python3-matplotlib-inline
 python3-matplotlib
 python3-mdurl
@@ -178,6 +180,7 @@ qtile
 quodlibet
 radicale
 recoll
+reuse-tool
 scikit-learn
 secretstorage
 speedometer

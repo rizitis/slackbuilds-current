@@ -152,6 +152,7 @@ python3-lsp-black
 python3-lsp-jsonrpc
 python3-lsp-server
 python3-lz4
+python3-mat2
 python3-matplotlib-inline
 python3-matplotlib
 python3-mediafile
@@ -195,6 +196,7 @@ quodlibet
 radicale
 recoll
 rencode
+reuse-tool
 routersploit
 sabnzbd
 scikit-learn

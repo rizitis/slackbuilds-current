@@ -122,5 +122,5 @@ jellyfish
 pycodestyle
 flake8
 autopep8
-atomicwrites
+python3-atomicwrites
 spyder

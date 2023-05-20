@@ -1,4 +1,5 @@
 gscan2pdf
+mbuffer
 perl-Class-Load-XS
 perl-Class-Load
 perl-Config-IniFiles

@@ -27,6 +27,7 @@ python3-requests-cache
 python3-rich
 python3-tomlkit
 python3-url-normalize
+reuse-tool
 spyder
 tauonmb
 thonny
