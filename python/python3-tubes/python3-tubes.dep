@@ -1,6 +1,6 @@
 python3-characteristic
-python3-installer
 python3-flit_core
+python3-installer
 python3-pyproject-hooks
 python3-build
 typing-extensions

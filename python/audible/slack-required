@@ -1,8 +1,8 @@
 python-pbkdf2
 python3-pyasn1
 python3-rsa
-python3-installer
 python3-flit_core
+python3-installer
 python3-wheel
 python3-pyproject-hooks
 python3-build

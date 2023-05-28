@@ -1,4 +1,4 @@
-docopt
+python2-docopt
 wcwidth
 python2-scandir
 pathlib2

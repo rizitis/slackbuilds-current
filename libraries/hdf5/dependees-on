@@ -20,5 +20,6 @@ netcdf
 olive
 openimageio
 paraview
+pdal
 python3-h5py
 python3-netcdf4-python

@@ -2,8 +2,8 @@ python-debian
 boolean-py
 license-expression
 binaryornot
-python3-installer
 python3-flit_core
+python3-installer
 python3-pyproject-hooks
 python3-build
 python3-poetry-core

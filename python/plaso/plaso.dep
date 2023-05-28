@@ -14,8 +14,8 @@ libesedb
 pytz
 zeromq
 python3-pyzmq
-python3-installer
 python3-flit_core
+python3-installer
 python3-wheel
 python3-pyproject-hooks
 python3-build

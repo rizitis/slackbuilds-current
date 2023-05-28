@@ -32,6 +32,8 @@ mbuffer
 mimi
 mlt-bindings
 moedict-desktop.app
+mtp2-fonts
+muon
 mysql-workbench
 netcat-openbsd
 nwg-shell
@@ -43,8 +45,10 @@ opendoas
 pkgconf
 putty
 qTox
+qt6ct
 rosegarden
 rsyslog
+scantailor-advanced
 skypeforlinux
 soci
 stream2chromecast
@@ -54,12 +58,14 @@ svxlink
 syslog-ng
 system76-power
 texi2html
+texlive-extra
 tox-extension-messages
 toxext
 uTox
 universal-ctags
 unixODBC
 vokoscreenNG
+wps-office-dicts
 wps-office
 xearth
 yabridge

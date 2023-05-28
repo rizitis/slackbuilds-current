@@ -1,6 +1,6 @@
 python3-setuptools_scm_git_archive
-python3-installer
 python3-flit_core
+python3-installer
 python3-wheel
 python3-pyproject-hooks
 python3-build

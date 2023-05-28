@@ -2,8 +2,8 @@ simplejson
 python2-PyYAML
 python2-pyasn1
 rsa
-python3-installer
 python3-flit_core
+python3-installer
 python3-wheel
 python2-asn1crypto
 ipaddress

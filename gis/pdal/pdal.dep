@@ -1,4 +1,7 @@
 postgresql
+libaec
+hdf5
+netcdf
 proj
 libgeotiff
 geos

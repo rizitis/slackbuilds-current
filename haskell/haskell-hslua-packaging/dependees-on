@@ -105,6 +105,7 @@ pandoc
 pdns-recursor
 pdns
 premake
+premake5
 prosody-mod-block-strangers
 prosody-mod-cloud-notify
 prosody-mod-csi

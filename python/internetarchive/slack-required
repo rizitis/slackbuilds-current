@@ -3,5 +3,5 @@ python2-setuptools-scm
 tqdm
 contextlib2
 schema
-docopt
+python3-docopt
 internetarchive

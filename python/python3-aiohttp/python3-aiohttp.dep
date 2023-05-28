@@ -1,12 +1,12 @@
-frozenlist
-aiosignal
+python3-frozenlist
+python3-aiosignal
 python3-multidict
-yarl
+python3-yarl
 python3-attrs
-python3-installer
 python3-flit_core
+python3-installer
 python3-pyproject-hooks
 python3-build
 typing-extensions
-async-timeout
+python3-async-timeout
 python3-aiohttp

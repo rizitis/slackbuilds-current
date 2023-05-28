@@ -10,7 +10,6 @@ RYMTracks
 Solaar
 anki
 argon2-cffi
-async-timeout
 audible-cli
 audible
 beautysh
@@ -257,7 +256,6 @@ rasterio
 recoll
 reuse-tool
 rpy2
-saga-gis
 scikit-learn
 scikit-learn
 secretstorage

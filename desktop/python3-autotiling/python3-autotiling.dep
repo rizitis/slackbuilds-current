@@ -15,7 +15,7 @@ python3-py
 python3-pytest
 python3-xlib
 i3ipc
-python3-installer
 python3-flit_core
+python3-installer
 python3-wheel
 python3-autotiling

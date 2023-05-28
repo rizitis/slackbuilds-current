@@ -1,5 +1,4 @@
 Electrum
-async-timeout
 async
 python3-aiohttp-socks
 python3-aiohttp

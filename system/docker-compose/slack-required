@@ -9,6 +9,6 @@ python2-cached-property
 functools32
 vcversioner
 jsonschema
-docopt
+python2-docopt
 python2-PyYAML
 docker-compose

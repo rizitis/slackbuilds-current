@@ -1,9 +1,9 @@
-python3-installer
 python3-flit_core
+python3-installer
 python3-wheel
 setproctitle
 python2-setuptools-scm
 python-xlib
 pyewmh
-docopt
+python3-docopt
 caffeine-ng
