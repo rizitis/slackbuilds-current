@@ -99,14 +99,10 @@ prosody-mod-block-strangers
 prosody-mod-block-strangers
 prosody-mod-cloud-notify
 prosody-mod-cloud-notify
-prosody-mod-csi
-prosody-mod-csi
 prosody-mod-filter-chatstates
 prosody-mod-filter-chatstates
 prosody-mod-http-upload
 prosody-mod-http-upload
-prosody-mod-smacks
-prosody-mod-smacks
 prosody-mod-throttle-presence
 prosody-mod-throttle-presence
 prosody-mod-turncredentials
@@ -136,6 +132,7 @@ tome
 unvanquished
 urn
 vcmi
+virtualxt
 vis
 vlc
 vlsub

@@ -1,0 +1,9 @@
+sphinx-rtd-theme
+glog
+gflags
+chrpath
+OpenBLAS
+blas
+lapack
+suitesparse
+ceres-solver

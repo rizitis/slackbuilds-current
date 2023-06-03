@@ -45,6 +45,7 @@ python3-json5
 python3-websocket-client
 python3-webcolors
 python3-uri_template
+python3-overrides
 python3-arrow
 python3-isoduration
 python3-fqdn
@@ -81,8 +82,9 @@ jupyter-nbclient
 python3-defusedxml
 bleach
 jupyter-nbconvert
-iniconfig
-python3-py
+python3-flit_scm
+python3-exceptiongroup
+python3-iniconfig
 python3-pytest
 python3-pytest-runner
 python3-rfc3986_validator

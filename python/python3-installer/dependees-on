@@ -46,6 +46,9 @@ grass
 httpie
 humanize
 hyfetch
+i3-layouts
+i3expo-ng
+i3ipc
 ics
 image-analyzer
 ipython
@@ -156,6 +159,7 @@ python3-hatch_vcs
 python3-hatchling
 python3-httpx
 python3-inflect
+python3-iniconfig
 python3-installer
 python3-ipython-sql
 python3-iso3166
@@ -196,7 +200,9 @@ python3-pyls-spyder
 python3-pypandoc
 python3-pypng
 python3-pyproject-hooks
+python3-pytest-cov
 python3-pytest-runner
+python3-pytest
 python3-pythran
 python3-requests-cache
 python3-rfc3986_validator
@@ -230,6 +236,7 @@ recoll
 rencode
 reuse-tool
 routersploit
+rpy2
 sabnzbd
 scikit-learn
 secretstorage

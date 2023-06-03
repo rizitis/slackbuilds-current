@@ -108,10 +108,8 @@ premake
 premake5
 prosody-mod-block-strangers
 prosody-mod-cloud-notify
-prosody-mod-csi
 prosody-mod-filter-chatstates
 prosody-mod-http-upload
-prosody-mod-smacks
 prosody-mod-throttle-presence
 prosody-mod-turncredentials
 prosody-mod-vcard-muc
@@ -137,6 +135,7 @@ tome
 unvanquished
 urn
 vcmi
+virtualxt
 vis
 vlc
 vlsub

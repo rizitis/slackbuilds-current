@@ -28,6 +28,9 @@ grass
 httpie
 humanize
 hyfetch
+i3-layouts
+i3expo-ng
+i3ipc
 ics
 image-analyzer
 ipython
@@ -62,6 +65,7 @@ mypy
 neovim-remote
 nwg-panel
 nwg-shell
+nwg-wrapper
 odoo
 paraview
 pelican
@@ -91,6 +95,7 @@ python3-ase
 python3-astroid
 python3-async-timeout
 python3-attrdict
+python3-autotiling
 python3-basemap
 python3-black
 python3-build
@@ -118,6 +123,7 @@ python3-hatch_vcs
 python3-hatchling
 python3-httpx
 python3-inflect
+python3-iniconfig
 python3-ipython-sql
 python3-iso3166
 python3-isoduration
@@ -153,7 +159,9 @@ python3-pylint-venv
 python3-pylint
 python3-pyls-spyder
 python3-pypng
+python3-pytest-cov
 python3-pytest-runner
+python3-pytest
 python3-pythran
 python3-requests-cache
 python3-rfc3986_validator
@@ -180,6 +188,7 @@ quodlibet
 radicale
 recoll
 reuse-tool
+rpy2
 scikit-learn
 secretstorage
 speedometer

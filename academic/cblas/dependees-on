@@ -8,6 +8,7 @@ arpack-ng
 arpack
 cblas
 cblas
+ceres-solver
 chameleon
 chameleon
 cholmod

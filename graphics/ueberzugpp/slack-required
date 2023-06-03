@@ -1,11 +1,9 @@
-zeromq
 vips
 spdlog
 oneTBB
 nlohmann_json
 microsoft-gsl
 libsixel
-Catch
-cppzmq
+chafa
 CLI11
 ueberzugpp

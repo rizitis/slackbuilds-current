@@ -4,6 +4,7 @@ MetaPhlAn2
 PyAMG
 arpack-ng
 arpack
+ceres-solver
 chameleon
 cholmod
 dakota
