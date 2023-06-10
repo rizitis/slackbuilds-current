@@ -39,6 +39,7 @@ python3-hatch_vcs
 python3-iniconfig
 python3-jsonschema
 python3-lsp-black
+python3-mir_eval
 python3-obspy
 python3-plumbum
 python3-pylint-venv

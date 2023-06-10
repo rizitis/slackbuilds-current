@@ -7,9 +7,6 @@ apprise
 dropbox-python
 dropbox-python
 dropbox-python
-guessit
-guessit
-guessit
 parsel
 parsel
 parsel
@@ -46,7 +43,4 @@ python2-pytest-runner
 python2-twitter
 python2-twitter
 python2-twitter
-rebulk
-rebulk
-rebulk
 tox

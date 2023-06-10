@@ -1,8 +1,6 @@
 anki
-docker-compose
 flexget
 internetarchive
-jsonschema
 jupyter-nbclassic
 jupyter-nbclient
 jupyter-nbconvert

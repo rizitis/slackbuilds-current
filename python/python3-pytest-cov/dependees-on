@@ -6,7 +6,6 @@ cairocffi
 dropbox-python
 dropbox-python
 getfem
-guessit
 i3-layouts
 i3expo-ng
 i3ipc
@@ -42,6 +41,7 @@ python3-ase
 python3-autotiling
 python3-cartopy
 python3-gensim
+python3-mir_eval
 python3-obspy
 python3-pytest-cov
 python3-pytest-cov
@@ -52,6 +52,5 @@ python3-rfc3986_validator
 python3-scipy
 python3-statsmodels
 qtile
-rebulk
 rpy2
 scikit-learn

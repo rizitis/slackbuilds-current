@@ -1,7 +1,6 @@
 Scrapy
 apprise
 dropbox-python
-guessit
 parsel
 pocketsphinx
 ptwit
@@ -15,5 +14,4 @@ python2-mccabe
 python2-py
 python2-pytest-runner
 python2-twitter
-rebulk
 tox

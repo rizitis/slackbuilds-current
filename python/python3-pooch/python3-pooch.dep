@@ -1,0 +1,11 @@
+pytz
+python3-dateutil
+python3-numpy
+python3-pandas
+python3-platformdirs
+python3-flit_core
+python3-installer
+python3-wheel
+python3-pyproject-hooks
+python3-build
+python3-pooch

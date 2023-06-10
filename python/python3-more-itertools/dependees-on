@@ -2,7 +2,6 @@ Scrapy
 apprise
 dropbox-python
 flexget
-guessit
 parsel
 pocketsphinx
 ptwit
@@ -25,4 +24,3 @@ python3-jaraco.text
 python3-more-itertools
 python3-portend
 python3-tempora
-rebulk

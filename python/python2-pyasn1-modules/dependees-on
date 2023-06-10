@@ -9,7 +9,6 @@ boto
 conan
 dropbox-python
 fabric
-guessit
 le
 mysql-workbench
 parsel
@@ -33,7 +32,6 @@ python2-pyasn1-modules
 python2-pyasn1-modules
 python2-pytest-runner
 python2-twitter
-rebulk
 routersploit
 rsa
 service_identity

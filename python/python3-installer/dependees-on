@@ -172,6 +172,7 @@ python3-jaraco.text
 python3-jsonschema
 python3-kiwisolver
 python3-klein
+python3-lazy_loader
 python3-libtmux
 python3-lsp-black
 python3-lsp-jsonrpc
@@ -183,6 +184,7 @@ python3-matplotlib-inline
 python3-matplotlib
 python3-mdurl
 python3-mediafile
+python3-mir_eval
 python3-more-itertools
 python3-nltk
 python3-obspy
@@ -190,6 +192,7 @@ python3-paramiko
 python3-pathspec
 python3-plumbum
 python3-poetry-core
+python3-pooch
 python3-portend
 python3-psutil
 python3-py-cpuinfo

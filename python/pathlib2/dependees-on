@@ -2,7 +2,6 @@ Scrapy
 apprise
 dropbox-python
 grass
-guessit
 kicad
 parsel
 pathlib2
@@ -17,5 +16,4 @@ python2-keyutils
 python2-mccabe
 python2-pytest-runner
 python2-twitter
-rebulk
 wxPython4
