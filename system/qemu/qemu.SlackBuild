@@ -118,6 +118,8 @@ else
   with_slirp="--enable-slirp"
 fi
 
+patch -p1 < $CWD/qemu-8.0.0-disable-keymap.patch
+
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
@@ -135,6 +137,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --enable-nettle \
   --${uring}able-linux-io-uring \
   --audio-drv-list=${AUDIODRIVERS} \
+  --disable-xkbcommon \
   $with_slirp \
   $with_vnc \
   $targets

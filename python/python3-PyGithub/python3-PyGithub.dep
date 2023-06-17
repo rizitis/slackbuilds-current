@@ -1,0 +1,11 @@
+python3-flit_core
+python3-installer
+python3-wheel
+python2-wheel
+pycparser
+cffi
+pynacl
+python3-pyjwt
+python3-wrapt
+python3-deprecated
+python3-PyGithub

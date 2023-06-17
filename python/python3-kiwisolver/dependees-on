@@ -6,6 +6,7 @@ pitivi
 python3-basemap
 python3-cartopy
 python3-kiwisolver
+python3-librosa
 python3-matplotlib
 python3-obspy
 python3-seaborn

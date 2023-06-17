@@ -12,6 +12,7 @@ duckstation
 et_xmlfile
 euca2ools
 flexget
+focuswriter-qt6
 font-manager
 gmdb2
 gnucash-docs
@@ -30,8 +31,10 @@ pikepdf
 piper
 pyPEG2
 pyquery
+python3-cinemagoer
 python3-obspy
 python3-openpyxl
+python3-ufolib2
 pytrainer
 qgis
 qt6

@@ -1,8 +1,15 @@
+python3-flit_core
+python3-installer
+python3-wheel
+python3-pyproject-hooks
+python3-build
+tzdata
+typing-extensions
+python3-dateutil
 click-repl
 click
 click-plugins
-click-didyoumean
-pytz
+python3-click-didyoumean
 python3-wcwidth
 python3-prompt_toolkit
 python3-billiard

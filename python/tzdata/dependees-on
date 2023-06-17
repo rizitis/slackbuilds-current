@@ -1,2 +1,5 @@
+Kallithea
 flexget
+kallithea-frontend
+python3-celery
 tzdata

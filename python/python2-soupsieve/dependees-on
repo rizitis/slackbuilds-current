@@ -29,8 +29,10 @@ pyPEG2
 pyquery
 python2-BeautifulSoup4
 python2-soupsieve
+python3-cinemagoer
 python3-obspy
 python3-openpyxl
+python3-ufolib2
 pytrainer
 qgis
 radiotray

@@ -48,6 +48,7 @@ python3-httpx
 python3-lsp-black
 rasterio
 spyder
+subliminal
 tauonmb
 todoman
 vdirsyncer

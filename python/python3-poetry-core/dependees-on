@@ -17,8 +17,10 @@ jupyterlab_server
 pelican
 pylast
 python3-Flask-Babel
+python3-beekeeper-alt
 python3-cattrs
 python3-httpx
+python3-kodipydent
 python3-libtmux
 python3-poetry-core
 python3-pylint-venv
@@ -26,7 +28,9 @@ python3-pylint
 python3-requests-cache
 python3-rich
 python3-tomlkit
+python3-ufolib2
 python3-url-normalize
+python3-validators
 reuse-tool
 spyder
 tauonmb

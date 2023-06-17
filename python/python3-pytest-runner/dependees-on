@@ -4,8 +4,6 @@ Scrapy
 apprise
 buildbot-badges
 buildbot-badges
-cairocffi
-cairocffi
 dropbox-python
 dropbox-python
 dropbox-python
@@ -53,10 +51,15 @@ python2-twitter
 python3-ase
 python3-ase
 python3-autotiling
+python3-cairocffi
+python3-cairocffi
 python3-cartopy
 python3-cartopy
+python3-cinemagoer
 python3-gensim
 python3-gensim
+python3-librosa
+python3-librosa
 python3-mir_eval
 python3-mir_eval
 python3-obspy
@@ -73,6 +76,8 @@ python3-scipy
 python3-scipy
 python3-statsmodels
 python3-statsmodels
+python3-ufolib2
+python3-uharfbuzz
 qtile
 qtile
 rpy2

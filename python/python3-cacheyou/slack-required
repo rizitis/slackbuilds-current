@@ -1,0 +1,8 @@
+msgpack-python
+python3-flit_core
+python3-installer
+python3-pyproject-hooks
+python3-build
+python3-pdm-backend
+python3-pdm
+python3-cacheyou

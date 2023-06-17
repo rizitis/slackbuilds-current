@@ -12,6 +12,7 @@ ptpython
 pymux
 python3-celery
 python3-ipython-sql
+python3-librosa
 python3-prompt_toolkit
 python3-questionary
 python3-spyder-kernels

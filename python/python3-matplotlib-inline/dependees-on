@@ -12,6 +12,8 @@ pitivi
 python3-basemap
 python3-cartopy
 python3-ipython-sql
+python3-librosa
+python3-librosa
 python3-matplotlib-inline
 python3-matplotlib
 python3-obspy

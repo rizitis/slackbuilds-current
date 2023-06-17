@@ -5,6 +5,7 @@ python3-ase
 python3-beniget
 python3-cartopy
 python3-gensim
+python3-librosa
 python3-mir_eval
 python3-obspy
 python3-pythran

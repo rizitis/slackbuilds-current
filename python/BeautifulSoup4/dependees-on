@@ -46,10 +46,12 @@ pyquery
 pysass
 pysub-dl
 python2-tvrage
+python3-cinemagoer
 python3-cloudflare
 python3-obspy
 python3-openpyxl
 python3-pylyrics
+python3-ufolib2
 pytrainer
 qgis
 radiotray
@@ -59,6 +61,7 @@ relatorio
 routersploit
 sigil
 spyder
+subliminal
 tauonmb
 textext
 thunar-custom-actions

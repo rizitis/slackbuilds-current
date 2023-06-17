@@ -76,12 +76,16 @@ pysass
 pysub-dl
 python2-BeautifulSoup4
 python2-tvrage
+python3-cinemagoer
+python3-cinemagoer
 python3-cloudflare
 python3-obspy
 python3-obspy
 python3-openpyxl
 python3-openpyxl
 python3-pylyrics
+python3-ufolib2
+python3-ufolib2
 pytrainer
 pytrainer
 qgis
@@ -99,6 +103,7 @@ routersploit
 sigil
 sigil
 spyder
+subliminal
 tauonmb
 textext
 textext

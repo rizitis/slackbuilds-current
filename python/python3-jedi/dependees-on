@@ -8,6 +8,7 @@ jupyterlab
 ptpython
 python3-ipython-sql
 python3-jedi
+python3-librosa
 python3-lsp-black
 python3-lsp-server
 python3-pyls-spyder

@@ -36,6 +36,7 @@ python3-Flask-Security-Too
 python3-Flask-WTF
 python3-Flask-httpauth
 python3-alembic
+python3-cinemagoer
 python3-flask-paginate
 python3-ipython-sql
 python3-obspy

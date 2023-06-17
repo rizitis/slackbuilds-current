@@ -11,6 +11,7 @@ kallithea-frontend
 pychess
 python3-Flask-SQLAlchemy
 python3-alembic
+python3-cinemagoer
 python3-ipython-sql
 python3-obspy
 python3-paginate_sqlalchemy

@@ -23,6 +23,6 @@ python3-hatch_vcs
 python3-iniconfig
 python3-pytest
 python3-pytest-runner
-cairocffi
+python3-cairocffi
 libmirage
 image-analyzer

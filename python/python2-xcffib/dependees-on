@@ -11,6 +11,7 @@ python2-cryptography
 python2-paramiko
 python2-xcffib
 python2-xcffib
+python3-PyGithub
 python3-paramiko
 routersploit
 rpy2

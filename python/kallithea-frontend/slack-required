@@ -5,6 +5,12 @@ python3-urlobject
 python3-dateutil
 python3-paste
 python3-ipaddr
+python3-flit_core
+python3-installer
+python3-wheel
+python3-pyproject-hooks
+python3-build
+python3-setuptools-opt
 python3-dulwich
 decorator
 python3-beaker
@@ -32,11 +38,12 @@ python3-crank
 python3-turbogears2
 python3-routes
 python3-tgext.routes
+tzdata
+typing-extensions
 click-repl
 click
 click-plugins
-click-didyoumean
-pytz
+python3-click-didyoumean
 python3-wcwidth
 python3-prompt_toolkit
 python3-billiard

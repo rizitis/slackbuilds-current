@@ -1,6 +1,10 @@
 anki
 audible-cli
 audible
+buildbot-badges
+buildbot-worker
+buildbot
+deluge
 eyeD3
 flexget
 jupyter-nbclassic
@@ -20,6 +24,11 @@ python3-docker-compose
 python3-hatch_fancy_pypi_readme
 python3-httpx
 python3-jsonschema
+python3-klein
 python3-lsp-black
+python3-service-identity
+python3-tubes
+python3-twisted
 spyder
+swtpm
 tauonmb

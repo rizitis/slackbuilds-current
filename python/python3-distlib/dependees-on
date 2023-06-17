@@ -1,4 +1,6 @@
+python3-cinemagoer
 python3-distlib
 python3-pylint-venv
+python3-tox
 python3-virtualenv
 spyder

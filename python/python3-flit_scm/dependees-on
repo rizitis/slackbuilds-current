@@ -1,6 +1,5 @@
 CairoSVG
 buildbot-badges
-cairocffi
 dropbox-python
 getfem
 i3-layouts
@@ -21,12 +20,15 @@ pocketsphinx
 pyCRAC
 python3-ase
 python3-autotiling
+python3-cairocffi
 python3-cartopy
 python3-cattrs
+python3-cinemagoer
 python3-exceptiongroup
 python3-flit
 python3-flit_scm
 python3-gensim
+python3-librosa
 python3-mir_eval
 python3-obspy
 python3-pytest-cov
@@ -37,6 +39,8 @@ python3-requests-cache
 python3-rfc3986_validator
 python3-scipy
 python3-statsmodels
+python3-ufolib2
+python3-uharfbuzz
 qtile
 rpy2
 scikit-learn

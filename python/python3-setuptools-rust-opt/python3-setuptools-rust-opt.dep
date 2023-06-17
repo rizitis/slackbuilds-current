@@ -1,0 +1,9 @@
+python3-semantic-version
+python3-flit_core
+python3-installer
+python3-pyproject-hooks
+python3-build
+typing-extensions
+python3-wheel
+python3-setuptools-opt
+python3-setuptools-rust-opt

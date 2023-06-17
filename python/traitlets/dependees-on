@@ -18,6 +18,7 @@ jupyterlab_server
 le
 python3-comm
 python3-ipython-sql
+python3-librosa
 python3-matplotlib-inline
 python3-spyder-kernels
 spyder
