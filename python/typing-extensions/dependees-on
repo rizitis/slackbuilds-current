@@ -18,6 +18,7 @@ locust
 mypy
 python3-CherryMusic
 python3-CherryPy
+python3-PyPDF2
 python3-aiohttp-socks
 python3-aiohttp
 python3-astroid

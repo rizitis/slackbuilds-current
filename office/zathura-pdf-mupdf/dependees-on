@@ -2,6 +2,7 @@ Gem
 mupdf
 pd-psql
 pd_mrpeach
+python3-PyMuPDF
 zathura-cb
 zathura-djvu
 zathura-pdf-mupdf

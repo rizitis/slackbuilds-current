@@ -20,6 +20,7 @@ getdp
 grub_legacy
 gtklock-userinfo-module
 kicad
+krop
 le
 leftwm
 libsidplay
@@ -49,6 +50,7 @@ openGLRefToMan
 opendoas
 pkgconf
 putty
+python3-PyMuPDF
 qTox
 qt6ct
 rosegarden

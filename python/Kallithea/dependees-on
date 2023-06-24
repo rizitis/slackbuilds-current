@@ -22,6 +22,7 @@ grub_legacy
 gtklock-userinfo-module
 kallithea-frontend
 kicad
+krop
 leftwm
 libsidplay
 lilypond
@@ -45,6 +46,7 @@ openGLRefToMan
 opendoas
 pkgconf
 putty
+python3-PyMuPDF
 qTox
 qt6ct
 rosegarden

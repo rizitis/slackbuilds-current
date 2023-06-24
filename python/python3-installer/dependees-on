@@ -153,6 +153,7 @@ python3-Flask-Babel
 python3-Flask-Dance
 python3-Flask-RESTX
 python3-PyGithub
+python3-PyPDF2
 python3-aiohttp-socks
 python3-aiohttp
 python3-ase

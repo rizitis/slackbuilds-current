@@ -21,6 +21,7 @@ getdp
 grub_legacy
 gtklock-userinfo-module
 kicad
+krop
 leftwm
 libsidplay
 lilypond
@@ -45,6 +46,7 @@ opendoas
 perl-X11-Protocol-Other
 pkgconf
 putty
+python3-PyMuPDF
 qTox
 qt6ct
 rosegarden

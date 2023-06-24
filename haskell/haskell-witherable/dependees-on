@@ -41,6 +41,7 @@ haskell-texmath
 haskell-witherable
 haskell-yaml
 kicad
+krop
 le
 leftwm
 libsidplay
@@ -66,6 +67,7 @@ opendoas
 pandoc
 pkgconf
 putty
+python3-PyMuPDF
 qTox
 qt6ct
 rosegarden
