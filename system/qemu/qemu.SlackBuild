@@ -23,6 +23,12 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# 20230701 bkw: Modified by SlackBuilds.org, BUILD=2:
+# - add doinst to update desktop database and icon cache.
+# Note: sbopkglint <= 0.9.0 complains about ELF binaries found in
+# /usr/share/qemu (intended for the target systems). This is an error
+# in sbopkglint, and will be fixed (no need to change anything here).
+
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=qemu
@@ -117,7 +123,7 @@ if [ "$SLIRP" = "no" ]; then
 else
   with_slirp="--enable-slirp"
 fi
-
+    
 patch -p1 < $CWD/qemu-8.0.0-disable-keymap.patch
 
 CFLAGS="$SLKCFLAGS" \
@@ -181,6 +187,7 @@ cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
