@@ -1,9 +1,4 @@
-Electrum-DASH
-Electrum-DASH
 Impacket
-Scrapy
-Scrapy
-Scrapy
 apprise
 boto
 conan
@@ -23,8 +18,6 @@ pytest
 python2-cryptography
 python2-keyczar
 python2-keyutils
-python2-ldap
-python2-ldap
 python2-mccabe
 python2-paramiko
 python2-py
@@ -34,10 +27,6 @@ python2-pytest-runner
 python2-twitter
 routersploit
 rsa
-service_identity
-service_identity
 sftp-cloudfs
 snmpsim
-tahoe-lafs
-tahoe-lafs
 tox

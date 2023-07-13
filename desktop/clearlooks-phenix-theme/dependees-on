@@ -48,6 +48,7 @@ opendoas
 pkgconf
 putty
 python3-PyMuPDF
+python3-pdfCropMargins
 qTox
 qt6ct
 rosegarden

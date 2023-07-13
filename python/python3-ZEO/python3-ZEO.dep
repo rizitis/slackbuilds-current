@@ -1,0 +1,8 @@
+python3-ZConfig
+python3-zdaemon
+python3-zodbpickle
+python3-zc.lockfile
+zope.interface
+python3-transaction
+python3-ZODB
+python3-ZEO

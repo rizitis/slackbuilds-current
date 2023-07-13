@@ -37,6 +37,7 @@ nwg-displays
 nwg-wrapper
 nwg-shell-wallpapers
 nwg-shell-config
+ddcutil
 wlr-randr
 python3-netifaces
 python3-psutil

@@ -46,6 +46,7 @@ pkgconf
 plasma5-themes-breath
 putty
 python3-PyMuPDF
+python3-pdfCropMargins
 qTox
 qt6ct
 rosegarden

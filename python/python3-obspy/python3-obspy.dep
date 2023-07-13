@@ -13,6 +13,7 @@ python3-dateutil
 python3-numpy
 python3-matplotlib
 python3-pyshp
+python3-setuptools-opt
 proj
 python3-pyproj
 geos

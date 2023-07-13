@@ -18,8 +18,6 @@ libopenshot
 locust
 openshot
 plaso
-python2-pyzmq
 python3-pyzmq
 python3-spyder-kernels
-salt
 spyder

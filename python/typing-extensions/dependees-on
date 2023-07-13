@@ -14,6 +14,7 @@ jupyter-qtconsole
 jupyter_console
 jupyterlab
 kallithea-frontend
+krop
 locust
 mypy
 python3-CherryMusic

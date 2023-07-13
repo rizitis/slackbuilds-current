@@ -1,7 +1,6 @@
 OWSLib
 OpenLP
 RYMTracks
-Scrapy
 Type1_to_OTF
 adapta-gtk-theme
 afdko
@@ -26,6 +25,7 @@ lutris
 lxml
 odoo
 parsel
+pcp
 pdfarranger
 pikepdf
 piper
@@ -35,10 +35,12 @@ python3-cinemagoer
 python3-obspy
 python3-openpyxl
 python3-ufolib2
+python3-xmldiff
 pytrainer
 qgis
 qt6
 qt6ct
+qutebrowser-bin
 radiotray
 recoll
 relatorio

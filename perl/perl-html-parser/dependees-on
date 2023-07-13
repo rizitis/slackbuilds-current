@@ -11,6 +11,7 @@ monitorix
 munin-node
 nagiosgraph
 netsurf
+pcp
 perl-CGI-Application
 perl-CGI
 perl-HTML-FormatText-WithLinks-AndTables

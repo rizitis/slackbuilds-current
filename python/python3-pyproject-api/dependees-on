@@ -32,11 +32,13 @@ python3-basemap
 python3-cartopy
 python3-cartopy
 python3-cinemagoer
+python3-gds3xtrude
 python3-obspy
 python3-obspy
 python3-pyproj
 python3-pyproj
 python3-pyproject-api
+python3-solidpython
 python3-tox
 qgis
 qmapshack

@@ -28,7 +28,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 PRGNAM=kodi
 SRCNAM=xbmc
 CODNAM=Nexus
-VERSION=${VERSION:-20.1}
+VERSION=${VERSION:-20.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -90,8 +90,6 @@ find -L . \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
-
-patch -p1 < $CWD/kodi-20.1-gcc13.patch
 
 # Autodetection of "optional" dependencies sucks. It does not work and
 # compilation will fail on each of these if not explicitly disabled.

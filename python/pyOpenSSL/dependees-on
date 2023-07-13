@@ -1,8 +1,6 @@
-Scrapy
 butterfly
 deis
 deluge
-foolscap
 ftp-cloudfs
 gajim
 letsencrypt
@@ -10,8 +8,5 @@ ndg_httpsclient
 pyOpenSSL
 pyftpdlib
 sabnzbd
-service_identity
 sftp-cloudfs
-sslstrip
-tahoe-lafs
 w3af

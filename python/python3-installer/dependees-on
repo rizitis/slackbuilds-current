@@ -1,6 +1,5 @@
 BeautifulSoup4
 CairoSVG
-Electrum-DASH
 Electrum
 Kallithea
 OWSLib
@@ -8,7 +7,6 @@ OpenCobolIDE
 OpenLP
 PyGithub
 RYMTracks
-Scrapy
 Solaar
 Type1_to_OTF
 adapta-gtk-theme
@@ -34,6 +32,7 @@ caffeine-ng
 calcure
 certbot-dns-cloudflare
 codespell
+colored
 compiz-boxmenu
 conan
 cryptography
@@ -49,11 +48,12 @@ eyeD3
 fabric
 flexget
 font-manager
-foolscap
 freetype-py
 ftp-cloudfs
 gajim
+geopandas
 getfem
+gj2ascii
 gmdb2
 gnucash-docs
 gourmet
@@ -93,6 +93,7 @@ jupyterlab_server
 kallithea-frontend
 kicad
 kolorcontrol
+krop
 le
 letsencrypt
 locust
@@ -107,6 +108,7 @@ mypy
 mysql-workbench
 ndg_httpsclient
 neovim-remote
+nwg-displays
 nwg-panel
 nwg-shell-config
 nwg-shell
@@ -114,6 +116,7 @@ nwg-wrapper
 odoo
 paraview
 parsel
+pcp
 pdfarranger
 pelican
 persepolis
@@ -138,12 +141,14 @@ pylast
 pymysql
 pynacl
 pyquery
+pyresample
 pysass
 python-axolotl
 python-jeepney
 python-keyring
 python-mysql-replication
 python-qrcode
+python-sphinx-lv2-theme
 python2-cryptography
 python2-paramiko
 python2-requests-kerberos
@@ -189,6 +194,7 @@ python3-exceptiongroup
 python3-filelock
 python3-flit
 python3-flit_scm
+python3-gds3xtrude
 python3-gensim
 python3-glances
 python3-hatch-nodejs-version
@@ -227,9 +233,11 @@ python3-mdurl
 python3-mediafile
 python3-mir_eval
 python3-more-itertools
+python3-netcdf4-python
 python3-nltk
 python3-obspy
 python3-openpyxl
+python3-openstep-plist
 python3-paramiko
 python3-pathspec
 python3-pdm-backend
@@ -247,6 +255,7 @@ python3-pyls-spyder
 python3-pylyrics
 python3-pypandoc
 python3-pypng
+python3-pyproj
 python3-pyproject-api
 python3-pyproject-hooks
 python3-pytest-cov
@@ -264,7 +273,9 @@ python3-seaborn
 python3-service-identity
 python3-setuptools-opt
 python3-setuptools-rust-opt
+python3-shapely
 python3-shtab
+python3-solidpython
 python3-soupsieve
 python3-spyder-kernels
 python3-stack_data
@@ -286,6 +297,7 @@ python3-url-normalize
 python3-validators
 python3-virtualenv
 python3-wheel
+python3-xmldiff
 pytrainer
 qgis
 qtile
@@ -302,15 +314,13 @@ rpy2
 sabnzbd
 scikit-learn
 secretstorage
-service_identity
 sftp-cloudfs
 sigil
+slpkg
 speedometer
 spyder
-sslstrip
 subliminal
 swtpm
-tahoe-lafs
 tauonmb
 terminado
 testpath
@@ -323,6 +333,7 @@ toot
 traitlets
 trash-cli
 trelby
+ttfautohint-py
 twine
 typing-extensions
 tzdata

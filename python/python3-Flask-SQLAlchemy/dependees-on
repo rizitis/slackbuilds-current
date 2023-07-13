@@ -45,3 +45,4 @@ pytrainer
 slpkg
 sqlalchemy-migrate
 youtube-dl-server
+zope.sqlalchemy

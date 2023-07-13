@@ -2,3 +2,4 @@ Type1_to_OTF
 afdko
 python-fonttools
 python3-ufolib2
+ttfautohint-py

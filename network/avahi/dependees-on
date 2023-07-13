@@ -13,6 +13,7 @@ lxi-tools
 mod_dnssd
 nss-mdns
 obs-studio
+pcp
 sane-airscan
 shairplay
 sopcast-player

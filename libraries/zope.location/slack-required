@@ -1,6 +1,5 @@
 zope.interface
-zope.event
-zope.component
 zope.proxy
+zope.event
 zope.schema
 zope.location

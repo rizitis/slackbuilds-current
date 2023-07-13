@@ -47,6 +47,7 @@ perl-X11-Protocol-Other
 pkgconf
 putty
 python3-PyMuPDF
+python3-pdfCropMargins
 qTox
 qt6ct
 rosegarden

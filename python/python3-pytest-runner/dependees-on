@@ -1,6 +1,5 @@
 CairoSVG
 CairoSVG
-Scrapy
 apprise
 buildbot-badges
 buildbot-badges
@@ -28,6 +27,7 @@ jupyterlab
 jupyterlab
 jupyterlab_server
 jupyterlab_server
+nwg-displays
 nwg-panel
 nwg-shell
 nwg-wrapper
@@ -64,6 +64,7 @@ python3-mir_eval
 python3-mir_eval
 python3-obspy
 python3-obspy
+python3-openstep-plist
 python3-pytest-cov
 python3-pytest-runner
 python3-pytest-runner
@@ -83,3 +84,4 @@ qtile
 rpy2
 scikit-learn
 scikit-learn
+ttfautohint-py

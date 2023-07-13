@@ -3,7 +3,6 @@ CairoSVG
 OWSLib
 OpenLP
 RYMTracks
-Scrapy
 Type1_to_OTF
 adapta-gtk-theme
 afdko
@@ -57,11 +56,13 @@ jupyterlab
 jupyterlab_server
 lutris
 lxml
+nwg-displays
 nwg-panel
 nwg-shell
 nwg-wrapper
 odoo
 parsel
+pcp
 pdfarranger
 pikepdf
 piper
@@ -82,6 +83,7 @@ python3-cloudflare
 python3-comm
 python3-docker-compose
 python3-filelock
+python3-gds3xtrude
 python3-gensim
 python3-hatch-nodejs-version
 python3-hatch_fancy_pypi_readme
@@ -99,6 +101,7 @@ python3-matplotlib-inline
 python3-mir_eval
 python3-obspy
 python3-openpyxl
+python3-openstep-plist
 python3-plumbum
 python3-pylint-venv
 python3-pylyrics
@@ -111,6 +114,7 @@ python3-rfc3986_validator
 python3-rpyc
 python3-scipy
 python3-service-identity
+python3-solidpython
 python3-soupsieve
 python3-spyder-kernels
 python3-statsmodels
@@ -121,6 +125,7 @@ python3-twisted
 python3-ufolib2
 python3-uharfbuzz
 python3-virtualenv
+python3-xmldiff
 pytrainer
 qgis
 qtile
@@ -143,6 +148,7 @@ todoman
 toot
 traitlets
 trelby
+ttfautohint-py
 w3af
 xiphos
 xreader

@@ -1,9 +1,9 @@
 zope.interface
-zope.event
-zope.component
 zope.proxy
+zope.event
 zope.schema
 zope.location
 zope.i18nmessageid
-zope.configuration
+zope.hookable
+zope.component
 zope.security

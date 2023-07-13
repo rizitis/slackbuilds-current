@@ -1,6 +1,5 @@
 BeautifulSoup4
 CairoSVG
-Electrum-DASH
 Electrum
 Fiona
 GMT
@@ -10,7 +9,6 @@ OWSLib
 OpenCobolIDE
 OpenLP
 RYMTracks
-Scrapy
 Solaar
 Type1_to_OTF
 adapta-gtk-theme
@@ -32,6 +30,7 @@ calcure
 cdo
 certbot-dns-cloudflare
 codespell
+colored
 compiz-boxmenu
 deluge
 dropbox-python
@@ -46,7 +45,9 @@ gajim
 gdal
 geopandas
 geopandas
+geopandas
 getfem
+gj2ascii
 gj2ascii
 gmdb2
 gnucash-docs
@@ -88,6 +89,7 @@ jupyterlab_server
 kallithea-frontend
 kicad
 kolorcontrol
+krop
 letsencrypt
 libLAS
 libgeotiff
@@ -105,6 +107,7 @@ mutagen
 mypy
 mysql-workbench
 neovim-remote
+nwg-displays
 nwg-panel
 nwg-shell
 nwg-wrapper
@@ -117,6 +120,7 @@ ossim
 paraview
 paraview
 parsel
+pcp
 pdal
 pdfarranger
 pelican
@@ -143,10 +147,12 @@ pylast
 pyquery
 pyresample
 pyresample
+pyresample
 pysass
 python-jeepney
 python-keyring
 python-qrcode
+python-sphinx-lv2-theme
 python3-CherryMusic
 python3-CherryPy
 python3-Flask-Babel
@@ -189,6 +195,7 @@ python3-exceptiongroup
 python3-filelock
 python3-flit
 python3-flit_scm
+python3-gds3xtrude
 python3-gensim
 python3-glances
 python3-hatch-nodejs-version
@@ -225,11 +232,13 @@ python3-mdurl
 python3-mediafile
 python3-mir_eval
 python3-more-itertools
+python3-netcdf4-python
 python3-nltk
 python3-obspy
 python3-obspy
 python3-obspy
 python3-openpyxl
+python3-openstep-plist
 python3-pathspec
 python3-pdm-backend
 python3-pdm
@@ -245,6 +254,7 @@ python3-pylint
 python3-pyls-spyder
 python3-pylyrics
 python3-pypng
+python3-pyproj
 python3-pyproj
 python3-pyproj
 python3-pyproject-api
@@ -263,6 +273,8 @@ python3-seaborn
 python3-service-identity
 python3-setuptools-opt
 python3-setuptools-rust-opt
+python3-shapely
+python3-solidpython
 python3-soupsieve
 python3-spyder-kernels
 python3-statsmodels
@@ -282,6 +294,7 @@ python3-ujson
 python3-url-normalize
 python3-validators
 python3-virtualenv
+python3-xmldiff
 pytrainer
 qgis
 qgis
@@ -300,6 +313,7 @@ rpy2
 scikit-learn
 secretstorage
 sigil
+slpkg
 spatialite-tools
 speedometer
 spyder
@@ -319,6 +333,7 @@ toot
 traitlets
 trash-cli
 trelby
+ttfautohint-py
 twine
 typing-extensions
 tzdata

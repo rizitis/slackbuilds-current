@@ -9,6 +9,7 @@ libspatialite
 odoo
 osm2pgrouting
 osm2pgsql
+pcp
 pd-psql
 pdal
 perl-DBD-Pg

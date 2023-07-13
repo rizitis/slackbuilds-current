@@ -2,7 +2,6 @@ Free-Cinema
 OWSLib
 OpenLP
 RYMTracks
-Scrapy
 Type1_to_OTF
 adapta-gtk-theme
 afdko
@@ -22,6 +21,7 @@ lutris
 lxml
 odoo
 parsel
+pcp
 pdfarranger
 pikepdf
 piper
@@ -33,6 +33,7 @@ python3-cinemagoer
 python3-obspy
 python3-openpyxl
 python3-ufolib2
+python3-xmldiff
 pytrainer
 qgis
 radiotray
@@ -44,7 +45,6 @@ sigil
 textext
 thunar-custom-actions
 trelby
-variety
 w3af
 xiphos
 xreader

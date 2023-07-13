@@ -1,7 +1,6 @@
 Electrum
 OpenCobolIDE
 PyGithub
-Scrapy
 ansible
 boto
 buildbot-badges
@@ -16,7 +15,6 @@ deis
 deluge
 dfvfs
 fabric
-foolscap
 ftp-cloudfs
 gajim
 letsencrypt
@@ -42,13 +40,10 @@ python3-twisted
 routersploit
 sabnzbd
 secretstorage
-service_identity
 sftp-cloudfs
 sftp-cloudfs
 spyder
-sslstrip
 swtpm
-tahoe-lafs
 twine
 urlwatch
 w3af

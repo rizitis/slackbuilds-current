@@ -2,7 +2,6 @@ BeautifulSoup4
 OWSLib
 OpenLP
 RYMTracks
-Scrapy
 Type1_to_OTF
 adapta-gtk-theme
 afdko
@@ -37,6 +36,7 @@ lutris
 lxml
 odoo
 parsel
+pcp
 pdfarranger
 periscope
 pikepdf
@@ -52,6 +52,7 @@ python3-obspy
 python3-openpyxl
 python3-pylyrics
 python3-ufolib2
+python3-xmldiff
 pytrainer
 qgis
 radiotray

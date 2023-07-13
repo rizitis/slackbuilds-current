@@ -5,6 +5,7 @@ get_iplayer
 le
 libwww-perl
 monitorix
+pcp
 perl-HTTP-Cache-Transparent
 perl-HTTP-Proxy
 perl-LWP-Protocol-https

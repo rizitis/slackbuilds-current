@@ -1,7 +1,16 @@
 Kallithea
 et
+geopandas
+gj2ascii
 hg-git
 kallithea-frontend
+pyresample
+python3-basemap
+python3-cartopy
 python3-dulwich
+python3-netcdf4-python
+python3-obspy
+python3-pyproj
 python3-setuptools-opt
 python3-setuptools-rust-opt
+python3-shapely

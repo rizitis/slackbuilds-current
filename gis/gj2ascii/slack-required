@@ -14,5 +14,11 @@ rasterio
 python2-pbr
 munch
 Fiona
+python3-flit_core
+python3-installer
+python3-wheel
+python3-pyproject-hooks
+python3-build
+python3-setuptools-opt
 python3-shapely
 gj2ascii

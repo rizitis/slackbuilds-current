@@ -14,6 +14,7 @@ jupyter_events
 jupyter_server
 jupyterlab
 jupyterlab_server
+nwg-displays
 nwg-panel
 nwg-shell
 nwg-wrapper
@@ -30,6 +31,7 @@ python3-gensim
 python3-librosa
 python3-mir_eval
 python3-obspy
+python3-openstep-plist
 python3-pytest-cov
 python3-pytest-runner
 python3-pytest
@@ -43,3 +45,4 @@ python3-uharfbuzz
 qtile
 rpy2
 scikit-learn
+ttfautohint-py
