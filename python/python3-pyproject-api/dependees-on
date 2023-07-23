@@ -43,6 +43,7 @@ python3-tox
 qgis
 qmapshack
 rasterio
+sickchill
 spatialite-tools
 survex
 therion

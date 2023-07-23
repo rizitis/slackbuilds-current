@@ -41,6 +41,7 @@ deluge
 dfvfs
 dropbox-python
 dwave-neal
+epy
 et_xmlfile
 euca2ools
 exaile
@@ -315,6 +316,7 @@ sabnzbd
 scikit-learn
 secretstorage
 sftp-cloudfs
+sickchill
 sigil
 slpkg
 speedometer

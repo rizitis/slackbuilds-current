@@ -47,6 +47,7 @@ python3-flask-paginate
 python3-httpx
 python3-lsp-black
 rasterio
+sickchill
 spyder
 subliminal
 tauonmb

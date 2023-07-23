@@ -33,7 +33,6 @@ nwg-shell
 nwg-wrapper
 parsel
 pocketsphinx
-pocketsphinx
 ptwit
 pyCRAC
 pyCRAC
@@ -84,4 +83,5 @@ qtile
 rpy2
 scikit-learn
 scikit-learn
+sickchill
 ttfautohint-py

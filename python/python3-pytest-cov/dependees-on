@@ -21,7 +21,6 @@ nwg-shell
 nwg-wrapper
 parsel
 pocketsphinx
-pocketsphinx
 ptwit
 pyCRAC
 pylint
@@ -60,4 +59,5 @@ python3-uharfbuzz
 qtile
 rpy2
 scikit-learn
+sickchill
 ttfautohint-py

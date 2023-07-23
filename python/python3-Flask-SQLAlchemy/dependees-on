@@ -42,6 +42,7 @@ python3-ipython-sql
 python3-obspy
 python3-paginate_sqlalchemy
 pytrainer
+sickchill
 slpkg
 sqlalchemy-migrate
 youtube-dl-server

@@ -32,7 +32,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=qemu
-VERSION=${VERSION:-8.0.2}
+VERSION=${VERSION:-8.0.3}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -124,8 +124,6 @@ else
   with_slirp="--enable-slirp"
 fi
     
-patch -p1 < $CWD/qemu-8.0.0-disable-keymap.patch
-
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \

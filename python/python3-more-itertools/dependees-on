@@ -2,7 +2,6 @@ apprise
 dropbox-python
 flexget
 parsel
-pocketsphinx
 ptwit
 pylint
 pymux
@@ -24,3 +23,4 @@ python3-jaraco.text
 python3-more-itertools
 python3-portend
 python3-tempora
+sickchill
