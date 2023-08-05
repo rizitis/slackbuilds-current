@@ -1,4 +1,5 @@
 docker-cli
+docker-compose
 docker-machine-kvm
 docker-machine-kvm
 docker-machine

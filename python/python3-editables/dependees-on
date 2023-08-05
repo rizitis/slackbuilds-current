@@ -73,6 +73,7 @@ pyPEG2
 pylast
 pyquery
 pysass
+python-fonttools
 python3-Flask-RESTX
 python3-ase
 python3-autotiling
@@ -144,6 +145,7 @@ subliminal
 swtpm
 tauonmb
 terminado
+terminator
 textext
 thunar-custom-actions
 todoman

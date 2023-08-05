@@ -1,5 +1,9 @@
 CairoSVG
 CairoSVG
+Type1_to_OTF
+Type1_to_OTF
+afdko
+afdko
 apprise
 buildbot-badges
 buildbot-badges
@@ -43,6 +47,8 @@ pyte
 pyte
 pytest-cov
 pytest
+python-fonttools
+python-fonttools
 python2-keyutils
 python2-mccabe
 python2-pytest-runner
@@ -77,6 +83,7 @@ python3-scipy
 python3-statsmodels
 python3-statsmodels
 python3-ufolib2
+python3-ufolib2
 python3-uharfbuzz
 qtile
 qtile
@@ -84,4 +91,7 @@ rpy2
 scikit-learn
 scikit-learn
 sickchill
+terminator
+terminator
+ttfautohint-py
 ttfautohint-py

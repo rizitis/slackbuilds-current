@@ -1,7 +1,6 @@
 freealut
 libaec
 hdf5
-tbb
 dcmtk
 robin-map
 pybind11

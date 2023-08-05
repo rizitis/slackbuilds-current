@@ -1,5 +1,8 @@
+Type1_to_OTF
+afdko
 getfem
 pyCRAC
+python-fonttools
 python3-ase
 python3-cartopy
 python3-gensim
@@ -9,5 +12,7 @@ python3-obspy
 python3-pythran
 python3-scipy
 python3-statsmodels
+python3-ufolib2
 scikit-learn
+ttfautohint-py
 xsimd

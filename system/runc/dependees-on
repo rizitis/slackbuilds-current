@@ -1,6 +1,7 @@
 buildah
 containerd
 docker-cli
+docker-compose
 docker
 podman
 runc

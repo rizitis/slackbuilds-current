@@ -3,4 +3,6 @@ gi-docgen
 gnome-builder
 jsonrpc-glib
 python3-typogrify
+rest
+shotwell
 vala-language-server

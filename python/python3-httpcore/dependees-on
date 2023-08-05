@@ -1,7 +1,12 @@
 audible-cli
 audible
 eyeD3
+mailman
 pylast
+python3-authheaders
+python3-dkimpy
+python3-dnspython
 python3-httpcore
 python3-httpx
+python3-mailman
 tauonmb

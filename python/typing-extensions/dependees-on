@@ -1,5 +1,7 @@
 Electrum
 Kallithea
+Type1_to_OTF
+afdko
 buildbot-badges
 buildbot-worker
 buildbot
@@ -17,6 +19,7 @@ kallithea-frontend
 krop
 locust
 mypy
+python-fonttools
 python3-CherryMusic
 python3-CherryPy
 python3-PyPDF2
@@ -33,6 +36,7 @@ python3-jaraco.text
 python3-klein
 python3-librosa
 python3-lsp-black
+python3-mailman
 python3-pydantic
 python3-pylint-venv
 python3-pylint
@@ -45,5 +49,6 @@ python3-uharfbuzz
 spyder
 swtpm
 thonny
+ttfautohint-py
 typing-extensions
 vdirsyncer

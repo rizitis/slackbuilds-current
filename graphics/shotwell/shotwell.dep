@@ -1,3 +1,7 @@
+libadwaita
+gtksourceview5
+python-smartypants
+python3-typogrify
 rest
 unifdef
 xdg-dbus-proxy

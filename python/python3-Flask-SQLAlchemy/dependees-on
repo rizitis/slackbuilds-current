@@ -39,6 +39,7 @@ python3-alembic
 python3-cinemagoer
 python3-flask-paginate
 python3-ipython-sql
+python3-mailman
 python3-obspy
 python3-paginate_sqlalchemy
 pytrainer

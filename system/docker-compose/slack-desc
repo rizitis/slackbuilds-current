@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
               |-----handy-ruler------------------------------------------------------|
-docker-compose: docker-compose (multi-container orchestration for docker)
+docker-compose: docker-compose (Utility for running containers on Docker)
 docker-compose:
-docker-compose: Compose is a tool for defining and running multi-container Docker
-docker-compose: applications.  With Compose, you use a Compose file to configure your
-docker-compose: application's services.  Then, using a single command, you create and
-docker-compose: start all the services from your configuration.
+docker-compose: Docker Compose is a tool for running multi-container
+docker-compose: applications on Docker defined using the Compose file format. A
+docker-compose: Compose file is used to define how one or more containers that make
+docker-compose: up your application are configured. Once you have a Compose file, you
+docker-compose: can create and start your application with a single command: docker
+docker-compose: compose up.
 docker-compose:
 docker-compose: Homepage: https://docs.docker.com/compose/
-docker-compose:
-docker-compose:
 docker-compose:

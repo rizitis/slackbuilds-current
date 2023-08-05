@@ -1,4 +1,5 @@
 docker-buildx
 docker-cli
+docker-compose
 docker
 subuser

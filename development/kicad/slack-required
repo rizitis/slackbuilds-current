@@ -5,8 +5,7 @@ python3-pyproject-hooks
 python3-build
 python3-wheel
 python3-attrdict
-python2-scandir
-pathlib2
+python3-pathlib2
 unifdef
 xdg-dbus-proxy
 libwpe

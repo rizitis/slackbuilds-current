@@ -1,4 +1,6 @@
 CairoSVG
+Type1_to_OTF
+afdko
 apprise
 buildbot-badges
 dropbox-python
@@ -30,6 +32,7 @@ pyte
 pyte
 pytest-cov
 pytest
+python-fonttools
 python2-keyutils
 python2-mccabe
 python2-pytest-runner
@@ -57,4 +60,5 @@ qtile
 rpy2
 scikit-learn
 sickchill
+terminator
 ttfautohint-py

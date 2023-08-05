@@ -1,4 +1,6 @@
 CairoSVG
+Type1_to_OTF
+afdko
 buildbot-badges
 dropbox-python
 getfem
@@ -20,6 +22,7 @@ nwg-shell
 nwg-wrapper
 pocketsphinx
 pyCRAC
+python-fonttools
 python3-ase
 python3-autotiling
 python3-cairocffi
@@ -44,4 +47,5 @@ qtile
 rpy2
 scikit-learn
 sickchill
+terminator
 ttfautohint-py

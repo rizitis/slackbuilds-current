@@ -16,7 +16,7 @@ python3-iniconfig
 python3-pytest
 python3-pytest-runner
 python2-scandir
-pathlib2
+python2-pathlib2
 funcsigs
 python2-atomicwrites
 more-itertools

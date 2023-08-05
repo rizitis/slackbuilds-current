@@ -11,6 +11,8 @@ libfwsi
 libevtx
 libevt
 libesedb
+libcreg
+libcaes
 pytz
 zeromq
 python3-pyzmq
@@ -23,7 +25,6 @@ python3-psutil
 pefile
 python3-pkgconfig
 python3-lz4
-libcreg
 libregf
 dtfabric
 dfdatetime
@@ -31,11 +32,13 @@ dfwinreg
 python3-defusedxml
 python3-dateutil
 python3-bencode
+acstore
 artifacts
 xattr
 libvslvm
 libvshadow
 libvsgpt
+libvsapm
 libvmdk
 libvhdi
 pytsk
@@ -51,6 +54,7 @@ libfvde
 libfsxfs
 libfsntfs
 libfshfs
+libfsfat
 libfsext
 libfsapfs
 libewf

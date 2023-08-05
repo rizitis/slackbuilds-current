@@ -7,8 +7,13 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
+mailman
 pylast
 python3-anyio
+python3-authheaders
+python3-dkimpy
+python3-dnspython
 python3-httpcore
 python3-httpx
+python3-mailman
 tauonmb

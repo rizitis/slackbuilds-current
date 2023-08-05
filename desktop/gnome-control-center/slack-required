@@ -16,7 +16,7 @@ libwpe
 wpebackend-fdo
 bubblewrap
 webkit2gtk
-rest
+rest-legacy
 gnome-online-accounts
 gnome-color-manager
 gnome-bluetooth

@@ -3,7 +3,6 @@ pybind11
 opencolorio
 libaec
 hdf5
-tbb
 dcmtk
 robin-map
 openimageio

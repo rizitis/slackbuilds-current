@@ -1,7 +1,7 @@
 python-oauthlib
 requests-oauthlib
 python2-scandir
-pathlib2
+python2-pathlib2
 funcsigs
 python2-atomicwrites
 more-itertools

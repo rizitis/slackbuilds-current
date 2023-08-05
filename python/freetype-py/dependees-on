@@ -1,2 +1,7 @@
+Type1_to_OTF
+afdko
 et
 freetype-py
+python-fonttools
+python3-ufolib2
+ttfautohint-py

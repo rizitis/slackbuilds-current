@@ -2,6 +2,8 @@ FreeFem
 Kst
 MetaPhlAn2
 PyAMG
+Type1_to_OTF
+afdko
 arpack-ng
 arpack
 ceres-solver
@@ -28,6 +30,7 @@ metalwalls
 mpb
 octave
 pyCRAC
+python-fonttools
 python2-scipy
 python3-ase
 python3-cartopy
@@ -37,6 +40,7 @@ python3-mir_eval
 python3-obspy
 python3-scipy
 python3-statsmodels
+python3-ufolib2
 qrupdate
 scalapack
 scikit-learn
@@ -47,4 +51,5 @@ statsmodels
 suitesparse
 trilinos
 tstoolbox
+ttfautohint-py
 umfpack

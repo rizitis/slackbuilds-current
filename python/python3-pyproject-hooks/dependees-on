@@ -99,6 +99,7 @@ libspatialite
 locust
 lutris
 lxml
+mailman
 memory-profiler
 menulibre
 merkaartor
@@ -150,6 +151,7 @@ pyresample
 pyresample
 pyresample
 pysass
+python-fonttools
 python-jeepney
 python-keyring
 python-qrcode
@@ -162,10 +164,13 @@ python3-Flask-RESTX
 python3-PyPDF2
 python3-aiohttp-socks
 python3-aiohttp
+python3-aiosmtpd
 python3-ase
 python3-astroid
 python3-async-timeout
+python3-atpublic
 python3-attrdict
+python3-authheaders
 python3-autotiling
 python3-basemap
 python3-basemap
@@ -188,6 +193,8 @@ python3-comm
 python3-confuse
 python3-diff-match-patch
 python3-distlib
+python3-dkimpy
+python3-dnspython
 python3-docker-compose
 python3-docker
 python3-dulwich
@@ -196,6 +203,9 @@ python3-exceptiongroup
 python3-filelock
 python3-flit
 python3-flit_scm
+python3-flufl.bounce
+python3-flufl.i18n
+python3-flufl.lock
 python3-gds3xtrude
 python3-gensim
 python3-glances
@@ -225,6 +235,7 @@ python3-libtmux
 python3-lsp-black
 python3-lsp-jsonrpc
 python3-lsp-server
+python3-mailman
 python3-markdown-it-py
 python3-mat2
 python3-matplotlib-inline
@@ -242,6 +253,7 @@ python3-openpyxl
 python3-openstep-plist
 python3-pathspec
 python3-pdm-backend
+python3-pdm-pep517
 python3-pdm
 python3-plumbum
 python3-poetry-core
@@ -324,6 +336,7 @@ survex
 swtpm
 tauonmb
 terminado
+terminator
 testpath
 textext
 therion

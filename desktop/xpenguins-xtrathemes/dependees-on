@@ -22,7 +22,6 @@ grub_legacy
 gtklock-userinfo-module
 kicad
 krop
-leftwm
 libsidplay
 lilypond
 lvm2-lockd
@@ -51,6 +50,7 @@ qTox
 qt6ct
 rosegarden
 rsyslog
+sanoid
 scantailor-advanced
 skypeforlinux
 soci
@@ -68,6 +68,9 @@ vokoscreenNG
 wps-office-dicts
 wps-office
 xearth
+xfile
+ximaging
+xmrig
 xpe
 xpenguins-xtrathemes
 xpenguins-xtrathemes

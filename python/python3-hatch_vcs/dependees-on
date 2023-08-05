@@ -1,4 +1,6 @@
 CairoSVG
+Type1_to_OTF
+afdko
 anki
 buildbot-badges
 buildbot-worker
@@ -30,6 +32,7 @@ nwg-wrapper
 pocketsphinx
 pyCRAC
 pylast
+python-fonttools
 python3-Flask-RESTX
 python3-ase
 python3-autotiling
@@ -76,5 +79,6 @@ sickchill
 spyder
 swtpm
 tauonmb
+terminator
 todoman
 ttfautohint-py

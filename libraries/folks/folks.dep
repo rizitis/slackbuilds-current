@@ -6,7 +6,7 @@ wpebackend-fdo
 geoclue2
 bubblewrap
 webkit2gtk
-rest
+rest-legacy
 gnome-online-accounts
 uhttpmock
 libgdata

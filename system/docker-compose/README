@@ -1,7 +1,17 @@
-Compose is a tool for defining and running multi-container Docker
-applications.  With Compose, you use a Compose file to configure your
-application's services.  Then, using a single command, you create and
-start all the services from your configuration.
+Docker Compose v2 (Utility for running containers on Docker)
 
-Compose is great for development, testing, and staging environments, as
-well as CI workflows.
+Docker Compose is a tool for running multi-container applications on
+Docker defined using the Compose file format. A Compose file is used to
+define how one or more containers that make up your application are
+configured. Once you have a Compose file, you can create and start your
+application with a single command: docker compose up.
+
+Docker Compose V2 is a major version bump release of Docker Compose. It
+has been completely rewritten from scratch in Golang (V1 was in Python).
+The installation instructions for Compose V2 differ from V1. V2 is not a
+standalone binary anymore, and installation scripts will have to be
+adjusted. Some commands are different.
+
+Warning: This SlackBuild requires network access when it runs, meaning
+it downloads files from the Internet with root access. You should
+decide for yourself whether or not you think this is a good idea.

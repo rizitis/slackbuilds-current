@@ -34,7 +34,6 @@ invada_studio_plugins_lv2
 jalv
 kicad
 krop
-leftwm
 libsidplay
 lilv
 lilypond
@@ -75,8 +74,10 @@ python3-autotiling
 python3-pdfCropMargins
 qTox
 qt6ct
+qtractor
 rosegarden
 rsyslog
+sanoid
 scantailor-advanced
 skypeforlinux
 slv2
@@ -99,6 +100,9 @@ vokoscreenNG
 wps-office-dicts
 wps-office
 xearth
+xfile
+ximaging
+xmrig
 yabridge
 yoshimi
 zabbix_proxy

@@ -1,0 +1,10 @@
+python3-flit_core
+python3-installer
+python3-pyproject-hooks
+python3-build
+python3-pdm-pep517
+python3-wheel
+python3-psutil
+python3-pdm-backend
+python3-atpublic
+python3-flufl.lock
