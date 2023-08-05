@@ -3,15 +3,15 @@ This is a fork of ponce slackbuild-current repo (SBo-git)
 https://github.com/Ponce/slackbuilds
 
 All SlackBuilds files here are edited to include 
-```
+'''
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
-```
+'''
 A SLACKBUILDS.TXT file is here too. Also slack-required and $PRGNAM.dep files created if needed so all unofficial Slackware package managers can use this repo.
 
 If you want to use this kind of repo the best way is to maintain your own repo. 
-```
+'''
 https://github.com/rizitis/sqf2dep
-```
+'''
 Just run as root ./sqf2dep script ones a week (usually every weekend) and when it finish you will have your repo in /tmp/slackbuilds-current
