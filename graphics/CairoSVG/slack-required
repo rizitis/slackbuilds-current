@@ -2,11 +2,6 @@ python3-defusedxml
 python3-webencodings
 tinycss2
 cssselect2
-python3-flit_core
-python3-installer
-python3-wheel
-python3-pyproject-hooks
-python3-build
 python3-flit_scm
 python3-exceptiongroup
 python3-calver

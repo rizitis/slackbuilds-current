@@ -78,9 +78,6 @@ find -L . \
 python2 setup.py build --with-unicode-strings
 python2 setup.py install --skip-build --root=$PKG
 
-python3 setup.py build --with-unicode-strings
-python3 setup.py install --skip-build --root=$PKG
-
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
@@ -95,4 +92,4 @@ if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

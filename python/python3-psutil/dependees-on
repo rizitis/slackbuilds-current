@@ -2,7 +2,6 @@ Solaar
 flexget
 jupyter-ipykernel
 jupyter-notebook
-jupyter-qtconsole
 jupyter_console
 jupyterlab
 letsencrypt

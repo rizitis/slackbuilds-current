@@ -165,4 +165,4 @@ find -L . \
 # No stripping of binaries and such, as Firefox doesn't like naked acroread :D
 # Just build the package...  ;P
 /sbin/makepkg -p -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

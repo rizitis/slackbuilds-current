@@ -3,7 +3,7 @@ image-analyzer
 ipython
 jupyter-ipykernel
 jupyter-notebook
-jupyter-qtconsole
+jupyter-qtconsole.tmp
 jupyter_console
 jupyterlab
 kolorcontrol

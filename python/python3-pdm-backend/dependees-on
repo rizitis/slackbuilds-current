@@ -6,7 +6,7 @@ python3-atpublic
 python3-cacheyou
 python3-cacheyou
 python3-flufl.bounce
-python3-flufl.i18n
+python3-flufl.i18n.tmp
 python3-flufl.lock
 python3-mailman
 python3-pdm-backend

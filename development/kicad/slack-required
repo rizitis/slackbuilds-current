@@ -1,9 +1,4 @@
 wxWidgets
-python3-flit_core
-python3-installer
-python3-pyproject-hooks
-python3-build
-python3-wheel
 python3-attrdict
 python3-pathlib2
 unifdef

@@ -2,7 +2,7 @@ ipython
 jedi
 jupyter-ipykernel
 jupyter-notebook
-jupyter-qtconsole
+jupyter-qtconsole.tmp
 jupyter_console
 jupyterlab
 ptpython

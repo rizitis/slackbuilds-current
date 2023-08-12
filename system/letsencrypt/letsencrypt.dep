@@ -6,9 +6,6 @@ python3-augeas
 python-toml
 python3-semantic-version
 python3-setuptools-rust
-python3-flit_core
-python3-installer
-python3-wheel
 python3-asn1crypto
 python3-pyasn1
 cryptography
@@ -17,8 +14,6 @@ ndg_httpsclient
 werkzeug
 python3-configargparse
 python-parsedatetime
-python3-pyproject-hooks
-python3-build
 python3-psutil
 pyrfc3339
 zope.interface

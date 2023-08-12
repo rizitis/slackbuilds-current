@@ -45,7 +45,7 @@ jupyter-nbconvert
 jupyter-nbformat
 jupyter-notebook
 jupyter-notebook_shim
-jupyter-qtconsole
+jupyter-qtconsole.tmp
 jupyter_client
 jupyter_console
 jupyter_core
@@ -67,6 +67,7 @@ pdfarranger
 pikepdf
 piper
 pocketsphinx
+pre-commit
 pyCRAC
 pyPEG2
 pylast

@@ -1,2 +1,3 @@
 awscli
+mount-s3
 s3fs-fuse

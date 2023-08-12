@@ -2,10 +2,5 @@ python-discid
 python3-ruamel.yaml
 python3-pycdio
 musicbrainzngs
-python3-flit_core
-python3-installer
-python3-wheel
-python3-pyproject-hooks
-python3-build
 mutagen
 whipper

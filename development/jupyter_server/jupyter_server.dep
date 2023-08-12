@@ -2,11 +2,6 @@ python3-websocket-client
 python3-webcolors
 python3-uri_template
 python3-overrides
-python3-flit_core
-python3-installer
-python3-wheel
-python3-pyproject-hooks
-python3-build
 python3-dateutil
 python3-arrow
 python3-isoduration

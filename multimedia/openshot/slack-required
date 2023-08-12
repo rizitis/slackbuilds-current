@@ -1,5 +1,5 @@
 jack
-httplib2
+python3-httplib2
 libopenshot-audio
 unittest-cpp
 protobuf3

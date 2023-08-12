@@ -104,4 +104,4 @@ if [ "$1" = "--cleanup" ]; then
   rm -rf $TMP/$PRGNAM-$BASEVERS
   rm -rf $PKG
 fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

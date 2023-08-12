@@ -39,8 +39,7 @@ mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$SRCVERSION
 # Guess they're using 7-zip archives now.
-#unzip $CWD/$PRGNAM-$TARVERSION.zip
-7z x $CWD/$PRGNAM-$TARVERSION.7z
+bsdtar xvf $CWD/$PRGNAM-$TARVERSION.7z
 cd $PRGNAM-$SRCVERSION
 chown -R root:root .
 find -L . \
@@ -83,4 +82,4 @@ if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

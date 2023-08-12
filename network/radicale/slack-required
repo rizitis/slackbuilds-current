@@ -1,14 +1,9 @@
-python3-flit_core
-python3-installer
-python3-wheel
 python3-dateutil
 python2-setuptools-scm
 python2-dateutil
 vobject
 pytz
 python3-defusedxml
-python3-pyproject-hooks
-python3-build
 python-toml
 python3-semantic-version
 python3-setuptools-rust

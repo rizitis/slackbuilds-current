@@ -3,11 +3,6 @@ greenlet
 SQLAlchemy
 python3-ptyprocess
 python3-pexpect
-python3-flit_core
-python3-installer
-python3-wheel
-python3-pyproject-hooks
-python3-build
 python3-psutil
 python3-websockets
 pychess

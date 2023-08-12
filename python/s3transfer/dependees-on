@@ -1,4 +1,5 @@
 awscli
+mount-s3
 python3-boto3
 python3-gensim
 python3-smart_open

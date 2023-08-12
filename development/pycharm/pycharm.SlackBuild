@@ -26,8 +26,8 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=pycharm
 EDITION=community
-VERSION=${VERSION:-2023.1.4}
-BUILD_VERSION=${BUILD_VERSION:-231.9225.15}
+VERSION=${VERSION:-2023.2}
+BUILD_VERSION=${BUILD_VERSION:-232.8660.197}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -113,4 +113,4 @@ if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION.$BUILD_VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

@@ -1,23 +1,27 @@
-This is a fork of ponce slackbuild-current repo (SBo-git)
+SBo-git - slackbuilds repository for slackware-current
+- - -
 
-https://github.com/Ponce/slackbuilds
+this is an unofficial fork of master branch from slackbuilds.org's
+git repository (http://slackbuilds.org/cgit/slackbuilds/).
 
-All SlackBuilds files here are edited to include 
+here I put my unofficial mods to their slackbuilds to run on
+slackware-current with sbopkg (http://www.sbopkg.org).
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-if [ -f $CWD/$PRGNAM.dep ]; then cp $CWD/$PRGNAM.dep  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
+Check https://github.com/Ponce/slackbuilds/wiki for additional informations.
 
-A SLACKBUILDS.TXT file is here too. Also slack-required and $PRGNAM.dep files created if needed so all unofficial Slackware package managers can use this repo.
+See https://github.com/Ponce/slackbuilds/wiki/configuring-the-current-repository-with-sbopkg
+for instructions on how to use this repository with sbopkg.
 
-If you want to use this kind of repo the best way is to maintain your own repo. 
+original README from slackbuilds.org follows:
+---------------------------------------------
 
-https://github.com/rizitis/sqf2dep
+See https://slackbuilds.org/howto/ for instructions on 
+how to use the contents of this directory.
 
-Just run as root ./sqf2dep script ones a week (usually every weekend) and when it finish you will have your repo in /tmp/slackbuilds-current
-
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES 
-OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR 
-ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
-ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE
+Access is also available via:
+ rsync://slackbuilds.org/slackbuilds
+ https://git.slackbuilds.org/slackbuilds/
+ ftp://slackbuilds.org/
+ git://git.slackbuilds.org/slackbuilds.git
+ https://gitlab.com/SlackBuilds.org/slackbuilds
+ https://github.com/SlackBuildsOrg/slackbuilds

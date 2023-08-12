@@ -5,15 +5,10 @@ zope.component
 zope.schema
 zope.i18nmessageid
 zope.configuration
-python3-flit_core
-python3-installer
-python3-pyproject-hooks
-python3-build
 typing-extensions
 python3-lazr.delegates
 python3-lazr.config
 python3-pdm-pep517
-python3-wheel
 python3-psutil
 python3-pdm-backend
 python3-atpublic

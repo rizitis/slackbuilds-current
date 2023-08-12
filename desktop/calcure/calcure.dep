@@ -2,11 +2,6 @@ TatSu
 python3-dateutil
 python3-arrow
 python3-attrs
-python3-flit_core
-python3-installer
-python3-wheel
-python3-pyproject-hooks
-python3-build
 ics
 jdatetime
 korean_lunar_calendar

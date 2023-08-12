@@ -30,6 +30,7 @@ nwg-panel
 nwg-shell
 nwg-wrapper
 pocketsphinx
+pre-commit
 pyCRAC
 pylast
 python-fonttools
