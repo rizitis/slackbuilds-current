@@ -4,7 +4,7 @@ gtklock-userinfo-module
 ipython
 jupyter-ipykernel
 jupyter-notebook
-jupyter-qtconsole.tmp
+jupyter-qtconsole
 jupyter_console
 jupyterlab
 mugshot

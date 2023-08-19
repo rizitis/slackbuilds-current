@@ -45,7 +45,7 @@ jupyter-nbconvert
 jupyter-nbformat
 jupyter-notebook
 jupyter-notebook_shim
-jupyter-qtconsole.tmp
+jupyter-qtconsole
 jupyter_client
 jupyter_console
 jupyter_core

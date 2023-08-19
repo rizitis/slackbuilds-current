@@ -4,6 +4,7 @@ jupyter-nbclient
 jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
+jupyter-qtconsole
 jupyter_client
 jupyter_console
 jupyter_server

@@ -1,7 +1,7 @@
 ipython
 jupyter-ipykernel
 jupyter-notebook
-jupyter-qtconsole.tmp
+jupyter-qtconsole
 jupyter_console
 jupyterlab
 python3-ipython-sql
