@@ -7,5 +7,6 @@ Catch
 zeromq
 cppzmq
 libopenshot
+python3-setuptools-opt
 python3-pyzmq
 openshot

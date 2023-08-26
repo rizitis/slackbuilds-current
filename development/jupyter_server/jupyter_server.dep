@@ -48,6 +48,7 @@ python3-attrs
 python3-jsonschema
 jupyter-nbformat
 zeromq
+python3-setuptools-opt
 python3-pyzmq
 entrypoints
 jupyter_client

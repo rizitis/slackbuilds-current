@@ -31,6 +31,7 @@ python3-jsonschema
 jupyter-nbformat
 python3-tornado
 zeromq
+python3-setuptools-opt
 python3-pyzmq
 python3-dateutil
 entrypoints

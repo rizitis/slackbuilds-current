@@ -18,6 +18,7 @@ pangzero
 perl-Alien-SDL
 perl-Audio-FLAC-Header
 perl-CPANPLUS-Dist-Build
+perl-CPANPLUS-Dist-Slackware
 perl-Class-Factory-Util
 perl-Class-Mix
 perl-Class-ReturnValue
