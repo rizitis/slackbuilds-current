@@ -35,7 +35,7 @@ python3-routes
 python3-tgext.routes
 tzdata
 typing-extensions
-click-repl
+python3-click-repl
 click
 click-plugins
 python3-click-didyoumean

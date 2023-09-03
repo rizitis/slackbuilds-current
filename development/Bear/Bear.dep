@@ -1,4 +1,5 @@
 nlohmann_json
+Catch2
 spdlog
 gflags
 protobuf3

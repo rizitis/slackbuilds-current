@@ -1,4 +1,5 @@
 vips
+Catch2
 spdlog
 oneTBB
 nlohmann_json

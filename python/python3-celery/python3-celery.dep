@@ -1,7 +1,7 @@
 tzdata
 typing-extensions
 python3-dateutil
-click-repl
+python3-click-repl
 click
 click-plugins
 python3-click-didyoumean
