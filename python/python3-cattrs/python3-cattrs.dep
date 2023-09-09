@@ -2,4 +2,5 @@ python3-flit_scm
 python3-exceptiongroup
 python3-attrs
 python3-poetry-core
+typing-extensions
 python3-cattrs

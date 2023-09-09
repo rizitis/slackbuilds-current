@@ -3,6 +3,7 @@ python3-url-normalize
 python3-flit_scm
 python3-exceptiongroup
 python3-attrs
+typing-extensions
 python3-cattrs
 python3-platformdirs
 python3-requests-cache

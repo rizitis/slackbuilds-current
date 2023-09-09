@@ -11,7 +11,6 @@ zope.event
 zope.interface
 msgpack-python
 zeromq
-python3-setuptools-opt
 python3-pyzmq
 python3-Flask-Basicauth
 llhttp

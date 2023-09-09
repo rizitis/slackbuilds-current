@@ -14,6 +14,5 @@ rasterio
 python2-pbr
 munch
 Fiona
-python3-setuptools-opt
 python3-shapely
 gj2ascii

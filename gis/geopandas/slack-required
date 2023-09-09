@@ -1,6 +1,5 @@
 geos
 python3-numpy
-python3-setuptools-opt
 python3-shapely
 pytz
 python3-dateutil

@@ -1,0 +1,6 @@
+ink
+pelican
+python3-Flask-Mail
+python3-Flask-Principal
+python3-Flask-Security-Too
+python3-blinker

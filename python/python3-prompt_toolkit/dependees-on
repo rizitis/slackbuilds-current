@@ -5,7 +5,6 @@ jupyter-ipykernel
 jupyter-notebook
 jupyter-qtconsole
 jupyter_console
-jupyterlab
 kallithea-frontend
 prompt_toolkit
 ptpython

@@ -5,7 +5,6 @@ python3-urlobject
 python3-dateutil
 python3-paste
 python3-ipaddr
-python3-setuptools-opt
 python3-dulwich
 decorator
 python3-beaker

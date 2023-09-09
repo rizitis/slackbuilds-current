@@ -3,8 +3,8 @@ jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
-jupyterlab
-jupyterlab
+jupyterlab.tmp
+jupyterlab.tmp
 jupyterlab_pygments
 jupyterlab_server
 nts

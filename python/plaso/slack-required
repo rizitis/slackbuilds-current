@@ -15,7 +15,6 @@ libcreg
 libcaes
 pytz
 zeromq
-python3-setuptools-opt
 python3-pyzmq
 python3-psutil
 pefile

@@ -1,7 +1,6 @@
 configobj
 python2-numpy
 pykdtree
-python3-setuptools-opt
 proj
 python3-pyproj
 pyresample

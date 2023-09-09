@@ -2,6 +2,6 @@ jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook
 jupyter-notebook_shim
-jupyterlab
+jupyterlab.tmp
 pymux
 pyte

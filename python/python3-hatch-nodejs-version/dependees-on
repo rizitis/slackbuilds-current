@@ -8,7 +8,7 @@ jupyter-nbformat
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
-jupyterlab
+jupyterlab.tmp
 jupyterlab_server
 libdart
 python3-hatch-nodejs-version
