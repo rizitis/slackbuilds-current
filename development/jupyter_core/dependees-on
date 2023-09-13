@@ -10,7 +10,7 @@ jupyter_client
 jupyter_console
 jupyter_core
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 pymux
 pyte

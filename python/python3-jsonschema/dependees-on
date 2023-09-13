@@ -9,7 +9,7 @@ jupyter-notebook
 jupyter-notebook_shim
 jupyter_events
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 python3-Flask-RESTX
 python3-docker-compose

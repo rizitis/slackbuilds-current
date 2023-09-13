@@ -8,7 +8,7 @@ jupyter-qtconsole
 jupyter_client
 jupyter_console
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 locust
 openshot

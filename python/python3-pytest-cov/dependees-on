@@ -17,7 +17,7 @@ jupyter-notebook
 jupyter-notebook_shim
 jupyter_events
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 nwg-displays
 nwg-panel

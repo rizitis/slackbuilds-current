@@ -111,6 +111,7 @@ pdns-recursor
 pdns
 premake
 premake5
+prosody-mod-block-strangers
 prosody-mod-cloud-notify
 prosody-mod-filter-chatstates
 prosody-mod-http-upload

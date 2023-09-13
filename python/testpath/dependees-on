@@ -3,7 +3,7 @@ jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 spyder
 testpath

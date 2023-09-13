@@ -7,8 +7,8 @@ jupyter-notebook_shim
 jupyter_server
 jupyter_server
 jupyter_server_terminals
-jupyterlab.tmp
-jupyterlab.tmp
+jupyterlab
+jupyterlab
 jupyterlab_server
 jupyterlab_server
 pymux

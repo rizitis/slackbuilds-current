@@ -52,7 +52,7 @@ jupyter_core
 jupyter_events
 jupyter_server
 jupyter_server_terminals
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 le
 lutris
