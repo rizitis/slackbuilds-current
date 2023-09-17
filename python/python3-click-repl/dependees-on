@@ -49,6 +49,8 @@ python3-flask-paginate
 python3-httpx
 python3-lsp-black
 python3-mailman
+python3-pipx
+python3-userpath
 rasterio
 sickchill
 spyder

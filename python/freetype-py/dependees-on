@@ -3,5 +3,11 @@ afdko
 et
 freetype-py
 python-fonttools
+python3-cffsubr
+python3-compreffor
+python3-fontmake
+python3-fonttools
+python3-glyphslib
+python3-ufo2ft
 python3-ufolib2
 ttfautohint-py

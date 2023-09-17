@@ -1,6 +1,7 @@
 yt-dlp
 mujs
 lua
+luajit
 libplacebo
 libass
 mpv

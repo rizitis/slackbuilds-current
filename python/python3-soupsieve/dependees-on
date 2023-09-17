@@ -42,12 +42,16 @@ piper
 pyPEG2
 pyquery
 pysass
+python3-cffsubr
 python3-cinemagoer
 python3-cloudflare
+python3-fontmake
+python3-glyphslib
 python3-obspy
 python3-openpyxl
 python3-pylyrics
 python3-soupsieve
+python3-ufo2ft
 python3-ufolib2
 python3-xmldiff
 pytrainer

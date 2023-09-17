@@ -29,9 +29,13 @@ pyPEG2
 pyquery
 python2-BeautifulSoup4
 python2-soupsieve
+python3-cffsubr
 python3-cinemagoer
+python3-fontmake
+python3-glyphslib
 python3-obspy
 python3-openpyxl
+python3-ufo2ft
 python3-ufolib2
 python3-xmldiff
 pytrainer

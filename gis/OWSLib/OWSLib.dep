@@ -1,3 +1,5 @@
+pytz
+python3-dateutil
 python3-webencodings
 html5lib
 python-toml
@@ -14,6 +16,4 @@ python3-hatchling
 python3-soupsieve
 BeautifulSoup4
 lxml
-pytz
-python3-dateutil
 OWSLib

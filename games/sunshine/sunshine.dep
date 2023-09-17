@@ -1,0 +1,11 @@
+zulu-openjdk8
+nvidia-kernel
+nvidia-driver
+cudatoolkit
+intel-media-sdk
+numactl
+nose
+python2-django
+optional-django
+npm
+sunshine

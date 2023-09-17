@@ -41,7 +41,7 @@ lapack
 python3-scipy
 munkres
 python-unicodedata2
-python-fonttools
+python3-fonttools
 python3-attrs
 python3-poetry-core
 python3-cattrs

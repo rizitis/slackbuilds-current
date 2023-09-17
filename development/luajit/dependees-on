@@ -7,10 +7,12 @@ Tempus-Irae
 aegisub
 alephone
 ani-cli
+ani-cli
 arcan
 asc
 awesome
 boswars
+celluloid
 celluloid
 crawl
 crossfire-client
@@ -32,6 +34,7 @@ freeminer
 fs2open
 glestae
 haruna
+haruna
 hedgewars
 homm3_shareware_data
 homm3_shareware_data
@@ -39,6 +42,7 @@ imapfilter
 instead
 instead
 ion
+jellyfin-media-player
 jellyfin-media-player
 kaffeine-mozilla
 kaffeine
@@ -87,9 +91,12 @@ minetest
 minetest_game
 minetest_game
 minitube
+minitube
+mpv
 mpv
 mrrescue
 mrrescue
+musique
 musique
 neovim-qt
 neovim
@@ -134,6 +141,7 @@ sopcast-player
 stone_soup
 stratagus
 stremio
+stremio
 sysbench
 sysdig
 task
@@ -155,6 +163,7 @@ wireshark
 xmoto
 yarntown
 yarntown
+ytfzf
 ytfzf
 zbom
 zbom

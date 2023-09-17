@@ -1,6 +1,7 @@
 python3-urlobject
 python-oauthlib
 requests-oauthlib
+python3-blinker
 click
 python3-itsdangerous
 werkzeug

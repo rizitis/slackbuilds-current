@@ -1,6 +1,7 @@
 pysha3
 PySocks
 python3-pycrypto
+python3-blinker
 click
 python3-itsdangerous
 werkzeug

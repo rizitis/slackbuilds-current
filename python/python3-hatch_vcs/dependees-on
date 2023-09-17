@@ -29,6 +29,8 @@ nwg-displays
 nwg-panel
 nwg-shell
 nwg-wrapper
+pip2tgz
+pipdeptree
 pocketsphinx
 pre-commit
 pyCRAC
@@ -40,11 +42,16 @@ python3-autotiling
 python3-black
 python3-cairocffi
 python3-cartopy
+python3-cffsubr
 python3-cinemagoer
+python3-compreffor
 python3-docker-compose
 python3-filelock
+python3-fontmake
+python3-fonttools
 python3-gds3xtrude
 python3-gensim
+python3-glyphslib
 python3-hatch_vcs
 python3-iniconfig
 python3-jsonschema
@@ -54,6 +61,7 @@ python3-lsp-black
 python3-mir_eval
 python3-obspy
 python3-openstep-plist
+python3-pipx
 python3-plumbum
 python3-pylint-venv
 python3-pyproject-api
@@ -70,8 +78,10 @@ python3-statsmodels
 python3-tox
 python3-tubes
 python3-twisted
+python3-ufo2ft
 python3-ufolib2
 python3-uharfbuzz
+python3-userpath
 python3-virtualenv
 qtile
 rpy2

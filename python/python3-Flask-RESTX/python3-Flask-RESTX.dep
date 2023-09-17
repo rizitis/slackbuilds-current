@@ -10,6 +10,7 @@ python3-hatch_vcs
 python3-pyrsistent
 python3-attrs
 python3-jsonschema
+python3-blinker
 click
 python3-itsdangerous
 werkzeug

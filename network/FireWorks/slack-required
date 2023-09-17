@@ -3,6 +3,7 @@ python2-setuptools-scm
 tqdm
 python3-ruamel.yaml
 gunicorn
+python3-blinker
 click
 python3-itsdangerous
 werkzeug

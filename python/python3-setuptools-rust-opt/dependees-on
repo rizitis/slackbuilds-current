@@ -32,6 +32,8 @@ python3-Flask-Bcrypt
 python3-autobahn
 python3-bcrypt
 python3-klein
+python3-maturin
+python3-orjson
 python3-paramiko
 python3-service-identity
 python3-setuptools-rust-opt

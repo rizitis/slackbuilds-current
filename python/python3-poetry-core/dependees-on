@@ -24,6 +24,8 @@ python3-beekeeper-alt
 python3-cattrs
 python3-dkimpy
 python3-dnspython
+python3-fontmake
+python3-glyphslib
 python3-httpx
 python3-kodipydent
 python3-libtmux
