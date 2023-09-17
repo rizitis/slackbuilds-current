@@ -20,7 +20,6 @@ process_build_script() {
     TAG=$(awk -F= '/^TAG=/{print $2}' "$build_script")
     PKGTYPE=$(awk -F= '/^PKGTYPE=/{print $2}' "$build_script")
     DEPON="$(cat "$directory"/dependees-on | tr '\n' ' ')"
-   
 
     echo "PRGNAM: $PRGNAM" >> "$OUTPUT_FILE"
     echo "VERSION: $VERSION" >> "$OUTPUT_FILE"
@@ -45,7 +44,7 @@ process_directory() {
             fi
   done  
     
-    echo "INFO:" >> "$OUTPUT_FILE"
+    echo "$PRGNAM""-INFO" >> "$OUTPUT_FILE"
     cat "$directory/$PRGNAM.info" >> "$OUTPUT_FILE"
     echo " " >> "$OUTPUT_FILE"
     
