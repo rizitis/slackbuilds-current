@@ -10,7 +10,7 @@ OUTPUT_FILE="BUILDS.TXT"
 
 date +"%H:%M:%S %d-%m-%y" >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
-
+echo "REPOTAG=SBo" >> "$OUTPUT_FILE"
 process_build_script() {
     local build_script="$1"
     
