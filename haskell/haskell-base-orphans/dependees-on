@@ -90,5 +90,6 @@ haskell-xml-conduit
 haskell-yaml
 haskell-zeromq4-haskell
 pandoc
+phan.tmp
 xmobar
 xmonad-contrib

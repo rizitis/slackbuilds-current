@@ -2,6 +2,7 @@ Electrum
 OpenCobolIDE
 PyGithub
 ansible
+blink-qt
 buildbot-badges
 buildbot-worker
 buildbot
@@ -27,8 +28,12 @@ python-mysql-replication
 python2-requests-kerberos
 python3-autobahn
 python3-klein
+python3-otr
 python3-paramiko
+python3-pdfminer.six
 python3-service-identity
+python3-sipclients3
+python3-sipsimple
 python3-tubes
 python3-twisted
 sabnzbd

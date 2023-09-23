@@ -1,0 +1,16 @@
+perl-Module-Build
+perl-File-Remove
+perl-YAML-Tiny
+perl-Module-Install
+perl-Test-Requires
+perl-crypt-dh-gmp
+perl-Math-GMPz
+perl-Math-GMPq
+perl-Math-MPFR
+perl-Math-MPC
+perl-Math-BigInt-GMP
+perl-digest-sha1
+perl-Crypt-CBC
+perl-Crypt-Blowfish
+perl-Curses
+icbm

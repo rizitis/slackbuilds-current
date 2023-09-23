@@ -1,2 +1,13 @@
+beets
+flexget
+jellyfish
+python3-CherryMusic
+python3-CherryPy
+python3-inflect
+python3-jaraco.collections
+python3-jaraco.text
 python3-maturin
 python3-orjson
+python3-pydantic-core
+python3-pydantic
+spyder

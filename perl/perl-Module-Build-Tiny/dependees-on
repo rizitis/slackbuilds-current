@@ -8,6 +8,7 @@ findimagedupes
 frozen-bubble
 gnupod
 gscan2pdf
+icbm
 kicad-doc
 le
 mbuffer
@@ -132,6 +133,7 @@ perl-XML-TreeBuilder
 perl-XS-Parse-Keyword
 perl-ZMQ-Constants
 perl-aliased
+perl-crypt-dh-gmp
 perl-data-messagepack
 perl-data-messagepack
 perl-file-basedir

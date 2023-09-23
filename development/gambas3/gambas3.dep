@@ -1,2 +1,13 @@
 # %README%: see the gambas3 README file. 
+imlib
+unifdef
+xdg-dbus-proxy
+libwpe
+wpebackend-fdo
+geoclue2
+bubblewrap
+webkit2gtk
+pangox-compat
+gtkglext
+alure
 gambas3

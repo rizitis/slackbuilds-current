@@ -6,6 +6,7 @@ fbrowse-tray
 findimagedupes
 frozen-bubble
 gnupod
+icbm
 kicad-doc
 le
 mbuffer
@@ -104,6 +105,7 @@ perl-XML-SAX-Writer
 perl-XML-TreeBuilder
 perl-XS-Parse-Keyword
 perl-ZMQ-Constants
+perl-crypt-dh-gmp
 perl-data-messagepack
 perl-data-messagepack
 perl-file-basedir

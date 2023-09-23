@@ -1,4 +1,5 @@
 buildah
 go-md2man
+go.tmp
 podman
 skopeo

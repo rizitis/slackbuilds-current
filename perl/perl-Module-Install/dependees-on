@@ -1,6 +1,7 @@
 ClusterSSH
 findimagedupes
 gnupod
+icbm
 le
 perl-Audio-FLAC-Header
 perl-Class-ReturnValue
@@ -32,6 +33,7 @@ perl-TryCatch
 perl-WWW-Curl
 perl-XML-SAX-Writer
 perl-ZMQ-Constants
+perl-crypt-dh-gmp
 remotebox
 shutter
 twapake

@@ -4,3 +4,4 @@ kallithea-frontend
 kallithea-frontend
 python3-paginate_sqlalchemy
 python3-paginate_sqlalchemy
+sqlalchemy.tmp

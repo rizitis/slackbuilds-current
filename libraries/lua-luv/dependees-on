@@ -63,6 +63,7 @@ luarocks
 luasec
 luasocket
 lunatic-python
+luv.tmp
 lxi-tools
 marathon-data
 marathon-eternal-data

@@ -1,0 +1,10 @@
+python3-gmpy2
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+python3-asn1crypto
+python3-pyasn1
+cryptography
+zope.interface
+python3-application
+python3-otr

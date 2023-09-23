@@ -2,6 +2,7 @@ boto
 conan
 fabric
 mysql-workbench
+paramiko.tmp
 python2-paramiko
 routersploit
 sftp-cloudfs

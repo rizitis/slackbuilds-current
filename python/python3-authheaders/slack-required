@@ -2,6 +2,13 @@ python3-publicsuffix2
 python3-h11
 python3-sniffio
 python3-anyio
+python3-calver
+python3-trove-classifiers
+python3-pluggy
+python3-pathspec
+python3-editables
+python3-hatchling
+python3-hatch_fancy_pypi_readme
 python3-httpcore
 python3-flit_scm
 python3-exceptiongroup

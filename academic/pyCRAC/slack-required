@@ -23,7 +23,6 @@ pybind11
 blas
 lapack
 python3-scipy
-htslib
 pysam
 novocraft
 tbb

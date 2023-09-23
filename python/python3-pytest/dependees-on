@@ -37,6 +37,7 @@ python2-keyutils
 python2-mccabe
 python2-pytest-runner
 python2-twitter
+python3-aksharamukha
 python3-ase
 python3-autotiling
 python3-cairocffi

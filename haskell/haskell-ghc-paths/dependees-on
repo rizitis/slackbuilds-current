@@ -186,6 +186,7 @@ haskell-lifted-base
 haskell-logict
 haskell-lpeg
 haskell-lua
+haskell-lukko
 haskell-memory
 haskell-microlens-mtl
 haskell-microlens-th

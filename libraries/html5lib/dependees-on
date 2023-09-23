@@ -6,6 +6,7 @@ Type1_to_OTF
 adapta-gtk-theme
 afdko
 arc-theme
+blink-qt
 buku
 compiz-boxmenu
 dolphin-emu
@@ -33,12 +34,15 @@ pikepdf
 piper
 pyPEG2
 pyquery
+python3-aksharamukha
 python3-cffsubr
 python3-cinemagoer
 python3-fontmake
 python3-glyphslib
 python3-obspy
 python3-openpyxl
+python3-sipclients3
+python3-sipsimple
 python3-ufo2ft
 python3-ufolib2
 python3-xmldiff

@@ -3,6 +3,7 @@ csync
 dbus-cpp
 egypt
 ffmpegfs
+graphviz.tmp
 libjxl
 libkml
 log4c

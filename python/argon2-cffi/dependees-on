@@ -4,6 +4,7 @@ boto
 cffi
 conan
 fabric
+go.tmp
 jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook_shim

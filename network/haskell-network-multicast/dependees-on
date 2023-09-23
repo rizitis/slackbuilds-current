@@ -23,5 +23,6 @@ haskell-socks
 haskell-streaming-commons
 haskell-tls
 haskell-xml-conduit
+mu.tmp
 pandoc
 xmobar

@@ -2,6 +2,7 @@ CairoSVG
 Type1_to_OTF
 afdko
 anki
+blink-qt
 buildbot-badges
 buildbot-worker
 buildbot
@@ -37,6 +38,7 @@ pyCRAC
 pylast
 python-fonttools
 python3-Flask-RESTX
+python3-aksharamukha
 python3-ase
 python3-autotiling
 python3-black
@@ -73,6 +75,8 @@ python3-rfc3986_validator
 python3-rpyc
 python3-scipy
 python3-service-identity
+python3-sipclients3
+python3-sipsimple
 python3-solidpython
 python3-statsmodels
 python3-tox

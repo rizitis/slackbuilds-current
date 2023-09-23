@@ -6,6 +6,8 @@ ansible
 audible-cli
 audible
 awscli
+blink-qt
+blink-qt
 buildbot-badges
 buildbot-badges
 buildbot-worker
@@ -30,6 +32,7 @@ odoo
 odoo
 plaso
 pyOpenSSL
+pyasn1-modules.tmp
 pyftpdlib
 pyjwt
 pymysql
@@ -42,12 +45,18 @@ python3-klein
 python3-klein
 python3-ldap
 python3-ldap
+python3-otr
 python3-paramiko
+python3-pdfminer.six
 python3-pyasn1-modules
 python3-pyasn1-modules
 python3-rsa
 python3-service-identity
 python3-service-identity
+python3-sipclients3
+python3-sipclients3
+python3-sipsimple
+python3-sipsimple
 python3-tubes
 python3-tubes
 python3-twisted

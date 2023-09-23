@@ -120,6 +120,8 @@ jupyter-nbclient
 python3-defusedxml
 bleach
 jupyter-nbconvert
+python3-setuptools-rust-opt
+python3-maturin
 jellyfish
 pycodestyle
 flake8

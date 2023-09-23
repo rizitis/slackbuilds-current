@@ -18,6 +18,8 @@ arc-theme
 archmage
 audible-cli
 audible
+blink-qt
+blink-qt
 buku
 certbot-dns-cloudflare
 compiz-boxmenu
@@ -76,6 +78,8 @@ pysass
 pysub-dl
 python2-BeautifulSoup4
 python2-tvrage
+python3-aksharamukha
+python3-aksharamukha
 python3-cffsubr
 python3-cffsubr
 python3-cinemagoer
@@ -90,6 +94,10 @@ python3-obspy
 python3-openpyxl
 python3-openpyxl
 python3-pylyrics
+python3-sipclients3
+python3-sipclients3
+python3-sipsimple
+python3-sipsimple
 python3-ufo2ft
 python3-ufo2ft
 python3-ufolib2

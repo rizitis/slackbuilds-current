@@ -10,6 +10,7 @@ arc-theme
 archmage
 audible-cli
 audible
+blink-qt
 buku
 certbot-dns-cloudflare
 compiz-boxmenu
@@ -42,6 +43,7 @@ piper
 pyPEG2
 pyquery
 pysass
+python3-aksharamukha
 python3-cffsubr
 python3-cinemagoer
 python3-cloudflare
@@ -50,6 +52,8 @@ python3-glyphslib
 python3-obspy
 python3-openpyxl
 python3-pylyrics
+python3-sipclients3
+python3-sipsimple
 python3-soupsieve
 python3-ufo2ft
 python3-ufolib2
@@ -63,6 +67,7 @@ relatorio
 routersploit
 sickchill
 sigil
+soupsieve.tmp
 spyder
 subliminal
 tauonmb

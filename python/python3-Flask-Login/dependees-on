@@ -1,4 +1,3 @@
-EarthReader-Web
 FireWorks
 Flask-Gravatar
 Flask-HTMLmin
@@ -25,5 +24,6 @@ python3-Flask-Security-Too
 python3-Flask-Security-Too
 python3-Flask-WTF
 python3-Flask-httpauth
+python3-aksharamukha
 python3-flask-paginate
 youtube-dl-server

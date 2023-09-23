@@ -1,6 +1,7 @@
 CairoSVG
 Type1_to_OTF
 afdko
+blink-qt
 buildbot-badges
 dropbox-python
 getfem
@@ -24,6 +25,7 @@ nwg-wrapper
 pocketsphinx
 pyCRAC
 python-fonttools
+python3-aksharamukha
 python3-ase
 python3-authheaders
 python3-autotiling
@@ -53,6 +55,8 @@ python3-pythran
 python3-requests-cache
 python3-rfc3986_validator
 python3-scipy
+python3-sipclients3
+python3-sipsimple
 python3-statsmodels
 python3-ufo2ft
 python3-ufolib2
