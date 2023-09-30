@@ -49,7 +49,7 @@ pyusb
 ofxparse
 python3-sgmllib3k
 feedparser
-passlib
+python3-passlib
 postgresql
 python3-psycopg2
 odoo

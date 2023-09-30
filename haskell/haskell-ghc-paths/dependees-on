@@ -164,6 +164,7 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-http-types
+haskell-http
 haskell-hxt-charproperties
 haskell-hxt-regex-xmlschema
 haskell-hxt-unicode
@@ -200,7 +201,6 @@ haskell-monad-logger
 haskell-monad-loops
 haskell-monads-tf
 haskell-mono-traversable
-haskell-mtl
 haskell-multipart
 haskell-nats
 haskell-network-bsd

@@ -1,5 +1,7 @@
+python-toml
+importlib-resources
 email-validator
-passlib
+python3-passlib
 python3-WTForms
 python3-blinker
 click

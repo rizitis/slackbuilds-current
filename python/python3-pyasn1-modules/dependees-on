@@ -32,7 +32,6 @@ odoo
 odoo
 plaso
 pyOpenSSL
-pyasn1-modules.tmp
 pyftpdlib
 pyjwt
 pymysql

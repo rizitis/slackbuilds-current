@@ -41,7 +41,7 @@ SQLAlchemy
 python3-alembic
 python3-attrs
 python3-aiosmtpd
-passlib
+python3-passlib
 python-toml
 importlib-resources
 gunicorn

@@ -15,7 +15,7 @@ cryptography
 pyjwt
 cfgparse
 colorama
-passlib
+python2-passlib
 simplejson
 python2-PyYAML
 python2-pyasn1

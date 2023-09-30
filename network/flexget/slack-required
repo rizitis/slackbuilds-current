@@ -1,3 +1,7 @@
+python3-brotlicffi
+python-toml
+importlib-resources
+CommonMark
 colorama
 python3-psutil
 tzdata
@@ -7,7 +11,7 @@ python3-mdurl
 python3-markdown-it-py
 python3-poetry-core
 python3-rich
-python3-zxcvbn-python
+python3-zxcvbn
 python3-blinker
 click
 python3-itsdangerous

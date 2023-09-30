@@ -10,6 +10,7 @@ haskell-hpack
 haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
+haskell-http
 haskell-iproute
 haskell-monad-logger
 haskell-network-bsd
@@ -23,6 +24,5 @@ haskell-socks
 haskell-streaming-commons
 haskell-tls
 haskell-xml-conduit
-mu.tmp
 pandoc
 xmobar
