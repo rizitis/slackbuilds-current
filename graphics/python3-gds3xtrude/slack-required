@@ -3,7 +3,6 @@ OpenCSG
 CGAL
 openscad
 klayout
-python3-platformdirs
 python3-calver
 python3-trove-classifiers
 python3-pluggy
@@ -11,6 +10,7 @@ python3-pathspec
 python3-editables
 python3-hatchling
 python3-hatch_vcs
+python3-platformdirs
 python3-filelock
 python3-distlib
 python3-virtualenv

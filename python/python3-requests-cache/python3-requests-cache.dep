@@ -5,5 +5,12 @@ python3-exceptiongroup
 python3-attrs
 typing-extensions
 python3-cattrs
+python3-calver
+python3-trove-classifiers
+python3-pluggy
+python3-pathspec
+python3-editables
+python3-hatchling
+python3-hatch_vcs
 python3-platformdirs
 python3-requests-cache

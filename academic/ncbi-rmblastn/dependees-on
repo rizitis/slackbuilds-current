@@ -6,6 +6,7 @@ MetaPhlAn2
 PyAMG
 RepeatMasker
 Type1_to_OTF
+ViennaRNA
 afdko
 arpack-ng
 arpack
@@ -29,6 +30,7 @@ lapacke
 levmar
 libROM
 libcint
+locarna
 meep
 meshlab
 metalwalls

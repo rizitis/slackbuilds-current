@@ -9,6 +9,7 @@ zeromq
 python3-pyzmq
 python3-dateutil
 nest_asyncio
+python3-hatch_vcs
 python3-platformdirs
 decorator
 traitlets

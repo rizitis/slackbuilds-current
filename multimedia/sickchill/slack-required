@@ -52,8 +52,8 @@ python3-markdown2
 python-jsonrpclib
 python3-poetry-core
 python3-validators
-python3-platformdirs
 python3-hatch_vcs
+python3-platformdirs
 python3-filelock
 python3-distlib
 python3-virtualenv

@@ -13,10 +13,13 @@ zeromq
 python3-pyzmq
 python3-dateutil
 nest_asyncio
+python3-hatch_vcs
 python3-platformdirs
 jupyter_core
 entrypoints
 jupyter_client
+python3-flit_scm
+python3-exceptiongroup
 typing-extensions
 python3-pure_eval
 python3-executing
@@ -67,7 +70,6 @@ jupyterlab_pygments
 python3-hatch-nodejs-version
 python3-fastjsonschema
 python3-hatch_fancy_pypi_readme
-python3-hatch_vcs
 python3-pyrsistent
 python3-attrs
 python3-jsonschema
@@ -77,8 +79,6 @@ jupyter-nbclient
 python3-defusedxml
 bleach
 jupyter-nbconvert
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-pytest-runner

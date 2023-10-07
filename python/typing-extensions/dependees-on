@@ -66,6 +66,7 @@ python3-setuptools-scm-opt
 python3-sipclients3
 python3-sipsimple
 python3-spyder-kernels
+python3-statsmodels
 python3-tempora
 python3-tubes
 python3-twisted

@@ -3,6 +3,8 @@ Kst
 MetaPhlAn2
 PyAMG
 Type1_to_OTF
+ViennaRNA
+ViennaRNA
 afdko
 arpack-ng
 arpack
@@ -26,6 +28,8 @@ lapacke
 lapacke
 levmar
 libROM
+locarna
+locarna
 meep
 meshlab
 metalwalls

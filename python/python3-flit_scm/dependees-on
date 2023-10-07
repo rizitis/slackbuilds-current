@@ -9,9 +9,13 @@ i3-layouts
 i3expo-ng
 i3ipc
 image-analyzer
+ipython
+jupyter-ipykernel
 jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook_shim
+jupyter-qtconsole
+jupyter_console
 jupyter_events
 jupyter_server
 jupyterlab
@@ -43,6 +47,7 @@ python3-fontmake
 python3-fonttools
 python3-gensim
 python3-glyphslib
+python3-ipython-sql
 python3-librosa
 python3-mailman
 python3-mir_eval
@@ -58,6 +63,7 @@ python3-rfc3986_validator
 python3-scipy
 python3-sipclients3
 python3-sipsimple
+python3-spyder-kernels
 python3-statsmodels
 python3-ufo2ft
 python3-ufolib2
@@ -67,5 +73,6 @@ qtile
 rpy2
 scikit-learn
 sickchill
+spyder
 terminator
 ttfautohint-py

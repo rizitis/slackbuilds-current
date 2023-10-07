@@ -25,6 +25,10 @@ python3-scipy
 python3-joblib
 scikit-learn
 python3-platformdirs
+python3-pyproject-metadata
+python3-mesonpy
+python3-versioneer
+tzdata
 pytz
 python3-dateutil
 python3-pandas
@@ -56,8 +60,6 @@ python3-parso
 python3-jedi
 ipython
 python3-tornado
-cppy
-python3-kiwisolver
 python3-cycler
 python3-matplotlib
 python3-lazy_loader

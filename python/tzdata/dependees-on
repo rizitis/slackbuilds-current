@@ -1,5 +1,13 @@
 Kallithea
 flexget
+geopandas
 kallithea-frontend
+pyCRAC
 python3-celery
+python3-librosa
+python3-pandas
+python3-pooch
+python3-seaborn
+python3-statsmodels
+python3-xarray
 tzdata

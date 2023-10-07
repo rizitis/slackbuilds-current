@@ -38,13 +38,13 @@ python3-mistune
 jupyterlab_pygments
 nest_asyncio
 python3-hatch-nodejs-version
+python3-hatch_vcs
 python3-platformdirs
 decorator
 traitlets
 jupyter_core
 python3-fastjsonschema
 python3-hatch_fancy_pypi_readme
-python3-hatch_vcs
 python3-pyrsistent
 python3-attrs
 python3-jsonschema

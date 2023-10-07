@@ -1,11 +1,12 @@
-libjcat
 python-smartypants
 python3-typogrify
 python-toml
 protobuf3
 protobuf-c
+pefile
 libsmbios
-gcab
 libgusb
 libxmlb
+libjcat
+gcab
 fwupd
