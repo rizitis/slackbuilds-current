@@ -6,7 +6,7 @@ git repository (http://slackbuilds.org/cgit/slackbuilds/).
 
 This repository updated every weekend following ponce updates.
 You can use it to provide binaries with package.dep if your package manager need them.
-or you can use it as local repo and build using `slapt-src`, in a Slackware current system.
+or you can use it as local repo and build using `slapt-src`, in a Slackware current system or Slackware current based distros.
 ### slapt-src
 To use it with `slapt-src` clone repo someware locally and edit `/etc/slapt-get/slapt-srcrc` like this, assuming you clone repo to `/tmp`
 ```
