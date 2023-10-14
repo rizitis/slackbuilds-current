@@ -2,6 +2,12 @@ python-toml
 importlib-resources
 email-validator
 python3-passlib
+python3-calver
+python3-trove-classifiers
+python3-pluggy
+python3-pathspec
+python3-editables
+python3-hatchling
 python3-WTForms
 python3-blinker
 click

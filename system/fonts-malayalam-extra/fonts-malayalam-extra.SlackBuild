@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Slackware build script for DateTime
+# Slackware build script for fonts-malayalam-extra
 
-# Copyright 2014-2017  Dimitris Zlatanidis  Orestiada, Greece
+# Copyright 2023 Vijay Marcel
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -24,23 +24,13 @@
 
 cd $(dirname $0) ; CWD=$(pwd)
 
-PRGNAM=DateTime
-VERSION=${VERSION:-4.2}
+PRGNAM=fonts-malayalam-extra
+VERSION=${VERSION:-1.1}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
+ARCH=noarch
 
-if [ -z "$ARCH" ]; then
-  case "$( uname -m )" in
-    i?86) ARCH=i586 ;;
-    arm*) ARCH=arm ;;
-       *) ARCH=$( uname -m ) ;;
-  esac
-fi
-
-# If the variable PRINT_PACKAGE_NAME is set, then this script will report what
-# the name of the created package would be, and then exit. This information
-# could be useful to other scripts.
 if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
   echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
   exit 0
@@ -50,21 +40,8 @@ TMP=${TMP:-/tmp/SBo}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
-if [ "$ARCH" = "i586" ]; then
-  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
-  LIBDIRSUFFIX=""
-elif [ "$ARCH" = "i686" ]; then
-  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
-  LIBDIRSUFFIX=""
-elif [ "$ARCH" = "x86_64" ]; then
-  SLKCFLAGS="-O2 -fPIC"
-  LIBDIRSUFFIX="64"
-else
-  SLKCFLAGS="-O2"
-  LIBDIRSUFFIX=""
-fi
-
 set -e
+trap 'echo "$0 FAILED at line $LINENO!" | tee -a  $OUTPUT/error-${PRGNAM}.log' ERR
 
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
@@ -79,17 +56,33 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-python setup.py install --root=$PKG
+mkdir -pv $PKG/usr/share/fonts/{TTF,OTF}
 
-find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
-  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
+find $TMP/$PRGNAM-$VERSION/OTF/ -name '*.otf' -type f -exec install -D -m0644 -v {} -t $PKG/usr/share/fonts/OTF \;
+
+find $TMP/$PRGNAM-$VERSION/TTF/ -name '*.ttf' -type f -exec install -D -m0644 -v {} -t $PKG/usr/share/fonts/TTF \;
+
+if [ "$WEBFONTS" = "YES" ]; then
+    mkdir -pv $PKG/usr/share/fonts/{WOFF,WOFF2}
+    find $TMP/$PRGNAM-$VERSION/WOFF/ -name '*.woff' -type f -exec install -D -m0644 -v {} -t $PKG/usr/share/fonts/WOFF \;
+    find $TMP/$PRGNAM-$VERSION/WOFF2/ -name '*.woff2' -type f -exec install -D -m0644 -v {} -t  $PKG/usr/share/fonts/WOFF2 \;
+fi
+
+mkdir -pv $PKG/etc/fonts/conf.avail
+find . -name "*.conf" -exec cp -a {} $PKG/etc/fonts/conf.avail \;
+mkdir -pv $PKG/etc/fonts/conf.d
+( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG/etc/fonts/conf.d && ln -sf ../conf.avail/* .)
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-cp -a CHANGES.rst PKG-INFO *.txt src/DateTime/*.txt $PKG/usr/doc/$PRGNAM-$VERSION
+cp -a $TMP/$PRGNAM-$VERSION/{licenses,FONTS.md,README.md,URL.md}  $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+find $PKG/usr/doc/$PRGNAM-$VERSION -type f -exec chmod 0644 {} \+
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi

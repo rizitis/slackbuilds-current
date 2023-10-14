@@ -42,5 +42,5 @@ lapack
 python3-scipy
 munkres
 python-unicodedata2
-python-fonttools
+python3-fonttools
 afdko

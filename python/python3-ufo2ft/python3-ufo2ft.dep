@@ -46,7 +46,6 @@ python3-soupsieve
 BeautifulSoup4
 lxml
 scikit-build
-python-fonttools
 afdko
 python3-ufonormalizer
 python3-ufoProcessor

@@ -47,7 +47,6 @@ python3-compreffor
 importlib-resources
 tqdm
 scikit-build
-python-fonttools
 afdko
 python3-ufonormalizer
 python3-ufoProcessor

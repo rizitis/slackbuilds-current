@@ -44,10 +44,9 @@ lapack
 python3-scipy
 munkres
 python-unicodedata2
-python-fonttools
+python3-fonttools
 afdko
 python3-ufonormalizer
 python3-ufoProcessor
 python3-psautohint
-python3-fonttools
 python3-cffsubr
