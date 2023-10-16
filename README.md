@@ -23,3 +23,16 @@ and then
 ```
 slapt-src -u
 ``` 
+### slack-repo
+
+In /etc/slackrepo/slackrepo_ponce.conf
+
+```
+# URL of the remote git repo to be cloned:
+INIT_GITCLONE='https://github.com/rizitis/slackbuilds-current.git'
+```
+and plz change 
+```
+# Tag for built packages.
+TAG='_YOURTAG'
+```
