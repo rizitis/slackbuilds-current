@@ -23,7 +23,7 @@ and then
 ```
 slapt-src -u
 ``` 
-### slack-repo
+### slackrepo
 
 In /etc/slackrepo/slackrepo_ponce.conf
 
