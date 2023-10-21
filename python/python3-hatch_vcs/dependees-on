@@ -41,7 +41,6 @@ pocketsphinx
 pre-commit
 pyCRAC
 pylast
-python-fonttools
 python3-Flask-RESTX
 python3-aksharamukha
 python3-ase

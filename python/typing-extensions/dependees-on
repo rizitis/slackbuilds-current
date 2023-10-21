@@ -24,7 +24,6 @@ locust
 mypy
 pip2tgz
 pipdeptree
-python-fonttools
 python3-CherryMusic
 python3-CherryPy
 python3-PyPDF2
@@ -35,6 +34,7 @@ python3-annotated-types
 python3-astroid
 python3-async-timeout
 python3-black
+python3-cartopy
 python3-cattrs
 python3-celery
 python3-cffsubr
@@ -73,6 +73,7 @@ python3-twisted
 python3-ufo2ft
 python3-ufolib2
 python3-uharfbuzz
+python3-xarray
 spyder
 swtpm
 thonny

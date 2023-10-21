@@ -1,5 +1,8 @@
 python3-presets
 python3-threadpoolctl
+OpenBLAS
+python3-pyproject-metadata
+python3-mesonpy
 python3-flit_scm
 python3-exceptiongroup
 python3-calver
@@ -19,14 +22,10 @@ python3-gast
 python3-beniget
 python3-pythran
 pybind11
-blas
-lapack
 python3-scipy
 python3-joblib
 scikit-learn
 python3-platformdirs
-python3-pyproject-metadata
-python3-mesonpy
 python3-versioneer
 tzdata
 pytz

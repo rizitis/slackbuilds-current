@@ -21,6 +21,7 @@ pelican
 pylast
 python3-Flask-Babel
 python3-aksharamukha
+python3-asttokens
 python3-authheaders
 python3-beekeeper-alt
 python3-cattrs

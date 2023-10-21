@@ -1,4 +1,6 @@
 cholmod
+mtxclient
+nheko
 scikit-umfpack
 spqr
 umfpack

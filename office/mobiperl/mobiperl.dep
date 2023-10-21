@@ -10,6 +10,7 @@ perl-Test-Fatal
 perl-Sub-Uplevel
 perl-Test-Exception
 perl-HTML-Tree
+perl-Test-NoWarnings
 perl-extutils-pkgconfig
 perl-GD
 perl-Image-Size

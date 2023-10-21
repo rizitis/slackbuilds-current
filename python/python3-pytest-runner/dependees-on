@@ -47,8 +47,6 @@ pyte
 pyte
 pytest-cov
 pytest
-python-fonttools
-python-fonttools
 python2-keyutils
 python2-mccabe
 python2-pytest-runner

@@ -1,5 +1,7 @@
 et
 pip2tgz
 pipdeptree
+python3-cartopy
 python3-setuptools-scm-opt
 python3-statsmodels
+python3-xarray

@@ -7,6 +7,7 @@ jupyter_server
 jupyterlab
 jupyterlab_pygments
 jupyterlab_server
+python3-asttokens
 python3-pylint-venv
 python3-pylint
 python3-tomlkit

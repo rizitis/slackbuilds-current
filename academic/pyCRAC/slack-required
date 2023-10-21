@@ -6,6 +6,7 @@ pytz
 python3-dateutil
 python3-numpy
 python3-pandas
+OpenBLAS
 python3-flit_scm
 python3-exceptiongroup
 python3-calver
@@ -24,8 +25,6 @@ python3-gast
 python3-beniget
 python3-pythran
 pybind11
-blas
-lapack
 python3-scipy
 pysam
 novocraft

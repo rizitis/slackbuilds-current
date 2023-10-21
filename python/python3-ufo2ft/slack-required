@@ -17,6 +17,9 @@ python3-pytest-cov
 python3-uharfbuzz
 python3-fs
 zopfli
+OpenBLAS
+python3-pyproject-metadata
+python3-mesonpy
 python3-pytest-runner
 doctest
 xsimd
@@ -25,8 +28,6 @@ python3-gast
 python3-beniget
 python3-pythran
 pybind11
-blas
-lapack
 python3-scipy
 munkres
 python-unicodedata2

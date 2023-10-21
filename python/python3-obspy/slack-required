@@ -28,6 +28,9 @@ python3-hatchling
 python3-soupsieve
 BeautifulSoup4
 lxml
+OpenBLAS
+python3-pyproject-metadata
+python3-mesonpy
 python3-flit_scm
 python3-exceptiongroup
 python3-hatch_vcs
@@ -40,8 +43,6 @@ python3-gast
 python3-beniget
 python3-pythran
 pybind11
-blas
-lapack
 python3-scipy
 decorator
 python3-obspy
