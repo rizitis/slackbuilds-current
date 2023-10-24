@@ -1,6 +1,6 @@
 ghc
-haskell-unliftio-core
+-core
 haskell-base-orphans
 haskell-hashable
 haskell-async
-haskell-unliftio
+

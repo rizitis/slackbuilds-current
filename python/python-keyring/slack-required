@@ -8,4 +8,4 @@ cryptography
 secretstorage
 entrypoints
 python2-setuptools-scm
-python-keyring
+

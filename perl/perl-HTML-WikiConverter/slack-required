@@ -22,4 +22,4 @@ perl-Test-Requires
 perl-Module-Implementation
 perl-Params-Validate
 perl-Class-Data-Inheritable
-perl-HTML-WikiConverter
+

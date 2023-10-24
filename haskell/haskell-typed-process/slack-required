@@ -3,4 +3,4 @@ haskell-unliftio-core
 haskell-base-orphans
 haskell-hashable
 haskell-async
-haskell-typed-process
+

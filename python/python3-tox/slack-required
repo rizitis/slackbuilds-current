@@ -12,4 +12,4 @@ python3-virtualenv
 python3-pyproject-api
 colorama
 python3-cachetools
-python3-tox
+

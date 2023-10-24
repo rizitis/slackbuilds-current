@@ -7,4 +7,4 @@ python3-attrs
 typing-extensions
 python3-async-timeout
 python3-aiohttp
-python3-aiohttp-socks
+

@@ -3,4 +3,4 @@ haskell-base-orphans
 haskell-hashable
 haskell-nats
 haskell-logict
-haskell-smallcheck
+

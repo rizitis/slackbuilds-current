@@ -15,4 +15,4 @@ decorator
 traitlets
 jupyter_core
 entrypoints
-jupyter_client
+

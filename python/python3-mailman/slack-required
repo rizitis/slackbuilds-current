@@ -46,4 +46,4 @@ python-toml
 importlib-resources
 gunicorn
 click
-python3-mailman
+

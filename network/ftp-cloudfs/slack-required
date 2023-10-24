@@ -11,4 +11,4 @@ cryptography
 pyOpenSSL
 pysendfile
 pyftpdlib
-ftp-cloudfs
+

@@ -4,4 +4,4 @@ appstream-glib
 ostree
 bubblewrap
 flatpak
-flatpak-builder
+

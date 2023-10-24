@@ -7,4 +7,4 @@ python3-transaction
 python3-persistent
 python3-BTrees
 python3-ZODB
-python3-ZEO
+

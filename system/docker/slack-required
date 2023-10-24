@@ -1,6 +1,6 @@
 tini
 google-go-lang
-docker-proxy
+-proxy
 runc
 containerd
-docker
+

@@ -18,4 +18,4 @@ llhttp
 greenlet
 gevent
 python3-geventhttpclient
-locust
+

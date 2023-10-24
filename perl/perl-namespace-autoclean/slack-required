@@ -25,4 +25,4 @@ perl-B-Hooks-EndOfScope
 perl-namespace-clean
 perl-Sub-Identify
 perl-Role-Tiny
-perl-namespace-autoclean
+

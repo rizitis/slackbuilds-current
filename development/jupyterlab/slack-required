@@ -66,7 +66,7 @@ BeautifulSoup4
 testpath
 pandocfilters
 python3-mistune
-jupyterlab_pygments
+_pygments
 python3-hatch-nodejs-version
 python3-fastjsonschema
 python3-hatch_fancy_pypi_readme
@@ -90,6 +90,6 @@ jsonpointer
 argon2-cffi-bindings
 argon2-cffi
 jupyter_server
-jupyterlab_server
+_server
 jupyter-notebook_shim
-jupyterlab
+

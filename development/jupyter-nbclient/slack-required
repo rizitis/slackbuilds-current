@@ -24,4 +24,4 @@ python3-dateutil
 entrypoints
 jupyter_client
 async_generator
-jupyter-nbclient
+

@@ -15,4 +15,4 @@ python3-soupsieve
 BeautifulSoup4
 lxml
 cssselect
-pyquery
+

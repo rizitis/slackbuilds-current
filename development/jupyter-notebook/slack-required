@@ -71,7 +71,7 @@ jsonpointer
 argon2-cffi-bindings
 argon2-cffi
 jupyter_server
-jupyter-notebook_shim
+_shim
 jupyter-nbclassic
 python3-comm
 python3-psutil
@@ -93,4 +93,4 @@ python3-jedi
 ipython
 python3-debugpy
 jupyter-ipykernel
-jupyter-notebook
+

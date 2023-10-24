@@ -12,4 +12,4 @@ perl-http-daemon
 perl-http-cookies
 perl-file-listing
 libwww-perl
-perl-HTTP-Proxy
+

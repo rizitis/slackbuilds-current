@@ -4,4 +4,4 @@ log4cpp
 volk
 pybind11
 gnuradio
-gr-osmosdr
+

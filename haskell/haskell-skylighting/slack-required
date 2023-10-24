@@ -78,8 +78,8 @@ haskell-time-locale-compat
 haskell-syb
 haskell-dlist
 haskell-aeson
-haskell-skylighting-core
+-core
 haskell-lexer
 happy
 haskell-pretty-show
-haskell-skylighting
+

@@ -5,5 +5,5 @@ python3-setuptools-rust
 python3-asn1crypto
 python3-pyasn1
 cryptography
-python-axolotl-curve25519
-python-axolotl
+-curve25519
+

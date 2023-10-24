@@ -9,6 +9,6 @@ typing-extensions
 python3-semantic-version
 python3-setuptools-rust-opt
 python3-maturin
-python3-pydantic-core
+-core
 python3-annotated-types
-python3-pydantic
+

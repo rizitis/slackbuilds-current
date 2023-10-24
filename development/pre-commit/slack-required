@@ -12,4 +12,4 @@ python3-distlib
 python3-virtualenv
 python3-identify
 python3-cfgv
-pre-commit
+

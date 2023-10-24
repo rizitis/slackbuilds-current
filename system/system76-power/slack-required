@@ -1,5 +1,5 @@
-# %README%: see the system76-power README file. 
+# %README%: see the  README file. 
 rustup
 dkms
 system76-io-dkms
-system76-power
+

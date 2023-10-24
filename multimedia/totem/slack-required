@@ -1,5 +1,5 @@
 libuchardet
-totem-pl-parser
+-pl-parser
 libpeas
 liboauth
 grilo
@@ -8,4 +8,4 @@ cogl
 clutter
 clutter-gtk
 clutter-gst
-totem
+

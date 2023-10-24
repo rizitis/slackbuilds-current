@@ -10,4 +10,4 @@ perl-CGI
 perl-HTML-Template
 perl-Module-Build
 perl-Net-Server
-munin-node
+

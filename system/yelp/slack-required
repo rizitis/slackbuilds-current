@@ -22,6 +22,6 @@ python3-hatchling
 python3-soupsieve
 BeautifulSoup4
 lxml
-yelp-xsl
-yelp-tools
-yelp
+-xsl
+-tools
+

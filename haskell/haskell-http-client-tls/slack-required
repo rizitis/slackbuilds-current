@@ -76,4 +76,4 @@ haskell-cipher-aes
 haskell-tls
 haskell-socks
 haskell-connection
-haskell-http-client-tls
+

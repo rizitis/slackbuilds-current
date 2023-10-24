@@ -9,4 +9,4 @@ haskell-transformers-base
 haskell-monad-control
 haskell-async
 zeromq
-haskell-zeromq4-haskell
+

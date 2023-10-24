@@ -49,4 +49,4 @@ perl-Eval-Closure
 perl-Devel-OverloadInfo
 perl-Devel-GlobalDestruction
 perl-Moose
-perl-MooseX-Traits
+

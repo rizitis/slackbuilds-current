@@ -4,4 +4,4 @@ click
 python3-itsdangerous
 werkzeug
 Flask
-Flask-HTMLmin
+

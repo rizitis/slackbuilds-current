@@ -1,5 +1,5 @@
 python2-websocket-client
-python2-docker-pycreds
+-pycreds
 ipaddress
 backports-ssl-match-hostname
-python2-docker
+

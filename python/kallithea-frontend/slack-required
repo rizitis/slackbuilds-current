@@ -46,4 +46,4 @@ python3-amqp
 python3-kombu
 python3-celery
 Kallithea
-kallithea-frontend
+

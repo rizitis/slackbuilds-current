@@ -30,8 +30,8 @@ i3ipc
 python3-autotiling
 nwg-displays
 nwg-wrapper
-nwg-shell-wallpapers
-nwg-shell-config
+-wallpapers
+-config
 ddcutil
 wlr-randr
 python3-netifaces
@@ -82,4 +82,4 @@ grim
 tllist
 fcft
 foot
-nwg-shell
+

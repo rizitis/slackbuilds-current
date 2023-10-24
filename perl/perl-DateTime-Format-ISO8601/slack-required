@@ -45,4 +45,4 @@ perl-DateTime
 perl-DateTime-Format-Strptime
 perl-Class-Factory-Util
 perl-DateTime-Format-Builder
-perl-DateTime-Format-ISO8601
+

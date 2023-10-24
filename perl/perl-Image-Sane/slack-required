@@ -12,4 +12,4 @@ perl-Test-Requires
 perl-Exception-Class
 perl-extutils-pkgconfig
 perl-extutils-depends
-perl-Image-Sane
+

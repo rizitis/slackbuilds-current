@@ -19,4 +19,4 @@ python3-pyrsistent
 python3-attrs
 python3-jsonschema
 python3-json-logger
-jupyter_events
+

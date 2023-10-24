@@ -21,7 +21,7 @@ python3-anyio
 python3-tornado
 python3-ptyprocess
 terminado
-jupyter_server_terminals
+_terminals
 python3-poetry-core
 python3-tomlkit
 python3-deprecation
@@ -68,4 +68,4 @@ jupyter_events
 jsonpointer
 argon2-cffi-bindings
 argon2-cffi
-jupyter_server
+

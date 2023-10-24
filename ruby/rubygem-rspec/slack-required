@@ -1,6 +1,6 @@
-rubygem-rspec-support
+-support
 rubygem-diff-lcs
-rubygem-rspec-mocks
-rubygem-rspec-expectations
-rubygem-rspec-core
-rubygem-rspec
+-mocks
+-expectations
+-core
+

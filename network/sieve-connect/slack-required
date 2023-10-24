@@ -4,4 +4,4 @@ perl-digest-hmac
 perl-net-dns
 perl-Socket6
 perl-IO-Socket-INET6
-sieve-connect
+

@@ -3,4 +3,4 @@ haskell-base-orphans
 haskell-hashable
 haskell-unordered-containers
 haskell-syb
-haskell-uniplate
+

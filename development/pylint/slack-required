@@ -21,4 +21,4 @@ isort
 python2-wrapt
 python2-lazy-object-proxy
 astroid
-pylint
+

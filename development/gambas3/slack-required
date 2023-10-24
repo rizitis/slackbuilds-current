@@ -1,4 +1,4 @@
-# %README%: see the gambas3 README file. 
+# %README%: see the  README file. 
 imlib
 unifdef
 xdg-dbus-proxy
@@ -10,4 +10,4 @@ webkit2gtk
 pangox-compat
 gtkglext
 alure
-gambas3
+

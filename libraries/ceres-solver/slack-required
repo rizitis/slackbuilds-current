@@ -6,4 +6,4 @@ OpenBLAS
 blas
 lapack
 suitesparse
-ceres-solver
+

@@ -12,4 +12,4 @@ haskell-indexed-traversable
 haskell-distributive
 haskell-StateVar
 haskell-contravariant
-haskell-comonad
+

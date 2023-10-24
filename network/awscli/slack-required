@@ -6,4 +6,4 @@ jmespath
 python3-dateutil
 botocore
 s3transfer
-awscli
+

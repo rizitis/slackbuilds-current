@@ -15,4 +15,4 @@ perl-YAML-Tiny
 perl-Module-ScanDeps
 perl-File-Remove
 perl-inc-module-install
-perl-data-messagepack
+

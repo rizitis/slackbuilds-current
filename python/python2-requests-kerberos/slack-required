@@ -5,4 +5,4 @@ python3-asn1crypto
 python3-pyasn1
 cryptography
 python-kerberos
-python2-requests-kerberos
+

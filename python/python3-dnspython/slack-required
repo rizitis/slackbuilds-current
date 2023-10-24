@@ -12,4 +12,4 @@ python3-httpcore
 python3-flit_scm
 python3-exceptiongroup
 python3-poetry-core
-python3-dnspython
+

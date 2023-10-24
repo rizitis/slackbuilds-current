@@ -38,4 +38,4 @@ perl-Class-Load
 perl-DateTime-TimeZone
 perl-DateTime-Locale
 perl-DateTime
-perl-DateTime-Format-Strptime
+

@@ -1,9 +1,9 @@
 ghc
 haskell-lua
-haskell-hslua-core
-haskell-hslua-marshalling
-haskell-hslua-objectorientation
-haskell-hslua-packaging
-haskell-hslua-classes
+-core
+-marshalling
+-objectorientation
+-packaging
+-classes
 haskell-fail
-haskell-hslua
+

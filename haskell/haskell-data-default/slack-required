@@ -1,9 +1,9 @@
 ghc
 haskell-old-locale
-haskell-data-default-class
-haskell-data-default-instances-old-locale
+-class
+-instances-old-locale
 haskell-dlist
-haskell-data-default-instances-dlist
-haskell-data-default-instances-containers
-haskell-data-default-instances-base
-haskell-data-default
+-instances-dlist
+-instances-containers
+-instances-base
+

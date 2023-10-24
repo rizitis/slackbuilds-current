@@ -7,4 +7,4 @@ python2-setuptools-scm
 pluggy
 python2-attrs
 python2-py
-pytest
+

@@ -4,4 +4,4 @@ pycparser
 cffi
 python2-pyasn1
 python2-cryptography
-python2-paramiko
+

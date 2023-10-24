@@ -1,7 +1,7 @@
-libopenshot-audio
+-audio
 unittest-cpp
 protobuf3
 Catch
 zeromq
 cppzmq
-libopenshot
+

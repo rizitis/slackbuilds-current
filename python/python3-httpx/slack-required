@@ -15,4 +15,4 @@ python3-sniffio
 python3-anyio
 python3-httpcore
 python3-rfc3986
-python3-httpx
+

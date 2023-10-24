@@ -9,4 +9,4 @@ pluggy
 python2-attrs
 python2-py
 pytest
-pytest-cov
+

@@ -4,4 +4,4 @@ python3-setuptools-rust
 python3-asn1crypto
 python3-pyasn1
 cryptography
-pymysql
+

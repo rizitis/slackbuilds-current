@@ -5,4 +5,4 @@ proj
 geos
 gdal
 postgis
-pgsql-ogr-fdw
+

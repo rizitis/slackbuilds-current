@@ -16,4 +16,4 @@ haskell-StateVar
 haskell-contravariant
 haskell-comonad
 haskell-bifunctors
-haskell-base-compat-batteries
+

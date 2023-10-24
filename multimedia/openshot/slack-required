@@ -1,11 +1,11 @@
 jack
 python3-httplib2
-libopenshot-audio
+lib-audio
 unittest-cpp
 protobuf3
 Catch
 zeromq
 cppzmq
-libopenshot
+lib
 python3-pyzmq
-openshot
+

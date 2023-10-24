@@ -16,4 +16,4 @@ mypy_extensions
 click
 python3-hatch_fancy_pypi_readme
 python3-black
-python3-lsp-black
+

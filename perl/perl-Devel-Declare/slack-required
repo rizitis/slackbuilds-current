@@ -8,4 +8,4 @@ perl-Module-Implementation
 perl-B-Hooks-EndOfScope
 perl-extutils-depends
 perl-B-Hooks-OP-Check
-perl-Devel-Declare
+

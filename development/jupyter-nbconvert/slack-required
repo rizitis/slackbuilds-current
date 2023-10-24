@@ -39,4 +39,4 @@ async_generator
 jupyter-nbclient
 python3-defusedxml
 bleach
-jupyter-nbconvert
+

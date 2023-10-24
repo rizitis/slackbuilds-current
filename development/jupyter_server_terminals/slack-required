@@ -7,4 +7,4 @@ python3-hatchling
 python3-tornado
 python3-ptyprocess
 terminado
-jupyter_server_terminals
+

@@ -71,4 +71,4 @@ argon2-cffi-bindings
 argon2-cffi
 jupyter_server
 jupyter-notebook_shim
-jupyter-nbclassic
+

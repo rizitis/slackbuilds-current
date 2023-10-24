@@ -4,4 +4,4 @@ perl-Module-Build
 perl-File-Which
 perl-file-basedir
 perl-file-desktopentry
-perl-file-mimeinfo
+

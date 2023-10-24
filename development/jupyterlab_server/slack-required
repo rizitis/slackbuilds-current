@@ -70,4 +70,4 @@ jsonpointer
 argon2-cffi-bindings
 argon2-cffi
 jupyter_server
-jupyterlab_server
+
