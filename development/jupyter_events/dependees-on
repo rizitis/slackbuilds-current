@@ -3,7 +3,7 @@ jupyter-notebook
 jupyter-notebook_shim
 jupyter_events
 jupyter_server
-jupyterlab
+jupyterlab.tmp
 jupyterlab_server
 nts
 pymux

@@ -1,5 +1,7 @@
 blink-qt
+email-validator
 mailman
+python3-Flask-Security-Too
 python3-authheaders
 python3-dkimpy
 python3-dnspython

@@ -50,13 +50,13 @@ backcall
 python3-wcwidth
 python3-prompt_toolkit
 pickleshare
-decorator
 traitlets
 python3-matplotlib-inline
 python3-ptyprocess
 python3-pexpect
 python3-parso
 python3-jedi
+decorator
 ipython
 python3-tornado
 python3-cycler

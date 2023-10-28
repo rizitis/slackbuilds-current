@@ -4,6 +4,7 @@ afdko
 blink-qt
 buildbot-badges
 dropbox-python
+email-validator
 getfem
 i3-layouts
 i3expo-ng
@@ -18,7 +19,7 @@ jupyter-qtconsole
 jupyter_console
 jupyter_events
 jupyter_server
-jupyterlab
+jupyterlab.tmp
 jupyterlab_server
 mailman
 nwg-displays
@@ -27,6 +28,7 @@ nwg-shell
 nwg-wrapper
 pocketsphinx
 pyCRAC
+python3-Flask-Security-Too
 python3-aksharamukha
 python3-ase
 python3-authheaders

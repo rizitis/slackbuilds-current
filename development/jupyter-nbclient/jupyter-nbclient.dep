@@ -8,7 +8,6 @@ nest_asyncio
 python3-hatch-nodejs-version
 python3-hatch_vcs
 python3-platformdirs
-decorator
 traitlets
 jupyter_core
 python3-fastjsonschema

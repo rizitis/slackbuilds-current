@@ -3,6 +3,6 @@ jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
-jupyterlab
+jupyterlab.tmp
 jupyterlab_server
 python3-isoduration

@@ -1,6 +1,6 @@
 gspell
-amtk
-gtksourceview4
+libgedit-amtk
+libgedit-gtksourceview
 tepl
 libpeas
 gedit

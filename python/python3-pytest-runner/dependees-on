@@ -27,8 +27,8 @@ jupyter_events
 jupyter_events
 jupyter_server
 jupyter_server
-jupyterlab
-jupyterlab
+jupyterlab.tmp
+jupyterlab.tmp
 jupyterlab_server
 jupyterlab_server
 nwg-displays

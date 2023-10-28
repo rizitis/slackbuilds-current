@@ -4,7 +4,6 @@ python3-pluggy
 python3-pathspec
 python3-editables
 python3-hatchling
-decorator
 traitlets
 python3-comm
 python3-psutil
@@ -36,6 +35,7 @@ python3-ptyprocess
 python3-pexpect
 python3-parso
 python3-jedi
+decorator
 ipython
 python3-debugpy
 

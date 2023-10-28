@@ -12,7 +12,6 @@ python3-pytest
 python3-pytest-runner
 python3-rfc3986_validator
 python3-rfc3339_validator
-decorator
 traitlets
 python3-hatch_fancy_pypi_readme
 python3-pyrsistent

@@ -1,7 +1,7 @@
 send2trash
-python-toml
-python2-setuptools-scm
-asttokens
+python3-poetry-core
+python3-tomlkit
+python3-asttokens
 mypy_extensions
 typing-extensions
 mypy
@@ -14,8 +14,6 @@ python3-editables
 python3-hatchling
 python3-hatch_vcs
 python3-platformdirs
-python3-poetry-core
-python3-tomlkit
 python3-dill
 python3-mccabe
 python3-isort

@@ -1,3 +1,5 @@
+python-toml
+importlib-resources
 pytz
 python3-calver
 python3-trove-classifiers

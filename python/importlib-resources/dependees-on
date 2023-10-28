@@ -1,5 +1,6 @@
 flexget
 importlib-resources
+python3-Flask-RESTX
 python3-Flask-Security-Too
 python3-cffsubr
 python3-fontmake

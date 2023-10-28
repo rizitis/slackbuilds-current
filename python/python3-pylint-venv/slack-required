@@ -18,6 +18,5 @@ typing-extensions
 python3-wrapt
 python3-lazy-object-proxy
 python3-astroid
-python-toml
 python3-pylint
 

@@ -20,6 +20,7 @@ certbot-dns-cloudflare
 compiz-boxmenu
 deluge
 dropbox-python
+email-validator
 et_xmlfile
 euca2ools
 eyeD3
@@ -53,7 +54,7 @@ jupyter_core
 jupyter_events
 jupyter_server
 jupyter_server_terminals
-jupyterlab
+jupyterlab.tmp
 jupyterlab_server
 lutris
 lxml

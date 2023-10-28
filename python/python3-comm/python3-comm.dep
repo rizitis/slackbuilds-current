@@ -4,6 +4,5 @@ python3-pluggy
 python3-pathspec
 python3-editables
 python3-hatchling
-decorator
 traitlets
 python3-comm

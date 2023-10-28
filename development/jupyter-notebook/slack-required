@@ -40,7 +40,6 @@ nest_asyncio
 python3-hatch-nodejs-version
 python3-hatch_vcs
 python3-platformdirs
-decorator
 traitlets
 jupyter_core
 python3-fastjsonschema
@@ -90,6 +89,7 @@ python3-matplotlib-inline
 python3-pexpect
 python3-parso
 python3-jedi
+decorator
 ipython
 python3-debugpy
 jupyter-ipykernel

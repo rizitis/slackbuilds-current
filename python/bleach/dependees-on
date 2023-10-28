@@ -5,7 +5,7 @@ jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
-jupyterlab
+jupyterlab.tmp
 jupyterlab_server
 kallithea-frontend
 le
