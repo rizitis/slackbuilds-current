@@ -24,9 +24,9 @@ python3-exceptiongroup
 typing-extensions
 python3-pure_eval
 python3-executing
-python-toml
-python2-setuptools-scm
-asttokens
+python3-poetry-core
+python3-tomlkit
+python3-asttokens
 python3-stack_data
 backcall
 python3-wcwidth

@@ -1,7 +1,6 @@
 python3-pyasn1
 python3-rsa
 colorama
-bcdoc
 jmespath
 python3-dateutil
 botocore

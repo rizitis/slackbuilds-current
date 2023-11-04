@@ -1,5 +1,4 @@
 BeautifulSoup4
-Free-Cinema
 OWSLib
 OWSLib
 OpenLP
@@ -51,7 +50,7 @@ jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 lutris
 lutris

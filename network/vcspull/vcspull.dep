@@ -1,5 +1,4 @@
 colorama
-argcomplete
-python2-PyYAML
-kaptan
+python3-poetry-core
+python3-libvcs
 vcspull

@@ -4,7 +4,6 @@ python3-pluggy
 python3-pathspec
 python3-editables
 python3-hatchling
-decorator
 traitlets
 python3-comm
 python3-psutil
@@ -23,9 +22,9 @@ python3-exceptiongroup
 typing-extensions
 python3-pure_eval
 python3-executing
-python-toml
-python2-setuptools-scm
-asttokens
+python3-poetry-core
+python3-tomlkit
+python3-asttokens
 python3-stack_data
 backcall
 python3-wcwidth
@@ -36,6 +35,7 @@ python3-ptyprocess
 python3-pexpect
 python3-parso
 python3-jedi
+decorator
 ipython
 python3-debugpy
 jupyter-ipykernel
@@ -55,8 +55,6 @@ python3-sniffio
 python3-anyio
 terminado
 jupyter_server_terminals
-python3-poetry-core
-python3-tomlkit
 python3-deprecation
 jupyter_packaging
 python3-webencodings

@@ -20,7 +20,7 @@ jupyter-qtconsole
 jupyter_console
 jupyter_events
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 mailman
 nwg-displays

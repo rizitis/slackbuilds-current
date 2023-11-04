@@ -29,7 +29,7 @@ jupyter_console
 jupyter_core
 jupyter_events
 jupyter_server
-jupyterlab.tmp
+jupyterlab
 jupyterlab_server
 nwg-displays
 nwg-panel
