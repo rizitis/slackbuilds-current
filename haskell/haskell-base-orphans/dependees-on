@@ -63,7 +63,7 @@ haskell-resource-pool
 haskell-rio
 haskell-sandi
 haskell-scientific
-haskell-semialign
+haskell-semialign.tmp
 haskell-semigroupoids
 haskell-semigroups
 haskell-shelly

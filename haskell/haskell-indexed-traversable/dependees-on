@@ -27,7 +27,7 @@ haskell-pandoc-types
 haskell-path-io
 haskell-path
 haskell-profunctors
-haskell-semialign
+haskell-semialign.tmp
 haskell-semigroupoids
 haskell-skylighting-core
 haskell-skylighting

@@ -53,7 +53,7 @@ jupyter_client
 async_generator
 jupyter-nbclient
 python3-defusedxml
-bleach
+python3-bleach
 jupyter-nbconvert
 python3-flit_scm
 python3-exceptiongroup

@@ -56,7 +56,7 @@ python3-ptyprocess
 python3-pexpect
 python3-parso
 python3-jedi
-decorator
+python3-decorator
 ipython
 python3-tornado
 python3-cycler

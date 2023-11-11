@@ -9,6 +9,7 @@ eyeD3
 flexget
 httpie
 ipython
+josepy
 jupyter-ipykernel
 jupyter-nbclassic
 jupyter-nbconvert
@@ -21,7 +22,7 @@ jupyter_server
 jupyterlab
 jupyterlab_pygments
 jupyterlab_server
-mailman
+letsencrypt
 pelican
 pylast
 python3-Flask-Babel

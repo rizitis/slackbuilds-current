@@ -23,7 +23,7 @@ suds-jurko
 python3-psutil
 python3-pypng
 python-qrcode
-decorator
+python3-decorator
 python3-webencodings
 html5lib
 python-toml

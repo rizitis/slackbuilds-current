@@ -35,7 +35,7 @@ python3-ptyprocess
 python3-pexpect
 python3-parso
 python3-jedi
-decorator
+python3-decorator
 ipython
 python3-debugpy
 jupyter-ipykernel
@@ -75,7 +75,7 @@ jupyter-nbformat
 async_generator
 jupyter-nbclient
 python3-defusedxml
-bleach
+python3-bleach
 jupyter-nbconvert
 python3-iniconfig
 python3-pytest

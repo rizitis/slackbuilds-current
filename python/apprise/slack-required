@@ -15,6 +15,6 @@ python2-PyYAML
 python-oauthlib
 requests-oauthlib
 Markdown
-decorator
+python3-decorator
 click
 

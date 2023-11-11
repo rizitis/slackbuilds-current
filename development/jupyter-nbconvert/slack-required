@@ -37,5 +37,5 @@ jupyter_client
 async_generator
 jupyter-nbclient
 python3-defusedxml
-bleach
+python3-bleach
 

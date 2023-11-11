@@ -30,7 +30,7 @@ twitter
 pytz
 rarfile
 python3-pysrt
-decorator
+python3-decorator
 python3-stevedore
 python3-dogpile.cache
 click

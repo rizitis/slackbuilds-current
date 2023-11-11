@@ -21,7 +21,7 @@ python2-numpy
 python2-matplotlib
 tempita
 sqlparse
-decorator
+python3-decorator
 greenlet
 SQLAlchemy
 python2-pbr

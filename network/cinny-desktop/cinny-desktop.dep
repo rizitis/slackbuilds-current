@@ -1,0 +1,11 @@
+libwpe
+wpebackend-fdo
+unifdef
+xdg-dbus-proxy
+geoclue2
+bubblewrap
+webkit2gtk
+ayatana-ido
+libayatana-indicator
+libayatana-appindicator
+cinny-desktop

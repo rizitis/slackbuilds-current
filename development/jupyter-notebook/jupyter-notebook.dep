@@ -55,7 +55,7 @@ jupyter_client
 async_generator
 jupyter-nbclient
 python3-defusedxml
-bleach
+python3-bleach
 jupyter-nbconvert
 python3-flit_scm
 python3-exceptiongroup
@@ -87,7 +87,7 @@ python3-matplotlib-inline
 python3-pexpect
 python3-parso
 python3-jedi
-decorator
+python3-decorator
 ipython
 python3-debugpy
 jupyter-ipykernel

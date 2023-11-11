@@ -21,9 +21,9 @@ jupyter_events
 jupyter_server
 jupyterlab
 jupyterlab_server
-mailman
 nwg-displays
 nwg-panel
+nwg-shell-config
 nwg-shell
 nwg-wrapper
 pocketsphinx

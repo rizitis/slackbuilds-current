@@ -33,6 +33,7 @@ jupyterlab_server
 jupyterlab_server
 nwg-displays
 nwg-panel
+nwg-shell-config
 nwg-shell
 nwg-wrapper
 parsel

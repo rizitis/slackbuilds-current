@@ -1,5 +1,6 @@
 requests-toolbelt
 funcsigs
+python3-poetry-core
 josepy
 augeas
 python3-augeas

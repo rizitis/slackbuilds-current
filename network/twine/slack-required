@@ -15,7 +15,7 @@ entrypoints
 python2-setuptools-scm
 python-keyring
 python3-webencodings
-bleach
+python3-bleach
 readme_renderer
 requests-toolbelt
 pkginfo

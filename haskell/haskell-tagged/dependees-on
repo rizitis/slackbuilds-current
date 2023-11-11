@@ -51,7 +51,7 @@ haskell-publicsuffixlist
 haskell-regex-compat-tdfa
 haskell-regex-tdfa
 haskell-sandi
-haskell-semialign
+haskell-semialign.tmp
 haskell-semigroupoids
 haskell-semigroups
 haskell-shelly

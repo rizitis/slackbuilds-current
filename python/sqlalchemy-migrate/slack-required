@@ -1,6 +1,6 @@
 tempita
 sqlparse
-decorator
+python3-decorator
 greenlet
 SQLAlchemy
 python2-pbr

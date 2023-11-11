@@ -20,7 +20,8 @@ python3-service-identity
 zope.interface
 incremental
 hyperlink
-constantly
+python3-versioneer
+python3-constantly
 python3-automat
 python3-twisted
 

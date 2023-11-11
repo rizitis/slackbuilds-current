@@ -19,7 +19,7 @@ python3-pyrsistent
 python3-attrs
 python3-jsonschema
 Markdown
-decorator
+python3-decorator
 send2trash
 python3-PyQtWebEngine
 anki
