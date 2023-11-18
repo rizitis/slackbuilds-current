@@ -19,8 +19,6 @@ haskell-http-client
 haskell-http-client
 haskell-http-conduit
 haskell-http-conduit
-haskell-http
-haskell-http
 haskell-hxt
 haskell-iproute
 haskell-monad-logger

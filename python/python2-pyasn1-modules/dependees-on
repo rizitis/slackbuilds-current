@@ -9,9 +9,7 @@ mysql-workbench
 parsel
 ptwit
 pylint
-pymux
 pysnmp
-pyte
 pytest-cov
 pytest
 python2-cryptography

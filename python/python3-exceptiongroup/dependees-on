@@ -29,6 +29,7 @@ nwg-shell
 nwg-wrapper
 pocketsphinx
 pyCRAC
+pyte
 python3-Flask-Security-Too
 python3-aksharamukha
 python3-ase
@@ -75,4 +76,5 @@ scikit-learn
 sickchill
 spyder
 terminator
+thefuck
 ttfautohint-py

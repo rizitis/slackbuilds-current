@@ -9,7 +9,6 @@ jupyterlab
 kallithea-frontend
 prompt_toolkit
 ptpython
-pymux
 python3-celery
 python3-ipython-sql
 python3-librosa

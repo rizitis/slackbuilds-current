@@ -5,6 +5,6 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
-pymux
 pyte
 spyder
+thefuck

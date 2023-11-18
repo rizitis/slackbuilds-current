@@ -46,6 +46,7 @@ haskell-resourcet
 haskell-rio
 haskell-sandi
 haskell-scientific
+haskell-semialign
 haskell-skylighting-core
 haskell-skylighting
 haskell-store-core

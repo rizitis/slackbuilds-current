@@ -4,6 +4,7 @@ PyGithub
 ansible
 audible-cli
 audible
+aws-cdk
 awscli
 blink-qt
 blink-qt

@@ -164,7 +164,6 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-http-types
-haskell-http
 haskell-hxt-charproperties
 haskell-hxt-regex-xmlschema
 haskell-hxt-unicode
@@ -247,7 +246,7 @@ haskell-safe
 haskell-sandi
 haskell-scientific
 haskell-securemem
-haskell-semialign.tmp
+haskell-semialign
 haskell-semigroupoids
 haskell-semigroups
 haskell-setenv

@@ -29,8 +29,6 @@ pocketsphinx
 ptwit
 pyCRAC
 pylint
-pymux
-pymux
 pyte
 pyte
 pytest-cov
@@ -83,5 +81,7 @@ rpy2
 scikit-learn
 sickchill
 terminator
+thefuck
+thefuck
 ttfautohint-py
 ttfautohint-py

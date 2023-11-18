@@ -42,6 +42,7 @@ pocketsphinx
 pre-commit
 pyCRAC
 pylast
+pyte
 python3-Flask-RESTX
 python3-aksharamukha
 python3-ase
@@ -105,6 +106,7 @@ spyder
 swtpm
 tauonmb
 terminator
+thefuck
 thonny
 todoman
 ttfautohint-py

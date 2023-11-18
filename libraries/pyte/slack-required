@@ -1,13 +1,14 @@
-wcwidth
-python2-scandir
-python2-pathlib2
-funcsigs
-python2-atomicwrites
-more-itertools
-python2-setuptools-scm
-pluggy
-python2-attrs
-python2-py
-st
-python2-st-runner
+python3-wcwidth
+python3-flit_scm
+python3-exceptiongroup
+python3-calver
+python3-trove-classifiers
+python3-pluggy
+python3-pathspec
+python3-editables
+python3-hatchling
+python3-hatch_vcs
+python3-iniconfig
+python3-st
+python3-st-runner
 

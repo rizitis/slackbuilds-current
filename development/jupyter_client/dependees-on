@@ -10,7 +10,7 @@ jupyter_console
 jupyter_server
 jupyterlab
 jupyterlab_server
-pymux
 pyte
 python3-spyder-kernels
 spyder
+thefuck

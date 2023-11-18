@@ -18,6 +18,7 @@ haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io
 haskell-path
+haskell-semialign
 haskell-skylighting-core
 haskell-skylighting
 haskell-texmath

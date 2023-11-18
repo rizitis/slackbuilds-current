@@ -44,7 +44,8 @@ haskell-path-io
 haskell-path
 haskell-path
 haskell-profunctors
-haskell-semialign.tmp
+haskell-semialign
+haskell-semialign
 haskell-semigroupoids
 haskell-skylighting-core
 haskell-skylighting-core

@@ -4,8 +4,6 @@ flexget
 parsel
 ptwit
 pylint
-pymux
-pyte
 pytest-cov
 pytest
 python2-keyutils

@@ -4,6 +4,6 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
-pymux
 pyte
 python3-hatch_jupyter_builder
+thefuck

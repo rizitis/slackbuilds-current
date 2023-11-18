@@ -1,3 +1,4 @@
+Kallithea
 jupyter-nbclassic
 jupyter-nbconvert
 jupyter-notebook
@@ -5,6 +6,7 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
+kallithea-frontend
 le
 python3-bleach
 readme_renderer

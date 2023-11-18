@@ -3,9 +3,6 @@ dropbox-python
 parsel
 ptwit
 pylint
-pymux
-pymux
-pyte
 pyte
 pytest-cov
 pytest-cov
@@ -14,3 +11,4 @@ python2-keyutils
 python2-mccabe
 python2-pytest-runner
 python2-twitter
+thefuck

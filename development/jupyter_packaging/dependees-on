@@ -7,6 +7,6 @@ jupyter_server
 jupyterlab
 jupyterlab_pygments
 jupyterlab_server
-pymux
 pyte
 spyder
+thefuck

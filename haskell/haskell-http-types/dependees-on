@@ -4,5 +4,4 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-http-types
-haskell-http
 pandoc

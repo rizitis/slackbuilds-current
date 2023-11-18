@@ -23,6 +23,7 @@ nwg-shell
 nwg-wrapper
 pocketsphinx
 pyCRAC
+pyte
 python3-aksharamukha
 python3-ase
 python3-autotiling
@@ -57,4 +58,5 @@ rpy2
 scikit-learn
 sickchill
 terminator
+thefuck
 ttfautohint-py
