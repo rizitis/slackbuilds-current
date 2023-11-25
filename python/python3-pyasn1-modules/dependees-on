@@ -5,6 +5,7 @@ ansible
 audible-cli
 audible
 aws-cdk
+awscli-v2
 awscli
 blink-qt
 blink-qt

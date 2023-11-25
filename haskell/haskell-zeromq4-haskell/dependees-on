@@ -16,6 +16,7 @@ jupyterlab
 jupyterlab_server
 libopenshot
 locust
+ntopng
 openshot
 plaso
 python3-pyzmq

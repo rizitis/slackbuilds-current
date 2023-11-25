@@ -1,6 +1,7 @@
 Electrum
 PyGithub
 ansible
+awscli-v2
 blink-qt
 buildbot-badges
 buildbot-worker

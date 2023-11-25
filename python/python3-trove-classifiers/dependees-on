@@ -1,5 +1,6 @@
 BeautifulSoup4
 CairoSVG
+Electrum
 OWSLib
 OpenLP
 RYMTracks
@@ -86,6 +87,8 @@ python3-Flask-Security-Too
 python3-Flask-WTF
 python3-WTForms
 python3-aiofiles
+python3-aiohttp-socks
+python3-aiohttp
 python3-aksharamukha
 python3-annotated-types
 python3-ase
@@ -102,6 +105,7 @@ python3-compreffor
 python3-dkimpy
 python3-dnspython
 python3-docker-compose
+python3-expandvars
 python3-filelock
 python3-fontmake
 python3-fonttools
@@ -165,6 +169,7 @@ python3-uharfbuzz
 python3-userpath
 python3-virtualenv
 python3-xmldiff
+python3-yarl
 pytrainer
 qgis
 qtile
@@ -193,6 +198,7 @@ traitlets
 trelby
 ttfautohint-py
 variety
+vdirsyncer
 w3af
 xiphos
 xreader

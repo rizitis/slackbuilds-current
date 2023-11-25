@@ -1,0 +1,15 @@
+jmespath
+python3-dateutil
+python3-wcwidth
+python3-prompt_toolkit
+python3-ruamel.yaml.clib
+python3-ruamel.yaml
+python-toml
+python3-semantic-version
+python3-setuptools-rust
+python3-asn1crypto
+python3-pyasn1
+cryptography
+colorama
+awscrt
+
