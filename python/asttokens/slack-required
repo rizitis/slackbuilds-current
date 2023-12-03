@@ -1,3 +1,4 @@
-python-toml
-python2-setuptools-scm
+python3-toml
+typing-extensions
+python3-setuptools-scm-opt
 

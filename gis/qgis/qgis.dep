@@ -2,6 +2,8 @@ termcolor
 qwt
 postgresql
 python3-psycopg2
+python3-pyproject-metadata
+python3-mesonpy
 python3-numpy
 protobuf3
 protobuf-c
@@ -13,7 +15,7 @@ pytz
 python3-dateutil
 python3-webencodings
 html5lib
-python-toml
+python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-soupsieve
@@ -31,5 +33,6 @@ OWSLib
 libspatialindex
 libminizip
 freexl
+librttopo
 libspatialite
 qgis

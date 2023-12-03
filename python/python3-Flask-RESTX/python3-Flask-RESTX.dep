@@ -1,4 +1,4 @@
-python-toml
+python3-toml
 importlib-resources
 pytz
 python3-calver

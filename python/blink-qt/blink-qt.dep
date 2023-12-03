@@ -4,7 +4,9 @@ python3-pycrypto
 python3-oauth2client
 python3-google-auth-library-python
 python-uritemplate
+python3-googleapis-common-protos
 python3-google-python-api-core
+python3-google-auth-httplib2
 python3-google-api-python-client
 libyuv
 libilbc
@@ -13,7 +15,7 @@ opencore-amr
 python3-xcaplib
 python3-msrplib
 python3-gmpy2
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-asn1crypto
@@ -46,6 +48,7 @@ python3-automat
 python3-twisted
 python3-webencodings
 html5lib
+python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-soupsieve

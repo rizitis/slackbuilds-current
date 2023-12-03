@@ -1,10 +1,6 @@
 libminizip
-protobuf3
-protobuf-c
-postgresql
-proj
-geos
-gdal
-postgis
 freexl
+geos
+librttopo
+proj
 libspatialite

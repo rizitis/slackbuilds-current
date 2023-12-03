@@ -9,7 +9,7 @@ python2-docopt
 isodate
 python3-webencodings
 html5lib
-python-toml
+python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-soupsieve

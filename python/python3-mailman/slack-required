@@ -42,7 +42,7 @@ python3-alembic
 python3-attrs
 python3-aiosmtpd
 python3-passlib
-python-toml
+python3-toml
 importlib-resources
 gunicorn
 click

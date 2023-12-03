@@ -2,6 +2,7 @@ Electrum
 Kallithea
 Type1_to_OTF
 afdko
+asttokens
 beets
 blink-qt
 buildbot-badges
@@ -31,6 +32,7 @@ python3-aiohttp-socks
 python3-aiohttp
 python3-aksharamukha
 python3-annotated-types
+python3-arabic-reshaper
 python3-astroid
 python3-async-timeout
 python3-black
@@ -73,6 +75,7 @@ python3-twisted
 python3-ufo2ft
 python3-ufolib2
 python3-uharfbuzz
+python3-vharfbuzz
 python3-xarray
 python3-yarl
 spyder

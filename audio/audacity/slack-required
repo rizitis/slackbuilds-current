@@ -1,8 +1,17 @@
 wxWidgets
+serd
+sord
+lv2
+suil
 soxr
 rapidjson
 portsmf
 portmidi
 portaudio
+sratom
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
+lilv
 libsbsms
 

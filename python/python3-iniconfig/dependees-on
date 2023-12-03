@@ -25,6 +25,7 @@ pocketsphinx
 pyCRAC
 pyte
 python3-aksharamukha
+python3-arabic-reshaper
 python3-ase
 python3-autotiling
 python3-cairocffi
@@ -53,6 +54,7 @@ python3-ufo2ft
 python3-ufolib2
 python3-uharfbuzz
 python3-userpath
+python3-vharfbuzz
 qtile
 rpy2
 scikit-learn

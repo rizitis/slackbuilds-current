@@ -1,5 +1,7 @@
 ftgl
 tbb
+python3-pyproject-metadata
+python3-mesonpy
 python3-numpy
 libAfterImage
 gl2ps

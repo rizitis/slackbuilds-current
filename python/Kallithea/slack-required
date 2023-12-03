@@ -14,7 +14,7 @@ python3-webencodings
 python3-bleach
 python3-webob
 python3-backlash
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-bcrypt

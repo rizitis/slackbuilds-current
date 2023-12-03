@@ -1,5 +1,4 @@
-python-toml
-python2-setuptools-scm
+python3-toml
 tqdm
 contextlib2
 schema

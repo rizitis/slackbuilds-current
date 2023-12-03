@@ -8,6 +8,8 @@ geoclue2
 bubblewrap
 webkit2gtk
 wxPython4
+python3-pyproject-metadata
+python3-mesonpy
 python3-numpy
 proj
 geos

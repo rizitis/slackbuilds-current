@@ -1,6 +1,5 @@
 python3-tabulate
-python-toml
-python2-setuptools-scm
+python3-toml
 tqdm
 python3-docopt
 python-argopt

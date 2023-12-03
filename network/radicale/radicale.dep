@@ -4,7 +4,7 @@ python2-dateutil
 vobject
 pytz
 python3-defusedxml
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-bcrypt

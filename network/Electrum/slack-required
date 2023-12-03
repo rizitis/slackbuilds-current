@@ -23,7 +23,7 @@ python3-async-timeout
 python3-aiohttp
 python3-aiohttp-socks
 secp256k1
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-asn1crypto

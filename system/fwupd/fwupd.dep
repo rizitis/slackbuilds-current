@@ -1,6 +1,4 @@
-python-smartypants
-python3-typogrify
-python-toml
+python3-toml
 protobuf3
 protobuf-c
 pefile

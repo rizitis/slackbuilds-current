@@ -25,7 +25,6 @@ pktools
 postgis
 proj-data
 proj-data
-pyresample
 python3-basemap
 python3-cartopy
 python3-obspy

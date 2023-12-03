@@ -12,7 +12,7 @@ python2-pytest-runner
 python2-mccabe
 singledispatch
 ConfigParser
-python-toml
+python2-toml
 functools-lru-cache
 ipaddress
 pies2overrides

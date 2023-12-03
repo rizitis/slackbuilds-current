@@ -1,5 +1,6 @@
 buildah
 containerd
+distrobox
 docker-cli
 docker-compose
 docker

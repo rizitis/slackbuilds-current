@@ -16,7 +16,6 @@ python3-plexapi
 python3-natsort
 python3-isounidecode
 python3-hatch_vcs
-python3-hatch_fancy_pypi_readme
 click
 python3-mdurl
 python3-markdown-it-py
@@ -25,6 +24,7 @@ python3-rich
 python3-h11
 python3-sniffio
 python3-anyio
+python3-hatch_fancy_pypi_readme
 python3-httpcore
 python3-rfc3986
 python3-httpx

@@ -5,7 +5,7 @@ greenlet
 SQLAlchemy
 python3-alembic
 python3-hyperlink
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-asn1crypto

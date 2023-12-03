@@ -1,4 +1,3 @@
-typing-extensions
 python3-calver
 python3-trove-classifiers
 python3-pluggy
@@ -6,6 +5,7 @@ python3-pathspec
 python3-editables
 python3-hatchling
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 python3-pydantic-core

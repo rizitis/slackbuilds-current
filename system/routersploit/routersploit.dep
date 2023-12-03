@@ -1,7 +1,7 @@
 python2-pycrypto
 python2-pyasn1
 pysnmp
-python-toml
+python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-soupsieve

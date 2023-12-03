@@ -9,5 +9,6 @@ jupyter_server
 jupyterlab
 jupyterlab_server
 python3-qstylizer
+python3-svglib
 spyder
 tinycss2

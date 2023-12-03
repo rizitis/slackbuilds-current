@@ -4,7 +4,7 @@ python3-poetry-core
 josepy
 augeas
 python3-augeas
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-asn1crypto

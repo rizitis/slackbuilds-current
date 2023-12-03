@@ -1,6 +1,4 @@
 python3-brotlicffi
-python-toml
-importlib-resources
 CommonMark
 colorama
 python3-psutil
@@ -20,6 +18,8 @@ Flask
 python3-Flask-Cors
 python3-Flask-Login
 python3-Flask-Compress
+python3-toml
+importlib-resources
 pytz
 python3-calver
 python3-trove-classifiers
@@ -37,8 +37,8 @@ python3-aniso8601
 python3-Flask-RESTX
 python3-Flask-RESTful
 python3-zc.lockfile
-typing-extensions
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 python3-pydantic-core

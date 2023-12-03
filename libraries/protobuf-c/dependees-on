@@ -2,8 +2,6 @@ et
 fwupd
 kismet
 libomemo-c
-librasterlite
-libspatialite
 osm2pgrouting
 osm2pgsql
 pgrouting
@@ -13,4 +11,3 @@ protobuf-c
 purple-googlechat
 purple-hangouts
 qgis
-spatialite-tools

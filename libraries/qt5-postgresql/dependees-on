@@ -4,8 +4,6 @@ cyphesis
 dovecot-pgsql
 geopandas
 libpqxx
-librasterlite
-libspatialite
 odoo
 osm2pgrouting
 osm2pgsql
@@ -33,6 +31,5 @@ qt5-postgresql
 qt5-postgresql
 rstudio-desktop
 soci
-spatialite-tools
 unicornscan
 virtualpg

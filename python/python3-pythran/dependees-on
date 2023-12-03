@@ -3,6 +3,7 @@ afdko
 getfem
 pyCRAC
 python3-aksharamukha
+python3-arabic-reshaper
 python3-ase
 python3-cartopy
 python3-cffsubr
@@ -19,5 +20,6 @@ python3-scipy
 python3-statsmodels
 python3-ufo2ft
 python3-ufolib2
+python3-vharfbuzz
 scikit-learn
 ttfautohint-py

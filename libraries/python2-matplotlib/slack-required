@@ -3,7 +3,7 @@ backports-abc
 tornado
 python2-kiwisolver
 subprocess32
-python-toml
+python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-cycler

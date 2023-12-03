@@ -93,7 +93,7 @@ binaryornot
 python3-cookiecutter
 python3-PyQtWebEngine
 python-jeepney
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-asn1crypto

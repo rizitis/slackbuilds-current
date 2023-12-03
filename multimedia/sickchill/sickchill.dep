@@ -8,7 +8,7 @@ python3-putio.py
 libzen
 libmediainfo
 pymediainfo
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-asn1crypto
@@ -70,6 +70,7 @@ python3-pytest
 python3-more-itertools
 python3-webencodings
 html5lib
+python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-soupsieve

@@ -45,6 +45,7 @@ pylast
 pyte
 python3-Flask-RESTX
 python3-aksharamukha
+python3-arabic-reshaper
 python3-ase
 python3-autotiling
 python3-black
@@ -97,6 +98,7 @@ python3-ufo2ft
 python3-ufolib2
 python3-uharfbuzz
 python3-userpath
+python3-vharfbuzz
 python3-virtualenv
 qtile
 rpy2

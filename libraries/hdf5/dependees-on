@@ -6,6 +6,7 @@ OTB
 OpenShadingLanguage
 RepeatMasker
 cdo
+field3d
 gmsh
 grace
 h5utils

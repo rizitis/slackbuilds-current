@@ -107,6 +107,7 @@ perl-Parser-MGC
 perl-Path-Class
 perl-Readonly
 perl-SDL
+perl-SNMP-Info
 perl-SOAP-Lite
 perl-Sidef
 perl-Socket-GetAddrinfo

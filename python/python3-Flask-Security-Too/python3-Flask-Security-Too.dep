@@ -1,4 +1,4 @@
-python-toml
+python3-toml
 importlib-resources
 python3-h11
 python3-sniffio

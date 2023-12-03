@@ -1,6 +1,7 @@
 Type1_to_OTF
 afdko
 python3-aksharamukha
+python3-arabic-reshaper
 python3-cffsubr
 python3-compreffor
 python3-fontmake
@@ -9,4 +10,5 @@ python3-glyphslib
 python3-ufo2ft
 python3-ufolib2
 python3-uharfbuzz
+python3-vharfbuzz
 ttfautohint-py

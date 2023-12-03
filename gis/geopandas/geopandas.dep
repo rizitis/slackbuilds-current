@@ -1,8 +1,8 @@
 geos
-python3-numpy
-python3-shapely
 python3-pyproject-metadata
 python3-mesonpy
+python3-numpy
+python3-shapely
 python3-versioneer
 tzdata
 pytz

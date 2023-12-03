@@ -15,10 +15,6 @@ bubblewrap
 webkit2gtk
 template-glib
 libpeas
-python-smartypants
-python3-typogrify
-python-toml
-gi-docgen
 jsonrpc-glib
 libhandy
 gtksourceview4

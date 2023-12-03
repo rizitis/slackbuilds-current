@@ -4,7 +4,7 @@ python3-poetry-core
 python3-rich
 python3-rfc3986
 python-jeepney
-python-toml
+python3-toml
 python3-semantic-version
 python3-setuptools-rust
 python3-asn1crypto

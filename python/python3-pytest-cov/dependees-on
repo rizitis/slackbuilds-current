@@ -40,6 +40,8 @@ python2-pytest-runner
 python2-twitter
 python3-aksharamukha
 python3-aksharamukha
+python3-arabic-reshaper
+python3-arabic-reshaper
 python3-ase
 python3-autotiling
 python3-cairocffi
@@ -76,6 +78,8 @@ python3-ufolib2
 python3-uharfbuzz
 python3-uharfbuzz
 python3-userpath
+python3-vharfbuzz
+python3-vharfbuzz
 qtile
 rpy2
 scikit-learn

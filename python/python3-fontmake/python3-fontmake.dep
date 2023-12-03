@@ -1,6 +1,6 @@
 python3-webencodings
 html5lib
-python-toml
+python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-soupsieve
@@ -45,6 +45,7 @@ python-unicodedata2
 python3-fonttools
 python3-setuptools-git-ls-files
 python3-compreffor
+python3-toml
 importlib-resources
 tqdm
 scikit-build
