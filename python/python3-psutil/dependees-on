@@ -24,6 +24,7 @@ python3-flufl.lock
 python3-glances
 python3-mailman
 python3-psutil
+python3-py7zr
 python3-spyder-kernels
 speedometer
 spyder

@@ -23,9 +23,6 @@ BeautifulSoup4
 lxml
 python3-fs
 freetype-py
-typing-extensions
-coverage
-python3-pytest-cov
 python3-uharfbuzz
 zopfli
 OpenBLAS
@@ -45,5 +42,6 @@ python-unicodedata2
 python3-fonttools
 python3-attrs
 python3-poetry-core
+typing-extensions
 python3-cattrs
 

@@ -5,7 +5,6 @@ PyGithub
 Type1_to_OTF
 afdko
 ansible
-asttokens
 audible-cli
 awscli-v2
 blink-qt
@@ -16,7 +15,6 @@ buku
 butterfly
 conan
 cryptography
-deis
 deluge
 dfvfs
 flexget

@@ -1,7 +1,11 @@
 sphinx-rtd-theme
 freetype-py
-typing-extensions
-coverage
+python3-uharfbuzz
+python3-fs
+zopfli
+OpenBLAS
+python3-pyproject-metadata
+python3-mesonpy
 python3-flit_scm
 python3-exceptiongroup
 python3-calver
@@ -13,13 +17,6 @@ python3-hatchling
 python3-hatch_vcs
 python3-iniconfig
 python3-pytest
-python3-pytest-cov
-python3-uharfbuzz
-python3-fs
-zopfli
-OpenBLAS
-python3-pyproject-metadata
-python3-mesonpy
 python3-pytest-runner
 doctest
 xsimd

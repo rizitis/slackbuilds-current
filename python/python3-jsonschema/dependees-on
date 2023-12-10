@@ -11,6 +11,7 @@ jupyter_events
 jupyter_server
 jupyterlab
 jupyterlab_server
+mongodb
 python3-Flask-RESTX
 python3-docker-compose
 python3-jsonschema

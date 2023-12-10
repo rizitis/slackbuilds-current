@@ -9,6 +9,7 @@ munin-node
 nagiosgraph
 pangzero
 perl-CGI-Application
+perl-CGI-Fast
 perl-CGI
 perl-HTML-Template
 perl-HTML-WikiConverter-Markdown

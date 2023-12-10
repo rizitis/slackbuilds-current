@@ -22,9 +22,6 @@ python3-iniconfig
 python3-pytest
 sphinx-rtd-theme
 freetype-py
-typing-extensions
-coverage
-python3-pytest-cov
 python3-uharfbuzz
 python3-fs
 zopfli
@@ -60,11 +57,13 @@ python3-ufo2ft
 msgpack-python
 python3-attrs
 python3-poetry-core
+typing-extensions
 python3-cattrs
 python3-ufolib2
 python3-openstep-plist
 python3-glyphslib
 python3-MutatorMath
+coverage
 ttfautohint
 ttfautohint-py
 python3-fontMath

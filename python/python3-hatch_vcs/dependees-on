@@ -31,6 +31,7 @@ jupyter_events
 jupyter_server
 jupyterlab
 jupyterlab_server
+mongodb
 nwg-displays
 nwg-panel
 nwg-shell-config
@@ -38,6 +39,7 @@ nwg-shell
 nwg-wrapper
 pip2tgz
 pipdeptree
+pirate-get
 pocketsphinx
 pre-commit
 pyCRAC
@@ -96,10 +98,11 @@ python3-tubes
 python3-twisted
 python3-ufo2ft
 python3-ufolib2
-python3-uharfbuzz
 python3-userpath
 python3-vharfbuzz
 python3-virtualenv
+python3-weasyprint
+qgis
 qtile
 rpy2
 scikit-learn
@@ -107,8 +110,10 @@ sickchill
 spyder
 swtpm
 tauonmb
+termcolor
 terminator
 thefuck
 thonny
 todoman
 ttfautohint-py
+veryprettytable

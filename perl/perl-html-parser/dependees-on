@@ -13,6 +13,7 @@ nagiosgraph
 netsurf
 pcp
 perl-CGI-Application
+perl-CGI-Fast
 perl-CGI
 perl-HTML-FormatText-WithLinks-AndTables
 perl-HTML-FormatText-WithLinks

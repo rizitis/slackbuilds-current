@@ -1,6 +1,9 @@
+rtrlib
+protobuf3
+protobuf-c
+graphviz
 cmocka
 libyang
-rtrlib
 ipaddr-py
 perl-xml-libxml
 

@@ -19,6 +19,7 @@ jupyter_events
 jupyter_server
 jupyterlab
 jupyterlab_server
+mongodb
 pylast
 python3-CherryMusic
 python3-CherryPy

@@ -4,9 +4,11 @@ darcs
 dbus-cpp
 egypt
 ffmpegfs
+frr
 haskell-graphviz
 libjxl
 libkml
+libyang
 log4c
 nagvis
 ntopng

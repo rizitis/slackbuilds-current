@@ -70,9 +70,9 @@ python3-spyder-kernels
 python3-statsmodels
 python3-ufo2ft
 python3-ufolib2
-python3-uharfbuzz
 python3-userpath
 python3-vharfbuzz
+python3-weasyprint
 qtile
 rpy2
 scikit-learn

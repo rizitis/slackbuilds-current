@@ -1,7 +1,6 @@
 gtest
 highway
 graphviz
-zulu-openjdk8
 gperftools
 gflags
 libjxl

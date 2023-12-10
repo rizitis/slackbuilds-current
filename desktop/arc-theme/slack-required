@@ -1,5 +1,8 @@
 optipng
 murrine
+double-conversion
+gtest
+2geom
 scour
 pstoedit
 potrace
@@ -21,7 +24,6 @@ python3-soupsieve
 BeautifulSoup4
 lxml
 libcdr
-double-conversion
 dos2unix
 gdl
 GraphicsMagick

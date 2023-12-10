@@ -15,12 +15,14 @@ python3-hatchling
 python3-soupsieve
 BeautifulSoup4
 lxml
+double-conversion
+gtest
+2geom
 scour
 pstoedit
 potrace
 python2-numpy
 libcdr
-double-conversion
 dos2unix
 gdl
 GraphicsMagick

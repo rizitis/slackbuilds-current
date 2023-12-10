@@ -3,6 +3,7 @@ monitorix
 munin-node
 nagiosgraph
 perl-CGI-Application
+perl-CGI-Fast
 perl-CGI
 perl-HTML-Template
 perl-HTML-WikiConverter-Markdown

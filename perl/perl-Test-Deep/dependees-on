@@ -6,6 +6,7 @@ munin-node
 nagiosgraph
 pangzero
 perl-CGI-Application
+perl-CGI-Fast
 perl-CGI
 perl-CPAN-Meta-Check
 perl-File-Copy-Recursive

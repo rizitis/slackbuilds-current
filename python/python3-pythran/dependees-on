@@ -21,5 +21,6 @@ python3-statsmodels
 python3-ufo2ft
 python3-ufolib2
 python3-vharfbuzz
+python3-weasyprint
 scikit-learn
 ttfautohint-py

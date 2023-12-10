@@ -99,10 +99,11 @@ python3-ufo2ft
 python3-ufo2ft
 python3-ufolib2
 python3-ufolib2
-python3-uharfbuzz
 python3-userpath
 python3-vharfbuzz
 python3-vharfbuzz
+python3-weasyprint
+python3-weasyprint
 qtile
 qtile
 rpy2

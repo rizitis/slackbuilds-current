@@ -11,9 +11,6 @@ python3-iniconfig
 python3-pytest
 sphinx-rtd-theme
 freetype-py
-typing-extensions
-coverage
-python3-pytest-cov
 python3-uharfbuzz
 python3-fs
 zopfli

@@ -1,7 +1,6 @@
 OWSLib
 OpenLP
 RMG
-RYMTracks
 Type1_to_OTF
 adapta-gtk-theme
 afdko
@@ -47,6 +46,7 @@ python3-sipsimple
 python3-svglib
 python3-ufo2ft
 python3-ufolib2
+python3-weasyprint
 python3-xmldiff
 pytrainer
 qgis
