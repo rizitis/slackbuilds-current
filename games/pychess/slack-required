@@ -3,6 +3,5 @@ greenlet
 SQLAlchemy
 python3-ptyprocess
 python3-pexpect
-python3-psutil
 python3-websockets
 

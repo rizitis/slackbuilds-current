@@ -9,7 +9,6 @@ typing-extensions
 python3-lazr.delegates
 python3-lazr.config
 python3-pdm-pep517
-python3-psutil
 python3-pdm-backend
 python3-atpublic
 python3-flufl.lock

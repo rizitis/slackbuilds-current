@@ -1,7 +1,6 @@
 python3-brotlicffi
 CommonMark
 colorama
-python3-psutil
 tzdata
 python3-loguru
 pytz-deprecation-shim

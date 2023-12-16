@@ -5,7 +5,6 @@ plug
 pluggy
 ptwit
 pylint
-pytest-cov
 pytest
 python2-keyutils
 python2-mccabe

@@ -164,7 +164,6 @@ haskell-HTTP
 haskell-regex-base
 haskell-regex-pcre-builtin
 haskell-highlighting-kate
-haskell-haddock-library
 haskell-unix-compat
 haskell-filemanip
 haskell-cmark
@@ -183,6 +182,7 @@ happy
 haskell-pretty-show
 haskell-skylighting
 haskell-hslua-module-text
+haskell-haddock-library
 haskell-errors
 haskell-base16-bytestring
 haskell-text-conversions

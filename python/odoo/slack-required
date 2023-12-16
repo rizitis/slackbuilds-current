@@ -20,7 +20,6 @@ num2words
 wkhtmltopdf
 ebaysdk
 suds-jurko
-python3-psutil
 python3-pypng
 python-qrcode
 python3-decorator

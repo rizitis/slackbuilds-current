@@ -14,8 +14,6 @@ pylint
 pylint
 pylint
 pyte
-pytest-cov
-pytest-cov
 pytest
 pytest
 python2-keyutils

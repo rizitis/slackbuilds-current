@@ -15,7 +15,6 @@ ndg_httpsclient
 werkzeug
 python3-configargparse
 python-parsedatetime
-python3-psutil
 pyrfc3339
 zope.interface
 zope.hookable

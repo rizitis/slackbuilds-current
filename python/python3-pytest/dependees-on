@@ -29,7 +29,6 @@ pyCRAC
 pylint
 pyte
 pyte
-pytest-cov
 pytest
 python2-keyutils
 python2-mccabe

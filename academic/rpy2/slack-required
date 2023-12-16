@@ -1,3 +1,5 @@
+typing-extensions
+python3-setuptools-scm-opt
 pytz
 tzlocal
 python3-flit_scm

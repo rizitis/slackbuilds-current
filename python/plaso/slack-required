@@ -16,7 +16,6 @@ libcaes
 pytz
 zeromq
 python3-pyzmq
-python3-psutil
 pefile
 python3-pkgconfig
 python3-lz4

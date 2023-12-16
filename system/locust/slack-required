@@ -1,4 +1,3 @@
-typing-extensions
 python3-blinker
 click
 python3-itsdangerous
@@ -6,8 +5,8 @@ werkzeug
 Flask
 python3-Flask-Cors
 roundrobin
+typing-extensions
 python3-configargparse
-python3-psutil
 zope.event
 zope.interface
 msgpack-python

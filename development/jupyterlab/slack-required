@@ -6,7 +6,6 @@ python3-editables
 python3-hatchling
 traitlets
 python3-comm
-python3-psutil
 python3-tornado
 zeromq
 python3-pyzmq

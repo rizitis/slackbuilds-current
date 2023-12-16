@@ -1,11 +1,14 @@
 Electrum
 Kallithea
+asgiref
 beets
 blink-qt
 buildbot-badges
 buildbot-worker
 buildbot
 deluge
+django-debug-toolbar
+django-sass
 flexget
 hyfetch
 ion
@@ -35,6 +38,7 @@ python3-cartopy
 python3-cattrs
 python3-celery
 python3-cheroot
+python3-django
 python3-fontmake
 python3-glyphslib
 python3-inflate64
@@ -71,6 +75,7 @@ python3-twisted
 python3-ufolib2
 python3-xarray
 python3-yarl
+rpy2
 spyder
 swtpm
 thonny

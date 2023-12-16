@@ -10,7 +10,6 @@ parsel
 ptwit
 pylint
 pysnmp
-pytest-cov
 pytest
 python2-cryptography
 python2-keyczar

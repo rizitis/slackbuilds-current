@@ -58,7 +58,6 @@ perl-gtk2-imageview
 goocanvas
 perl-goo-canvas
 perl-gnome2-wnck
-perl-File-Which
 perl-Try-Tiny
 perl-Test-Fatal
 perl-Test-Warnings
@@ -69,6 +68,7 @@ perl-Test-utf8
 perl-Test-File
 perl-File-Copy-Recursive
 perl-IPC-System-Simple
+perl-File-Which
 perl-file-basedir
 ORBit2
 libbonobo

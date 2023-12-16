@@ -14,6 +14,5 @@ python3-jsonschema
 yaml-cpp
 snowballstemmer
 snappy
-python3-psutil
 cheetah3
 mongodb

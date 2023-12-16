@@ -1,0 +1,10 @@
+codec2
+portaudio
+rtaudio
+SoapySDR
+SDRPlay
+hackrf
+rtl-sdr
+glfw3
+volk
+sdrpp

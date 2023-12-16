@@ -4,7 +4,6 @@ parsel
 ptwit
 pylint
 pyte
-pytest-cov
 pytest
 python2-keyutils
 python2-mccabe

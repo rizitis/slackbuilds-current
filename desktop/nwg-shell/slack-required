@@ -39,7 +39,6 @@ gtklock
 ddcutil
 wlr-randr
 python3-netifaces
-python3-psutil
 nwg-icon-picker
 light
 nwg-panel
