@@ -7,9 +7,9 @@ python3-asn1crypto
 python3-pyasn1
 cryptography
 secretstorage
-entrypoints
-python2-setuptools-scm
-python-keyring
+python3-more-itertools
+python3-jaraco.classes
+python3-keyring
 python3-pycrypto
 python-precis-i18n
 python-nbxmpp

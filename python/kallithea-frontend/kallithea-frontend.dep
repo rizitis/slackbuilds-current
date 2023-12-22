@@ -2,7 +2,6 @@ python3-whoosh
 python3-webhelpers2
 python3-waitress
 python3-urlobject
-python3-dateutil
 python3-paste
 python3-ipaddr
 python3-dulwich
@@ -34,6 +33,7 @@ python3-routes
 python3-tgext.routes
 tzdata
 typing-extensions
+python3-dateutil
 python3-click-repl
 click
 click-plugins

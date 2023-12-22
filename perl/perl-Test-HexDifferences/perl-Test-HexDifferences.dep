@@ -1,8 +1,8 @@
-perl-Algorithm-Diff
-perl-Text-Diff
 perl-Test-NoWarnings
 perl-Capture-Tiny
 perl-Module-Build
+perl-Algorithm-Diff
+perl-Text-Diff
 perl-Test-Differences
 perl-Pod-Parser
 perl-Devel-Symdump

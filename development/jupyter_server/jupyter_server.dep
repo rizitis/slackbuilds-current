@@ -22,10 +22,6 @@ python3-tornado
 python3-ptyprocess
 terminado
 jupyter_server_terminals
-python3-poetry-core
-python3-tomlkit
-python3-deprecation
-jupyter_packaging
 python3-webencodings
 tinycss2
 python3-soupsieve
@@ -33,8 +29,11 @@ BeautifulSoup4
 testpath
 pandocfilters
 python3-mistune
+python3-poetry-core
+python3-tomlkit
+python3-deprecation
+jupyter_packaging
 jupyterlab_pygments
-nest_asyncio
 python3-hatch-nodejs-version
 python3-hatch_vcs
 python3-platformdirs
@@ -48,6 +47,7 @@ python3-jsonschema
 jupyter-nbformat
 zeromq
 python3-pyzmq
+nest_asyncio
 entrypoints
 jupyter_client
 async_generator

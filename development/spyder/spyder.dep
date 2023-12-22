@@ -1,9 +1,9 @@
-ipython_genutils
 snowballstemmer
 python3-pydocstyle
 python3-helpdev
 QtPy
 QDarkStyle
+ipython_genutils
 python3-calver
 python3-trove-classifiers
 python3-pluggy
@@ -81,7 +81,6 @@ python3-black
 python3-lsp-black
 python3-sortedcontainers
 python3-intervaltree
-python3-pyflakes
 python3-text-unidecode
 python3-slugify
 python3-arrow
@@ -97,8 +96,9 @@ python3-asn1crypto
 python3-pyasn1
 cryptography
 secretstorage
-python2-setuptools-scm
-python-keyring
+python3-more-itertools
+python3-jaraco.classes
+python3-keyring
 numpydoc
 python3-soupsieve
 BeautifulSoup4
@@ -122,6 +122,7 @@ jupyter-nbconvert
 python3-setuptools-rust-opt
 python3-maturin
 jellyfish
+python3-pyflakes
 pycodestyle
 flake8
 autopep8

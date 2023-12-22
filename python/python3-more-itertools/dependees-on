@@ -1,6 +1,7 @@
 apprise
 dropbox-python
 flexget
+gajim
 parsel
 ptwit
 pylint
@@ -17,7 +18,11 @@ python3-jaraco.classes
 python3-jaraco.collections
 python3-jaraco.functools
 python3-jaraco.text
+python3-keyring
 python3-more-itertools
 python3-portend
 python3-tempora
 sickchill
+spyder
+twine
+urlwatch

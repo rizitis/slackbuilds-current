@@ -1,0 +1,11 @@
+python-jeepney
+python3-toml
+python3-semantic-version
+python3-setuptools-rust
+python3-asn1crypto
+python3-pyasn1
+cryptography
+secretstorage
+python3-more-itertools
+python3-jaraco.classes
+

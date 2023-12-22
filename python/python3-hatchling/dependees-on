@@ -90,6 +90,7 @@ python3-WTForms
 python3-aiofiles
 python3-aiohttp-socks
 python3-aiohttp
+python3-aiosignal
 python3-aksharamukha
 python3-annotated-types
 python3-arabic-reshaper
@@ -111,6 +112,7 @@ python3-expandvars
 python3-filelock
 python3-fontmake
 python3-fonttools
+python3-frozenlist
 python3-gds3xtrude
 python3-gensim
 python3-glyphslib

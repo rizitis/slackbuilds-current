@@ -3,6 +3,9 @@ perl-Test-Fatal
 perl-Role-Tiny
 perl-Scalar-List-Utils
 perl-Sub-Identify
+perl-Test-Requires
+perl-Module-Implementation
+perl-Package-Stash-XS
 perl-Pod-Parser
 perl-Devel-Symdump
 perl-Pod-Coverage
@@ -12,9 +15,6 @@ perl-Sub-Install
 perl-Params-Util
 perl-Data-OptList
 perl-Sub-Exporter
-perl-Test-Requires
-perl-Module-Implementation
-perl-Package-Stash-XS
 perl-List-MoreUtils-XS
 perl-Exporter-Tiny
 perl-List-MoreUtils

@@ -20,8 +20,6 @@ python3-uharfbuzz
 python3-fs
 zopfli
 OpenBLAS
-python3-pyproject-metadata
-python3-mesonpy
 python3-flit_scm
 python3-exceptiongroup
 python3-hatch_vcs
@@ -30,6 +28,8 @@ python3-pytest
 python3-pytest-runner
 doctest
 xsimd
+python3-pyproject-metadata
+python3-mesonpy
 python3-numpy
 python3-gast
 python3-beniget

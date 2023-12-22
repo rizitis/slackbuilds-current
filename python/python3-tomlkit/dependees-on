@@ -48,7 +48,6 @@ pyjwt
 pymysql
 python-argopt
 python-axolotl
-python-keyring
 python-mysql-replication
 python2-requests-kerberos
 python3-Flask-Bcrypt
@@ -61,6 +60,7 @@ python3-cffsubr
 python3-fontmake
 python3-glyphslib
 python3-ipython-sql
+python3-keyring
 python3-klein
 python3-librosa
 python3-mailman

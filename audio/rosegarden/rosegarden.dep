@@ -1,4 +1,3 @@
-liblo
 guile2.2
 # %README%: see the texi2html README file. 
 texi2html
@@ -7,6 +6,7 @@ lilypond
 raptor
 ladspa_sdk
 liblrdf
+liblo
 jack
 dssi
 rosegarden

@@ -1,9 +1,9 @@
-python3-pyproject-metadata
-python3-mesonpy
 python3-versioneer
 tzdata
 pytz
 python3-dateutil
+python3-pyproject-metadata
+python3-mesonpy
 python3-numpy
 python3-pandas
 python3-tornado

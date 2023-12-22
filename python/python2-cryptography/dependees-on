@@ -26,12 +26,12 @@ pyftpdlib
 pyjwt
 pymysql
 python-axolotl
-python-keyring
 python-mysql-replication
 python2-cryptography
 python2-paramiko
 python2-requests-kerberos
 python3-autobahn
+python3-keyring
 python3-klein
 python3-otr
 python3-paramiko

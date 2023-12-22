@@ -1,9 +1,9 @@
-pybind11
 pugixml
 libaec
 hdf5
 dcmtk
 robin-map
+pybind11
 opencolorio
 openimageio
 OpenShadingLanguage

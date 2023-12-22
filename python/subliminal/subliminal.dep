@@ -1,6 +1,7 @@
 pytz
 rarfile
 python3-pysrt
+typing-extensions
 python3-decorator
 python3-stevedore
 python3-dogpile.cache

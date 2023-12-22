@@ -1,7 +1,7 @@
-perl-Capture-Tiny
 perl-Test-Requires
 perl-Module-Build
 perl-Cwd-Guard
+perl-Capture-Tiny
 perl-File-Copy-Recursive-Reduced
 perl-JSON
 perl-Test-Harness

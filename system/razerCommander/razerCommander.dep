@@ -1,8 +1,8 @@
+openrazer-kernel
+python-daemonize
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
-openrazer-kernel
-python-daemonize
 pyudev
 setproctitle
 openrazer-daemon

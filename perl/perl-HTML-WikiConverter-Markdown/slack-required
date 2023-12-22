@@ -1,9 +1,3 @@
-perl-Module-Build
-perl-Test-Requires
-perl-Try-Tiny
-perl-Test-Fatal
-perl-Module-Implementation
-perl-Params-Validate
 perl-XML-Writer
 perl-Sub-Uplevel
 perl-test-warn
@@ -19,8 +13,14 @@ perl-Test-Harness
 perl-Test-Simple
 perl-Parse-RecDescent
 perl-CSS
+perl-Module-Build
+perl-Try-Tiny
+perl-Test-Fatal
 perl-Test-Exception
 perl-HTML-Tree
+perl-Test-Requires
+perl-Module-Implementation
+perl-Params-Validate
 perl-Class-Data-Inheritable
 perl-HTML-WikiConverter
 

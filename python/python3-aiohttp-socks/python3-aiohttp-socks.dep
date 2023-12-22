@@ -1,8 +1,4 @@
 python3-socks
-python3-frozenlist
-python3-aiosignal
-typing-extensions
-python3-multidict
 python3-calver
 python3-trove-classifiers
 python3-pluggy
@@ -10,6 +6,10 @@ python3-pathspec
 python3-editables
 python3-hatchling
 python3-expandvars
+python3-frozenlist
+python3-aiosignal
+typing-extensions
+python3-multidict
 python3-yarl
 python3-attrs
 python3-async-timeout

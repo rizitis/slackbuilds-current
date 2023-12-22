@@ -1,4 +1,11 @@
 pdf2svg
+double-conversion
+gtest
+2geom
+scour
+pstoedit
+potrace
+python2-numpy
 python3-webencodings
 html5lib
 python2-toml
@@ -15,13 +22,6 @@ python3-hatchling
 python3-soupsieve
 BeautifulSoup4
 lxml
-double-conversion
-gtest
-2geom
-scour
-pstoedit
-potrace
-python2-numpy
 libcdr
 dos2unix
 gdl

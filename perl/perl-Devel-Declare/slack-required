@@ -1,7 +1,7 @@
-perl-Test-Requires
 perl-Sub-Name
 perl-Variable-Magic
 perl-Sub-Exporter-Progressive
+perl-Test-Requires
 perl-Try-Tiny
 perl-Test-Fatal
 perl-Module-Implementation

@@ -1,4 +1,3 @@
-pytz
 python-urwid
 python3-tabulate
 python3-calver
@@ -11,6 +10,7 @@ python3-hatch_vcs
 humanize
 parsedatetime
 python3-dateutil
+pytz
 icalendar
 click-log
 click

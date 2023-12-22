@@ -1,8 +1,6 @@
 python3-presets
 python3-threadpoolctl
 OpenBLAS
-python3-pyproject-metadata
-python3-mesonpy
 python3-flit_scm
 python3-exceptiongroup
 python3-calver
@@ -17,6 +15,8 @@ python3-pytest
 python3-pytest-runner
 doctest
 xsimd
+python3-pyproject-metadata
+python3-mesonpy
 python3-numpy
 python3-gast
 python3-beniget
@@ -25,12 +25,12 @@ pybind11
 python3-scipy
 python3-joblib
 scikit-learn
-python3-platformdirs
 python3-versioneer
 tzdata
 pytz
 python3-dateutil
 python3-pandas
+python3-platformdirs
 python3-pooch
 msgpack-python
 python3-llvmlite

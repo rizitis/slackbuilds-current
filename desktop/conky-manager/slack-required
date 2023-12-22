@@ -2,4 +2,7 @@ p7zip
 imlib2
 lua53
 conky
+nvidia-kernel
+nvidia-driver
+libxnvctrl
 

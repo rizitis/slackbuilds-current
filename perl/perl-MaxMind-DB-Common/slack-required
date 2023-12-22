@@ -1,4 +1,3 @@
-perl-Scalar-List-Utils
 perl-Test-Needs
 perl-Sub-Name
 perl-Test-Requires
@@ -37,14 +36,15 @@ perl-Module-Build-Tiny
 perl-Class-Method-Modifiers
 perl-MooX-StrictConstructor
 perl-Math-BigInt
-perl-List-UtilsBy
-perl-List-SomeUtils
-perl-List-AllUtils
-perl-Module-Build
 perl-Test-Warnings
 perl-Sub-Uplevel
 perl-Test-Exception
 perl-Math-Round
+perl-List-UtilsBy
+perl-List-SomeUtils
+perl-Scalar-List-Utils
+perl-List-AllUtils
+perl-Module-Build
 perl-Params-Validate
 perl-Class-Singleton
 perl-Class-Load

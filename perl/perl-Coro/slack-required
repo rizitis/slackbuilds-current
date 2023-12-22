@@ -1,7 +1,7 @@
 perl-event
 perl-Guard
-perl-common-sense
 perl-AnyEvent
 perl-Canary-Stability
+perl-common-sense
 perl-EV
 

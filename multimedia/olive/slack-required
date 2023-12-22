@@ -1,9 +1,9 @@
 graphviz
-pybind11
-opencolorio
 libaec
 hdf5
 dcmtk
 robin-map
+pybind11
+opencolorio
 openimageio
 

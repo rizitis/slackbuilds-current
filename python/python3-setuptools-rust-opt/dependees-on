@@ -28,7 +28,6 @@ pyftpdlib
 pyjwt
 pymysql
 python-axolotl
-python-keyring
 python-mysql-replication
 python2-requests-kerberos
 python3-CherryMusic
@@ -39,6 +38,7 @@ python3-bcrypt
 python3-inflect
 python3-jaraco.collections
 python3-jaraco.text
+python3-keyring
 python3-klein
 python3-maturin
 python3-orjson

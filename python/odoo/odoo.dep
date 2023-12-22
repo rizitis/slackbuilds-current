@@ -40,7 +40,6 @@ BeautifulSoup4
 lxml
 python-libsass
 python2-MarkupSafe
-pytz
 python-xlrd
 werkzeug
 pyserial

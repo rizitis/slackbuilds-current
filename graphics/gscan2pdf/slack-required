@@ -30,11 +30,11 @@ perl-Test-Simple
 perl-Try-Tiny
 perl-Test-Fatal
 perl-Sub-Override
-perl-Carp-Clan
 perl-Log-Log4perl
 perl-html-tagset
 perl-html-parser
 perl-config-general
+perl-Carp-Clan
 perl-Bit-Vector
 perl-Date-Calc
 perl-IPC-System-Simple
@@ -44,9 +44,9 @@ perl-ExtUtils-Config
 perl-ExtUtils-InstallPaths
 perl-Module-Build-Tiny
 perl-Readonly
+perl-Test-Requires
 perl-Devel-StackTrace
 perl-Class-Data-Inheritable
-perl-Test-Requires
 perl-Exception-Class
 perl-Image-Sane
 
