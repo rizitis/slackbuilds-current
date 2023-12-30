@@ -27,6 +27,7 @@ grub_legacy
 gtklock-userinfo-module
 kicad
 krop
+libfreeaptx
 libsidplay
 lilypond
 lvm2-lockd

@@ -25,6 +25,7 @@ gtklock-userinfo-module
 kallithea-frontend
 kicad
 krop
+libfreeaptx
 libsidplay
 lilypond
 lvm2-lockd

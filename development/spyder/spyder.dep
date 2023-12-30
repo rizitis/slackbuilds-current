@@ -3,7 +3,6 @@ python3-pydocstyle
 python3-helpdev
 QtPy
 QDarkStyle
-ipython_genutils
 python3-calver
 python3-trove-classifiers
 python3-pluggy

@@ -24,6 +24,7 @@ gtklock-userinfo-module
 haskell-either
 kicad
 krop
+libfreeaptx
 libsidplay
 lilypond
 lvm2-lockd

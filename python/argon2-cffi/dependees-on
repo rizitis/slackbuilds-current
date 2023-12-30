@@ -19,6 +19,7 @@ python2-paramiko
 python2-xcffib
 python3-PyGithub
 python3-paramiko
+python3-pykeepass
 routersploit
 rpy2
 sftp-cloudfs

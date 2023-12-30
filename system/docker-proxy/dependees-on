@@ -5,5 +5,7 @@ docker-compose
 docker-proxy
 docker
 docker
+libnvidia-container
+libnvidia-container
 subuser
 subuser

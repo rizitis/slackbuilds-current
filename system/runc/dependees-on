@@ -4,6 +4,7 @@ distrobox
 docker-cli
 docker-compose
 docker
+libnvidia-container
 podman
 runc
 subuser

@@ -3,4 +3,5 @@ docker-compose
 docker-machine-kvm
 docker-machine
 docker
+libnvidia-container
 subuser

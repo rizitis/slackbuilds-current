@@ -41,6 +41,7 @@ python3-fontmake
 python3-glyphslib
 python3-obspy
 python3-openpyxl
+python3-pykeepass
 python3-sipclients3
 python3-sipsimple
 python3-svglib

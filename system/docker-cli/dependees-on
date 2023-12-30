@@ -3,4 +3,5 @@ docker-cli
 docker-compose
 docker-compose
 docker
+libnvidia-container
 subuser

@@ -1,5 +1,6 @@
 docker-cli
 docker-compose
 docker
+libnvidia-container
 python2-docker
 subuser

@@ -1,6 +1,7 @@
 conky-manager
 cudatoolkit
 cudnn
+libnvidia-container
 libxnvctrl
 nvidia-driver
 river

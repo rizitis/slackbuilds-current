@@ -2,6 +2,7 @@ docker-cli
 docker-compose
 docker-compose
 docker
+libnvidia-container
 python3-docker-compose
 python3-docker-compose
 python3-docker
