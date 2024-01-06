@@ -2,6 +2,6 @@ lxqt-build-tools
 libqtxdg
 libfm-extra
 menu-cache
-lxmenu-data
+lxqt-menu-data
 libfm-qt
 

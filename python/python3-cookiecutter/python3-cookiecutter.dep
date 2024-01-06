@@ -1,5 +1,9 @@
 python3-text-unidecode
 python3-slugify
+python3-mdurl
+python3-markdown-it-py
+python3-poetry-core
+python3-rich
 python3-dateutil
 python3-arrow
 python3-jinja2-time

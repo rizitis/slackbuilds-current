@@ -1,6 +1,6 @@
 libfm-extra
 menu-cache
-lxmenu-data
 lxqt-build-tools
+lxqt-menu-data
 libfm-qt
 pcmanfm-qt

@@ -1,5 +1,3 @@
-clap
-vst3sdk
 tomlplusplus
 ghc_filesystem
 gtest

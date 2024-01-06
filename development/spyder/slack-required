@@ -1,3 +1,4 @@
+python3-whatthepatch
 snowballstemmer
 python3-pydocstyle
 python3-helpdev
@@ -62,6 +63,7 @@ python3-inflection
 python3-qstylizer
 python3-ujson
 python3-lsp-jsonrpc
+python3-docstring-to-markdown
 python3-lsp-server
 python3-pyls-
 python3-filelock
@@ -82,6 +84,9 @@ python3-sortedcontainers
 python3-intervaltree
 python3-text-unidecode
 python3-slugify
+python3-mdurl
+python3-markdown-it-py
+python3-rich
 python3-arrow
 python3-jinja2-time
 binaryornot
@@ -113,7 +118,6 @@ python3-pyrsistent
 python3-attrs
 python3-jsonschema
 jupyter-nbformat
-async_generator
 jupyter-nbclient
 python3-defusedxml
 python3-bleach

@@ -1,13 +1,16 @@
 audible-cli
 audible
+calcure
 eyeD3
 flexget
+holidays
 httpie
 pelican
 pip2tgz
 pipdeptree
 pylast
 python3-cartopy
+python3-cookiecutter
 python3-httpx
 python3-inflate64
 python3-py7zr
@@ -18,5 +21,6 @@ python3-setuptools-scm-opt
 python3-statsmodels
 python3-xarray
 rpy2
+spyder
 tauonmb
 twine

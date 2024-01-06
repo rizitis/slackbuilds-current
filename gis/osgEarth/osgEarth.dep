@@ -1,6 +1,11 @@
+Catch2
+spdlog
+gflags
+snappy
+rocksdb
 protobuf3
+OpenSceneGraph
 proj
 geos
 gdal
-OpenSceneGraph
 osgEarth

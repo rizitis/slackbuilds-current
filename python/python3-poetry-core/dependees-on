@@ -2,11 +2,13 @@ audible-cli
 audible
 beautysh
 blink-qt
+calcure
 email-validator
 epy
 et
 eyeD3
 flexget
+holidays
 httpie
 ipython
 josepy
@@ -35,6 +37,7 @@ python3-authheaders
 python3-beekeeper-alt
 python3-cartopy
 python3-cattrs
+python3-cookiecutter
 python3-dkimpy
 python3-dnspython
 python3-fontmake

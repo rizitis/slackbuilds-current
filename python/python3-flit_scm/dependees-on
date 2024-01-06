@@ -12,15 +12,10 @@ i3ipc
 image-analyzer
 ipython
 jupyter-ipykernel
-jupyter-nbclassic
 jupyter-notebook
-jupyter-notebook_shim
 jupyter-qtconsole
 jupyter_console
-jupyter_events
-jupyter_server
 jupyterlab
-jupyterlab_server
 nwg-displays
 nwg-panel
 nwg-shell-config

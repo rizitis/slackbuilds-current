@@ -22,5 +22,4 @@ python3-dateutil
 nest_asyncio
 entrypoints
 jupyter_client
-async_generator
 jupyter-nbclient

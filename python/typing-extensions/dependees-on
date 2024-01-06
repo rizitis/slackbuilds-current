@@ -6,10 +6,12 @@ blink-qt
 buildbot-badges
 buildbot-worker
 buildbot
+calcure
 deluge
 django-debug-toolbar
 django-sass
 flexget
+holidays
 hyfetch
 ion
 ipython
