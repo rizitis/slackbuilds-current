@@ -55,8 +55,8 @@ python3-defcon
 python3-booleanOperations
 python3-ufo2ft
 msgpack-python
+python3-hatch_fancy_pypi_readme
 python3-attrs
-python3-poetry-core
 typing-extensions
 python3-cattrs
 python3-ufolib2

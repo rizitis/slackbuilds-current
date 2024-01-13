@@ -38,7 +38,7 @@ python3-hatchling
 python3-soupsieve
 BeautifulSoup4
 lxml
-python-libsass
+python3-libsass
 python2-MarkupSafe
 python-xlrd
 werkzeug

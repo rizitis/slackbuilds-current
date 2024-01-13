@@ -36,12 +36,9 @@ python3-asttokens
 python3-authheaders
 python3-beekeeper-alt
 python3-cartopy
-python3-cattrs
 python3-cookiecutter
 python3-dkimpy
 python3-dnspython
-python3-fontmake
-python3-glyphslib
 python3-httpx
 python3-inflate64
 python3-ipython-sql
@@ -67,7 +64,6 @@ python3-spyder-kernels
 python3-stack_data
 python3-statsmodels
 python3-tomlkit
-python3-ufolib2
 python3-url-normalize
 python3-validators
 python3-xarray

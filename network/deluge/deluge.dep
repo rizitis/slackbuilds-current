@@ -1,12 +1,9 @@
 libtorrent-rasterbar
-python3-toml
 python3-semantic-version
-python3-setuptools-rust
-python3-asn1crypto
-python3-pyasn1
+typing-extensions
+python3-setuptools-rust-opt
 cryptography
 pyOpenSSL
-typing-extensions
 python3-calver
 python3-trove-classifiers
 python3-pluggy
@@ -15,6 +12,7 @@ python3-editables
 python3-hatchling
 python3-hatch_fancy_pypi_readme
 python3-hatch_vcs
+python3-pyasn1
 python3-pyasn1-modules
 python3-attrs
 python3-service-identity

@@ -1,8 +1,8 @@
 BeautifulSoup4
 CairoSVG
 Electrum
+Fiona
 OWSLib
-OpenLP
 Type1_to_OTF
 adapta-gtk-theme
 afdko
@@ -16,6 +16,7 @@ buildbot-badges
 buildbot-worker
 buildbot
 buku
+calcure
 certbot-dns-cloudflare
 compiz-boxmenu
 deluge
@@ -26,7 +27,10 @@ euca2ools
 eyeD3
 flexget
 font-manager
+geopandas
 getfem
+git-cola
+gj2ascii
 gmdb2
 gnucash-docs
 gourmet
@@ -35,6 +39,7 @@ humanize
 i3-layouts
 i3expo-ng
 i3ipc
+ics
 image-analyzer
 inkscape-gtk2
 inkscape
@@ -78,9 +83,12 @@ pocketsphinx
 pre-commit
 pyCRAC
 pyPEG2
+pycp
 pylast
 pyquery
 pysass
+pysolfc-extra-cardsets
+pysolfc
 pyte
 python3-CherryMusic
 python3-CherryPy
@@ -91,16 +99,21 @@ python3-WTForms
 python3-aiofiles
 python3-aiohttp-socks
 python3-aiohttp
+python3-aiorpcX
 python3-aiosignal
+python3-aiosmtpd
 python3-aksharamukha
 python3-annotated-types
 python3-arabic-reshaper
 python3-ase
+python3-attrs
 python3-authheaders
+python3-automat
 python3-autotiling
 python3-black
 python3-cairocffi
 python3-cartopy
+python3-cattrs
 python3-cffsubr
 python3-cinemagoer
 python3-cloudflare
@@ -130,6 +143,7 @@ python3-iniconfig
 python3-ipython-sql
 python3-jaraco.collections
 python3-jaraco.text
+python3-jsonlines
 python3-jsonschema
 python3-klein
 python3-librosa
@@ -182,6 +196,7 @@ pytrainer
 qgis
 qtile
 radiotray
+rasterio
 recoll
 redo
 relatorio
@@ -206,6 +221,7 @@ toot
 traitlets
 trelby
 ttfautohint-py
+ueberzug
 variety
 vdirsyncer
 veryprettytable

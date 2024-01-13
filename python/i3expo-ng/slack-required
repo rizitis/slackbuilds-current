@@ -23,5 +23,5 @@ python3-pytest
 python3-xlib
 i3ipc
 portmidi
-pygame
+python3-pygame
 

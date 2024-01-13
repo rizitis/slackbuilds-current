@@ -3,5 +3,5 @@ python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
 portmidi
-pygame
+python3-pygame
 

@@ -2,11 +2,9 @@ python2-pbr
 python2-swiftclient
 python2-memcached
 python2-daemon
-python3-toml
 python3-semantic-version
-python3-setuptools-rust
-python3-asn1crypto
-python3-pyasn1
+typing-extensions
+python3-setuptools-rust-opt
 cryptography
 pyOpenSSL
 pysendfile

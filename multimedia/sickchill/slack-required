@@ -8,11 +8,9 @@ python3-putio.py
 libzen
 libmediainfo
 pymediainfo
-python3-toml
 python3-semantic-version
-python3-setuptools-rust
-python3-asn1crypto
-python3-pyasn1
+typing-extensions
+python3-setuptools-rust-opt
 cryptography
 pyOpenSSL
 send2trash
@@ -30,7 +28,6 @@ twitter
 pytz
 rarfile
 python3-pysrt
-typing-extensions
 python3-decorator
 python3-stevedore
 python3-dogpile.cache
@@ -77,6 +74,7 @@ functools-lru-cache
 python2-soupsieve
 python2-BeautifulSoup4
 lxml
+python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-atomicwrites
 python3-cinemagoer

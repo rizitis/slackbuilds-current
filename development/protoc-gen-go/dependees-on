@@ -1,0 +1,2 @@
+protoc-gen-go-grpc
+protoc-gen-go

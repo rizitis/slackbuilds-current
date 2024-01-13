@@ -30,6 +30,7 @@ python2-BeautifulSoup4
 python3-soupsieve
 BeautifulSoup4
 lxml
+python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-atomicwrites
 

@@ -1,6 +1,5 @@
 python-ly
 python-poppler-qt5
-guile2.2
 # %README%: see the texi2html README file. 
 texi2html
 fontforge

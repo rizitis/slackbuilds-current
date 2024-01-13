@@ -4,11 +4,9 @@ python3-wcwidth
 python3-prompt_toolkit
 python3-ruamel.yaml.clib
 python3-ruamel.yaml
-python3-toml
 python3-semantic-version
-python3-setuptools-rust
-python3-asn1crypto
-python3-pyasn1
+typing-extensions
+python3-setuptools-rust-opt
 cryptography
 colorama
 awscrt

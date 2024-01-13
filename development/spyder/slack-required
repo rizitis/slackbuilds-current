@@ -93,11 +93,8 @@ binaryornot
 python3-cookiecutter
 python3-PyQtWebEngine
 python-jeepney
-python3-toml
 python3-semantic-version
-python3-setuptools-rust
-python3-asn1crypto
-python3-pyasn1
+python3-setuptools-rust-opt
 cryptography
 secretstorage
 python3-more-itertools
@@ -122,7 +119,6 @@ jupyter-nbclient
 python3-defusedxml
 python3-bleach
 jupyter-nbconvert
-python3-setuptools-rust-opt
 python3-maturin
 jellyfish
 python3-pyflakes

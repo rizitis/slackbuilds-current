@@ -1,3 +1,10 @@
+python3-calver
+python3-trove-classifiers
+python3-pluggy
+python3-pathspec
+python3-editables
+python3-hatchling
+python3-hatch_fancy_pypi_readme
 python3-attrs
 python2-setuptools-scm
 python-xlib
