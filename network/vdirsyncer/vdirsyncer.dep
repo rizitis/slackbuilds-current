@@ -12,6 +12,7 @@ python3-aiosignal
 typing-extensions
 python3-multidict
 python3-yarl
+python3-hatch_vcs
 python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-async-timeout

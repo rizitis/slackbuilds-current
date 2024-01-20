@@ -18,7 +18,14 @@ python3-falcon
 python3-dateutil
 python3-publicsuffix2
 python3-h11
+python3-mdurl
+python3-markdown-it-py
+python3-poetry-core
+python3-rich
+python3-setuptools-scm-opt
 python3-sniffio
+python3-flit_scm
+python3-exceptiongroup
 python3-anyio
 python3-calver
 python3-trove-classifiers
@@ -28,9 +35,6 @@ python3-editables
 python3-hatchling
 python3-hatch_fancy_pypi_readme
 python3-httpcore
-python3-flit_scm
-python3-exceptiongroup
-python3-poetry-core
 python3-dnspython
 python3-dkimpy
 python3-authres
@@ -38,6 +42,7 @@ python3-authheaders
 greenlet
 SQLAlchemy
 python3-alembic
+python3-hatch_vcs
 python3-attrs
 python3-aiosmtpd
 python3-passlib

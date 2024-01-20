@@ -7,6 +7,8 @@ python3-mesonpy
 python3-numpy
 python3-pandas
 python3-tornado
+cppy
+python3-kiwisolver
 python3-cycler
 python3-matplotlib
 

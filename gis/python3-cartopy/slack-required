@@ -33,9 +33,24 @@ python3-pyshp
 proj
 python3-pyproj
 python3-tornado
+cppy
+python3-kiwisolver
 python3-cycler
 pytz
 python3-dateutil
 python3-matplotlib
+libgeotiff
+podofo
+libminizip
+freexl
+librttopo
+libspatialite
+libaec
+hdf5
+netcdf
+graphviz
+uriparser
+libkml
+xerces-c
 gdal
 

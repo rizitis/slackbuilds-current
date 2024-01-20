@@ -5,5 +5,5 @@ tzlocal
 configobj
 python3-atomicwrites
 python3-dateutil
-icalendar
+python3-icalendar
 khal

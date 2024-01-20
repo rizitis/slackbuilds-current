@@ -6,6 +6,7 @@ geopandas
 libpqxx
 odoo
 osm2pgrouting
+osm2pgsql-legacy
 osm2pgsql
 pcp
 pd-psql

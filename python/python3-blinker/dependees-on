@@ -25,5 +25,8 @@ python3-Flask-WTF
 python3-Flask-httpauth
 python3-aksharamukha
 python3-blinker
+python3-cacheyou
 python3-flask-paginate
+python3-pdm
+sickchill
 youtube-dl-server

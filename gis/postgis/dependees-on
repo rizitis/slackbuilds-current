@@ -1,4 +1,5 @@
 osm2pgrouting
+osm2pgsql-legacy
 osm2pgsql
 pgrouting
 pgsql-ogr-fdw

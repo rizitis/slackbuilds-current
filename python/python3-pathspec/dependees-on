@@ -80,6 +80,7 @@ piper
 pirate-get
 pocketsphinx
 pre-commit
+py3status
 pyCRAC
 pyPEG2
 pycp
@@ -179,6 +180,7 @@ python3-solidpython
 python3-soupsieve
 python3-spyder-kernels
 python3-statsmodels
+python3-stone
 python3-svglib
 python3-tox
 python3-tubes
@@ -218,6 +220,7 @@ thunar-custom-actions
 todoman
 toot
 traitlets
+translate
 trelby
 ttfautohint-py
 ueberzug

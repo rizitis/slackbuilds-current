@@ -1,5 +1,5 @@
-smmap2
-gitdb2
+python3-smmap2
+python3-gitdb2
 GitPython
 kaadbg
 setproctitle

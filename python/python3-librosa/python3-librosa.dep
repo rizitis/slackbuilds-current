@@ -59,6 +59,8 @@ python3-jedi
 python3-decorator
 ipython
 python3-tornado
+cppy
+python3-kiwisolver
 python3-cycler
 python3-matplotlib
 python3-lazy_loader

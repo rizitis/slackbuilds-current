@@ -29,6 +29,7 @@ python3-Flask-RESTX
 python3-Flask-Security-Too
 python3-asttokens
 python3-bcrypt
+python3-cacheyou
 python3-cffsubr
 python3-fontmake
 python3-glyphslib
@@ -36,6 +37,7 @@ python3-ipython-sql
 python3-librosa
 python3-mailman
 python3-paramiko
+python3-pdm
 python3-pylint-venv
 python3-pylint
 python3-setuptools-rust
@@ -45,6 +47,7 @@ python3-sysrsync
 python3-tomlkit
 python3-ufo2ft
 radicale
+sickchill
 spyder
 thonny
 tqdm

@@ -16,5 +16,11 @@ hdf5
 gtest
 double-conversion
 ITK
+podofo
+freexl
+librttopo
+libspatialite
+netcdf
+xerces-c
 gdal
 OTB

@@ -85,7 +85,16 @@ python-gntp
 Unidecode
 python3-tornado
 msgpack-python
+python3-cachecontrol
 python3-pdm-backend
+python3-unearth
+python3-shellingham
+python3-resolvelib
+python3-findpython
+python3-dep-logic
+python3-tomlkit
+python3-dotenv
+python3-blinker
 python3-pdm
 python3-cacheyou
 python3-ifaddr

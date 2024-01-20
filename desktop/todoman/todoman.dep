@@ -11,7 +11,7 @@ humanize
 parsedatetime
 python3-dateutil
 pytz
-icalendar
+python3-icalendar
 click-log
 click
 python3-atomicwrites

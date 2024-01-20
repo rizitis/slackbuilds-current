@@ -19,4 +19,5 @@ python3-matplotlib
 python3-obspy
 python3-seaborn
 python3-spyder-kernels
+pytrainer
 spyder

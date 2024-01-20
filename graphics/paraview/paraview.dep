@@ -1,4 +1,6 @@
 python3-tornado
+cppy
+python3-kiwisolver
 python3-cycler
 pytz
 python3-dateutil
@@ -9,6 +11,17 @@ python3-matplotlib
 libaec
 hdf5
 proj
+libgeotiff
+podofo
+libminizip
+freexl
 geos
+librttopo
+libspatialite
+netcdf
+graphviz
+uriparser
+libkml
+xerces-c
 gdal
 paraview

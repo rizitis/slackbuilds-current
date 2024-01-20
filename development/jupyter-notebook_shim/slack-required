@@ -9,7 +9,15 @@ python3-pathspec
 python3-editables
 python3-hatchling
 python3-hatch_jupyter_builder
+python3-mdurl
+python3-markdown-it-py
+python3-poetry-core
+python3-rich
+typing-extensions
+python3-setuptools-scm-opt
 python3-sniffio
+python3-flit_scm
+python3-exceptiongroup
 python3-anyio
 python3-tornado
 python3-ptyprocess
@@ -22,7 +30,6 @@ BeautifulSoup4
 testpath
 pandocfilters
 python3-mistune
-python3-poetry-core
 python3-tomlkit
 python3-deprecation
 jupyter_packaging

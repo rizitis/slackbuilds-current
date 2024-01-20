@@ -10,7 +10,6 @@ pendulum
 python2-dateutil
 python2-matplotlib
 python2-slacklog
-pytrainer
 radicale
 s3cmd
 statsmodels

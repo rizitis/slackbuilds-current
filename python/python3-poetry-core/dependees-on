@@ -32,13 +32,16 @@ pylast
 python3-Flask-Babel
 python3-Flask-Security-Too
 python3-aksharamukha
+python3-anyio
 python3-asttokens
 python3-authheaders
 python3-beekeeper-alt
+python3-cacheyou
 python3-cartopy
 python3-cookiecutter
 python3-dkimpy
 python3-dnspython
+python3-httpcore
 python3-httpx
 python3-inflate64
 python3-ipython-sql
@@ -49,6 +52,7 @@ python3-librosa
 python3-libtmux
 python3-libvcs
 python3-mailman
+python3-pdm
 python3-poetry-core
 python3-py7zr
 python3-pybcj

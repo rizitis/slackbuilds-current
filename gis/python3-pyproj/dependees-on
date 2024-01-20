@@ -16,6 +16,7 @@ mysql-workbench
 openorienteering-mapper
 osgEarth
 osm2pgrouting
+osm2pgsql-legacy
 osm2pgsql
 ossim
 paraview

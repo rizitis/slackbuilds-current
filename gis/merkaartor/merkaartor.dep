@@ -1,4 +1,17 @@
 proj
+libgeotiff
+podofo
+libminizip
+freexl
 geos
+librttopo
+libspatialite
+libaec
+hdf5
+netcdf
+graphviz
+uriparser
+libkml
+xerces-c
 gdal
 merkaartor

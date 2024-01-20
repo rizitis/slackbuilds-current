@@ -9,6 +9,7 @@ merkaartor
 openorienteering-mapper
 osgEarth
 osm2pgrouting
+osm2pgsql-legacy
 osm2pgsql
 paraview
 pdal

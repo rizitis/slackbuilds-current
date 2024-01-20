@@ -15,7 +15,20 @@ python3-numpy
 protobuf3
 protobuf-c
 proj
+libgeotiff
+podofo
+libminizip
+freexl
 geos
+librttopo
+libspatialite
+libaec
+hdf5
+netcdf
+graphviz
+uriparser
+libkml
+xerces-c
 gdal
 postgis
 pytz
@@ -32,8 +45,4 @@ BeautifulSoup4
 lxml
 OWSLib
 libspatialindex
-libminizip
-freexl
-librttopo
-libspatialite
 

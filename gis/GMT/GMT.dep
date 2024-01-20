@@ -2,6 +2,16 @@ libaec
 hdf5
 netcdf
 proj
+libgeotiff
+podofo
+libminizip
+freexl
 geos
+librttopo
+libspatialite
+graphviz
+uriparser
+libkml
+xerces-c
 gdal
 GMT

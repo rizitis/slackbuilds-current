@@ -53,6 +53,7 @@ openorienteering-mapper
 openrazer-daemon
 osgEarth
 osm2pgrouting
+osm2pgsql-legacy
 osm2pgsql
 ossim
 paraview
@@ -115,6 +116,7 @@ python3-ufolib2
 python3-vharfbuzz
 python3-weasyprint
 python3-xarray
+pytrainer
 qgis
 qgis
 qmapshack
