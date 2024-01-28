@@ -12,3 +12,4 @@ perl-Test-MockModule
 perl-http-server-simple
 perl-www-mechanize
 shutter
+smokeping

@@ -18,6 +18,7 @@ libkml
 xerces-c
 gdal
 postgis
+nlohmann_json
 lua
 luajit
 

@@ -9,7 +9,6 @@ python3-decorator
 python3-beaker
 python3-setuptools_scm_git_archive
 python3-formencode
-python3-webencodings
 python3-bleach
 python3-webob
 python3-backlash

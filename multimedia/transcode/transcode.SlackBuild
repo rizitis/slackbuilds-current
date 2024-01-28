@@ -80,6 +80,7 @@ find -L . \
  -exec chmod 644 {} \;
 
 # Fix building with imagemagick 7.x
+# 2024: this is actually not true anymore and imagemagick support had to be disabled, sorry folks
 patch -p1 -i $CWD/transcode-1.1.7-imagemagick7.patch
 patch -p1 -i $CWD/transcode-1.1.7-gcc10.patch
 patch -p1 -i $CWD/transcode-1.1.7-glibc-2.32.patch
@@ -122,7 +123,6 @@ CXXFLAGS="$SLKCFLAGS" \
   --enable-nuv \
   --enable-lzo \
   --enable-libpostproc \
-  --enable-imagemagick \
   --build=$ARCH-slackware-linux
 
 make

@@ -20,12 +20,6 @@ python3-Flask-Compress
 python3-toml
 importlib-resources
 pytz
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 python3-hatch_fancy_pypi_readme
 python3-hatch_vcs
 python3-pyrsistent
@@ -65,8 +59,6 @@ python3-plumbum
 python3-rpyc
 python3-pynzb
 python3-PyRSS2Gen
-python3-webencodings
-html5lib
 python3-soupsieve
 BeautifulSoup4
 greenlet

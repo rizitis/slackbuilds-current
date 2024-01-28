@@ -26,12 +26,6 @@ python3-gnutls
 python3-eventlib
 greenlet
 python3-dateutil
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 python3-hatch_fancy_pypi_readme
 python3-hatch_vcs
 python3-pyasn1
@@ -44,8 +38,6 @@ python3-versioneer
 python3-constantly
 python3-automat
 python3-twisted
-python3-webencodings
-html5lib
 python2-toml
 python2-setuptools-scm
 functools-lru-cache

@@ -1,5 +1,4 @@
 coverage
-sphinx-rtd-theme
 freetype-py
 python3-uharfbuzz
 python3-fs
@@ -7,12 +6,6 @@ zopfli
 OpenBLAS
 python3-flit_scm
 python3-exceptiongroup
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 python3-hatch_vcs
 python3-iniconfig
 python3-pytest

@@ -44,6 +44,7 @@ python3-jsonlines
 python3-jsonschema
 python3-klein
 python3-mailman
+python3-outcome
 python3-requests-cache
 python3-service-identity
 python3-sipclients3

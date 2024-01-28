@@ -63,6 +63,7 @@ python3-jsonschema
 python3-klein
 python3-lsp-black
 python3-mailman
+python3-outcome
 python3-pydantic
 python3-requests-cache
 python3-service-identity

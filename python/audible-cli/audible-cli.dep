@@ -4,12 +4,6 @@ python3-tabulate
 python3-wcwidth
 python3-prompt_toolkit
 python3-questionary
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 python3-aiofiles
 python-pbkdf2
 python3-pyasn1

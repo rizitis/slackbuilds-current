@@ -12,7 +12,6 @@ secretstorage
 python3-more-itertools
 python3-jaraco.classes
 python3-keyring
-python3-webencodings
 python3-bleach
 readme_renderer
 requests-toolbelt

@@ -1,7 +1,5 @@
 # %README%: see the qt6ct README file. 
 md4c
-python3-webencodings
-html5lib
 double-conversion
 qt6
 qt6ct

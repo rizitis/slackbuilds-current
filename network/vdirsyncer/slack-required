@@ -1,11 +1,5 @@
 python3-atomicwrites
 python3-aiostream
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 python3-expandvars
 python3-frozenlist
 python3-aiosignal

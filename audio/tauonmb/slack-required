@@ -2,12 +2,6 @@ python3-websocket-client
 setproctitle
 send2trash
 python3-pysdl2
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 python3-soupsieve
 BeautifulSoup4
 python3-pylyrics

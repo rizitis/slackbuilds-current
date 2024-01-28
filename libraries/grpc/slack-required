@@ -1,3 +1,4 @@
-gflags
+abseil-cpp
+re2
 protobuf3
 

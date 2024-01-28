@@ -93,6 +93,7 @@ python3-mailman
 python3-mir_eval
 python3-obspy
 python3-openstep-plist
+python3-outcome
 python3-pipx
 python3-platformdirs
 python3-plumbum

@@ -4,12 +4,6 @@ python3-pydocstyle
 python3-helpdev
 QtPy
 QDarkStyle
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 traitlets
 python3-comm
 python3-tornado
@@ -57,7 +51,6 @@ libspatialindex
 python3-rtree
 python3-rope
 python3-qtawesome
-python3-webencodings
 tinycss2
 python3-inflection
 python3-qstylizer
@@ -87,6 +80,7 @@ python3-slugify
 python3-mdurl
 python3-markdown-it-py
 python3-rich
+python3-types-python-dateutil
 python3-arrow
 python3-jinja2-time
 binaryornot

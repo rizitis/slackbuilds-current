@@ -26,7 +26,6 @@ kallithea-frontend
 khal
 locust
 onionshare
-plug
 ptwit
 pylast
 python3-Flask-Babel

@@ -16,12 +16,6 @@ backcall
 python3-wcwidth
 python3-prompt_toolkit
 pickleshare
-python3-calver
-python3-trove-classifiers
-python3-pluggy
-python3-pathspec
-python3-editables
-python3-hatchling
 traitlets
 python3-matplotlib-inline
 python3-ptyprocess
