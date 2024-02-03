@@ -2,8 +2,6 @@ yt-dlp
 mujs
 lua
 luajit
-libplacebo
-libass
 mpv
 jq
 google-go-lang

@@ -1,0 +1,10 @@
+unifdef
+xdg-dbus-proxy
+libwpe
+wpebackend-fdo
+geoclue2
+bubblewrap
+webkit2gtk
+python3-markdown2
+gtk-layer-shell
+nwg-readme-browser
