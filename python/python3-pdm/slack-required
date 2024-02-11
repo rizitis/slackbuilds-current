@@ -1,3 +1,8 @@
+python3-mdurl
+python3-markdown-it-py
+python3-poetry-core
+python3-rich
+requests-toolbelt
 msgpack-python
 python3-cachecontrol
 -backend
@@ -6,7 +11,6 @@ python3-shellingham
 python3-resolvelib
 python3-findpython
 python3-dep-logic
-python3-poetry-core
 python3-tomlkit
 python3-dotenv
 python3-blinker

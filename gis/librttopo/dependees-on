@@ -4,6 +4,7 @@ OTB
 gdal
 geopandas
 gj2ascii
+gplates
 grass
 librasterlite
 librttopo

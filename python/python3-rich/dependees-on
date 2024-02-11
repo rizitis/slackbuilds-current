@@ -18,8 +18,10 @@ pip2tgz
 pipdeptree
 pylast
 python3-Flask-Security-Too
+python3-PyGithub
 python3-anyio
 python3-authheaders
+python3-cacheyou
 python3-cartopy
 python3-cookiecutter
 python3-dkimpy
@@ -28,9 +30,11 @@ python3-httpcore
 python3-httpx
 python3-inflate64
 python3-mailman
+python3-pdm
 python3-py7zr
 python3-pybcj
 python3-pyppmd
+python3-qbittorrent-api
 python3-rich
 python3-setuptools-scm-opt
 python3-sipclients3
@@ -38,6 +42,7 @@ python3-sipsimple
 python3-statsmodels
 python3-xarray
 rpy2
+sickchill
 spyder
 tauonmb
 twine

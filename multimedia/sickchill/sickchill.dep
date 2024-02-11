@@ -1,5 +1,13 @@
+python3-profilehooks
+python3-timeago
 python3-bencode
 python3-new-rtorrent
+python3-mdurl
+python3-markdown-it-py
+python3-poetry-core
+python3-rich
+typing-extensions
+python3-setuptools-scm-opt
 python3-qbittorrent-api
 python3-deluge-client
 python3-pynma
@@ -9,7 +17,6 @@ libzen
 libmediainfo
 pymediainfo
 python3-semantic-version
-typing-extensions
 python3-setuptools-rust-opt
 cryptography
 pyOpenSSL
@@ -42,7 +49,6 @@ python3-guessit
 subliminal
 python3-markdown2
 python-jsonrpclib
-python3-poetry-core
 python3-validators
 python3-hatch_vcs
 python3-platformdirs
@@ -77,6 +83,7 @@ python-gntp
 Unidecode
 python3-tornado
 msgpack-python
+requests-toolbelt
 python3-cachecontrol
 python3-pdm-backend
 python3-unearth

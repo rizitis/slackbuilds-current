@@ -1,4 +1,5 @@
 zenity
+libmspack
 clamav
 perl-extutils-pkgconfig
 perl-extutils-depends

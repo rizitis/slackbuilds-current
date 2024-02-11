@@ -1,10 +1,10 @@
 PRGNAM="MEGAsync"
-VERSION="4.7.2.0"
+VERSION="4.9.1.0"
 HOMEPAGE="https://github.com/meganz/MEGAsync/"
-DOWNLOAD="https://github.com/meganz/MEGAsync/archive/v4.7.2.0_Linux/MEGAsync-4.7.2.0_Linux.tar.gz \
-          https://github.com/meganz/sdk/archive/v4.5.0/sdk-4.5.0.tar.gz"
-MD5SUM="b1734bf785e279dd0d01d8ff254c7587 \
-        e9f17a8679f3d50d66d76ffc1ce94ac2"
+DOWNLOAD="https://github.com/meganz/MEGAsync/archive/v4.9.1.0_Linux/MEGAsync-4.9.1.0_Linux.tar.gz \
+          https://github.com/meganz/sdk/archive/v4.16.0c/sdk-4.16.0c.tar.gz"
+MD5SUM="be9fca6eee9bad9de2f8999bec51ccbb  \
+        b8c50f486602b2a8af4866d098cae303"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
 REQUIRES="FreeImage libmediainfo"

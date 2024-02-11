@@ -31,6 +31,7 @@ pipdeptree
 pylast
 python3-Flask-Babel
 python3-Flask-Security-Too
+python3-PyGithub
 python3-aksharamukha
 python3-anyio
 python3-asttokens
@@ -59,6 +60,7 @@ python3-pybcj
 python3-pylint-venv
 python3-pylint
 python3-pyppmd
+python3-qbittorrent-api
 python3-requests-cache
 python3-rich
 python3-setuptools-scm-opt
@@ -79,5 +81,6 @@ spyder
 tauonmb
 thonny
 tmuxp
+toot
 twine
 vcspull

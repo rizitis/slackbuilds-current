@@ -59,6 +59,7 @@ python2-requests-kerberos
 python3-CherryMusic
 python3-CherryPy
 python3-Flask-Security-Too
+python3-PyGithub
 python3-PyPDF2
 python3-aiohttp-socks
 python3-aiohttp
@@ -105,6 +106,7 @@ python3-pydantic
 python3-pylint-venv
 python3-pylint
 python3-pyppmd
+python3-qbittorrent-api
 python3-requests-cache
 python3-service-identity
 python3-setuptools-rust-opt

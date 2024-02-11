@@ -11,6 +11,7 @@ field3d
 gdal
 geopandas
 gj2ascii
+gplates
 grace
 grass
 h5utils

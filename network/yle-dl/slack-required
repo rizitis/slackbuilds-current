@@ -1,8 +1,4 @@
-xattr
 python3-configargparse
-python3-hatch_vcs
-python3-hatch_fancy_pypi_readme
-python3-attrs
 python2-toml
 python2-setuptools-scm
 functools-lru-cache

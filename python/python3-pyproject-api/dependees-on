@@ -6,6 +6,7 @@ gdal
 geopandas
 geopandas
 gj2ascii
+gplates
 grass
 libLAS
 libgeotiff
