@@ -1,6 +1,7 @@
 Electrum
 Kallithea
 PyGithub
+ansible-core
 ansible
 asgiref
 audible-cli

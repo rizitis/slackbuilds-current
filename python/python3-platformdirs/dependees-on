@@ -19,6 +19,7 @@ python3-cinemagoer
 python3-gds3xtrude
 python3-librosa
 python3-lsp-black
+python3-pipx
 python3-platformdirs
 python3-pooch
 python3-pylint-venv

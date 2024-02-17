@@ -26,6 +26,7 @@ piper
 pyPEG2
 pyquery
 python2-BeautifulSoup4
+python2-lxml
 python2-soupsieve
 python3-aksharamukha
 python3-cffsubr

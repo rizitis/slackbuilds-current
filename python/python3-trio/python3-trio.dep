@@ -1,0 +1,9 @@
+python3-flit_scm
+python3-exceptiongroup
+python3-sniffio
+python3-hatch_vcs
+python3-hatch_fancy_pypi_readme
+python3-attrs
+python3-outcome
+python3-sortedcontainers
+python3-trio

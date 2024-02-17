@@ -117,6 +117,7 @@ python3-spyder-kernels
 python3-statsmodels
 python3-stone
 python3-tox
+python3-trio
 python3-tubes
 python3-twisted
 python3-ufo2ft

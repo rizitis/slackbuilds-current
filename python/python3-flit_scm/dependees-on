@@ -75,6 +75,7 @@ python3-sipsimple
 python3-spyder-kernels
 python3-statsmodels
 python3-stone
+python3-trio
 python3-ufo2ft
 python3-ufolib2
 python3-userpath

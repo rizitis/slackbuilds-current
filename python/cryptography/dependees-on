@@ -1,5 +1,6 @@
 Electrum
 PyGithub
+ansible-core
 ansible
 awscli-v2
 blink-qt
