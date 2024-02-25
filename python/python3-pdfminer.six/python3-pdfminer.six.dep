@@ -1,5 +1,7 @@
-typing-extensions
+python3-toml
+python3-setuptools-git-versioning
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 cryptography
 python3-pdfminer.six

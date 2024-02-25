@@ -66,12 +66,6 @@ python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-more-itertools
-python2-toml
-python2-setuptools-scm
-functools-lru-cache
-python2-soupsieve
-python2-BeautifulSoup4
-lxml
 python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-atomicwrites

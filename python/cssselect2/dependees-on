@@ -2,7 +2,5 @@ CairoSVG
 buildbot-badges
 cssselect2
 le
-parsel
-pyquery
 python3-svglib
 python3-weasyprint

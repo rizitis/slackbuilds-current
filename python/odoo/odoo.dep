@@ -23,13 +23,6 @@ suds-jurko
 python3-pypng
 python-qrcode
 python3-decorator
-python2-toml
-functools-lru-cache
-python2-soupsieve
-python2-BeautifulSoup4
-python3-soupsieve
-BeautifulSoup4
-lxml
 python3-libsass
 python2-MarkupSafe
 python-xlrd

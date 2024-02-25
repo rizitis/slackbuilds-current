@@ -120,6 +120,7 @@ python3-tempora
 python3-tubes
 python3-twisted
 python3-ufolib2
+python3-uri_template
 python3-xarray
 python3-yarl
 rpy2

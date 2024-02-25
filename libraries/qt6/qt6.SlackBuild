@@ -26,7 +26,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=qt6
 SRCNAM=qt-everywhere-src
-VERSION=${VERSION:-6.6.1}
+VERSION=${VERSION:-6.6.2}
 BSCLANG=libclang-release_130-based-linux-Ubuntu20.04-gcc9.3-x86_64
 CCACHE=${CCACHE:-OFF}
 EXAMPLES=${EXAMPLES:-OFF}
@@ -110,6 +110,7 @@ cd build
     -DFEATURE_system_xcb_xinput=$SYSTEM_XCB_INPUT \
     -DFEATURE_webengine_proprietary_codecs=$PROPRIETARY_CODECS \
     -DFEATURE_webengine_system_ffmpeg=$SYSTEM_FFMPEG \
+    -DFEATURE_webengine_system_re2=OFF \
     -DINSTALL_ARCHDATADIR=./lib${LIBDIRSUFFIX} \
     -DINSTALL_BINDIR=./lib${LIBDIRSUFFIX}/$PRGNAM/bin \
     -DINSTALL_DESCRIPTIONSDIR=./lib${LIBDIRSUFFIX}/$PRGNAM/modules \

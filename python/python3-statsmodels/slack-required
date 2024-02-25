@@ -5,12 +5,6 @@ python3-rich
 typing-extensions
 python3-setuptools-scm-opt
 OpenBLAS
-python3-flit_scm
-python3-exceptiongroup
-python3-hatch_vcs
-python3-iniconfig
-python3-pytest
-python3-pytest-runner
 doctest
 xsimd
 python3-pyproject-metadata

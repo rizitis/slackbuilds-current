@@ -2,7 +2,5 @@ spice-protocol
 spice
 spice-gtk
 telepathy-glib
-libdaemon
-avahi
 gtk-vnc
 

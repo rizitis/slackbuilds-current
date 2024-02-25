@@ -70,6 +70,7 @@ python3-spyder-kernels
 python3-stack_data
 python3-statsmodels
 python3-tomlkit
+python3-uri_template
 python3-url-normalize
 python3-validators
 python3-xarray
@@ -78,6 +79,7 @@ reuse-tool
 rpy2
 sickchill
 spyder
+sshuttle
 tauonmb
 thonny
 tmuxp

@@ -39,9 +39,11 @@ python3-ipython-sql
 python3-librosa
 python3-mailman
 python3-paramiko
+python3-pdfminer.six
 python3-pdm
 python3-pylint-venv
 python3-pylint
+python3-setuptools-git-versioning
 python3-setuptools-rust
 python3-spyder-kernels
 python3-stack_data

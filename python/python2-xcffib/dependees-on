@@ -4,7 +4,6 @@ cffi
 conan
 fabric
 mysql-workbench
-pocketsphinx
 pynacl
 python-librtmp
 python2-cryptography

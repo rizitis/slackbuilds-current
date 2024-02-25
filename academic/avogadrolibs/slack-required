@@ -3,7 +3,7 @@ python3-mesonpy
 python3-numpy
 spglib
 libmsym
-msgpack-c
+msgpack-c-cpp
 mmtf-cpp
 molequeue
 

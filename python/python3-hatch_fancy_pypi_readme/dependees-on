@@ -27,6 +27,7 @@ jupyter_events
 jupyter_server
 jupyterlab
 jupyterlab_server
+libei
 mongodb
 pycp
 pylast
