@@ -2,7 +2,6 @@ python3-resolvelib
 python3-toml
 importlib-resources
 python3-semantic-version
-typing-extensions
 python3-setuptools-rust-opt
 cryptography
 ansible-core

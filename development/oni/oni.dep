@@ -2,7 +2,8 @@ tree-sitter
 libvterm
 unibilium
 libtermkey
-msgpack-c
+gtest
+msgpack-c-c
 lua
 LuaBitOp
 lua-lpeg

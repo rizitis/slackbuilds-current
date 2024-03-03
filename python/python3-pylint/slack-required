@@ -5,6 +5,5 @@ python3-tomlkit
 python3-dill
 python3-mccabe
 python3-isort
-typing-extensions
 python3-astroid
 

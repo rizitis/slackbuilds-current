@@ -6,7 +6,6 @@ python2-wheel
 pycparser
 cffi
 pynacl
-typing-extensions
 python3-setuptools-rust-opt
 cryptography
 

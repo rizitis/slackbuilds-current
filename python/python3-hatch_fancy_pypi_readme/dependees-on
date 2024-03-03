@@ -1,6 +1,7 @@
 Electrum
 Fiona
 anki
+argon2-cffi
 audible-cli
 audible
 blink-qt
@@ -66,6 +67,7 @@ python3-lsp-black
 python3-mailman
 python3-outcome
 python3-pydantic
+python3-pykeepass
 python3-requests-cache
 python3-service-identity
 python3-sipclients3

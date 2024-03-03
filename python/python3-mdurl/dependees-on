@@ -41,7 +41,9 @@ python3-rich
 python3-setuptools-scm-opt
 python3-sipclients3
 python3-sipsimple
+python3-sniffio
 python3-statsmodels
+python3-trio
 python3-uri_template
 python3-xarray
 rpy2

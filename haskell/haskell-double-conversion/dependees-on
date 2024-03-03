@@ -1,13 +1,8 @@
 2geom
 ITK
 OTB
-RMG
 adapta-gtk-theme
 arc-theme
-dolphin-emu
-duckstation
-feather
-focuswriter-qt6
 folly
 haskell-double-conversion
 hhvm
@@ -16,8 +11,4 @@ ion
 le
 openscad
 python3-gds3xtrude
-qt6
-qt6ct
-qutebrowser-bin
 textext
-vokoscreenNG

@@ -5,7 +5,6 @@ python3-rich
 python3-rfc3986
 python-jeepney
 python3-semantic-version
-typing-extensions
 python3-setuptools-rust-opt
 cryptography
 secretstorage

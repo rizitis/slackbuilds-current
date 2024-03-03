@@ -31,7 +31,6 @@ python3-turbogears2
 python3-routes
 python3-tgext.routes
 tzdata
-typing-extensions
 python3-dateutil
 python3-click-repl
 click

@@ -1,9 +1,9 @@
 vips
 Catch2
 spdlog
+range-v3
 oneTBB
 nlohmann_json
-microsoft-gsl
 libsixel
 chafa
 CLI11

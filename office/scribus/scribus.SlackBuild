@@ -68,6 +68,8 @@ else
   LIBDIRSUFFIX=""
 fi
 
+if pkg-config --exists libpodofo ; then PODOFO="On" ; else PODOFO="Off" ; fi
+
 set -e
 
 rm -rf $PKG
@@ -88,6 +90,7 @@ cmake \
   -DCMAKE_CXX_FLAGS="$SLKCFLAGS" \
   -DCMAKE_INSTALL_PREFIX:PATH=/usr \
   -DWANT_CPP17=1 \
+  -DWITH_PODOFO=$PODOFO \
   -DLIB_SUFFIX=${LIBDIRSUFFIX}
 
 make

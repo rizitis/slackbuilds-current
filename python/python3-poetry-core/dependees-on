@@ -66,10 +66,12 @@ python3-rich
 python3-setuptools-scm-opt
 python3-sipclients3
 python3-sipsimple
+python3-sniffio
 python3-spyder-kernels
 python3-stack_data
 python3-statsmodels
 python3-tomlkit
+python3-trio
 python3-uri_template
 python3-url-normalize
 python3-validators

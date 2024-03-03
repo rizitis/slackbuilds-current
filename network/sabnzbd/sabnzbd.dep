@@ -1,7 +1,6 @@
 par2cmdline
 unrar
 python3-semantic-version
-typing-extensions
 python3-setuptools-rust-opt
 cryptography
 pyOpenSSL

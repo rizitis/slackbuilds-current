@@ -1,3 +1,5 @@
+Type1_to_OTF
+afdko
 cadabra2
 image-analyzer
 ipython
@@ -9,8 +11,15 @@ jupyterlab
 kolorcontrol
 paraview
 pitivi
+python3-aksharamukha
+python3-arabic-reshaper
 python3-basemap
 python3-cartopy
+python3-cffsubr
+python3-compreffor
+python3-fontmake
+python3-fonttools
+python3-glyphslib
 python3-ipython-sql
 python3-librosa
 python3-librosa
@@ -19,5 +28,10 @@ python3-matplotlib
 python3-obspy
 python3-seaborn
 python3-spyder-kernels
+python3-ufo2ft
+python3-ufolib2
+python3-vharfbuzz
+python3-weasyprint
 pytrainer
 spyder
+ttfautohint-py

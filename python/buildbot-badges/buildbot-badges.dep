@@ -11,7 +11,6 @@ python3-cairocffi
 CairoSVG
 werkzeug
 python3-characteristic
-typing-extensions
 python3-hatch_fancy_pypi_readme
 python3-pyasn1
 python3-pyasn1-modules
