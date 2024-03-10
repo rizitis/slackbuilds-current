@@ -4,11 +4,11 @@ python3-tornado
 zeromq
 python3-pyzmq
 python3-dateutil
-nest_asyncio
+python3-nest_asyncio
 python3-hatch_vcs
 python3-platformdirs
 jupyter_core
-entrypoints
+python3-entrypoints
 jupyter_client
 python3-flit_scm
 python3-exceptiongroup
@@ -67,8 +67,8 @@ python3-bleach
 jupyter-nbconvert
 python3-json-logger
 jupyter_events
-argon2-cffi-bindings
-argon2-cffi
+python3-argon2-cffi-bindings
+python3-argon2-cffi
 jupyter_server
 jupyterlab_server
 jupyter-notebook_shim

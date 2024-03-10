@@ -1,5 +1,6 @@
 gst-python
 python-gnupg
+abseil-cpp
 protobuf3
 python3-semantic-version
 python3-setuptools-rust-opt

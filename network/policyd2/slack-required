@@ -1,5 +1,6 @@
 perl-Net-Server
 perl-Net-CIDR
+perl-Error
 perl-net-ip
 perl-digest-sha1
 perl-digest-hmac

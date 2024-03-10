@@ -13,7 +13,6 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
-lxml
 pysass
 python3-cloudflare
 python3-pylyrics

@@ -3,6 +3,7 @@ spdlog
 gflags
 snappy
 rocksdb
+abseil-cpp
 protobuf3
 OpenSceneGraph
 proj

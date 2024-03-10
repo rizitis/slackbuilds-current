@@ -4,12 +4,6 @@ boto
 cffi
 conan
 fabric
-jupyter-nbclassic
-jupyter-notebook
-jupyter-notebook_shim
-jupyter_server
-jupyterlab
-jupyterlab_server
 mysql-workbench
 pynacl
 python-librtmp
@@ -18,7 +12,6 @@ python2-paramiko
 python2-xcffib
 python3-PyGithub
 python3-paramiko
-python3-pykeepass
 routersploit
 rpy2
 sftp-cloudfs

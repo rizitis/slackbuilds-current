@@ -2,6 +2,7 @@ rubygem-rdiscount
 rubygem-mustache
 rubygem-hpricot
 rubygem-ronn
+abseil-cpp
 protobuf3
 protobuf-c
 http-parser

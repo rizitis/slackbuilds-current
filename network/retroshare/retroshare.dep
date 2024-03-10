@@ -1,4 +1,5 @@
 sqlcipher
+abseil-cpp
 protobuf3
 miniupnpc
 libmicrohttpd

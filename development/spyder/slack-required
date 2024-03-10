@@ -1,5 +1,6 @@
 python3-whatthepatch
 snowballstemmer
+python3-poetry-core
 python3-pydocstyle
 python3-helpdev
 QtPy
@@ -10,17 +11,16 @@ python3-tornado
 zeromq
 python3-pyzmq
 python3-dateutil
-nest_asyncio
+python3-nest_asyncio
 python3-hatch_vcs
 python3-platformdirs
 jupyter_core
-entrypoints
+python3-entrypoints
 jupyter_client
 python3-flit_scm
 python3-exceptiongroup
 python3-pure_eval
 python3-executing
-python3-poetry-core
 python3-tomlkit
 python3-asttokens
 python3-stack_data

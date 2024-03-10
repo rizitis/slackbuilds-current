@@ -13,7 +13,7 @@ python3-tornado
 zeromq
 python3-pyzmq
 python3-dateutil
-nest_asyncio
-entrypoints
+python3-nest_asyncio
+python3-entrypoints
 jupyter_client
 

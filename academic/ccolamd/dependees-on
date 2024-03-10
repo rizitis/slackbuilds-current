@@ -6,7 +6,6 @@ cholmod
 colamd
 klu
 klu
-ola
 scikit-umfpack
 scikit-umfpack
 scikit-umfpack

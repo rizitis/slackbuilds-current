@@ -1,4 +1,5 @@
 rtrlib
+abseil-cpp
 protobuf3
 protobuf-c
 graphviz

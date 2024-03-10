@@ -23,5 +23,6 @@ secp256k1
 python3-semantic-version
 python3-setuptools-rust-opt
 cryptography
+abseil-cpp
 protobuf3
 

@@ -1,6 +1,7 @@
 vamp-plugin-sdk
 ladspa_sdk
 rubberband
+abseil-cpp
 protobuf3
 portmidi
 portaudio

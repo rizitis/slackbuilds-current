@@ -1,6 +1,7 @@
 pyzor
 perl-Net-Server
 perl-Net-Ident
+perl-Error
 perl-net-ip
 perl-digest-sha1
 perl-digest-hmac
@@ -11,7 +12,6 @@ perl-Net-DNS-Resolver-Programmable
 perl-Mail-SPF
 perl-TimeDate
 perl-MailTools
-perl-Crypt-OpenSSL-Random
 perl-Crypt-OpenSSL-Guess
 perl-Crypt-OpenSSL-RSA
 perl-Mail-DKIM

@@ -1,5 +1,6 @@
 hidapi
 mnemonic
+abseil-cpp
 protobuf3
 ecdsa
 

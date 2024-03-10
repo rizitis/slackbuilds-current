@@ -58,6 +58,7 @@ python3-aiohttp-socks
 python3-aiohttp
 python3-aiorpcX
 python3-aiosmtpd
+python3-argon2-cffi
 python3-attrs
 python3-automat
 python3-autotiling

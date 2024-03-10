@@ -57,6 +57,7 @@ python3-pdm
 python3-poetry-core
 python3-py7zr
 python3-pybcj
+python3-pydocstyle
 python3-pylint-venv
 python3-pylint
 python3-pyppmd

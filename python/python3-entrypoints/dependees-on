@@ -1,0 +1,16 @@
+jupyter-ipykernel
+jupyter-nbclassic
+jupyter-nbclient
+jupyter-nbconvert
+jupyter-notebook
+jupyter-notebook_shim
+jupyter-qtconsole
+jupyter_client
+jupyter_console
+jupyter_server
+jupyterlab
+jupyterlab_server
+nts
+python3-entrypoints
+python3-spyder-kernels
+spyder

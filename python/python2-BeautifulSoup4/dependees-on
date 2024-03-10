@@ -20,8 +20,6 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
-lxml
-lxml
 parsel
 periscope
 pyPEG2
