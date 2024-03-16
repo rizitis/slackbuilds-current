@@ -1,5 +1,6 @@
 libaec
 hdf5
-gtest
+utfcpp
+antlr4
 double-conversion
 ITK

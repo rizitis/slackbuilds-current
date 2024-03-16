@@ -1,5 +1,6 @@
 Blender
 DVR-Scan
+OTB
 RepeatMasker
 Type1_to_OTF
 afdko
@@ -29,6 +30,7 @@ guitarix
 image-analyzer
 jalv
 kolorcontrol
+libsvm
 lilv
 lv2file
 mixxx

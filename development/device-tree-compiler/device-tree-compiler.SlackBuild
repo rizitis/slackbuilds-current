@@ -30,7 +30,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=device-tree-compiler
-VERSION=${VERSION:-20220420_ed31080}
+VERSION=${VERSION:-20240314_1fad065}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}

@@ -1,3 +1,13 @@
+perl-Test-Needs
+perl-JSON
+perl-Test-Harness
+perl-ExtUtils-Helpers
+perl-ExtUtils-Config
+perl-ExtUtils-InstallPaths
+perl-Module-Build-Tiny
+perl-Try-Tiny
+perl-B-COW
+perl-Clone
 perl-IO-HTML
 perl-lwp-mediatypes
 perl-http-date

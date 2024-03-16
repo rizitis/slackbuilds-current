@@ -22,7 +22,7 @@ gambas3
 getdp
 grub_legacy
 gtklock-userinfo-module
-kallithea-frontend
+kallithea-frontend.tmp
 kicad
 krop
 libfreeaptx

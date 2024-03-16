@@ -1,5 +1,9 @@
-zulu-openjdk17
-perl-Archive-Zip
+libzmf
+libmspub
 liblangtag
+libfreehand
+libcdr
+perl-Archive-Zip
 apache-ant
+zulu-openjdk17
 LibreOffice

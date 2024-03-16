@@ -2,6 +2,8 @@ Blender
 DVR-Scan
 Fiona
 GMT
+OTB-legacy
+OTB
 OTB
 RepeatMasker
 Type1_to_OTF
@@ -44,6 +46,7 @@ libLAS
 libgeotiff
 librasterlite
 libspatialite
+libsvm
 lilv
 lv2file
 merkaartor

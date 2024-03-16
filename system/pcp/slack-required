@@ -10,6 +10,10 @@ perl-File-Slurp
 perl-xml-libxml
 perl-www-robotrules
 perl-net-http
+perl-Test-Needs
+perl-Try-Tiny
+perl-B-COW
+perl-Clone
 perl-IO-HTML
 perl-lwp-mediatypes
 perl-http-date
@@ -18,6 +22,11 @@ perl-html-parser
 perl-encode-locale
 perl-http-message
 perl-http-negotiate
+perl-Test-Harness
+perl-ExtUtils-Helpers
+perl-ExtUtils-Config
+perl-ExtUtils-InstallPaths
+perl-Module-Build-Tiny
 perl-http-daemon
 perl-http-cookies
 perl-file-listing

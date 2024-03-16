@@ -3,6 +3,10 @@ perl-Test-RequiresInternet
 perl-Mozilla-CA
 perl-www-robotrules
 perl-net-http
+perl-Test-Needs
+perl-Try-Tiny
+perl-B-COW
+perl-Clone
 perl-IO-HTML
 perl-lwp-mediatypes
 perl-http-date
@@ -11,6 +15,12 @@ perl-html-parser
 perl-encode-locale
 perl-http-message
 perl-http-negotiate
+perl-JSON
+perl-Test-Harness
+perl-ExtUtils-Helpers
+perl-ExtUtils-Config
+perl-ExtUtils-InstallPaths
+perl-Module-Build-Tiny
 perl-http-daemon
 perl-http-cookies
 perl-file-listing
@@ -43,7 +53,6 @@ perl-xml-twig
 perl-net-dbus
 perl-JSON-MaybeXS
 perl-Cpanel-JSON-XS
-perl-JSON
 exiftool
 perl-extutils-pkgconfig
 perl-extutils-depends
@@ -58,7 +67,6 @@ perl-gtk2-imageview
 goocanvas
 perl-goo-canvas
 perl-gnome2-wnck
-perl-Try-Tiny
 perl-Test-Fatal
 perl-Test-Warnings
 perl-File-Remove

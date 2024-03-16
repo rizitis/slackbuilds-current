@@ -1,3 +1,4 @@
+OTB
 Type1_to_OTF
 afdko
 getfem
@@ -6,6 +7,7 @@ haskell-citeproc
 haskell-skylighting-core
 haskell-skylighting
 haskell-xml-conduit
+libsvm
 pandoc
 pyCRAC
 python3-aksharamukha

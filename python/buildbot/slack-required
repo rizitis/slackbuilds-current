@@ -22,4 +22,5 @@ python3-versioneer
 python3-constantly
 python3-automat
 python3-twisted
+SQLAlchemy-legacy
 
