@@ -46,6 +46,7 @@ python3-attrs
 python3-authheaders
 python3-automat
 python3-black
+python3-cacheyou
 python3-cattrs
 python3-cinemagoer
 python3-cloudflare
@@ -66,6 +67,7 @@ python3-klein
 python3-lsp-black
 python3-mailman
 python3-outcome
+python3-pdm
 python3-pydantic
 python3-pykeepass
 python3-requests-cache
@@ -76,6 +78,7 @@ python3-trio
 python3-tubes
 python3-twisted
 python3-ufolib2
+python3-unearth
 rasterio
 sickchill
 spyder

@@ -1,6 +1,4 @@
 python3-toml
-abseil-cpp
-protobuf3
 protobuf-c
 pefile
 libsmbios

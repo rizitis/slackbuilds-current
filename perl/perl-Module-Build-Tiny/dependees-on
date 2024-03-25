@@ -106,6 +106,7 @@ perl-MooseX-Types
 perl-Net-DNS-Resolver-Programmable
 perl-Net-Jabber
 perl-Net-LDAP
+perl-Net-LibIDN2
 perl-Net-Pcap
 perl-Net-Works
 perl-Net-Write

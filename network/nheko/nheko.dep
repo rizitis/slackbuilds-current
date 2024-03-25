@@ -1,6 +1,5 @@
 cmark
 gtest
-abseil-cpp
 re2
 nlohmann_json
 olm

@@ -7,7 +7,7 @@ jupyter-notebook
 jupyter-qtconsole
 jupyter_console
 jupyterlab
-kallithea-frontend.tmp
+kallithea-frontend
 prompt_toolkit
 ptpython
 python3-celery

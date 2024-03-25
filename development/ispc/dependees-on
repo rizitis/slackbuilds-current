@@ -1,2 +1,6 @@
 embree
 ispc
+openimagedenoise
+openvkl
+ospray
+ospray_studio

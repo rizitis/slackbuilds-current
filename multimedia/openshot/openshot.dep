@@ -2,8 +2,6 @@ jack
 python3-httplib2
 libopenshot-audio
 unittest-cpp
-abseil-cpp
-protobuf3
 Catch
 zeromq
 cppzmq

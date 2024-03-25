@@ -1,7 +1,5 @@
 -audio
 unittest-cpp
-abseil-cpp
-protobuf3
 Catch
 zeromq
 cppzmq

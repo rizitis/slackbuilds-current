@@ -6,8 +6,6 @@ python3-psycopg2
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
-abseil-cpp
-protobuf3
 protobuf-c
 proj
 libgeotiff

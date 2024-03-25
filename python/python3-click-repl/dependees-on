@@ -17,8 +17,8 @@ eyeD3
 flexget
 geopandas
 gj2ascii
-kallithea-frontend.tmp
-kallithea-frontend.tmp
+kallithea-frontend
+kallithea-frontend
 khal
 locust
 onionshare
@@ -41,6 +41,7 @@ python3-Flask-WTF
 python3-Flask-httpauth
 python3-aksharamukha
 python3-black
+python3-cacheyou
 python3-celery
 python3-celery
 python3-click-repl
@@ -49,7 +50,9 @@ python3-flask-paginate
 python3-httpx
 python3-lsp-black
 python3-mailman
+python3-pdm
 python3-pipx
+python3-unearth
 python3-userpath
 rasterio
 sickchill

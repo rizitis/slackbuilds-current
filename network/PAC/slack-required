@@ -16,7 +16,6 @@ perl-Gtk2-Ex-Simple-List
 vte2
 perl-Gnome2-Vte
 perl-gnome2-gconf
-perl-IO-Tty
 perl-Expect
 perl-Crypt-Rijndael
 perl-Crypt-CBC

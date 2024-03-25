@@ -72,6 +72,7 @@ plastid
 polychromatic
 postgis
 proj-data
+puddletag
 pyCRAC
 pygsl
 pyspread
@@ -93,6 +94,7 @@ python3-fonttools
 python3-gensim
 python3-glyphslib
 python3-h5py
+python3-levenshtein
 python3-librosa
 python3-matplotlib
 python3-mesonpy
@@ -110,6 +112,7 @@ python3-pyproj
 python3-pyproj
 python3-pyproject-metadata
 python3-pythran
+python3-rapidfuzz
 python3-scipy
 python3-seaborn
 python3-shapely

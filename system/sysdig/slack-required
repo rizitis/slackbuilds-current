@@ -1,7 +1,5 @@
 gtest
-abseil-cpp
 re2
-protobuf3
 grpc
 tbb
 jq

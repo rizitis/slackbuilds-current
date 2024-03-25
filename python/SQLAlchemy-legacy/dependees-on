@@ -9,6 +9,7 @@ buildbot
 buildbot
 flexget
 gourmet
+kallithea-frontend
 le
 pychess
 python3-Flask-SQLAlchemy

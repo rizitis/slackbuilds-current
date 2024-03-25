@@ -24,6 +24,7 @@ jupyter_server
 jupyterlab
 jupyterlab_pygments
 jupyterlab_server
+kallithea-frontend
 python-argopt
 python3-Flask-Bcrypt
 python3-Flask-RESTX

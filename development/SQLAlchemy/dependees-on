@@ -6,6 +6,7 @@ buildbot-badges
 buildbot
 flexget
 gourmet
+kallithea-frontend
 pychess
 python3-Flask-SQLAlchemy
 python3-alembic

@@ -3,6 +3,7 @@ cudatoolkit
 cudnn
 libnvidia-container
 libxnvctrl
+nvidia-container-toolkit
 nvidia-driver
 river
 sunshine

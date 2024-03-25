@@ -1,3 +1,13 @@
+perl-Test-Needs
+perl-Try-Tiny
+perl-B-COW
+perl-Clone
+perl-IO-HTML
+perl-Test-Fatal
+perl-lwp-mediatypes
+perl-http-date
+perl-encode-locale
+perl-http-message
 perl-html-tagset
 perl-html-parser
 netsurf

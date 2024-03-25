@@ -11,5 +11,6 @@ netcat-openbsd
 opendkim
 signify
 sntpc
+tcpbench
 ucblogo
 xpipe

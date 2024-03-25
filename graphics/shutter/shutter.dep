@@ -8,10 +8,9 @@ perl-Try-Tiny
 perl-B-COW
 perl-Clone
 perl-IO-HTML
+perl-Test-Fatal
 perl-lwp-mediatypes
 perl-http-date
-perl-html-tagset
-perl-html-parser
 perl-encode-locale
 perl-http-message
 perl-http-negotiate
@@ -41,6 +40,8 @@ perl-Sub-Uplevel
 perl-test-warn
 perl-Test-NoWarnings
 perl-Test-Deep
+perl-html-tagset
+perl-html-parser
 perl-CGI
 perl-http-server-simple
 perl-http-response-encoding
@@ -67,7 +68,6 @@ perl-gtk2-imageview
 goocanvas
 perl-goo-canvas
 perl-gnome2-wnck
-perl-Test-Fatal
 perl-Test-Warnings
 perl-File-Remove
 perl-YAML-Tiny

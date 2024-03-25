@@ -73,6 +73,7 @@ python3-stack_data
 python3-statsmodels
 python3-tomlkit
 python3-trio
+python3-unearth
 python3-uri_template
 python3-url-normalize
 python3-validators

@@ -1,8 +1,6 @@
 nlohmann_json
 Catch2
 spdlog
-abseil-cpp
 re2
-protobuf3
 grpc
 Bear

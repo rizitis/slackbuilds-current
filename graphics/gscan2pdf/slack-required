@@ -31,6 +31,14 @@ perl-Try-Tiny
 perl-Test-Fatal
 perl-Sub-Override
 perl-Log-Log4perl
+perl-Test-Needs
+perl-B-COW
+perl-Clone
+perl-IO-HTML
+perl-lwp-mediatypes
+perl-http-date
+perl-encode-locale
+perl-http-message
 perl-html-tagset
 perl-html-parser
 perl-config-general

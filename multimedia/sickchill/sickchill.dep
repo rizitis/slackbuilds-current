@@ -78,6 +78,12 @@ python3-tornado
 msgpack-python
 requests-toolbelt
 python3-cachecontrol
+python3-h11
+python3-sniffio
+python3-anyio
+python3-httpcore
+python3-rfc3986
+python3-httpx
 python3-pdm-backend
 python3-unearth
 python3-shellingham

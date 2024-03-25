@@ -5,6 +5,17 @@ python3-rich
 requests-toolbelt
 msgpack-python
 python3-cachecontrol
+click
+python3-h11
+python3-setuptools-scm-opt
+python3-sniffio
+python3-flit_scm
+python3-exceptiongroup
+python3-anyio
+python3-hatch_fancy_pypi_readme
+python3-httpcore
+python3-rfc3986
+python3-httpx
 python3-pdm-backend
 python3-unearth
 python3-shellingham

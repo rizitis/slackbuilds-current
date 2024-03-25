@@ -1,8 +1,4 @@
-jmespath
-python3-dateutil
-botocore
-s3transfer
-python3-boto3
+python3-wrapt
 python3-smart_open
 OpenBLAS
 doctest

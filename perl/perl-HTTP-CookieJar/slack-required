@@ -1,0 +1,5 @@
+perl-Test-Requires
+perl-Test-NoWarnings
+perl-Test-Deep
+perl-http-date
+

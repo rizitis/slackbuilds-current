@@ -3,6 +3,16 @@ perl-Sub-Uplevel
 perl-test-warn
 perl-Test-NoWarnings
 perl-Test-Deep
+perl-Test-Needs
+perl-Try-Tiny
+perl-B-COW
+perl-Clone
+perl-IO-HTML
+perl-Test-Fatal
+perl-lwp-mediatypes
+perl-http-date
+perl-encode-locale
+perl-http-message
 perl-html-tagset
 perl-html-parser
 perl-CGI
@@ -14,8 +24,6 @@ perl-Test-Simple
 perl-Parse-RecDescent
 perl-CSS
 perl-Module-Build
-perl-Try-Tiny
-perl-Test-Fatal
 perl-Test-Exception
 perl-HTML-Tree
 perl-Test-Requires
