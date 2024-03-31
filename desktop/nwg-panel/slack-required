@@ -1,7 +1,6 @@
 ddcutil
 wlr-randr
 scdoc
-libhandy
 gtk-layer-shell
 SwayNotificationCenter
 python3-netifaces

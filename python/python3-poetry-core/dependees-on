@@ -1,3 +1,4 @@
+Kallithea
 audible-cli
 audible
 beautysh
@@ -24,6 +25,7 @@ jupyter_server
 jupyterlab
 jupyterlab_pygments
 jupyterlab_server
+kallithea-frontend
 letsencrypt
 pelican
 pip2tgz
@@ -39,6 +41,8 @@ python3-authheaders
 python3-beekeeper-alt
 python3-cacheyou
 python3-cartopy
+python3-celery
+python3-click-didyoumean
 python3-cookiecutter
 python3-dkimpy
 python3-dnspython

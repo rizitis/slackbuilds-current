@@ -3,6 +3,7 @@ python3-dateutil
 python3-click-repl
 click
 click-plugins
+python3-poetry-core
 python3-click-didyoumean
 python3-wcwidth
 python3-prompt_toolkit

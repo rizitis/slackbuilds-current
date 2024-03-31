@@ -17,6 +17,5 @@ python3-obspy
 python3-paginate_sqlalchemy
 pytrainer
 sickchill
-slpkg
 sqlalchemy-migrate
 zope.sqlalchemy

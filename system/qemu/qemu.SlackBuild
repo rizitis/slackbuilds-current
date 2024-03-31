@@ -3,7 +3,7 @@
 # Slackware build script for qemu
 
 # Copyright 2009, 2010  Andrew Brouwers <abrouwers@gmail.com>
-# Copyright 2013-2022  Edward W. Koenig, Vancouver, USA <kingbeowulf@linuxgalaxy.org>
+# Copyright 2013-2024  Edward W. Koenig, Vancouver, USA <kingbeowulf@linuxgalaxy.org>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -22,12 +22,6 @@
 # WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-# 20230701 bkw: Modified by SlackBuilds.org, BUILD=2:
-# - add doinst to update desktop database and icon cache.
-# Note: sbopkglint <= 0.9.0 complains about ELF binaries found in
-# /usr/share/qemu (intended for the target systems). This is an error
-# in sbopkglint, and will be fixed (no need to change anything here).
 
 cd $(dirname $0) ; CWD=$(pwd)
 
@@ -117,13 +111,13 @@ else
   with_vnc="--disable-vnc"
 fi
 
-# To disable user mode networking use SLIRP=no
-if [ "$SLIRP" = "no" ]; then
-  with_slirp="--disable-slirp"
-else
+# To enable user mode networking use SLIRP=yes
+if [ "$SLIRP" = "yes" ]; then
   with_slirp="--enable-slirp"
+else
+  with_slirp=""
 fi
-    
+
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
@@ -138,10 +132,11 @@ CXXFLAGS="$SLKCFLAGS" \
   --disable-debug-info \
   --enable-virtfs \
   --enable-sdl \
+  --enable-malloc=jemalloc \
+  --enable-fdt=auto \
   --enable-nettle \
   --${uring}able-linux-io-uring \
   --audio-drv-list=${AUDIODRIVERS} \
-  --disable-xkbcommon \
   $with_slirp \
   $with_vnc \
   $targets
