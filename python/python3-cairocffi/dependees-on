@@ -1,9 +1,7 @@
 CairoSVG
 PySoundCard
-boto
 buildbot-badges
 cffi
-conan
 fabric
 image-analyzer
 mysql-workbench

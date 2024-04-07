@@ -4,7 +4,6 @@ python3-hatch_vcs
 humanize
 parsedatetime
 python3-dateutil
-pytz
 python3-icalendar
 click-log
 click

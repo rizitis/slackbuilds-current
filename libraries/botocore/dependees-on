@@ -1,9 +1,6 @@
 aws-cdk
 awscli
-boto
-boto3
 botocore
-conan
 mount-s3
 python3-boto3
 s3fs-fuse

@@ -1,5 +1,3 @@
-boto
-conan
 darcs
 darcs
 dex
@@ -63,4 +61,3 @@ le
 pandoc
 pandoc
 pyfeed
-rsa

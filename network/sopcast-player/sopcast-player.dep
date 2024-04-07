@@ -35,6 +35,7 @@ lua
 libmpeg2
 libdvbpsi
 libdc1394
+libass
 vlc
 sopcast
 sopcast-player

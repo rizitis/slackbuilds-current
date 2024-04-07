@@ -37,10 +37,6 @@ python3-overrides
 send2trash
 python3-prometheus_client
 python3-hatch_jupyter_builder
-python3-mdurl
-python3-markdown-it-py
-python3-rich
-python3-setuptools-scm-opt
 python3-sniffio
 python3-anyio
 terminado
@@ -56,8 +52,8 @@ jupyter_packaging
 _pygments
 python3-hatch-nodejs-version
 python3-fastjsonschema
-python3-hatch_fancy_pypi_readme
 python3-pyrsistent
+python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-jsonschema
 jupyter-nbformat

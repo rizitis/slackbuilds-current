@@ -1,5 +1,4 @@
 FireWorks
-Kallithea
 Type1_to_OTF
 afdko
 ansible-core
@@ -24,13 +23,10 @@ jupyter_server
 jupyterlab
 jupyterlab_pygments
 jupyterlab_server
-kallithea-frontend
 python-argopt
-python3-Flask-Bcrypt
 python3-Flask-RESTX
 python3-Flask-Security-Too
 python3-asttokens
-python3-bcrypt
 python3-cacheyou
 python3-cffsubr
 python3-fontmake
@@ -38,7 +34,6 @@ python3-glyphslib
 python3-ipython-sql
 python3-librosa
 python3-mailman
-python3-paramiko
 python3-pdfminer.six
 python3-pdm
 python3-pylint-venv
@@ -50,7 +45,6 @@ python3-stack_data
 python3-sysrsync
 python3-tomlkit
 python3-ufo2ft
-radicale
 sickchill
 spyder
 thonny

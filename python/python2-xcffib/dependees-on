@@ -1,7 +1,5 @@
 PySoundCard
-boto
 cffi
-conan
 fabric
 mysql-workbench
 pynacl

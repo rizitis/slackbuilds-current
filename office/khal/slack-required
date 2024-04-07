@@ -1,6 +1,5 @@
 click-log
 click
-pytz
 tzlocal
 configobj
 python3-atomicwrites

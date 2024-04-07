@@ -12,7 +12,6 @@ libevtx
 libevt
 libesedb
 libcaes
-pytz
 zeromq
 python3-pyzmq
 pefile

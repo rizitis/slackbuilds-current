@@ -38,6 +38,7 @@ webkit2gtk
 python3-markdown2
 nwg-readme-browser
 ddcutil
+libhandy
 SwayNotificationCenter
 python3-netifaces
 python3-dasbus

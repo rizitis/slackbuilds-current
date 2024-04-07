@@ -1,6 +1,3 @@
-libaec
-hdf5
-netcdf
 proj
 libgeotiff
 podofo
@@ -9,6 +6,9 @@ freexl
 geos
 librttopo
 libspatialite
+libaec
+hdf5
+netcdf
 graphviz
 uriparser
 libkml

@@ -1,7 +1,5 @@
 Impacket
 apprise
-boto
-conan
 fabric
 le
 mysql-workbench
@@ -21,7 +19,6 @@ python2-pyasn1-modules
 python2-pytest-runner
 python2-twitter
 routersploit
-rsa
 sftp-cloudfs
 snmpsim
 tox

@@ -6,7 +6,6 @@ python3-psycopg2
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
-protobuf-c
 proj
 libgeotiff
 podofo
@@ -24,7 +23,6 @@ libkml
 xerces-c
 gdal
 postgis
-pytz
 python3-dateutil
 OWSLib
 libspatialindex

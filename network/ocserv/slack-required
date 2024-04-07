@@ -3,5 +3,6 @@ rubygem-mustache
 rubygem-hpricot
 rubygem-ronn
 protobuf-c
+libev
 http-parser
 

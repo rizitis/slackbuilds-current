@@ -22,8 +22,6 @@ perl-Socket6
 perl-IO-Socket-INET6
 perl-Encode-Detect
 perl-Crypt-OpenSSL-Bignum
-perl-www-robotrules
-perl-net-http
 perl-Test-Needs
 perl-Try-Tiny
 perl-B-COW
@@ -34,6 +32,15 @@ perl-lwp-mediatypes
 perl-http-date
 perl-encode-locale
 perl-http-message
+perl-html-tagset
+perl-html-parser
+perl-Test-RequiresInternet
+perl-Test-Requires
+perl-Test-NoWarnings
+perl-Test-Deep
+perl-HTTP-CookieJar
+perl-www-robotrules
+perl-net-http
 perl-http-negotiate
 perl-JSON
 perl-Test-Harness

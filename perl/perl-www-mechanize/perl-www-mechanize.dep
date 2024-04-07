@@ -16,6 +16,9 @@ perl-html-tagset
 perl-html-parser
 perl-CGI
 perl-http-server-simple
+perl-Test-RequiresInternet
+perl-Test-Requires
+perl-HTTP-CookieJar
 perl-www-robotrules
 perl-net-http
 perl-http-negotiate

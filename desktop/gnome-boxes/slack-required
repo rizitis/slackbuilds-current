@@ -15,6 +15,7 @@ libvirt-glib
 osinfo-db-tools
 osinfo-db
 libosinfo
+libhandy
 gtksourceview4
 gtk-vnc
 

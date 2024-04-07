@@ -1,6 +1,5 @@
 python3-versioneer
 tzdata
-pytz
 python3-dateutil
 python3-pyproject-metadata
 python3-mesonpy

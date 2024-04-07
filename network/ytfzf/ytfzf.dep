@@ -2,6 +2,7 @@ yt-dlp
 mujs
 lua
 luajit
+libass
 mpv
 jq
 google-go-lang

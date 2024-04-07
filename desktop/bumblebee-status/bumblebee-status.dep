@@ -5,6 +5,7 @@ perl-Canary-Stability
 perl-JSON-XS
 yajl
 xcb-util-xrm
+libev
 dmenu
 i3
 bumblebee-status

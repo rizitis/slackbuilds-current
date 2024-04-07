@@ -2,9 +2,6 @@ audible-cli
 audible
 aws-cdk
 awscli
-boto
-conan
 mount-s3
 python3-rsa
-rsa
 s3fs-fuse

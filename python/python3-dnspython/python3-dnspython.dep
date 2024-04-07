@@ -1,13 +1,9 @@
 python3-h11
-python3-mdurl
-python3-markdown-it-py
-python3-poetry-core
-python3-rich
-python3-setuptools-scm-opt
 python3-sniffio
 python3-flit_scm
 python3-exceptiongroup
 python3-anyio
 python3-hatch_fancy_pypi_readme
 python3-httpcore
+python3-poetry-core
 python3-dnspython

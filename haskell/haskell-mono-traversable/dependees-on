@@ -3,8 +3,6 @@ KeePassHttp
 LOIC
 OpenRA
 bless
-boto
-conan
 cowbell
 darcs
 gbrainy
@@ -38,6 +36,5 @@ mono
 nant
 nini
 pandoc
-rsa
 smath-studio
 xsp

@@ -18,6 +18,5 @@ zope.hookable
 zope.event
 zope.component
 python3-pythondialog
-pytz
 configobj
 letsencrypt

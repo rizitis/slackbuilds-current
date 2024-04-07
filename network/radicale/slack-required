@@ -2,11 +2,9 @@ python3-dateutil
 python2-setuptools-scm
 python2-dateutil
 vobject
-pytz
 python3-defusedxml
-python3-toml
 python3-semantic-version
-python3-setuptools-rust
+python3-setuptools-rust-opt
 python3-bcrypt
 python3-passlib
 

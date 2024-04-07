@@ -2,11 +2,6 @@ python3-profilehooks
 python3-timeago
 python3-bencode
 python3-new-rtorrent
-python3-mdurl
-python3-markdown-it-py
-python3-poetry-core
-python3-rich
-python3-setuptools-scm-opt
 python3-qbittorrent-api
 python3-deluge-client
 python3-pynma
@@ -31,7 +26,7 @@ configobj
 python-oauthlib
 requests-oauthlib
 twitter
-pytz
+unrar
 rarfile
 python3-pysrt
 python3-decorator
@@ -48,6 +43,7 @@ python3-guessit
 subliminal
 python3-markdown2
 python-jsonrpclib
+python3-poetry-core
 python3-validators
 python3-hatch_vcs
 python3-platformdirs
@@ -76,6 +72,9 @@ python-gntp
 Unidecode
 python3-tornado
 msgpack-python
+python3-mdurl
+python3-markdown-it-py
+python3-rich
 requests-toolbelt
 python3-cachecontrol
 python3-h11

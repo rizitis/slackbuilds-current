@@ -4,14 +4,11 @@ ansible-core
 ansible
 awscli-v2
 blink-qt
-boto
 buildbot-badges
 buildbot-worker
 buildbot
 buku
 butterfly
-conan
-conan
 cryptography
 deluge
 dfvfs

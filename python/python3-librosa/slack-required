@@ -15,7 +15,6 @@ python3-joblib
 scikit-learn
 python3-versioneer
 tzdata
-pytz
 python3-dateutil
 python3-pandas
 python3-hatch_vcs

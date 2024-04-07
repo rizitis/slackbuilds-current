@@ -1,5 +1,6 @@
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gnome
+libhandy
 libgnomekbd
 gsound
 geocode-glib

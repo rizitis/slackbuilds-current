@@ -9,7 +9,6 @@ python2-attrs
 python2-py
 pytest
 python2-pytest-runner
-pytz
 babel
 python2-PyYAML
 python-oauthlib

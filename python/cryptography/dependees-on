@@ -9,7 +9,6 @@ buildbot-worker
 buildbot
 buku
 butterfly
-conan
 cryptography
 deluge
 dfvfs
