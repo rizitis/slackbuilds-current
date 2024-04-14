@@ -27,6 +27,7 @@ python2-requests-kerberos
 python3-autobahn
 python3-keyring
 python3-klein
+python3-msal
 python3-otr
 python3-paramiko
 python3-pdfminer.six

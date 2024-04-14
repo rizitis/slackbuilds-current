@@ -3,7 +3,4 @@ gpsd
 confuse
 libftdi1
 libdc1394
-libev
-libnova
-libindi
 libindi-libraries

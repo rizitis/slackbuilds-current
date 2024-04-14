@@ -2,7 +2,6 @@ cogl
 clutter
 clutter-gtk
 libchamplain
-libhandy
 telepathy-glib
 unifdef
 xdg-dbus-proxy

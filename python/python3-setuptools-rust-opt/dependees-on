@@ -41,6 +41,7 @@ python3-jaraco.text
 python3-keyring
 python3-klein
 python3-maturin
+python3-msal
 python3-orjson
 python3-otr
 python3-paramiko

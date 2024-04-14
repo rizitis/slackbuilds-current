@@ -1,6 +1,10 @@
+libdisplay-info
+tinyxml2
+Catch2
+spdlog
+fstrcmp
 gtest
 tinyxml
 flatbuffers
-libass
 zulu-openjdk11
 kodi

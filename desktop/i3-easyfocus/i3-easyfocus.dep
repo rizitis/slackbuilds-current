@@ -6,7 +6,6 @@ perl-Canary-Stability
 perl-JSON-XS
 yajl
 xcb-util-xrm
-libev
 dmenu
 i3
 i3-easyfocus

@@ -28,6 +28,7 @@ PRGNAM=github-desktop
 SRCNAM=GitHubDesktop
 VERSION=${VERSION:-3.3.12}
 BUILD=${BUILD:-1}
+DEBBUILD=${DEBBUILD:-2}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
 
@@ -72,7 +73,7 @@ mkdir -p $TMP $PKG $OUTPUT
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
-ar x $CWD/${SRCNAM}-linux-$DEBARCH-${VERSION}-linux${BUILD}.deb data.tar.xz
+ar x $CWD/${SRCNAM}-linux-$DEBARCH-${VERSION}-linux${DEBBUILD}.deb data.tar.xz
 tar xvf $PKG/data.tar.xz
 rm $PKG/data.tar.xz
 

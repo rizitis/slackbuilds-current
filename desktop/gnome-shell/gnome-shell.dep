@@ -9,7 +9,6 @@ gnome-settings-daemon
 mutter
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gnome
-libhandy
 libgnomekbd
 gsound
 unifdef
