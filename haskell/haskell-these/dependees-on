@@ -4,6 +4,7 @@ PyPy
 PyPy3
 amd-app-sdk
 avr8-gnu-toolchain
+bee-host
 bitwig-studio
 c-toxcore
 cdrkit
@@ -37,7 +38,7 @@ haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io
 haskell-path
-haskell-semialign
+haskell-semialign.tmp
 haskell-skylighting-core
 haskell-skylighting
 haskell-strict

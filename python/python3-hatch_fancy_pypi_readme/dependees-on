@@ -56,6 +56,7 @@ python3-docker-compose
 python3-fontmake
 python3-glyphslib
 python3-hatch_fancy_pypi_readme
+python3-hishel
 python3-httpcore
 python3-httpx
 python3-inflect

@@ -3,6 +3,7 @@ click
 python3-itsdangerous
 werkzeug
 Flask
+python3-Flask-Login
 python3-Flask-Cors
 roundrobin
 python3-configargparse

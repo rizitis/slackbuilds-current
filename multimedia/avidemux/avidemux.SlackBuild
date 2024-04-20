@@ -31,7 +31,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=avidemux
-VERSION=${VERSION:-20240129_2fd1354}
+VERSION=${VERSION:-20240417_ac7587b}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -89,6 +89,9 @@ find -L . \
 
 sed -i 's|../avidemux/qt4|../avidemux/qt4 -DLRELEASE_EXECUTABLE=/usr/bin/lrelease-qt5|' bootStrap.bash || exit 1
 sed -i 's|0.19|1.0|' avidemux_plugins/ADM_videoFilters6/ass/CMakeLists.txt || exit 1
+
+mkdir -p avidemux_core/ffmpeg_package/patches/upstream
+cp $CWD/0004-support-nv-codec-headers-12.2.patch avidemux_core/ffmpeg_package/patches/upstream
 
 bash bootStrap.bash --with-core --with-cli --with-plugins
 

@@ -16,6 +16,7 @@ python3-authheaders
 python3-cacheyou
 python3-dkimpy
 python3-dnspython
+python3-hishel
 python3-httpcore
 python3-httpx
 python3-mailman

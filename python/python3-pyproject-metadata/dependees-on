@@ -40,7 +40,13 @@ grass
 grass
 guitarix
 image-analyzer
+ipython
 jalv
+jupyter-ipykernel
+jupyter-notebook
+jupyter-qtconsole
+jupyter_console
+jupyterlab
 kolorcontrol
 libLAS
 libgeotiff
@@ -94,8 +100,10 @@ python3-fonttools
 python3-gensim
 python3-glyphslib
 python3-h5py
+python3-ipython-sql
 python3-levenshtein
 python3-librosa
+python3-matplotlib-inline
 python3-matplotlib
 python3-mesonpy
 python3-mir_eval
@@ -118,6 +126,7 @@ python3-seaborn
 python3-shapely
 python3-soundfile
 python3-soxr
+python3-spyder-kernels
 python3-statsmodels
 python3-ufo2ft
 python3-ufolib2
@@ -138,6 +147,7 @@ scikit-learn
 snuggs
 spatialite-tools
 spglib
+spyder
 survex
 therion
 ttfautohint-py

@@ -5,6 +5,7 @@ PyPy3
 amd-app-sdk
 antares
 avr8-gnu-toolchain
+bee-host
 bitwig-studio
 c-toxcore
 cdrkit

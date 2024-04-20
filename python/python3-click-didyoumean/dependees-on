@@ -47,6 +47,7 @@ python3-celery
 python3-click-didyoumean
 python3-cookiecutter
 python3-flask-paginate
+python3-hishel
 python3-httpx
 python3-lsp-black
 python3-mailman

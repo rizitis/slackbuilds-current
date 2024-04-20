@@ -42,6 +42,7 @@ python3-flit
 python3-flit_scm
 python3-fontmake
 python3-glyphslib
+python3-hishel
 python3-httpcore
 python3-httpx
 python3-ipython-sql

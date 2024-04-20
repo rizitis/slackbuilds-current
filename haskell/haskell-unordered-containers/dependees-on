@@ -49,7 +49,7 @@ haskell-regex-compat-tdfa
 haskell-regex-tdfa
 haskell-rio
 haskell-sandi
-haskell-semialign
+haskell-semialign.tmp
 haskell-semigroupoids
 haskell-semigroups
 haskell-shelly

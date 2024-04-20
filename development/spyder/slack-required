@@ -28,6 +28,13 @@ backcall
 python3-wcwidth
 python3-prompt_toolkit
 pickleshare
+cppy
+python3-kiwisolver
+python3-cycler
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
+python3-matplotlib
 python3-matplotlib-inline
 python3-ptyprocess
 python3-pexpect

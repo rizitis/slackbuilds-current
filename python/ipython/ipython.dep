@@ -10,6 +10,15 @@ backcall
 python3-wcwidth
 python3-prompt_toolkit
 pickleshare
+python3-tornado
+cppy
+python3-kiwisolver
+python3-cycler
+python3-dateutil
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
+python3-matplotlib
 traitlets
 python3-matplotlib-inline
 python3-ptyprocess

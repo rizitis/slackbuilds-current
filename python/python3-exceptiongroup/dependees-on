@@ -41,6 +41,7 @@ python3-dnspython
 python3-exceptiongroup
 python3-fontmake
 python3-glyphslib
+python3-hishel
 python3-httpcore
 python3-httpx
 python3-ipython-sql
