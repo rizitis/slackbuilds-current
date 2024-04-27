@@ -1,5 +1,6 @@
 playerctl
 scdoc
+gtk-session-lock
 gtk-layer-shell
 gtklock
 gtklock-playerctl-module

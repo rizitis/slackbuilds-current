@@ -26,6 +26,7 @@ wlsunset
 geopy
 playerctl
 scdoc
+gtk-session-lock
 gtklock
 nwg-shell-config
 unifdef

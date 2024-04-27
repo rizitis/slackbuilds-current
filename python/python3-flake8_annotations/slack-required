@@ -1,0 +1,9 @@
+python3-hatch_vcs
+python3-hatch_fancy_pypi_readme
+python3-attrs
+python3-poetry-core
+python3-mccabe
+python3-pyflakes
+pycodestyle
+flake8
+

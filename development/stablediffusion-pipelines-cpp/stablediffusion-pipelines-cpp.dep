@@ -1,0 +1,9 @@
+libtorch-cxx11-abi-shared-with-deps
+OpenCL-CLHPP
+pybind11
+snappy
+pugixml
+xbyak
+oneTBB
+openvino
+stablediffusion-pipelines-cpp

@@ -35,6 +35,7 @@ python3-click-didyoumean
 python3-cookiecutter
 python3-dkimpy
 python3-dnspython
+python3-flake8_annotations
 python3-ipython-sql
 python3-kodipydent
 python3-langcodes

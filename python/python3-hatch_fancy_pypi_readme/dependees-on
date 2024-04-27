@@ -53,6 +53,7 @@ python3-cloudflare
 python3-dkimpy
 python3-dnspython
 python3-docker-compose
+python3-flake8_annotations
 python3-fontmake
 python3-glyphslib
 python3-hatch_fancy_pypi_readme

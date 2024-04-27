@@ -18,6 +18,7 @@ et
 flexget
 ftp-cloudfs
 gajim
+hg-git
 jellyfish
 kallithea-frontend
 letsencrypt
@@ -35,6 +36,7 @@ python3-CherryPy
 python3-Flask-Bcrypt
 python3-autobahn
 python3-bcrypt
+python3-dulwich
 python3-inflect
 python3-jaraco.collections
 python3-jaraco.text

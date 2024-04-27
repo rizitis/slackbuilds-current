@@ -19,6 +19,7 @@ i3ipc
 geopy
 playerctl
 scdoc
+gtk-session-lock
 gtk-layer-shell
 gtklock
 

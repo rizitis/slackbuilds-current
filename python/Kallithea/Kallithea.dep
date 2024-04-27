@@ -4,6 +4,8 @@ python3-waitress
 python3-urlobject
 python3-paste
 python3-ipaddr
+python3-semantic-version
+python3-setuptools-rust-opt
 python3-dulwich
 python3-decorator
 python3-beaker
@@ -12,8 +14,6 @@ python3-formencode
 python3-bleach
 python3-webob
 python3-backlash
-python3-semantic-version
-python3-setuptools-rust-opt
 python3-bcrypt
 greenlet
 SQLAlchemy
