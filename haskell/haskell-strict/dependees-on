@@ -19,4 +19,5 @@ haskell-skylighting
 haskell-strict
 haskell-texmath
 haskell-yaml
+mptcpd
 pandoc

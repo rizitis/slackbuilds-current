@@ -7,5 +7,6 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-http-conduit
+mptcpd
 pandoc
 pandoc

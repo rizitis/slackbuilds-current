@@ -62,7 +62,6 @@ lua-luv
 lua-md5
 lua-mpack
 lua-posix
-lua-readline
 lua-std._debug
 lua-std.normalize
 lua-zlib
@@ -88,6 +87,7 @@ marathon2-data
 mari0
 megaglest
 minitube
+mptcpd
 mpv
 mrrescue
 musique
@@ -128,7 +128,6 @@ sopcast-player
 stratagus
 stremio
 sysbench
-sysdig
 task
 terminology
 tolua++

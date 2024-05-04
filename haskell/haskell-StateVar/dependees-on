@@ -36,4 +36,5 @@ haskell-strict
 haskell-texmath
 haskell-these
 haskell-yaml
+mptcpd
 pandoc

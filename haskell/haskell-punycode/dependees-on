@@ -9,6 +9,7 @@ haskell-idna
 haskell-publicsuffixlist
 haskell-punycode
 libdart
+mptcpd
 pandoc
 stormbaancoureur
 xmoto

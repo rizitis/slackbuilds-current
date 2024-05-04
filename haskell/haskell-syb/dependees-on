@@ -25,4 +25,5 @@ haskell-th-reify-many
 haskell-th-utilities
 haskell-uniplate
 haskell-yaml
+mptcpd
 pandoc

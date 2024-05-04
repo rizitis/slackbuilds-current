@@ -8,6 +8,7 @@ haskell-skylighting-core
 haskell-skylighting
 haskell-xml-conduit
 libsvm
+mptcpd
 pandoc
 pyCRAC
 python3-aksharamukha

@@ -35,5 +35,6 @@ haskell-these
 haskell-witherable
 haskell-yaml
 le
+mptcpd
 pandoc
 pyfeed

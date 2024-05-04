@@ -23,4 +23,5 @@ haskell-skylighting
 haskell-texmath
 haskell-uuid-types
 haskell-yaml
+mptcpd
 pandoc

@@ -8,5 +8,6 @@ haskell-texmath
 haskell-xml-conduit
 haskell-xml-types
 haskell-xml
+mptcpd
 pandoc
 pandoc

@@ -41,20 +41,15 @@ your processor) prior to launching qemu-system-ARCH with kvm enabled.
 For older/unmaintained qemu frontends, this build also creates a symlink
 to qemu-system-ARCH at /usr/bin/qemu-kvm.
 
-libcacard, spice, usbredir, virglrenderer, libnfs, snappy, glusterfs,
-device-tree-compiler, and vde2 are optional dependencies.
+libiscsi (to access iSCSI targets directly), libcacard, spice, usbredir
+virglrenderer, libnfs, snappy, glusterfs, vde2, sphinx-rtd-theme and
+Sphinx (to build documentation) are optional dependencies that will be
+automatically detected during compilation, if present (all avialable on
+SBo).
 
 To disable user mode networking compile qemu with:
 
   SLIRP=no ./qemu.SlackBuild
-
-libiscsi (to access iSCSI targets directly) is optional dependency,
-and will be picked up, if present, during the compilation.
-
-sphinx-rtd-theme and Sphinx (both on SBo) are  optional but required in
-order for any of the documentation to be built.
-
-If you wish to emulate ARM, you will want device-tree-compiler.
 
 The dependency virtiofsd isn't usable on a 32bit operating system.
 

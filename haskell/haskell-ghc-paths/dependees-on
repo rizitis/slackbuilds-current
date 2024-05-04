@@ -324,6 +324,7 @@ haskell-zeromq4-haskell
 haskell-zip-archive
 haskell-zlib
 hscolour
+mptcpd
 pandoc
 xmobar
 xmonad-contrib

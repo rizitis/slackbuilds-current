@@ -3,6 +3,7 @@ haskell-shelly
 haskell-system-fileio
 haskell-system-filepath
 le
+mptcpd
 nyx
 onionshare
 vanguards

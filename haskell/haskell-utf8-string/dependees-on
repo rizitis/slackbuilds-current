@@ -10,6 +10,7 @@ haskell-skylighting-core
 haskell-skylighting
 haskell-utf8-string
 haskell-zip-archive
+mptcpd
 pandoc
 xmobar
 xmonad-contrib

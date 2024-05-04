@@ -33,6 +33,7 @@ perl-Test-MockModule
 perl-WebService-Gyazo-B
 perl-XML-Catalog
 perl-XML-TreeBuilder
+perl-html-form
 perl-html-parser
 perl-http-response-encoding
 perl-http-server-simple

@@ -35,6 +35,7 @@ haskell-time-locale-compat
 haskell-unix-time
 haskell-yaml
 le
+mptcpd
 pandoc
 xmobar
 xmonad-contrib

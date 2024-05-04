@@ -15,4 +15,5 @@ haskell-streaming-commons
 haskell-xml-conduit
 haskell-zip-archive
 haskell-zlib
+mptcpd
 pandoc

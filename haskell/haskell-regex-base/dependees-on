@@ -13,5 +13,6 @@ haskell-skylighting
 haskell-test-framework-hunit
 haskell-test-framework-quickcheck2
 haskell-test-framework
+mptcpd
 pandoc
 xmobar

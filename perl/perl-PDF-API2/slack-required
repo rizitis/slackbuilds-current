@@ -1,3 +1,7 @@
+perl-Devel-Cycle
+perl-Test-Memory-Cycle
+perl-Sub-Uplevel
+perl-Test-Exception
 perl-IO-String
 perl-Font-TTF
 

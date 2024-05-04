@@ -6,4 +6,5 @@ haskell-http-conduit
 haskell-idna
 haskell-publicsuffixlist
 haskell-stringprep
+mptcpd
 pandoc

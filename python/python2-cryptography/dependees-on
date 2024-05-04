@@ -15,6 +15,7 @@ dfvfs
 fabric
 ftp-cloudfs
 gajim
+krop
 letsencrypt
 mysql-workbench
 ndg_httpsclient
@@ -35,6 +36,7 @@ python3-msal
 python3-otr
 python3-paramiko
 python3-pdfminer.six
+python3-pypdf
 python3-service-identity
 python3-sipclients3
 python3-sipsimple

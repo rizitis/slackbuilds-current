@@ -11,4 +11,5 @@ haskell-publicsuffixlist
 haskell-punycode
 haskell-socks
 haskell-tls
+mptcpd
 pandoc

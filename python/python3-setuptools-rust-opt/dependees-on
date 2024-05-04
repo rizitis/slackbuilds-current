@@ -21,6 +21,7 @@ gajim
 hg-git
 jellyfish
 kallithea-frontend
+krop
 letsencrypt
 ndg_httpsclient
 plaso
@@ -50,6 +51,7 @@ python3-paramiko
 python3-pdfminer.six
 python3-pydantic-core
 python3-pydantic
+python3-pypdf
 python3-service-identity
 python3-setuptools-rust-opt
 python3-setuptools-rust

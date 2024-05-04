@@ -3,3 +3,4 @@ haskell-hspec-smallcheck
 haskell-hspec
 haskell-quickcheck-io
 kc
+mptcpd

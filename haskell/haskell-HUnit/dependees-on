@@ -9,4 +9,5 @@ haskell-quickcheck-io
 haskell-skylighting-core
 haskell-skylighting
 haskell-test-framework-hunit
+mptcpd
 pandoc

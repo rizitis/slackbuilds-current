@@ -1,4 +1,7 @@
-python3-PyPDF2
+python3-semantic-version
+python3-setuptools-rust-opt
+cryptography
+python3-pypdf
 python-poppler-qt5
 # %README%: see the krop README file. 
 krop

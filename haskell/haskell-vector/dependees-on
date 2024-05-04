@@ -52,6 +52,7 @@ haskell-vector
 haskell-witherable
 haskell-xml-conduit
 haskell-yaml
+mptcpd
 onionshare
 pandoc
 ttdnsd

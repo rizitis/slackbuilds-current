@@ -8,4 +8,5 @@ haskell-hpack
 haskell-http-client-tls
 haskell-http-conduit
 haskell-tls
+mptcpd
 pandoc

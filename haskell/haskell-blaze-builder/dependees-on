@@ -32,4 +32,5 @@ haskell-streaming-commons
 haskell-texmath
 haskell-xml-conduit
 haskell-yaml
+mptcpd
 pandoc

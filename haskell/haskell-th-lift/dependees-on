@@ -4,4 +4,5 @@ haskell-th-lift
 haskell-th-orphans
 haskell-th-utilities
 haskell-unicode-collation
+mptcpd
 pandoc

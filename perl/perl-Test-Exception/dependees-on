@@ -28,6 +28,7 @@ perl-MaxMind-DB-Reader
 perl-Module-Manifest
 perl-MooseX-Types-Structured
 perl-MooseX-Types
+perl-PDF-API2
 perl-PDF-Builder
 perl-Parse-Method-Signatures
 perl-SDL

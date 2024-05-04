@@ -13,4 +13,5 @@ haskell-quickcheck-io
 haskell-test-framework-quickcheck2
 haskell-texmath
 haskell-tf-random
+mptcpd
 pandoc

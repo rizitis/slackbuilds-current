@@ -29,6 +29,7 @@ haskell-strict
 haskell-texmath
 haskell-these
 haskell-yaml
+mptcpd
 onionshare
 pandoc
 ttdnsd

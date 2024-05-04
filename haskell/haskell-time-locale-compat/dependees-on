@@ -20,4 +20,5 @@ haskell-texmath
 haskell-time-locale-compat
 haskell-yaml
 le
+mptcpd
 pandoc

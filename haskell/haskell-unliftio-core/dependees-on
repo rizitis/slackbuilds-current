@@ -23,4 +23,5 @@ haskell-unliftio
 haskell-unliftio
 haskell-xml-conduit
 haskell-yaml
+mptcpd
 pandoc

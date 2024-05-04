@@ -19,4 +19,5 @@ haskell-split
 haskell-texmath
 haskell-xml-conduit
 haskell-yaml
+mptcpd
 pandoc

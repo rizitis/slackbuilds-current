@@ -2,5 +2,6 @@ haskell-lexer
 haskell-pretty-show
 haskell-skylighting
 le
+mptcpd
 pandoc
 pyfeed

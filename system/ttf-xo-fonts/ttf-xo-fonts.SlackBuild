@@ -46,7 +46,7 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 mkdir -p $PKG/usr/share/fonts/TTF
-unzip -j $CWD/all_fonts_myoffice.zip *.ttf -x "*__*" -d $PKG/usr/share/fonts/TTF
+unzip -j $CWD/MyOffice_XO_Fonts_1.1.zip *.ttf -x "*__*" -d $PKG/usr/share/fonts/TTF
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi

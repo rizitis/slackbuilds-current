@@ -47,4 +47,5 @@ haskell-void
 haskell-witherable
 haskell-xml-conduit
 haskell-yaml
+mptcpd
 pandoc

@@ -7,4 +7,5 @@ haskell-idna
 haskell-publicsuffixlist
 haskell-stringprep
 haskell-text-icu
+mptcpd
 pandoc

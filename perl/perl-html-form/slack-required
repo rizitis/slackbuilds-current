@@ -1,3 +1,4 @@
+perl-Test-Warnings
 perl-Test-Needs
 perl-Try-Tiny
 perl-B-COW
@@ -8,4 +9,6 @@ perl-lwp-mediatypes
 perl-http-date
 perl-encode-locale
 perl-http-message
+perl-html-tagset
+perl-html-parser
 

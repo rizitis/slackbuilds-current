@@ -44,5 +44,6 @@ haskell-unicode-collation
 haskell-witherable
 haskell-yaml
 ion
+mptcpd
 pandoc
 trac

@@ -47,6 +47,7 @@ perl-test-warn
 perl-CGI
 perl-http-server-simple
 perl-http-response-encoding
+perl-Test-Warnings
 perl-html-form
 perl-www-mechanize
 perl-Proc-Simple
@@ -70,7 +71,6 @@ perl-gtk2-imageview
 goocanvas
 perl-goo-canvas
 perl-gnome2-wnck
-perl-Test-Warnings
 perl-File-Remove
 perl-YAML-Tiny
 perl-Module-Install

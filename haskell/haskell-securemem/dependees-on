@@ -12,4 +12,5 @@ haskell-http-client-tls
 haskell-http-conduit
 haskell-securemem
 haskell-tls
+mptcpd
 pandoc

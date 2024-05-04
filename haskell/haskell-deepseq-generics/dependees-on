@@ -6,4 +6,5 @@ haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-texmath
 ics
+mptcpd
 pandoc

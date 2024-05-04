@@ -20,4 +20,5 @@ haskell-skylighting
 haskell-texmath
 haskell-time-compat
 haskell-yaml
+mptcpd
 pandoc

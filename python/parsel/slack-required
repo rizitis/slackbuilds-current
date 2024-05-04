@@ -11,7 +11,7 @@ python2-pathlib2
 funcsigs
 python2-atomicwrites
 more-itertools
-pluggy
+python2-pluggy
 python2-attrs
 python2-py
 pytest

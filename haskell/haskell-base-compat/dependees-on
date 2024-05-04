@@ -24,4 +24,5 @@ haskell-skylighting
 haskell-texmath
 haskell-wl-pprint-text
 haskell-yaml
+mptcpd
 pandoc

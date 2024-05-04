@@ -6,6 +6,7 @@ haskell-GLUT
 haskell-OpenGL
 haskell-gloss-rendering
 haskell-gloss
+mptcpd
 rpy2
 rstudio-desktop-legacy
 rstudio-desktop

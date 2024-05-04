@@ -10,4 +10,5 @@ haskell-x509-store
 haskell-x509-system
 haskell-x509-validation
 haskell-x509
+mptcpd
 pandoc

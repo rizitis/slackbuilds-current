@@ -3,5 +3,6 @@ haskell-commonmark-extensions
 haskell-commonmark-pandoc
 haskell-commonmark
 haskell-unicode-transforms
+mptcpd
 pandoc
 rr

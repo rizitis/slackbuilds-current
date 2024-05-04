@@ -17,6 +17,7 @@ haskell-http-conduit
 haskell-http-conduit
 haskell-publicsuffixlist
 haskell-publicsuffixlist
+mptcpd
 pandoc
 pandoc
 xmobar

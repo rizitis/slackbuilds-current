@@ -26,5 +26,6 @@ haskell-skylighting
 haskell-xml-conduit
 haskell-xml-conduit
 haskell-yaml
+mptcpd
 pandoc
 pandoc

@@ -2,6 +2,7 @@ Gem
 haskell-auto-update
 haskell-fast-logger
 haskell-monad-logger
+mptcpd
 pd-psql
 pd_mrpeach
 waybar

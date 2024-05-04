@@ -3,4 +3,5 @@ haskell-test-framework-quickcheck2
 haskell-test-framework
 haskell-texmath
 haskell-xml
+mptcpd
 pandoc

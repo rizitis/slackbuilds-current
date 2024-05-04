@@ -49,8 +49,6 @@ lua-md5
 lua-mpack
 lua-posix
 lua-posix
-lua-readline
-lua-readline
 lua-std._debug
 lua-std._debug
 lua-std.normalize
@@ -117,7 +115,6 @@ sopcast-player
 stratagus
 stremio
 sysbench
-sysdig
 task
 terminology
 tolua++

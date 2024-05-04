@@ -12,4 +12,5 @@ haskell-pandoc-types
 haskell-quickcheck-io
 haskell-test-framework-quickcheck2
 haskell-texmath
+mptcpd
 pandoc

@@ -30,6 +30,7 @@ haskell-skylighting
 haskell-tls
 haskell-x509-validation
 haskell-xml-conduit
+mptcpd
 pandoc
 pandoc
 xmobar

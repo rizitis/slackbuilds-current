@@ -16,7 +16,6 @@ perl-File-Copy-Recursive
 perl-File-Remove
 perl-Gtk2-Notify
 perl-Inline-C
-perl-Locale-Msgfmt
 perl-MIME-tools
 perl-MP3-Info
 perl-Module-Install
@@ -30,7 +29,6 @@ perl-Task-Weaken
 perl-Test-DistManifest
 perl-Test-File-ShareDir-Dist
 perl-Test-File
-perl-Test-Script
 perl-Test-utf8
 perl-Text-Password-Pronounceable
 perl-TryCatch

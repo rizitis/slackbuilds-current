@@ -3,4 +3,5 @@ haskell-constraints
 haskell-fsnotify
 haskell-lifted-async
 haskell-shelly
+mptcpd
 nts

@@ -47,6 +47,7 @@ haskell-tf-random
 haskell-uuid-types
 haskell-xml-conduit
 haskell-yaml
+mptcpd
 pandoc
 xmobar
 xmonad-contrib

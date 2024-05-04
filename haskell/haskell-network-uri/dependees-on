@@ -36,6 +36,7 @@ haskell-streaming-commons
 haskell-texmath
 haskell-tls
 haskell-xml-conduit
+mptcpd
 pandoc
 pandoc
 xmobar

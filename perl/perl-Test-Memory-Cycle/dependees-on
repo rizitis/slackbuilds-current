@@ -1,4 +1,5 @@
 gscan2pdf
 le
+perl-PDF-API2
 perl-PDF-Builder
 perl-Test-Memory-Cycle

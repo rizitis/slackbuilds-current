@@ -47,5 +47,6 @@ haskell-texmath
 haskell-wl-pprint-text
 haskell-yaml
 haskell-yaml
+mptcpd
 pandoc
 pandoc

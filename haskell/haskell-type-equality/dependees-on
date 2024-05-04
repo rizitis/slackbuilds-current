@@ -4,3 +4,4 @@ haskell-fsnotify
 haskell-lifted-async
 haskell-shelly
 haskell-type-equality
+mptcpd

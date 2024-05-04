@@ -53,7 +53,6 @@ perl-IO-Socket-Multicast
 perl-IO-Stty
 perl-Inline-C
 perl-Linux-FD
-perl-Locale-Msgfmt
 perl-Log-Dispatch
 perl-MIME-tools
 perl-MP3-Info
@@ -96,7 +95,6 @@ perl-Test-File-ShareDir-Dist
 perl-Test-File
 perl-Test-HexDifferences
 perl-Test-Most
-perl-Test-Script
 perl-Test-utf8
 perl-Text-Hyphen
 perl-Text-Password-Pronounceable

@@ -1,3 +1,9 @@
+python3-flit_scm
+python3-exceptiongroup
+python3-hatch_vcs
+python3-iniconfig
+python3-pytest
+python3-pytest-runner
 click
 python3-libretranslatepy
 translate

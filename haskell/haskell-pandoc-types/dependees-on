@@ -3,5 +3,6 @@ haskell-commonmark-pandoc
 haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-texmath
+mptcpd
 pandoc
 pandoc

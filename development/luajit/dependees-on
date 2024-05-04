@@ -60,7 +60,6 @@ lua-luv
 lua-md5
 lua-mpack
 lua-posix
-lua-readline
 lua-std._debug
 lua-std.normalize
 lua-zlib
@@ -140,7 +139,6 @@ stratagus
 stremio
 stremio
 sysbench
-sysdig
 task
 terminology
 terminology

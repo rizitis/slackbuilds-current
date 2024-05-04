@@ -4,4 +4,5 @@ haskell-doctemplates
 haskell-hspec-smallcheck
 haskell-nats
 haskell-smallcheck
+mptcpd
 pandoc

@@ -17,6 +17,7 @@ libindi-drivers
 libindi-libraries
 libopenshot
 locust
+mptcpd
 ntopng
 openshot
 plaso

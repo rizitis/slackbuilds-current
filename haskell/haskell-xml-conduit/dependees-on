@@ -7,5 +7,6 @@ haskell-test-framework
 haskell-texmath
 haskell-xml-conduit
 haskell-xml
+mptcpd
 pandoc
 pandoc

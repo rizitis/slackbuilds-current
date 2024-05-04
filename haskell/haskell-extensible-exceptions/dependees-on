@@ -17,6 +17,7 @@ haskell-test-framework
 haskell-texmath
 ion
 le
+mptcpd
 pandoc
 xmobar
 xmonad-contrib

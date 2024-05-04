@@ -69,6 +69,7 @@ haskell-witherable
 haskell-xml-conduit
 haskell-yaml
 haskell-zeromq4-haskell
+mptcpd
 pandoc
 xmobar
 xmonad-contrib

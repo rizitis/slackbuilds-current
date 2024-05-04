@@ -3,5 +3,6 @@ haskell-fast-logger
 haskell-monad-logger
 haskell-old-time
 haskell-unix-time
+mptcpd
 xmobar
 xmonad-contrib
