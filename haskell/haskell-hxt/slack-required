@@ -1,8 +1,4 @@
 ghc
 haskell-network-uri
--charproperties
--regex-xmlschema
--unicode
 haskell-call-stack
 haskell-HUnit
-

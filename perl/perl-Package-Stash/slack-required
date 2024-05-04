@@ -2,7 +2,6 @@ perl-Test-Requires
 perl-Try-Tiny
 perl-Test-Fatal
 perl-Module-Implementation
--XS
 perl-Pod-Parser
 perl-Devel-Symdump
 perl-Pod-Coverage
@@ -16,4 +15,3 @@ perl-List-MoreUtils-XS
 perl-Exporter-Tiny
 perl-List-MoreUtils
 perl-Dist-CheckConflicts
-

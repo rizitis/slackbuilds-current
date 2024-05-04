@@ -52,7 +52,6 @@ python3-diff-match-patch
 python3-three-merge
 python3-wurlitzer
 cloudpickle
-python3--kernels
 libspatialindex
 python3-rtree
 python3-rope
@@ -64,7 +63,6 @@ python3-ujson
 python3-lsp-jsonrpc
 python3-docstring-to-markdown
 python3-lsp-server
-python3-pyls-
 python3-filelock
 python3-distlib
 python3-virtualenv
@@ -129,4 +127,3 @@ pycodestyle
 flake8
 autopep8
 python3-atomicwrites
-

@@ -8,10 +8,8 @@ haskell-cryptohash
 haskell-hourglass
 haskell-asn1-types
 haskell-asn1-encoding
--types
 haskell-primitive
 haskell-vector
 haskell-securemem
 haskell-crypto-random
 haskell-crypto-numbers
-

@@ -56,7 +56,6 @@ pandocfilters
 python3-mistune
 python3-deprecation
 jupyter_packaging
-_pygments
 python3-hatch-nodejs-version
 python3-fastjsonschema
 python3-pyrsistent
@@ -73,6 +72,4 @@ jupyter_events
 python3-argon2-cffi-bindings
 python3-argon2-cffi
 jupyter_server
-_server
 jupyter-notebook_shim
-

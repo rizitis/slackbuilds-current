@@ -46,14 +46,12 @@ haskell-tf-random
 haskell-extensible-exceptions
 haskell-erf
 haskell-QuickCheck
-haskell--types
 haskell-network-uri
 haskell-emojis
 haskell-bitarray
 haskell-unicode-transforms
 haskell-commonmark
 haskell-commonmark-extensions
-haskell-commonmark-
 haskell-lua
 haskell-lpeg
 haskell-hslua-core
@@ -64,7 +62,6 @@ haskell-hslua-classes
 haskell-fail
 haskell-hslua
 haskell-safe
-haskell--lua-marshal
 haskell-hslua-aeson
 haskell-temporary
 haskell-hslua-module-system
@@ -194,4 +191,3 @@ haskell-cmark-gfm
 haskell-cmdargs
 haskell-aeson-pretty
 haskell-Glob
-

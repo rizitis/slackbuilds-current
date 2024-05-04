@@ -50,7 +50,6 @@ jupyter_events
 python3-argon2-cffi-bindings
 python3-argon2-cffi
 jupyter_server
-_shim
 jupyter-nbclassic
 python3-comm
 python3-pure_eval
@@ -76,4 +75,3 @@ python3-decorator
 ipython
 python3-debugpy
 jupyter-ipykernel
-

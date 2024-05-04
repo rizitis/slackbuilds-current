@@ -1,6 +1,5 @@
 libpeas
 libuchardet
--pl-parser
 liboauth
 grilo
 gnome-desktop
@@ -8,4 +7,3 @@ cogl
 clutter
 clutter-gtk
 clutter-gst
-

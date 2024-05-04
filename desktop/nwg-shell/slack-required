@@ -21,14 +21,12 @@ wlr-randr
 gtk-layer-shell
 nwg-displays
 nwg-wrapper
--wallpapers
 wlsunset
 geopy
 playerctl
 scdoc
 gtk-session-lock
 gtklock
--config
 unifdef
 xdg-dbus-proxy
 libwpe
@@ -85,4 +83,3 @@ grim
 tllist
 fcft
 foot
-

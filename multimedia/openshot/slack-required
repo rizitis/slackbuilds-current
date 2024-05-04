@@ -1,10 +1,7 @@
 jack
 python3-httplib2
-lib-audio
 unittest-cpp
 Catch
 zeromq
 cppzmq
-lib
 python3-pyzmq
-

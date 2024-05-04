@@ -9,8 +9,6 @@ lua
 LuaBitOp
 lua-lpeg
 lua-mpack
-n
 bullet
 luajit
 efl
-

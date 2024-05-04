@@ -1,5 +1,3 @@
 python2-websocket-client
--pycreds
 ipaddress
 backports-ssl-match-hostname
-

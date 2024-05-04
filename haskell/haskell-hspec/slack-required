@@ -1,6 +1,5 @@
 ghc
 haskell-hsp
--discover
 haskell-setenv
 haskell-splitmix
 haskell-random
@@ -12,9 +11,6 @@ haskell-QuickCheck
 haskell-call-stack
 haskell-HUnit
 haskell-quickcheck-io
--expectations
 haskell-clock
 haskell-colour
 haskell-ansi-terminal
--core
-
