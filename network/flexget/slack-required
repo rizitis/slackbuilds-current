@@ -30,6 +30,7 @@ python3-Flask-RESTX
 python3-Flask-RESTful
 python3-zc.lockfile
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 python3-pydantic-core
@@ -46,7 +47,6 @@ python3-jaraco.classes
 python3-jaraco.collections
 python3-tempora
 python3-portend
-python3-setuptools_scm_git_archive
 python3-cheroot
 python3-CherryPy
 tzlocal

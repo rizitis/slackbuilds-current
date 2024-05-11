@@ -6,6 +6,7 @@ Flask
 python3-Flask-Login
 python3-Flask-Cors
 roundrobin
+typing-extensions
 python3-configargparse
 zope.event
 zope.interface

@@ -1,5 +1,6 @@
 python3-gmpy2
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 cryptography
 zope.interface

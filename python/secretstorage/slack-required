@@ -1,4 +1,5 @@
 python-jeepney
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 cryptography

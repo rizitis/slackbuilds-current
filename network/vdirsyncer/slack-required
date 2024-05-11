@@ -3,6 +3,7 @@ python3-aiostream
 python3-expandvars
 python3-frozenlist
 python3-aiosignal
+typing-extensions
 python3-multidict
 python3-yarl
 python3-hatch_vcs

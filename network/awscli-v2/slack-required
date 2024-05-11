@@ -5,6 +5,7 @@ python3-prompt_toolkit
 python3-ruamel.yaml.clib
 python3-ruamel.yaml
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 cryptography
 colorama

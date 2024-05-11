@@ -1,6 +1,7 @@
 ipython_genutils
 sqlparse
 greenlet
+typing-extensions
 SQLAlchemy
 PrettyTable
 python3-flit_scm

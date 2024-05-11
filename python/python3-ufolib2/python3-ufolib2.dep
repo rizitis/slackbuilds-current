@@ -30,5 +30,6 @@ python3-exceptiongroup
 python3-hatch_vcs
 python3-hatch_fancy_pypi_readme
 python3-attrs
+typing-extensions
 python3-cattrs
 python3-ufolib2

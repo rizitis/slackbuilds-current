@@ -1,6 +1,5 @@
 apprise
 parsel
-pluggy
 ptwit
 pylint
 pytest

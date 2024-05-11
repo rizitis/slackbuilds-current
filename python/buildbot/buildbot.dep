@@ -2,6 +2,7 @@ msgpack-python
 python3-dateutil
 python3-pyjwt
 greenlet
+typing-extensions
 SQLAlchemy
 python3-alembic
 python3-hyperlink

@@ -46,9 +46,11 @@ perl-Carp-Clan
 perl-Bit-Vector
 perl-Date-Calc
 perl-IPC-System-Simple
+perl-Meta-Requirements-Range
+perl-ExtUtils-Config
+perl-CPAN-Requirements-Dynamic
 perl-JSON
 perl-ExtUtils-Helpers
-perl-ExtUtils-Config
 perl-ExtUtils-InstallPaths
 perl-Module-Build-Tiny
 perl-Readonly

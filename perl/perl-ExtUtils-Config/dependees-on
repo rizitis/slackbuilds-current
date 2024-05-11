@@ -8,6 +8,7 @@ hw-probe
 libwww-perl
 monitorix
 pcp
+perl-CPAN-Requirements-Dynamic
 perl-Class-Load-XS
 perl-Class-Load
 perl-Class-Method-Modifiers

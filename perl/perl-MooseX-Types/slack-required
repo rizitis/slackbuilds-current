@@ -41,10 +41,12 @@ perl-Devel-StackTrace
 perl-MRO-Compat
 perl-Devel-OverloadInfo
 perl-Devel-GlobalDestruction
-perl-JSON
+perl-Meta-Requirements-Range
 perl-Test-Harness
-perl-ExtUtils-Helpers
 perl-ExtUtils-Config
+perl-CPAN-Requirements-Dynamic
+perl-JSON
+perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
 perl-Module-Build-Tiny
 perl-Class-Load

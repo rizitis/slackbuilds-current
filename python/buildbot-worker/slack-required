@@ -1,6 +1,7 @@
 msgpack-python
 python3-hyperlink
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 cryptography
 python3-txaio

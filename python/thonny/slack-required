@@ -3,6 +3,7 @@ python3-poetry-core
 python3-tomlkit
 python3-asttokens
 mypy_extensions
+typing-extensions
 mypy
 pyserial
 python3-hatch_vcs

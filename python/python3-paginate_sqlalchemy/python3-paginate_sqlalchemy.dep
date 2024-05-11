@@ -1,4 +1,5 @@
 greenlet
+typing-extensions
 SQLAlchemy
 python3-paginate
 python3-paginate_sqlalchemy

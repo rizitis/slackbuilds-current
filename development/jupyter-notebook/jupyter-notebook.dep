@@ -53,6 +53,7 @@ jupyter_server
 jupyter-notebook_shim
 jupyter-nbclassic
 python3-comm
+typing-extensions
 python3-pure_eval
 python3-executing
 python3-asttokens

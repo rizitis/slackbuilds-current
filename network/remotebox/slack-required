@@ -36,10 +36,12 @@ perl-HTTP-CookieJar
 perl-www-robotrules
 perl-net-http
 perl-http-negotiate
-perl-JSON
+perl-Meta-Requirements-Range
 perl-Test-Harness
-perl-ExtUtils-Helpers
 perl-ExtUtils-Config
+perl-CPAN-Requirements-Dynamic
+perl-JSON
+perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
 perl-Module-Build-Tiny
 perl-http-daemon

@@ -3,4 +3,5 @@ python2-dateutil
 python2-editor
 python2-MarkupSafe
 greenlet
+typing-extensions
 SQLAlchemy

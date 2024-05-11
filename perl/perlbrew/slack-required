@@ -32,10 +32,12 @@ perl-Test-Exception
 perl-Module-Build
 perl-Path-Class
 perl-IO-All
-perl-JSON
+perl-Meta-Requirements-Range
 perl-Test-Harness
-perl-ExtUtils-Helpers
 perl-ExtUtils-Config
+perl-CPAN-Requirements-Dynamic
+perl-JSON
+perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
 perl-Module-Build-Tiny
 perl-File-Which

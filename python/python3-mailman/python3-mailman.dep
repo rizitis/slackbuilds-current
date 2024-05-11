@@ -5,6 +5,7 @@ zope.component
 zope.schema
 zope.i18nmessageid
 zope.configuration
+typing-extensions
 python3-lazr.delegates
 python3-lazr.config
 python3-atpublic

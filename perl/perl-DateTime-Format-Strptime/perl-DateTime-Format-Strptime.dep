@@ -13,10 +13,12 @@ perl-List-AllUtils
 perl-Module-Build
 perl-Params-Validate
 perl-Class-Singleton
-perl-JSON
+perl-Meta-Requirements-Range
 perl-Test-Harness
-perl-ExtUtils-Helpers
 perl-ExtUtils-Config
+perl-CPAN-Requirements-Dynamic
+perl-JSON
+perl-ExtUtils-Helpers
 perl-ExtUtils-InstallPaths
 perl-Module-Build-Tiny
 perl-Package-Stash-XS

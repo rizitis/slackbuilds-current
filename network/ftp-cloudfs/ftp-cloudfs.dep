@@ -3,6 +3,7 @@ python2-swiftclient
 python2-memcached
 python2-daemon
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 cryptography
 pyOpenSSL

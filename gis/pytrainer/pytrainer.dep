@@ -16,5 +16,6 @@ python3-mesonpy
 python3-numpy
 python3-matplotlib
 greenlet
+typing-extensions
 SQLAlchemy
 pytrainer

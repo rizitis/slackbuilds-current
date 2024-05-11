@@ -1,4 +1,5 @@
 zope.interface
 python3-transaction
 greenlet
+typing-extensions
 SQLAlchemy

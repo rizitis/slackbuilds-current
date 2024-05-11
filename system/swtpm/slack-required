@@ -3,6 +3,7 @@ python3-hatch_vcs
 python3-pyasn1
 python3-pyasn1-modules
 python3-semantic-version
+typing-extensions
 python3-setuptools-rust-opt
 cryptography
 python3-attrs
