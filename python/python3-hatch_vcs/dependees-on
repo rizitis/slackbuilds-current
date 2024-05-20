@@ -1,6 +1,7 @@
 CairoSVG
 Electrum
 Fiona
+PrettyTable
 anki
 blink-qt
 buildbot-badges
@@ -37,7 +38,6 @@ jupyter_server
 jupyterlab
 jupyterlab_server
 libei
-mongodb
 nwg-displays
 nwg-panel
 nwg-shell-config
@@ -74,6 +74,7 @@ python3-gds3xtrude
 python3-glyphslib
 python3-hatch_vcs
 python3-iniconfig
+python3-ipython-sql
 python3-jsonlines
 python3-jsonschema
 python3-klein

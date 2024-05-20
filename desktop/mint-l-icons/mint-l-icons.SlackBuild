@@ -25,7 +25,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM="mint-l-icons"
-VERSION=${VERSION:-1.6.7}
+VERSION=${VERSION:-1.7.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -52,6 +52,9 @@ cd $PKG
 tar xvf $CWD/$PRGNAM"_"$VERSION.tar.xz --strip-components=1 \
   $PRGNAM/usr/
 
+# Remove broken relative symlinks
+find $PKG/usr/share/icons -xtype l -delete
+
 # install docs & license
 (
   if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
@@ -77,5 +80,8 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+find . -type l \
+  -printf '( cd %h ; rm -rf %f )\n( cd %h ; ln -sf %l %f )\n' -delete | \
+  sed 's,cd \./,cd ,' >> $PKG/install/doinst.sh
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

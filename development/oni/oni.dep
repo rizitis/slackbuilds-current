@@ -5,8 +5,6 @@ libtermkey
 gtest
 msgpack-c-c
 lua
-LuaBitOp
 lua-lpeg
-lua-mpack
 neovim
 oni

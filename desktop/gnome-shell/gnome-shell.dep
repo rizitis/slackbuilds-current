@@ -1,4 +1,3 @@
-xvfb-run
 geocode-glib
 libgweather
 gnome-desktop

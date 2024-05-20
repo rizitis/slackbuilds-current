@@ -1,6 +1,5 @@
 PySoundCard
 cffi
-fabric
 mysql-workbench
 pynacl
 python-librtmp

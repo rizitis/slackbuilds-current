@@ -87,7 +87,7 @@ patch -p1 -i $CWD/libquicktime-1.2.4-faad2.patch
 
 autoreconf -vif
 
-CFLAGS="$SLKCFLAGS" \
+CFLAGS="$SLKCFLAGS -fpermissive" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
   --prefix=/usr \

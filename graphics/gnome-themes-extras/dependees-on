@@ -12,6 +12,7 @@ cdrkit
 cfpeek
 cronie
 csh
+dblatex
 digimend-kernel-drivers
 docbook-xml5
 docbookMathML1mods
@@ -25,6 +26,7 @@ getdp
 gnome-themes-extras
 grub_legacy
 gtklock-userinfo-module
+kicad-doc
 kicad
 krop
 libfreeaptx

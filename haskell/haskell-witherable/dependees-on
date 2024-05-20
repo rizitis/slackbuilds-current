@@ -12,6 +12,7 @@ cfpeek
 cronie
 csh
 darcs
+dblatex
 digimend-kernel-drivers
 docbook-xml5
 docbookMathML1mods
@@ -43,6 +44,7 @@ haskell-skylighting
 haskell-texmath
 haskell-witherable
 haskell-yaml
+kicad-doc
 kicad
 krop
 le

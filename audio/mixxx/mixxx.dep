@@ -4,6 +4,7 @@ rubberband
 portmidi
 portaudio
 opencore-amr
+microsoft-gsl
 serd
 sord
 lv2
@@ -16,6 +17,9 @@ libshout
 libmp4v2
 libmodplug
 hidapi
+gflags
+gtest
+googlebenchmark
 faad2
 chromaprint
 mixxx

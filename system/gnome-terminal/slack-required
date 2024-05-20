@@ -12,7 +12,6 @@ libportal
 gnome-desktop
 gnome-autoar
 nautilus
-xvfb-run
 geocode-glib
 libgweather
 geoclue2

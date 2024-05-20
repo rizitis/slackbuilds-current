@@ -1,6 +1,5 @@
 PySoundCard
 cffi
-fabric
 jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook_shim

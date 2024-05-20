@@ -11,6 +11,7 @@ cdrkit
 cfpeek
 cronie
 csh
+dblatex
 digimend-kernel-drivers
 docbook-xml5
 docbookMathML1mods
@@ -23,6 +24,7 @@ getdp
 grub_legacy
 gtklock-userinfo-module
 haskell-either
+kicad-doc
 kicad
 krop
 libfreeaptx

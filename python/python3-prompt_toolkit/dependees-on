@@ -8,7 +8,6 @@ jupyter-qtconsole
 jupyter_console
 jupyterlab
 kallithea-frontend
-prompt_toolkit
 ptpython
 python3-celery
 python3-ipython-sql

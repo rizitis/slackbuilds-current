@@ -1,5 +1,5 @@
-python2-docopt
-pyflakes
-wcwidth
-prompt_toolkit
+python3-docopt
+python3-pyflakes
+python3-wcwidth
+python3-prompt_toolkit
 pyvim

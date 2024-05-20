@@ -1,5 +1,4 @@
 Electrum
-PyGithub
 ansible-core
 ansible
 awscli-v2
@@ -12,7 +11,6 @@ butterfly
 cryptography
 deluge
 dfvfs
-fabric
 ftp-cloudfs
 gajim
 krop

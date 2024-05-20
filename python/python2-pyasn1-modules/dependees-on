@@ -1,6 +1,5 @@
 Impacket
 apprise
-fabric
 le
 mysql-workbench
 parsel
@@ -21,4 +20,3 @@ python2-twitter
 routersploit
 sftp-cloudfs
 snmpsim
-tox

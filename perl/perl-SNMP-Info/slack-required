@@ -1,3 +1,5 @@
+perl-Scalar-List-Utils
 perl-Regexp-Common
 perl-NetAddr-IP
 perl-Module-Build
+perl-Math-BigInt

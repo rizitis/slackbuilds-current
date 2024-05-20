@@ -24,7 +24,6 @@ jupyter_server
 jupyterlab
 jupyterlab_server
 libei
-mongodb
 pycp
 pysolfc-extra-cardsets
 pysolfc

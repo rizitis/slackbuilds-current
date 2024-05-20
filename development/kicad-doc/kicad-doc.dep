@@ -4,5 +4,7 @@ perl-MIME-Charset
 perl-Unicode-LineBreak
 perl-Pod-Parser
 po4a
+# %README%: see the texlive-extra README file. 
+texlive-extra
 dblatex
 kicad-doc

@@ -6,13 +6,11 @@ khard
 nts
 odoo
 pandas
-pendulum
 python2-dateutil
 python2-matplotlib
 python2-slacklog
 radicale
 s3cmd
 statsmodels
-tstoolbox
 vobject
 waybar

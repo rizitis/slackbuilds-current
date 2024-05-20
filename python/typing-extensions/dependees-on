@@ -1,6 +1,5 @@
 Electrum
 Kallithea
-PyGithub
 Pyfa
 SQLAlchemy
 alembic
@@ -92,6 +91,7 @@ python3-paginate_sqlalchemy
 python3-paramiko
 python3-pdfminer.six
 python3-portend
+python3-psycopg3
 python3-pydantic-core
 python3-pydantic
 python3-pylint-venv

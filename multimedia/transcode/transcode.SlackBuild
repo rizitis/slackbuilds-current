@@ -90,7 +90,7 @@ autoreconf -vif
 export MAGICKCORE_QUANTUM_DEPTH=32
 
 # unfortunately ffmpeg >= 5.x breaks compatibility and no patches are available...
-CFLAGS="$SLKCFLAGS" \
+CFLAGS="$SLKCFLAGS -fpermissive" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
   --prefix=/usr \

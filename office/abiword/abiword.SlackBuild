@@ -105,7 +105,7 @@ export CCACHE_DIR=${CCACHE_DIR:-$HOME/.ccache}
 export HOME=$( pwd )/tmphome
 
 CPPFLAGS="-I$TMP/$PRGNAM-$VERSION" \
-CFLAGS="$SLKCFLAGS" \
+CFLAGS="$SLKCFLAGS -fpermissive" \
 CXXFLAGS="$SLKCFLAGS -std=c++11" \
 ./configure \
   --prefix=/usr \

@@ -39,12 +39,12 @@ BeautifulSoup4
 python3-enzyme
 python3-dateutil
 python3-rebulk
+python3-poetry-core
 python3-babelfish
 python3-guessit
 subliminal
 python3-markdown2
 python-jsonrpclib
-python3-poetry-core
 python3-validators
 python3-hatch_vcs
 python3-platformdirs

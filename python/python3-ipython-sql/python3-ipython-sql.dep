@@ -3,6 +3,7 @@ sqlparse
 greenlet
 typing-extensions
 SQLAlchemy
+python3-hatch_vcs
 PrettyTable
 python3-flit_scm
 python3-exceptiongroup

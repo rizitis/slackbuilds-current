@@ -102,6 +102,7 @@ python3-backports_tarfile
 python3-jaraco.context
 python3-jaraco.classes
 python3-keyring
+python3-tabulate
 numpydoc
 python3-soupsieve
 BeautifulSoup4

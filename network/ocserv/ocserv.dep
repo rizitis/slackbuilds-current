@@ -3,5 +3,7 @@ rubygem-mustache
 rubygem-hpricot
 rubygem-ronn
 protobuf-c
-http-parser
+libmaxminddb
+ipcalc-ng
+llhttp
 ocserv

@@ -1,5 +1,4 @@
 gnome-bluetooth
-xvfb-run
 geocode-glib
 libgweather
 gnome-desktop
