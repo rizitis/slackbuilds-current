@@ -1,3 +1,4 @@
+soundtouch
 vamp-plugin-sdk
 ladspa_sdk
 rubberband
@@ -16,6 +17,7 @@ lilv
 libshout
 libmp4v2
 libmodplug
+libebur128
 hidapi
 gflags
 gtest
