@@ -3,5 +3,3 @@ colm
 ragel
 hyperscan
 redis
-lua
-luajit

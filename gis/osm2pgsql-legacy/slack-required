@@ -1,4 +1,7 @@
 postgresql
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
 proj
 libgeotiff
 podofo
@@ -17,5 +20,3 @@ xerces-c
 gdal
 postgis
 nlohmann_json
-lua
-luajit

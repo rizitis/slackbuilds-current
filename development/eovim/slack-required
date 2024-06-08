@@ -8,5 +8,4 @@ msgpack-c-c
 lua
 lua-lpeg
 bullet
-luajit
 efl

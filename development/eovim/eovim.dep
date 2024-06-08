@@ -9,6 +9,5 @@ lua
 lua-lpeg
 neovim
 bullet
-luajit
 efl
 eovim

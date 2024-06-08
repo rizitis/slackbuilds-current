@@ -1,5 +1,3 @@
-lua
-luajit
 libdnet
 daq
 snort

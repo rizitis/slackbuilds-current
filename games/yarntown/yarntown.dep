@@ -1,6 +1,4 @@
 physfs
-lua
-luajit
 libmodplug
 glm
 solarus

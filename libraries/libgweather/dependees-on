@@ -1,5 +1,4 @@
 I-Nex
-OptiX-Headers
 PyPy
 PyPy3
 amd-app-sdk
@@ -70,7 +69,6 @@ rosegarden
 rsyslog
 sanoid
 scantailor-advanced
-skypeforlinux
 soci
 stream2chromecast
 syslog-ng
@@ -85,11 +83,9 @@ udpbench
 universal-ctags
 unixODBC
 vokoscreenNG
-warp-terminal
 xearth
 xfile
 ximaging
 xmrig
-yabridge
 zabbix_proxy
 zabbix_server

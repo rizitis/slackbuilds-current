@@ -4,6 +4,9 @@ hdf5
 netcdf
 proj
 libgeotiff
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
 podofo
 libminizip
 freexl

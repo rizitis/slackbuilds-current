@@ -39,5 +39,4 @@ libdc1394
 vlc
 mbedtls
 libfdk-aac
-luajit
 obs-studio

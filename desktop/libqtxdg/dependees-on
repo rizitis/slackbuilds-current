@@ -6,6 +6,7 @@ lxqt-globalkeys
 lxqt-notificationd
 lxqt-panel
 lxqt-policykit
+lxqt-powermanagement
 lxqt-qtplugin
 lxqt-session
 lxqt-sudo

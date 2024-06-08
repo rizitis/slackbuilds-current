@@ -1,5 +1,6 @@
 ansible-core
 ansible
+cadabra2
 flexget
 importlib-resources
 python3-Flask-RESTX

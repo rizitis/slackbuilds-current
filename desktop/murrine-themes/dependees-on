@@ -1,6 +1,5 @@
 I-Nex
 LX-Colors-Revival
-OptiX-Headers
 PyPy
 PyPy3
 ambiance-radiance-flat-colors-gtk-theme
@@ -67,7 +66,6 @@ rr
 rsyslog
 sanoid
 scantailor-advanced
-skypeforlinux
 soci
 stream2chromecast
 syslog-ng
@@ -82,12 +80,10 @@ udpbench
 universal-ctags
 unixODBC
 vokoscreenNG
-warp-terminal
 xearth
 xfile
 ximaging
 xmrig
-yabridge
 zabbix_proxy
 zabbix_server
 zuki-themes

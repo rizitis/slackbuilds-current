@@ -1,8 +1,6 @@
 gnustep-make
 gnustep-base
 unar
-lua
-luajit
 tbb
 libminizip
 fuzzylite

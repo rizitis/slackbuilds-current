@@ -64,6 +64,7 @@ python3-validators
 python3-xdg-base-dirs
 reuse-tool
 sickchill
+slpkg
 spyder
 sshuttle
 subliminal

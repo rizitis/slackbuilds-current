@@ -18,6 +18,9 @@ utfcpp
 antlr4
 double-conversion
 ITK
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
 podofo
 freexl
 librttopo

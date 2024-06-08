@@ -1,4 +1,4 @@
-ipython_genutils
+python3-ipython_genutils
 mathjax2
 python3-websocket-client
 python3-overrides

@@ -26,6 +26,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=pytorch
 VERSION=${VERSION:-2.3.0}
+VERSION_SIX=1.11.0
 BUILD=${BUILD:-2}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -74,6 +75,10 @@ cd $PRGNAM-v$VERSION
 chown -R root:root .
 chmod -R u+w,go-w,a+rX-st $PKG
 
+# Needed for NNPACK
+mkdir -p build/confu-deps/six-download/six-prefix/src/
+cp $CWD/six-$VERSION_SIX.tar.gz build/confu-deps/six-download/six-prefix/src/
+
 # Fix cmake libdir location
 sed -i c10/CMakeLists.txt \
   -e "s;DESTINATION lib;DESTINATION lib$LIBDIRSUFFIX;g"
@@ -84,9 +89,6 @@ sed -i "/Werror=return-type/d" CMakeLists.txt
 # When compiled with icecream, building dnnl-mkl outputs errors like "unspellable token PRAGMA_EOL".
 # This seems harmless as these get recompiled again locally, but it slows down the building process.
 # See https://github.com/icecc/icecream/issues/336
-
-export USE_NNPACK=0
-python3 setup.py build --cmake-only
 
 cd build
   unshare -n cmake \
@@ -102,7 +104,6 @@ cd build
     -DBUILD_TEST=OFF \
     -DUSE_FFMPEG=ON \
     -DUSE_GOLD_LINKER=ON \
-    -DUSE_NNPACK=OFF \
     -DUSE_OPENCL=ON \
     -DUSE_OPENCV=ON \
     -DUSE_VULKAN=ON \
@@ -110,12 +111,18 @@ cd build
   "${NINJA:=ninja}"
   DESTDIR=tmpxxx $NINJA install/strip
 
-  mkdir -p $PKG/usr
+  mkdir -p $PKG/usr/{share,lib$LIBDIRSUFFIX}
   mv tmpxxx/usr/bin $PKG/usr
-  mkdir -p $PKG/usr/lib$LIBDIRSUFFIX
+  mv tmpxxx/usr/include $PKG/usr
+  mv tmpxxx/usr/share/cmake $PKG/usr/share
   mv tmpxxx/usr/lib$LIBDIRSUFFIX/*.so $PKG/usr/lib$LIBDIRSUFFIX
 cd ..
 python3 setup.py install --root=$PKG
+
+SITE="$(python3 -c 'import sysconfig; print(sysconfig.get_paths()["purelib"])')"
+mkdir -p $PKG/$SITE/torch/{bin,lib}
+BIN=torch_shm_manager; ln -s /usr/bin/$BIN $PKG/$SITE/torch/bin/$BIN
+LIB=libtorch_global_deps.so; ln -s /usr/lib$LIBDIRSUFFIX/$LIB $PKG/$SITE/torch/lib/$LIB
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true

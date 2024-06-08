@@ -4,6 +4,7 @@ afdko
 ansible-core
 ansible
 audible-cli
+cadabra2
 flexget
 fwupd
 git-fame
@@ -46,6 +47,7 @@ python3-sysrsync
 python3-tomlkit
 python3-ufo2ft
 sickchill
+slpkg
 spyder
 thonny
 toot

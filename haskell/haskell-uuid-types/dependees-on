@@ -2,7 +2,6 @@ PAC
 b2
 budgie-desktop-view
 budgie-desktop
-darcs
 haskell-ShellCheck
 haskell-aeson-compat
 haskell-aeson-pretty

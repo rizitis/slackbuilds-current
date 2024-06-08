@@ -1,4 +1,4 @@
-ipython_genutils
+python3-ipython_genutils
 sqlparse
 greenlet
 typing-extensions

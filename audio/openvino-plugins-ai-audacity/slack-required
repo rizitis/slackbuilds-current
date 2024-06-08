@@ -1,4 +1,6 @@
-OpenBLAS
+whisper.cpp
+typing-extensions
+pytorch
 OpenCL-CLHPP
 pybind11
 snappy
@@ -6,9 +8,6 @@ pugixml
 xbyak
 oneTBB
 openvino
-whisper.cpp
-typing-extensions
-pytorch
 wxWidgets
 serd
 sord
