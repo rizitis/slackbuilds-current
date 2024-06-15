@@ -60,7 +60,6 @@ pgrouting
 pgsql-ogr-fdw
 pitivi
 pktools
-plastid
 polychromatic
 postgis
 puddletag
@@ -122,6 +121,7 @@ snuggs
 spglib
 spyder
 ttfautohint-py
+tuxguitar
 velocyto
 veusz
 vmaf

@@ -89,7 +89,6 @@ pgsql-ogr-fdw
 pitivi
 pktools
 pktools
-plastid
 polychromatic
 postgis
 postgis
@@ -168,6 +167,7 @@ spyder
 survex
 therion
 ttfautohint-py
+tuxguitar
 velocyto
 veusz
 vmaf

@@ -1,1 +1,9 @@
-zulu-openjdk8
+serd
+sord
+lv2
+sratom
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
+lilv
+zulu-openjdk11
