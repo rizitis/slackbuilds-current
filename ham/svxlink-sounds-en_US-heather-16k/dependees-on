@@ -4,7 +4,6 @@ PyPy3
 amd-app-sdk
 avr8-gnu-toolchain
 bee-host
-bitwig-studio
 c-toxcore
 cdrkit
 cfpeek
@@ -42,7 +41,6 @@ muon
 mysql-workbench
 netcat-openbsd
 nwg-shell
-obsidian
 octave
 openGLRefToMan
 openGLRefToMan
@@ -53,9 +51,9 @@ putty
 python3-PyMuPDF
 python3-pdfCropMargins
 qTox
-qt6ct
 rosegarden
 rsyslog
+s9fes
 sanoid
 scantailor-advanced
 soci
@@ -64,7 +62,6 @@ svxlink-sounds-en_US-heather-16k
 svxlink-sounds-en_US-heather-16k
 svxlink
 syslog-ng
-system76-power
 tcpbench
 texi2html
 texlive-extra

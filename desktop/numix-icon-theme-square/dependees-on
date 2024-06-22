@@ -4,7 +4,6 @@ PyPy3
 amd-app-sdk
 avr8-gnu-toolchain
 bee-host
-bitwig-studio
 c-toxcore
 cdrkit
 cfpeek
@@ -46,7 +45,6 @@ numix-icon-theme-circle
 numix-icon-theme-square
 numix-icon-theme-square
 nwg-shell
-obsidian
 octave
 openGLRefToMan
 openGLRefToMan
@@ -57,15 +55,14 @@ putty
 python3-PyMuPDF
 python3-pdfCropMargins
 qTox
-qt6ct
 rosegarden
 rsyslog
+s9fes
 sanoid
 scantailor-advanced
 soci
 stream2chromecast
 syslog-ng
-system76-power
 tcpbench
 texi2html
 texlive-extra

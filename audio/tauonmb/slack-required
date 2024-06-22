@@ -23,5 +23,6 @@ python3-httpx
 pylast
 mutagen
 musicbrainzngs
+libgme
 portaudio
 libopenmpt

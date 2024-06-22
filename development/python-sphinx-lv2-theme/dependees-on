@@ -6,7 +6,6 @@ ardour
 audacity
 avr8-gnu-toolchain
 bee-host
-bitwig-studio
 c-toxcore
 calf
 cdrkit
@@ -67,7 +66,6 @@ nwg-shell-config
 nwg-shell
 nwg-shell
 nwg-wrapper
-obsidian
 octave
 openGLRefToMan
 openGLRefToMan
@@ -81,10 +79,10 @@ python3-PyMuPDF
 python3-autotiling
 python3-pdfCropMargins
 qTox
-qt6ct
 qtractor
 rosegarden
 rsyslog
+s9fes
 sanoid
 scantailor-advanced
 slv2
@@ -95,7 +93,6 @@ stream2chromecast
 suil
 swh-plugins-lv2
 syslog-ng
-system76-power
 tcpbench
 texi2html
 texlive-extra

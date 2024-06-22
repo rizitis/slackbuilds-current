@@ -1,2 +1,6 @@
-python3-ujson
+python3-semantic-version
+typing-extensions
+python3-setuptools-rust-opt
+python3-maturin
+python3-orjson
 python3-defusedxml

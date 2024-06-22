@@ -3,6 +3,7 @@ flexget
 jellyfish
 python3-CherryMusic
 python3-CherryPy
+python3-glances
 python3-inflect
 python3-jaraco.collections
 python3-jaraco.text

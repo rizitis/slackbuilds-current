@@ -71,6 +71,7 @@ python3-django
 python3-dogpile.cache
 python3-dulwich
 python3-fontmake
+python3-glances
 python3-glyphslib
 python3-inflect
 python3-ipython-sql

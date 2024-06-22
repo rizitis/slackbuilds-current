@@ -4,7 +4,6 @@ PyPy3
 amd-app-sdk
 avr8-gnu-toolchain
 bee-host
-bitwig-studio
 c-toxcore
 cdrkit
 cfpeek
@@ -41,7 +40,6 @@ muon
 mysql-workbench
 netcat-openbsd
 nwg-shell
-obsidian
 octave
 openGLRefToMan
 openGLRefToMan
@@ -53,16 +51,15 @@ python3-PyMuPDF
 python3-pdfCropMargins
 python3-whatthepatch
 qTox
-qt6ct
 rosegarden
 rsyslog
+s9fes
 sanoid
 scantailor-advanced
 soci
 spyder
 stream2chromecast
 syslog-ng
-system76-power
 tcpbench
 texi2html
 texlive-extra

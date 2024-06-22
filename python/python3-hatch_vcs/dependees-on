@@ -67,6 +67,7 @@ python3-cattrs
 python3-cinemagoer
 python3-cloudflare
 python3-docker-compose
+python3-docker
 python3-filelock
 python3-flake8_annotations
 python3-fontmake
