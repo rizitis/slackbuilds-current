@@ -43,6 +43,7 @@ python3-aksharamukha
 python3-black
 python3-cacheyou
 python3-celery
+python3-click-option-group
 python3-cookiecutter
 python3-flask-paginate
 python3-hishel

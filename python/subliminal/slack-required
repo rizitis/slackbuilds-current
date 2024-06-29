@@ -1,11 +1,15 @@
+python3-pysubs2
+click
+python3-click-option-group
+python3-hatch_vcs
+python3-platformdirs
 unrar
 rarfile
-python3-pysrt
+python3-srt
 typing-extensions
 python3-decorator
 python3-stevedore
 python3-dogpile.cache
-click
 python3-soupsieve
 BeautifulSoup4
 python3-enzyme

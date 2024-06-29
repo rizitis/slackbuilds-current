@@ -44,6 +44,7 @@ python3-black
 python3-cacheyou
 python3-celery
 python3-celery
+python3-click-option-group
 python3-click-repl
 python3-cookiecutter
 python3-flask-paginate
