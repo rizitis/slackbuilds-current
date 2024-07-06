@@ -28,7 +28,6 @@ cligj
 click-plugins
 affine
 rasterio
-python2-pbr
 munch
 Fiona
 python3-shapely

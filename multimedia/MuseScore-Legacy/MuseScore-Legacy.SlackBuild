@@ -133,6 +133,17 @@ mv $PKG/opt/MuseScore-Legacy/man/man1/mscore.1.gz $PKG/usr/man/man1/mscore-legac
 rm -rf $PKG/opt/MuseScore-Legacy/man
 
 mkdir -p $PKG/usr/bin
+( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG/usr/bin ; rm -rf mscore-legacy )
+( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG/usr/bin ; ln -sf ../../opt/MuseScore-Legacy/bin/mscore mscore-legacy )
+( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG/usr/bin ; rm -rf MuseScore-Legacy )
+( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin ; ln -sf ../../opt/MuseScore-Legacy/bin/mscore MuseScore-Legacy )
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION

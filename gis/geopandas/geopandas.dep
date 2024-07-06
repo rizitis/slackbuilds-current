@@ -17,7 +17,6 @@ click-plugins
 python3-hatch_vcs
 python3-hatch_fancy_pypi_readme
 python3-attrs
-python2-pbr
 munch
 libgeotiff
 podofo

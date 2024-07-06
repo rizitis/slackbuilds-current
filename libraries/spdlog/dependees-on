@@ -3,6 +3,10 @@ Gem
 REDasm
 coeurl
 corectrl
+gnuradio
+gqrx-sdr
+gr-iqbal
+gr-osmosdr
 inputstream.adaptive
 kodi
 mangohud

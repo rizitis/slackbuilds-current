@@ -83,8 +83,8 @@ mkdir -p $TMP $PKG $OUTPUT
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
-ar p $CWD/mongodb-org-server_${VERSION}_amd64.deb data.tar.zst | zstd --decompress | tar xv
-ar p $CWD/mongodb-org-mongos_${VERSION}_amd64.deb data.tar.zst | zstd --decompress | tar xv
+ar p $CWD/mongodb-org-server_${VERSION}_amd64.deb data.tar.xz | tar xJv
+ar p $CWD/mongodb-org-mongos_${VERSION}_amd64.deb data.tar.xz | tar xJv
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \

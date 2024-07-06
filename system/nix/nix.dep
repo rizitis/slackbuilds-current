@@ -4,4 +4,5 @@ lowdown
 libeditline
 jq
 gtest
+graphviz
 nix
