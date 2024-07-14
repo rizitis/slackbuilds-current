@@ -94,6 +94,7 @@ python3-obspy
 python3-pandas
 python3-patsy
 python3-pooch
+python3-pyogrio
 python3-pythran
 python3-rapidfuzz
 python3-scipy
@@ -120,6 +121,7 @@ scikit-learn
 snuggs
 spglib
 spyder
+survex
 ttfautohint-py
 tuxguitar
 velocyto

@@ -32,7 +32,6 @@ lxappearance-obconf
 mailfromd
 mailutils
 mathML2dtd
-mbuffer
 mimi
 mlt-bindings
 moedict-desktop.app
@@ -78,6 +77,7 @@ unixODBC
 vokoscreenNG
 xearth
 xfile
+xfs_undelete
 ximaging
 xmrig
 zabbix_proxy

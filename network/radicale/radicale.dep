@@ -2,6 +2,7 @@ python3-dateutil
 python2-setuptools-scm
 python2-dateutil
 vobject
+pytz
 python3-defusedxml
 python3-semantic-version
 typing-extensions

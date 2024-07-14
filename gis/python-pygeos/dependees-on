@@ -28,8 +28,10 @@ python-pygeos
 python3-basemap
 python3-cartopy
 python3-obspy
+python3-pyogrio
 python3-shapely
 qgis
 qmapshack
 rasterio
 spatialite-tools
+survex

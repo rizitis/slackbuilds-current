@@ -7,5 +7,6 @@ python2-toml
 python2-setuptools-scm
 functools-lru-cache
 python2-cycler
+pytz
 python2-dateutil
 python2-numpy

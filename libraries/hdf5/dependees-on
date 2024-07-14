@@ -43,6 +43,8 @@ postgis
 python3-cartopy
 python3-h5py
 python3-netcdf4-python
+python3-pyogrio
 qgis
 qmapshack
 rasterio
+survex

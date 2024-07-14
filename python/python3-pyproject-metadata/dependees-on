@@ -131,6 +131,8 @@ python3-obspy
 python3-pandas
 python3-patsy
 python3-pooch
+python3-pyogrio
+python3-pyogrio
 python3-pyproj
 python3-pyproj
 python3-pyproject-metadata
@@ -164,6 +166,7 @@ snuggs
 spatialite-tools
 spglib
 spyder
+survex
 survex
 therion
 ttfautohint-py

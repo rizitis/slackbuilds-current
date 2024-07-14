@@ -41,10 +41,12 @@ properties-cpp
 pydot
 pygraphviz
 python3-cartopy
+python3-pyogrio
 qgis
 qmapshack
 qt-jpegxl-image-plugin
 rasterio
+survex
 tvheadend
 uriparser
 w3af

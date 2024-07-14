@@ -23,6 +23,7 @@ nwg-displays
 nwg-wrapper
 nwg-shell-wallpapers
 wlsunset
+geographiclib-python
 geopy
 playerctl
 scdoc

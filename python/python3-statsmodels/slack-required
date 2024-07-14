@@ -12,5 +12,6 @@ python3-scipy
 python3-patsy
 python3-versioneer
 tzdata
+pytz
 python3-dateutil
 python3-pandas

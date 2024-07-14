@@ -5,6 +5,7 @@ python3-numpy
 python3-shapely
 python3-versioneer
 tzdata
+pytz
 python3-dateutil
 python3-pandas
 proj
@@ -33,5 +34,6 @@ libkml
 xerces-c
 gdal
 Fiona
+geographiclib-python
 geopy
 geopandas

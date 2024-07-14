@@ -1,3 +1,6 @@
+python3-py-cpuinfo
+python3-pymdstat
+python3-netifaces
 python3-semantic-version
 typing-extensions
 python3-setuptools-rust-opt

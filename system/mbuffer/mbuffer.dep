@@ -3,5 +3,4 @@ perl-List-MoreUtils-XS
 perl-Exporter-Tiny
 perl-List-MoreUtils
 perl-Config-IniFiles
-# %README%: see the mbuffer README file. 
 mbuffer

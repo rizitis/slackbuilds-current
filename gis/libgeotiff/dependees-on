@@ -24,6 +24,8 @@ pgsql-ogr-fdw
 pktools
 postgis
 python3-cartopy
+python3-pyogrio
 qgis
 qmapshack
 rasterio
+survex

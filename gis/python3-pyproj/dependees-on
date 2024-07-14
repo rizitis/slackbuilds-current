@@ -34,6 +34,7 @@ python3-cartopy
 python3-cartopy
 python3-obspy
 python3-obspy
+python3-pyogrio
 python3-pyproj
 python3-pyproj
 qgis

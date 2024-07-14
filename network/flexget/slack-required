@@ -19,6 +19,7 @@ python3-Flask-Login
 python3-Flask-Compress
 python3-toml
 importlib-resources
+pytz
 python3-pyrsistent
 python3-hatch_vcs
 python3-hatch_fancy_pypi_readme

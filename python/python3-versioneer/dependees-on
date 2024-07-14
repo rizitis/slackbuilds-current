@@ -11,6 +11,7 @@ python3-klein
 python3-librosa
 python3-pandas
 python3-pooch
+python3-pyogrio
 python3-seaborn
 python3-sipclients3
 python3-sipsimple

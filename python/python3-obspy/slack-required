@@ -3,6 +3,7 @@ python3-tornado
 cppy
 python3-kiwisolver
 python3-cycler
+pytz
 python3-dateutil
 python3-pyproject-metadata
 python3-mesonpy

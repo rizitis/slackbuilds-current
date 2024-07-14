@@ -32,6 +32,7 @@ proj-data
 python3-basemap
 python3-cartopy
 python3-obspy
+python3-pyogrio
 python3-pyproj
 qgis
 qmapshack

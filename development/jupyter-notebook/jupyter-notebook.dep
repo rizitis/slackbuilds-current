@@ -65,6 +65,7 @@ pickleshare
 cppy
 python3-kiwisolver
 python3-cycler
+pytz
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
