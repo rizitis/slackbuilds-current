@@ -3,7 +3,7 @@ python-daemonize
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
-pyudev
+python3-pyudev
 setproctitle
 openrazer-daemon
 razergenie

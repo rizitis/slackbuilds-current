@@ -6,6 +6,7 @@ python3-cacheyou
 python3-dep-logic
 python3-findpython
 python3-pdm-backend
+python3-pdm-build-locked
 python3-pdm
 python3-pdm
 python3-unearth

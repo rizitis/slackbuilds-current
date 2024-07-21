@@ -60,6 +60,7 @@ perl-Encode-HanExtra
 perl-ExtUtils-CChecker
 perl-Feature-Compat-Try
 perl-File-Copy-Recursive
+perl-File-Download
 perl-File-Remove
 perl-Gtk2-Notify
 perl-HTML-FormatText-WithLinks-AndTables

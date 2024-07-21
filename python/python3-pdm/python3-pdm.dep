@@ -1,3 +1,6 @@
+virtualenv
+python3-pdm-backend
+python3-pdm-build-locked
 click
 python3-h11
 python3-sniffio
@@ -16,7 +19,6 @@ python3-rich
 requests-toolbelt
 msgpack-python
 python3-cachecontrol
-python3-pdm-backend
 python3-unearth
 python3-shellingham
 python3-resolvelib

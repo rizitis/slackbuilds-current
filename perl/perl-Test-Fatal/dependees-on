@@ -40,6 +40,7 @@ perl-Eval-Closure
 perl-ExtUtils-CChecker
 perl-Feature-Compat-Try
 perl-File-Copy-Recursive
+perl-File-Download
 perl-HTML-FormatText-WithLinks-AndTables
 perl-HTML-FormatText-WithLinks
 perl-HTML-Formatter

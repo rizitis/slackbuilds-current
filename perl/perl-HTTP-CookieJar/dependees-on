@@ -6,6 +6,7 @@ hw-probe
 libwww-perl
 monitorix
 pcp
+perl-File-Download
 perl-HTTP-Cache-Transparent
 perl-HTTP-CookieJar
 perl-HTTP-Proxy

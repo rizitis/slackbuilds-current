@@ -8,7 +8,7 @@ python3-pylyrics
 python3-pulsectl
 python3-plexapi
 python3-natsort
-python3-isounidecode
+Unidecode
 python3-hatch_vcs
 click
 python3-h11
@@ -23,7 +23,6 @@ python3-httpx
 pylast
 mutagen
 musicbrainzngs
-libgme
 portaudio
 libopenmpt
 tauonmb

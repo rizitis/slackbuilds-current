@@ -23,6 +23,7 @@ perl-DateTime-Format-Strptime
 perl-DateTime-TimeZone
 perl-DateTime
 perl-Devel-CheckCompiler
+perl-File-Download
 perl-HTML-HTMLDoc
 perl-HTTP-Cache-Transparent
 perl-HTTP-Proxy

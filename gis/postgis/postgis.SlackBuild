@@ -115,7 +115,7 @@ if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/$pgbindir
   for f in *; do
-    base=`basename $f`
+    base=$( basename $f )
     echo ln -s $pgbindir/$base $PKG/usr/bin
     ln -s $pgbindir/$base $PKG/usr/bin
   done

@@ -132,7 +132,7 @@ if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees
 cd $PKG/etc/activemq
   sed -i -e 's:data/activemq.log:log/activemq.log:g' *
   sed -i -e 's:data/audit.log:log/audit.log:g' *
-  for F in `find . -type f`; do mv $F $F.new; done
+  for F in $( find . -type f ); do mv $F $F.new; done
 )
 
 # These links are still needed for activemq to actually work

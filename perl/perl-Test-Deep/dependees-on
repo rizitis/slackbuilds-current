@@ -17,6 +17,7 @@ perl-CGI-Fast
 perl-CGI
 perl-CPAN-Meta-Check
 perl-File-Copy-Recursive
+perl-File-Download
 perl-HTML-Template
 perl-HTML-WikiConverter-Markdown
 perl-HTML-WikiConverter

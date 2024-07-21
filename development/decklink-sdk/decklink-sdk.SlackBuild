@@ -86,7 +86,7 @@ cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/doc/$PRGNAM-$VERSION/Examples && \
-for m in `find . -name Makefile`; do
+for m in $( find . -name Makefile ); do
   echo "Editing $m ..."
   sed -i '
     /^SDK_PATH=/ {
@@ -101,7 +101,7 @@ done
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/doc/$PRGNAM-$VERSION/Samples && \
-for m in `find . -name Makefile`; do
+for m in $( find . -name Makefile ); do
   echo "Editing $m ..."
   sed -i '
     /CFLAGS=/ {
@@ -117,7 +117,7 @@ done
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/doc/$PRGNAM-$VERSION/Samples && \
-for m in `find . -name "*.pro"`; do
+for m in $( find . -name "*.pro" ); do
   echo "Editing $m ..."
   if [ -e "$(dirname $m)/src" ]; then
 	echo "XXXX $(dirname $m)"
@@ -135,7 +135,7 @@ cd $PKG/usr/doc/$PRGNAM-$VERSION/Samples/ && \
 (if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/doc/$PRGNAM-$VERSION/Samples/ && \
-for m in `find . -name "*.pro"`; do
+for m in $( find . -name "*.pro" ); do
   echo "Building $m ..."
   sed -i 's/\.\.\/\.\.\/include/\/usr\/include\/decklink/g' $m
   (cd $(dirname $m) && qmake-qt5 )

@@ -12,13 +12,6 @@ proj
 python3-pyproj
 postgresql
 python3-psycopg2
-click
-cligj
-click-plugins
-python3-hatch_vcs
-python3-hatch_fancy_pypi_readme
-python3-attrs
-munch
 libgeotiff
 podofo
 libminizip
@@ -33,6 +26,4 @@ uriparser
 libkml
 xerces-c
 gdal
-Fiona
-geographiclib-python
-geopy
+python3-pyogrio

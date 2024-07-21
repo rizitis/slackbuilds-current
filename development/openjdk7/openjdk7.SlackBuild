@@ -51,8 +51,8 @@ PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
 . $CWD/$PRGNAM.info || exit 1
-ICEDTEA=`echo $DOWNLOAD | awk '{print $1}' | awk -F / '{print $NF}'`
-ANT=`echo $DOWNLOAD | awk '{print $9}' | awk -F / '{print $NF}'`
+ICEDTEA=$( echo $DOWNLOAD | awk '{print $1}' | awk -F / '{print $NF}' )
+ANT=$( echo $DOWNLOAD | awk '{print $9}' | awk -F / '{print $NF}' )
 ANT_HOME=$BUILD_DIR/${ANT%-bin*} # this overrides the "official" ANT_HOME
 
 if [ "$ARCH" = "x86_64" ]; then
@@ -163,7 +163,7 @@ cp -av $BUILD_DIR/icedtea-build/openjdk.build/j2sdk-image/ $PRGNAM
 ln -sf $PRGNAM ${PRGNAM}${DVER}
 ln -sf $PRGNAM/jre/lib/${LIB_ARCH}/server/libjvm.so .
 
-chown -R root.root $PKG
+chown -R root:root $PKG
 find -L . \
    \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
    -o -perm 511 \) -exec chmod 755 {} \; -o \

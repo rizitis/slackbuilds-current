@@ -17,6 +17,7 @@ perl-CGI-Application
 perl-CGI-Fast
 perl-CGI
 perl-Clone
+perl-File-Download
 perl-HTML-FormatText-WithLinks-AndTables
 perl-HTML-FormatText-WithLinks
 perl-HTML-Formatter

@@ -75,6 +75,9 @@ python-gntp
 Unidecode
 python3-tornado
 msgpack-python
+virtualenv
+python3-pdm-backend
+python3-pdm-build-locked
 python3-h11
 python3-sniffio
 python3-anyio
@@ -87,7 +90,6 @@ python3-markdown-it-py
 python3-rich
 requests-toolbelt
 python3-cachecontrol
-python3-pdm-backend
 python3-unearth
 python3-shellingham
 python3-resolvelib

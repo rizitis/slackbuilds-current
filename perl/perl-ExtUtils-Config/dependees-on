@@ -21,6 +21,7 @@ perl-DateTime
 perl-Devel-CheckCompiler
 perl-ExtUtils-Config
 perl-ExtUtils-InstallPaths
+perl-File-Download
 perl-HTML-HTMLDoc
 perl-HTTP-Cache-Transparent
 perl-HTTP-Proxy
