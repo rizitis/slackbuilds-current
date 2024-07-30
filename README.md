@@ -5,7 +5,7 @@
 which is an unofficial fork of master branch from slackbuilds.org's
 git repository (http://slackbuilds.org/cgit/slackbuilds/).
 
-This repository updated every weekend following ponce updates.
+Updates every weekend following ponce updates.
 You can use it to provide binaries with package.dep if your package manager need them.
 or you can use it as local repo and build using `slapt-src`, in a Slackware current system or Slackware current based distros.
 ### slapt-src
