@@ -1,9 +1,7 @@
 nlohmann_json
 lowdown
-librapidcheck
 libeditline
 libcpuid
 jq
-gtest
 graphviz
 nix

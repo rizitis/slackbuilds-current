@@ -7,6 +7,7 @@ python3-augeas
 python3-semantic-version
 typing-extensions
 python3-setuptools-rust-opt
+python3-maturin
 cryptography
 pyOpenSSL
 ndg_httpsclient

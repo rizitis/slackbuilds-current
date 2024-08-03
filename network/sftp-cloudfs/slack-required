@@ -12,6 +12,7 @@ python2-daemon
 python3-semantic-version
 typing-extensions
 python3-setuptools-rust-opt
+python3-maturin
 cryptography
 pyOpenSSL
 pysendfile

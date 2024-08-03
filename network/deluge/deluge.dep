@@ -2,6 +2,7 @@ libtorrent-rasterbar
 python3-semantic-version
 typing-extensions
 python3-setuptools-rust-opt
+python3-maturin
 cryptography
 pyOpenSSL
 python3-hatch_fancy_pypi_readme

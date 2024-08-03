@@ -1,4 +1,4 @@
 graphviz
-python-evdev
+python3-evdev
 python3-pyudev
 pencil2d

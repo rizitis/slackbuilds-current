@@ -5,5 +5,6 @@ python3-pyasn1-modules
 python3-semantic-version
 typing-extensions
 python3-setuptools-rust-opt
+python3-maturin
 cryptography
 python3-attrs

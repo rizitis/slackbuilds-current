@@ -6,4 +6,5 @@ python2-wheel
 pycparser
 cffi
 pynacl
+python3-maturin
 cryptography

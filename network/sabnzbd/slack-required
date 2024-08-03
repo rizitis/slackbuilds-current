@@ -3,6 +3,7 @@ unrar
 python3-semantic-version
 typing-extensions
 python3-setuptools-rust-opt
+python3-maturin
 cryptography
 pyOpenSSL
 python2-yenc
