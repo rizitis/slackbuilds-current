@@ -1,5 +1,7 @@
 webrtc-audio-processing
 libsrtp2
+libxmlb
+AppStream
 libadwaita
 libsignal-protocol-c
 dino

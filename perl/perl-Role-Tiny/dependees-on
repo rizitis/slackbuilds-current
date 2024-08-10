@@ -8,6 +8,7 @@ perl-MaxMind-DB-Common
 perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader
 perl-MooX-StrictConstructor
+perl-MooX-Types-MooseLike
 perl-Moose
 perl-MooseX-Traits
 perl-MooseX-Types-Structured
@@ -16,6 +17,7 @@ perl-Net-Works
 perl-Parse-Method-Signatures
 perl-Role-Tiny
 perl-Sub-Exporter-ForMethods
+perl-Throwable
 perl-TryCatch
 perl-namespace-autoclean
 perl-parallel-forkmanager

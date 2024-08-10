@@ -132,12 +132,14 @@ perl-Task-Weaken
 perl-Test-Differences
 perl-Test-DistManifest
 perl-Test-File-ShareDir-Dist
+perl-Test-File-ShareDir
 perl-Test-File
 perl-Test-HexDifferences
 perl-Test-Most
 perl-Test-utf8
 perl-Text-Hyphen
 perl-Text-Password-Pronounceable
+perl-Throwable
 perl-TryCatch
 perl-TryCatch
 perl-WWW-Curl

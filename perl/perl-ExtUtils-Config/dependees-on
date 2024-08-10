@@ -42,6 +42,7 @@ perl-Net-Works
 perl-Parse-Method-Signatures
 perl-Readonly
 perl-SOAP-Lite
+perl-Throwable
 perl-TryCatch
 perl-WebService-Gyazo-B
 perl-XML-Catalog

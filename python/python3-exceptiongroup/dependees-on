@@ -50,6 +50,7 @@ python3-mailman
 python3-openstep-plist
 python3-pdm
 python3-pipx
+python3-pyspf
 python3-pytest-cov
 python3-pytest-runner
 python3-pytest

@@ -92,6 +92,7 @@ perl-Task-Weaken
 perl-Test-Differences
 perl-Test-DistManifest
 perl-Test-File-ShareDir-Dist
+perl-Test-File-ShareDir
 perl-Test-File
 perl-Test-HexDifferences
 perl-Test-Most

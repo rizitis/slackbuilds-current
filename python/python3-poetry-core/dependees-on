@@ -40,6 +40,7 @@ python3-click-didyoumean
 python3-cookiecutter
 python3-dkimpy
 python3-dnspython
+python3-dunamai
 python3-flake8_annotations
 python3-guessit
 python3-ipython-sql
@@ -52,9 +53,11 @@ python3-libvcs
 python3-mailman
 python3-pdm
 python3-poetry-core
+python3-poetry-dynamic-versioning
 python3-pydocstyle
 python3-pylint-venv
 python3-pylint
+python3-pyspf
 python3-requests-cache
 python3-rich
 python3-sipclients3

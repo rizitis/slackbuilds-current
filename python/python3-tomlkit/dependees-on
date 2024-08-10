@@ -54,6 +54,7 @@ python3-matplotlib
 python3-obspy
 python3-pdfminer.six
 python3-pdm
+python3-poetry-dynamic-versioning
 python3-pylint-venv
 python3-pylint
 python3-seaborn

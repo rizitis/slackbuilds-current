@@ -38,6 +38,7 @@ perl-SOAP-Lite
 perl-Test-CleanNamespaces
 perl-Test-Deep
 perl-Test-File-ShareDir-Dist
+perl-Test-File-ShareDir
 perl-Test-MockModule
 perl-Test-Most
 perl-Test-Spec

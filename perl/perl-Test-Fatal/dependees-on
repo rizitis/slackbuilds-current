@@ -63,6 +63,7 @@ perl-MaxMind-DB-Reader
 perl-Module-Implementation
 perl-Module-Runtime-Conflicts
 perl-MooX-StrictConstructor
+perl-MooX-Types-MooseLike
 perl-Moose
 perl-MooseX-Traits
 perl-MooseX-Types-Structured
@@ -84,8 +85,10 @@ perl-Test-Bits
 perl-Test-CleanNamespaces
 perl-Test-Fatal
 perl-Test-File-ShareDir-Dist
+perl-Test-File-ShareDir
 perl-Test-MockModule
 perl-Test-Spec
+perl-Throwable
 perl-TryCatch
 perl-WebService-Gyazo-B
 perl-XML-Catalog

@@ -11,3 +11,4 @@ perl-Geo-Coordinates-OSGB
 perl-Mojolicious-Plugin-Humane
 perl-SDL
 perl-Test-File-ShareDir-Dist
+perl-Test-File-ShareDir

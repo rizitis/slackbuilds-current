@@ -24,6 +24,7 @@ perl-Syntax-Highlight-Engine-Kate
 perl-Task-Weaken
 perl-Test-DistManifest
 perl-Test-File-ShareDir-Dist
+perl-Test-File-ShareDir
 perl-Test-File
 perl-Test-utf8
 perl-Text-Password-Pronounceable

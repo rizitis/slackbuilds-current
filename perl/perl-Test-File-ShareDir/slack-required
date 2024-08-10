@@ -1,0 +1,17 @@
+perl-Try-Tiny
+perl-Test-Fatal
+perl-Test-Warnings
+perl-Module-Build
+perl-File-Remove
+perl-YAML-Tiny
+perl-Module-Install
+perl-Test-utf8
+perl-Test-File
+perl-Test-NoWarnings
+perl-Test-Deep
+perl-File-Copy-Recursive
+perl-Scope-Guard
+perl-Class-Tiny
+perl-File-ShareDir-Install
+perl-Class-Inspector
+perl-File-ShareDir

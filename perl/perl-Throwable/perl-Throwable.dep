@@ -1,0 +1,15 @@
+perl-Try-Tiny
+perl-Test-Fatal
+perl-Role-Tiny
+perl-Devel-StackTrace
+perl-Test-Requires
+perl-Meta-Requirements-Range
+perl-Test-Harness
+perl-ExtUtils-Config
+perl-CPAN-Requirements-Dynamic
+perl-JSON
+perl-ExtUtils-Helpers
+perl-ExtUtils-InstallPaths
+perl-Module-Build-Tiny
+perl-Class-Method-Modifiers
+perl-Throwable

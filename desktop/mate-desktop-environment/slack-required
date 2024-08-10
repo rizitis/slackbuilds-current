@@ -13,6 +13,9 @@ mate-screensaver
 mate-system-monitor
 mate-power-manager
 mate-media
+libxmlb
+AppStream
+libadwaita
 zenity
 marco
 mate-control-center
