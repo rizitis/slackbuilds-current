@@ -88,6 +88,8 @@ rm -rf $PRGNAM-$VERSION
 tar xvf $CWD/$PRGNAM-$VERSION.tar.xz
 cd $PRGNAM-$VERSION
 
+patch -p1 < $CWD/vlc-3.0.21-fedora_ffmpeg7-1.patch
+
 sed -i '/DEPRECATED/s:^://:' modules/text_renderer/freetype/text_layout.c
 
 patch -p1 < $CWD/dvdread.patch
