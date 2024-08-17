@@ -37,10 +37,14 @@ perl-Devel-PartialDump
 perl-Devel-PartialDump
 perl-Dist-CheckConflicts
 perl-Dist-CheckConflicts
+perl-Email-Sender
+perl-Email-Sender
 perl-Linux-FD
 perl-Linux-FD
 perl-Log-Dispatch
 perl-Log-Dispatch
+perl-Mail-DMARC
+perl-Mail-DMARC
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Reader-XS

@@ -14,6 +14,7 @@ perl-Gtk2-Notify
 perl-Inline-C
 perl-MIME-tools
 perl-MP3-Info
+perl-Mail-DMARC
 perl-Module-Install
 perl-Module-Manifest
 perl-Net-LDAP

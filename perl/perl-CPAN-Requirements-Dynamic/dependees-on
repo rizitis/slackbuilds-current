@@ -23,6 +23,7 @@ perl-DateTime-Format-Strptime
 perl-DateTime-TimeZone
 perl-DateTime
 perl-Devel-CheckCompiler
+perl-Email-Sender
 perl-File-Download
 perl-HTML-HTMLDoc
 perl-HTTP-Cache-Transparent
@@ -30,6 +31,7 @@ perl-HTTP-Proxy
 perl-Image-Sane
 perl-LWP-Protocol-https
 perl-LWP-Protocol-socks
+perl-Mail-DMARC
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader

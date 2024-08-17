@@ -1,2 +1,6 @@
 le
+perl-Email-Abstract
+perl-Email-MIME
+perl-Email-Sender
 perl-Email-Simple
+perl-Mail-DMARC

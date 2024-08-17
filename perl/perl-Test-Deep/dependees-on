@@ -27,6 +27,7 @@ perl-HTTP-Proxy
 perl-Inline-C
 perl-LWP-Protocol-https
 perl-LWP-Protocol-socks
+perl-Mail-DMARC
 perl-Moose
 perl-MooseX-Traits
 perl-MooseX-Types-Structured

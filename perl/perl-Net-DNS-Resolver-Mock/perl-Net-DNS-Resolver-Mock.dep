@@ -1,0 +1,7 @@
+perl-net-ip
+perl-digest-sha1
+perl-digest-hmac
+perl-net-dns
+perl-Sub-Uplevel
+perl-Test-Exception
+perl-Net-DNS-Resolver-Mock

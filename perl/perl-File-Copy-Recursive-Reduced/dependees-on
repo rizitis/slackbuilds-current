@@ -6,6 +6,7 @@ le
 perl-File-Copy-Recursive-Reduced
 perl-File-Copy-Recursive
 perl-Inline-C
+perl-Mail-DMARC
 perl-Module-Build-XSUtil
 perl-Test-File-ShareDir-Dist
 perl-Test-File-ShareDir

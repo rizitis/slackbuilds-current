@@ -8,6 +8,7 @@ perl-File-Share
 perl-File-ShareDir
 perl-Geo-Coordinates-OSGB
 perl-Geo-Coordinates-OSGB
+perl-Mail-DMARC
 perl-Mojolicious-Plugin-Humane
 perl-SDL
 perl-Test-File-ShareDir-Dist

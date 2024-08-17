@@ -1,5 +1,9 @@
+perl-Email-Abstract
 perl-Email-Date-Format
+perl-Email-MIME
+perl-Email-Sender
 perl-Email-Simple
 perl-MIME-Lite
+perl-Mail-DMARC
 perl-SOAP-Lite
 remotebox

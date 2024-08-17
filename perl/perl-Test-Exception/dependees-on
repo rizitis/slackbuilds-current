@@ -22,12 +22,14 @@ perl-HTML-Tree
 perl-HTML-WikiConverter-Markdown
 perl-HTML-WikiConverter
 perl-Linux-FD
+perl-Mail-DMARC
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader
 perl-Module-Manifest
 perl-MooseX-Types-Structured
 perl-MooseX-Types
+perl-Net-DNS-Resolver-Mock
 perl-PDF-API2
 perl-PDF-Builder
 perl-Parse-Method-Signatures

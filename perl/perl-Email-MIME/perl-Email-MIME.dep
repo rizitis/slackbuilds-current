@@ -1,0 +1,10 @@
+perl-MIME-Types
+perl-Email-Address-XS
+perl-Email-MessageID
+perl-Email-MIME-Encodings
+perl-Text-Unidecode
+perl-Email-MIME-ContentType
+perl-Capture-Tiny
+perl-Email-Date-Format
+perl-Email-Simple
+perl-Email-MIME

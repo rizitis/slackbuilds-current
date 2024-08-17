@@ -18,8 +18,10 @@ perl-DateTime
 perl-Devel-OverloadInfo
 perl-Devel-PartialDump
 perl-Dist-CheckConflicts
+perl-Email-Sender
 perl-Linux-FD
 perl-Log-Dispatch
+perl-Mail-DMARC
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader

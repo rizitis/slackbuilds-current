@@ -36,6 +36,7 @@ perl-Devel-Declare
 perl-Devel-OverloadInfo
 perl-Devel-PartialDump
 perl-Dist-CheckConflicts
+perl-Email-Sender
 perl-Eval-Closure
 perl-ExtUtils-CChecker
 perl-Feature-Compat-Try
@@ -57,6 +58,7 @@ perl-LWP-Protocol-socks
 perl-List-AllUtils
 perl-List-SomeUtils
 perl-Log-Dispatch
+perl-Mail-DMARC
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader

@@ -1,5 +1,7 @@
 et
 perl-Class-Method-Modifiers
+perl-Email-Sender
+perl-Mail-DMARC
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader

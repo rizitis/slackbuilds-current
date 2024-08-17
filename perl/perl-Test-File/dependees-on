@@ -2,6 +2,7 @@ findimagedupes
 le
 perl-File-Copy-Recursive
 perl-Inline-C
+perl-Mail-DMARC
 perl-Test-File-ShareDir-Dist
 perl-Test-File-ShareDir
 perl-Test-File
