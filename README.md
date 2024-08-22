@@ -8,7 +8,7 @@
 
  **If you use SlackBuilds from here, you use it at your own risk 100%.**<br>
 <p>
-I use **slapt-src** as package manager for this repo and I have dependencies resolution.<br>
+I use slapt-src as package manager for this repo and I have dependencies resolution.<br>
  <p>I have a local clone 
  <br>`cd /home/user_name/work_dir/ && git clone https://github.com/rizitis/slackbuilds-current`<br>
   My slapt-srcrc is like this:<br>
