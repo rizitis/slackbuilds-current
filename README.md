@@ -23,7 +23,7 @@ PKGTAG=_rtz
 ```
 
 All slapt-src commands works perfect but not `slapt-src -l` ofcource... <br>
-Because slapt-src was not designed for git... A small hack can make it work with git :D <br>
+Because slapt-src was not designed for git... A small hack can make it work with git `:D` <br>
 ```
 slapt-src() {
     if [[ "$1" == "-l" ]]; then
