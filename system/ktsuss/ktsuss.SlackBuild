@@ -76,6 +76,11 @@ rm -rf $PRGNAM-$COMMIT
 tar xvf $CWD/$COMMIT.tar.gz || tar xvf $CWD/$PRGNAM-$COMMIT.tar.gz
 cd $PRGNAM-$COMMIT
 chown -R root:root .
+
+patch -p0 < $CWD/ktsuss.patch || exit
+patch -p0 < $CWD/su_backend.patch || exit
+patch -p0 < $CWD/su_backend_h.patch || exit
+
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
   -o -perm 511 \) -exec chmod 755 {} + -o \

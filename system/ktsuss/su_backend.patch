@@ -1,0 +1,156 @@
+# Created by rizitis
+--- src/su_backend.c	2014-07-11 17:40:19.000000000 +0300
++++ su_backend.c	2024-08-21 23:50:30.718196249 +0300
+@@ -27,8 +27,9 @@
+  * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  * POSSIBILITY OF SUCH DAMAGE.
+-*/
++ */
+ 
++#include <err.h>
+ #include "config.h"
+ #ifdef SUPATH
+ 
+@@ -43,9 +44,14 @@
+ #include <pty.h>
+ #include <utmp.h>
+ #include <termios.h>
++#include <sys/select.h> // Include for the select function
++#include <signal.h> // Include for the signal function
++#include <limits.h> // Include for PATH_MAX
+ 
+ #include "errors.h"
+ 
++
++
+ #ifndef MAX
+ #define MAX(a,b) ((a)>(b)?(a):(b))
+ #endif
+@@ -148,60 +154,75 @@
+ }
+ 
+ 
++void tty_raw(int fd);
+ /* Run the given command as the given user */
+ void run_su(char *username, char *password, char *command)
+ {
+-	char buf[BUFF_SIZE], *cmd[6] = { SUPATH, username, "-p", "-c", command, NULL };
+-	int fdpty = 0, status = 0, tty = 1;
+-	pid_t pid = 0;
+-	fd_set rfds;
+-	struct timeval tv;
+-
+-	pid = init_su(&fdpty, username, password, cmd);
+-
+-	/* Put the terminal in raw mode */
+-	if (tcgetattr(STDIN_FILENO, &orig_termios) < 0) {
+-		if (errno == ENOTTY)
+-			errno = tty = 0;
+-		else
+-			err(1, "tcgetattr()");
+-	}
+-
+-	if (tty)
+-		tty_raw(STDIN_FILENO);
+-
+-	while (1) {
+-		waitpid(pid, &status, WNOHANG);
+-
+-		/* Ok, the program needs some interaction, so this will do it fine */
+-		tv.tv_sec = 0;
+-		tv.tv_usec = 10;
+-		FD_ZERO(&rfds);
+-		FD_SET(fdpty, &rfds);
+-		FD_SET(STDIN_FILENO, &rfds);
+-
+-		if (select(MAX(fdpty, STDIN_FILENO)+1, &rfds, NULL, NULL, &tv) < 0) err(1, "select()");
+-
+-		if (FD_ISSET(fdpty, &rfds)) {
+-			if ((status = read(fdpty, buf, BUFF_SIZE)) > 0)
+-				write(STDOUT_FILENO, buf, status);
+-			else
+-				break;
+-
+-		}
+-		else if (FD_ISSET(STDIN_FILENO, &rfds)) {
+-			status = read(STDIN_FILENO, buf, BUFF_SIZE);
+-			write(fdpty, buf, status);
+-		}
+-		usleep(100);
+-	}
+-
+-	end_su(fdpty);
+-	close(fdpty);
+-
+-	if (tty)
+-	    if (tcsetattr(STDIN_FILENO, TCSAFLUSH, &orig_termios) < 0) 
+-			err(1, "tcsetattr()");
++    char buf[BUFF_SIZE], *cmd[7] = { SUPATH, username, "-p", "-l", "-c", command, NULL };
++    int fdpty = 0, status = 0, tty = 1;
++    pid_t pid = 0;
++    fd_set rfds;
++    struct timeval tv;
++    char current_dir[PATH_MAX];
++
++    // Remember the current directory
++    if (!getcwd(current_dir, sizeof(current_dir))) {
++        err(1, "getcwd()");
++    }
++
++    pid = init_su(&fdpty, username, password, cmd);
++
++    /* Put the terminal in raw mode */
++    if (tcgetattr(STDIN_FILENO, &orig_termios) < 0) {
++        if (errno == ENOTTY)
++            errno = tty = 0;
++        else
++            err(1, "tcgetattr()");
++    }
++
++
++    // Call to tty_raw
++    if (tty)
++        tty_raw(STDIN_FILENO);
++
++    while (1) {
++        waitpid(pid, &status, WNOHANG);
++
++        /* Ok, the program needs some interaction, so this will do it fine */
++        tv.tv_sec = 0;
++        tv.tv_usec = 10;
++        FD_ZERO(&rfds);
++        FD_SET(fdpty, &rfds);
++        FD_SET(STDIN_FILENO, &rfds);
++
++        if (select(MAX(fdpty, STDIN_FILENO)+1, &rfds, NULL, NULL, &tv) < 0) err(1, "select()");
++
++        if (FD_ISSET(fdpty, &rfds)) {
++            if ((status = read(fdpty, buf, BUFF_SIZE)) > 0)
++                write(STDOUT_FILENO, buf, status);
++            else
++                break;
++
++        }
++        else if (FD_ISSET(STDIN_FILENO, &rfds)) {
++            status = read(STDIN_FILENO, buf, BUFF_SIZE);
++            write(fdpty, buf, status);
++        }
++        usleep(100);
++    }
++
++    end_su(fdpty);
++    close(fdpty);
++
++    // Return to the original directory
++    if (chdir(current_dir) < 0) {
++        err(1, "chdir()");
++    }
++
++    if (tty)
++        if (tcsetattr(STDIN_FILENO, TCSAFLUSH, &orig_termios) < 0)
++            err(1, "tcsetattr()");
+ }
+ 
++
+ #endif
