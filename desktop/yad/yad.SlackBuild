@@ -26,7 +26,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=yad
-VERSION=${VERSION:-13.0}
+VERSION=${VERSION:-14.1}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -65,8 +65,8 @@ else
   LIBDIRSUFFIX=""
 fi
 
-if pkg-config --exists webkit2gtk-4.0 ; then HTML="--enable-html" ; else HTML="" ; fi
-if pkg-config --exists gtksourceview-3.0 ; then SOURCEVIEW="--enable-sourceview" ; else SOURCEVIEW="" ; fi
+#if pkg-config --exists webkit2gtk-4.0 ; then HTML="--enable-html" ; else HTML="" ; fi
+#if pkg-config --exists gtksourceview-3.0 ; then SOURCEVIEW="--enable-sourceview" ; else SOURCEVIEW="" ; fi
 
 set -e
 
@@ -100,8 +100,8 @@ CXXFLAGS="$SLKCFLAGS" \
   --enable-pfd \
   --enable-tray \
   --enable-spell \
-  $HTML \
-  $SOURCEVIEW \
+  --enable-html \
+  --enable-sourceview \
   --build=$ARCH-slackware-linux
 
 make
