@@ -2,8 +2,8 @@
 <ul>
   <li>Scripts here are modified for my personal use!
   <li> Some scripts are pathed for my personal use!
-  <li> Sometimes might included files here that are removed from ponce or SBo or not ever existed, also for my personal use!
-  <li> Generaly speaking, there is no reason for you to use these SlackBuilds... 
+  <li> Sometimes might included files here that are removed from ponce or SBo or never existed there, also for my personal use!
+  <li> Generaly speaking, there is no reason for you to use this SlackBuilds... 
   </ul>
 
  **If you use SlackBuilds from here, you use it at your own risk 100%.**<br>
