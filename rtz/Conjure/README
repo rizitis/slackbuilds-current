@@ -1,0 +1,2 @@
+Conflicts with imagmagick 'conjure' binary if there are in same path 
+(/usr/bin/) so script move it to /usr/local/bin/Conjure

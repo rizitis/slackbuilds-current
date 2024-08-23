@@ -1,0 +1,5 @@
+This script by default not building PLPLOT.
+
+If PLplot is not installed on your machine or was not compiled with the same Fortran compiler, you must tell CMake to exclude the PLplot gtk-fortran examples before calling make:cmake -D EXCLUDE_PLPLOT=true
+
+Full gtk-fortran documantation: https://github.com/vmagnin/gtk-fortran/wiki/Installation

@@ -1,0 +1,442 @@
+#!/bin/bash
+
+Packager="Anagnostakis Ioannis (rizitis@gmail.com) GR"
+   # All rights reserved 08/2024
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+   cd $(dirname "$0") ; CWD=$(pwd)
+
+##########################-slackdesc-########################################
+# If you have slackdesc installed you need these, else ignore them and comment them.
+# https://slack-desc.sourceforge.net/
+# example of use:
+   mkdesc="$(which slackdesc)" || true
+   Homepage="https://github.com/Seagate/openSeaChest"
+   SortDesc="Cross platform utilities"
+   LongDesc="Cross platform utilities useful for performing various operations on SATA, SAS, NVMe, and USB storage devices."
+#############################################################################
+   SRCURL="https://github.com/Seagate/openSeaChest/releases/download/v23.12/SourceCode_With_Submodules.tar.xz"
+   COMPRESS="tar.xz"
+   SRCNAM=openSeaChest
+   PRGNAM=openseachest
+   VERSION=v23.12
+   GITCHEK=
+   License="https://github.com/Seagate/openSeaChest/blob/develop/LICENSE.md"
+
+   if [[ $COMPRESS != "git" ]]; then
+  wget -O $SRCNAM-$VERSION.$COMPRESS "$SRCURL"
+else
+  if [ -z "$GITCHEK" ]; then
+    git clone $SRCURL
+  else
+    git clone $SRCURL
+    cd $SRCNAM || cd $PRGNAM || exit
+    git checkout $GITCHEK
+  fi
+fi
+
+   BUILD=${BUILD:-1}
+   TAG=${TAG:-_rtz}
+   PKGTYPE=${PKGTYPE:-tlz}   
+   PKG=$CWD/package-$PRGNAM
+   TMP=$CWD/work
+   OUTPUT=$CWD/binary-$PRGNAM-$VERSION
+   
+   DATE="$(date)"
+   NUMJOBS=${NUMJOBS:-"-j$(getconf _NPROCESSORS_ONLN)"}
+   DOCS="ABOUT* AUTHORS BUGS ChangeLog* COPYING CREDITS FAQ GPL* HACKING \
+      LICENSE MAINTAINERS NEWS README* TODO"
+   
+   if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi 
+
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+  SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+  LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+  SLKCFLAGS="-O2 -march=x86-64 -mtune=generic -fPIC"
+  LIBDIRSUFFIX="64"
+elif [ "$ARCH" = "aarch64" ]; then
+  SLKCFLAGS="-O2 -march=armv8-a -mtune=generic -fPIC"
+  LIBDIRSUFFIX="64"
+else
+  SLKCFLAGS="-O2"
+  LIBDIRSUFFIX=""
+fi
+
+
+
+  set -e
+
+   prepare_build(){
+	rm -rf "$PKG" "$OUTPUT" "$COMPRESS" "$CWD"/error-"$PRGNAM".log
+	mkdir -p "$TMP" "$PKG" "$OUTPUT"
+	rm -rf "$TMP"/$PRGNAM-$VERSION
+	
+	get_out () {
+		if [ -f $1 ] ; then
+			case $1 in
+				*.tar.bz2)   tar xvjf $1    ;;
+				*.tar.gz)    tar xvzf $1    ;;
+				*.tar.xz)    tar xvJf $1    ;;
+				*.bz2)       bunzip2 $1     ;;
+				*.rar)       rar x $1       ;;
+				*.gz)        gunzip $1      ;;
+				*.tar)       tar xvf $1     ;;
+				*.tbz2)      tar xvjf $1    ;;
+				*.tgz)       tar xvzf $1    ;;
+				*.zip)       unzip $1       ;;
+				*.Z)         uncompress $1  ;;
+				*.7z)        7z x $1        ;;
+				*)           echo "don't know how to extract '$1'..." ;;
+			esac
+		else
+			echo "'$1' is not a valid file!"
+		fi
+       }
+   	cd "$TMP" || exit 
+if [[ $COMPRESS != "git" ]]; then
+   get_out "$CWD"/"$SRCNAM"-"$VERSION"."$COMPRESS" || exit
+   cd $SRCNAM-$VERSION || cd $PRGNAM-$VERSION ||exit
+  else
+   cd $SRCNAM || cd $PRGNAM ||exit
+fi
+   }
+
+   patch_build(){
+#	patch -p0 < smallpatch || exit
+#	zcat $CWD/bigpatch.diff.gz | patch -p1 || exit
+	true
+   }
+
+   chrooting(){
+   	chown -R root:root .
+	find -L . \
+	  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
+	  -o -perm 511 \) -exec chmod 755 {} \; -o \
+	  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
+	  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+   }
+
+   auto_build() {
+	CFLAGS="$SLKCFLAGS" \
+	CXXFLAGS="$SLKCFLAGS" \
+	./configure \
+	  --prefix=/usr \
+	  --libdir=/usr/lib${LIBDIRSUFFIX} \
+	  --sysconfdir=/etc \
+	  --localstatedir=/var \
+	  --mandir=/usr/man \
+	  --docdir=/usr/doc/$PRGNAM-$VERSION \
+	  --disable-static \
+	  --build="$ARCH"-slackware-linux
+
+	make "$NUMJOBS"
+	make install DESTDIR="$PKG"
+   }
+   
+   meson_build(){
+	  mkdir build
+	cd build
+  CFLAGS="$SLKCFLAGS" \
+  CXXFLAGS="$SLKCFLAGS" \
+  meson .. \
+    --buildtype=release \
+    --infodir=/usr/info \
+    --libdir=/usr/lib${LIBDIRSUFFIX} \
+    --localstatedir=/var \
+    --mandir=/usr/man \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    -Dstrip=true
+  "${NINJA:=ninja}"
+  DESTDIR=$PKG $NINJA install
+cd ..
+   }
+   
+   python_build(){
+	python2 setup.py install --root="$PKG"
+	python3 setup.py install --root="$PKG"
+
+	python3 -m build --wheel --no-isolation
+	python3 -m installer --destdir "$PKG" dist/*.whl
+   }
+   
+   cmake_build(){
+	mkdir -p build
+	cd build
+	  cmake \
+	    -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
+	    -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
+	    -DCMAKE_INSTALL_PREFIX=/usr \
+	    -DLIB_SUFFIX=${LIBDIRSUFFIX} \
+	    -DMAN_INSTALL_DIR=/usr/man \
+	    -DCMAKE_BUILD_TYPE=Release ..
+	  make
+	  make install/strip DESTDIR=$PKG
+	cd ..
+}
+
+perl_build(){
+# Build method #1 (preferred)
+perl Makefile.PL \
+  PREFIX=/usr \
+  INSTALLDIRS=vendor \
+  INSTALLVENDORMAN1DIR=/usr/man/man1 \
+  INSTALLVENDORMAN3DIR=/usr/man/man3
+make
+make test
+make install DESTDIR=$PKG
+
+# Build method #2
+# requires perl-Module-Build or perl-Module-Build-Tiny
+perl Build.PL \
+  --installdirs vendor \
+  --config installvendorman1dir=/usr/man/man1 \
+  --config installvendorman3dir=/usr/man/man3
+./Build
+./Build test
+./Build install \
+  --destdir $PKG
+}
+
+   haskel_build(){
+	CFLAGS="$SLKCFLAGS" \
+	CXXFLAGS="$SLKCFLAGS" \
+	  runghc Setup configure \
+	  --prefix=/usr \
+	  --libdir=/usr/lib${LIBDIRSUFFIX} \
+	  --libsubdir=ghc-"${GHC_VERSION}"/$SRCNAM-$VERSION \
+	  --enable-shared \
+	  --enable-library-profiling \
+	  --docdir=/usr/doc/$PRGNAM-$VERSION
+
+
+	  runghc Setup build
+	  runghc Setup haddock
+	  runghc Setup copy --destdir="$PKG"
+	  runghc Setup register --gen-pkg-config
+
+	PKGCONFD=/usr/lib${LIBDIRSUFFIX}/ghc-${GHC_VERSION}/package.conf.d
+	PKGID=$( grep -E "^id: " $SRCNAM-$VERSION.conf | cut -d" " -f2 )
+	  mkdir -p "$PKG"/"$PKGCONFD"
+	  mv $SRCNAM-$VERSION.conf "$PKG"/"$PKGCONFD"/"$PKGID".conf
+   }
+   
+   cargo_build(){
+   CFLAGS="$SLKCFLAGS" \
+CXXFLAGS="$SLKCFLAGS" \
+
+cargo_build --release 
+# add here INSTALL -Dm* commands.
+   }
+
+
+# golang_build dont need root access in Slackware if your setup is as SlackBuilds.org suggest for go.
+# examples for golang_build...
+   golang_build(){
+	  export CGO_CPPFLAGS="${CPPFLAGS}"
+	  export CGO_CFLAGS="${CFLAGS}"
+	  export CGO_CXXFLAGS="${CXXFLAGS}"
+	  export CGO_LDFLAGS="${LDFLAGS}"
+	  export GOFLAGS="???"
+	  CGO_ENABLED=0 \
+	  GOOS=linux \
+	  GOARCH=amd64 \
+	  go build \
+	  -ldflags='-w -s -extldflags "-static"' \
+	  ????
+
+  mkdir -p "$PKG"/usr/bin/
+  install -Dm755 "$PRGNAM"-"$VERSION"/? "$PKG"/usr/bin/"$PRGNAM"
+  }
+   
+   custom_build(){
+    cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr -S . -B ./build
+	cmake --build ./build --config Release --target all
+DESTDIR=$PKG cmake --install build
+  }
+   
+   after_build(){
+	  mkdir -p "$PKG"/usr/doc/$PRGNAM-$VERSION
+	  cp -a "$DOCS" "$PKG"/usr/doc/$PRGNAM-"$VERSION" || true
+	  cat "$CWD"/$PRGNAM.SlackBuild > "$PKG"/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+	  find "$PKG"/usr/doc/$PRGNAM-$VERSION -type f -exec chmod 644 {} \;
+
+	  mkdir -p "$PKG"/install
+if [ -f "$CWD"/doinst.sh ]; then
+	  cat "$CWD"/doinst.sh >> "$PKG"/install/doinst.sh
+	elif [ -f "$CWD"/doinst.sh.gz ]; then
+	  zcat "$CWD"/doinst.sh.gz >> "$PKG"/install/doinst.sh
+	else
+	  cat <<MKINS >> "$PKG"/install/doinst.sh
+config() {
+  for infile in \$1; do
+    NEW="\$infile"
+    OLD="\$(dirname \$NEW)/\$(basename \$NEW .new)"
+    if [ ! -r \$OLD ]; then
+      mv \$NEW \$OLD
+    elif [ "\$(cat \$OLD | md5sum)" = "\$(cat \$NEW | md5sum)" ]; then
+      rm \$NEW
+    fi
+  done
+}
+
+preserve_perms() {
+  NEW="\$1"
+  OLD="\$(dirname \$NEW)/\$(basename \$NEW .new)"
+  if [ -e \$OLD ]; then
+    cp -a \$OLD \${NEW}.incoming
+    cat \$NEW > \${NEW}.incoming
+    mv \${NEW}.incoming \$NEW
+  fi
+  config \$NEW
+}
+
+
+preserve_perms etc/rc.d/rc.INIT.new
+config etc/configfile.new
+
+
+if [ -x usr/bin/update-desktop-database ]; then
+  chroot . /usr/bin/update-desktop-database usr/share/applications > /dev/null 2>&1
+fi
+
+if [ -d usr/share/icons/hicolor ]; then
+  if [ -x /usr/bin/gtk-update-icon-cache ]; then
+    chroot . /usr/bin/gtk-update-icon-cache -f -t usr/share/icons/hicolor 1> /dev/null 2> /dev/null
+  fi
+fi
+
+if [ -e usr/share/glib-2.0/schemas ]; then
+  if [ -x /usr/bin/glib-compile-schemas ]; then
+    /usr/bin/glib-compile-schemas usr/share/glib-2.0/schemas >/dev/null 2>&1
+  fi
+fi 
+
+if [ -x usr/bin/update-mime-database ]; then
+  chroot . /usr/bin/update-mime-database usr/share/mime >/dev/null 2>&1
+fi
+
+MKINS
+fi
+	if [ -f "$CWD"/slack-desc ]; then
+	  cat "$CWD"/slack-desc > "$PKG"/install/slack-desc
+	 elif [ -x "$mkdesc" ]; then
+	  $mkdesc "$PRGNAM" "$SortDesc" "$LongDesc" "$Homepage" > "$PKG"/install/slack-desc
+	 else
+	  echo " "
+	  echo "Not slack-desc found or created   :-("
+	  echo "You must have a slack-desc in $CWD"
+	  echo "Or you must create one. Please read lines: 25-33 of $PRGNAM.SlackBuild"
+	  echo " "
+	  exit 1
+	fi 
+	
+	if [ -f "$CWD"/slack-required ]; then
+	  cat "$CWD"/slack-required > "$PKG"/install/slack-required
+	fi
+	
+	if [ -f "$CWD"/slack-suggests ]; then
+	  cat "$CWD"/slack-suggests > "$PKG"/install/slack-suggests
+	fi
+	
+	if [ -f "$CWD"/slack-conflicts ]; then
+	  cat "$CWD"/slack-conflicts > "$PKG"/install/slack-conflicts
+	fi
+	
+	if [ -d "$PKG"/usr/man ]; then
+	  ( cd "$PKG"/usr/man
+	  find . -type f -exec gzip -9 {} \;
+	  for i in $(find . -type l) ; do ln -s $(readlink "$i").gz "$i".gz ; rm "$i" ; done
+	  ) 
+	fi
+
+	if [ -d "$PKG"/usr/info ]; then
+	  gzip -9 "$PKG"/usr/info/*.info
+	  rm -f "$PKG"/usr/info/dir
+	fi
+
+   }
+   
+   package_build() {
+	  rm -f "$PKG"/{,usr/}lib${LIBDIRSUFFIX}/*.la
+	  find "$PKG" | xargs file | grep -e "executable" -e "shared object" | grep ELF \
+	  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
+	  
+	  find "$PKG" -name perllocal.pod \
+	  -o -name ".packlist" \
+	  -o -name "*.bs" \
+	  | xargs rm -f
+
+	  cd "$PKG" || exit
+	  makepkg -l y -c n "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE" 2>&1 | tee "$OUTPUT"/makepkg-${PRGNAM}.log
+	  echo "$DATE $Packager" | sed -e '1r /dev/stdin' "$OUTPUT/makepkg-${PRGNAM}.log" > "$OUTPUT/makepkg-${PRGNAM}.log.tmp" && mv "$OUTPUT/makepkg-${PRGNAM}.log.tmp" "$OUTPUT/makepkg-${PRGNAM}.log"
+
+	  
+	  cd "$OUTPUT" || exit
+	  md5sum $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE" > $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE".md5
+	  cat "$PKG"/install/slack-desc | grep "^${PRGNAM}" > $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE".txt
+	if [ -f "$PKG"/install/slack-required ]; then
+	  cat "$PKG"/install/slack-required > $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG".dep 
+	fi
+   }
+   
+   clean_src(){
+	cd $CWD || exit
+	rm -r package-"$PRGNAM" work *.$COMPRESS 
+   }
+
+   pkg_install(){
+	upgradepkg --install-new --reinstall "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE"
+   }
+
+# default most of the times
+prepare_build
+chrooting
+
+#auto_build
+meson_build
+#python_build
+#cmake_build
+#perl_build
+#haskel_build
+#cargo_build
+#golang_build  # PROBABLY NOT ROOT FOR GO...
+#custom_build
+
+after_build
+package_build
+
+#pkg_install
+clean_src
+
