@@ -92,6 +92,7 @@ python3-netcdf4-python
 python3-numba
 python3-numpy
 python3-obspy
+python3-opencv
 python3-pandas
 python3-patsy
 python3-pooch

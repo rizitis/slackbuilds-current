@@ -19,7 +19,6 @@ i3ipc
 geographiclib-python
 geopy
 playerctl
-scdoc
 gtk-session-lock
 gtk-layer-shell
 gtklock

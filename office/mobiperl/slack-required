@@ -18,6 +18,7 @@ perl-html-parser
 perl-Sub-Uplevel
 perl-Test-Exception
 perl-HTML-Tree
+perl-File-Which
 perl-Test-NoWarnings
 perl-extutils-pkgconfig
 perl-GD

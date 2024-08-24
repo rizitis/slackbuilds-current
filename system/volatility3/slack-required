@@ -2,4 +2,5 @@ yara
 python3-yara
 pycryptodomex
 python3-pycrypto
+capstone
 pefile
