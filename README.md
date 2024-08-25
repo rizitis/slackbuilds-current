@@ -22,11 +22,11 @@ PKGEXT=txz
 PKGTAG=_rtz
 ```
 
-All slapt-src commands works perfect but not `slapt-src -l` ofcource... <br>
+All slapt-src commands works perfect but not `slapt-src -f` ofcource... <br>
 Because slapt-src was not designed for git... A small ~/.bashrc hack can make it work with git `:D` <br>
 ```
 slapt-src() {
-    if [[ "$1" == "-l" ]]; then
+    if [[ "$1" == "-f" ]]; then
 cd /home/user_name/work_dir/slackbuilds-current &&  git pull
     fi
 }
