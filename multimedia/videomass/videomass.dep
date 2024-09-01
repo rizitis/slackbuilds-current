@@ -7,6 +7,6 @@ libwpe
 wpebackend-fdo
 geoclue2
 bubblewrap
-webkit2gtk
+webkit2gtk4.1
 wxPython4
 videomass

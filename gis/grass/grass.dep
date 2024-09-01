@@ -6,7 +6,7 @@ libwpe
 wpebackend-fdo
 geoclue2
 bubblewrap
-webkit2gtk
+webkit2gtk4.1
 wxPython4
 python3-pyproject-metadata
 python3-mesonpy
