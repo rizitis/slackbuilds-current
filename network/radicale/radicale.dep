@@ -2,10 +2,10 @@ python3-dateutil
 python2-setuptools-scm
 python2-dateutil
 vobject
-pytz
+python3-pytz
 python3-defusedxml
 python3-semantic-version
-typing-extensions
+python3-typing-extensions
 python3-setuptools-rust-opt
 python3-bcrypt
 python3-passlib

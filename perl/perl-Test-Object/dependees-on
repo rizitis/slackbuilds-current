@@ -1,4 +1,8 @@
 perl-PPI
+perl-PPIx-QuoteLike
+perl-PPIx-Regexp
+perl-PPIx-Utils
 perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-Test-Object
 perl-TryCatch

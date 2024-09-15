@@ -1,7 +1,7 @@
 python3-ipython_genutils
 sqlparse
 greenlet
-typing-extensions
+python3-typing-extensions
 SQLAlchemy
 python3-hatch_vcs
 PrettyTable

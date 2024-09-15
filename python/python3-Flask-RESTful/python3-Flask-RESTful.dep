@@ -1,4 +1,4 @@
-pytz
+python3-pytz
 python3-blinker
 click
 python3-itsdangerous

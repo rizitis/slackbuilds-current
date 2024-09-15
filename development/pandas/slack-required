@@ -1,4 +1,4 @@
-pytz
+python2-pytz
 python2-setuptools-scm
 python2-dateutil
 python2-numpy

@@ -47,12 +47,12 @@ python3-ufonormalizer
 python3-fontMath
 python3-defcon
 python3-booleanOperations
-pytz
+python3-pytz
 python3-ufo2ft
 msgpack-python
 python3-hatch_fancy_pypi_readme
 python3-attrs
-typing-extensions
+python3-typing-extensions
 python3-cattrs
 python3-ufolib2
 python3-openstep-plist

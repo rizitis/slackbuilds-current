@@ -50,6 +50,6 @@ python3-cycler
 python3-contourpy
 python3-matplotlib
 greenlet
-typing-extensions
+python3-typing-extensions
 SQLAlchemy
 pytrainer

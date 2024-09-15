@@ -2,7 +2,7 @@ blas
 lapack
 python2-numpy
 python2-scipy
-pytz
+python2-pytz
 python2-setuptools-scm
 python2-dateutil
 pandas

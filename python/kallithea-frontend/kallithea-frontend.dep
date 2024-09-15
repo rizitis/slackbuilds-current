@@ -5,7 +5,7 @@ python3-urlobject
 python3-paste
 python3-ipaddr
 python3-semantic-version
-typing-extensions
+python3-typing-extensions
 python3-setuptools-rust-opt
 python3-dulwich
 python3-decorator

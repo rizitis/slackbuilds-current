@@ -5,7 +5,7 @@ josepy
 augeas
 python3-augeas
 python3-semantic-version
-typing-extensions
+python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography
@@ -20,6 +20,6 @@ zope.hookable
 zope.event
 zope.component
 python3-pythondialog
-pytz
+python3-pytz
 configobj
 letsencrypt

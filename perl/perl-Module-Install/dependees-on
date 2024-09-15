@@ -19,7 +19,11 @@ perl-Module-Install
 perl-Module-Manifest
 perl-Net-LDAP
 perl-PPI
+perl-PPIx-QuoteLike
+perl-PPIx-Regexp
+perl-PPIx-Utils
 perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-SOAP-Lite
 perl-Syntax-Highlight-Engine-Kate
 perl-Task-Weaken

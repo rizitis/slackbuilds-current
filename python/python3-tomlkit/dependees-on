@@ -32,6 +32,7 @@ jupyterlab
 jupyterlab_pygments
 jupyterlab_server
 kolorcontrol
+locust
 paraview
 pitivi
 python-argopt

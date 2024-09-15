@@ -78,6 +78,7 @@ perl-Params-Validate
 perl-Params-ValidationCompiler
 perl-Parse-Method-Signatures
 perl-Parser-MGC
+perl-Perl-Critic
 perl-Role-Tiny
 perl-SOAP-Lite
 perl-Sub-Exporter-ForMethods

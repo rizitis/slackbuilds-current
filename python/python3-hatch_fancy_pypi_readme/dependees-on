@@ -27,6 +27,7 @@ jupyter_server
 jupyterlab
 jupyterlab_server
 libei
+linkchecker
 pycp
 pylast
 pysolfc-extra-cardsets

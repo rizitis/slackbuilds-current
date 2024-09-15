@@ -45,6 +45,6 @@ python3-pyproj
 geos
 python3-basemap
 greenlet
-typing-extensions
+python3-typing-extensions
 SQLAlchemy
 python3-decorator

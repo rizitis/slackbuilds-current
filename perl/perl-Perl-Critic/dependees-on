@@ -1,0 +1,1 @@
+perl-Perl-Critic

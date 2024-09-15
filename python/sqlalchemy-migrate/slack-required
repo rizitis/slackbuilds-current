@@ -2,6 +2,6 @@ tempita
 sqlparse
 python3-decorator
 greenlet
-typing-extensions
+python3-typing-extensions
 SQLAlchemy
 python2-pbr

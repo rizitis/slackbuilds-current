@@ -8,7 +8,7 @@ colorama
 python3-cachetools
 python3-tox
 greenlet
-typing-extensions
+python3-typing-extensions
 SQLAlchemy
 python3-flit_scm
 python3-exceptiongroup

@@ -1,6 +1,7 @@
 click-log
 click
-pytz
+python3-pytz
+python2-pytz
 tzlocal
 configobj
 python3-atomicwrites

@@ -14,6 +14,7 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
+linkchecker
 periscope
 pysass
 pysub-dl

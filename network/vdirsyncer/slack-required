@@ -1,6 +1,6 @@
 python3-atomicwrites
 python3-aiostream
-typing-extensions
+python3-typing-extensions
 python3-multidict
 python3-expandvars
 python3-yarl

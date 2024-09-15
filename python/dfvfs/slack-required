@@ -26,7 +26,7 @@ libbde
 dtfabric
 dfdatetime
 python3-semantic-version
-typing-extensions
+python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography

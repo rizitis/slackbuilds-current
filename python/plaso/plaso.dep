@@ -12,7 +12,7 @@ libevtx
 libevt
 libesedb
 libcaes
-pytz
+python3-pytz
 zeromq
 python3-pyzmq
 pefile
@@ -68,7 +68,7 @@ libfsapfs
 libewf
 libbde
 python3-semantic-version
-typing-extensions
+python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography

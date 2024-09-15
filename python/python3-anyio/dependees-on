@@ -9,6 +9,7 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
+linkchecker
 pylast
 python3-Flask-Security-Too
 python3-anyio

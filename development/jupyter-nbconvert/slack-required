@@ -1,8 +1,8 @@
 tinycss2
 python3-soupsieve
 BeautifulSoup4
-testpath
-pandocfilters
+python3-testpath
+python3-pandocfilters
 python3-mistune
 python3-poetry-core
 python3-tomlkit

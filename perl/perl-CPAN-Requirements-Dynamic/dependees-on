@@ -43,7 +43,9 @@ perl-MooseX-Traits
 perl-MooseX-Types-Structured
 perl-MooseX-Types
 perl-Net-Works
+perl-PPIx-QuoteLike
 perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-Readonly
 perl-SOAP-Lite
 perl-Throwable

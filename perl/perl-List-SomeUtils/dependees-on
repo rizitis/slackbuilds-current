@@ -13,5 +13,6 @@ perl-MaxMind-DB-Reader
 perl-MooseX-Types-Structured
 perl-Net-Works
 perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-Test-Bits
 perl-TryCatch

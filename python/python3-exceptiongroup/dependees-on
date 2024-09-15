@@ -25,6 +25,7 @@ jupyter_server
 jupyterlab
 jupyterlab_server
 kolorcontrol
+linkchecker
 nwg-displays
 nwg-panel
 nwg-shell-config

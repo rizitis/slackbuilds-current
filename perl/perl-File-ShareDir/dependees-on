@@ -10,6 +10,8 @@ perl-Geo-Coordinates-OSGB
 perl-Geo-Coordinates-OSGB
 perl-Mail-DMARC
 perl-Mojolicious-Plugin-Humane
+perl-Perl-Critic
+perl-Pod-Spell
 perl-SDL
 perl-Test-File-ShareDir-Dist
 perl-Test-File-ShareDir

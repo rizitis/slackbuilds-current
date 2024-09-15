@@ -4,6 +4,8 @@ cistrome-conductGO
 cistrome-mdseqpos
 gscan2pdf
 perl-Image-Sane
+perl-PPIx-QuoteLike
+perl-Perl-Critic
 perl-Readonly
 rpy2
 rstudio-desktop-legacy

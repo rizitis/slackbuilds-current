@@ -6,7 +6,11 @@ perl-File-Save-Home
 perl-HTML-WikiConverter-Markdown
 perl-HTML-WikiConverter
 perl-PPI
+perl-PPIx-QuoteLike
+perl-PPIx-Regexp
+perl-PPIx-Utils
 perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-String-PerlIdentifier
 perl-Sub-Override
 perl-Test-Class

@@ -1,4 +1,4 @@
 python3-tornado
 python3-ptyprocess
-terminado
+python3-terminado
 jupyter_server_terminals

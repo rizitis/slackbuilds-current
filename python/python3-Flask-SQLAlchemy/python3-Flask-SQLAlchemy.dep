@@ -1,5 +1,5 @@
 greenlet
-typing-extensions
+python3-typing-extensions
 SQLAlchemy
 python3-blinker
 click

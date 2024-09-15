@@ -76,11 +76,15 @@ perl-Net-Pcap
 perl-Net-Write
 perl-Net-XMPP
 perl-PPI
+perl-PPIx-QuoteLike
+perl-PPIx-Regexp
+perl-PPIx-Utils
 perl-Params-Classify
 perl-Params-Validate
 perl-Parse-Method-Signatures
 perl-Parser-MGC
 perl-Path-Class
+perl-Perl-Critic
 perl-SDL
 perl-SNMP-Info
 perl-SOAP-Lite

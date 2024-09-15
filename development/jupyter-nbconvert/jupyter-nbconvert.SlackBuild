@@ -27,7 +27,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=jupyter-nbconvert
 VERSION=${VERSION:-7.16.4}
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
 
@@ -69,6 +69,9 @@ find -L . \
 # Code taken from Gentoo science project:
 # https://gitweb.gentoo.org/repo/gentoo.git/tree/dev-python/nbconvert/nbconvert-7.16.1.ebuild
 sed -e 's:css = .*:raise PermissionError("You shall not fetch!"):' -i hatch_build.py
+
+PYVER=$(python3 -c 'import sys; print("%d.%d" % sys.version_info[:2])')
+export PYTHONPATH=/opt/python$PYVER/site-packages
 
 python3 -m build --no-isolation
 python3 -m installer -d "$PKG" dist/*.whl

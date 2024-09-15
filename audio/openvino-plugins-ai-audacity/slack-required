@@ -1,5 +1,5 @@
 whisper.cpp
-typing-extensions
+python3-typing-extensions
 pytorch
 OpenCL-CLHPP
 pybind11
@@ -8,6 +8,13 @@ pugixml
 xbyak
 oneTBB
 openvino
+unifdef
+xdg-dbus-proxy
+libwpe
+wpebackend-fdo
+geoclue2
+bubblewrap
+webkit2gtk
 wxWidgets
 serd
 sord

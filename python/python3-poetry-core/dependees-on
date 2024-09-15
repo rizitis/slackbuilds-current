@@ -23,6 +23,8 @@ jupyterlab_pygments
 jupyterlab_server
 kallithea-frontend
 letsencrypt
+linkchecker
+locust
 pelican
 python3-Flask-Babel
 python3-Flask-Security-Too

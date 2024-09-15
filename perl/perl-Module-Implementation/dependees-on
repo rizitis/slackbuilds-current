@@ -33,6 +33,7 @@ perl-Package-DeprecationManager
 perl-Package-Stash
 perl-Params-Validate
 perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-Sub-Exporter-ForMethods
 perl-Test-Bits
 perl-Test-CleanNamespaces

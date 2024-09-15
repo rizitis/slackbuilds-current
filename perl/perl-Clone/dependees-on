@@ -31,7 +31,11 @@ perl-HTTP-Proxy
 perl-LWP-Protocol-https
 perl-LWP-Protocol-socks
 perl-PPI
+perl-PPIx-QuoteLike
+perl-PPIx-Regexp
+perl-PPIx-Utils
 perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-SOAP-Lite
 perl-Test-MockModule
 perl-TryCatch

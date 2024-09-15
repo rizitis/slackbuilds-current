@@ -1,3 +1,5 @@
+cpprestsdk
+LucenePlusPlus
 unifdef
 xdg-dbus-proxy
 libwpe
@@ -5,5 +7,4 @@ wpebackend-fdo
 geoclue2
 bubblewrap
 webkit2gtk
-LucenePlusPlus
-wxGTK3
+wxWidgets

@@ -1,4 +1,5 @@
-pytz
+python3-pytz
+python2-pytz
 tzlocal
 python3-flit_scm
 python3-exceptiongroup

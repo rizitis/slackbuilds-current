@@ -14,5 +14,5 @@ python2-soupsieve
 python2-BeautifulSoup4
 python2-lxml
 greenlet
-typing-extensions
+python3-typing-extensions
 SQLAlchemy

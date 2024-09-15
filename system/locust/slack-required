@@ -1,3 +1,7 @@
+python3-poetry-core
+python3-dunamai
+python3-tomlkit
+python3-poetry-dynamic-versioning
 python3-blinker
 click
 python3-itsdangerous
@@ -6,7 +10,7 @@ Flask
 python3-Flask-Login
 python3-Flask-Cors
 roundrobin
-typing-extensions
+python3-typing-extensions
 python3-configargparse
 zope.event
 zope.interface

@@ -6,5 +6,6 @@ pangzero
 perl-Exception-Class
 perl-Image-Sane
 perl-Params-ValidationCompiler
+perl-Perl-Critic
 perl-SDL
 perl-Test-Most

@@ -20,6 +20,7 @@ jupyter-notebook_shim
 jupyter_server
 jupyterlab
 jupyterlab_server
+linkchecker
 parsel
 periscope
 pyPEG2

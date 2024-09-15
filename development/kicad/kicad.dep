@@ -1,13 +1,14 @@
 libgit2
-wxWidgets
-python3-attrdict
-python3-pathlib2
 unifdef
 xdg-dbus-proxy
 libwpe
 wpebackend-fdo
 geoclue2
 bubblewrap
+webkit2gtk
+wxWidgets
+python3-attrdict
+python3-pathlib2
 webkit2gtk4.1
 wxPython4
 # %README%: see the unixODBC README file. 
