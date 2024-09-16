@@ -41,28 +41,28 @@ start_time=$(date +%s)
    LongDesc="It can be used for executing Algol 68 programs or scripts. Algol68 is a rather lean orthogonal general-purpose language that is a beautiful means for denoting algorithms. Algol 68 was designed as a general-purpose programming language by IFIP Working Group 2.1 (Algorithmic Languages and Calculi) that has continuing responsibility for Algol 60 and Algol 68. Algol 68 Genie and its documentation can be obtained from"
 #############################################################################
 # EDIT FOLLOWING AS NEEDED:
-   SRCURL="https://jmvdveer.home.xs4all.nl/algol68g-3.5.4.tar.gz"
-   # IF you need:git checkout, else leave it empty.    
+   SRCURL="https://jmvdveer.home.xs4all.nl/algol68g-3.5.5.tar.gz"
+   # IF you need:git checkout, else leave it empty.
    GITCHEK=
    # Supported COMPRESS types are: tar.gz, tar.xz, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z
    #OR repos: cvn, cvs, git, lftp
    COMPRESS="tar.gz"
    SRCNAM=algol68g
    PRGNAM=a68g
-   VERSION=3.5.4
+   VERSION=3.5.5
 
    BUILD=${BUILD:-1}
    TAG=${TAG:-_rtz}
-   PKGTYPE=${PKGTYPE:-tlz}   
+   PKGTYPE=${PKGTYPE:-tlz}
    PKG=$CWD/package-$PRGNAM
    TMP=$CWD/work
    OUTPUT=$CWD/binary-$PRGNAM-$VERSION
 
 
-   
-# START EDIT FUNCTIONS AS FOR YOUR NEEDS    
 
-   patch_build() { 
+# START EDIT FUNCTIONS AS FOR YOUR NEEDS
+
+   patch_build() {
 true
 }
 
@@ -92,7 +92,7 @@ true
 	make "$NUMJOBS"
 	make install DESTDIR="$PKG"
    }
-   
+
    meson_build(){
 	  mkdir build
 	  cd build
@@ -111,7 +111,7 @@ true
 	  DESTDIR=$PKG $NINJA install
 	cd ..
    }
-   
+
    python_build(){
 	python2 setup.py install --root="$PKG"
 	python3 setup.py install --root="$PKG"
@@ -119,7 +119,7 @@ true
 	python3 -m build --wheel --no-isolation
 	python3 -m installer --destdir "$PKG" dist/*.whl
    }
-   
+
    cmake_build(){
    cd $TMP || exit
    wget https://cdn-fastly.obsproject.com/downloads/cef_binary_5060_linux_x86_64_v3.tar.xz
@@ -132,12 +132,12 @@ true
       -DCMAKE_BUILD_TYPE=Release .
 
     make libcef_dll_wrapper
-     
+
    cd $TMP/$SRCNAM-$VERSION/plugins || exit
    git clone https://github.com/obsproject/obs-browser
-   git clone https://github.com/obsproject/obs-websocket 
+   git clone https://github.com/obsproject/obs-websocket
 
-   cd  $TMP/$SRCNAM-$VERSION || exit 
+   cd  $TMP/$SRCNAM-$VERSION || exit
    mkdir -p build
 	cd build
 	cmake \
@@ -180,7 +180,7 @@ true
 
 # Build method #2
 # requires perl-Module-Build or perl-Module-Build-Tiny
-        perl Build.PL \ 
+        perl Build.PL \
           --installdirs vendor \
           --config installvendorman1dir=/usr/man/man1 \
           --config installvendorman3dir=/usr/man/man3
@@ -212,12 +212,12 @@ true
 	  mkdir -p "$PKG"/"$PKGCONFD"
 	  mv $SRCNAM-$VERSION.conf "$PKG"/"$PKGCONFD"/"$PKGID".conf
    }
-   
+
    cargo_build() {
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 
-/usr/bin/cargo build --release 
+/usr/bin/cargo build --release
 
         install -Dm755 "target/release/$PRGNAM" "$PKG/usr/bin/$PRGNAM"
         install -Dm644 "assets/io.github.dimtpap.coppwr.desktop" "$PKG/usr/share/applications/io.github.dimtpap.coppwr.desktop"
@@ -250,13 +250,13 @@ CXXFLAGS="$SLKCFLAGS" \
   mkdir -p "$PKG"/usr/bin/
   install -Dm755 "$PRGNAM"-"$VERSION"/? "$PKG"/usr/bin/"$PRGNAM"
   }
-   
+
    custom_build(){
     ./autogen.sh
     make
         make install DESTDIR=$PKG
   }
-   
+
    after_build(){
 	  mkdir -p "$PKG"/usr/doc/$PRGNAM-$VERSION
 	  cp -a "$DOCS" "$PKG"/usr/doc/$PRGNAM-"$VERSION" || true
@@ -316,7 +316,7 @@ CXXFLAGS="$SLKCFLAGS" \
           if [ -x /usr/bin/glib-compile-schemas ]; then
             /usr/bin/glib-compile-schemas usr/share/glib-2.0/schemas >/dev/null 2>&1
           fi
-        fi 
+        fi
 
         if [ -x usr/bin/update-mime-database ]; then
           chroot . /usr/bin/update-mime-database usr/share/mime >/dev/null 2>&1
@@ -335,25 +335,25 @@ MKINS
 	  echo "Or you must create one. Please read lines: 25-33 of $PRGNAM.SlackBuild"
 	  echo " "
 	  exit 1
-	fi 
-	
+	fi
+
 	if [ -f "$CWD"/slack-required ]; then
 	  cat "$CWD"/slack-required > "$PKG"/install/slack-required
 	fi
-	
+
 	if [ -f "$CWD"/slack-suggests ]; then
 	  cat "$CWD"/slack-suggests > "$PKG"/install/slack-suggests
 	fi
-	
+
 	if [ -f "$CWD"/slack-conflicts ]; then
 	  cat "$CWD"/slack-conflicts > "$PKG"/install/slack-conflicts
 	fi
-	
+
 	if [ -d "$PKG"/usr/man ]; then
 	  ( cd "$PKG"/usr/man
 	  find . -type f -exec gzip -9 {} \;
 	  for i in $(find . -type l) ; do ln -s $(readlink "$i").gz "$i".gz ; rm "$i" ; done
-	  ) 
+	  )
 	fi
 
 	if [ -d "$PKG"/usr/info ]; then
@@ -362,14 +362,14 @@ MKINS
 	fi
 
    }
-   
-   
+
+
    package_build() {
    cd $PKG || exit 66
 	  rm -f "$PKG"/{,usr/}lib${LIBDIRSUFFIX}/*.la
 	  find "$PKG" | xargs file | grep -e "executable" -e "shared object" | grep ELF \
 	  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
-	  
+
 	  find "$PKG" -name perllocal.pod \
 	  -o -name ".packlist" \
 	  -o -name "*.bs" \
@@ -379,36 +379,36 @@ MKINS
 	  makepkg -l y -c n "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE" 2>&1 | tee "$OUTPUT"/makepkg-${PRGNAM}.log
 	  echo "$DATE $Packager" | sed -e '1r /dev/stdin' "$OUTPUT/makepkg-${PRGNAM}.log" > "$OUTPUT/makepkg-${PRGNAM}.log.tmp" && mv "$OUTPUT/makepkg-${PRGNAM}.log.tmp" "$OUTPUT/makepkg-${PRGNAM}.log"
 
-	  
+
 	  cd "$OUTPUT" || exit
 	  md5sum $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE" > $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE".md5
 	  cat "$PKG"/install/slack-desc | grep "^${PRGNAM}" > $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE".txt
 	if [ -f "$PKG"/install/slack-required ]; then
-	  cat "$PKG"/install/slack-required > $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG".dep 
+	  cat "$PKG"/install/slack-required > $PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG".dep
 	fi
    }
-   
+
    clean_src(){
 	cd $CWD || exit
-	rm -r package-"$PRGNAM" work *.$COMPRESS 
+	rm -r package-"$PRGNAM" work *.$COMPRESS
    }
 
    pkg_install(){
 	upgradepkg --install-new --reinstall "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE"
    }
-   
-   
-   
+
+
+
   sig_package(){
 #  Add you id_rsa, example:
     prikey_path="/root/id_rsa"
-         openssl dgst -sha256 -sign $prikey_path  -out "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE".sig "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE" 
-   } 
-   
-   
+         openssl dgst -sha256 -sign $prikey_path  -out "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE".sig "$OUTPUT"/$PRGNAM-$VERSION-"$ARCH"-"$BUILD""$TAG"."$PKGTYPE"
+   }
+
+
    # END OF EDIT # Just uncomment needed functions at the end of script!
-   
-   
+
+
    if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) ARCH=i586 ;;
@@ -420,7 +420,7 @@ fi
 if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
   echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
   exit 0
-fi 
+fi
 
 if [ "$ARCH" = "i586" ]; then
   SLKCFLAGS="-O2 -march=i586 -mtune=i686"
@@ -438,7 +438,7 @@ else
   SLKCFLAGS="-O2"
   LIBDIRSUFFIX=""
 fi
-     
+
    DATE="$(date)"
    NUMJOBS=${NUMJOBS:-"-j$(getconf _NPROCESSORS_ONLN)"}
 DOCS=\
@@ -516,7 +516,7 @@ download_src(){
 	rm -rf "$PKG" "$OUTPUT" "$COMPRESS" "$CWD"/error-"$PRGNAM".log
 	mkdir -p "$TMP" "$PKG" "$OUTPUT"
 	rm -rf "$TMP"/$PRGNAM-$VERSION
-	
+
 	get_out() {
     if [ -f "$1" ] ; then
         case "$1" in
@@ -555,8 +555,8 @@ download_src(){
     fi
 }
 
-   	
-        cd "$TMP" || exit 
+
+        cd "$TMP" || exit
         if [[ $COMPRESS != "git" && $COMPRESS != "svn" && $COMPRESS != "cvs" && $COMPRESS != "lftp" ]]; then
           get_out "$CWD"/"$SRCNAM"-"$VERSION"."$COMPRESS" || exit
            cd $SRCNAM-$VERSION || cd $PRGNAM-$VERSION ||exit
@@ -565,7 +565,7 @@ download_src(){
            cd $SRCNAM || cd $PRGNAM ||exit
         fi
    }
-   
+
 
 # default most of times #
 
