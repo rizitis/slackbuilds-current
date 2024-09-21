@@ -1,5 +1,4 @@
 python3-wcwidth
 python3-flit_scm
 python3-exceptiongroup
-python3-hatch_vcs
 python3-iniconfig

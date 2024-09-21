@@ -6,7 +6,6 @@ mypy_extensions
 python3-typing-extensions
 mypy
 pyserial
-python3-hatch_vcs
 python3-platformdirs
 python3-dill
 python3-mccabe

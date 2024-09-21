@@ -1,6 +1,6 @@
-ClipboardViewer
-ClipboardViewer
 antares
+ClipboardViewer
+ClipboardViewer
 coriander
 coriander
 gconf-editor
@@ -9,8 +9,8 @@ gnome-commander
 gnome-commander
 gnome-pkgtool
 gnome-pkgtool
-gnome-python-desktop
 gnome-python
+gnome-python-desktop
 gnome-sharp
 gnome-sharp
 libbonoboui

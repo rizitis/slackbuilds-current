@@ -2,14 +2,14 @@ haskell-ansi-terminal
 haskell-ansi-wl-pprint
 haskell-colour
 haskell-graphviz
+haskell-hspec
 haskell-hspec-core
 haskell-hspec-smallcheck
-haskell-hspec
 haskell-optparse-applicative
-haskell-skylighting-core
 haskell-skylighting
+haskell-skylighting-core
+haskell-test-framework
 haskell-test-framework-hunit
 haskell-test-framework-quickcheck2
-haskell-test-framework
 mptcpd
 pandoc

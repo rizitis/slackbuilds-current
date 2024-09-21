@@ -3,7 +3,7 @@ perl-Email-Date-Format
 perl-Email-MIME
 perl-Email-Sender
 perl-Email-Simple
-perl-MIME-Lite
 perl-Mail-DMARC
+perl-MIME-Lite
 perl-SOAP-Lite
 remotebox

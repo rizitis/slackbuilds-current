@@ -1,8 +1,8 @@
-docker-cli
-docker-cli
-docker-compose
-docker-compose
 docker
+docker-cli
+docker-cli
+docker-compose
+docker-compose
 libnvidia-container
 nvidia-container-toolkit
 subuser

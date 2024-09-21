@@ -1,8 +1,8 @@
-haskell-X11-xft
-haskell-X11-xft
 haskell-X11
+haskell-X11-xft
+haskell-X11-xft
 mptcpd
 xmobar
 xmobar
-xmonad-contrib
 xmonad
+xmonad-contrib

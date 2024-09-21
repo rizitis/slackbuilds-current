@@ -1,5 +1,4 @@
 0ad
-CubicSDR
 apvlv
 audacity
 badwolf
@@ -7,11 +6,12 @@ boinc
 bottles
 calls
 cinny-desktop
+CubicSDR
 devhelp
 dvdstyler
+evolution
 evolution-data-server
 evolution-ews
-evolution
 filezilla
 folks
 gdm
@@ -28,8 +28,8 @@ gnome-online-accounts
 gnome-photos
 gnome-shell
 gnome-terminal
-gnucash-docs
 gnucash
+gnucash-docs
 golly
 grilo-plugins
 gui-ufw
@@ -55,9 +55,9 @@ veracrypt
 webkit2gtk
 wxFormBuilder
 wxHexEditor
-wxWidgets
 wxpdfdoc
 wxsvg
+wxWidgets
 xchm
 xiphos
 yelp

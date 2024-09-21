@@ -1,8 +1,8 @@
-FreeFem
 amd
 camd
 cholmod
 cholmod
+FreeFem
 klu
 scikit-umfpack
 scikit-umfpack

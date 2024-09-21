@@ -6,7 +6,6 @@ python3-icalendar
 TatSu
 python3-types-python-dateutil
 python3-arrow
-python3-hatch_vcs
 python3-hatch_fancy_pypi_readme
 python3-attrs
 ics

@@ -1,4 +1,3 @@
-SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
 findimagedupes
@@ -6,9 +5,10 @@ le
 perl-File-Copy-Recursive
 perl-Inline-C
 perl-Mail-DMARC
-perl-Test-File-ShareDir-Dist
 perl-Test-File-ShareDir
+perl-Test-File-ShareDir-Dist
 rpy2
-rstudio-desktop-legacy
 rstudio-desktop
+rstudio-desktop-legacy
+SeqMonk
 shutter

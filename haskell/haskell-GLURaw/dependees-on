@@ -1,12 +1,12 @@
-SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
+haskell-gloss
+haskell-gloss-rendering
 haskell-GLURaw
 haskell-GLUT
 haskell-OpenGL
-haskell-gloss-rendering
-haskell-gloss
 mptcpd
 rpy2
-rstudio-desktop-legacy
 rstudio-desktop
+rstudio-desktop-legacy
+SeqMonk

@@ -4,8 +4,8 @@ haskell-doctemplates
 haskell-errors
 haskell-pandoc-lua-marshal
 haskell-safe
-haskell-skylighting-core
 haskell-skylighting
+haskell-skylighting-core
 haskell-text-conversions
 haskell-th-orphans
 haskell-th-reify-many

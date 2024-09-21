@@ -10,7 +10,6 @@ python3-deprecation
 jupyter_packaging
 jupyterlab_pygments
 python3-hatch-nodejs-version
-python3-hatch_vcs
 python3-platformdirs
 traitlets
 jupyter_core

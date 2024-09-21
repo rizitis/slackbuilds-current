@@ -1,8 +1,8 @@
 perl-Eval-Closure
 perl-Moose
 perl-MooseX-Traits
-perl-MooseX-Types-Structured
 perl-MooseX-Types
+perl-MooseX-Types-Structured
 perl-Params-ValidationCompiler
 perl-Parse-Method-Signatures
 perl-TryCatch

@@ -6,7 +6,6 @@ zeromq
 python3-pyzmq
 python3-dateutil
 python3-nest_asyncio
-python3-hatch_vcs
 python3-platformdirs
 jupyter_core
 python3-entrypoints

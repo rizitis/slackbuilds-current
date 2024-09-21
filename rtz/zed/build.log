@@ -1,0 +1,3976 @@
+Log file is located at /home/omen/BUILDS/clopy-paste/zed/build.log
+Starting build process...
+--2024-09-16 18:46:22--  https://github.com/zed-industries/zed/archive/refs/tags/v0.138.4.tar.gz
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/zed-industries/zed/tar.gz/refs/tags/v0.138.4 [following]
+--2024-09-16 18:46:23--  https://codeload.github.com/zed-industries/zed/tar.gz/refs/tags/v0.138.4
+Resolving codeload.github.com (codeload.github.com)... 140.82.121.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.121.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘zed-0.138.4.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  437K
+    50K .......... .......... .......... .......... ..........  881K
+   100K .......... .......... .......... .......... .......... 6.56M
+   150K .......... .......... .......... .......... .......... 4.93M
+   200K .......... .......... .......... .......... .......... 1.06M
+   250K .......... .......... .......... .......... .......... 5.31M
+   300K .......... .......... .......... .......... .......... 5.00M
+   350K .......... .......... .......... .......... ..........  344K
+   400K .......... .......... .......... .......... .......... 51.0M
+   450K .......... .......... .......... .......... .......... 51.8M
+   500K .......... .......... .......... .......... .......... 57.2M
+   550K .......... .......... .......... .......... .......... 57.7M
+   600K .......... .......... .......... .......... .......... 63.4M
+   650K .......... .......... .......... .......... .......... 68.0M
+   700K .......... .......... .......... .......... .......... 67.2M
+   750K .......... .......... .......... .......... .......... 74.5M
+   800K .......... .......... .......... .......... .......... 75.1M
+   850K .......... .......... .......... .......... .......... 79.0M
+   900K .......... .......... .......... .......... .......... 17.5M
+   950K .......... .......... .......... .......... .......... 4.33M
+  1000K .......... .......... .......... .......... .......... 3.23M
+  1050K .......... .......... .......... .......... .......... 2.03M
+  1100K .......... .......... .......... .......... .......... 5.06M
+  1150K .......... .......... .......... .......... ..........  776K
+  1200K .......... .......... .......... .......... .......... 65.9M
+  1250K .......... .......... .......... .......... .......... 73.9M
+  1300K .......... .......... .......... .......... .......... 74.8M
+  1350K .......... .......... .......... .......... .......... 64.3M
+  1400K .......... .......... .......... .......... .......... 73.0M
+  1450K .......... .......... .......... .......... .......... 5.83M
+  1500K .......... .......... .......... .......... .......... 1.89M
+  1550K .......... .......... .......... .......... .......... 4.01M
+  1600K .......... .......... .......... .......... .......... 4.18M
+  1650K .......... .......... .......... .......... .......... 4.08M
+  1700K .......... .......... .......... .......... .......... 2.07M
+  1750K .......... .......... .......... .......... .......... 4.09M
+  1800K .......... .......... .......... .......... .......... 3.76M
+  1850K .......... .......... .......... .......... .......... 3.73M
+  1900K .......... .......... .......... .......... .......... 2.30M
+  1950K .......... .......... .......... .......... .......... 3.98M
+  2000K .......... .......... .......... .......... .......... 4.03M
+  2050K .......... .......... .......... .......... .......... 4.42M
+  2100K .......... .......... .......... .......... .......... 2.03M
+  2150K .......... .......... .......... .......... .......... 5.02M
+  2200K .......... .......... .......... .......... .......... 4.03M
+  2250K .......... .......... .......... .......... .......... 1.98M
+  2300K .......... .......... .......... .......... .......... 4.84M
+  2350K .......... .......... .......... .......... .......... 3.76M
+  2400K .......... .......... .......... .......... .......... 3.94M
+  2450K .......... .......... .......... .......... .......... 2.28M
+  2500K .......... .......... .......... .......... .......... 3.90M
+  2550K .......... .......... .......... .......... .......... 4.31M
+  2600K .......... .......... .......... .......... .......... 4.28M
+  2650K .......... .......... .......... .......... .......... 2.23M
+  2700K .......... .......... .......... .......... .......... 3.80M
+  2750K .......... .......... .......... .......... .......... 4.87M
+  2800K .......... .......... .......... .......... .......... 3.92M
+  2850K .......... .......... .......... .......... .......... 2.09M
+  2900K .......... .......... .......... .......... .......... 4.38M
+  2950K .......... .......... .......... .......... .......... 3.94M
+  3000K .......... .......... .......... .......... .......... 4.93M
+  3050K .......... .......... .......... .......... .......... 2.02M
+  3100K .......... .......... .......... .......... .......... 4.95M
+  3150K .......... .......... .......... .......... .......... 3.62M
+  3200K .......... .......... .......... .......... .......... 4.94M
+  3250K .......... .......... .......... .......... .......... 2.09M
+  3300K .......... .......... .......... .......... .......... 4.82M
+  3350K .......... .......... .......... .......... .......... 3.53M
+  3400K .......... .......... .......... .......... .......... 5.18M
+  3450K .......... .......... .......... .......... .......... 2.11M
+  3500K .......... .......... .......... .......... .......... 4.66M
+  3550K .......... .......... .......... .......... .......... 3.45M
+  3600K .......... .......... .......... .......... .......... 5.25M
+  3650K .......... .......... .......... .......... .......... 2.14M
+  3700K .......... .......... .......... .......... .......... 3.96M
+  3750K .......... .......... .......... .......... .......... 4.23M
+  3800K .......... .......... .......... .......... .......... 5.09M
+  3850K .......... .......... .......... .......... .......... 2.24M
+  3900K .......... .......... .......... .......... .......... 4.02M
+  3950K .......... .......... .......... .......... .......... 4.44M
+  4000K .......... .......... .......... .......... .......... 4.80M
+  4050K .......... .......... .......... .......... .......... 2.10M
+  4100K .......... .......... .......... .......... .......... 4.86M
+  4150K .......... .......... .......... .......... .......... 3.69M
+  4200K .......... .......... .......... .......... .......... 5.34M
+  4250K .......... .......... .......... .......... .......... 2.16M
+  4300K .......... .......... .......... .......... .......... 4.65M
+  4350K .......... .......... .......... .......... .......... 4.05M
+  4400K .......... .......... .......... .......... .......... 4.92M
+  4450K .......... .......... .......... .......... .......... 3.50M
+  4500K .......... .......... .......... .......... .......... 2.37M
+  4550K .......... .......... .......... .......... .......... 3.86M
+  4600K .......... .......... .......... .......... .......... 5.20M
+  4650K .......... .......... .......... .......... .......... 4.29M
+  4700K .......... .......... .......... .......... .......... 2.27M
+  4750K .......... .......... .......... .......... .......... 4.11M
+  4800K .......... .......... .......... .......... .......... 5.04M
+  4850K .......... .......... .......... .......... .......... 4.87M
+  4900K .......... .......... .......... .......... .......... 2.17M
+  4950K .......... .......... .......... .......... .......... 4.58M
+  5000K .......... .......... .......... .......... .......... 4.32M
+  5050K .......... .......... .......... .......... .......... 5.50M
+  5100K .......... .......... .......... .......... .......... 2.05M
+  5150K .......... .......... .......... .......... .......... 4.74M
+  5200K .......... .......... .......... .......... .......... 3.52M
+  5250K .......... .......... .......... .......... .......... 6.68M
+  5300K .......... .......... .......... .......... .......... 2.12M
+  5350K .......... .......... .......... .......... .......... 4.76M
+  5400K .......... .......... .......... .......... .......... 3.54M
+  5450K .......... .......... .......... .......... .......... 4.91M
+  5500K .......... .......... .......... .......... .......... 4.18M
+  5550K .......... .......... .......... .......... .......... 2.61M
+  5600K .......... .......... .......... .......... .......... 3.57M
+  5650K .......... .......... .......... .......... .......... 4.61M
+  5700K .......... .......... .......... .......... .......... 4.11M
+  5750K .......... .......... .......... .......... .......... 2.71M
+  5800K .......... .......... .......... .......... .......... 3.58M
+  5850K .......... .......... .......... .......... .......... 4.72M
+  5900K .......... .......... .......... .......... .......... 6.22M
+  5950K .......... .......... .......... .......... .......... 2.20M
+  6000K .......... .......... .......... .......... .......... 4.69M
+  6050K .......... .......... .......... .......... .......... 4.28M
+  6100K .......... .......... .......... .......... .......... 4.40M
+  6150K .......... .......... .......... .......... .......... 2.82M
+  6200K .......... .......... .......... .......... .......... 3.39M
+  6250K .......... .......... .......... .......... .......... 4.34M
+  6300K .......... .......... .......... .......... .......... 4.45M
+  6350K .......... .......... .......... .......... .......... 4.46M
+  6400K .......... .......... .......... .......... .......... 2.56M
+  6450K .......... .......... .......... .......... .......... 3.56M
+  6500K .......... .......... .......... .......... .......... 4.72M
+  6550K .......... .......... .......... .......... .......... 4.95M
+  6600K .......... .......... .......... .......... .......... 2.41M
+  6650K .......... .......... .......... .......... .......... 4.66M
+  6700K .......... .......... .......... .......... .......... 3.65M
+  6750K .......... .......... .......... .......... .......... 5.23M
+  6800K .......... .......... .......... .......... .......... 2.83M
+  6850K .......... .......... .......... .......... .......... 3.85M
+  6900K .......... .......... .......... .......... .......... 3.20M
+  6950K .......... .......... .......... .......... .......... 6.71M
+  7000K .......... .......... .......... .......... .......... 4.28M
+  7050K .......... .......... .......... .......... .......... 2.44M
+  7100K .......... .......... .......... .......... .......... 3.74M
+  7150K .......... .......... .......... .......... .......... 3.32M
+  7200K .......... .......... .......... .......... .......... 5.61M
+  7250K .......... .......... .......... .......... .......... 3.41M
+  7300K .......... .......... .......... .......... .......... 3.85M
+  7350K .......... .......... .......... .......... .......... 3.13M
+  7400K .......... .......... .......... .......... .......... 3.68M
+  7450K .......... .......... .......... .......... .......... 5.88M
+  7500K .......... .......... .......... .......... .......... 3.23M
+  7550K .......... .......... .......... .......... .......... 3.13M
+  7600K .......... .......... .......... .......... .......... 3.84M
+  7650K .......... .......... .......... .......... .......... 4.99M
+  7700K .......... .......... .......... .......... .......... 3.49M
+  7750K .......... .......... .......... .......... .......... 4.34M
+  7800K .......... .......... .......... .......... .......... 2.40M
+  7850K .......... .......... .......... .......... .......... 7.46M
+  7900K .......... .......... .......... .......... .......... 3.93M
+  7950K .......... .......... .......... .......... .......... 3.69M
+  8000K .......... .......... .......... .......... .......... 3.06M
+  8050K .......... .......... .......... .......... .......... 3.60M
+  8100K .......... .......... .......... .......... .......... 6.12M
+  8150K .......... .......... .......... .......... .......... 2.83M
+  8200K .......... .......... .......... .......... .......... 6.84M
+  8250K .......... .......... .......... .......... .......... 2.52M
+  8300K .......... .......... .......... .......... .......... 4.66M
+  8350K .......... .......... .......... .......... .......... 5.09M
+  8400K .......... .......... .......... .......... .......... 3.29M
+  8450K .......... .......... .......... .......... .......... 3.38M
+  8500K .......... .......... .......... .......... .......... 3.85M
+  8550K .......... .......... .......... .......... .......... 5.04M
+  8600K .......... .......... .......... .......... .......... 3.24M
+  8650K .......... .......... .......... .......... .......... 5.02M
+  8700K .......... .......... .......... .......... .......... 2.77M
+  8750K .......... .......... .......... .......... .......... 5.22M
+  8800K .......... .......... .......... .......... .......... 3.21M
+  8850K .......... .......... .......... .......... .......... 4.38M
+  8900K .......... .......... .......... .......... .......... 3.12M
+  8950K .......... .......... .......... .......... .......... 3.85M
+  9000K .......... .......... .......... .......... .......... 4.73M
+  9050K .......... .......... .......... .......... .......... 3.37M
+  9100K .......... .......... .......... .......... .......... 5.41M
+  9150K .......... .......... .......... .......... .......... 3.14M
+  9200K .......... .......... .......... .......... .......... 3.77M
+  9250K .......... .......... .......... .......... .......... 4.23M
+  9300K .......... .......... .......... .......... .......... 3.23M
+  9350K .......... .......... .......... .......... .......... 3.90M
+  9400K .......... .......... .......... .......... .......... 3.80M
+  9450K .......... .......... .......... .......... .......... 4.48M
+  9500K .......... .......... .......... .......... .......... 3.25M
+  9550K .......... .......... .......... .......... .......... 4.85M
+  9600K .......... .......... .......... .......... .......... 3.01M
+  9650K .......... .......... .......... .......... .......... 3.83M
+  9700K .......... .......... .......... .......... .......... 3.07M
+  9750K .......... .......... .......... .......... .......... 5.22M
+  9800K .......... .......... .......... .......... .......... 4.90M
+  9850K .......... .......... .......... .......... .......... 3.55M
+  9900K .......... .......... .......... .......... .......... 3.77M
+  9950K .......... .......... .......... .......... .......... 3.09M
+ 10000K .......... .......... .......... .......... .......... 6.97M
+ 10050K .......... .......... .......... .......... .......... 2.99M
+ 10100K .......... .......... .......... .......... .......... 4.61M
+ 10150K .......... .......... .......... .......... .......... 2.94M
+ 10200K .......... .......... .......... .......... .......... 5.15M
+ 10250K .......... .......... .......... .......... .......... 5.22M
+ 10300K .......... .......... .......... .......... .......... 2.94M
+ 10350K .......... .......... .......... .......... .......... 4.14M
+ 10400K .......... .......... .......... .......... .......... 2.90M
+ 10450K .......... .......... .......... .......... .......... 6.44M
+ 10500K .......... .......... .......... .......... .......... 3.85M
+ 10550K .......... .......... .......... .......... .......... 3.82M
+ 10600K .......... .......... .......... .......... .......... 2.70M
+ 10650K .......... .......... .......... .......... .......... 5.08M
+ 10700K .......... .......... .......... .......... .......... 4.88M
+ 10750K .......... .......... .......... .......... .......... 3.11M
+ 10800K .......... .......... .......... .......... .......... 4.73M
+ 10850K .......... .......... .......... .......... .......... 2.99M
+ 10900K .......... .......... .......... .......... .......... 4.56M
+ 10950K .......... .......... .......... .......... .......... 4.82M
+ 11000K .......... .......... .......... .......... .......... 3.49M
+ 11050K .......... .......... .......... .......... .......... 2.88M
+ 11100K .......... .......... .......... .......... .......... 4.25M
+ 11150K .......... .......... .......... .......... .......... 5.07M
+ 11200K .......... .......... .......... .......... .......... 3.59M
+ 11250K .......... .......... .......... .......... .......... 5.04M
+ 11300K .......... .......... .......... .......... .......... 2.58M
+ 11350K .......... .......... .......... .......... .......... 4.98M
+ 11400K .......... .......... .......... .......... .......... 4.75M
+ 11450K .......... .......... .......... .......... .......... 3.40M
+ 11500K .......... .......... .......... .......... .......... 3.16M
+ 11550K .......... .......... .......... .......... .......... 4.79M
+ 11600K .......... .......... .......... .......... .......... 4.75M
+ 11650K .......... .......... .......... .......... .......... 3.08M
+ 11700K .......... .......... .......... .......... .......... 4.78M
+ 11750K .......... .......... .......... .......... .......... 3.18M
+ 11800K .......... .......... .......... .......... .......... 4.57M
+ 11850K .......... .......... .......... .......... .......... 4.60M
+ 11900K .......... .......... .......... .......... .......... 3.12M
+ 11950K .......... .......... .......... .......... .......... 3.29M
+ 12000K .......... .......... .......... .......... .......... 4.75M
+ 12050K .......... .......... .......... .......... .......... 4.76M
+ 12100K .......... .......... .......... .......... .......... 2.91M
+ 12150K .......... .......... .......... .......... .......... 5.24M
+ 12200K .......... .......... .......... .......... .......... 3.50M
+ 12250K .......... .......... .......... .......... .......... 3.47M
+ 12300K .......... .......... .......... .......... .......... 5.27M
+ 12350K .......... .......... .......... .......... .......... 3.29M
+ 12400K .......... .......... .......... .......... .......... 3.69M
+ 12450K .......... .......... .......... .......... .......... 4.74M
+ 12500K .......... .......... .......... .......... .......... 3.78M
+ 12550K .......... .......... .......... .......... .......... 3.65M
+ 12600K .......... .......... .......... .......... .......... 5.43M
+ 12650K .......... .......... .......... .......... .......... 2.88M
+ 12700K .......... .......... .......... .......... .......... 3.86M
+ 12750K .......... .......... .......... .......... .......... 5.42M
+ 12800K .......... .......... .......... .......... .......... 3.56M
+ 12850K .......... .......... .......... .......... .......... 5.03M
+ 12900K .......... .......... .......... .......... .......... 2.96M
+ 12950K .......... .......... .......... .......... .......... 4.49M
+ 13000K .......... .......... .......... .......... .......... 3.29M
+ 13050K .......... .......... .......... .......... .......... 4.84M
+ 13100K .......... .......... .......... .......... .......... 3.90M
+ 13150K .......... .......... .......... .......... .......... 3.61M
+ 13200K .......... .......... .......... .......... .......... 4.08M
+ 13250K .......... .......... .......... .......... .......... 3.54M
+ 13300K .......... .......... .......... .......... .......... 4.80M
+ 13350K .......... .......... .......... .......... .......... 2.73M
+ 13400K .......... .......... .......... .......... .......... 4.91M
+ 13450K .......... .......... .......... .......... .......... 5.34M
+ 13500K .......... .......... .......... .......... .......... 3.44M
+ 13550K .......... .......... .......... .......... .......... 3.77M
+ 13600K .......... .......... .......... .......... .......... 3.09M
+ 13650K .......... .......... .......... .......... .......... 5.09M
+ 13700K .......... .......... .......... .......... .......... 3.90M
+ 13750K .......... .......... .......... .......... .......... 5.08M
+ 13800K .......... .......... .......... .......... .......... 2.44M
+ 13850K .......... .......... .......... .......... .......... 5.09M
+ 13900K .......... .......... .......... .......... .......... 5.11M
+ 13950K .......... .......... .......... .......... .......... 3.77M
+ 14000K .......... .......... .......... .......... .......... 3.48M
+ 14050K .......... .......... .......... .......... .......... 3.06M
+ 14100K .......... .......... .......... .......... .......... 5.16M
+ 14150K .......... .......... .......... .......... .......... 3.96M
+ 14200K .......... .......... .......... .......... .......... 4.76M
+ 14250K .......... .......... .......... .......... .......... 2.33M
+ 14300K .......... .......... .......... .......... .......... 6.31M
+ 14350K .......... .......... .......... .......... .......... 5.09M
+ 14400K .......... .......... .......... .......... .......... 4.28M
+ 14450K .......... .......... .......... .......... .......... 3.68M
+ 14500K .......... .......... .......... .......... .......... 2.08M
+ 14550K .......... .......... .......... .......... .......... 18.2M
+ 14600K .......... .......... .......... .......... .......... 4.21M
+ 14650K .......... .......... .......... .......... .......... 4.63M
+ 14700K .......... .......... .......... .......... .......... 3.59M
+ 14750K .......... .......... .......... .......... .......... 2.01M
+ 14800K .......... .......... .......... .......... .......... 6.13M
+ 14850K .......... .......... .......... .......... .......... 5.22M
+ 14900K .......... .......... .......... .......... .......... 5.31M
+ 14950K .......... .......... .......... .......... .......... 1.93M
+ 15000K .......... .......... .......... .......... .......... 5.41M
+ 15050K .......... .......... .......... .......... .......... 5.21M
+ 15100K .......... .......... .......... .......... .......... 6.27M
+ 15150K .......... .......... .......... .......... .......... 5.39M
+ 15200K .......... .......... .......... .......... .......... 2.02M
+ 15250K .......... .......... .......... .......... .          4.38M=4.2s
+
+2024-09-16 18:46:28 (3.56 MB/s) - ‘zed-0.138.4.tar.gz’ saved [15658232]
+
+zed-0.138.4/
+zed-0.138.4/.cargo/
+zed-0.138.4/.cargo/ci-config.toml
+zed-0.138.4/.cargo/config.toml
+zed-0.138.4/.cloudflare/
+zed-0.138.4/.cloudflare/README.md
+zed-0.138.4/.cloudflare/docs-proxy/
+zed-0.138.4/.cloudflare/docs-proxy/src/
+zed-0.138.4/.cloudflare/docs-proxy/src/worker.js
+zed-0.138.4/.cloudflare/docs-proxy/wrangler.toml
+zed-0.138.4/.cloudflare/open-source-website-assets/
+zed-0.138.4/.cloudflare/open-source-website-assets/src/
+zed-0.138.4/.cloudflare/open-source-website-assets/src/worker.js
+zed-0.138.4/.cloudflare/open-source-website-assets/wrangler.toml
+zed-0.138.4/.config/
+zed-0.138.4/.config/nextest.toml
+zed-0.138.4/.dockerignore
+zed-0.138.4/.gitattributes
+zed-0.138.4/.github/
+zed-0.138.4/.github/ISSUE_TEMPLATE/
+zed-0.138.4/.github/ISSUE_TEMPLATE/0_feature_request.yml
+zed-0.138.4/.github/ISSUE_TEMPLATE/1_bug_report.yml
+zed-0.138.4/.github/ISSUE_TEMPLATE/2_crash_report.yml
+zed-0.138.4/.github/ISSUE_TEMPLATE/config.yml
+zed-0.138.4/.github/actions/
+zed-0.138.4/.github/actions/check_style/
+zed-0.138.4/.github/actions/check_style/action.yml
+zed-0.138.4/.github/actions/run_tests/
+zed-0.138.4/.github/actions/run_tests/action.yml
+zed-0.138.4/.github/cherry-pick-bot.yml
+zed-0.138.4/.github/pull_request_template.md
+zed-0.138.4/.github/workflows/
+zed-0.138.4/.github/workflows/bump_patch_version.yml
+zed-0.138.4/.github/workflows/ci.yml
+zed-0.138.4/.github/workflows/danger.yml
+zed-0.138.4/.github/workflows/deploy_cloudflare.yml
+zed-0.138.4/.github/workflows/deploy_collab.yml
+zed-0.138.4/.github/workflows/publish_extension_cli.yml
+zed-0.138.4/.github/workflows/randomized_tests.yml
+zed-0.138.4/.github/workflows/release_actions.yml
+zed-0.138.4/.github/workflows/release_nightly.yml
+zed-0.138.4/.github/workflows/update_all_top_ranking_issues.yml
+zed-0.138.4/.github/workflows/update_weekly_top_ranking_issues.yml
+zed-0.138.4/.gitignore
+zed-0.138.4/.mailmap
+zed-0.138.4/.zed/
+zed-0.138.4/.zed/settings.json
+zed-0.138.4/.zed/tasks.json
+zed-0.138.4/CODE_OF_CONDUCT.md
+zed-0.138.4/CONTRIBUTING.md
+zed-0.138.4/Cargo.lock
+zed-0.138.4/Cargo.toml
+zed-0.138.4/Dockerfile
+zed-0.138.4/LICENSE-AGPL
+zed-0.138.4/LICENSE-APACHE
+zed-0.138.4/LICENSE-GPL
+zed-0.138.4/Procfile
+zed-0.138.4/README.md
+zed-0.138.4/assets/
+zed-0.138.4/assets/fonts/
+zed-0.138.4/assets/fonts/zed-mono/
+zed-0.138.4/assets/fonts/zed-mono/zed-mono-extended.ttf
+zed-0.138.4/assets/fonts/zed-mono/zed-mono-extendedbold.ttf
+zed-0.138.4/assets/fonts/zed-mono/zed-mono-extendedbolditalic.ttf
+zed-0.138.4/assets/fonts/zed-mono/zed-mono-extendeditalic.ttf
+zed-0.138.4/assets/fonts/zed-sans/
+zed-0.138.4/assets/fonts/zed-sans/zed-sans-extended.ttf
+zed-0.138.4/assets/fonts/zed-sans/zed-sans-extendedbold.ttf
+zed-0.138.4/assets/fonts/zed-sans/zed-sans-extendedbolditalic.ttf
+zed-0.138.4/assets/fonts/zed-sans/zed-sans-extendeditalic.ttf
+zed-0.138.4/assets/icons/
+zed-0.138.4/assets/icons/LICENSES
+zed-0.138.4/assets/icons/ai.svg
+zed-0.138.4/assets/icons/arrow_circle.svg
+zed-0.138.4/assets/icons/arrow_down.svg
+zed-0.138.4/assets/icons/arrow_down_from_line.svg
+zed-0.138.4/assets/icons/arrow_left.svg
+zed-0.138.4/assets/icons/arrow_right.svg
+zed-0.138.4/assets/icons/arrow_up.svg
+zed-0.138.4/assets/icons/arrow_up_from_line.svg
+zed-0.138.4/assets/icons/arrow_up_right.svg
+zed-0.138.4/assets/icons/at_sign.svg
+zed-0.138.4/assets/icons/backspace.svg
+zed-0.138.4/assets/icons/bell.svg
+zed-0.138.4/assets/icons/bell_dot.svg
+zed-0.138.4/assets/icons/bell_off.svg
+zed-0.138.4/assets/icons/bell_ring.svg
+zed-0.138.4/assets/icons/bolt.svg
+zed-0.138.4/assets/icons/caret_down.svg
+zed-0.138.4/assets/icons/caret_up.svg
+zed-0.138.4/assets/icons/case_insensitive.svg
+zed-0.138.4/assets/icons/check.svg
+zed-0.138.4/assets/icons/check_circle.svg
+zed-0.138.4/assets/icons/chevron_down.svg
+zed-0.138.4/assets/icons/chevron_left.svg
+zed-0.138.4/assets/icons/chevron_right.svg
+zed-0.138.4/assets/icons/chevron_up.svg
+zed-0.138.4/assets/icons/circle_check.svg
+zed-0.138.4/assets/icons/code.svg
+zed-0.138.4/assets/icons/command.svg
+zed-0.138.4/assets/icons/control.svg
+zed-0.138.4/assets/icons/conversations.svg
+zed-0.138.4/assets/icons/copilot.svg
+zed-0.138.4/assets/icons/copilot_disabled.svg
+zed-0.138.4/assets/icons/copilot_error.svg
+zed-0.138.4/assets/icons/copilot_init.svg
+zed-0.138.4/assets/icons/copy.svg
+zed-0.138.4/assets/icons/countdown_timer.svg
+zed-0.138.4/assets/icons/dash.svg
+zed-0.138.4/assets/icons/delete.svg
+zed-0.138.4/assets/icons/desktop.svg
+zed-0.138.4/assets/icons/disconnected.svg
+zed-0.138.4/assets/icons/download.svg
+zed-0.138.4/assets/icons/ellipsis.svg
+zed-0.138.4/assets/icons/error.svg
+zed-0.138.4/assets/icons/escape.svg
+zed-0.138.4/assets/icons/exit.svg
+zed-0.138.4/assets/icons/expand_vertical.svg
+zed-0.138.4/assets/icons/external_link.svg
+zed-0.138.4/assets/icons/feedback.svg
+zed-0.138.4/assets/icons/file.svg
+zed-0.138.4/assets/icons/file_icons/
+zed-0.138.4/assets/icons/file_icons/ai.svg
+zed-0.138.4/assets/icons/file_icons/archive.svg
+zed-0.138.4/assets/icons/file_icons/astro.svg
+zed-0.138.4/assets/icons/file_icons/audio.svg
+zed-0.138.4/assets/icons/file_icons/book.svg
+zed-0.138.4/assets/icons/file_icons/bun.svg
+zed-0.138.4/assets/icons/file_icons/c.svg
+zed-0.138.4/assets/icons/file_icons/camera.svg
+zed-0.138.4/assets/icons/file_icons/chevron_down.svg
+zed-0.138.4/assets/icons/file_icons/chevron_left.svg
+zed-0.138.4/assets/icons/file_icons/chevron_right.svg
+zed-0.138.4/assets/icons/file_icons/chevron_up.svg
+zed-0.138.4/assets/icons/file_icons/code.svg
+zed-0.138.4/assets/icons/file_icons/coffeescript.svg
+zed-0.138.4/assets/icons/file_icons/conversations.svg
+zed-0.138.4/assets/icons/file_icons/cpp.svg
+zed-0.138.4/assets/icons/file_icons/css.svg
+zed-0.138.4/assets/icons/file_icons/dart.svg
+zed-0.138.4/assets/icons/file_icons/database.svg
+zed-0.138.4/assets/icons/file_icons/docker.svg
+zed-0.138.4/assets/icons/file_icons/elixir.svg
+zed-0.138.4/assets/icons/file_icons/elm.svg
+zed-0.138.4/assets/icons/file_icons/erlang.svg
+zed-0.138.4/assets/icons/file_icons/eslint.svg
+zed-0.138.4/assets/icons/file_icons/file.svg
+zed-0.138.4/assets/icons/file_icons/file_types.json
+zed-0.138.4/assets/icons/file_icons/folder.svg
+zed-0.138.4/assets/icons/file_icons/folder_open.svg
+zed-0.138.4/assets/icons/file_icons/font.svg
+zed-0.138.4/assets/icons/file_icons/fsharp.svg
+zed-0.138.4/assets/icons/file_icons/git.svg
+zed-0.138.4/assets/icons/file_icons/go.svg
+zed-0.138.4/assets/icons/file_icons/graphql.svg
+zed-0.138.4/assets/icons/file_icons/hash.svg
+zed-0.138.4/assets/icons/file_icons/haskell.svg
+zed-0.138.4/assets/icons/file_icons/heroku.svg
+zed-0.138.4/assets/icons/file_icons/html.svg
+zed-0.138.4/assets/icons/file_icons/image.svg
+zed-0.138.4/assets/icons/file_icons/info.svg
+zed-0.138.4/assets/icons/file_icons/java.svg
+zed-0.138.4/assets/icons/file_icons/javascript.svg
+zed-0.138.4/assets/icons/file_icons/kotlin.svg
+zed-0.138.4/assets/icons/file_icons/lock.svg
+zed-0.138.4/assets/icons/file_icons/lua.svg
+zed-0.138.4/assets/icons/file_icons/magnifying_glass.svg
+zed-0.138.4/assets/icons/file_icons/nim.svg
+zed-0.138.4/assets/icons/file_icons/notebook.svg
+zed-0.138.4/assets/icons/file_icons/ocaml.svg
+zed-0.138.4/assets/icons/file_icons/package.svg
+zed-0.138.4/assets/icons/file_icons/phoenix.svg
+zed-0.138.4/assets/icons/file_icons/php.svg
+zed-0.138.4/assets/icons/file_icons/plus.svg
+zed-0.138.4/assets/icons/file_icons/prettier.svg
+zed-0.138.4/assets/icons/file_icons/prisma.svg
+zed-0.138.4/assets/icons/file_icons/project.svg
+zed-0.138.4/assets/icons/file_icons/python.svg
+zed-0.138.4/assets/icons/file_icons/r.svg
+zed-0.138.4/assets/icons/file_icons/react.svg
+zed-0.138.4/assets/icons/file_icons/replace.svg
+zed-0.138.4/assets/icons/file_icons/replace_all.svg
+zed-0.138.4/assets/icons/file_icons/replace_next.svg
+zed-0.138.4/assets/icons/file_icons/ruby.svg
+zed-0.138.4/assets/icons/file_icons/rust.svg
+zed-0.138.4/assets/icons/file_icons/scala.svg
+zed-0.138.4/assets/icons/file_icons/settings.svg
+zed-0.138.4/assets/icons/file_icons/swift.svg
+zed-0.138.4/assets/icons/file_icons/tcl.svg
+zed-0.138.4/assets/icons/file_icons/terminal.svg
+zed-0.138.4/assets/icons/file_icons/terraform.svg
+zed-0.138.4/assets/icons/file_icons/toml.svg
+zed-0.138.4/assets/icons/file_icons/typescript.svg
+zed-0.138.4/assets/icons/file_icons/video.svg
+zed-0.138.4/assets/icons/file_icons/vue.svg
+zed-0.138.4/assets/icons/filter.svg
+zed-0.138.4/assets/icons/github.svg
+zed-0.138.4/assets/icons/hash.svg
+zed-0.138.4/assets/icons/history_rerun.svg
+zed-0.138.4/assets/icons/indicator.svg
+zed-0.138.4/assets/icons/indicator_x.svg
+zed-0.138.4/assets/icons/inlay_hint.svg
+zed-0.138.4/assets/icons/library.svg
+zed-0.138.4/assets/icons/link.svg
+zed-0.138.4/assets/icons/logo_96.svg
+zed-0.138.4/assets/icons/magic_wand.svg
+zed-0.138.4/assets/icons/magnifying_glass.svg
+zed-0.138.4/assets/icons/mail_open.svg
+zed-0.138.4/assets/icons/maximize.svg
+zed-0.138.4/assets/icons/menu.svg
+zed-0.138.4/assets/icons/mic.svg
+zed-0.138.4/assets/icons/mic_mute.svg
+zed-0.138.4/assets/icons/minimize.svg
+zed-0.138.4/assets/icons/option.svg
+zed-0.138.4/assets/icons/page_down.svg
+zed-0.138.4/assets/icons/page_up.svg
+zed-0.138.4/assets/icons/pencil.svg
+zed-0.138.4/assets/icons/person.svg
+zed-0.138.4/assets/icons/play.svg
+zed-0.138.4/assets/icons/plus.svg
+zed-0.138.4/assets/icons/project.svg
+zed-0.138.4/assets/icons/public.svg
+zed-0.138.4/assets/icons/pull_request.svg
+zed-0.138.4/assets/icons/quote.svg
+zed-0.138.4/assets/icons/regex.svg
+zed-0.138.4/assets/icons/replace.svg
+zed-0.138.4/assets/icons/replace_all.svg
+zed-0.138.4/assets/icons/replace_next.svg
+zed-0.138.4/assets/icons/reply_arrow_right.svg
+zed-0.138.4/assets/icons/rerun.svg
+zed-0.138.4/assets/icons/return.svg
+zed-0.138.4/assets/icons/reveal.svg
+zed-0.138.4/assets/icons/save.svg
+zed-0.138.4/assets/icons/select_all.svg
+zed-0.138.4/assets/icons/server.svg
+zed-0.138.4/assets/icons/shift.svg
+zed-0.138.4/assets/icons/sliders.svg
+zed-0.138.4/assets/icons/snip.svg
+zed-0.138.4/assets/icons/space.svg
+zed-0.138.4/assets/icons/speaker_loud.svg
+zed-0.138.4/assets/icons/speaker_off.svg
+zed-0.138.4/assets/icons/spinner.svg
+zed-0.138.4/assets/icons/split.svg
+zed-0.138.4/assets/icons/stop_sharing.svg
+zed-0.138.4/assets/icons/strikethrough.svg
+zed-0.138.4/assets/icons/supermaven.svg
+zed-0.138.4/assets/icons/supermaven_disabled.svg
+zed-0.138.4/assets/icons/supermaven_error.svg
+zed-0.138.4/assets/icons/supermaven_init.svg
+zed-0.138.4/assets/icons/tab.svg
+zed-0.138.4/assets/icons/terminal.svg
+zed-0.138.4/assets/icons/trash.svg
+zed-0.138.4/assets/icons/triangle_right.svg
+zed-0.138.4/assets/icons/update.svg
+zed-0.138.4/assets/icons/user_group_16.svg
+zed-0.138.4/assets/icons/warning.svg
+zed-0.138.4/assets/icons/word_search.svg
+zed-0.138.4/assets/icons/x.svg
+zed-0.138.4/assets/icons/zed_assistant.svg
+zed-0.138.4/assets/icons/zed_x_copilot.svg
+zed-0.138.4/assets/keymaps/
+zed-0.138.4/assets/keymaps/atom.json
+zed-0.138.4/assets/keymaps/default-linux.json
+zed-0.138.4/assets/keymaps/default-macos.json
+zed-0.138.4/assets/keymaps/jetbrains.json
+zed-0.138.4/assets/keymaps/storybook.json
+zed-0.138.4/assets/keymaps/sublime_text.json
+zed-0.138.4/assets/keymaps/textmate.json
+zed-0.138.4/assets/keymaps/vim.json
+zed-0.138.4/assets/settings/
+zed-0.138.4/assets/settings/default.json
+zed-0.138.4/assets/settings/initial_local_settings.json
+zed-0.138.4/assets/settings/initial_tasks.json
+zed-0.138.4/assets/settings/initial_user_settings.json
+zed-0.138.4/assets/sounds/
+zed-0.138.4/assets/sounds/joined_call.wav
+zed-0.138.4/assets/sounds/leave_call.wav
+zed-0.138.4/assets/sounds/mute.wav
+zed-0.138.4/assets/sounds/start_screenshare.wav
+zed-0.138.4/assets/sounds/stop_screenshare.wav
+zed-0.138.4/assets/sounds/unmute.wav
+zed-0.138.4/assets/themes/
+zed-0.138.4/assets/themes/.gitkeep
+zed-0.138.4/assets/themes/LICENSES
+zed-0.138.4/assets/themes/andromeda/
+zed-0.138.4/assets/themes/andromeda/LICENSE
+zed-0.138.4/assets/themes/andromeda/andromeda.json
+zed-0.138.4/assets/themes/atelier/
+zed-0.138.4/assets/themes/atelier/LICENSE
+zed-0.138.4/assets/themes/atelier/atelier.json
+zed-0.138.4/assets/themes/ayu/
+zed-0.138.4/assets/themes/ayu/LICENSE
+zed-0.138.4/assets/themes/ayu/ayu.json
+zed-0.138.4/assets/themes/gruvbox/
+zed-0.138.4/assets/themes/gruvbox/LICENSE
+zed-0.138.4/assets/themes/gruvbox/gruvbox.json
+zed-0.138.4/assets/themes/one/
+zed-0.138.4/assets/themes/one/LICENSE
+zed-0.138.4/assets/themes/one/one.json
+zed-0.138.4/assets/themes/rose_pine/
+zed-0.138.4/assets/themes/rose_pine/LICENSE
+zed-0.138.4/assets/themes/rose_pine/rose_pine.json
+zed-0.138.4/assets/themes/sandcastle/
+zed-0.138.4/assets/themes/sandcastle/LICENSE
+zed-0.138.4/assets/themes/sandcastle/sandcastle.json
+zed-0.138.4/assets/themes/solarized/
+zed-0.138.4/assets/themes/solarized/LICENSE
+zed-0.138.4/assets/themes/solarized/solarized.json
+zed-0.138.4/assets/themes/summercamp/
+zed-0.138.4/assets/themes/summercamp/LICENSE
+zed-0.138.4/assets/themes/summercamp/summercamp.json
+zed-0.138.4/crates/
+zed-0.138.4/crates/activity_indicator/
+zed-0.138.4/crates/activity_indicator/Cargo.toml
+zed-0.138.4/crates/activity_indicator/LICENSE-GPL
+zed-0.138.4/crates/activity_indicator/src/
+zed-0.138.4/crates/activity_indicator/src/activity_indicator.rs
+zed-0.138.4/crates/anthropic/
+zed-0.138.4/crates/anthropic/Cargo.toml
+zed-0.138.4/crates/anthropic/LICENSE-AGPL
+zed-0.138.4/crates/anthropic/src/
+zed-0.138.4/crates/anthropic/src/anthropic.rs
+zed-0.138.4/crates/assets/
+zed-0.138.4/crates/assets/Cargo.toml
+zed-0.138.4/crates/assets/LICENSE-GPL
+zed-0.138.4/crates/assets/src/
+zed-0.138.4/crates/assets/src/assets.rs
+zed-0.138.4/crates/assistant/
+zed-0.138.4/crates/assistant/Cargo.toml
+zed-0.138.4/crates/assistant/LICENSE-GPL
+zed-0.138.4/crates/assistant/README.zmd
+zed-0.138.4/crates/assistant/src/
+zed-0.138.4/crates/assistant/src/assistant.rs
+zed-0.138.4/crates/assistant/src/assistant_panel.rs
+zed-0.138.4/crates/assistant/src/assistant_settings.rs
+zed-0.138.4/crates/assistant/src/codegen.rs
+zed-0.138.4/crates/assistant/src/completion_provider.rs
+zed-0.138.4/crates/assistant/src/completion_provider/
+zed-0.138.4/crates/assistant/src/completion_provider/anthropic.rs
+zed-0.138.4/crates/assistant/src/completion_provider/fake.rs
+zed-0.138.4/crates/assistant/src/completion_provider/open_ai.rs
+zed-0.138.4/crates/assistant/src/completion_provider/zed.rs
+zed-0.138.4/crates/assistant/src/prompts.rs
+zed-0.138.4/crates/assistant/src/prompts/
+zed-0.138.4/crates/assistant/src/prompts/prompt.rs
+zed-0.138.4/crates/assistant/src/prompts/prompt_library.rs
+zed-0.138.4/crates/assistant/src/prompts/prompt_manager.rs
+zed-0.138.4/crates/assistant/src/saved_conversation.rs
+zed-0.138.4/crates/assistant/src/search.rs
+zed-0.138.4/crates/assistant/src/slash_command.rs
+zed-0.138.4/crates/assistant/src/slash_command/
+zed-0.138.4/crates/assistant/src/slash_command/active_command.rs
+zed-0.138.4/crates/assistant/src/slash_command/file_command.rs
+zed-0.138.4/crates/assistant/src/slash_command/project_command.rs
+zed-0.138.4/crates/assistant/src/slash_command/prompt_command.rs
+zed-0.138.4/crates/assistant/src/slash_command/search_command.rs
+zed-0.138.4/crates/assistant/src/slash_command/tabs_command.rs
+zed-0.138.4/crates/assistant/src/streaming_diff.rs
+zed-0.138.4/crates/assistant/src/system_prompts/
+zed-0.138.4/crates/assistant/src/system_prompts/edits.md
+zed-0.138.4/crates/assistant_slash_command/
+zed-0.138.4/crates/assistant_slash_command/Cargo.toml
+zed-0.138.4/crates/assistant_slash_command/LICENSE-GPL
+zed-0.138.4/crates/assistant_slash_command/src/
+zed-0.138.4/crates/assistant_slash_command/src/assistant_slash_command.rs
+zed-0.138.4/crates/assistant_slash_command/src/slash_command_registry.rs
+zed-0.138.4/crates/assistant_tooling/
+zed-0.138.4/crates/assistant_tooling/Cargo.toml
+zed-0.138.4/crates/assistant_tooling/LICENSE-GPL
+zed-0.138.4/crates/assistant_tooling/README.md
+zed-0.138.4/crates/assistant_tooling/src/
+zed-0.138.4/crates/assistant_tooling/src/assistant_tooling.rs
+zed-0.138.4/crates/assistant_tooling/src/attachment_registry.rs
+zed-0.138.4/crates/assistant_tooling/src/project_context.rs
+zed-0.138.4/crates/assistant_tooling/src/tool_registry.rs
+zed-0.138.4/crates/audio/
+zed-0.138.4/crates/audio/Cargo.toml
+zed-0.138.4/crates/audio/LICENSE-GPL
+zed-0.138.4/crates/audio/src/
+zed-0.138.4/crates/audio/src/assets.rs
+zed-0.138.4/crates/audio/src/audio.rs
+zed-0.138.4/crates/auto_update/
+zed-0.138.4/crates/auto_update/Cargo.toml
+zed-0.138.4/crates/auto_update/LICENSE-GPL
+zed-0.138.4/crates/auto_update/src/
+zed-0.138.4/crates/auto_update/src/auto_update.rs
+zed-0.138.4/crates/auto_update/src/update_notification.rs
+zed-0.138.4/crates/breadcrumbs/
+zed-0.138.4/crates/breadcrumbs/Cargo.toml
+zed-0.138.4/crates/breadcrumbs/LICENSE-GPL
+zed-0.138.4/crates/breadcrumbs/src/
+zed-0.138.4/crates/breadcrumbs/src/breadcrumbs.rs
+zed-0.138.4/crates/call/
+zed-0.138.4/crates/call/Cargo.toml
+zed-0.138.4/crates/call/LICENSE-GPL
+zed-0.138.4/crates/call/src/
+zed-0.138.4/crates/call/src/call.rs
+zed-0.138.4/crates/call/src/call_settings.rs
+zed-0.138.4/crates/call/src/participant.rs
+zed-0.138.4/crates/call/src/room.rs
+zed-0.138.4/crates/channel/
+zed-0.138.4/crates/channel/Cargo.toml
+zed-0.138.4/crates/channel/LICENSE-GPL
+zed-0.138.4/crates/channel/src/
+zed-0.138.4/crates/channel/src/channel.rs
+zed-0.138.4/crates/channel/src/channel_buffer.rs
+zed-0.138.4/crates/channel/src/channel_chat.rs
+zed-0.138.4/crates/channel/src/channel_store.rs
+zed-0.138.4/crates/channel/src/channel_store/
+zed-0.138.4/crates/channel/src/channel_store/channel_index.rs
+zed-0.138.4/crates/channel/src/channel_store_tests.rs
+zed-0.138.4/crates/cli/
+zed-0.138.4/crates/cli/Cargo.toml
+zed-0.138.4/crates/cli/LICENSE-GPL
+zed-0.138.4/crates/cli/src/
+zed-0.138.4/crates/cli/src/cli.rs
+zed-0.138.4/crates/cli/src/main.rs
+zed-0.138.4/crates/client/
+zed-0.138.4/crates/client/Cargo.toml
+zed-0.138.4/crates/client/LICENSE-GPL
+zed-0.138.4/crates/client/src/
+zed-0.138.4/crates/client/src/client.rs
+zed-0.138.4/crates/client/src/http.rs
+zed-0.138.4/crates/client/src/telemetry.rs
+zed-0.138.4/crates/client/src/telemetry/
+zed-0.138.4/crates/client/src/telemetry/event_coalescer.rs
+zed-0.138.4/crates/client/src/test.rs
+zed-0.138.4/crates/client/src/user.rs
+zed-0.138.4/crates/clock/
+zed-0.138.4/crates/clock/Cargo.toml
+zed-0.138.4/crates/clock/LICENSE-GPL
+zed-0.138.4/crates/clock/src/
+zed-0.138.4/crates/clock/src/clock.rs
+zed-0.138.4/crates/clock/src/system_clock.rs
+zed-0.138.4/crates/collab/
+zed-0.138.4/crates/collab/.env.toml
+zed-0.138.4/crates/collab/Cargo.toml
+zed-0.138.4/crates/collab/LICENSE-AGPL
+zed-0.138.4/crates/collab/README.md
+zed-0.138.4/crates/collab/admin_api.conf
+zed-0.138.4/crates/collab/k8s/
+zed-0.138.4/crates/collab/k8s/collab.template.yml
+zed-0.138.4/crates/collab/k8s/environments/
+zed-0.138.4/crates/collab/k8s/environments/production.sh
+zed-0.138.4/crates/collab/k8s/environments/staging.sh
+zed-0.138.4/crates/collab/k8s/migrate.template.yml
+zed-0.138.4/crates/collab/k8s/postgrest.template.yml
+zed-0.138.4/crates/collab/migrations.sqlite/
+zed-0.138.4/crates/collab/migrations.sqlite/20221109000000_test_schema.sql
+zed-0.138.4/crates/collab/migrations/
+zed-0.138.4/crates/collab/migrations/20210527024318_initial_schema.sql
+zed-0.138.4/crates/collab/migrations/20210607190313_create_access_tokens.sql
+zed-0.138.4/crates/collab/migrations/20210805175147_create_chat_tables.sql
+zed-0.138.4/crates/collab/migrations/20210916123647_add_nonce_to_channel_messages.sql
+zed-0.138.4/crates/collab/migrations/20210920192001_add_interests_to_signups.sql
+zed-0.138.4/crates/collab/migrations/20220421165757_drop_signups.sql
+zed-0.138.4/crates/collab/migrations/20220505144506_add_trigram_index_to_users.sql
+zed-0.138.4/crates/collab/migrations/20220506130724_create_contacts.sql
+zed-0.138.4/crates/collab/migrations/20220518151305_add_invites_to_users.sql
+zed-0.138.4/crates/collab/migrations/20220523232954_allow_user_deletes.sql
+zed-0.138.4/crates/collab/migrations/20220620211403_create_projects.sql
+zed-0.138.4/crates/collab/migrations/20220913211150_create_signups.sql
+zed-0.138.4/crates/collab/migrations/20220929182110_add_metrics_id.sql
+zed-0.138.4/crates/collab/migrations/20221111092550_reconnection_support.sql
+zed-0.138.4/crates/collab/migrations/20221125192125_add_added_to_mailing_list_to_signups.sql
+zed-0.138.4/crates/collab/migrations/20221207165001_add_connection_lost_to_room_participants.sql
+zed-0.138.4/crates/collab/migrations/20221213125710_index_room_participants_on_room_id.sql
+zed-0.138.4/crates/collab/migrations/20221214144346_change_epoch_from_uuid_to_integer.sql
+zed-0.138.4/crates/collab/migrations/20221219181850_project_reconnection_support.sql
+zed-0.138.4/crates/collab/migrations/20230103200902_replace_is_completed_with_completed_scan_id.sql
+zed-0.138.4/crates/collab/migrations/20230202155735_followers.sql
+zed-0.138.4/crates/collab/migrations/20230508211523_add-repository-entries.sql
+zed-0.138.4/crates/collab/migrations/20230511004019_add_repository_statuses.sql
+zed-0.138.4/crates/collab/migrations/20230529164700_add_worktree_settings_files.sql
+zed-0.138.4/crates/collab/migrations/20230605191135_remove_repository_statuses.sql
+zed-0.138.4/crates/collab/migrations/20230616134535_add_is_external_to_worktree_entries.sql
+zed-0.138.4/crates/collab/migrations/20230727150500_add_channels.sql
+zed-0.138.4/crates/collab/migrations/20230819154600_add_channel_buffers.sql
+zed-0.138.4/crates/collab/migrations/20230825190322_add_server_feature_flags.sql
+zed-0.138.4/crates/collab/migrations/20230907114200_add_channel_messages.sql
+zed-0.138.4/crates/collab/migrations/20230925210437_add_channel_changes.sql
+zed-0.138.4/crates/collab/migrations/20230926102500_add_participant_index_to_room_participants.sql
+zed-0.138.4/crates/collab/migrations/20231004130100_create_notifications.sql
+zed-0.138.4/crates/collab/migrations/20231009181554_add_release_channel_to_rooms.sql
+zed-0.138.4/crates/collab/migrations/20231010114600_add_unique_index_on_rooms_channel_id.sql
+zed-0.138.4/crates/collab/migrations/20231011214412_add_guest_role.sql
+zed-0.138.4/crates/collab/migrations/20231017185833_projects_room_id_fkey_on_delete_cascade.sql
+zed-0.138.4/crates/collab/migrations/20231018102700_create_mentions.sql
+zed-0.138.4/crates/collab/migrations/20231024085546_move_channel_paths_to_channels_table.sql
+zed-0.138.4/crates/collab/migrations/20240103025509_add_role_to_room_participants.sql
+zed-0.138.4/crates/collab/migrations/20240111085546_fix_column_name.sql
+zed-0.138.4/crates/collab/migrations/20240117150300_add_impersonator_to_access_tokens.sql
+zed-0.138.4/crates/collab/migrations/20240122174606_add_contributors.sql
+zed-0.138.4/crates/collab/migrations/20240122224506_add_requires_zed_cla_column_to_channels.sql
+zed-0.138.4/crates/collab/migrations/20240129193601_fix_parent_path_index.sql
+zed-0.138.4/crates/collab/migrations/20240203113741_add_reply_to_message.sql
+zed-0.138.4/crates/collab/migrations/20240207041417_add_in_call_column_to_room_participants.sql
+zed-0.138.4/crates/collab/migrations/20240213200201_remove_unused_room_columns.sql
+zed-0.138.4/crates/collab/migrations/20240214102900_add_extensions.sql
+zed-0.138.4/crates/collab/migrations/20240220234826_add_rate_buckets.sql
+zed-0.138.4/crates/collab/migrations/20240221151017_add_edited_at_field_to_channel_message.sql
+zed-0.138.4/crates/collab/migrations/20240226163408_hosted_projects.sql
+zed-0.138.4/crates/collab/migrations/20240226164505_unique_channel_names.sql
+zed-0.138.4/crates/collab/migrations/20240227215556_hosted_projects_in_projects.sql
+zed-0.138.4/crates/collab/migrations/20240307163119_denormalize_buffer_ops.sql
+zed-0.138.4/crates/collab/migrations/20240315182903_non_null_channel_role.sql
+zed-0.138.4/crates/collab/migrations/20240315183903_channel_parent_path_not_null.sql
+zed-0.138.4/crates/collab/migrations/20240320124800_add_extension_schema_version.sql
+zed-0.138.4/crates/collab/migrations/20240321162658_add_devservers.sql
+zed-0.138.4/crates/collab/migrations/20240335123500_add_extension_wasm_api_version.sql
+zed-0.138.4/crates/collab/migrations/20240402155003_add_dev_server_projects.sql
+zed-0.138.4/crates/collab/migrations/20240409082755_create_embeddings.sql
+zed-0.138.4/crates/collab/migrations/20240412165156_dev_servers_per_user.sql
+zed-0.138.4/crates/collab/migrations/20240417192746_unique_remote_projects_by_paths.sql
+zed-0.138.4/crates/collab/migrations/20240502150229_rename_to_dev_server_projects.sql
+zed-0.138.4/crates/collab/migrations/20240502180204_remove_old_remote_projects.sql
+zed-0.138.4/crates/collab/migrations/20240514164510_store_ssh_connect_string.sql
+zed-0.138.4/crates/collab/seed.default.json
+zed-0.138.4/crates/collab/src/
+zed-0.138.4/crates/collab/src/ai.rs
+zed-0.138.4/crates/collab/src/api.rs
+zed-0.138.4/crates/collab/src/api/
+zed-0.138.4/crates/collab/src/api/events.rs
+zed-0.138.4/crates/collab/src/api/extensions.rs
+zed-0.138.4/crates/collab/src/api/ips_file.rs
+zed-0.138.4/crates/collab/src/api/slack.rs
+zed-0.138.4/crates/collab/src/auth.rs
+zed-0.138.4/crates/collab/src/bin/
+zed-0.138.4/crates/collab/src/bin/dotenv.rs
+zed-0.138.4/crates/collab/src/completion.rs
+zed-0.138.4/crates/collab/src/db.rs
+zed-0.138.4/crates/collab/src/db/
+zed-0.138.4/crates/collab/src/db/ids.rs
+zed-0.138.4/crates/collab/src/db/queries.rs
+zed-0.138.4/crates/collab/src/db/queries/
+zed-0.138.4/crates/collab/src/db/queries/access_tokens.rs
+zed-0.138.4/crates/collab/src/db/queries/buffers.rs
+zed-0.138.4/crates/collab/src/db/queries/channels.rs
+zed-0.138.4/crates/collab/src/db/queries/contacts.rs
+zed-0.138.4/crates/collab/src/db/queries/contributors.rs
+zed-0.138.4/crates/collab/src/db/queries/dev_server_projects.rs
+zed-0.138.4/crates/collab/src/db/queries/dev_servers.rs
+zed-0.138.4/crates/collab/src/db/queries/embeddings.rs
+zed-0.138.4/crates/collab/src/db/queries/extensions.rs
+zed-0.138.4/crates/collab/src/db/queries/hosted_projects.rs
+zed-0.138.4/crates/collab/src/db/queries/messages.rs
+zed-0.138.4/crates/collab/src/db/queries/notifications.rs
+zed-0.138.4/crates/collab/src/db/queries/projects.rs
+zed-0.138.4/crates/collab/src/db/queries/rate_buckets.rs
+zed-0.138.4/crates/collab/src/db/queries/remote_projects.rs
+zed-0.138.4/crates/collab/src/db/queries/rooms.rs
+zed-0.138.4/crates/collab/src/db/queries/servers.rs
+zed-0.138.4/crates/collab/src/db/queries/users.rs
+zed-0.138.4/crates/collab/src/db/tables.rs
+zed-0.138.4/crates/collab/src/db/tables/
+zed-0.138.4/crates/collab/src/db/tables/access_token.rs
+zed-0.138.4/crates/collab/src/db/tables/buffer.rs
+zed-0.138.4/crates/collab/src/db/tables/buffer_operation.rs
+zed-0.138.4/crates/collab/src/db/tables/buffer_snapshot.rs
+zed-0.138.4/crates/collab/src/db/tables/channel.rs
+zed-0.138.4/crates/collab/src/db/tables/channel_buffer_collaborator.rs
+zed-0.138.4/crates/collab/src/db/tables/channel_chat_participant.rs
+zed-0.138.4/crates/collab/src/db/tables/channel_member.rs
+zed-0.138.4/crates/collab/src/db/tables/channel_message.rs
+zed-0.138.4/crates/collab/src/db/tables/channel_message_mention.rs
+zed-0.138.4/crates/collab/src/db/tables/contact.rs
+zed-0.138.4/crates/collab/src/db/tables/contributor.rs
+zed-0.138.4/crates/collab/src/db/tables/dev_server.rs
+zed-0.138.4/crates/collab/src/db/tables/dev_server_project.rs
+zed-0.138.4/crates/collab/src/db/tables/embedding.rs
+zed-0.138.4/crates/collab/src/db/tables/extension.rs
+zed-0.138.4/crates/collab/src/db/tables/extension_version.rs
+zed-0.138.4/crates/collab/src/db/tables/feature_flag.rs
+zed-0.138.4/crates/collab/src/db/tables/follower.rs
+zed-0.138.4/crates/collab/src/db/tables/hosted_project.rs
+zed-0.138.4/crates/collab/src/db/tables/language_server.rs
+zed-0.138.4/crates/collab/src/db/tables/notification.rs
+zed-0.138.4/crates/collab/src/db/tables/notification_kind.rs
+zed-0.138.4/crates/collab/src/db/tables/observed_buffer_edits.rs
+zed-0.138.4/crates/collab/src/db/tables/observed_channel_messages.rs
+zed-0.138.4/crates/collab/src/db/tables/project.rs
+zed-0.138.4/crates/collab/src/db/tables/project_collaborator.rs
+zed-0.138.4/crates/collab/src/db/tables/rate_buckets.rs
+zed-0.138.4/crates/collab/src/db/tables/room.rs
+zed-0.138.4/crates/collab/src/db/tables/room_participant.rs
+zed-0.138.4/crates/collab/src/db/tables/server.rs
+zed-0.138.4/crates/collab/src/db/tables/signup.rs
+zed-0.138.4/crates/collab/src/db/tables/user.rs
+zed-0.138.4/crates/collab/src/db/tables/user_feature.rs
+zed-0.138.4/crates/collab/src/db/tables/worktree.rs
+zed-0.138.4/crates/collab/src/db/tables/worktree_diagnostic_summary.rs
+zed-0.138.4/crates/collab/src/db/tables/worktree_entry.rs
+zed-0.138.4/crates/collab/src/db/tables/worktree_repository.rs
+zed-0.138.4/crates/collab/src/db/tables/worktree_repository_statuses.rs
+zed-0.138.4/crates/collab/src/db/tables/worktree_settings_file.rs
+zed-0.138.4/crates/collab/src/db/tests.rs
+zed-0.138.4/crates/collab/src/db/tests/
+zed-0.138.4/crates/collab/src/db/tests/buffer_tests.rs
+zed-0.138.4/crates/collab/src/db/tests/channel_tests.rs
+zed-0.138.4/crates/collab/src/db/tests/contributor_tests.rs
+zed-0.138.4/crates/collab/src/db/tests/db_tests.rs
+zed-0.138.4/crates/collab/src/db/tests/embedding_tests.rs
+zed-0.138.4/crates/collab/src/db/tests/extension_tests.rs
+zed-0.138.4/crates/collab/src/db/tests/feature_flag_tests.rs
+zed-0.138.4/crates/collab/src/db/tests/message_tests.rs
+zed-0.138.4/crates/collab/src/env.rs
+zed-0.138.4/crates/collab/src/errors.rs
+zed-0.138.4/crates/collab/src/executor.rs
+zed-0.138.4/crates/collab/src/lib.rs
+zed-0.138.4/crates/collab/src/main.rs
+zed-0.138.4/crates/collab/src/rate_limiter.rs
+zed-0.138.4/crates/collab/src/rpc.rs
+zed-0.138.4/crates/collab/src/rpc/
+zed-0.138.4/crates/collab/src/rpc/connection_pool.rs
+zed-0.138.4/crates/collab/src/seed.rs
+zed-0.138.4/crates/collab/src/tests.rs
+zed-0.138.4/crates/collab/src/tests/
+zed-0.138.4/crates/collab/src/tests/channel_buffer_tests.rs
+zed-0.138.4/crates/collab/src/tests/channel_guest_tests.rs
+zed-0.138.4/crates/collab/src/tests/channel_message_tests.rs
+zed-0.138.4/crates/collab/src/tests/channel_tests.rs
+zed-0.138.4/crates/collab/src/tests/dev_server_tests.rs
+zed-0.138.4/crates/collab/src/tests/editor_tests.rs
+zed-0.138.4/crates/collab/src/tests/following_tests.rs
+zed-0.138.4/crates/collab/src/tests/integration_tests.rs
+zed-0.138.4/crates/collab/src/tests/notification_tests.rs
+zed-0.138.4/crates/collab/src/tests/random_channel_buffer_tests.rs
+zed-0.138.4/crates/collab/src/tests/random_project_collaboration_tests.rs
+zed-0.138.4/crates/collab/src/tests/randomized_test_helpers.rs
+zed-0.138.4/crates/collab/src/tests/test_server.rs
+zed-0.138.4/crates/collab_ui/
+zed-0.138.4/crates/collab_ui/Cargo.toml
+zed-0.138.4/crates/collab_ui/LICENSE-GPL
+zed-0.138.4/crates/collab_ui/src/
+zed-0.138.4/crates/collab_ui/src/channel_view.rs
+zed-0.138.4/crates/collab_ui/src/chat_panel.rs
+zed-0.138.4/crates/collab_ui/src/chat_panel/
+zed-0.138.4/crates/collab_ui/src/chat_panel/message_editor.rs
+zed-0.138.4/crates/collab_ui/src/collab_panel.rs
+zed-0.138.4/crates/collab_ui/src/collab_panel/
+zed-0.138.4/crates/collab_ui/src/collab_panel/channel_modal.rs
+zed-0.138.4/crates/collab_ui/src/collab_panel/contact_finder.rs
+zed-0.138.4/crates/collab_ui/src/collab_titlebar_item.rs
+zed-0.138.4/crates/collab_ui/src/collab_ui.rs
+zed-0.138.4/crates/collab_ui/src/face_pile.rs
+zed-0.138.4/crates/collab_ui/src/notification_panel.rs
+zed-0.138.4/crates/collab_ui/src/notifications.rs
+zed-0.138.4/crates/collab_ui/src/notifications/
+zed-0.138.4/crates/collab_ui/src/notifications/collab_notification.rs
+zed-0.138.4/crates/collab_ui/src/notifications/incoming_call_notification.rs
+zed-0.138.4/crates/collab_ui/src/notifications/project_shared_notification.rs
+zed-0.138.4/crates/collab_ui/src/notifications/stories.rs
+zed-0.138.4/crates/collab_ui/src/notifications/stories/
+zed-0.138.4/crates/collab_ui/src/notifications/stories/collab_notification.rs
+zed-0.138.4/crates/collab_ui/src/panel_settings.rs
+zed-0.138.4/crates/collections/
+zed-0.138.4/crates/collections/Cargo.toml
+zed-0.138.4/crates/collections/LICENSE-APACHE
+zed-0.138.4/crates/collections/src/
+zed-0.138.4/crates/collections/src/collections.rs
+zed-0.138.4/crates/color/
+zed-0.138.4/crates/color/Cargo.toml
+zed-0.138.4/crates/color/LICENSE-GPL
+zed-0.138.4/crates/color/src/
+zed-0.138.4/crates/color/src/color.rs
+zed-0.138.4/crates/command_palette/
+zed-0.138.4/crates/command_palette/Cargo.toml
+zed-0.138.4/crates/command_palette/LICENSE-GPL
+zed-0.138.4/crates/command_palette/src/
+zed-0.138.4/crates/command_palette/src/command_palette.rs
+zed-0.138.4/crates/command_palette_hooks/
+zed-0.138.4/crates/command_palette_hooks/Cargo.toml
+zed-0.138.4/crates/command_palette_hooks/LICENSE-GPL
+zed-0.138.4/crates/command_palette_hooks/src/
+zed-0.138.4/crates/command_palette_hooks/src/command_palette_hooks.rs
+zed-0.138.4/crates/copilot/
+zed-0.138.4/crates/copilot/Cargo.toml
+zed-0.138.4/crates/copilot/LICENSE-GPL
+zed-0.138.4/crates/copilot/src/
+zed-0.138.4/crates/copilot/src/copilot.rs
+zed-0.138.4/crates/copilot/src/copilot_completion_provider.rs
+zed-0.138.4/crates/copilot/src/request.rs
+zed-0.138.4/crates/copilot/src/sign_in.rs
+zed-0.138.4/crates/db/
+zed-0.138.4/crates/db/Cargo.toml
+zed-0.138.4/crates/db/LICENSE-GPL
+zed-0.138.4/crates/db/README.md
+zed-0.138.4/crates/db/src/
+zed-0.138.4/crates/db/src/db.rs
+zed-0.138.4/crates/db/src/kvp.rs
+zed-0.138.4/crates/db/src/query.rs
+zed-0.138.4/crates/dev_server_projects/
+zed-0.138.4/crates/dev_server_projects/Cargo.toml
+zed-0.138.4/crates/dev_server_projects/LICENSE-GPL
+zed-0.138.4/crates/dev_server_projects/src/
+zed-0.138.4/crates/dev_server_projects/src/dev_server_projects.rs
+zed-0.138.4/crates/diagnostics/
+zed-0.138.4/crates/diagnostics/Cargo.toml
+zed-0.138.4/crates/diagnostics/LICENSE-GPL
+zed-0.138.4/crates/diagnostics/src/
+zed-0.138.4/crates/diagnostics/src/diagnostics.rs
+zed-0.138.4/crates/diagnostics/src/diagnostics_tests.rs
+zed-0.138.4/crates/diagnostics/src/items.rs
+zed-0.138.4/crates/diagnostics/src/project_diagnostics_settings.rs
+zed-0.138.4/crates/diagnostics/src/toolbar_controls.rs
+zed-0.138.4/crates/editor/
+zed-0.138.4/crates/editor/Cargo.toml
+zed-0.138.4/crates/editor/LICENSE-GPL
+zed-0.138.4/crates/editor/src/
+zed-0.138.4/crates/editor/src/actions.rs
+zed-0.138.4/crates/editor/src/blame_entry_tooltip.rs
+zed-0.138.4/crates/editor/src/blink_manager.rs
+zed-0.138.4/crates/editor/src/debounced_delay.rs
+zed-0.138.4/crates/editor/src/display_map.rs
+zed-0.138.4/crates/editor/src/display_map/
+zed-0.138.4/crates/editor/src/display_map/block_map.rs
+zed-0.138.4/crates/editor/src/display_map/flap_map.rs
+zed-0.138.4/crates/editor/src/display_map/fold_map.rs
+zed-0.138.4/crates/editor/src/display_map/inlay_map.rs
+zed-0.138.4/crates/editor/src/display_map/tab_map.rs
+zed-0.138.4/crates/editor/src/display_map/wrap_map.rs
+zed-0.138.4/crates/editor/src/editor.rs
+zed-0.138.4/crates/editor/src/editor_settings.rs
+zed-0.138.4/crates/editor/src/editor_tests.rs
+zed-0.138.4/crates/editor/src/element.rs
+zed-0.138.4/crates/editor/src/git.rs
+zed-0.138.4/crates/editor/src/git/
+zed-0.138.4/crates/editor/src/git/blame.rs
+zed-0.138.4/crates/editor/src/highlight_matching_bracket.rs
+zed-0.138.4/crates/editor/src/hover_links.rs
+zed-0.138.4/crates/editor/src/hover_popover.rs
+zed-0.138.4/crates/editor/src/hunk_diff.rs
+zed-0.138.4/crates/editor/src/indent_guides.rs
+zed-0.138.4/crates/editor/src/inlay_hint_cache.rs
+zed-0.138.4/crates/editor/src/inline_completion_provider.rs
+zed-0.138.4/crates/editor/src/items.rs
+zed-0.138.4/crates/editor/src/mouse_context_menu.rs
+zed-0.138.4/crates/editor/src/movement.rs
+zed-0.138.4/crates/editor/src/persistence.rs
+zed-0.138.4/crates/editor/src/rust_analyzer_ext.rs
+zed-0.138.4/crates/editor/src/scroll.rs
+zed-0.138.4/crates/editor/src/scroll/
+zed-0.138.4/crates/editor/src/scroll/actions.rs
+zed-0.138.4/crates/editor/src/scroll/autoscroll.rs
+zed-0.138.4/crates/editor/src/scroll/scroll_amount.rs
+zed-0.138.4/crates/editor/src/selections_collection.rs
+zed-0.138.4/crates/editor/src/tasks.rs
+zed-0.138.4/crates/editor/src/test.rs
+zed-0.138.4/crates/editor/src/test/
+zed-0.138.4/crates/editor/src/test/editor_lsp_test_context.rs
+zed-0.138.4/crates/editor/src/test/editor_test_context.rs
+zed-0.138.4/crates/extension/
+zed-0.138.4/crates/extension/Cargo.toml
+zed-0.138.4/crates/extension/LICENSE-GPL
+zed-0.138.4/crates/extension/src/
+zed-0.138.4/crates/extension/src/extension_builder.rs
+zed-0.138.4/crates/extension/src/extension_lsp_adapter.rs
+zed-0.138.4/crates/extension/src/extension_manifest.rs
+zed-0.138.4/crates/extension/src/extension_settings.rs
+zed-0.138.4/crates/extension/src/extension_slash_command.rs
+zed-0.138.4/crates/extension/src/extension_store.rs
+zed-0.138.4/crates/extension/src/extension_store_test.rs
+zed-0.138.4/crates/extension/src/wasm_host.rs
+zed-0.138.4/crates/extension/src/wasm_host/
+zed-0.138.4/crates/extension/src/wasm_host/wit.rs
+zed-0.138.4/crates/extension/src/wasm_host/wit/
+zed-0.138.4/crates/extension/src/wasm_host/wit/since_v0_0_1.rs
+zed-0.138.4/crates/extension/src/wasm_host/wit/since_v0_0_4.rs
+zed-0.138.4/crates/extension/src/wasm_host/wit/since_v0_0_6.rs
+zed-0.138.4/crates/extension/src/wasm_host/wit/since_v0_0_7.rs
+zed-0.138.4/crates/extension_api/
+zed-0.138.4/crates/extension_api/Cargo.toml
+zed-0.138.4/crates/extension_api/LICENSE-APACHE
+zed-0.138.4/crates/extension_api/README.md
+zed-0.138.4/crates/extension_api/build.rs
+zed-0.138.4/crates/extension_api/src/
+zed-0.138.4/crates/extension_api/src/extension_api.rs
+zed-0.138.4/crates/extension_api/src/settings.rs
+zed-0.138.4/crates/extension_api/wit/
+zed-0.138.4/crates/extension_api/wit/since_v0.0.1/
+zed-0.138.4/crates/extension_api/wit/since_v0.0.1/extension.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.1/github.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.1/platform.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.4/
+zed-0.138.4/crates/extension_api/wit/since_v0.0.4/extension.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.4/github.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.4/platform.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.6/
+zed-0.138.4/crates/extension_api/wit/since_v0.0.6/extension.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.6/github.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.6/lsp.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.6/nodejs.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.6/platform.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.6/settings.rs
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/extension.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/github.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/lsp.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/nodejs.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/platform.wit
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/settings.rs
+zed-0.138.4/crates/extension_api/wit/since_v0.0.7/slash-command.wit
+zed-0.138.4/crates/extension_cli/
+zed-0.138.4/crates/extension_cli/Cargo.toml
+zed-0.138.4/crates/extension_cli/LICENSE-GPL
+zed-0.138.4/crates/extension_cli/src/
+zed-0.138.4/crates/extension_cli/src/main.rs
+zed-0.138.4/crates/extensions_ui/
+zed-0.138.4/crates/extensions_ui/Cargo.toml
+zed-0.138.4/crates/extensions_ui/LICENSE-GPL
+zed-0.138.4/crates/extensions_ui/src/
+zed-0.138.4/crates/extensions_ui/src/components.rs
+zed-0.138.4/crates/extensions_ui/src/components/
+zed-0.138.4/crates/extensions_ui/src/components/extension_card.rs
+zed-0.138.4/crates/extensions_ui/src/extension_suggest.rs
+zed-0.138.4/crates/extensions_ui/src/extension_version_selector.rs
+zed-0.138.4/crates/extensions_ui/src/extensions_ui.rs
+zed-0.138.4/crates/feature_flags/
+zed-0.138.4/crates/feature_flags/Cargo.toml
+zed-0.138.4/crates/feature_flags/LICENSE-GPL
+zed-0.138.4/crates/feature_flags/src/
+zed-0.138.4/crates/feature_flags/src/feature_flags.rs
+zed-0.138.4/crates/feedback/
+zed-0.138.4/crates/feedback/Cargo.toml
+zed-0.138.4/crates/feedback/LICENSE-GPL
+zed-0.138.4/crates/feedback/src/
+zed-0.138.4/crates/feedback/src/feedback.rs
+zed-0.138.4/crates/feedback/src/feedback_modal.rs
+zed-0.138.4/crates/feedback/src/system_specs.rs
+zed-0.138.4/crates/file_finder/
+zed-0.138.4/crates/file_finder/Cargo.toml
+zed-0.138.4/crates/file_finder/LICENSE-GPL
+zed-0.138.4/crates/file_finder/src/
+zed-0.138.4/crates/file_finder/src/file_finder.rs
+zed-0.138.4/crates/file_finder/src/file_finder_tests.rs
+zed-0.138.4/crates/file_finder/src/new_path_prompt.rs
+zed-0.138.4/crates/file_icons/
+zed-0.138.4/crates/file_icons/Cargo.toml
+zed-0.138.4/crates/file_icons/LICENSE-GPL
+zed-0.138.4/crates/file_icons/src/
+zed-0.138.4/crates/file_icons/src/file_icons.rs
+zed-0.138.4/crates/fs/
+zed-0.138.4/crates/fs/Cargo.toml
+zed-0.138.4/crates/fs/LICENSE-GPL
+zed-0.138.4/crates/fs/src/
+zed-0.138.4/crates/fs/src/fs.rs
+zed-0.138.4/crates/fsevent/
+zed-0.138.4/crates/fsevent/Cargo.toml
+zed-0.138.4/crates/fsevent/LICENSE-GPL
+zed-0.138.4/crates/fsevent/examples/
+zed-0.138.4/crates/fsevent/examples/events.rs
+zed-0.138.4/crates/fsevent/src/
+zed-0.138.4/crates/fsevent/src/fsevent.rs
+zed-0.138.4/crates/fuzzy/
+zed-0.138.4/crates/fuzzy/Cargo.toml
+zed-0.138.4/crates/fuzzy/LICENSE-GPL
+zed-0.138.4/crates/fuzzy/src/
+zed-0.138.4/crates/fuzzy/src/char_bag.rs
+zed-0.138.4/crates/fuzzy/src/fuzzy.rs
+zed-0.138.4/crates/fuzzy/src/matcher.rs
+zed-0.138.4/crates/fuzzy/src/paths.rs
+zed-0.138.4/crates/fuzzy/src/strings.rs
+zed-0.138.4/crates/git/
+zed-0.138.4/crates/git/Cargo.toml
+zed-0.138.4/crates/git/LICENSE-GPL
+zed-0.138.4/crates/git/src/
+zed-0.138.4/crates/git/src/blame.rs
+zed-0.138.4/crates/git/src/commit.rs
+zed-0.138.4/crates/git/src/diff.rs
+zed-0.138.4/crates/git/src/git.rs
+zed-0.138.4/crates/git/src/hosting_provider.rs
+zed-0.138.4/crates/git/src/repository.rs
+zed-0.138.4/crates/git/test_data/
+zed-0.138.4/crates/git/test_data/blame_incremental_complex
+zed-0.138.4/crates/git/test_data/blame_incremental_not_committed
+zed-0.138.4/crates/git/test_data/blame_incremental_simple
+zed-0.138.4/crates/git/test_data/golden/
+zed-0.138.4/crates/git/test_data/golden/blame_incremental_complex.json
+zed-0.138.4/crates/git/test_data/golden/blame_incremental_not_committed.json
+zed-0.138.4/crates/git/test_data/golden/blame_incremental_simple.json
+zed-0.138.4/crates/git_hosting_providers/
+zed-0.138.4/crates/git_hosting_providers/Cargo.toml
+zed-0.138.4/crates/git_hosting_providers/LICENSE-GPL
+zed-0.138.4/crates/git_hosting_providers/src/
+zed-0.138.4/crates/git_hosting_providers/src/git_hosting_providers.rs
+zed-0.138.4/crates/git_hosting_providers/src/providers.rs
+zed-0.138.4/crates/git_hosting_providers/src/providers/
+zed-0.138.4/crates/git_hosting_providers/src/providers/bitbucket.rs
+zed-0.138.4/crates/git_hosting_providers/src/providers/codeberg.rs
+zed-0.138.4/crates/git_hosting_providers/src/providers/gitee.rs
+zed-0.138.4/crates/git_hosting_providers/src/providers/github.rs
+zed-0.138.4/crates/git_hosting_providers/src/providers/gitlab.rs
+zed-0.138.4/crates/git_hosting_providers/src/providers/sourcehut.rs
+zed-0.138.4/crates/go_to_line/
+zed-0.138.4/crates/go_to_line/Cargo.toml
+zed-0.138.4/crates/go_to_line/LICENSE-GPL
+zed-0.138.4/crates/go_to_line/src/
+zed-0.138.4/crates/go_to_line/src/cursor_position.rs
+zed-0.138.4/crates/go_to_line/src/go_to_line.rs
+zed-0.138.4/crates/google_ai/
+zed-0.138.4/crates/google_ai/Cargo.toml
+zed-0.138.4/crates/google_ai/LICENSE-GPL
+zed-0.138.4/crates/google_ai/src/
+zed-0.138.4/crates/google_ai/src/google_ai.rs
+zed-0.138.4/crates/gpui/
+zed-0.138.4/crates/gpui/Cargo.toml
+zed-0.138.4/crates/gpui/LICENSE-APACHE
+zed-0.138.4/crates/gpui/README.md
+zed-0.138.4/crates/gpui/build.rs
+zed-0.138.4/crates/gpui/docs/
+zed-0.138.4/crates/gpui/docs/contexts.md
+zed-0.138.4/crates/gpui/docs/key_dispatch.md
+zed-0.138.4/crates/gpui/examples/
+zed-0.138.4/crates/gpui/examples/animation.rs
+zed-0.138.4/crates/gpui/examples/hello_world.rs
+zed-0.138.4/crates/gpui/examples/image/
+zed-0.138.4/crates/gpui/examples/image/app-icon.png
+zed-0.138.4/crates/gpui/examples/image/arrow_circle.svg
+zed-0.138.4/crates/gpui/examples/image/image.rs
+zed-0.138.4/crates/gpui/examples/ownership_post.rs
+zed-0.138.4/crates/gpui/examples/set_menus.rs
+zed-0.138.4/crates/gpui/examples/window_positioning.rs
+zed-0.138.4/crates/gpui/resources/
+zed-0.138.4/crates/gpui/resources/windows/
+zed-0.138.4/crates/gpui/resources/windows/gpui.manifest.xml
+zed-0.138.4/crates/gpui/resources/windows/gpui.rc
+zed-0.138.4/crates/gpui/src/
+zed-0.138.4/crates/gpui/src/action.rs
+zed-0.138.4/crates/gpui/src/app.rs
+zed-0.138.4/crates/gpui/src/app/
+zed-0.138.4/crates/gpui/src/app/async_context.rs
+zed-0.138.4/crates/gpui/src/app/entity_map.rs
+zed-0.138.4/crates/gpui/src/app/model_context.rs
+zed-0.138.4/crates/gpui/src/app/test_context.rs
+zed-0.138.4/crates/gpui/src/arena.rs
+zed-0.138.4/crates/gpui/src/asset_cache.rs
+zed-0.138.4/crates/gpui/src/assets.rs
+zed-0.138.4/crates/gpui/src/bounds_tree.rs
+zed-0.138.4/crates/gpui/src/color.rs
+zed-0.138.4/crates/gpui/src/element.rs
+zed-0.138.4/crates/gpui/src/elements/
+zed-0.138.4/crates/gpui/src/elements/anchored.rs
+zed-0.138.4/crates/gpui/src/elements/animation.rs
+zed-0.138.4/crates/gpui/src/elements/canvas.rs
+zed-0.138.4/crates/gpui/src/elements/deferred.rs
+zed-0.138.4/crates/gpui/src/elements/div.rs
+zed-0.138.4/crates/gpui/src/elements/img.rs
+zed-0.138.4/crates/gpui/src/elements/list.rs
+zed-0.138.4/crates/gpui/src/elements/mod.rs
+zed-0.138.4/crates/gpui/src/elements/svg.rs
+zed-0.138.4/crates/gpui/src/elements/text.rs
+zed-0.138.4/crates/gpui/src/elements/uniform_list.rs
+zed-0.138.4/crates/gpui/src/executor.rs
+zed-0.138.4/crates/gpui/src/geometry.rs
+zed-0.138.4/crates/gpui/src/global.rs
+zed-0.138.4/crates/gpui/src/gpui.rs
+zed-0.138.4/crates/gpui/src/input.rs
+zed-0.138.4/crates/gpui/src/interactive.rs
+zed-0.138.4/crates/gpui/src/key_dispatch.rs
+zed-0.138.4/crates/gpui/src/keymap.rs
+zed-0.138.4/crates/gpui/src/keymap/
+zed-0.138.4/crates/gpui/src/keymap/binding.rs
+zed-0.138.4/crates/gpui/src/keymap/context.rs
+zed-0.138.4/crates/gpui/src/keymap/matcher.rs
+zed-0.138.4/crates/gpui/src/platform.rs
+zed-0.138.4/crates/gpui/src/platform/
+zed-0.138.4/crates/gpui/src/platform/app_menu.rs
+zed-0.138.4/crates/gpui/src/platform/blade.rs
+zed-0.138.4/crates/gpui/src/platform/blade/
+zed-0.138.4/crates/gpui/src/platform/blade/blade_atlas.rs
+zed-0.138.4/crates/gpui/src/platform/blade/blade_belt.rs
+zed-0.138.4/crates/gpui/src/platform/blade/blade_renderer.rs
+zed-0.138.4/crates/gpui/src/platform/blade/shaders.wgsl
+zed-0.138.4/crates/gpui/src/platform/cosmic_text.rs
+zed-0.138.4/crates/gpui/src/platform/cosmic_text/
+zed-0.138.4/crates/gpui/src/platform/cosmic_text/text_system.rs
+zed-0.138.4/crates/gpui/src/platform/keystroke.rs
+zed-0.138.4/crates/gpui/src/platform/linux.rs
+zed-0.138.4/crates/gpui/src/platform/linux/
+zed-0.138.4/crates/gpui/src/platform/linux/dispatcher.rs
+zed-0.138.4/crates/gpui/src/platform/linux/headless.rs
+zed-0.138.4/crates/gpui/src/platform/linux/headless/
+zed-0.138.4/crates/gpui/src/platform/linux/headless/client.rs
+zed-0.138.4/crates/gpui/src/platform/linux/platform.rs
+zed-0.138.4/crates/gpui/src/platform/linux/wayland.rs
+zed-0.138.4/crates/gpui/src/platform/linux/wayland/
+zed-0.138.4/crates/gpui/src/platform/linux/wayland/client.rs
+zed-0.138.4/crates/gpui/src/platform/linux/wayland/cursor.rs
+zed-0.138.4/crates/gpui/src/platform/linux/wayland/display.rs
+zed-0.138.4/crates/gpui/src/platform/linux/wayland/serial.rs
+zed-0.138.4/crates/gpui/src/platform/linux/wayland/window.rs
+zed-0.138.4/crates/gpui/src/platform/linux/x11.rs
+zed-0.138.4/crates/gpui/src/platform/linux/x11/
+zed-0.138.4/crates/gpui/src/platform/linux/x11/client.rs
+zed-0.138.4/crates/gpui/src/platform/linux/x11/display.rs
+zed-0.138.4/crates/gpui/src/platform/linux/x11/event.rs
+zed-0.138.4/crates/gpui/src/platform/linux/x11/window.rs
+zed-0.138.4/crates/gpui/src/platform/linux/x11/xim_handler.rs
+zed-0.138.4/crates/gpui/src/platform/linux/xdg_desktop_portal.rs
+zed-0.138.4/crates/gpui/src/platform/mac.rs
+zed-0.138.4/crates/gpui/src/platform/mac/
+zed-0.138.4/crates/gpui/src/platform/mac/dispatch.h
+zed-0.138.4/crates/gpui/src/platform/mac/dispatcher.rs
+zed-0.138.4/crates/gpui/src/platform/mac/display.rs
+zed-0.138.4/crates/gpui/src/platform/mac/display_link.rs
+zed-0.138.4/crates/gpui/src/platform/mac/events.rs
+zed-0.138.4/crates/gpui/src/platform/mac/metal_atlas.rs
+zed-0.138.4/crates/gpui/src/platform/mac/metal_renderer.rs
+zed-0.138.4/crates/gpui/src/platform/mac/open_type.rs
+zed-0.138.4/crates/gpui/src/platform/mac/platform.rs
+zed-0.138.4/crates/gpui/src/platform/mac/shaders.metal
+zed-0.138.4/crates/gpui/src/platform/mac/status_item.rs
+zed-0.138.4/crates/gpui/src/platform/mac/text_system.rs
+zed-0.138.4/crates/gpui/src/platform/mac/window.rs
+zed-0.138.4/crates/gpui/src/platform/mac/window_appearance.rs
+zed-0.138.4/crates/gpui/src/platform/test.rs
+zed-0.138.4/crates/gpui/src/platform/test/
+zed-0.138.4/crates/gpui/src/platform/test/dispatcher.rs
+zed-0.138.4/crates/gpui/src/platform/test/display.rs
+zed-0.138.4/crates/gpui/src/platform/test/platform.rs
+zed-0.138.4/crates/gpui/src/platform/test/text_system.rs
+zed-0.138.4/crates/gpui/src/platform/test/window.rs
+zed-0.138.4/crates/gpui/src/platform/windows.rs
+zed-0.138.4/crates/gpui/src/platform/windows/
+zed-0.138.4/crates/gpui/src/platform/windows/direct_write.rs
+zed-0.138.4/crates/gpui/src/platform/windows/dispatcher.rs
+zed-0.138.4/crates/gpui/src/platform/windows/display.rs
+zed-0.138.4/crates/gpui/src/platform/windows/events.rs
+zed-0.138.4/crates/gpui/src/platform/windows/platform.rs
+zed-0.138.4/crates/gpui/src/platform/windows/system_settings.rs
+zed-0.138.4/crates/gpui/src/platform/windows/util.rs
+zed-0.138.4/crates/gpui/src/platform/windows/window.rs
+zed-0.138.4/crates/gpui/src/prelude.rs
+zed-0.138.4/crates/gpui/src/scene.rs
+zed-0.138.4/crates/gpui/src/shared_string.rs
+zed-0.138.4/crates/gpui/src/shared_uri.rs
+zed-0.138.4/crates/gpui/src/style.rs
+zed-0.138.4/crates/gpui/src/styled.rs
+zed-0.138.4/crates/gpui/src/subscription.rs
+zed-0.138.4/crates/gpui/src/svg_renderer.rs
+zed-0.138.4/crates/gpui/src/taffy.rs
+zed-0.138.4/crates/gpui/src/test.rs
+zed-0.138.4/crates/gpui/src/text_system.rs
+zed-0.138.4/crates/gpui/src/text_system/
+zed-0.138.4/crates/gpui/src/text_system/font_features.rs
+zed-0.138.4/crates/gpui/src/text_system/line.rs
+zed-0.138.4/crates/gpui/src/text_system/line_layout.rs
+zed-0.138.4/crates/gpui/src/text_system/line_wrapper.rs
+zed-0.138.4/crates/gpui/src/util.rs
+zed-0.138.4/crates/gpui/src/view.rs
+zed-0.138.4/crates/gpui/src/window.rs
+zed-0.138.4/crates/gpui/src/window/
+zed-0.138.4/crates/gpui/src/window/prompts.rs
+zed-0.138.4/crates/gpui/tests/
+zed-0.138.4/crates/gpui/tests/action_macros.rs
+zed-0.138.4/crates/gpui_macros/
+zed-0.138.4/crates/gpui_macros/Cargo.toml
+zed-0.138.4/crates/gpui_macros/LICENSE-APACHE
+zed-0.138.4/crates/gpui_macros/src/
+zed-0.138.4/crates/gpui_macros/src/derive_into_element.rs
+zed-0.138.4/crates/gpui_macros/src/derive_render.rs
+zed-0.138.4/crates/gpui_macros/src/gpui_macros.rs
+zed-0.138.4/crates/gpui_macros/src/register_action.rs
+zed-0.138.4/crates/gpui_macros/src/style_helpers.rs
+zed-0.138.4/crates/gpui_macros/src/test.rs
+zed-0.138.4/crates/headless/
+zed-0.138.4/crates/headless/Cargo.toml
+zed-0.138.4/crates/headless/LICENSE-GPL
+zed-0.138.4/crates/headless/src/
+zed-0.138.4/crates/headless/src/headless.rs
+zed-0.138.4/crates/http/
+zed-0.138.4/crates/http/Cargo.toml
+zed-0.138.4/crates/http/LICENSE-APACHE
+zed-0.138.4/crates/http/src/
+zed-0.138.4/crates/http/src/github.rs
+zed-0.138.4/crates/http/src/http.rs
+zed-0.138.4/crates/image_viewer/
+zed-0.138.4/crates/image_viewer/Cargo.toml
+zed-0.138.4/crates/image_viewer/LICENSE-GPL
+zed-0.138.4/crates/image_viewer/src/
+zed-0.138.4/crates/image_viewer/src/image_viewer.rs
+zed-0.138.4/crates/inline_completion_button/
+zed-0.138.4/crates/inline_completion_button/Cargo.toml
+zed-0.138.4/crates/inline_completion_button/LICENSE-GPL
+zed-0.138.4/crates/inline_completion_button/src/
+zed-0.138.4/crates/inline_completion_button/src/inline_completion_button.rs
+zed-0.138.4/crates/install_cli/
+zed-0.138.4/crates/install_cli/Cargo.toml
+zed-0.138.4/crates/install_cli/LICENSE-GPL
+zed-0.138.4/crates/install_cli/src/
+zed-0.138.4/crates/install_cli/src/install_cli.rs
+zed-0.138.4/crates/journal/
+zed-0.138.4/crates/journal/Cargo.toml
+zed-0.138.4/crates/journal/LICENSE-GPL
+zed-0.138.4/crates/journal/src/
+zed-0.138.4/crates/journal/src/journal.rs
+zed-0.138.4/crates/language/
+zed-0.138.4/crates/language/Cargo.toml
+zed-0.138.4/crates/language/LICENSE-GPL
+zed-0.138.4/crates/language/build.rs
+zed-0.138.4/crates/language/src/
+zed-0.138.4/crates/language/src/buffer.rs
+zed-0.138.4/crates/language/src/buffer_tests.rs
+zed-0.138.4/crates/language/src/diagnostic_set.rs
+zed-0.138.4/crates/language/src/highlight_map.rs
+zed-0.138.4/crates/language/src/language.rs
+zed-0.138.4/crates/language/src/language_registry.rs
+zed-0.138.4/crates/language/src/language_settings.rs
+zed-0.138.4/crates/language/src/markdown.rs
+zed-0.138.4/crates/language/src/outline.rs
+zed-0.138.4/crates/language/src/proto.rs
+zed-0.138.4/crates/language/src/syntax_map.rs
+zed-0.138.4/crates/language/src/syntax_map/
+zed-0.138.4/crates/language/src/syntax_map/syntax_map_tests.rs
+zed-0.138.4/crates/language/src/task_context.rs
+zed-0.138.4/crates/language_selector/
+zed-0.138.4/crates/language_selector/Cargo.toml
+zed-0.138.4/crates/language_selector/LICENSE-GPL
+zed-0.138.4/crates/language_selector/src/
+zed-0.138.4/crates/language_selector/src/active_buffer_language.rs
+zed-0.138.4/crates/language_selector/src/language_selector.rs
+zed-0.138.4/crates/language_tools/
+zed-0.138.4/crates/language_tools/Cargo.toml
+zed-0.138.4/crates/language_tools/LICENSE-GPL
+zed-0.138.4/crates/language_tools/src/
+zed-0.138.4/crates/language_tools/src/language_tools.rs
+zed-0.138.4/crates/language_tools/src/lsp_log.rs
+zed-0.138.4/crates/language_tools/src/lsp_log_tests.rs
+zed-0.138.4/crates/language_tools/src/syntax_tree_view.rs
+zed-0.138.4/crates/languages/
+zed-0.138.4/crates/languages/Cargo.toml
+zed-0.138.4/crates/languages/LICENSE-GPL
+zed-0.138.4/crates/languages/src/
+zed-0.138.4/crates/languages/src/bash.rs
+zed-0.138.4/crates/languages/src/bash/
+zed-0.138.4/crates/languages/src/bash/brackets.scm
+zed-0.138.4/crates/languages/src/bash/config.toml
+zed-0.138.4/crates/languages/src/bash/highlights.scm
+zed-0.138.4/crates/languages/src/bash/redactions.scm
+zed-0.138.4/crates/languages/src/c.rs
+zed-0.138.4/crates/languages/src/c/
+zed-0.138.4/crates/languages/src/c/brackets.scm
+zed-0.138.4/crates/languages/src/c/config.toml
+zed-0.138.4/crates/languages/src/c/embedding.scm
+zed-0.138.4/crates/languages/src/c/highlights.scm
+zed-0.138.4/crates/languages/src/c/indents.scm
+zed-0.138.4/crates/languages/src/c/injections.scm
+zed-0.138.4/crates/languages/src/c/outline.scm
+zed-0.138.4/crates/languages/src/c/overrides.scm
+zed-0.138.4/crates/languages/src/cpp/
+zed-0.138.4/crates/languages/src/cpp/brackets.scm
+zed-0.138.4/crates/languages/src/cpp/config.toml
+zed-0.138.4/crates/languages/src/cpp/embedding.scm
+zed-0.138.4/crates/languages/src/cpp/highlights.scm
+zed-0.138.4/crates/languages/src/cpp/indents.scm
+zed-0.138.4/crates/languages/src/cpp/injections.scm
+zed-0.138.4/crates/languages/src/cpp/outline.scm
+zed-0.138.4/crates/languages/src/cpp/overrides.scm
+zed-0.138.4/crates/languages/src/css.rs
+zed-0.138.4/crates/languages/src/css/
+zed-0.138.4/crates/languages/src/css/brackets.scm
+zed-0.138.4/crates/languages/src/css/config.toml
+zed-0.138.4/crates/languages/src/css/highlights.scm
+zed-0.138.4/crates/languages/src/css/indents.scm
+zed-0.138.4/crates/languages/src/css/outline.scm
+zed-0.138.4/crates/languages/src/css/overrides.scm
+zed-0.138.4/crates/languages/src/elm.rs
+zed-0.138.4/crates/languages/src/go.rs
+zed-0.138.4/crates/languages/src/go/
+zed-0.138.4/crates/languages/src/go/brackets.scm
+zed-0.138.4/crates/languages/src/go/config.toml
+zed-0.138.4/crates/languages/src/go/embedding.scm
+zed-0.138.4/crates/languages/src/go/highlights.scm
+zed-0.138.4/crates/languages/src/go/indents.scm
+zed-0.138.4/crates/languages/src/go/injections.scm
+zed-0.138.4/crates/languages/src/go/outline.scm
+zed-0.138.4/crates/languages/src/go/overrides.scm
+zed-0.138.4/crates/languages/src/go/runnables.scm
+zed-0.138.4/crates/languages/src/gomod/
+zed-0.138.4/crates/languages/src/gomod/config.toml
+zed-0.138.4/crates/languages/src/gomod/highlights.scm
+zed-0.138.4/crates/languages/src/gomod/structure.scm
+zed-0.138.4/crates/languages/src/gowork/
+zed-0.138.4/crates/languages/src/gowork/config.toml
+zed-0.138.4/crates/languages/src/gowork/highlights.scm
+zed-0.138.4/crates/languages/src/javascript/
+zed-0.138.4/crates/languages/src/javascript/brackets.scm
+zed-0.138.4/crates/languages/src/javascript/config.toml
+zed-0.138.4/crates/languages/src/javascript/contexts.scm
+zed-0.138.4/crates/languages/src/javascript/embedding.scm
+zed-0.138.4/crates/languages/src/javascript/highlights.scm
+zed-0.138.4/crates/languages/src/javascript/indents.scm
+zed-0.138.4/crates/languages/src/javascript/injections.scm
+zed-0.138.4/crates/languages/src/javascript/outline.scm
+zed-0.138.4/crates/languages/src/javascript/overrides.scm
+zed-0.138.4/crates/languages/src/jsdoc/
+zed-0.138.4/crates/languages/src/jsdoc/brackets.scm
+zed-0.138.4/crates/languages/src/jsdoc/config.toml
+zed-0.138.4/crates/languages/src/jsdoc/highlights.scm
+zed-0.138.4/crates/languages/src/json.rs
+zed-0.138.4/crates/languages/src/json/
+zed-0.138.4/crates/languages/src/json/brackets.scm
+zed-0.138.4/crates/languages/src/json/config.toml
+zed-0.138.4/crates/languages/src/json/embedding.scm
+zed-0.138.4/crates/languages/src/json/highlights.scm
+zed-0.138.4/crates/languages/src/json/indents.scm
+zed-0.138.4/crates/languages/src/json/outline.scm
+zed-0.138.4/crates/languages/src/json/overrides.scm
+zed-0.138.4/crates/languages/src/json/redactions.scm
+zed-0.138.4/crates/languages/src/json/runnables.scm
+zed-0.138.4/crates/languages/src/lib.rs
+zed-0.138.4/crates/languages/src/markdown/
+zed-0.138.4/crates/languages/src/markdown/config.toml
+zed-0.138.4/crates/languages/src/markdown/highlights.scm
+zed-0.138.4/crates/languages/src/markdown/injections.scm
+zed-0.138.4/crates/languages/src/markdown/outline.scm
+zed-0.138.4/crates/languages/src/proto/
+zed-0.138.4/crates/languages/src/proto/config.toml
+zed-0.138.4/crates/languages/src/proto/highlights.scm
+zed-0.138.4/crates/languages/src/proto/outline.scm
+zed-0.138.4/crates/languages/src/python.rs
+zed-0.138.4/crates/languages/src/python/
+zed-0.138.4/crates/languages/src/python/brackets.scm
+zed-0.138.4/crates/languages/src/python/config.toml
+zed-0.138.4/crates/languages/src/python/embedding.scm
+zed-0.138.4/crates/languages/src/python/highlights.scm
+zed-0.138.4/crates/languages/src/python/indents.scm
+zed-0.138.4/crates/languages/src/python/outline.scm
+zed-0.138.4/crates/languages/src/python/overrides.scm
+zed-0.138.4/crates/languages/src/regex/
+zed-0.138.4/crates/languages/src/regex/brackets.scm
+zed-0.138.4/crates/languages/src/regex/config.toml
+zed-0.138.4/crates/languages/src/regex/highlights.scm
+zed-0.138.4/crates/languages/src/rust.rs
+zed-0.138.4/crates/languages/src/rust/
+zed-0.138.4/crates/languages/src/rust/brackets.scm
+zed-0.138.4/crates/languages/src/rust/config.toml
+zed-0.138.4/crates/languages/src/rust/embedding.scm
+zed-0.138.4/crates/languages/src/rust/highlights.scm
+zed-0.138.4/crates/languages/src/rust/indents.scm
+zed-0.138.4/crates/languages/src/rust/injections.scm
+zed-0.138.4/crates/languages/src/rust/outline.scm
+zed-0.138.4/crates/languages/src/rust/overrides.scm
+zed-0.138.4/crates/languages/src/rust/runnables.scm
+zed-0.138.4/crates/languages/src/tailwind.rs
+zed-0.138.4/crates/languages/src/tsx/
+zed-0.138.4/crates/languages/src/tsx/brackets.scm
+zed-0.138.4/crates/languages/src/tsx/config.toml
+zed-0.138.4/crates/languages/src/tsx/embedding.scm
+zed-0.138.4/crates/languages/src/tsx/highlights-jsx.scm
+zed-0.138.4/crates/languages/src/tsx/highlights.scm
+zed-0.138.4/crates/languages/src/tsx/indents.scm
+zed-0.138.4/crates/languages/src/tsx/injections.scm
+zed-0.138.4/crates/languages/src/tsx/outline.scm
+zed-0.138.4/crates/languages/src/tsx/overrides.scm
+zed-0.138.4/crates/languages/src/typescript.rs
+zed-0.138.4/crates/languages/src/typescript/
+zed-0.138.4/crates/languages/src/typescript/brackets.scm
+zed-0.138.4/crates/languages/src/typescript/config.toml
+zed-0.138.4/crates/languages/src/typescript/embedding.scm
+zed-0.138.4/crates/languages/src/typescript/highlights.scm
+zed-0.138.4/crates/languages/src/typescript/indents.scm
+zed-0.138.4/crates/languages/src/typescript/injections.scm
+zed-0.138.4/crates/languages/src/typescript/outline.scm
+zed-0.138.4/crates/languages/src/typescript/overrides.scm
+zed-0.138.4/crates/languages/src/yaml.rs
+zed-0.138.4/crates/languages/src/yaml/
+zed-0.138.4/crates/languages/src/yaml/brackets.scm
+zed-0.138.4/crates/languages/src/yaml/config.toml
+zed-0.138.4/crates/languages/src/yaml/highlights.scm
+zed-0.138.4/crates/languages/src/yaml/outline.scm
+zed-0.138.4/crates/languages/src/yaml/redactions.scm
+zed-0.138.4/crates/live_kit_client/
+zed-0.138.4/crates/live_kit_client/.cargo/
+zed-0.138.4/crates/live_kit_client/.cargo/config.toml
+zed-0.138.4/crates/live_kit_client/Cargo.toml
+zed-0.138.4/crates/live_kit_client/LICENSE-GPL
+zed-0.138.4/crates/live_kit_client/LiveKitBridge/
+zed-0.138.4/crates/live_kit_client/LiveKitBridge/Package.resolved
+zed-0.138.4/crates/live_kit_client/LiveKitBridge/Package.swift
+zed-0.138.4/crates/live_kit_client/LiveKitBridge/README.md
+zed-0.138.4/crates/live_kit_client/LiveKitBridge/Sources/
+zed-0.138.4/crates/live_kit_client/LiveKitBridge/Sources/LiveKitBridge/
+zed-0.138.4/crates/live_kit_client/LiveKitBridge/Sources/LiveKitBridge/LiveKitBridge.swift
+zed-0.138.4/crates/live_kit_client/build.rs
+zed-0.138.4/crates/live_kit_client/examples/
+zed-0.138.4/crates/live_kit_client/examples/test_app.rs
+zed-0.138.4/crates/live_kit_client/src/
+zed-0.138.4/crates/live_kit_client/src/live_kit_client.rs
+zed-0.138.4/crates/live_kit_client/src/prod.rs
+zed-0.138.4/crates/live_kit_client/src/test.rs
+zed-0.138.4/crates/live_kit_server/
+zed-0.138.4/crates/live_kit_server/Cargo.toml
+zed-0.138.4/crates/live_kit_server/LICENSE-AGPL
+zed-0.138.4/crates/live_kit_server/build.rs
+zed-0.138.4/crates/live_kit_server/src/
+zed-0.138.4/crates/live_kit_server/src/api.rs
+zed-0.138.4/crates/live_kit_server/src/live_kit_server.rs
+zed-0.138.4/crates/live_kit_server/src/proto.rs
+zed-0.138.4/crates/live_kit_server/src/token.rs
+zed-0.138.4/crates/live_kit_server/vendored/
+zed-0.138.4/crates/live_kit_server/vendored/protocol/
+zed-0.138.4/crates/live_kit_server/vendored/protocol/README.md
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_analytics.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_egress.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_ingress.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_internal.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_models.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_room.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_rpc_internal.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_rtc.proto
+zed-0.138.4/crates/live_kit_server/vendored/protocol/livekit_webhook.proto
+zed-0.138.4/crates/lsp/
+zed-0.138.4/crates/lsp/Cargo.toml
+zed-0.138.4/crates/lsp/LICENSE-GPL
+zed-0.138.4/crates/lsp/src/
+zed-0.138.4/crates/lsp/src/lsp.rs
+zed-0.138.4/crates/markdown/
+zed-0.138.4/crates/markdown/Cargo.toml
+zed-0.138.4/crates/markdown/LICENSE-GPL
+zed-0.138.4/crates/markdown/examples/
+zed-0.138.4/crates/markdown/examples/markdown.rs
+zed-0.138.4/crates/markdown/src/
+zed-0.138.4/crates/markdown/src/markdown.rs
+zed-0.138.4/crates/markdown/src/parser.rs
+zed-0.138.4/crates/markdown_preview/
+zed-0.138.4/crates/markdown_preview/Cargo.toml
+zed-0.138.4/crates/markdown_preview/LICENSE-GPL
+zed-0.138.4/crates/markdown_preview/src/
+zed-0.138.4/crates/markdown_preview/src/markdown_elements.rs
+zed-0.138.4/crates/markdown_preview/src/markdown_parser.rs
+zed-0.138.4/crates/markdown_preview/src/markdown_preview.rs
+zed-0.138.4/crates/markdown_preview/src/markdown_preview_view.rs
+zed-0.138.4/crates/markdown_preview/src/markdown_renderer.rs
+zed-0.138.4/crates/media/
+zed-0.138.4/crates/media/Cargo.toml
+zed-0.138.4/crates/media/LICENSE-APACHE
+zed-0.138.4/crates/media/build.rs
+zed-0.138.4/crates/media/src/
+zed-0.138.4/crates/media/src/bindings.h
+zed-0.138.4/crates/media/src/bindings.rs
+zed-0.138.4/crates/media/src/media.rs
+zed-0.138.4/crates/menu/
+zed-0.138.4/crates/menu/Cargo.toml
+zed-0.138.4/crates/menu/LICENSE-GPL
+zed-0.138.4/crates/menu/src/
+zed-0.138.4/crates/menu/src/menu.rs
+zed-0.138.4/crates/multi_buffer/
+zed-0.138.4/crates/multi_buffer/Cargo.toml
+zed-0.138.4/crates/multi_buffer/LICENSE-GPL
+zed-0.138.4/crates/multi_buffer/src/
+zed-0.138.4/crates/multi_buffer/src/anchor.rs
+zed-0.138.4/crates/multi_buffer/src/multi_buffer.rs
+zed-0.138.4/crates/node_runtime/
+zed-0.138.4/crates/node_runtime/Cargo.toml
+zed-0.138.4/crates/node_runtime/LICENSE-GPL
+zed-0.138.4/crates/node_runtime/src/
+zed-0.138.4/crates/node_runtime/src/archive.rs
+zed-0.138.4/crates/node_runtime/src/node_runtime.rs
+zed-0.138.4/crates/notifications/
+zed-0.138.4/crates/notifications/Cargo.toml
+zed-0.138.4/crates/notifications/LICENSE-GPL
+zed-0.138.4/crates/notifications/src/
+zed-0.138.4/crates/notifications/src/notification_store.rs
+zed-0.138.4/crates/open_ai/
+zed-0.138.4/crates/open_ai/Cargo.toml
+zed-0.138.4/crates/open_ai/LICENSE-GPL
+zed-0.138.4/crates/open_ai/src/
+zed-0.138.4/crates/open_ai/src/open_ai.rs
+zed-0.138.4/crates/outline/
+zed-0.138.4/crates/outline/Cargo.toml
+zed-0.138.4/crates/outline/LICENSE-GPL
+zed-0.138.4/crates/outline/src/
+zed-0.138.4/crates/outline/src/outline.rs
+zed-0.138.4/crates/picker/
+zed-0.138.4/crates/picker/Cargo.toml
+zed-0.138.4/crates/picker/LICENSE-GPL
+zed-0.138.4/crates/picker/src/
+zed-0.138.4/crates/picker/src/head.rs
+zed-0.138.4/crates/picker/src/highlighted_match_with_paths.rs
+zed-0.138.4/crates/picker/src/picker.rs
+zed-0.138.4/crates/prettier/
+zed-0.138.4/crates/prettier/Cargo.toml
+zed-0.138.4/crates/prettier/LICENSE-GPL
+zed-0.138.4/crates/prettier/src/
+zed-0.138.4/crates/prettier/src/prettier.rs
+zed-0.138.4/crates/prettier/src/prettier_server.js
+zed-0.138.4/crates/project/
+zed-0.138.4/crates/project/Cargo.toml
+zed-0.138.4/crates/project/LICENSE-GPL
+zed-0.138.4/crates/project/src/
+zed-0.138.4/crates/project/src/connection_manager.rs
+zed-0.138.4/crates/project/src/debounced_delay.rs
+zed-0.138.4/crates/project/src/lsp_command.rs
+zed-0.138.4/crates/project/src/lsp_ext_command.rs
+zed-0.138.4/crates/project/src/prettier_support.rs
+zed-0.138.4/crates/project/src/project.rs
+zed-0.138.4/crates/project/src/project_settings.rs
+zed-0.138.4/crates/project/src/project_tests.rs
+zed-0.138.4/crates/project/src/search.rs
+zed-0.138.4/crates/project/src/search_history.rs
+zed-0.138.4/crates/project/src/task_inventory.rs
+zed-0.138.4/crates/project/src/terminals.rs
+zed-0.138.4/crates/project_panel/
+zed-0.138.4/crates/project_panel/Cargo.toml
+zed-0.138.4/crates/project_panel/LICENSE-GPL
+zed-0.138.4/crates/project_panel/src/
+zed-0.138.4/crates/project_panel/src/project_panel.rs
+zed-0.138.4/crates/project_panel/src/project_panel_settings.rs
+zed-0.138.4/crates/project_symbols/
+zed-0.138.4/crates/project_symbols/Cargo.toml
+zed-0.138.4/crates/project_symbols/LICENSE-GPL
+zed-0.138.4/crates/project_symbols/src/
+zed-0.138.4/crates/project_symbols/src/project_symbols.rs
+zed-0.138.4/crates/quick_action_bar/
+zed-0.138.4/crates/quick_action_bar/Cargo.toml
+zed-0.138.4/crates/quick_action_bar/LICENSE-GPL
+zed-0.138.4/crates/quick_action_bar/src/
+zed-0.138.4/crates/quick_action_bar/src/quick_action_bar.rs
+zed-0.138.4/crates/recent_projects/
+zed-0.138.4/crates/recent_projects/Cargo.toml
+zed-0.138.4/crates/recent_projects/LICENSE-GPL
+zed-0.138.4/crates/recent_projects/src/
+zed-0.138.4/crates/recent_projects/src/dev_servers.rs
+zed-0.138.4/crates/recent_projects/src/recent_projects.rs
+zed-0.138.4/crates/refineable/
+zed-0.138.4/crates/refineable/Cargo.toml
+zed-0.138.4/crates/refineable/LICENSE-APACHE
+zed-0.138.4/crates/refineable/derive_refineable/
+zed-0.138.4/crates/refineable/derive_refineable/Cargo.toml
+zed-0.138.4/crates/refineable/derive_refineable/LICENSE-APACHE
+zed-0.138.4/crates/refineable/derive_refineable/src/
+zed-0.138.4/crates/refineable/derive_refineable/src/derive_refineable.rs
+zed-0.138.4/crates/refineable/src/
+zed-0.138.4/crates/refineable/src/refineable.rs
+zed-0.138.4/crates/release_channel/
+zed-0.138.4/crates/release_channel/Cargo.toml
+zed-0.138.4/crates/release_channel/LICENSE-GPL
+zed-0.138.4/crates/release_channel/src/
+zed-0.138.4/crates/release_channel/src/lib.rs
+zed-0.138.4/crates/rich_text/
+zed-0.138.4/crates/rich_text/Cargo.toml
+zed-0.138.4/crates/rich_text/LICENSE-GPL
+zed-0.138.4/crates/rich_text/src/
+zed-0.138.4/crates/rich_text/src/rich_text.rs
+zed-0.138.4/crates/rope/
+zed-0.138.4/crates/rope/Cargo.toml
+zed-0.138.4/crates/rope/LICENSE-GPL
+zed-0.138.4/crates/rope/benches/
+zed-0.138.4/crates/rope/benches/rope_benchmark.rs
+zed-0.138.4/crates/rope/src/
+zed-0.138.4/crates/rope/src/offset_utf16.rs
+zed-0.138.4/crates/rope/src/point.rs
+zed-0.138.4/crates/rope/src/point_utf16.rs
+zed-0.138.4/crates/rope/src/rope.rs
+zed-0.138.4/crates/rope/src/unclipped.rs
+zed-0.138.4/crates/rpc/
+zed-0.138.4/crates/rpc/Cargo.toml
+zed-0.138.4/crates/rpc/LICENSE-GPL
+zed-0.138.4/crates/rpc/build.rs
+zed-0.138.4/crates/rpc/proto/
+zed-0.138.4/crates/rpc/proto/buf.yaml
+zed-0.138.4/crates/rpc/proto/zed.proto
+zed-0.138.4/crates/rpc/src/
+zed-0.138.4/crates/rpc/src/auth.rs
+zed-0.138.4/crates/rpc/src/conn.rs
+zed-0.138.4/crates/rpc/src/error.rs
+zed-0.138.4/crates/rpc/src/extension.rs
+zed-0.138.4/crates/rpc/src/macros.rs
+zed-0.138.4/crates/rpc/src/notification.rs
+zed-0.138.4/crates/rpc/src/peer.rs
+zed-0.138.4/crates/rpc/src/proto.rs
+zed-0.138.4/crates/rpc/src/rpc.rs
+zed-0.138.4/crates/search/
+zed-0.138.4/crates/search/Cargo.toml
+zed-0.138.4/crates/search/LICENSE-GPL
+zed-0.138.4/crates/search/src/
+zed-0.138.4/crates/search/src/buffer_search.rs
+zed-0.138.4/crates/search/src/buffer_search/
+zed-0.138.4/crates/search/src/buffer_search/registrar.rs
+zed-0.138.4/crates/search/src/mode.rs
+zed-0.138.4/crates/search/src/project_search.rs
+zed-0.138.4/crates/search/src/search.rs
+zed-0.138.4/crates/search/src/search_bar.rs
+zed-0.138.4/crates/semantic_index/
+zed-0.138.4/crates/semantic_index/Cargo.toml
+zed-0.138.4/crates/semantic_index/LICENSE-GPL
+zed-0.138.4/crates/semantic_index/examples/
+zed-0.138.4/crates/semantic_index/examples/index.rs
+zed-0.138.4/crates/semantic_index/fixture/
+zed-0.138.4/crates/semantic_index/fixture/main.rs
+zed-0.138.4/crates/semantic_index/fixture/needle.md
+zed-0.138.4/crates/semantic_index/src/
+zed-0.138.4/crates/semantic_index/src/chunking.rs
+zed-0.138.4/crates/semantic_index/src/embedding.rs
+zed-0.138.4/crates/semantic_index/src/embedding/
+zed-0.138.4/crates/semantic_index/src/embedding/cloud.rs
+zed-0.138.4/crates/semantic_index/src/embedding/ollama.rs
+zed-0.138.4/crates/semantic_index/src/embedding/open_ai.rs
+zed-0.138.4/crates/semantic_index/src/project_index_debug_view.rs
+zed-0.138.4/crates/semantic_index/src/semantic_index.rs
+zed-0.138.4/crates/semantic_version/
+zed-0.138.4/crates/semantic_version/Cargo.toml
+zed-0.138.4/crates/semantic_version/LICENSE-APACHE
+zed-0.138.4/crates/semantic_version/src/
+zed-0.138.4/crates/semantic_version/src/semantic_version.rs
+zed-0.138.4/crates/settings/
+zed-0.138.4/crates/settings/Cargo.toml
+zed-0.138.4/crates/settings/LICENSE-GPL
+zed-0.138.4/crates/settings/src/
+zed-0.138.4/crates/settings/src/keymap_file.rs
+zed-0.138.4/crates/settings/src/settings.rs
+zed-0.138.4/crates/settings/src/settings_file.rs
+zed-0.138.4/crates/settings/src/settings_store.rs
+zed-0.138.4/crates/snippet/
+zed-0.138.4/crates/snippet/Cargo.toml
+zed-0.138.4/crates/snippet/LICENSE-GPL
+zed-0.138.4/crates/snippet/src/
+zed-0.138.4/crates/snippet/src/snippet.rs
+zed-0.138.4/crates/sqlez/
+zed-0.138.4/crates/sqlez/.gitignore
+zed-0.138.4/crates/sqlez/Cargo.lock
+zed-0.138.4/crates/sqlez/Cargo.toml
+zed-0.138.4/crates/sqlez/LICENSE-GPL
+zed-0.138.4/crates/sqlez/src/
+zed-0.138.4/crates/sqlez/src/bindable.rs
+zed-0.138.4/crates/sqlez/src/connection.rs
+zed-0.138.4/crates/sqlez/src/domain.rs
+zed-0.138.4/crates/sqlez/src/lib.rs
+zed-0.138.4/crates/sqlez/src/migrations.rs
+zed-0.138.4/crates/sqlez/src/savepoint.rs
+zed-0.138.4/crates/sqlez/src/statement.rs
+zed-0.138.4/crates/sqlez/src/thread_safe_connection.rs
+zed-0.138.4/crates/sqlez/src/typed_statements.rs
+zed-0.138.4/crates/sqlez/src/util.rs
+zed-0.138.4/crates/sqlez_macros/
+zed-0.138.4/crates/sqlez_macros/Cargo.toml
+zed-0.138.4/crates/sqlez_macros/LICENSE-GPL
+zed-0.138.4/crates/sqlez_macros/src/
+zed-0.138.4/crates/sqlez_macros/src/sqlez_macros.rs
+zed-0.138.4/crates/story/
+zed-0.138.4/crates/story/Cargo.toml
+zed-0.138.4/crates/story/LICENSE-GPL
+zed-0.138.4/crates/story/src/
+zed-0.138.4/crates/story/src/lib.rs
+zed-0.138.4/crates/story/src/story.rs
+zed-0.138.4/crates/storybook/
+zed-0.138.4/crates/storybook/Cargo.lock
+zed-0.138.4/crates/storybook/Cargo.toml
+zed-0.138.4/crates/storybook/LICENSE-GPL
+zed-0.138.4/crates/storybook/build.rs
+zed-0.138.4/crates/storybook/docs/
+zed-0.138.4/crates/storybook/docs/thoughts.md
+zed-0.138.4/crates/storybook/src/
+zed-0.138.4/crates/storybook/src/actions.rs
+zed-0.138.4/crates/storybook/src/app_menus.rs
+zed-0.138.4/crates/storybook/src/assets.rs
+zed-0.138.4/crates/storybook/src/stories.rs
+zed-0.138.4/crates/storybook/src/stories/
+zed-0.138.4/crates/storybook/src/stories/auto_height_editor.rs
+zed-0.138.4/crates/storybook/src/stories/cursor.rs
+zed-0.138.4/crates/storybook/src/stories/focus.rs
+zed-0.138.4/crates/storybook/src/stories/kitchen_sink.rs
+zed-0.138.4/crates/storybook/src/stories/overflow_scroll.rs
+zed-0.138.4/crates/storybook/src/stories/picker.rs
+zed-0.138.4/crates/storybook/src/stories/scroll.rs
+zed-0.138.4/crates/storybook/src/stories/text.rs
+zed-0.138.4/crates/storybook/src/stories/viewport_units.rs
+zed-0.138.4/crates/storybook/src/stories/with_rem_size.rs
+zed-0.138.4/crates/storybook/src/story_selector.rs
+zed-0.138.4/crates/storybook/src/storybook.rs
+zed-0.138.4/crates/sum_tree/
+zed-0.138.4/crates/sum_tree/Cargo.toml
+zed-0.138.4/crates/sum_tree/LICENSE-APACHE
+zed-0.138.4/crates/sum_tree/src/
+zed-0.138.4/crates/sum_tree/src/cursor.rs
+zed-0.138.4/crates/sum_tree/src/sum_tree.rs
+zed-0.138.4/crates/sum_tree/src/tree_map.rs
+zed-0.138.4/crates/supermaven/
+zed-0.138.4/crates/supermaven/Cargo.toml
+zed-0.138.4/crates/supermaven/LICENSE-GPL
+zed-0.138.4/crates/supermaven/src/
+zed-0.138.4/crates/supermaven/src/messages.rs
+zed-0.138.4/crates/supermaven/src/supermaven.rs
+zed-0.138.4/crates/supermaven/src/supermaven_completion_provider.rs
+zed-0.138.4/crates/supermaven_api/
+zed-0.138.4/crates/supermaven_api/Cargo.toml
+zed-0.138.4/crates/supermaven_api/LICENSE-GPL
+zed-0.138.4/crates/supermaven_api/src/
+zed-0.138.4/crates/supermaven_api/src/supermaven_api.rs
+zed-0.138.4/crates/tab_switcher/
+zed-0.138.4/crates/tab_switcher/Cargo.toml
+zed-0.138.4/crates/tab_switcher/LICENSE-GPL
+zed-0.138.4/crates/tab_switcher/src/
+zed-0.138.4/crates/tab_switcher/src/tab_switcher.rs
+zed-0.138.4/crates/tab_switcher/src/tab_switcher_tests.rs
+zed-0.138.4/crates/task/
+zed-0.138.4/crates/task/Cargo.toml
+zed-0.138.4/crates/task/LICENSE-GPL
+zed-0.138.4/crates/task/src/
+zed-0.138.4/crates/task/src/lib.rs
+zed-0.138.4/crates/task/src/static_source.rs
+zed-0.138.4/crates/task/src/task_template.rs
+zed-0.138.4/crates/task/src/vscode_format.rs
+zed-0.138.4/crates/task/test_data/
+zed-0.138.4/crates/task/test_data/rust-analyzer.json
+zed-0.138.4/crates/task/test_data/typescript.json
+zed-0.138.4/crates/tasks_ui/
+zed-0.138.4/crates/tasks_ui/Cargo.toml
+zed-0.138.4/crates/tasks_ui/LICENSE-GPL
+zed-0.138.4/crates/tasks_ui/src/
+zed-0.138.4/crates/tasks_ui/src/lib.rs
+zed-0.138.4/crates/tasks_ui/src/modal.rs
+zed-0.138.4/crates/tasks_ui/src/settings.rs
+zed-0.138.4/crates/telemetry_events/
+zed-0.138.4/crates/telemetry_events/Cargo.toml
+zed-0.138.4/crates/telemetry_events/LICENSE-GPL
+zed-0.138.4/crates/telemetry_events/src/
+zed-0.138.4/crates/telemetry_events/src/telemetry_events.rs
+zed-0.138.4/crates/terminal/
+zed-0.138.4/crates/terminal/Cargo.toml
+zed-0.138.4/crates/terminal/LICENSE-GPL
+zed-0.138.4/crates/terminal/src/
+zed-0.138.4/crates/terminal/src/mappings/
+zed-0.138.4/crates/terminal/src/mappings/colors.rs
+zed-0.138.4/crates/terminal/src/mappings/keys.rs
+zed-0.138.4/crates/terminal/src/mappings/mod.rs
+zed-0.138.4/crates/terminal/src/mappings/mouse.rs
+zed-0.138.4/crates/terminal/src/pty_info.rs
+zed-0.138.4/crates/terminal/src/terminal.rs
+zed-0.138.4/crates/terminal/src/terminal_settings.rs
+zed-0.138.4/crates/terminal_view/
+zed-0.138.4/crates/terminal_view/Cargo.toml
+zed-0.138.4/crates/terminal_view/LICENSE-GPL
+zed-0.138.4/crates/terminal_view/README.md
+zed-0.138.4/crates/terminal_view/scripts/
+zed-0.138.4/crates/terminal_view/scripts/print256color.sh
+zed-0.138.4/crates/terminal_view/scripts/truecolor.sh
+zed-0.138.4/crates/terminal_view/src/
+zed-0.138.4/crates/terminal_view/src/persistence.rs
+zed-0.138.4/crates/terminal_view/src/terminal_element.rs
+zed-0.138.4/crates/terminal_view/src/terminal_panel.rs
+zed-0.138.4/crates/terminal_view/src/terminal_view.rs
+zed-0.138.4/crates/text/
+zed-0.138.4/crates/text/Cargo.toml
+zed-0.138.4/crates/text/LICENSE-GPL
+zed-0.138.4/crates/text/src/
+zed-0.138.4/crates/text/src/anchor.rs
+zed-0.138.4/crates/text/src/locator.rs
+zed-0.138.4/crates/text/src/network.rs
+zed-0.138.4/crates/text/src/operation_queue.rs
+zed-0.138.4/crates/text/src/patch.rs
+zed-0.138.4/crates/text/src/selection.rs
+zed-0.138.4/crates/text/src/subscription.rs
+zed-0.138.4/crates/text/src/tests.rs
+zed-0.138.4/crates/text/src/text.rs
+zed-0.138.4/crates/text/src/undo_map.rs
+zed-0.138.4/crates/theme/
+zed-0.138.4/crates/theme/Cargo.toml
+zed-0.138.4/crates/theme/LICENSE-GPL
+zed-0.138.4/crates/theme/src/
+zed-0.138.4/crates/theme/src/default_colors.rs
+zed-0.138.4/crates/theme/src/default_theme.rs
+zed-0.138.4/crates/theme/src/one_themes.rs
+zed-0.138.4/crates/theme/src/prelude.rs
+zed-0.138.4/crates/theme/src/registry.rs
+zed-0.138.4/crates/theme/src/scale.rs
+zed-0.138.4/crates/theme/src/schema.rs
+zed-0.138.4/crates/theme/src/settings.rs
+zed-0.138.4/crates/theme/src/styles.rs
+zed-0.138.4/crates/theme/src/styles/
+zed-0.138.4/crates/theme/src/styles/accents.rs
+zed-0.138.4/crates/theme/src/styles/colors.rs
+zed-0.138.4/crates/theme/src/styles/players.rs
+zed-0.138.4/crates/theme/src/styles/status.rs
+zed-0.138.4/crates/theme/src/styles/stories/
+zed-0.138.4/crates/theme/src/styles/stories/color.rs
+zed-0.138.4/crates/theme/src/styles/stories/mod.rs
+zed-0.138.4/crates/theme/src/styles/stories/players.rs
+zed-0.138.4/crates/theme/src/styles/syntax.rs
+zed-0.138.4/crates/theme/src/styles/system.rs
+zed-0.138.4/crates/theme/src/theme.rs
+zed-0.138.4/crates/theme/theme.md
+zed-0.138.4/crates/theme/util/
+zed-0.138.4/crates/theme/util/hex_to_hsla.py
+zed-0.138.4/crates/theme_importer/
+zed-0.138.4/crates/theme_importer/Cargo.toml
+zed-0.138.4/crates/theme_importer/LICENSE-GPL
+zed-0.138.4/crates/theme_importer/README.md
+zed-0.138.4/crates/theme_importer/src/
+zed-0.138.4/crates/theme_importer/src/assets.rs
+zed-0.138.4/crates/theme_importer/src/color.rs
+zed-0.138.4/crates/theme_importer/src/main.rs
+zed-0.138.4/crates/theme_importer/src/vscode.rs
+zed-0.138.4/crates/theme_importer/src/vscode/
+zed-0.138.4/crates/theme_importer/src/vscode/converter.rs
+zed-0.138.4/crates/theme_importer/src/vscode/syntax.rs
+zed-0.138.4/crates/theme_importer/src/vscode/theme.rs
+zed-0.138.4/crates/theme_selector/
+zed-0.138.4/crates/theme_selector/Cargo.toml
+zed-0.138.4/crates/theme_selector/LICENSE-GPL
+zed-0.138.4/crates/theme_selector/src/
+zed-0.138.4/crates/theme_selector/src/theme_selector.rs
+zed-0.138.4/crates/time_format/
+zed-0.138.4/crates/time_format/Cargo.toml
+zed-0.138.4/crates/time_format/LICENSE-GPL
+zed-0.138.4/crates/time_format/src/
+zed-0.138.4/crates/time_format/src/time_format.rs
+zed-0.138.4/crates/ui/
+zed-0.138.4/crates/ui/Cargo.toml
+zed-0.138.4/crates/ui/LICENSE-GPL
+zed-0.138.4/crates/ui/docs/
+zed-0.138.4/crates/ui/docs/building-ui.md
+zed-0.138.4/crates/ui/docs/hello-world.md
+zed-0.138.4/crates/ui/src/
+zed-0.138.4/crates/ui/src/clickable.rs
+zed-0.138.4/crates/ui/src/components.rs
+zed-0.138.4/crates/ui/src/components/
+zed-0.138.4/crates/ui/src/components/avatar.rs
+zed-0.138.4/crates/ui/src/components/avatar/
+zed-0.138.4/crates/ui/src/components/avatar/avatar.rs
+zed-0.138.4/crates/ui/src/components/avatar/avatar_audio_status_indicator.rs
+zed-0.138.4/crates/ui/src/components/avatar/avatar_availability_indicator.rs
+zed-0.138.4/crates/ui/src/components/button.rs
+zed-0.138.4/crates/ui/src/components/button/
+zed-0.138.4/crates/ui/src/components/button/button.rs
+zed-0.138.4/crates/ui/src/components/button/button_icon.rs
+zed-0.138.4/crates/ui/src/components/button/button_like.rs
+zed-0.138.4/crates/ui/src/components/button/icon_button.rs
+zed-0.138.4/crates/ui/src/components/button/toggle_button.rs
+zed-0.138.4/crates/ui/src/components/checkbox.rs
+zed-0.138.4/crates/ui/src/components/checkbox/
+zed-0.138.4/crates/ui/src/components/checkbox/checkbox.rs
+zed-0.138.4/crates/ui/src/components/checkbox/checkbox_with_label.rs
+zed-0.138.4/crates/ui/src/components/collapsible_container.rs
+zed-0.138.4/crates/ui/src/components/context_menu.rs
+zed-0.138.4/crates/ui/src/components/disclosure.rs
+zed-0.138.4/crates/ui/src/components/divider.rs
+zed-0.138.4/crates/ui/src/components/icon.rs
+zed-0.138.4/crates/ui/src/components/indicator.rs
+zed-0.138.4/crates/ui/src/components/keybinding.rs
+zed-0.138.4/crates/ui/src/components/label.rs
+zed-0.138.4/crates/ui/src/components/label/
+zed-0.138.4/crates/ui/src/components/label/highlighted_label.rs
+zed-0.138.4/crates/ui/src/components/label/label.rs
+zed-0.138.4/crates/ui/src/components/label/label_like.rs
+zed-0.138.4/crates/ui/src/components/list.rs
+zed-0.138.4/crates/ui/src/components/list/
+zed-0.138.4/crates/ui/src/components/list/list.rs
+zed-0.138.4/crates/ui/src/components/list/list_header.rs
+zed-0.138.4/crates/ui/src/components/list/list_item.rs
+zed-0.138.4/crates/ui/src/components/list/list_separator.rs
+zed-0.138.4/crates/ui/src/components/list/list_sub_header.rs
+zed-0.138.4/crates/ui/src/components/modal.rs
+zed-0.138.4/crates/ui/src/components/popover.rs
+zed-0.138.4/crates/ui/src/components/popover_menu.rs
+zed-0.138.4/crates/ui/src/components/radio.rs
+zed-0.138.4/crates/ui/src/components/right_click_menu.rs
+zed-0.138.4/crates/ui/src/components/stack.rs
+zed-0.138.4/crates/ui/src/components/stories.rs
+zed-0.138.4/crates/ui/src/components/stories/
+zed-0.138.4/crates/ui/src/components/stories/avatar.rs
+zed-0.138.4/crates/ui/src/components/stories/button.rs
+zed-0.138.4/crates/ui/src/components/stories/checkbox.rs
+zed-0.138.4/crates/ui/src/components/stories/context_menu.rs
+zed-0.138.4/crates/ui/src/components/stories/disclosure.rs
+zed-0.138.4/crates/ui/src/components/stories/icon.rs
+zed-0.138.4/crates/ui/src/components/stories/icon_button.rs
+zed-0.138.4/crates/ui/src/components/stories/keybinding.rs
+zed-0.138.4/crates/ui/src/components/stories/label.rs
+zed-0.138.4/crates/ui/src/components/stories/list.rs
+zed-0.138.4/crates/ui/src/components/stories/list_header.rs
+zed-0.138.4/crates/ui/src/components/stories/list_item.rs
+zed-0.138.4/crates/ui/src/components/stories/tab.rs
+zed-0.138.4/crates/ui/src/components/stories/tab_bar.rs
+zed-0.138.4/crates/ui/src/components/stories/title_bar.rs
+zed-0.138.4/crates/ui/src/components/stories/toggle_button.rs
+zed-0.138.4/crates/ui/src/components/stories/tool_strip.rs
+zed-0.138.4/crates/ui/src/components/tab.rs
+zed-0.138.4/crates/ui/src/components/tab_bar.rs
+zed-0.138.4/crates/ui/src/components/title_bar.rs
+zed-0.138.4/crates/ui/src/components/title_bar/
+zed-0.138.4/crates/ui/src/components/title_bar/linux_window_controls.rs
+zed-0.138.4/crates/ui/src/components/title_bar/title_bar.rs
+zed-0.138.4/crates/ui/src/components/title_bar/windows_window_controls.rs
+zed-0.138.4/crates/ui/src/components/tool_strip.rs
+zed-0.138.4/crates/ui/src/components/tooltip.rs
+zed-0.138.4/crates/ui/src/disableable.rs
+zed-0.138.4/crates/ui/src/fixed.rs
+zed-0.138.4/crates/ui/src/prelude.rs
+zed-0.138.4/crates/ui/src/selectable.rs
+zed-0.138.4/crates/ui/src/styled_ext.rs
+zed-0.138.4/crates/ui/src/styles.rs
+zed-0.138.4/crates/ui/src/styles/
+zed-0.138.4/crates/ui/src/styles/color.rs
+zed-0.138.4/crates/ui/src/styles/docs/
+zed-0.138.4/crates/ui/src/styles/docs/elevation.md
+zed-0.138.4/crates/ui/src/styles/elevation.rs
+zed-0.138.4/crates/ui/src/styles/platform.rs
+zed-0.138.4/crates/ui/src/styles/spacing.rs
+zed-0.138.4/crates/ui/src/styles/typography.rs
+zed-0.138.4/crates/ui/src/styles/units.rs
+zed-0.138.4/crates/ui/src/ui.rs
+zed-0.138.4/crates/ui/src/utils.rs
+zed-0.138.4/crates/ui/src/utils/
+zed-0.138.4/crates/ui/src/utils/format_distance.rs
+zed-0.138.4/crates/ui/src/visible_on_hover.rs
+zed-0.138.4/crates/ui/src/with_rem_size.rs
+zed-0.138.4/crates/ui_text_field/
+zed-0.138.4/crates/ui_text_field/Cargo.toml
+zed-0.138.4/crates/ui_text_field/LICENSE-GPL
+zed-0.138.4/crates/ui_text_field/src/
+zed-0.138.4/crates/ui_text_field/src/ui_text_field.rs
+zed-0.138.4/crates/util/
+zed-0.138.4/crates/util/Cargo.toml
+zed-0.138.4/crates/util/LICENSE-APACHE
+zed-0.138.4/crates/util/src/
+zed-0.138.4/crates/util/src/arc_cow.rs
+zed-0.138.4/crates/util/src/fs.rs
+zed-0.138.4/crates/util/src/http.rs
+zed-0.138.4/crates/util/src/paths.rs
+zed-0.138.4/crates/util/src/serde.rs
+zed-0.138.4/crates/util/src/test.rs
+zed-0.138.4/crates/util/src/test/
+zed-0.138.4/crates/util/src/test/assertions.rs
+zed-0.138.4/crates/util/src/test/marked_text.rs
+zed-0.138.4/crates/util/src/util.rs
+zed-0.138.4/crates/vcs_menu/
+zed-0.138.4/crates/vcs_menu/Cargo.toml
+zed-0.138.4/crates/vcs_menu/LICENSE-GPL
+zed-0.138.4/crates/vcs_menu/src/
+zed-0.138.4/crates/vcs_menu/src/lib.rs
+zed-0.138.4/crates/vim/
+zed-0.138.4/crates/vim/Cargo.toml
+zed-0.138.4/crates/vim/LICENSE-GPL
+zed-0.138.4/crates/vim/README.md
+zed-0.138.4/crates/vim/src/
+zed-0.138.4/crates/vim/src/change_list.rs
+zed-0.138.4/crates/vim/src/command.rs
+zed-0.138.4/crates/vim/src/editor_events.rs
+zed-0.138.4/crates/vim/src/insert.rs
+zed-0.138.4/crates/vim/src/mode_indicator.rs
+zed-0.138.4/crates/vim/src/motion.rs
+zed-0.138.4/crates/vim/src/normal.rs
+zed-0.138.4/crates/vim/src/normal/
+zed-0.138.4/crates/vim/src/normal/case.rs
+zed-0.138.4/crates/vim/src/normal/change.rs
+zed-0.138.4/crates/vim/src/normal/delete.rs
+zed-0.138.4/crates/vim/src/normal/increment.rs
+zed-0.138.4/crates/vim/src/normal/mark.rs
+zed-0.138.4/crates/vim/src/normal/paste.rs
+zed-0.138.4/crates/vim/src/normal/repeat.rs
+zed-0.138.4/crates/vim/src/normal/scroll.rs
+zed-0.138.4/crates/vim/src/normal/search.rs
+zed-0.138.4/crates/vim/src/normal/substitute.rs
+zed-0.138.4/crates/vim/src/normal/yank.rs
+zed-0.138.4/crates/vim/src/object.rs
+zed-0.138.4/crates/vim/src/replace.rs
+zed-0.138.4/crates/vim/src/state.rs
+zed-0.138.4/crates/vim/src/surrounds.rs
+zed-0.138.4/crates/vim/src/test.rs
+zed-0.138.4/crates/vim/src/test/
+zed-0.138.4/crates/vim/src/test/neovim_backed_test_context.rs
+zed-0.138.4/crates/vim/src/test/neovim_connection.rs
+zed-0.138.4/crates/vim/src/test/vim_test_context.rs
+zed-0.138.4/crates/vim/src/utils.rs
+zed-0.138.4/crates/vim/src/vim.rs
+zed-0.138.4/crates/vim/src/visual.rs
+zed-0.138.4/crates/vim/test_data/
+zed-0.138.4/crates/vim/test_data/neovim_backed_test_context_works.json
+zed-0.138.4/crates/vim/test_data/test_a.json
+zed-0.138.4/crates/vim/test_data/test_b.json
+zed-0.138.4/crates/vim/test_data/test_backspace.json
+zed-0.138.4/crates/vim/test_data/test_builtin_marks.json
+zed-0.138.4/crates/vim/test_data/test_capital_f_and_capital_t.json
+zed-0.138.4/crates/vim/test_data/test_caret_mark.json
+zed-0.138.4/crates/vim/test_data/test_cc.json
+zed-0.138.4/crates/vim/test_data/test_cgn_nomatch.json
+zed-0.138.4/crates/vim/test_data/test_cgn_repeat.json
+zed-0.138.4/crates/vim/test_data/test_change_0.json
+zed-0.138.4/crates/vim/test_data/test_change_b.json
+zed-0.138.4/crates/vim/test_data/test_change_backspace.json
+zed-0.138.4/crates/vim/test_data/test_change_case.json
+zed-0.138.4/crates/vim/test_data/test_change_cc.json
+zed-0.138.4/crates/vim/test_data/test_change_e.json
+zed-0.138.4/crates/vim/test_data/test_change_end_of_document.json
+zed-0.138.4/crates/vim/test_data/test_change_end_of_line.json
+zed-0.138.4/crates/vim/test_data/test_change_gg.json
+zed-0.138.4/crates/vim/test_data/test_change_h.json
+zed-0.138.4/crates/vim/test_data/test_change_j.json
+zed-0.138.4/crates/vim/test_data/test_change_k.json
+zed-0.138.4/crates/vim/test_data/test_change_l.json
+zed-0.138.4/crates/vim/test_data/test_change_list_delete.json
+zed-0.138.4/crates/vim/test_data/test_change_list_insert.json
+zed-0.138.4/crates/vim/test_data/test_change_paragraph_object.json
+zed-0.138.4/crates/vim/test_data/test_change_sentence_object.json
+zed-0.138.4/crates/vim/test_data/test_change_surrounding_character_objects.json
+zed-0.138.4/crates/vim/test_data/test_change_w.json
+zed-0.138.4/crates/vim/test_data/test_change_word_object.json
+zed-0.138.4/crates/vim/test_data/test_clear_counts.json
+zed-0.138.4/crates/vim/test_data/test_comma_semicolon.json
+zed-0.138.4/crates/vim/test_data/test_comma_w.json
+zed-0.138.4/crates/vim/test_data/test_command_basics.json
+zed-0.138.4/crates/vim/test_data/test_command_goto.json
+zed-0.138.4/crates/vim/test_data/test_command_replace.json
+zed-0.138.4/crates/vim/test_data/test_command_search.json
+zed-0.138.4/crates/vim/test_data/test_convert_to_lower_case.json
+zed-0.138.4/crates/vim/test_data/test_convert_to_upper_case.json
+zed-0.138.4/crates/vim/test_data/test_ctrl_d_u.json
+zed-0.138.4/crates/vim/test_data/test_d_search.json
+zed-0.138.4/crates/vim/test_data/test_dd.json
+zed-0.138.4/crates/vim/test_data/test_delete_0.json
+zed-0.138.4/crates/vim/test_data/test_delete_b.json
+zed-0.138.4/crates/vim/test_data/test_delete_end_of_document.json
+zed-0.138.4/crates/vim/test_data/test_delete_end_of_line.json
+zed-0.138.4/crates/vim/test_data/test_delete_gg.json
+zed-0.138.4/crates/vim/test_data/test_delete_h.json
+zed-0.138.4/crates/vim/test_data/test_delete_j.json
+zed-0.138.4/crates/vim/test_data/test_delete_k.json
+zed-0.138.4/crates/vim/test_data/test_delete_l.json
+zed-0.138.4/crates/vim/test_data/test_delete_left.json
+zed-0.138.4/crates/vim/test_data/test_delete_next_word_end.json
+zed-0.138.4/crates/vim/test_data/test_delete_paragraph_object.json
+zed-0.138.4/crates/vim/test_data/test_delete_sentence_object.json
+zed-0.138.4/crates/vim/test_data/test_delete_surrounding_character_objects.json
+zed-0.138.4/crates/vim/test_data/test_delete_to_adjacent_character.json
+zed-0.138.4/crates/vim/test_data/test_delete_to_end_of_line.json
+zed-0.138.4/crates/vim/test_data/test_delete_w.json
+zed-0.138.4/crates/vim/test_data/test_delete_with_counts.json
+zed-0.138.4/crates/vim/test_data/test_delete_word_object.json
+zed-0.138.4/crates/vim/test_data/test_dgn_repeat.json
+zed-0.138.4/crates/vim/test_data/test_dot_mark.json
+zed-0.138.4/crates/vim/test_data/test_dot_repeat.json
+zed-0.138.4/crates/vim/test_data/test_end_of_document.json
+zed-0.138.4/crates/vim/test_data/test_end_of_line_downward.json
+zed-0.138.4/crates/vim/test_data/test_end_of_line_with_neovim.json
+zed-0.138.4/crates/vim/test_data/test_end_of_word.json
+zed-0.138.4/crates/vim/test_data/test_enter.json
+zed-0.138.4/crates/vim/test_data/test_enter_visual_line_mode.json
+zed-0.138.4/crates/vim/test_data/test_enter_visual_mode.json
+zed-0.138.4/crates/vim/test_data/test_f_and_t.json
+zed-0.138.4/crates/vim/test_data/test_folds.json
+zed-0.138.4/crates/vim/test_data/test_folds_panic.json
+zed-0.138.4/crates/vim/test_data/test_gg.json
+zed-0.138.4/crates/vim/test_data/test_gi.json
+zed-0.138.4/crates/vim/test_data/test_gn.json
+zed-0.138.4/crates/vim/test_data/test_h.json
+zed-0.138.4/crates/vim/test_data/test_h_through_unicode.json
+zed-0.138.4/crates/vim/test_data/test_increment.json
+zed-0.138.4/crates/vim/test_data/test_increment_radix.json
+zed-0.138.4/crates/vim/test_data/test_increment_steps.json
+zed-0.138.4/crates/vim/test_data/test_increment_with_dot.json
+zed-0.138.4/crates/vim/test_data/test_increment_with_two_dots.json
+zed-0.138.4/crates/vim/test_data/test_insert_end_of_line.json
+zed-0.138.4/crates/vim/test_data/test_insert_first_non_whitespace.json
+zed-0.138.4/crates/vim/test_data/test_insert_line_above.json
+zed-0.138.4/crates/vim/test_data/test_insert_with_counts.json
+zed-0.138.4/crates/vim/test_data/test_insert_with_repeat.json
+zed-0.138.4/crates/vim/test_data/test_j.json
+zed-0.138.4/crates/vim/test_data/test_jk.json
+zed-0.138.4/crates/vim/test_data/test_join_lines.json
+zed-0.138.4/crates/vim/test_data/test_jump_to_end.json
+zed-0.138.4/crates/vim/test_data/test_jump_to_first_non_whitespace.json
+zed-0.138.4/crates/vim/test_data/test_jump_to_line_boundaries.json
+zed-0.138.4/crates/vim/test_data/test_k.json
+zed-0.138.4/crates/vim/test_data/test_l.json
+zed-0.138.4/crates/vim/test_data/test_lowercase_marks.json
+zed-0.138.4/crates/vim/test_data/test_lt_gt_marks.json
+zed-0.138.4/crates/vim/test_data/test_marks.json
+zed-0.138.4/crates/vim/test_data/test_matching.json
+zed-0.138.4/crates/vim/test_data/test_multiline_surrounding_character_objects.json
+zed-0.138.4/crates/vim/test_data/test_neovim.json
+zed-0.138.4/crates/vim/test_data/test_next_line_start.json
+zed-0.138.4/crates/vim/test_data/test_next_word_end_newline_last_char.json
+zed-0.138.4/crates/vim/test_data/test_o.json
+zed-0.138.4/crates/vim/test_data/test_paragraph_object_with_landing_positions_not_at_beginning_of_line.json
+zed-0.138.4/crates/vim/test_data/test_paragraphs_dont_wrap.json
+zed-0.138.4/crates/vim/test_data/test_paste.json
+zed-0.138.4/crates/vim/test_data/test_paste_count.json
+zed-0.138.4/crates/vim/test_data/test_paste_visual.json
+zed-0.138.4/crates/vim/test_data/test_paste_visual_block.json
+zed-0.138.4/crates/vim/test_data/test_percent.json
+zed-0.138.4/crates/vim/test_data/test_period_mark.json
+zed-0.138.4/crates/vim/test_data/test_previous_word_end.json
+zed-0.138.4/crates/vim/test_data/test_repeat_motion_counts.json
+zed-0.138.4/crates/vim/test_data/test_repeat_over_blur.json
+zed-0.138.4/crates/vim/test_data/test_repeat_visual.json
+zed-0.138.4/crates/vim/test_data/test_repeated_cb.json
+zed-0.138.4/crates/vim/test_data/test_repeated_ce.json
+zed-0.138.4/crates/vim/test_data/test_repeated_cj.json
+zed-0.138.4/crates/vim/test_data/test_repeated_cl.json
+zed-0.138.4/crates/vim/test_data/test_repeated_word.json
+zed-0.138.4/crates/vim/test_data/test_replace_mode.json
+zed-0.138.4/crates/vim/test_data/test_replace_mode_undo.json
+zed-0.138.4/crates/vim/test_data/test_replace_with_range.json
+zed-0.138.4/crates/vim/test_data/test_selection_goal.json
+zed-0.138.4/crates/vim/test_data/test_singleline_surrounding_character_objects.json
+zed-0.138.4/crates/vim/test_data/test_singleline_surrounding_character_objects_with_escape.json
+zed-0.138.4/crates/vim/test_data/test_start_end_of_paragraph.json
+zed-0.138.4/crates/vim/test_data/test_substitute_line.json
+zed-0.138.4/crates/vim/test_data/test_undo.json
+zed-0.138.4/crates/vim/test_data/test_v_search.json
+zed-0.138.4/crates/vim/test_data/test_visual_block_insert.json
+zed-0.138.4/crates/vim/test_data/test_visual_block_issue_2123.json
+zed-0.138.4/crates/vim/test_data/test_visual_block_mode.json
+zed-0.138.4/crates/vim/test_data/test_visual_block_search.json
+zed-0.138.4/crates/vim/test_data/test_visual_change.json
+zed-0.138.4/crates/vim/test_data/test_visual_delete.json
+zed-0.138.4/crates/vim/test_data/test_visual_line_change.json
+zed-0.138.4/crates/vim/test_data/test_visual_line_delete.json
+zed-0.138.4/crates/vim/test_data/test_visual_match_eol.json
+zed-0.138.4/crates/vim/test_data/test_visual_object.json
+zed-0.138.4/crates/vim/test_data/test_visual_paragraph_object.json
+zed-0.138.4/crates/vim/test_data/test_visual_sentence_object.json
+zed-0.138.4/crates/vim/test_data/test_visual_shift_d.json
+zed-0.138.4/crates/vim/test_data/test_visual_star_hash.json
+zed-0.138.4/crates/vim/test_data/test_visual_word_object.json
+zed-0.138.4/crates/vim/test_data/test_visual_yank.json
+zed-0.138.4/crates/vim/test_data/test_w.json
+zed-0.138.4/crates/vim/test_data/test_window_bottom.json
+zed-0.138.4/crates/vim/test_data/test_window_middle.json
+zed-0.138.4/crates/vim/test_data/test_window_top.json
+zed-0.138.4/crates/vim/test_data/test_wrapped_lines.json
+zed-0.138.4/crates/vim/test_data/test_wrapped_motions.json
+zed-0.138.4/crates/vim/test_data/test_x.json
+zed-0.138.4/crates/vim/test_data/test_zero.json
+zed-0.138.4/crates/welcome/
+zed-0.138.4/crates/welcome/Cargo.toml
+zed-0.138.4/crates/welcome/LICENSE-GPL
+zed-0.138.4/crates/welcome/src/
+zed-0.138.4/crates/welcome/src/base_keymap_picker.rs
+zed-0.138.4/crates/welcome/src/base_keymap_setting.rs
+zed-0.138.4/crates/welcome/src/welcome.rs
+zed-0.138.4/crates/workspace/
+zed-0.138.4/crates/workspace/Cargo.toml
+zed-0.138.4/crates/workspace/LICENSE-GPL
+zed-0.138.4/crates/workspace/src/
+zed-0.138.4/crates/workspace/src/dock.rs
+zed-0.138.4/crates/workspace/src/item.rs
+zed-0.138.4/crates/workspace/src/modal_layer.rs
+zed-0.138.4/crates/workspace/src/notifications.rs
+zed-0.138.4/crates/workspace/src/pane.rs
+zed-0.138.4/crates/workspace/src/pane_group.rs
+zed-0.138.4/crates/workspace/src/persistence.rs
+zed-0.138.4/crates/workspace/src/persistence/
+zed-0.138.4/crates/workspace/src/persistence/model.rs
+zed-0.138.4/crates/workspace/src/searchable.rs
+zed-0.138.4/crates/workspace/src/shared_screen.rs
+zed-0.138.4/crates/workspace/src/status_bar.rs
+zed-0.138.4/crates/workspace/src/tasks.rs
+zed-0.138.4/crates/workspace/src/toolbar.rs
+zed-0.138.4/crates/workspace/src/workspace.rs
+zed-0.138.4/crates/workspace/src/workspace_settings.rs
+zed-0.138.4/crates/worktree/
+zed-0.138.4/crates/worktree/Cargo.toml
+zed-0.138.4/crates/worktree/LICENSE-GPL
+zed-0.138.4/crates/worktree/src/
+zed-0.138.4/crates/worktree/src/ignore.rs
+zed-0.138.4/crates/worktree/src/worktree.rs
+zed-0.138.4/crates/worktree/src/worktree_settings.rs
+zed-0.138.4/crates/worktree/src/worktree_tests.rs
+zed-0.138.4/crates/zed/
+zed-0.138.4/crates/zed/Cargo.toml
+zed-0.138.4/crates/zed/LICENSE-GPL
+zed-0.138.4/crates/zed/RELEASE_CHANNEL
+zed-0.138.4/crates/zed/build.rs
+zed-0.138.4/crates/zed/contents/
+zed-0.138.4/crates/zed/contents/dev/
+zed-0.138.4/crates/zed/contents/dev/embedded.provisionprofile
+zed-0.138.4/crates/zed/contents/nightly/
+zed-0.138.4/crates/zed/contents/nightly/embedded.provisionprofile
+zed-0.138.4/crates/zed/contents/preview/
+zed-0.138.4/crates/zed/contents/preview/embedded.provisionprofile
+zed-0.138.4/crates/zed/contents/stable/
+zed-0.138.4/crates/zed/contents/stable/embedded.provisionprofile
+zed-0.138.4/crates/zed/resources/
+zed-0.138.4/crates/zed/resources/app-icon-dev.png
+zed-0.138.4/crates/zed/resources/app-icon-dev@2x.png
+zed-0.138.4/crates/zed/resources/app-icon-nightly.png
+zed-0.138.4/crates/zed/resources/app-icon-nightly@2x.png
+zed-0.138.4/crates/zed/resources/app-icon-preview.png
+zed-0.138.4/crates/zed/resources/app-icon-preview@2x.png
+zed-0.138.4/crates/zed/resources/app-icon.png
+zed-0.138.4/crates/zed/resources/app-icon@2x.png
+zed-0.138.4/crates/zed/resources/flatpak/
+zed-0.138.4/crates/zed/resources/flatpak/manifest-template.json
+zed-0.138.4/crates/zed/resources/flatpak/release-info/
+zed-0.138.4/crates/zed/resources/flatpak/release-info/dev
+zed-0.138.4/crates/zed/resources/flatpak/release-info/nightly
+zed-0.138.4/crates/zed/resources/flatpak/release-info/preview
+zed-0.138.4/crates/zed/resources/flatpak/release-info/stable
+zed-0.138.4/crates/zed/resources/flatpak/zed.metainfo.xml.in
+zed-0.138.4/crates/zed/resources/info/
+zed-0.138.4/crates/zed/resources/info/DocumentTypes.plist
+zed-0.138.4/crates/zed/resources/info/Permissions.plist
+zed-0.138.4/crates/zed/resources/windows/
+zed-0.138.4/crates/zed/resources/windows/app-icon.ico
+zed-0.138.4/crates/zed/resources/zed.desktop.in
+zed-0.138.4/crates/zed/resources/zed.entitlements
+zed-0.138.4/crates/zed/src/
+zed-0.138.4/crates/zed/src/main.rs
+zed-0.138.4/crates/zed/src/reliability.rs
+zed-0.138.4/crates/zed/src/zed.rs
+zed-0.138.4/crates/zed/src/zed/
+zed-0.138.4/crates/zed/src/zed/app_menus.rs
+zed-0.138.4/crates/zed/src/zed/inline_completion_registry.rs
+zed-0.138.4/crates/zed/src/zed/only_instance.rs
+zed-0.138.4/crates/zed/src/zed/open_listener.rs
+zed-0.138.4/crates/zed_actions/
+zed-0.138.4/crates/zed_actions/Cargo.toml
+zed-0.138.4/crates/zed_actions/LICENSE-GPL
+zed-0.138.4/crates/zed_actions/src/
+zed-0.138.4/crates/zed_actions/src/lib.rs
+zed-0.138.4/debug.plist
+zed-0.138.4/docker-compose.sql
+zed-0.138.4/docker-compose.yml
+zed-0.138.4/docs/
+zed-0.138.4/docs/.gitignore
+zed-0.138.4/docs/README.md
+zed-0.138.4/docs/book.toml
+zed-0.138.4/docs/src/
+zed-0.138.4/docs/src/SUMMARY.md
+zed-0.138.4/docs/src/adding-new-languages.md
+zed-0.138.4/docs/src/additional-learning-materials.md
+zed-0.138.4/docs/src/assistant-panel.md
+zed-0.138.4/docs/src/channels.md
+zed-0.138.4/docs/src/code-of-conduct.md
+zed-0.138.4/docs/src/collaboration.md
+zed-0.138.4/docs/src/configuring-zed.md
+zed-0.138.4/docs/src/contribute-to-zed.md
+zed-0.138.4/docs/src/conversations.md
+zed-0.138.4/docs/src/developing-zed.md
+zed-0.138.4/docs/src/development/
+zed-0.138.4/docs/src/development/debugging-crashes.md
+zed-0.138.4/docs/src/development/linux.md
+zed-0.138.4/docs/src/development/local-collaboration.md
+zed-0.138.4/docs/src/development/macos.md
+zed-0.138.4/docs/src/development/releases.md
+zed-0.138.4/docs/src/development/windows.md
+zed-0.138.4/docs/src/feedback-and-support.md
+zed-0.138.4/docs/src/getting-started.md
+zed-0.138.4/docs/src/key-bindings.md
+zed-0.138.4/docs/src/languages/
+zed-0.138.4/docs/src/languages/astro.md
+zed-0.138.4/docs/src/languages/c.md
+zed-0.138.4/docs/src/languages/clojure.md
+zed-0.138.4/docs/src/languages/cpp.md
+zed-0.138.4/docs/src/languages/csharp.md
+zed-0.138.4/docs/src/languages/css.md
+zed-0.138.4/docs/src/languages/deno.md
+zed-0.138.4/docs/src/languages/elixir.md
+zed-0.138.4/docs/src/languages/elm.md
+zed-0.138.4/docs/src/languages/erb.md
+zed-0.138.4/docs/src/languages/erlang.md
+zed-0.138.4/docs/src/languages/gleam.md
+zed-0.138.4/docs/src/languages/go.md
+zed-0.138.4/docs/src/languages/haskell.md
+zed-0.138.4/docs/src/languages/html.md
+zed-0.138.4/docs/src/languages/javascript.md
+zed-0.138.4/docs/src/languages/json.md
+zed-0.138.4/docs/src/languages/lua.md
+zed-0.138.4/docs/src/languages/markdown.md
+zed-0.138.4/docs/src/languages/ocaml.md
+zed-0.138.4/docs/src/languages/php.md
+zed-0.138.4/docs/src/languages/prisma.md
+zed-0.138.4/docs/src/languages/proto.md
+zed-0.138.4/docs/src/languages/purescript.md
+zed-0.138.4/docs/src/languages/python.md
+zed-0.138.4/docs/src/languages/racket.md
+zed-0.138.4/docs/src/languages/ruby.md
+zed-0.138.4/docs/src/languages/rust.md
+zed-0.138.4/docs/src/languages/scheme.md
+zed-0.138.4/docs/src/languages/svelte.md
+zed-0.138.4/docs/src/languages/terraform.md
+zed-0.138.4/docs/src/languages/toml.md
+zed-0.138.4/docs/src/languages/tsx.md
+zed-0.138.4/docs/src/languages/typescript.md
+zed-0.138.4/docs/src/languages/uiua.md
+zed-0.138.4/docs/src/languages/vue.md
+zed-0.138.4/docs/src/languages/yaml.md
+zed-0.138.4/docs/src/languages/zig.md
+zed-0.138.4/docs/src/remote-development.md
+zed-0.138.4/docs/src/system-requirements.md
+zed-0.138.4/docs/src/tasks.md
+zed-0.138.4/docs/src/telemetry.md
+zed-0.138.4/docs/src/themes.md
+zed-0.138.4/docs/src/vim.md
+zed-0.138.4/docs/theme/
+zed-0.138.4/docs/theme/css/
+zed-0.138.4/docs/theme/css/chrome.css
+zed-0.138.4/docs/theme/css/general.css
+zed-0.138.4/docs/theme/css/variables.css
+zed-0.138.4/docs/theme/favicon.png
+zed-0.138.4/docs/theme/fonts/
+zed-0.138.4/docs/theme/fonts/PPAgrandir-Regular.woff2
+zed-0.138.4/docs/theme/fonts/fonts.css
+zed-0.138.4/docs/theme/fonts/iAWriterQuattroS-Regular.woff2
+zed-0.138.4/docs/theme/index.hbs
+zed-0.138.4/extensions/
+zed-0.138.4/extensions/.gitignore
+zed-0.138.4/extensions/astro/
+zed-0.138.4/extensions/astro/Cargo.toml
+zed-0.138.4/extensions/astro/LICENSE-APACHE
+zed-0.138.4/extensions/astro/extension.toml
+zed-0.138.4/extensions/astro/languages/
+zed-0.138.4/extensions/astro/languages/astro/
+zed-0.138.4/extensions/astro/languages/astro/brackets.scm
+zed-0.138.4/extensions/astro/languages/astro/config.toml
+zed-0.138.4/extensions/astro/languages/astro/highlights.scm
+zed-0.138.4/extensions/astro/languages/astro/injections.scm
+zed-0.138.4/extensions/astro/src/
+zed-0.138.4/extensions/astro/src/astro.rs
+zed-0.138.4/extensions/clojure/
+zed-0.138.4/extensions/clojure/Cargo.toml
+zed-0.138.4/extensions/clojure/LICENSE-APACHE
+zed-0.138.4/extensions/clojure/extension.toml
+zed-0.138.4/extensions/clojure/languages/
+zed-0.138.4/extensions/clojure/languages/clojure/
+zed-0.138.4/extensions/clojure/languages/clojure/brackets.scm
+zed-0.138.4/extensions/clojure/languages/clojure/config.toml
+zed-0.138.4/extensions/clojure/languages/clojure/highlights.scm
+zed-0.138.4/extensions/clojure/languages/clojure/indents.scm
+zed-0.138.4/extensions/clojure/languages/clojure/outline.scm
+zed-0.138.4/extensions/clojure/src/
+zed-0.138.4/extensions/clojure/src/clojure.rs
+zed-0.138.4/extensions/csharp/
+zed-0.138.4/extensions/csharp/Cargo.toml
+zed-0.138.4/extensions/csharp/LICENSE-APACHE
+zed-0.138.4/extensions/csharp/extension.toml
+zed-0.138.4/extensions/csharp/languages/
+zed-0.138.4/extensions/csharp/languages/csharp/
+zed-0.138.4/extensions/csharp/languages/csharp/config.toml
+zed-0.138.4/extensions/csharp/languages/csharp/highlights.scm
+zed-0.138.4/extensions/csharp/languages/csharp/injections.scm
+zed-0.138.4/extensions/csharp/languages/csharp/outline.scm
+zed-0.138.4/extensions/csharp/src/
+zed-0.138.4/extensions/csharp/src/csharp.rs
+zed-0.138.4/extensions/dart/
+zed-0.138.4/extensions/dart/Cargo.toml
+zed-0.138.4/extensions/dart/LICENSE-APACHE
+zed-0.138.4/extensions/dart/extension.toml
+zed-0.138.4/extensions/dart/languages/
+zed-0.138.4/extensions/dart/languages/dart/
+zed-0.138.4/extensions/dart/languages/dart/brackets.scm
+zed-0.138.4/extensions/dart/languages/dart/config.toml
+zed-0.138.4/extensions/dart/languages/dart/highlights.scm
+zed-0.138.4/extensions/dart/languages/dart/indents.scm
+zed-0.138.4/extensions/dart/languages/dart/outline.scm
+zed-0.138.4/extensions/dart/src/
+zed-0.138.4/extensions/dart/src/dart.rs
+zed-0.138.4/extensions/deno/
+zed-0.138.4/extensions/deno/Cargo.toml
+zed-0.138.4/extensions/deno/LICENSE-APACHE
+zed-0.138.4/extensions/deno/extension.toml
+zed-0.138.4/extensions/deno/src/
+zed-0.138.4/extensions/deno/src/deno.rs
+zed-0.138.4/extensions/elixir/
+zed-0.138.4/extensions/elixir/Cargo.toml
+zed-0.138.4/extensions/elixir/LICENSE-APACHE
+zed-0.138.4/extensions/elixir/extension.toml
+zed-0.138.4/extensions/elixir/languages/
+zed-0.138.4/extensions/elixir/languages/elixir/
+zed-0.138.4/extensions/elixir/languages/elixir/brackets.scm
+zed-0.138.4/extensions/elixir/languages/elixir/config.toml
+zed-0.138.4/extensions/elixir/languages/elixir/embedding.scm
+zed-0.138.4/extensions/elixir/languages/elixir/highlights.scm
+zed-0.138.4/extensions/elixir/languages/elixir/indents.scm
+zed-0.138.4/extensions/elixir/languages/elixir/injections.scm
+zed-0.138.4/extensions/elixir/languages/elixir/outline.scm
+zed-0.138.4/extensions/elixir/languages/elixir/overrides.scm
+zed-0.138.4/extensions/elixir/languages/elixir/tasks.json
+zed-0.138.4/extensions/elixir/languages/heex/
+zed-0.138.4/extensions/elixir/languages/heex/config.toml
+zed-0.138.4/extensions/elixir/languages/heex/highlights.scm
+zed-0.138.4/extensions/elixir/languages/heex/injections.scm
+zed-0.138.4/extensions/elixir/languages/heex/overrides.scm
+zed-0.138.4/extensions/elixir/src/
+zed-0.138.4/extensions/elixir/src/elixir.rs
+zed-0.138.4/extensions/elixir/src/language_servers.rs
+zed-0.138.4/extensions/elixir/src/language_servers/
+zed-0.138.4/extensions/elixir/src/language_servers/elixir_ls.rs
+zed-0.138.4/extensions/elixir/src/language_servers/lexical.rs
+zed-0.138.4/extensions/elixir/src/language_servers/next_ls.rs
+zed-0.138.4/extensions/elm/
+zed-0.138.4/extensions/elm/Cargo.toml
+zed-0.138.4/extensions/elm/LICENSE-APACHE
+zed-0.138.4/extensions/elm/extension.toml
+zed-0.138.4/extensions/elm/languages/
+zed-0.138.4/extensions/elm/languages/elm/
+zed-0.138.4/extensions/elm/languages/elm/config.toml
+zed-0.138.4/extensions/elm/languages/elm/highlights.scm
+zed-0.138.4/extensions/elm/languages/elm/injections.scm
+zed-0.138.4/extensions/elm/languages/elm/outline.scm
+zed-0.138.4/extensions/elm/src/
+zed-0.138.4/extensions/elm/src/elm.rs
+zed-0.138.4/extensions/emmet/
+zed-0.138.4/extensions/emmet/.gitignore
+zed-0.138.4/extensions/emmet/Cargo.toml
+zed-0.138.4/extensions/emmet/LICENSE-APACHE
+zed-0.138.4/extensions/emmet/extension.toml
+zed-0.138.4/extensions/emmet/src/
+zed-0.138.4/extensions/emmet/src/emmet.rs
+zed-0.138.4/extensions/erlang/
+zed-0.138.4/extensions/erlang/Cargo.toml
+zed-0.138.4/extensions/erlang/LICENSE-APACHE
+zed-0.138.4/extensions/erlang/extension.toml
+zed-0.138.4/extensions/erlang/languages/
+zed-0.138.4/extensions/erlang/languages/erlang/
+zed-0.138.4/extensions/erlang/languages/erlang/brackets.scm
+zed-0.138.4/extensions/erlang/languages/erlang/config.toml
+zed-0.138.4/extensions/erlang/languages/erlang/highlights.scm
+zed-0.138.4/extensions/erlang/languages/erlang/indents.scm
+zed-0.138.4/extensions/erlang/languages/erlang/outline.scm
+zed-0.138.4/extensions/erlang/src/
+zed-0.138.4/extensions/erlang/src/erlang.rs
+zed-0.138.4/extensions/gleam/
+zed-0.138.4/extensions/gleam/Cargo.toml
+zed-0.138.4/extensions/gleam/LICENSE-APACHE
+zed-0.138.4/extensions/gleam/extension.toml
+zed-0.138.4/extensions/gleam/languages/
+zed-0.138.4/extensions/gleam/languages/gleam/
+zed-0.138.4/extensions/gleam/languages/gleam/config.toml
+zed-0.138.4/extensions/gleam/languages/gleam/highlights.scm
+zed-0.138.4/extensions/gleam/languages/gleam/indents.scm
+zed-0.138.4/extensions/gleam/languages/gleam/outline.scm
+zed-0.138.4/extensions/gleam/languages/gleam/runnables.scm
+zed-0.138.4/extensions/gleam/languages/gleam/tasks.json
+zed-0.138.4/extensions/gleam/src/
+zed-0.138.4/extensions/gleam/src/gleam.rs
+zed-0.138.4/extensions/glsl/
+zed-0.138.4/extensions/glsl/Cargo.toml
+zed-0.138.4/extensions/glsl/LICENSE-APACHE
+zed-0.138.4/extensions/glsl/extension.toml
+zed-0.138.4/extensions/glsl/languages/
+zed-0.138.4/extensions/glsl/languages/glsl/
+zed-0.138.4/extensions/glsl/languages/glsl/config.toml
+zed-0.138.4/extensions/glsl/languages/glsl/highlights.scm
+zed-0.138.4/extensions/glsl/src/
+zed-0.138.4/extensions/glsl/src/glsl.rs
+zed-0.138.4/extensions/haskell/
+zed-0.138.4/extensions/haskell/Cargo.toml
+zed-0.138.4/extensions/haskell/LICENSE-APACHE
+zed-0.138.4/extensions/haskell/extension.toml
+zed-0.138.4/extensions/haskell/languages/
+zed-0.138.4/extensions/haskell/languages/haskell/
+zed-0.138.4/extensions/haskell/languages/haskell/brackets.scm
+zed-0.138.4/extensions/haskell/languages/haskell/config.toml
+zed-0.138.4/extensions/haskell/languages/haskell/highlights.scm
+zed-0.138.4/extensions/haskell/languages/haskell/indents.scm
+zed-0.138.4/extensions/haskell/languages/haskell/outline.scm
+zed-0.138.4/extensions/haskell/src/
+zed-0.138.4/extensions/haskell/src/haskell.rs
+zed-0.138.4/extensions/html/
+zed-0.138.4/extensions/html/Cargo.toml
+zed-0.138.4/extensions/html/LICENSE-APACHE
+zed-0.138.4/extensions/html/extension.toml
+zed-0.138.4/extensions/html/languages/
+zed-0.138.4/extensions/html/languages/html/
+zed-0.138.4/extensions/html/languages/html/brackets.scm
+zed-0.138.4/extensions/html/languages/html/config.toml
+zed-0.138.4/extensions/html/languages/html/highlights.scm
+zed-0.138.4/extensions/html/languages/html/indents.scm
+zed-0.138.4/extensions/html/languages/html/injections.scm
+zed-0.138.4/extensions/html/languages/html/outline.scm
+zed-0.138.4/extensions/html/languages/html/overrides.scm
+zed-0.138.4/extensions/html/src/
+zed-0.138.4/extensions/html/src/html.rs
+zed-0.138.4/extensions/lua/
+zed-0.138.4/extensions/lua/Cargo.toml
+zed-0.138.4/extensions/lua/LICENSE-APACHE
+zed-0.138.4/extensions/lua/extension.toml
+zed-0.138.4/extensions/lua/languages/
+zed-0.138.4/extensions/lua/languages/lua/
+zed-0.138.4/extensions/lua/languages/lua/brackets.scm
+zed-0.138.4/extensions/lua/languages/lua/config.toml
+zed-0.138.4/extensions/lua/languages/lua/embedding.scm
+zed-0.138.4/extensions/lua/languages/lua/highlights.scm
+zed-0.138.4/extensions/lua/languages/lua/indents.scm
+zed-0.138.4/extensions/lua/languages/lua/outline.scm
+zed-0.138.4/extensions/lua/src/
+zed-0.138.4/extensions/lua/src/lua.rs
+zed-0.138.4/extensions/ocaml/
+zed-0.138.4/extensions/ocaml/Cargo.toml
+zed-0.138.4/extensions/ocaml/LICENSE-APACHE
+zed-0.138.4/extensions/ocaml/extension.toml
+zed-0.138.4/extensions/ocaml/languages/
+zed-0.138.4/extensions/ocaml/languages/ocaml-interface/
+zed-0.138.4/extensions/ocaml/languages/ocaml-interface/brackets.scm
+zed-0.138.4/extensions/ocaml/languages/ocaml-interface/config.toml
+zed-0.138.4/extensions/ocaml/languages/ocaml-interface/highlights.scm
+zed-0.138.4/extensions/ocaml/languages/ocaml-interface/indents.scm
+zed-0.138.4/extensions/ocaml/languages/ocaml-interface/outline.scm
+zed-0.138.4/extensions/ocaml/languages/ocaml/
+zed-0.138.4/extensions/ocaml/languages/ocaml/brackets.scm
+zed-0.138.4/extensions/ocaml/languages/ocaml/config.toml
+zed-0.138.4/extensions/ocaml/languages/ocaml/highlights.scm
+zed-0.138.4/extensions/ocaml/languages/ocaml/indents.scm
+zed-0.138.4/extensions/ocaml/languages/ocaml/outline.scm
+zed-0.138.4/extensions/ocaml/src/
+zed-0.138.4/extensions/ocaml/src/ocaml.rs
+zed-0.138.4/extensions/php/
+zed-0.138.4/extensions/php/Cargo.toml
+zed-0.138.4/extensions/php/LICENSE-APACHE
+zed-0.138.4/extensions/php/extension.toml
+zed-0.138.4/extensions/php/languages/
+zed-0.138.4/extensions/php/languages/php/
+zed-0.138.4/extensions/php/languages/php/config.toml
+zed-0.138.4/extensions/php/languages/php/embedding.scm
+zed-0.138.4/extensions/php/languages/php/highlights.scm
+zed-0.138.4/extensions/php/languages/php/injections.scm
+zed-0.138.4/extensions/php/languages/php/outline.scm
+zed-0.138.4/extensions/php/languages/php/runnables.scm
+zed-0.138.4/extensions/php/languages/php/tags.scm
+zed-0.138.4/extensions/php/languages/php/tasks.json
+zed-0.138.4/extensions/php/languages/phpdoc/
+zed-0.138.4/extensions/php/languages/phpdoc/config.toml
+zed-0.138.4/extensions/php/languages/phpdoc/highlights.scm
+zed-0.138.4/extensions/php/src/
+zed-0.138.4/extensions/php/src/php.rs
+zed-0.138.4/extensions/prisma/
+zed-0.138.4/extensions/prisma/Cargo.toml
+zed-0.138.4/extensions/prisma/LICENSE-APACHE
+zed-0.138.4/extensions/prisma/extension.toml
+zed-0.138.4/extensions/prisma/languages/
+zed-0.138.4/extensions/prisma/languages/prisma/
+zed-0.138.4/extensions/prisma/languages/prisma/config.toml
+zed-0.138.4/extensions/prisma/languages/prisma/highlights.scm
+zed-0.138.4/extensions/prisma/src/
+zed-0.138.4/extensions/prisma/src/prisma.rs
+zed-0.138.4/extensions/purescript/
+zed-0.138.4/extensions/purescript/Cargo.toml
+zed-0.138.4/extensions/purescript/LICENSE-APACHE
+zed-0.138.4/extensions/purescript/extension.toml
+zed-0.138.4/extensions/purescript/languages/
+zed-0.138.4/extensions/purescript/languages/purescript/
+zed-0.138.4/extensions/purescript/languages/purescript/brackets.scm
+zed-0.138.4/extensions/purescript/languages/purescript/config.toml
+zed-0.138.4/extensions/purescript/languages/purescript/highlights.scm
+zed-0.138.4/extensions/purescript/languages/purescript/indents.scm
+zed-0.138.4/extensions/purescript/src/
+zed-0.138.4/extensions/purescript/src/purescript.rs
+zed-0.138.4/extensions/racket/
+zed-0.138.4/extensions/racket/LICENSE-APACHE
+zed-0.138.4/extensions/racket/extension.toml
+zed-0.138.4/extensions/racket/languages/
+zed-0.138.4/extensions/racket/languages/racket/
+zed-0.138.4/extensions/racket/languages/racket/brackets.scm
+zed-0.138.4/extensions/racket/languages/racket/config.toml
+zed-0.138.4/extensions/racket/languages/racket/highlights.scm
+zed-0.138.4/extensions/racket/languages/racket/indents.scm
+zed-0.138.4/extensions/racket/languages/racket/outline.scm
+zed-0.138.4/extensions/ruby/
+zed-0.138.4/extensions/ruby/Cargo.toml
+zed-0.138.4/extensions/ruby/LICENSE-APACHE
+zed-0.138.4/extensions/ruby/extension.toml
+zed-0.138.4/extensions/ruby/languages/
+zed-0.138.4/extensions/ruby/languages/erb/
+zed-0.138.4/extensions/ruby/languages/erb/config.toml
+zed-0.138.4/extensions/ruby/languages/erb/highlights.scm
+zed-0.138.4/extensions/ruby/languages/erb/injections.scm
+zed-0.138.4/extensions/ruby/languages/ruby/
+zed-0.138.4/extensions/ruby/languages/ruby/brackets.scm
+zed-0.138.4/extensions/ruby/languages/ruby/config.toml
+zed-0.138.4/extensions/ruby/languages/ruby/embedding.scm
+zed-0.138.4/extensions/ruby/languages/ruby/highlights.scm
+zed-0.138.4/extensions/ruby/languages/ruby/indents.scm
+zed-0.138.4/extensions/ruby/languages/ruby/outline.scm
+zed-0.138.4/extensions/ruby/languages/ruby/overrides.scm
+zed-0.138.4/extensions/ruby/languages/ruby/ruby/
+zed-0.138.4/extensions/ruby/languages/ruby/ruby/injections.scm
+zed-0.138.4/extensions/ruby/languages/ruby/runnables.scm
+zed-0.138.4/extensions/ruby/languages/ruby/tasks.json
+zed-0.138.4/extensions/ruby/src/
+zed-0.138.4/extensions/ruby/src/language_servers.rs
+zed-0.138.4/extensions/ruby/src/language_servers/
+zed-0.138.4/extensions/ruby/src/language_servers/ruby_lsp.rs
+zed-0.138.4/extensions/ruby/src/language_servers/solargraph.rs
+zed-0.138.4/extensions/ruby/src/ruby.rs
+zed-0.138.4/extensions/scheme/
+zed-0.138.4/extensions/scheme/LICENSE-APACHE
+zed-0.138.4/extensions/scheme/extension.toml
+zed-0.138.4/extensions/scheme/languages/
+zed-0.138.4/extensions/scheme/languages/scheme/
+zed-0.138.4/extensions/scheme/languages/scheme/brackets.scm
+zed-0.138.4/extensions/scheme/languages/scheme/config.toml
+zed-0.138.4/extensions/scheme/languages/scheme/highlights.scm
+zed-0.138.4/extensions/scheme/languages/scheme/indents.scm
+zed-0.138.4/extensions/scheme/languages/scheme/outline.scm
+zed-0.138.4/extensions/scheme/languages/scheme/overrides.scm
+zed-0.138.4/extensions/svelte/
+zed-0.138.4/extensions/svelte/.gitignore
+zed-0.138.4/extensions/svelte/Cargo.toml
+zed-0.138.4/extensions/svelte/LICENSE-APACHE
+zed-0.138.4/extensions/svelte/extension.toml
+zed-0.138.4/extensions/svelte/languages/
+zed-0.138.4/extensions/svelte/languages/svelte/
+zed-0.138.4/extensions/svelte/languages/svelte/config.toml
+zed-0.138.4/extensions/svelte/languages/svelte/highlights.scm
+zed-0.138.4/extensions/svelte/languages/svelte/indents.scm
+zed-0.138.4/extensions/svelte/languages/svelte/injections.scm
+zed-0.138.4/extensions/svelte/languages/svelte/overrides.scm
+zed-0.138.4/extensions/svelte/src/
+zed-0.138.4/extensions/svelte/src/svelte.rs
+zed-0.138.4/extensions/terraform/
+zed-0.138.4/extensions/terraform/Cargo.toml
+zed-0.138.4/extensions/terraform/LICENSE-APACHE
+zed-0.138.4/extensions/terraform/extension.toml
+zed-0.138.4/extensions/terraform/languages/
+zed-0.138.4/extensions/terraform/languages/hcl/
+zed-0.138.4/extensions/terraform/languages/hcl/brackets.scm
+zed-0.138.4/extensions/terraform/languages/hcl/config.toml
+zed-0.138.4/extensions/terraform/languages/hcl/highlights.scm
+zed-0.138.4/extensions/terraform/languages/hcl/indents.scm
+zed-0.138.4/extensions/terraform/languages/hcl/injections.scm
+zed-0.138.4/extensions/terraform/languages/terraform-vars/
+zed-0.138.4/extensions/terraform/languages/terraform-vars/brackets.scm
+zed-0.138.4/extensions/terraform/languages/terraform-vars/config.toml
+zed-0.138.4/extensions/terraform/languages/terraform-vars/highlights.scm
+zed-0.138.4/extensions/terraform/languages/terraform-vars/indents.scm
+zed-0.138.4/extensions/terraform/languages/terraform-vars/injections.scm
+zed-0.138.4/extensions/terraform/languages/terraform/
+zed-0.138.4/extensions/terraform/languages/terraform/brackets.scm
+zed-0.138.4/extensions/terraform/languages/terraform/config.toml
+zed-0.138.4/extensions/terraform/languages/terraform/highlights.scm
+zed-0.138.4/extensions/terraform/languages/terraform/indents.scm
+zed-0.138.4/extensions/terraform/languages/terraform/injections.scm
+zed-0.138.4/extensions/terraform/src/
+zed-0.138.4/extensions/terraform/src/terraform.rs
+zed-0.138.4/extensions/toml/
+zed-0.138.4/extensions/toml/Cargo.toml
+zed-0.138.4/extensions/toml/LICENSE-APACHE
+zed-0.138.4/extensions/toml/extension.toml
+zed-0.138.4/extensions/toml/languages/
+zed-0.138.4/extensions/toml/languages/toml/
+zed-0.138.4/extensions/toml/languages/toml/brackets.scm
+zed-0.138.4/extensions/toml/languages/toml/config.toml
+zed-0.138.4/extensions/toml/languages/toml/highlights.scm
+zed-0.138.4/extensions/toml/languages/toml/indents.scm
+zed-0.138.4/extensions/toml/languages/toml/outline.scm
+zed-0.138.4/extensions/toml/languages/toml/overrides.scm
+zed-0.138.4/extensions/toml/languages/toml/redactions.scm
+zed-0.138.4/extensions/toml/src/
+zed-0.138.4/extensions/toml/src/toml.rs
+zed-0.138.4/extensions/uiua/
+zed-0.138.4/extensions/uiua/Cargo.toml
+zed-0.138.4/extensions/uiua/LICENSE-APACHE
+zed-0.138.4/extensions/uiua/extension.toml
+zed-0.138.4/extensions/uiua/languages/
+zed-0.138.4/extensions/uiua/languages/uiua/
+zed-0.138.4/extensions/uiua/languages/uiua/config.toml
+zed-0.138.4/extensions/uiua/languages/uiua/highlights.scm
+zed-0.138.4/extensions/uiua/languages/uiua/indents.scm
+zed-0.138.4/extensions/uiua/src/
+zed-0.138.4/extensions/uiua/src/uiua.rs
+zed-0.138.4/extensions/vue/
+zed-0.138.4/extensions/vue/Cargo.toml
+zed-0.138.4/extensions/vue/LICENSE-APACHE
+zed-0.138.4/extensions/vue/extension.toml
+zed-0.138.4/extensions/vue/languages/
+zed-0.138.4/extensions/vue/languages/vue/
+zed-0.138.4/extensions/vue/languages/vue/brackets.scm
+zed-0.138.4/extensions/vue/languages/vue/config.toml
+zed-0.138.4/extensions/vue/languages/vue/highlights.scm
+zed-0.138.4/extensions/vue/languages/vue/injections.scm
+zed-0.138.4/extensions/vue/languages/vue/overrides.scm
+zed-0.138.4/extensions/vue/src/
+zed-0.138.4/extensions/vue/src/vue.rs
+zed-0.138.4/extensions/zig/
+zed-0.138.4/extensions/zig/Cargo.toml
+zed-0.138.4/extensions/zig/LICENSE-APACHE
+zed-0.138.4/extensions/zig/extension.toml
+zed-0.138.4/extensions/zig/languages/
+zed-0.138.4/extensions/zig/languages/zig/
+zed-0.138.4/extensions/zig/languages/zig/brackets.scm
+zed-0.138.4/extensions/zig/languages/zig/config.toml
+zed-0.138.4/extensions/zig/languages/zig/highlights.scm
+zed-0.138.4/extensions/zig/languages/zig/indents.scm
+zed-0.138.4/extensions/zig/languages/zig/injections.scm
+zed-0.138.4/extensions/zig/languages/zig/outline.scm
+zed-0.138.4/extensions/zig/src/
+zed-0.138.4/extensions/zig/src/zig.rs
+zed-0.138.4/livekit.yaml
+zed-0.138.4/rust-toolchain.toml
+zed-0.138.4/script/
+zed-0.138.4/script/analyze_highlights.py
+zed-0.138.4/script/bootstrap
+zed-0.138.4/script/bump-extension-cli
+zed-0.138.4/script/bump-nightly
+zed-0.138.4/script/bump-zed-minor-versions
+zed-0.138.4/script/bump-zed-patch-version
+zed-0.138.4/script/bundle-linux
+zed-0.138.4/script/bundle-mac
+zed-0.138.4/script/clear-target-dir-if-larger-than
+zed-0.138.4/script/clippy
+zed-0.138.4/script/collab-flamegraph
+zed-0.138.4/script/crate-dep-graph
+zed-0.138.4/script/create-migration
+zed-0.138.4/script/danger/
+zed-0.138.4/script/danger/.gitignore
+zed-0.138.4/script/danger/dangerfile.ts
+zed-0.138.4/script/danger/package.json
+zed-0.138.4/script/danger/pnpm-lock.yaml
+zed-0.138.4/script/deploy-collab
+zed-0.138.4/script/deploy-postgrest
+zed-0.138.4/script/draft-release-notes
+zed-0.138.4/script/drop-test-dbs
+zed-0.138.4/script/eula/
+zed-0.138.4/script/eula/eula.json
+zed-0.138.4/script/eula/eula.md
+zed-0.138.4/script/eula/eula.rtf
+zed-0.138.4/script/flatpak/
+zed-0.138.4/script/flatpak/bundle-flatpak
+zed-0.138.4/script/flatpak/convert-release-notes.py
+zed-0.138.4/script/flatpak/deps
+zed-0.138.4/script/gemini.py
+zed-0.138.4/script/generate-eula-rtf
+zed-0.138.4/script/generate-licenses
+zed-0.138.4/script/get-changes-since
+zed-0.138.4/script/get-crate-version
+zed-0.138.4/script/get-preview-channel-changes
+zed-0.138.4/script/get-released-version
+zed-0.138.4/script/histogram
+zed-0.138.4/script/import-themes
+zed-0.138.4/script/install.sh
+zed-0.138.4/script/kube-shell
+zed-0.138.4/script/lib/
+zed-0.138.4/script/lib/blob-store.sh
+zed-0.138.4/script/lib/bump-version.sh
+zed-0.138.4/script/lib/deploy-helpers.sh
+zed-0.138.4/script/lib/squawk.toml
+zed-0.138.4/script/licenses/
+zed-0.138.4/script/licenses/template.hbs.md
+zed-0.138.4/script/licenses/zed-licenses.toml
+zed-0.138.4/script/linux
+zed-0.138.4/script/metal-debug
+zed-0.138.4/script/randomized-test-ci
+zed-0.138.4/script/randomized-test-minimize
+zed-0.138.4/script/reset_db
+zed-0.138.4/script/run-local-minio
+zed-0.138.4/script/seed-db
+zed-0.138.4/script/sqlx
+zed-0.138.4/script/squawk
+zed-0.138.4/script/storybook
+zed-0.138.4/script/symbolicate
+zed-0.138.4/script/trigger-release
+zed-0.138.4/script/update_top_ranking_issues/
+zed-0.138.4/script/update_top_ranking_issues/main.py
+zed-0.138.4/script/update_top_ranking_issues/poetry.lock
+zed-0.138.4/script/update_top_ranking_issues/pyproject.toml
+zed-0.138.4/script/update_top_ranking_issues/pyrightconfig.json
+zed-0.138.4/script/update_top_ranking_issues/requirements.txt
+zed-0.138.4/script/upload-extension-cli
+zed-0.138.4/script/upload-nightly
+zed-0.138.4/script/what-is-deployed
+zed-0.138.4/script/zed-local
+zed-0.138.4/tooling/
+zed-0.138.4/tooling/xtask/
+zed-0.138.4/tooling/xtask/Cargo.toml
+zed-0.138.4/tooling/xtask/LICENSE-GPL
+zed-0.138.4/tooling/xtask/src/
+zed-0.138.4/tooling/xtask/src/main.rs
+zed-0.138.4/tooling/xtask/src/tasks.rs
+zed-0.138.4/tooling/xtask/src/tasks/
+zed-0.138.4/tooling/xtask/src/tasks/clippy.rs
+zed-0.138.4/tooling/xtask/src/tasks/licenses.rs
+zed-0.138.4/tooling/xtask/src/workspace.rs
+zed-0.138.4/typos.toml
+patching file crates/auto_update/src/auto_update.rs
+patching file crates/cli/src/main.rs
+Hunk #1 succeeded at 315 (offset 1 line).
+Hunk #2 FAILED at 348.
+1 out of 2 hunks FAILED -- saving rejects to file crates/cli/src/main.rs.rej
+patching file Cargo.lock
+Hunk #1 succeeded at 5898 (offset 22 lines).
+Hunk #2 succeeded at 6965 (offset 35 lines).
+Hunk #3 succeeded at 6972 (offset 35 lines).
+patching file assets/settings/default.json
+Hunk #2 succeeded at 331 (offset 25 lines).
+Hunk #3 succeeded at 451 (offset 25 lines).
+Hunk #4 succeeded at 505 (offset 25 lines).
+patching file assets/settings/initial_user_settings.json
+patching file Cargo.lock
+Hunk #1 succeeded at 6533 (offset -55 lines).
+patching file crates/node_runtime/Cargo.toml
+patching file crates/node_runtime/src/node_runtime.rs
+patching file crates/supermaven_api/src/supermaven_api.rs
+patching file Cargo.toml
+Hunk #1 succeeded at 293 (offset 15 lines).
+patching file crates/client/Cargo.toml
+patching file crates/sqlez/Cargo.toml
+patching file crates/zed/resources/zed.desktop.in
+patching file crates/cli/src/main.rs
+patching file crates/zed/Cargo.toml
+   Compiling proc-macro2 v1.0.81
+   Compiling unicode-ident v1.0.12
+   Compiling serde v1.0.202
+   Compiling libc v0.2.153
+   Compiling cfg-if v1.0.0
+   Compiling autocfg v1.1.0
+   Compiling once_cell v1.19.0
+   Compiling version_check v0.9.4
+   Compiling typeid v1.0.0
+   Compiling itoa v1.0.11
+   Compiling pin-project-lite v0.2.13
+   Compiling memchr v2.7.2
+   Compiling crunchy v0.2.2
+   Compiling tiny-keccak v2.0.2
+   Compiling pkg-config v0.3.27
+   Compiling anyhow v1.0.83
+   Compiling zerocopy v0.7.32
+   Compiling smallvec v1.11.1
+   Compiling equivalent v1.0.1
+   Compiling rustix v0.38.32
+   Compiling linux-raw-sys v0.4.12
+   Compiling crossbeam-utils v0.8.16
+   Compiling serde_json v1.0.117
+   Compiling thiserror v1.0.60
+   Compiling tracing-core v0.1.32
+   Compiling futures-core v0.3.30
+   Compiling hashbrown v0.14.5
+   Compiling typenum v1.17.0
+   Compiling semver v1.0.18
+   Compiling futures-io v0.3.30
+   Compiling ryu v1.0.18
+   Compiling syn v1.0.109
+   Compiling slab v0.4.9
+   Compiling ahash v0.8.8
+   Compiling generic-array v0.14.7
+   Compiling memoffset v0.9.0
+   Compiling rustc-hash v1.1.0
+   Compiling vcpkg v0.2.15
+   Compiling crc32fast v1.3.2
+   Compiling parking v2.2.0
+   Compiling regex-syntax v0.8.2
+   Compiling aho-corasick v1.1.1
+   Compiling either v1.9.0
+   Compiling encoding_rs v0.8.33
+   Compiling libm v0.2.8
+   Compiling quote v1.0.35
+   Compiling jobserver v0.1.28
+   Compiling getrandom v0.2.10
+   Compiling concurrent-queue v2.2.0
+   Compiling syn v2.0.59
+   Compiling cc v1.0.90
+   Compiling const-random-macro v0.1.16
+   Compiling tinyvec_macros v0.1.1
+   Compiling bitflags v1.3.2
+   Compiling tinyvec v1.6.0
+   Compiling async-trait v0.1.77
+   Compiling pin-utils v0.1.0
+   Compiling futures-sink v0.3.30
+   Compiling num-traits v0.2.16
+   Compiling event-listener v2.5.3
+   Compiling polling v2.8.0
+   Compiling fastrand v2.0.0
+   Compiling futures-channel v0.3.30
+   Compiling const-random v0.1.18
+   Compiling futures-task v0.3.30
+   Compiling fastrand v1.9.0
+   Compiling waker-fn v1.1.0
+   Compiling io-lifetimes v1.0.11
+   Compiling percent-encoding v2.3.1
+   Compiling unicode-bidi v0.3.13
+   Compiling event-listener v5.1.0
+   Compiling futures-lite v1.13.0
+   Compiling form_urlencoded v1.2.1
+   Compiling event-listener v4.0.3
+   Compiling event-listener-strategy v0.5.0
+   Compiling futures-lite v2.2.0
+   Compiling scopeguard v1.2.0
+   Compiling rustix v0.37.23
+   Compiling event-listener-strategy v0.4.0
+   Compiling bitflags v2.4.2
+   Compiling atomic-waker v1.1.1
+   Compiling async-task v4.7.0
+   Compiling async-lock v3.3.0
+   Compiling bytes v1.5.0
+   Compiling piper v0.2.1
+   Compiling async-channel v2.2.0
+   Compiling async-lock v2.8.0
+   Compiling async-io v1.13.0
+   Compiling subtle v2.5.0
+   Compiling ppv-lite86 v0.2.17
+   Compiling unicode-normalization v0.1.22
+   Compiling socket2 v0.4.9
+   Compiling regex-automata v0.4.5
+   Compiling rand_core v0.6.4
+   Compiling block-buffer v0.10.4
+   Compiling cpufeatures v0.2.9
+   Compiling libloading v0.8.0
+   Compiling wasmtime-c-api-impl v19.0.0
+   Compiling crypto-common v0.1.6
+   Compiling lock_api v0.4.10
+   Compiling fnv v1.0.7
+   Compiling rand_chacha v0.3.1
+   Compiling openssl-probe v0.1.5
+   Compiling async-fs v1.6.0
+   Compiling parking_lot_core v0.9.8
+   Compiling digest v0.10.7
+   Compiling http v0.2.9
+   Compiling idna v0.5.0
+   Compiling async-channel v1.9.0
+   Compiling bstr v1.6.2
+   Compiling unicase v2.7.0
+   Compiling rand v0.8.5
+   Compiling same-file v1.0.6
+   Compiling spin v0.5.2
+   Compiling openssl-sys v0.9.93
+   Compiling tree-sitter v0.20.100 (https://github.com/tree-sitter/tree-sitter?rev=7b4894ba2ae81b988846676f54c0988d4027ef4f#7b4894ba)
+   Compiling libz-sys v1.1.12
+   Compiling walkdir v2.5.0
+   Compiling lazy_static v1.4.0
+   Compiling dlib v0.5.2
+   Compiling num-integer v0.1.45
+   Compiling linux-raw-sys v0.3.8
+   Compiling async-executor v1.5.1
+   Compiling wayland-sys v0.31.1
+   Compiling crossbeam-epoch v0.9.15
+   Compiling heck v0.4.1
+   Compiling adler v1.0.2
+   Compiling byteorder v1.4.3
+   Compiling regex-automata v0.3.9
+   Compiling sha2 v0.10.7
+   Compiling wayland-backend v0.3.3
+   Compiling cranelift-isle v0.106.0
+   Compiling target-lexicon v0.12.13
+   Compiling curl-sys v0.4.67+curl-8.3.0
+   Compiling async-net v1.7.0
+   Compiling async-process v1.7.0
+   Compiling downcast-rs v1.2.0
+   Compiling simd-adler32 v0.3.7
+   Compiling toml_datetime v0.6.5
+   Compiling winnow v0.5.15
+   Compiling scoped-tls v1.0.1
+   Compiling cranelift-codegen-shared v0.106.0
+   Compiling cranelift-codegen-meta v0.106.0
+   Compiling crossbeam-deque v0.8.3
+   Compiling dirs-sys v0.3.7
+   Compiling quick-xml v0.31.0
+   Compiling indexmap v1.9.3
+   Compiling rayon-core v1.12.0
+   Compiling miniz_oxide v0.7.1
+   Compiling num_cpus v1.16.0
+   Compiling hashbrown v0.13.2
+   Compiling num-iter v0.1.43
+   Compiling arrayvec v0.7.4
+   Compiling slice-group-by v0.3.1
+   Compiling arbitrary v1.3.2
+   Compiling leb128 v0.2.5
+   Compiling hashbrown v0.12.3
+   Compiling regex v1.10.3
+   Compiling wasm-encoder v0.201.0
+   Compiling wayland-scanner v0.31.1
+   Compiling parking_lot v0.12.1
+   Compiling num-bigint v0.4.4
+   Compiling cpp_demangle v0.4.3
+   Compiling cranelift-control v0.106.0
+   Compiling signal-hook v0.3.17
+   Compiling mime v0.3.17
+   Compiling bumpalo v3.14.0
+   Compiling curl v0.4.44
+   Compiling flate2 v1.0.27
+   Compiling zvariant_utils v1.1.0
+   Compiling rayon v1.8.0
+   Compiling dirs v3.0.2
+   Compiling signal-hook-registry v1.4.1
+   Compiling collections v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/collections)
+   Compiling rustc-demangle v0.1.23
+   Compiling isahc v1.7.2
+   Compiling static_assertions v1.1.0
+   Compiling take-until v0.2.0
+   Compiling sluice v0.5.5
+   Compiling cursor-icon v1.1.0
+   Compiling castaway v0.1.2
+   Compiling wasmtime-component-util v19.0.0
+   Compiling crossbeam-queue v0.3.8
+   Compiling hmac v0.12.1
+   Compiling memmap2 v0.9.4
+   Compiling block-padding v0.3.3
+   Compiling cmake v0.1.50
+   Compiling rustc_version v0.4.0
+   Compiling slotmap v1.0.6
+   Compiling endi v1.1.0
+   Compiling paste v1.0.14
+   Compiling float-cmp v0.9.0
+   Compiling unicode-xid v0.2.4
+   Compiling bit-vec v0.6.3
+   Compiling termcolor v1.1.3
+   Compiling id-arena v2.2.1
+   Compiling ash v0.38.0+1.3.281
+   Compiling roxmltree v0.19.0
+   Compiling as-raw-xcb-connection v1.0.1
+   Compiling pathfinder_simd v0.5.3 (https://github.com/servo/pathfinder.git?rev=30419d07660dc11a21e42ef4a7fa329600cff152#30419d07)
+   Compiling strict-num v0.1.1
+   Compiling inout v0.1.3
+   Compiling bit-set v0.5.3
+   Compiling serde_derive_internals v0.26.0
+   Compiling itertools v0.12.1
+   Compiling yeslogic-fontconfig-sys v3.2.0
+   Compiling num-rational v0.4.1
+   Compiling miniz_oxide v0.4.4
+   Compiling freetype-sys v0.13.1
+   Compiling wasmtime-asm-macros v19.0.0
+   Compiling arrayref v0.3.7
+   Compiling xkeysym v0.2.0
+   Compiling schemars v0.8.15
+   Compiling adler32 v1.2.0
+   Compiling unicode-width v0.1.11
+   Compiling cranelift-codegen v0.106.0
+   Compiling unicode-segmentation v1.10.1
+   Compiling x11rb-protocol v0.13.0
+   Compiling xcursor v0.3.5
+   Compiling wasmtime-component-macro v19.0.0
+   Compiling smithay-client-toolkit v0.18.1
+   Compiling serde_derive v1.0.202
+   Compiling tracing-attributes v0.1.27
+   Compiling thiserror-impl v1.0.60
+   Compiling futures-macro v0.3.30
+   Compiling pin-project-internal v1.1.3
+   Compiling bytemuck_derive v1.5.0
+   Compiling wasmtime-versioned-export-macros v19.0.0
+   Compiling zeroize_derive v1.4.2
+   Compiling enumflags2_derive v0.7.9
+   Compiling futures-util v0.3.30
+   Compiling wasmtime-fiber v19.0.0
+   Compiling wasmtime-runtime v19.0.0
+   Compiling zeroize v1.6.0
+   Compiling serde_repr v0.1.16
+   Compiling cipher v0.4.4
+   Compiling schemars_derive v0.8.15
+   Compiling bytemuck v1.14.0
+   Compiling derivative v2.2.0
+   Compiling tiny-skia-path v0.11.4
+   Compiling kurbo v0.11.0
+   Compiling fdeflate v0.3.4
+   Compiling pin-project v1.1.3
+   Compiling sha1 v0.10.6
+   Compiling xdg-home v1.1.0
+   Compiling async-broadcast v0.7.0
+   Compiling num-rational v0.3.2
+   Compiling ordered-stream v0.2.0
+   Compiling font-types v0.4.2
+   Compiling xim-parser v0.2.1 (https://github.com/npmania/xim-rs?rev=27132caffc5b9bc9c432ca4afad184ab6e7c16af#27132caf)
+   Compiling wasmtime-wmemcheck v19.0.0
+   Compiling base64 v0.22.0
+   Compiling hex v0.4.3
+   Compiling siphasher v1.0.1
+   Compiling sptr v0.3.2
+   Compiling num-conv v0.1.0
+   Compiling num-bigint-dig v0.8.4
+   Compiling time-core v0.1.2
+   Compiling weezl v0.1.8
+   Compiling powerfmt v0.2.0
+   Compiling dyn-clone v1.0.14
+   Compiling sha1_smol v1.0.0
+   Compiling ttf-parser v0.20.0
+   Compiling time-macros v0.2.18
+   Compiling read-fonts v0.15.3
+   Compiling png v0.17.13
+   Compiling svgtypes v0.15.0
+   Compiling jpeg-decoder v0.1.22
+   Compiling fontconfig-parser v0.5.6
+   Compiling miniz_oxide v0.3.7
+   Compiling deflate v0.8.6
+   Compiling codespan-reporting v0.11.1
+   Compiling num-complex v0.4.4
+   Compiling spirv v0.2.0+1.5.4
+   Compiling wasmtime-jit-icache-coherence v19.0.0
+   Compiling dirs-sys-next v0.1.2
+   Compiling is-docker v0.2.0
+   Compiling unicode-ccc v0.1.2
+   Compiling zeno v0.2.3
+   Compiling unicode-script v0.5.5
+   Compiling pollster v0.2.5
+   Compiling pico-args v0.5.0
+   Compiling hexf-parse v0.2.1
+   Compiling xmlwriter v0.1.0
+   Compiling yazi v0.1.6
+   Compiling wasmtime-slab v19.0.0
+   Compiling raw-window-handle v0.6.0
+   Compiling const-cstr v0.3.0
+   Compiling atomic v0.5.3
+   Compiling color_quant v1.1.0
+   Compiling sys-locale v0.3.1
+   Compiling unicode-properties v0.1.1
+   Compiling unicode-bidi-mirroring v0.1.0
+   Compiling imagesize v0.12.0
+   Compiling font-kit v0.11.0 (https://github.com/zed-industries/font-kit?rev=5a5c4d4#5a5c4d4c)
+   Compiling data-url v0.3.1
+   Compiling gif v0.11.4
+   Compiling num v0.4.1
+   Compiling dirs-next v2.0.0
+   Compiling is-wsl v0.4.0
+   Compiling png v0.16.8
+   Compiling tiff v0.6.1
+   Compiling freetype v0.7.0
+   Compiling futures-executor v0.3.28
+   Compiling aes v0.8.4
+   Compiling futures v0.3.28
+   Compiling cbc v0.1.2
+   Compiling rgb v0.8.36
+   Compiling hidden-trait v0.1.2
+   Compiling derive_refineable v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/refineable/derive_refineable)
+   Compiling profiling-procmacros v1.0.15
+   Compiling linkme-impl v0.3.17
+   Compiling pbkdf2 v0.12.2
+   Compiling hkdf v0.12.3
+   Compiling spin v0.9.8
+   Compiling euclid v0.22.9
+   Compiling nanorand v0.7.0
+   Compiling memmap2 v0.8.0
+   Compiling atty v0.2.14
+   Compiling xim-ctext v0.3.0 (https://github.com/npmania/xim-rs?rev=27132caffc5b9bc9c432ca4afad184ab6e7c16af#27132caf)
+   Compiling rangemap v1.4.0
+   Compiling self_cell v1.0.3
+   Compiling swash v0.1.12
+   Compiling mint v0.5.9
+   Compiling convert_case v0.4.0
+   Compiling pathdiff v0.2.1
+   Compiling scoped_threadpool v0.1.9
+   Compiling gpui v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/gpui)
+   Compiling svg_fmt v0.4.1
+   Compiling humantime v2.1.0
+   Compiling float-ord v0.2.0
+   Compiling unicode-linebreak v0.1.5
+   Compiling grid v0.13.0
+   Compiling image v0.23.14
+   Compiling refineable v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/refineable)
+   Compiling open v5.1.2
+   Compiling xkbcommon v0.7.0
+   Compiling flume v0.11.0
+   Compiling profiling v1.0.15
+   Compiling derive_more v0.99.17
+   Compiling linkme v0.3.17
+   Compiling filedescriptor v0.8.2
+   Compiling taffy v0.4.3
+   Compiling gpui_macros v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/gpui_macros)
+   Compiling blade-macros v0.2.1 (https://github.com/kvark/blade?rev=9c9cabf69e869fc7d9aef2fc76f7d5c354d5710a#9c9cabf6)
+   Compiling ctor v0.2.6
+   Compiling itertools v0.11.0
+   Compiling seahash v4.1.0
+   Compiling wasmtime-c-api-macros v19.0.0
+   Compiling etagere v0.2.8
+   Compiling iana-time-zone v0.1.57
+   Compiling home v0.5.9
+   Compiling itertools v0.10.5
+   Compiling foreign-types-shared v0.1.1
+   Compiling openssl v0.10.57
+   Compiling foreign-types v0.3.2
+   Compiling openssl-macros v0.1.1
+   Compiling native-tls v0.2.11
+   Compiling httparse v1.8.0
+   Compiling libgit2-sys v0.16.2+1.7.2
+   Compiling crossbeam-channel v0.5.8
+   Compiling fixedbitset v0.4.2
+   Compiling filetime v0.2.22
+   Compiling erased-serde v0.4.5
+   Compiling serde_fmt v1.0.3
+   Compiling indexmap v2.2.6
+   Compiling heck v0.3.3
+   Compiling glob v0.3.1
+   Compiling url v2.5.0
+   Compiling cranelift-entity v0.106.0
+   Compiling bincode v1.3.3
+   Compiling value-bag-serde1 v1.9.0
+   Compiling value-bag v1.9.0
+   Compiling toml_edit v0.21.1
+   Compiling log v0.4.21
+   Compiling cranelift-bforest v0.106.0
+   Compiling wasmparser v0.201.0
+   Compiling toml_edit v0.19.15
+   Compiling gimli v0.28.0
+   Compiling globset v0.4.14
+   Compiling object v0.32.1
+   Compiling enumflags2 v0.7.9
+   Compiling tracing v0.1.40
+   Compiling blocking v1.5.1
+   Compiling rust-embed-utils v8.4.0
+   Compiling rust-embed-impl v8.4.0
+   Compiling regalloc2 v0.9.3
+   Compiling proc-macro-crate v3.1.0
+   Compiling tracing-futures v0.2.5
+   Compiling rust-embed v8.4.0
+   Compiling util v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/util)
+   Compiling proc-macro-crate v1.3.1
+   Compiling smol v1.3.0
+   Compiling async-fs v2.1.1
+   Compiling nix v0.27.1
+   Compiling http v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/http)
+   Compiling gpu-alloc-types v0.3.0
+   Compiling simplecss v0.2.1
+   Compiling zvariant_derive v4.0.2
+   Compiling sum_tree v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/sum_tree)
+   Compiling deranged v0.3.11
+   Compiling uuid v1.4.1
+   Compiling usvg v0.41.0
+   Compiling gpu-alloc v0.6.0
+   Compiling zbus_macros v4.0.1
+   Compiling pathfinder_geometry v0.5.1
+   Compiling tiny-skia v0.11.4
+   Compiling fontdb v0.16.2
+   Compiling naga v0.14.2
+   Compiling zvariant v4.0.2
+   Compiling polling v3.3.2
+   Compiling async-io v2.3.1
+   Compiling calloop v0.12.4
+   Compiling memfd v0.6.4
+   Compiling wayland-client v0.31.2
+   Compiling wasmtime-types v19.0.0
+   Compiling wasmprinter v0.201.0
+   Compiling wit-parser v0.201.0
+   Compiling wayland-csd-frame v0.3.0
+   Compiling x11rb v0.13.0
+   Compiling wasmtime-environ v19.0.0
+   Compiling zbus_names v3.0.0
+   Compiling gpu-alloc-ash v0.7.0
+   Compiling wayland-protocols v0.31.2
+   Compiling wayland-cursor v0.31.1
+   Compiling calloop-wayland-source v0.2.0
+   Compiling zbus v4.0.1
+   Compiling ash-window v0.13.0
+   Compiling wasmtime-wit-bindgen v19.0.0
+   Compiling async-net v2.0.0
+   Compiling time v0.3.36
+   Compiling postage v0.5.0
+   Compiling rustybuzz v0.12.1
+   Compiling semantic_version v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/semantic_version)
+   Compiling blade-graphics v0.4.0 (https://github.com/kvark/blade?rev=9c9cabf69e869fc7d9aef2fc76f7d5c354d5710a#9c9cabf6)
+   Compiling resvg v0.41.0
+   Compiling x11-clipboard v0.9.2
+   Compiling xim v0.4.0 (https://github.com/npmania/xim-rs?rev=27132caffc5b9bc9c432ca4afad184ab6e7c16af#27132caf)
+   Compiling env_logger v0.9.3
+   Compiling mio v0.8.11
+   Compiling which v4.4.2
+   Compiling chrono v0.4.31
+   Compiling prost-derive v0.9.0
+   Compiling async-global-executor v2.3.1
+   Compiling kv-log-macro v1.0.7
+   Compiling prost-build v0.9.0
+   Compiling async-std v1.12.0
+   Compiling tempfile v3.9.0
+   Compiling cosmic-text v0.11.2
+   Compiling rope v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/rope)
+   Compiling wayland-protocols-wlr v0.2.0
+   Compiling wayland-protocols-plasma v0.2.0
+   Compiling prost v0.9.0
+   Compiling prost-types v0.9.0
+   Compiling clock v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/clock)
+   Compiling cranelift-native v0.106.0
+   Compiling cranelift-frontend v0.106.0
+   Compiling cranelift-wasm v0.106.0
+   Compiling wasmtime-cranelift-shared v19.0.0
+   Compiling oo7 v0.3.0
+   Compiling smithay-clipboard v0.7.1
+   Compiling wasmtime-cranelift v19.0.0
+   Compiling copypasta v0.10.1
+   Compiling ashpd v0.8.1
+   Compiling petgraph v0.6.4
+   Compiling wasmtime v19.0.0
+   Compiling multimap v0.8.3
+   Compiling base64 v0.13.1
+   Compiling text v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/text)
+   Compiling git2 v0.18.3
+   Compiling clang-sys v1.6.1
+   Compiling inotify-sys v0.1.5
+   Compiling xattr v0.2.3
+   Compiling serde_json_lenient v0.1.7
+   Compiling async-tar v0.4.2
+   Compiling inotify v0.9.6
+   Compiling tree-sitter-json v0.19.0
+   Compiling rustversion v1.0.14
+   Compiling minimal-lexical v0.2.1
+   Compiling nom v7.1.3
+   Compiling notify v6.1.1
+   Compiling digest v0.9.0
+   Compiling zstd-sys v2.0.8+zstd.1.5.5
+   Compiling block-buffer v0.9.0
+   Compiling libloading v0.7.4
+   Compiling opaque-debug v0.3.0
+   Compiling num-bigint-dig v0.7.1
+   Compiling palette v0.7.5
+   Compiling zstd-safe v5.0.2+zstd.1.5.2
+   Compiling strum_macros v0.25.2
+   Compiling sha-1 v0.9.8
+   Compiling palette_derive v0.7.5
+   Compiling peeking_take_while v0.1.2
+   Compiling shlex v1.3.0
+   Compiling lazycell v1.3.0
+   Compiling cexpr v0.6.0
+   Compiling fast-srgb8 v1.0.0
+   Compiling utf-8 v0.7.6
+   Compiling tungstenite v0.16.0
+   Compiling rpc v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/rpc)
+   Compiling strum v0.25.0
+   Compiling pem v0.8.3
+   Compiling async-native-tls v0.3.3
+   Compiling simple_asn1 v0.5.4
+   Compiling async-tungstenite v0.16.1
+   Compiling zstd v0.11.2+zstd.1.5.2
+   Compiling dirs v4.0.0
+   Compiling shellexpand v2.1.2
+   Compiling pulldown-cmark v0.10.0
+   Compiling lsp-types v0.95.1 (https://github.com/zed-industries/lsp-types?branch=apply-snippet-edit#853c7881)
+   Compiling utf8parse v0.2.1
+   Compiling language v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/language)
+   Compiling rsa v0.4.0
+   Compiling similar v1.3.0
+   Compiling bindgen v0.64.0
+   Compiling socket2 v0.5.4
+   Compiling ipnet v2.8.0
+warning: struct `RenderedCount` is never constructed
+   --> crates/gpui/src/elements/list.rs:162:8
+    |
+162 | struct RenderedCount(usize);
+    |        ^^^^^^^^^^^^^
+    |
+    = note: `RenderedCount` has a derived impl for the trait `Default`, but this is intentionally ignored during dead code analysis
+    = note: `#[warn(dead_code)]` on by default
+
+warning: struct `UnrenderedCount` is never constructed
+   --> crates/gpui/src/elements/list.rs:165:8
+    |
+165 | struct UnrenderedCount(usize);
+    |        ^^^^^^^^^^^^^^^
+    |
+    = note: `UnrenderedCount` has a derived impl for the trait `Default`, but this is intentionally ignored during dead code analysis
+
+   Compiling sysinfo v0.30.7
+   Compiling tokio v1.32.0
+   Compiling ascii v1.1.0
+   Compiling chunked_transfer v1.4.1
+   Compiling tiny_http v0.8.2
+   Compiling color v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/color)
+   Compiling async-native-tls v0.5.0
+   Compiling telemetry_events v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/telemetry_events)
+   Compiling async-recursion v0.3.2
+   Compiling prettyplease v0.2.15
+   Compiling deflate64 v0.1.8
+   Compiling async-compression v0.4.6
+   Compiling vte_generate_state_changes v0.1.1
+   Compiling alsa-sys v0.3.1
+   Compiling bindgen v0.65.1
+   Compiling try-lock v0.2.4
+   Compiling want v0.3.1
+   Compiling async_zip v0.0.17
+   Compiling vte v0.13.0
+   Compiling release_channel v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/release_channel)
+   Compiling git v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/git)
+   Compiling task v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/task)
+   Compiling fuzzy v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/fuzzy)
+   Compiling feature_flags v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/feature_flags)
+   Compiling fs v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/fs)
+   Compiling settings v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/settings)
+   Compiling which v6.0.0
+   Compiling rustix-openpty v0.1.1
+   Compiling http-body v0.4.5
+   Compiling tower-service v0.3.2
+   Compiling httpdate v1.0.3
+   Compiling theme v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/theme)
+   Compiling node_runtime v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/node_runtime)
+   Compiling alacritty_terminal v0.23.0
+warning: constant `VERSION` is never used
+  --> crates/node_runtime/src/node_runtime.rs:25:7
+   |
+25 | const VERSION: &str = "v18.15.0";
+   |       ^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: constant `NODE_PATH` is never used
+  --> crates/node_runtime/src/node_runtime.rs:28:7
+   |
+28 | const NODE_PATH: &str = "bin/node";
+   |       ^^^^^^^^^
+
+warning: constant `NPM_PATH` is never used
+  --> crates/node_runtime/src/node_runtime.rs:33:7
+   |
+33 | const NPM_PATH: &str = "bin/npm";
+   |       ^^^^^^^^
+
+warning: enum `ArchiveType` is never used
+  --> crates/node_runtime/src/node_runtime.rs:37:6
+   |
+37 | enum ArchiveType {
+   |      ^^^^^^^^^^^
+
+warning: field `installation_lock` is never read
+   --> crates/node_runtime/src/node_runtime.rs:113:5
+    |
+111 | pub struct RealNodeRuntime {
+    |            --------------- field in this struct
+112 |     http: Arc<dyn HttpClient>,
+113 |     installation_lock: Mutex<()>,
+    |     ^^^^^^^^^^^^^^^^^
+
+warning: method `install_if_needed` is never used
+   --> crates/node_runtime/src/node_runtime.rs:124:14
+    |
+116 | impl RealNodeRuntime {
+    | -------------------- method in this implementation
+...
+124 |     async fn install_if_needed(&self) -> Result<PathBuf> {
+    |              ^^^^^^^^^^^^^^^^^
+
+warning: function `extract_zip` is never used
+ --> crates/node_runtime/src/archive.rs:7:14
+  |
+7 | pub async fn extract_zip<R: AsyncRead + Unpin>(destination: &Path, reader: R) -> Result<()> {
+  |              ^^^^^^^^^^^
+
+   Compiling tokio-util v0.7.9
+   Compiling h2 v0.3.21
+   Compiling tokio-native-tls v0.3.1
+   Compiling client v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/client)
+   Compiling libsqlite3-sys v0.26.0
+   Compiling ignore v0.4.22
+   Compiling nix v0.24.3
+   Compiling cpal v0.15.2
+   Compiling indoc v1.0.9
+warning: `node_runtime` (lib) generated 7 warnings
+   Compiling base64 v0.21.7
+   Compiling dev_server_projects v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/dev_server_projects)
+   Compiling terminal v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/terminal)
+   Compiling alsa v0.7.1
+   Compiling live_kit_server v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/live_kit_server)
+   Compiling serde_urlencoded v0.7.1
+   Compiling snippet v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/snippet)
+   Compiling thread_local v1.1.7
+   Compiling dasp_sample v0.11.0
+   Compiling unicode_categories v0.1.1
+   Compiling hyper v0.14.27
+   Compiling sqlez v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/sqlez)
+   Compiling sqlformat v0.2.2
+   Compiling menu v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/menu)
+   Compiling jwt v0.16.0
+   Compiling live_kit_client v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/live_kit_client)
+   Compiling hound v3.5.0
+   Compiling ui v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/ui)
+   Compiling media v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/media)
+   Compiling lsp v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/lsp)
+   Compiling rodio v0.17.1
+   Compiling nanoid v0.4.0
+   Compiling async-recursion v1.0.5
+   Compiling any_vec v0.13.0
+   Compiling siphasher v0.3.11
+   Compiling audio v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/audio)
+   Compiling phf_shared v0.11.2
+   Compiling linkify v0.10.0
+   Compiling phf v0.11.2
+   Compiling time_format v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/time_format)
+   Compiling emojis v0.6.1
+   Compiling convert_case v0.6.0
+   Compiling ordered-float v2.10.0
+   Compiling io-lifetimes v2.0.3
+   Compiling hyper-tls v0.5.0
+   Compiling reqwest v0.11.20
+   Compiling io-extras v0.18.1
+   Compiling sqlez_macros v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/sqlez_macros)
+   Compiling cap-primitives v3.0.0
+   Compiling ambient-authority v0.0.2
+   Compiling fs-set-times v0.20.1
+   Compiling maybe-owned v0.3.4
+   Compiling serde_spanned v0.6.5
+   Compiling cap-std v3.0.0
+   Compiling winnow v0.6.1
+   Compiling wast v35.0.2
+   Compiling phf_generator v0.11.2
+   Compiling db v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/db)
+   Compiling phf_macros v0.11.2
+   Compiling file_icons v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/file_icons)
+   Compiling command_palette_hooks v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/command_palette_hooks)
+warning: field `depth` is never read
+  --> crates/language/src/syntax_map.rs:51:9
+   |
+50 | pub struct SyntaxMapCapture<'a> {
+   |            ---------------- field in this struct
+51 |     pub depth: usize,
+   |         ^^^^^
+   |
+   = note: `SyntaxMapCapture` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` on by default
+
+   Compiling witx v0.9.1
+   Compiling system-interface v0.27.1
+   Compiling cap-fs-ext v3.0.0
+   Compiling doxygen-rs v0.4.2
+   Compiling spdx v0.10.4
+   Compiling prettier v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/prettier)
+   Compiling worktree v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/worktree)
+   Compiling multi_buffer v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/multi_buffer)
+   Compiling wasm-metadata v0.201.0
+   Compiling toml_edit v0.22.6
+   Compiling wiggle-generate v19.0.0
+   Compiling project v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/project)
+   Compiling wiggle-macro v19.0.0
+   Compiling wiggle v19.0.0
+   Compiling lmdb-master-sys v0.2.0
+   Compiling toml v0.8.10
+   Compiling cap-net-ext v3.0.0
+   Compiling cap-time-ext v3.0.0
+   Compiling cap-rand v3.0.0
+   Compiling diff v0.1.13
+   Compiling yansi v0.5.1
+   Compiling pretty_assertions v1.4.0
+   Compiling wasmtime-wasi v19.0.0
+   Compiling wit-component v0.201.0
+   Compiling zed_actions v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/zed_actions)
+   Compiling anstyle-parse v0.2.1
+   Compiling anstyle-query v1.0.0
+   Compiling anstyle v1.0.3
+   Compiling colorchoice v1.0.0
+   Compiling heed-traits v0.20.0
+   Compiling heed-types v0.20.0
+   Compiling anstream v0.5.0
+   Compiling synchronoise v1.0.1
+   Compiling page_size v0.6.0
+   Compiling linked-hash-map v0.5.6
+   Compiling strsim v0.10.0
+   Compiling clap_lex v0.5.1
+   Compiling call v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/call)
+   Compiling futures-timer v3.0.3
+   Compiling futures-batch v0.6.1
+   Compiling clap_builder v4.4.4
+   Compiling heed v0.20.1
+   Compiling yaml-rust v0.4.5
+   Compiling workspace v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/workspace)
+   Compiling open_ai v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/open_ai)
+   Compiling supermaven_api v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/supermaven_api)
+   Compiling toml v0.5.11
+warning: unused import: `futures::io::BufReader`
+ --> crates/supermaven_api/src/supermaven_api.rs:2:5
+  |
+2 | use futures::io::BufReader;
+  |     ^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `File`
+ --> crates/supermaven_api/src/supermaven_api.rs:6:22
+  |
+6 | use smol::fs::{self, File};
+  |                      ^^^^
+
+   Compiling clap_derive v4.4.2
+warning: unused import: `smol::stream::StreamExt`
+ --> crates/supermaven_api/src/supermaven_api.rs:7:5
+  |
+7 | use smol::stream::StreamExt;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `supermaven_api` (lib) generated 3 warnings (run `cargo fix --lib -p supermaven_api` to apply 2 suggestions)
+   Compiling fancy-regex v0.12.0
+   Compiling tree-sitter-typescript v0.20.5
+   Compiling tree-sitter-python v0.20.4
+   Compiling tree-sitter-regex v0.20.0
+   Compiling tree-sitter-c v0.20.6
+   Compiling tree-sitter-bash v0.20.5
+   Compiling tree-sitter-cpp v0.20.5
+   Compiling tree-sitter-gowork v0.0.1 (https://github.com/d1y/tree-sitter-go-work#a2a4b99b)
+   Compiling tree-sitter-yaml v0.0.1
+   Compiling tree-sitter-go v0.20.0 (https://github.com/tree-sitter/tree-sitter-go?rev=b82ab803d887002a0af11f6ce63d72884580bf33#b82ab803)
+   Compiling tree-sitter-proto v0.0.2 (https://github.com/rewinfrey/tree-sitter-proto?rev=36d54f288aee112f13a67b550ad32634d0c2cb52#36d54f28)
+   Compiling tree-sitter-css v0.20.0
+   Compiling tree-sitter-jsdoc v0.20.0 (https://github.com/tree-sitter/tree-sitter-jsdoc?rev=6a6cf9e7341af32d8e2b2e24a37fbfebefc3dc55#6a6cf9e7)
+   Compiling tree-sitter-rust v0.20.4
+   Compiling tree-sitter-gomod v1.0.1
+   Compiling tree-sitter-markdown v0.0.1 (https://github.com/MDeiml/tree-sitter-markdown?rev=330ecab87a3e3a7211ac69bbadc19eabecdb1cca#330ecab8)
+   Compiling tree-sitter-json v0.20.2
+   Compiling errno v0.2.8
+   Compiling cfg_aliases v0.1.1
+   Compiling unindent v0.1.11
+   Compiling exec v0.3.1
+   Compiling clap v4.4.4
+   Compiling nix v0.28.0
+   Compiling editor v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/editor)
+   Compiling assistant_slash_command v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/assistant_slash_command)
+   Compiling semantic_index v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/semantic_index)
+   Compiling tiktoken-rs v0.5.9
+   Compiling gray_matter v0.2.7
+   Compiling cargo_toml v0.20.2
+   Compiling markdown v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/markdown)
+   Compiling channel v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/channel)
+   Compiling ipc-channel v0.18.0
+   Compiling anthropic v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/anthropic)
+   Compiling backtrace v0.3.69
+   Compiling fork v0.1.23
+   Compiling strsim v0.11.1
+   Compiling cli v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/cli)
+warning: field `excerpt` is never read
+  --> crates/editor/src/hover_popover.rs:51:9
+   |
+50 | pub struct InlayHover {
+   |            ---------- field in this struct
+51 |     pub excerpt: ExcerptId,
+   |         ^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+   Compiling notifications v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/notifications)
+warning: struct `UnreadCount` is never constructed
+  --> crates/notifications/src/notification_store.rs:72:8
+   |
+72 | struct UnreadCount(usize);
+   |        ^^^^^^^^^^^
+   |
+   = note: `UnreadCount` has a derived impl for the trait `Default`, but this is intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` on by default
+
+   Compiling rich_text v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/rich_text)
+   Compiling install_cli v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/install_cli)
+   Compiling addr2line v0.21.0
+   Compiling urlencoding v2.1.3
+   Compiling human_bytes v0.4.3
+   Compiling zed v0.138.4 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/zed)
+   Compiling languages v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/languages)
+   Compiling picker v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/picker)
+   Compiling search v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/search)
+   Compiling tasks_ui v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/tasks_ui)
+   Compiling theme_selector v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/theme_selector)
+   Compiling terminal_view v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/terminal_view)
+   Compiling copilot v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/copilot)
+warning: `notifications` (lib) generated 1 warning
+   Compiling markdown_preview v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/markdown_preview)
+   Compiling auto_update v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/auto_update)
+   Compiling extension v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/extension)
+   Compiling supermaven v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/supermaven)
+   Compiling ui_text_field v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/ui_text_field)
+   Compiling recent_projects v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/recent_projects)
+   Compiling inline_completion_button v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/inline_completion_button)
+   Compiling assistant v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/assistant)
+   Compiling vim v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/vim)
+   Compiling outline v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/outline)
+   Compiling extensions_ui v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/extensions_ui)
+warning: `language` (lib) generated 1 warning
+   Compiling vcs_menu v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/vcs_menu)
+   Compiling collab_ui v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/collab_ui)
+   Compiling welcome v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/welcome)
+   Compiling quick_action_bar v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/quick_action_bar)
+   Compiling activity_indicator v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/activity_indicator)
+   Compiling breadcrumbs v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/breadcrumbs)
+   Compiling language_tools v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/language_tools)
+   Compiling tab_switcher v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/tab_switcher)
+   Compiling project_panel v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/project_panel)
+   Compiling project_symbols v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/project_symbols)
+   Compiling command_palette v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/command_palette)
+   Compiling file_finder v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/file_finder)
+   Compiling language_selector v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/language_selector)
+   Compiling diagnostics v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/diagnostics)
+   Compiling feedback v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/feedback)
+   Compiling go_to_line v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/go_to_line)
+   Compiling journal v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/journal)
+   Compiling image_viewer v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/image_viewer)
+   Compiling headless v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/headless)
+   Compiling git_hosting_providers v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/git_hosting_providers)
+   Compiling assets v0.1.0 (/home/omen/BUILDS/clopy-paste/zed/work/zed-0.138.4/crates/assets)
+   Compiling simplelog v0.9.0
+warning: `gpui` (lib) generated 2 warnings
+warning: `editor` (lib) generated 1 warning
+    Finished `release` profile [optimized + debuginfo] target(s) in 6m 44s
+cp: cannot stat 'ABOUT ABOUT-NLS ANNOUNCE AUTHORS *BUGS* ChangeLog Changelog CHANGELOG Changes CHANGES COPYING COPYRIGHT CREDITS CONFIGURATION* CONTRIBUTING* CONTRIBUTORS doc docs* Doc Docs* *FAQ* FEATURES FILES GPL* HACKING History HISTORY index.ht* *INDEX* INSTALL* License* LICENSE* LSM MANIFEST NEWS *README* *Readme* *RELEASE* RELNOTES Roadmap ROADMAP SITES THANKS TIPS TODO VERSION': File name too long
+
+Slackware package maker, version 3.14159265.
+
+Searching for symbolic links:
+
+No symbolic links were found, so we won't make an installation script.
+You can make your own later in ./install/doinst.sh and rebuild the
+package if you like.
+
+This next step is optional - you can set the directories in your package
+to some sane permissions. If any of the directories in your package have
+special permissions, then DO NOT reset them here!
+
+Would you like to reset all directory permissions to 755 (drwxr-xr-x) and
+directory ownerships to root.root ([y]es, [n]o)? n
+
+Creating Slackware package:  /home/omen/BUILDS/clopy-paste/zed/binary-zed-0.138.4/zed-0.138.4-x86_64-2_rtz.tlz
+
+./
+install/
+install/doinst.sh
+install/slack-desc
+usr/
+usr/bin/
+usr/bin/zed-editor
+usr/doc/
+usr/doc/zed-0.138.4/
+usr/doc/zed-0.138.4/zed.SlackBuild
+usr/libexec/
+usr/libexec/zed-editor
+usr/share/
+usr/share/applications/
+usr/share/applications/zed.desktop
+usr/share/icons/
+usr/share/icons/hicolor/
+usr/share/icons/hicolor/1024x1024/
+usr/share/icons/hicolor/1024x1024/apps/
+usr/share/icons/hicolor/1024x1024/apps/zed.png
+usr/share/icons/hicolor/512x512/
+usr/share/icons/hicolor/512x512/apps/
+usr/share/icons/hicolor/512x512/apps/zed.png
+usr/share/pixmaps/
+usr/share/pixmaps/zed.png
+
+Slackware package /home/omen/BUILDS/clopy-paste/zed/binary-zed-0.138.4/zed-0.138.4-x86_64-2_rtz.tlz created.
+
+
++==============================================================================
+| Upgrading zed-0.138.4-x86_64-2_rtz package using /home/omen/BUILDS/clopy-paste/zed/binary-zed-0.138.4/zed-0.138.4-x86_64-2_rtz.tlz
++==============================================================================
+Pre-installing package zed-0.138.4-x86_64-2_rtz...
+Removing package: zed-0.138.4-x86_64-2_rtz-upgraded-2024-09-16,18:53:51
+Verifying package zed-0.138.4-x86_64-2_rtz.tlz.
+Installing package zed-0.138.4-x86_64-2_rtz.tlz:
+PACKAGE DESCRIPTION:
+# zed (multiplayer code editor)
+#
+# Zed is a next-generation code editor designed for,high-performance
+# collaboration with humans and AI. A High-performance multiplayer
+# code editor.
+#
+# Homepage: https://zed.dev
+Executing install script for zed-0.138.4-x86_64-2_rtz.tlz.
+Font directories:
+	/usr/share/fonts
+/usr/share/fonts: caching, new cache contents: 0 fonts, 13 dirs
+/usr/share/fonts/100dpi: caching, new cache contents: 398 fonts, 0 dirs
+/usr/share/fonts/75dpi: caching, new cache contents: 398 fonts, 0 dirs
+/usr/share/fonts/OTF: caching, new cache contents: 167 fonts, 0 dirs
+/usr/share/fonts/Speedo: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/TTF: caching, new cache contents: 473 fonts, 3 dirs
+/usr/share/fonts/TTF/cantarell: caching, new cache contents: 6 fonts, 0 dirs
+/usr/share/fonts/TTF/oxygen: caching, new cache contents: 3 fonts, 0 dirs
+/usr/share/fonts/TTF/static: caching, new cache contents: 36 fonts, 0 dirs
+/usr/share/fonts/Type1: caching, new cache contents: 64 fonts, 0 dirs
+/usr/share/fonts/cyrillic: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/encodings: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/encodings/large: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/kanjistrokeorders: caching, new cache contents: 1 fonts, 0 dirs
+/usr/share/fonts/misc: caching, new cache contents: 144 fonts, 0 dirs
+/usr/share/fonts/opentype: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/opentype/fira: caching, new cache contents: 97 fonts, 0 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/truetype/roboto-slab: caching, new cache contents: 4 fonts, 0 dirs
+/usr/share/fonts/util: caching, new cache contents: 0 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+/usr/bin/fc-cache: succeeded
+Package zed-0.138.4-x86_64-2_rtz.tlz installed.
+Package zed-0.138.4-x86_64-2_rtz upgraded with new package /home/omen/BUILDS/clopy-paste/zed/binary-zed-0.138.4/zed-0.138.4-x86_64-2_rtz.tlz.
+Build process completed in 7 minutes and 38 seconds.

@@ -30,7 +30,6 @@ python3-authheaders
 greenlet
 SQLAlchemy
 python3-alembic
-python3-hatch_vcs
 python3-attrs
 python3-aiosmtpd
 python3-passlib

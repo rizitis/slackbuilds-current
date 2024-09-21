@@ -1,14 +1,14 @@
 dkimproxy
 ferm
+perl-digest-hmac
 perl-Mail-DKIM
 perl-Mail-DMARC
 perl-Mail-DomainKeys
-perl-Mail-SPF-Query
 perl-Mail-SPF
+perl-Mail-SPF-Query
+perl-net-dns
 perl-Net-DNS-Resolver-Mock
 perl-Net-DNS-SEC
-perl-digest-hmac
-perl-net-dns
 policyd2
 postgrey
 sieve-connect

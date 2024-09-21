@@ -1,12 +1,11 @@
-PyODE
 alienarena
 b2
-budgie-desktop-view
 budgie-desktop
+budgie-desktop-view
 calls
+evolution
 evolution-data-server
 evolution-ews
-evolution
 folks
 gdm
 geocode-glib2
@@ -24,5 +23,6 @@ libdart
 libgweather
 libgweather4
 mutter
+PyODE
 stormbaancoureur
 xmoto

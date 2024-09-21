@@ -1,6 +1,6 @@
-Electrum
 antares
-python3-aiohttp-socks
+Electrum
 python3-aiohttp
+python3-aiohttp-socks
 python3-aiosignal
 vdirsyncer

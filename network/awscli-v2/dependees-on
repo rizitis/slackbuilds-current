@@ -1,5 +1,5 @@
 aws-cdk
-awscli-v2
 awscli
+awscli-v2
 mount-s3
 s3fs-fuse

@@ -1,4 +1,3 @@
-SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
 icbm
@@ -7,5 +6,6 @@ perl-Math-MPC
 perl-Math-MPFR
 perl-Sidef
 rpy2
-rstudio-desktop-legacy
 rstudio-desktop
+rstudio-desktop-legacy
+SeqMonk

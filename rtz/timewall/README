@@ -1,0 +1,50 @@
+1.
+After installation finish if you intend to use sun position based wallpapers, you need to provide timewall with your approximate location.
+as user AND root create:
+
+mkdir -p ~/.config/timewall/
+touch ~/.config/timewall/config.toml
+
+And in toml file add yours:
+ 
+[location]
+lat = 51.11 # replace it with yours
+lon = 17.02 # replace it with yours
+
+To set the wallpaper just run as user:
+timewall set path/to/wallpaper.heif
+
+NOTE: We also want /root/.config/timewall/config.toml to be there.
+because we start timewall from rc.local...sometimes
+
+2.
+To download heif wallpapers:
+https://github.com/bcyran/timewall?tab=readme-ov-file#where-to-find-the-dynamic-wallpapers
+
+3 
+command for daemon start manually :
+timewall set --daemon
+
+or for start it on boot time: 
+cp  rc.timewall /etc/rc.d/rc.timewall
+chmod +x /etc/rc.d/rc.timewall
+
+# Add this to /etc/rc.d/rc.local
+if [ -x /etc/rc.d/rc.timewall ]; then
+    /etc/rc.d/rc.timewall start
+fi
+
+# Add this to /etc/rc.d/rc.local_shutdown
+if [ -x /etc/rc.d/rc.timewall ]; then
+    /etc/rc.d/rc.timewall stop
+fi
+
+4.
+To preview the wallpaper, run:
+
+timewall preview path/to/wallpaper.heif
+
+
+More infos: https://github.com/bcyran/timewall?tab=readme-ov-file
+
+

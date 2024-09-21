@@ -1,11 +1,11 @@
 flake8
-i3-layouts
 i3expo-ng
 i3ipc
+i3-layouts
 nwg-displays
 nwg-panel
-nwg-shell-config
 nwg-shell
+nwg-shell-config
 nwg-wrapper
 python3-autotiling
 python3-flake8_annotations

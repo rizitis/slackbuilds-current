@@ -3,14 +3,14 @@ coriander
 gconf-editor
 gnome-commander
 gnome-pkgtool
-gnome-python-desktop
 gnome-python
+gnome-python-desktop
 gnome-sharp
 gnome-vfs
 gnome-vfsmm
 gxine
-kaffeine-mozilla
 kaffeine
+kaffeine-mozilla
 libbonobo
 libbonoboui
 libgnome
@@ -18,8 +18,8 @@ libgnomemm
 libgnomeui
 libgnomeuimm
 obs-studio
-perl-gnome2-vfs
 perl-gnome2
+perl-gnome2-vfs
 qdvdauthor
 referencer
 shutter

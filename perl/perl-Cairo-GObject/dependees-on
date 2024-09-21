@@ -8,8 +8,8 @@ menutray
 obbrowser
 obmenu-generator
 perl-Cairo-GObject
+perl-Gtk3
 perl-Gtk3-ImageView
 perl-Gtk3-SimpleList
-perl-Gtk3
 remotebox
 thunar-sendto-clamtk

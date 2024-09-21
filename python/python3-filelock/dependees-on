@@ -1,13 +1,12 @@
-Type1_to_OTF
 afdko
 cadabra2
 image-analyzer
 ipython
+jupyter_console
 jupyter-ipykernel
+jupyterlab
 jupyter-notebook
 jupyter-qtconsole
-jupyter_console
-jupyterlab
 kolorcontrol
 le
 paraview
@@ -29,8 +28,8 @@ python3-glyphslib
 python3-ipython-sql
 python3-librosa
 python3-lz4
-python3-matplotlib-inline
 python3-matplotlib
+python3-matplotlib-inline
 python3-obspy
 python3-pylint-venv
 python3-seaborn
@@ -46,3 +45,4 @@ pytrainer
 sickchill
 spyder
 ttfautohint-py
+Type1_to_OTF

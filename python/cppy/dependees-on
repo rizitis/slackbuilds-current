@@ -2,11 +2,11 @@ cadabra2
 cppy
 image-analyzer
 ipython
+jupyter_console
 jupyter-ipykernel
+jupyterlab
 jupyter-notebook
 jupyter-qtconsole
-jupyter_console
-jupyterlab
 kolorcontrol
 paraview
 pitivi
@@ -15,8 +15,8 @@ python3-cartopy
 python3-ipython-sql
 python3-kiwisolver
 python3-librosa
-python3-matplotlib-inline
 python3-matplotlib
+python3-matplotlib-inline
 python3-obspy
 python3-seaborn
 python3-spyder-kernels

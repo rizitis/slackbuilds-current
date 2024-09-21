@@ -2,7 +2,7 @@ et
 perl-CPAN-Meta-Check
 perl-Moose
 perl-MooseX-Traits
-perl-MooseX-Types-Structured
 perl-MooseX-Types
+perl-MooseX-Types-Structured
 perl-Parse-Method-Signatures
 perl-TryCatch

@@ -1,10 +1,10 @@
 haskell-highlighting-kate
-haskell-regex-pcre-builtin
 haskell-regex-pcre
-haskell-skylighting-core
-haskell-skylighting-core
+haskell-regex-pcre-builtin
 haskell-skylighting
 haskell-skylighting
+haskell-skylighting-core
+haskell-skylighting-core
 mptcpd
 pandoc
 pandoc

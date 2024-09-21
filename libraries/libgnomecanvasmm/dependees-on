@@ -1,7 +1,7 @@
-ClipboardViewer
-ClipboardViewer
 amide
 antares
+ClipboardViewer
+ClipboardViewer
 coriander
 coriander
 gconf-editor
@@ -10,8 +10,8 @@ gnome-commander
 gnome-commander
 gnome-pkgtool
 gnome-pkgtool
-gnome-python-desktop
 gnome-python
+gnome-python-desktop
 gnome-sharp
 gnome-sharp
 libbonoboui
@@ -27,9 +27,9 @@ libgnomeui
 libgnomeuimm
 libgnomeuimm
 libgnomeuimm
+perl-gnome2
+perl-gnome2
 perl-gnome2-canvas
-perl-gnome2
-perl-gnome2
 phat
 referencer
 referencer

@@ -1,6 +1,6 @@
+docker
 docker-cli
 docker-compose
-docker
 libnvidia-container
 nvidia-container-toolkit
 python2-docker

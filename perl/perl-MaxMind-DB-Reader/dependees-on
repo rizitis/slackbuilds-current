@@ -1,8 +1,8 @@
-SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
-perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader
+perl-MaxMind-DB-Reader-XS
 rpy2
-rstudio-desktop-legacy
 rstudio-desktop
+rstudio-desktop-legacy
+SeqMonk

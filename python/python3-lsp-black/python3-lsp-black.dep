@@ -5,7 +5,6 @@ python3-jedi
 python3-docstring-to-markdown
 python3-lsp-server
 python3-typing-extensions
-python3-hatch_vcs
 python3-platformdirs
 mypy_extensions
 click

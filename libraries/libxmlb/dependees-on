@@ -1,5 +1,4 @@
 AppStream
-MaterialX
 clamtk
 dino
 fwupd
@@ -11,6 +10,7 @@ libxmlb
 marco
 mate-control-center
 mate-desktop-environment
+MaterialX
 pytrainer
 spot
 steam

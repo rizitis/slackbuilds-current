@@ -1,8 +1,7 @@
 Bear
-Gem
-REDasm
 coeurl
 corectrl
+Gem
 gnuradio
 gqrx-sdr
 gr-iqbal
@@ -14,8 +13,9 @@ mangohud
 mtxclient
 nheko
 osgEarth
-pd-psql
 pd_mrpeach
+pd-psql
+REDasm
 spdlog
 ueberzugpp
 waybar

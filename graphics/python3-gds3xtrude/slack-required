@@ -3,7 +3,6 @@ OpenCSG
 CGAL
 openscad
 klayout
-python3-hatch_vcs
 python3-platformdirs
 python3-filelock
 python3-distlib

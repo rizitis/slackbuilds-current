@@ -1,6 +1,6 @@
 Electrum
-python3-aiohttp-socks
 python3-aiohttp
+python3-aiohttp-socks
 python3-aiosignal
 python3-expandvars
 python3-frozenlist

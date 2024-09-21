@@ -1,6 +1,6 @@
+haskell-hspec
 haskell-hspec-core
 haskell-hspec-smallcheck
-haskell-hspec
 haskell-quickcheck-io
 kc
 mptcpd

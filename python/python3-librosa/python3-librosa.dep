@@ -18,7 +18,6 @@ tzdata
 python3-pytz
 python3-dateutil
 python3-pandas
-python3-hatch_vcs
 python3-platformdirs
 python3-pooch
 msgpack-python

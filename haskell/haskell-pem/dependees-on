@@ -4,9 +4,9 @@ haskell-http-client-tls
 haskell-http-conduit
 haskell-pem
 haskell-tls
+haskell-x509
 haskell-x509-store
 haskell-x509-system
 haskell-x509-validation
-haskell-x509
 mptcpd
 pandoc

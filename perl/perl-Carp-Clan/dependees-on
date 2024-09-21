@@ -3,8 +3,8 @@ perl-Bit-Vector
 perl-Carp-Clan
 perl-Data-Random
 perl-Date-Calc
-perl-MooseX-Types-Structured
 perl-MooseX-Types
+perl-MooseX-Types-Structured
 perl-Parse-Method-Signatures
 perl-TryCatch
 pflogsumm

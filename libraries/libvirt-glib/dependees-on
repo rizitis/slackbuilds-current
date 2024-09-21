@@ -1,10 +1,10 @@
 docker-machine-kvm
 gnome-boxes
 gnome-boxes
+libvirt
 libvirt-glib
 libvirt-glib
 libvirt-python
-libvirt
 virt-manager
 virt-manager
 virt-viewer

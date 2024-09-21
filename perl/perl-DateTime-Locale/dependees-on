@@ -1,4 +1,6 @@
 le
+perl-DateTime
+perl-DateTime
 perl-DateTime-Format-Builder
 perl-DateTime-Format-Builder
 perl-DateTime-Format-DateParse
@@ -8,14 +10,12 @@ perl-DateTime-Format-ISO8601
 perl-DateTime-Format-Strptime
 perl-DateTime-Format-Strptime
 perl-DateTime-Locale
-perl-DateTime
-perl-DateTime
 perl-MaxMind-DB-Common
 perl-MaxMind-DB-Common
-perl-MaxMind-DB-Reader-XS
-perl-MaxMind-DB-Reader-XS
 perl-MaxMind-DB-Reader
 perl-MaxMind-DB-Reader
+perl-MaxMind-DB-Reader-XS
+perl-MaxMind-DB-Reader-XS
 perl-MooseX-Types-Structured
 perl-MooseX-Types-Structured
 perl-Parse-Method-Signatures

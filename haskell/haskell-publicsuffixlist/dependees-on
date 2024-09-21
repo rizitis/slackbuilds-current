@@ -1,7 +1,7 @@
 calcure
 haskell-hpack
-haskell-http-client-tls
 haskell-http-client
+haskell-http-client-tls
 haskell-http-conduit
 haskell-publicsuffixlist
 ics

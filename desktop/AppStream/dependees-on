@@ -1,5 +1,4 @@
 AppStream
-MaterialX
 clamtk
 dino
 ghex
@@ -9,6 +8,7 @@ libadwaita
 marco
 mate-control-center
 mate-desktop-environment
+MaterialX
 pytrainer
 scalpel
 spot

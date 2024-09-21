@@ -20,7 +20,6 @@ python3-numpy
 cppy
 python3-kiwisolver
 python3-pkgconfig
-python3-hatch_vcs
 python3-iniconfig
 python3-pytest
 python3-pytest-runner

@@ -1,0 +1,11 @@
+zed: zed (multiplayer code editor)
+zed:
+zed: Zed is a next-generation code editor designed for,high-performance
+zed: collaboration with humans and AI. A High-performance multiplayer
+zed: code editor.
+zed:
+zed:
+zed:
+zed:
+zed:
+zed: Homepage: https://zed.dev

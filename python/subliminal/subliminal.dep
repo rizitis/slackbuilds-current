@@ -1,7 +1,6 @@
 python3-pysubs2
 click
 python3-click-option-group
-python3-hatch_vcs
 python3-platformdirs
 unrar
 rarfile

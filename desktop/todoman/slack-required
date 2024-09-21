@@ -1,6 +1,5 @@
 python-urwid
 python3-tabulate
-python3-hatch_vcs
 humanize
 parsedatetime
 python3-dateutil

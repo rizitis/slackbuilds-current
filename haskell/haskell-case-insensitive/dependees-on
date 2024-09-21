@@ -1,11 +1,11 @@
 haskell-case-insensitive
 haskell-citeproc
 haskell-hpack
-haskell-http-client-tls
 haskell-http-client
+haskell-http-client-tls
 haskell-http-conduit
 haskell-http-types
-haskell-skylighting-core
 haskell-skylighting
+haskell-skylighting-core
 mptcpd
 pandoc

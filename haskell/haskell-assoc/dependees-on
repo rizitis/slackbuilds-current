@@ -1,7 +1,6 @@
-haskell-ShellCheck
+haskell-aeson
 haskell-aeson-compat
 haskell-aeson-pretty
-haskell-aeson
 haskell-assoc
 haskell-citeproc
 haskell-commonmark-pandoc
@@ -12,11 +11,12 @@ haskell-http-conduit
 haskell-ipynb
 haskell-pandoc-lua-marshal
 haskell-pandoc-types
-haskell-path-io
 haskell-path
+haskell-path-io
 haskell-semialign
-haskell-skylighting-core
+haskell-ShellCheck
 haskell-skylighting
+haskell-skylighting-core
 haskell-strict
 haskell-texmath
 haskell-these

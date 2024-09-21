@@ -1,4 +1,3 @@
-SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
 dkimproxy
@@ -7,6 +6,7 @@ perl-Mail-DKIM
 perl-Mail-DomainKeys
 perl-Net-DNS-SEC
 rpy2
-rstudio-desktop-legacy
 rstudio-desktop
+rstudio-desktop-legacy
+SeqMonk
 spamassassin

@@ -1,7 +1,7 @@
 dkimproxy
 perl-Convert-TNEF
-perl-MIME-tools
 perl-Mail-DKIM
 perl-Mail-DomainKeys
 perl-MailTools
+perl-MIME-tools
 spamassassin

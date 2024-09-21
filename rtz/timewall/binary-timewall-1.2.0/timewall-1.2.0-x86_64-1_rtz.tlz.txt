@@ -1,0 +1,11 @@
+timewall: timewall (Apple dynamic HEIF wallpapers)
+timewall:
+timewall: Apple dynamic HEIF wallpapers on GNU/Linux.Support for original
+timewall: HEIF/HEIC dynamic wallpaper files used in MacOS.Support for all
+timewall: schedule types: sun position based, time based, dark/light mode.Set
+timewall: wallpaper once and continuously (daemon mode).Preview wallpaper
+timewall: changes.Display wallpaper metadata.Extract all images and metadata
+timewall: as XML.
+timewall:
+timewall:
+timewall: Homepage:https://github.com/bcyran/timewall

@@ -1,7 +1,7 @@
-budgie-desktop-view
 budgie-desktop
-colord-gtk
+budgie-desktop-view
 colord
+colord-gtk
 gdm
 gnome-color-manager
 gnome-control-center

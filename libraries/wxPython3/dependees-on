@@ -1,8 +1,6 @@
-DivFix++
-Pyfa
-PythonToolkit
 asc
 bibus
+DivFix++
 djvusmooth
 ebook2cwgui
 extrema
@@ -15,14 +13,16 @@ obapps
 openyahtzee
 phatch
 playonlinux
+Pyfa
+PythonToolkit
 treeviewx
 trelby
 wammu
 whyteboard
 winpdb
 winusb
-wxPython3
 wxcam
+wxPython3
 xmlcopyeditor
 xpe
 youtube-dl-gui

@@ -1,8 +1,8 @@
 haskell-blaze-html
 haskell-citeproc
 haskell-highlighting-kate
-haskell-skylighting-core
 haskell-skylighting
+haskell-skylighting-core
 haskell-xml-conduit
 mptcpd
 pandoc

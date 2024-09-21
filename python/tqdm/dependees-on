@@ -1,7 +1,6 @@
-FireWorks
-Type1_to_OTF
 afdko
 audible-cli
+FireWorks
 git-fame
 internetarchive
 python3-cffsubr
@@ -9,3 +8,4 @@ python3-fontmake
 python3-glyphslib
 python3-ufo2ft
 tqdm
+Type1_to_OTF
