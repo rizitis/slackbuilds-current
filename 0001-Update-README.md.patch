@@ -1,0 +1,23 @@
+From c6864735b56f2cc574e216a67cd08a3a352f92b5 Mon Sep 17 00:00:00 2001
+From: Anagnostakis Ioannis <elahistos@yahoo.gr>
+Date: Sat, 28 Sep 2024 19:36:57 +0300
+Subject: [PATCH] Update README.md
+
+Signed-off-by: Ioannis Anagnostakis <412135+rizitis@users.noreply.github.com>
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 10b4f7f9b..2e341d3ac 100644
+--- a/README.md
++++ b/README.md
+@@ -9,4 +9,4 @@
+  **If you use SlackBuilds from here, you use it at your own risk 100%.**<br>
+ <p>
+   
+-I use this repo with [GitVoyager](https://github.com/rizitis/GitVoyager) as `"github downloader - package manager"`
++I use this repo with [GitVoyager](https://github.com/rizitis/GitVoyager) as `"github downloader - package manager "`
+-- 
+2.46.2
+
