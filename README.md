@@ -8,4 +8,5 @@
 
  **If you use SlackBuilds from here, you use it at your own risk 100%.**<br>
 <p>
-
+  
+I use this repo using [GitVoyager](https://github.com/rizitis/GitVoyager) as `"github downloader - package manager"`
