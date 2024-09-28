@@ -1,7 +1,8 @@
+LaTeXML
+ZoneMinder
 clamtk
 get_iplayer
 hw-probe
-LaTeXML
 libwww-perl
 monitorix
 pcp
@@ -9,16 +10,16 @@ perl-File-Download
 perl-HTTP-Cache-Transparent
 perl-HTTP-CookieJar
 perl-HTTP-Proxy
-perl-http-response-encoding
 perl-LWP-Protocol-https
 perl-LWP-Protocol-socks
-perl-lwp-useragent-cached
-perlprimer
 perl-SOAP-Lite
 perl-WebService-Gyazo-B
-perl-www-mechanize
 perl-XML-Catalog
 perl-XML-TreeBuilder
+perl-http-response-encoding
+perl-lwp-useragent-cached
+perl-www-mechanize
+perlprimer
 pipe-viewer
 remotebox
 shutter
@@ -27,4 +28,3 @@ spamassassin
 thunar-sendto-clamtk
 whistle
 xmltv
-ZoneMinder

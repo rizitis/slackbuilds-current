@@ -120,6 +120,7 @@ python3-PyQtWebEngine
 python-jeepney
 python3-semantic-version
 python3-setuptools-rust-opt
+rust-opt
 python3-maturin
 cryptography
 secretstorage

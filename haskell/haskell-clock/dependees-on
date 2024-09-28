@@ -1,7 +1,7 @@
 cloc
 haskell-clock
 haskell-extra
-haskell-hspec
 haskell-hspec-core
 haskell-hspec-smallcheck
+haskell-hspec
 mptcpd

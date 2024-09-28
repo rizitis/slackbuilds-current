@@ -1,8 +1,9 @@
-haskell-aeson
+haskell-ShellCheck
 haskell-aeson-compat
 haskell-aeson-pretty
-haskell-attoparsec
+haskell-aeson
 haskell-attoparsec-iso8601
+haskell-attoparsec
 haskell-citeproc
 haskell-commonmark-pandoc
 haskell-conduit-extra
@@ -15,12 +16,11 @@ haskell-ipynb
 haskell-monad-logger
 haskell-pandoc-lua-marshal
 haskell-pandoc-types
-haskell-path
 haskell-path-io
+haskell-path
 haskell-project-template
-haskell-ShellCheck
-haskell-skylighting
 haskell-skylighting-core
+haskell-skylighting
 haskell-texmath
 haskell-xml-conduit
 haskell-yaml

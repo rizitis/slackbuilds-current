@@ -2,12 +2,12 @@ haskell-citeproc
 haskell-cookie
 haskell-data-default
 haskell-hpack
-haskell-http-client
 haskell-http-client-tls
+haskell-http-client
 haskell-http-conduit
 haskell-publicsuffixlist
 mptcpd
 pandoc
 xmobar
-xmonad
 xmonad-contrib
+xmonad

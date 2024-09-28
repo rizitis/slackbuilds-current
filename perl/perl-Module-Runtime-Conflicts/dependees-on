@@ -1,14 +1,14 @@
+SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
 le
 perl-Module-Runtime-Conflicts
 perl-Moose
 perl-MooseX-Traits
-perl-MooseX-Types
 perl-MooseX-Types-Structured
+perl-MooseX-Types
 perl-Parse-Method-Signatures
 perl-TryCatch
 rpy2
-rstudio-desktop
 rstudio-desktop-legacy
-SeqMonk
+rstudio-desktop

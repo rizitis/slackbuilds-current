@@ -23,6 +23,7 @@ python3-aiohttp-socks
 secp256k1
 python3-semantic-version
 python3-setuptools-rust-opt
+rust-opt
 python3-maturin
 cryptography
 Electrum

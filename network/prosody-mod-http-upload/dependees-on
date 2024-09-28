@@ -1,4 +1,3 @@
-prosody
 prosody-mod-block-strangers
 prosody-mod-cloud-notify
 prosody-mod-filter-chatstates
@@ -7,3 +6,4 @@ prosody-mod-http-upload
 prosody-mod-throttle-presence
 prosody-mod-turncredentials
 prosody-mod-vcard-muc
+prosody

@@ -1,4 +1,6 @@
 0ad
+CubicSDR
+I-Nex
 apvlv
 audacity
 badwolf
@@ -7,13 +9,12 @@ boinc
 bottles
 calls
 cinny-desktop
-CubicSDR
 devhelp
 dvdstyler
 epiphany
-evolution
 evolution-data-server
 evolution-ews
+evolution
 filezilla
 folks
 gambas3
@@ -31,13 +32,12 @@ gnome-online-accounts
 gnome-photos
 gnome-shell
 gnome-terminal
-gnucash
 gnucash-docs
+gnucash
 golly
 grass
 grilo-plugins
 gui-ufw
-I-Nex
 kicad
 kicad
 libgdata
@@ -46,7 +46,6 @@ liferea
 luakit
 lutris
 nwg-readme-browser
-nwg-shell
 nyxt
 openvino-plugins-ai-audacity
 pcsx2
@@ -64,10 +63,10 @@ webkit2gtk
 webkit2gtk4.1
 wxFormBuilder
 wxHexEditor
-wxpdfdoc
 wxPython4
-wxsvg
 wxWidgets
+wxpdfdoc
+wxsvg
 xchm
 xiphos
 yelp

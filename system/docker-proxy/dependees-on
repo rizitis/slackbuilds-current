@@ -1,10 +1,10 @@
-docker
-docker
 docker-cli
 docker-cli
 docker-compose
 docker-compose
 docker-proxy
+docker
+docker
 libnvidia-container
 libnvidia-container
 nvidia-container-toolkit

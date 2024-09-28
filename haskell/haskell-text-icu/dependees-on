@@ -1,6 +1,6 @@
 haskell-hpack
-haskell-http-client
 haskell-http-client-tls
+haskell-http-client
 haskell-http-conduit
 haskell-idna
 haskell-publicsuffixlist

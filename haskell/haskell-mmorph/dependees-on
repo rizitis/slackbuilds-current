@@ -1,10 +1,10 @@
 haskell-citeproc
-haskell-conduit
 haskell-conduit-extra
+haskell-conduit
 haskell-cryptonite-conduit
 haskell-hpack
-haskell-http-client
 haskell-http-client-tls
+haskell-http-client
 haskell-http-conduit
 haskell-libyaml
 haskell-mmorph
@@ -14,8 +14,8 @@ haskell-project-template
 haskell-publicsuffixlist
 haskell-resourcet
 haskell-sandi
-haskell-skylighting
 haskell-skylighting-core
+haskell-skylighting
 haskell-xml-conduit
 haskell-yaml
 mptcpd

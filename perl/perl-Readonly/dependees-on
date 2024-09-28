@@ -1,12 +1,12 @@
+ClusterSSH
+SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
-ClusterSSH
 gscan2pdf
 perl-Image-Sane
-perl-Perl-Critic
 perl-PPIx-QuoteLike
+perl-Perl-Critic
 perl-Readonly
 rpy2
-rstudio-desktop
 rstudio-desktop-legacy
-SeqMonk
+rstudio-desktop

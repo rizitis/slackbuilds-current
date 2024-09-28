@@ -1,13 +1,13 @@
 haskell-Crypto
-haskell-hspec
+haskell-HUnit
 haskell-hspec-core
 haskell-hspec-expectations
 haskell-hspec-smallcheck
-haskell-HUnit
+haskell-hspec
 haskell-hxt
 haskell-quickcheck-io
-haskell-skylighting
 haskell-skylighting-core
+haskell-skylighting
 haskell-test-framework-hunit
 mptcpd
 pandoc

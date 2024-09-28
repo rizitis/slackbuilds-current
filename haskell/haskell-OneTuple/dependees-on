@@ -1,6 +1,8 @@
-haskell-aeson
+haskell-OneTuple
+haskell-ShellCheck
 haskell-aeson-compat
 haskell-aeson-pretty
+haskell-aeson
 haskell-attoparsec-iso8601
 haskell-base-compat-batteries
 haskell-citeproc
@@ -11,15 +13,13 @@ haskell-hslua-aeson
 haskell-http-conduit
 haskell-indexed-traversable-instances
 haskell-ipynb
-haskell-OneTuple
 haskell-pandoc-lua-marshal
 haskell-pandoc-types
-haskell-path
 haskell-path-io
+haskell-path
 haskell-semialign
-haskell-ShellCheck
-haskell-skylighting
 haskell-skylighting-core
+haskell-skylighting
 haskell-texmath
 haskell-witherable
 haskell-yaml

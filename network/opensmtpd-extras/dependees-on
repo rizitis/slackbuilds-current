@@ -1,9 +1,9 @@
-fixtures
 Gem
+fixtures
 opensm
 opensmtpd-extras
 opensmtpd-extras
-pd_mrpeach
 pd-psql
+pd_mrpeach
 testscenarios
 testtools

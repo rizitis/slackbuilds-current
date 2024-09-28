@@ -5,8 +5,8 @@ haskell-http-conduit
 haskell-monad-logger
 haskell-project-template
 haskell-rio
-haskell-skylighting
 haskell-skylighting-core
+haskell-skylighting
 haskell-typed-process
 haskell-xml-conduit
 mptcpd

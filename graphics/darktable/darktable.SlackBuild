@@ -3,6 +3,7 @@
 # Slackware build script for darktable
 
 # Copyright 2011 David Spencer, Baildon, West Yorkshire, U.K.
+# Copyright 2024 K. Eugene Carlson, Tsukuba, Japan
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -28,7 +29,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=darktable
-VERSION=${VERSION:-4.6.1}
+VERSION=${VERSION:-4.8.1}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -96,9 +97,8 @@ cd build
     -DDONT_USE_INTERNAL_LUA=Off \
     -DUSE_LIBSECRET=On \
     -DBINARY_PACKAGE_BUILD=1 \
-    -DDONT_USE_INTERNAL_LUA=0 \
     -DCMAKE_BUILD_TYPE=Release ..
-  VERBOSE=1 make
+  make
   make install DESTDIR=$PKG
 cd ..
 
@@ -117,9 +117,6 @@ cp -a \
   doc/thumbnail*.txt doc/grouping.txt doc/*.md doc/NEWS \
   $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/doc ; ln -s $PRGNAM-$VERSION $PRGNAM )
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc

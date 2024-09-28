@@ -1,4 +1,4 @@
 python3-BTrees
-python3-persistent
 python3-ZEO
 python3-ZODB
+python3-persistent

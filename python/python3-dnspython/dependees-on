@@ -1,10 +1,10 @@
 blink-qt
 email-validator
 linkchecker
+python3-Flask-Security-Too
 python3-authheaders
 python3-dkimpy
 python3-dnspython
-python3-Flask-Security-Too
 python3-mailman
 python3-pyspf
 python3-sipclients3

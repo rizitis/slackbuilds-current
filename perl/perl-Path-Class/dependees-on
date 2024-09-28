@@ -1,5 +1,5 @@
-perlbrew
-perl-MaxMind-DB-Reader
 perl-MaxMind-DB-Reader-XS
+perl-MaxMind-DB-Reader
 perl-Path-Class
+perlbrew
 shutter

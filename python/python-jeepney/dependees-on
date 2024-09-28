@@ -1,6 +1,6 @@
 gajim
-python3-keyring
 python-jeepney
+python3-keyring
 secretstorage
 spyder
 twine

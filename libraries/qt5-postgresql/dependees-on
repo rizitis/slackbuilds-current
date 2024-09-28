@@ -1,3 +1,4 @@
+PyGreSQL
 barman
 cyphesis
 dovecot-pgsql
@@ -5,11 +6,11 @@ geopandas
 libpqxx
 odoo
 osm2pgrouting
-osm2pgsql
 osm2pgsql-legacy
+osm2pgsql
 pcp
-pdal
 pd-psql
+pdal
 perl-DBD-Pg
 pgmodeler
 pgpool-II
@@ -17,14 +18,13 @@ pgrouting
 pgsanity
 pgsql-ogr-fdw
 pgtcl-ng
+php-pgsql
 php82
 phppgadmin
-php-pgsql
 pointcloud
 postfix-pgsql
 postgis
 psqlodbc
-PyGreSQL
 python3-psycopg2
 python3-psycopg3
 qgis

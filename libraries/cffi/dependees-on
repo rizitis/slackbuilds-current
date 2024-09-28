@@ -1,13 +1,13 @@
+PySoundCard
 cffi
 mysql-workbench
 pynacl
-PySoundCard
+python-librtmp
 python2-cryptography
 python2-paramiko
 python2-xcffib
-python3-paramiko
 python3-PyGithub
-python-librtmp
+python3-paramiko
 routersploit
 rpy2
 sftp-cloudfs

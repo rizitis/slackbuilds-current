@@ -1,11 +1,11 @@
 perl-DateTime-Format-Builder
 perl-DateTime-Format-ISO8601
-perl-Parse-Method-Signatures
-perl-Perl-Critic
 perl-PPI
 perl-PPIx-QuoteLike
 perl-PPIx-Regexp
 perl-PPIx-Utils
+perl-Parse-Method-Signatures
+perl-Perl-Critic
 perl-SOAP-Lite
 perl-Task-Weaken
 perl-TryCatch

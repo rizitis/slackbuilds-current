@@ -1,8 +1,8 @@
 Bear
+OpenSnitch
+OpenSnitch
 grpc
-OpenSnitch
-OpenSnitch
+protoc-gen-go-grpc
+protoc-gen-go-grpc
 protoc-gen-go
-protoc-gen-go-grpc
-protoc-gen-go-grpc
 sysdig

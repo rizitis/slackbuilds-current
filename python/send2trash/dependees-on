@@ -1,12 +1,11 @@
 anki
 azote
-jupyterlab
-jupyterlab_server
 jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
-nwg-shell
+jupyterlab
+jupyterlab_server
 send2trash
 sickchill
 tauonmb

@@ -3,6 +3,7 @@ AppStream
 libadwaita
 zenity
 libmspack
+rust-opt
 clamav
 perl-extutils-pkgconfig
 perl-extutils-depends

@@ -13,11 +13,11 @@ lablgtk
 menhir
 ocaml-batteries
 ocaml-batteries
-ocamlbuild
-ocamlbuild
 ocaml-camomile
 ocaml-findlib
 ocaml-num
+ocamlbuild
+ocamlbuild
 omake
 opam
 unison

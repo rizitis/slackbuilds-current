@@ -1,9 +1,9 @@
-haskell-fixed
-haskell-gloss
-haskell-gloss-rendering
 haskell-GLURaw
 haskell-GLUT
 haskell-OpenGL
 haskell-OpenGLRaw
+haskell-fixed
+haskell-gloss-rendering
+haskell-gloss
 mptcpd
 pyfeed

@@ -1,5 +1,5 @@
 ion
-python3-transaction
 python3-ZEO
 python3-ZODB
+python3-transaction
 zope.sqlalchemy

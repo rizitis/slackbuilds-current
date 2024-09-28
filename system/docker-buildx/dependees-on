@@ -1,7 +1,7 @@
-docker
 docker-buildx
 docker-cli
 docker-compose
+docker
 libnvidia-container
 nvidia-container-toolkit
 subuser

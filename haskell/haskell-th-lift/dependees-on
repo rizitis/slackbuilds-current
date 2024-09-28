@@ -1,6 +1,6 @@
 haskell-citeproc
-haskell-th-lift
 haskell-th-lift-instances
+haskell-th-lift
 haskell-th-orphans
 haskell-th-utilities
 haskell-unicode-collation

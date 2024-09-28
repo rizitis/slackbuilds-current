@@ -1,7 +1,7 @@
 blink-qt
-buildbot
 buildbot-badges
 buildbot-worker
+buildbot
 deluge
 python3-klein
 python3-service-identity

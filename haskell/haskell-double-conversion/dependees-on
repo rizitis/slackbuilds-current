@@ -1,13 +1,13 @@
 2geom
+ITK
+OTB-legacy
+OTB
 haskell-double-conversion
 inkscape
 ion
-ITK
 le
 mptcpd
 openscad
-OTB
-OTB-legacy
 python3-gds3xtrude
 textext
 xtrkcad

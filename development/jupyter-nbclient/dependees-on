@@ -1,11 +1,11 @@
-jupyterlab
-jupyterlab_server
 jupyter-nbclassic
 jupyter-nbclient
 jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
+jupyterlab
+jupyterlab_server
 pyte
 spyder
 thefuck

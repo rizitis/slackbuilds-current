@@ -1,12 +1,6 @@
 et
 ipython
-jupyter_client
-jupyter_console
-jupyter_core
-jupyter_events
 jupyter-ipykernel
-jupyterlab
-jupyterlab_server
 jupyter-nbclassic
 jupyter-nbclient
 jupyter-nbconvert
@@ -14,7 +8,13 @@ jupyter-nbformat
 jupyter-notebook
 jupyter-notebook_shim
 jupyter-qtconsole
+jupyter_client
+jupyter_console
+jupyter_core
+jupyter_events
 jupyter_server
+jupyterlab
+jupyterlab_server
 le
 python3-comm
 python3-ipython-sql

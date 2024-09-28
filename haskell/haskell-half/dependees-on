@@ -1,9 +1,9 @@
-haskell-gloss
-haskell-gloss-rendering
 haskell-GLURaw
 haskell-GLUT
-haskell-half
 haskell-OpenGL
 haskell-OpenGLRaw
+haskell-gloss-rendering
+haskell-gloss
+haskell-half
 lf
 mptcpd

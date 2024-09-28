@@ -1,5 +1,14 @@
 buildah
+containerd
 distrobox
+docker-cli
+docker-compose
+docker
 go-md2man
+libnvidia-container
+nerdctl
+nvidia-container-toolkit
 podman
+runc
 skopeo
+subuser

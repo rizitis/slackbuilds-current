@@ -1,9 +1,4 @@
-jupyter_client
-jupyter_console
-jupyter_core
 jupyter-ipykernel
-jupyterlab
-jupyterlab_server
 jupyter-nbclassic
 jupyter-nbclient
 jupyter-nbconvert
@@ -11,7 +6,12 @@ jupyter-nbformat
 jupyter-notebook
 jupyter-notebook_shim
 jupyter-qtconsole
+jupyter_client
+jupyter_console
+jupyter_core
 jupyter_server
+jupyterlab
+jupyterlab_server
 pyte
 python3-spyder-kernels
 spyder

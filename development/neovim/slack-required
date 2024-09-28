@@ -4,5 +4,3 @@ unibilium
 libtermkey
 gtest
 msgpack-c-c
-lua
-lua-lpeg

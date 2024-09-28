@@ -1,9 +1,9 @@
 flexget
 gajim
 le
-python3-backports_tarfile
 python3-CherryMusic
 python3-CherryPy
+python3-backports_tarfile
 python3-jaraco.collections
 python3-jaraco.context
 python3-jaraco.text

@@ -1,7 +1,3 @@
-jupyterlab
-jupyterlab
-jupyterlab_server
-jupyterlab_server
 jupyter-nbclassic
 jupyter-nbclassic
 jupyter-notebook
@@ -11,5 +7,9 @@ jupyter-notebook_shim
 jupyter_server
 jupyter_server
 jupyter_server_terminals
+jupyterlab
+jupyterlab
+jupyterlab_server
+jupyterlab_server
 pyte
 thefuck

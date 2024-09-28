@@ -1,8 +1,8 @@
+haskell-HsYAML
 haskell-doctemplates
 haskell-fail
-haskell-hslua
 haskell-hslua-module-text
-haskell-HsYAML
+haskell-hslua
 haskell-pandoc-lua-marshal
 haskell-pipes
 mptcpd

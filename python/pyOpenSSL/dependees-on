@@ -3,8 +3,8 @@ deluge
 ftp-cloudfs
 letsencrypt
 ndg_httpsclient
-pyftpdlib
 pyOpenSSL
+pyftpdlib
 sabnzbd
 sftp-cloudfs
 sickchill

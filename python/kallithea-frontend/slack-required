@@ -15,6 +15,7 @@ python3-formencode
 python3-bleach
 python3-webob
 python3-backlash
+rust-opt
 python3-bcrypt
 greenlet
 SQLAlchemy

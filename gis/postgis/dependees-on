@@ -1,6 +1,6 @@
 osm2pgrouting
-osm2pgsql
 osm2pgsql-legacy
+osm2pgsql
 pgrouting
 pgsql-ogr-fdw
 postgis

@@ -1,9 +1,9 @@
-docker
 docker-cli
 docker-compose
+docker-machine-kvm
+docker-machine-kvm
 docker-machine
-docker-machine-kvm
-docker-machine-kvm
+docker
 libnvidia-container
 nvidia-container-toolkit
 subuser

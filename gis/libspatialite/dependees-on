@@ -1,8 +1,10 @@
 Fiona
+GMT
+OTB-legacy
+OTB
 gdal
 geopandas
 gj2ascii
-GMT
 gplates
 grass
 librasterlite
@@ -11,10 +13,8 @@ merkaartor
 openorienteering-mapper
 osgEarth
 osm2pgrouting
-osm2pgsql
 osm2pgsql-legacy
-OTB
-OTB-legacy
+osm2pgsql
 paraview
 pdal
 pgrouting

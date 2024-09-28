@@ -1,3 +1,4 @@
+SeqMonk
 cistrome-conductGO
 cistrome-mdseqpos
 et
@@ -6,7 +7,6 @@ perl-Mail-SPF
 perl-Net-DNS-Resolver-Programmable
 policyd2
 rpy2
-rstudio-desktop
 rstudio-desktop-legacy
-SeqMonk
+rstudio-desktop
 spamassassin

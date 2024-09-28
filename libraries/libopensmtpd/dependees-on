@@ -3,5 +3,5 @@ libopensmtpd
 opensm
 opensmtpd-extras
 opensmtpd-filter-dkimsign
-pd_mrpeach
 pd-psql
+pd_mrpeach

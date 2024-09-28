@@ -1,12 +1,12 @@
 le
 perl-MaxMind-DB-Common
-perl-MaxMind-DB-Reader
 perl-MaxMind-DB-Reader-XS
+perl-MaxMind-DB-Reader
 perl-MooseX-Traits
-perl-MooseX-Types
 perl-MooseX-Types-Structured
-perl-namespace-autoclean
+perl-MooseX-Types
 perl-Net-Works
 perl-Parse-Method-Signatures
 perl-Sub-Exporter-ForMethods
 perl-TryCatch
+perl-namespace-autoclean

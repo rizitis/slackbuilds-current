@@ -4,6 +4,6 @@ haskell-pretty-show
 haskell-skylighting
 pandoc
 python3-aiohappyeyeballs
-python3-aiohttp
 python3-aiohttp-socks
+python3-aiohttp
 vdirsyncer

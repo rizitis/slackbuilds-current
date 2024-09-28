@@ -1,12 +1,12 @@
+Kallithea
 audible-cli
 awscli-v2
 ipython
-jupyter_console
 jupyter-ipykernel
-jupyterlab
 jupyter-notebook
 jupyter-qtconsole
-Kallithea
+jupyter_console
+jupyterlab
 kallithea-frontend
 ptpython
 python3-celery

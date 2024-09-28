@@ -1,13 +1,13 @@
 haskell-connection
-haskell-cryptohash
 haskell-crypto-pubkey
+haskell-cryptohash
 haskell-hpack
 haskell-http-client-tls
 haskell-http-conduit
 haskell-tls
-haskell-x509
 haskell-x509-store
 haskell-x509-system
 haskell-x509-validation
+haskell-x509
 mptcpd
 pandoc

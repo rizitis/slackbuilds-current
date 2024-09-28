@@ -26,7 +26,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=pycharm
 EDITION=community
-VERSION=${VERSION:-2024.1.1.241.15989.155}
+VERSION=${VERSION:-2024.2.2.242.22855.92}
 SRCVER=$( echo $VERSION | cut -c1-8 )
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
@@ -88,7 +88,7 @@ mkdir -p $PKG/usr/bin
  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
- ln -sf /opt/$PRGNAM/bin/$PRGNAM.sh $PRGNAM
+ ln -sf /opt/$PRGNAM/bin/$PRGNAM $PRGNAM
 )
 
 # Install .desktop file

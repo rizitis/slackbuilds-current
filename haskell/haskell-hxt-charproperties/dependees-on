@@ -1,12 +1,12 @@
-haskell-hxt
-haskell-hxt
 haskell-hxt-charproperties
 haskell-hxt-regex-xmlschema
 haskell-hxt-unicode
-haskell-skylighting
-haskell-skylighting
+haskell-hxt
+haskell-hxt
 haskell-skylighting-core
 haskell-skylighting-core
+haskell-skylighting
+haskell-skylighting
 mptcpd
 pandoc
 pandoc

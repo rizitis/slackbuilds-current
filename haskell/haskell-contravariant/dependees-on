@@ -1,6 +1,7 @@
-haskell-aeson
+haskell-ShellCheck
 haskell-aeson-compat
 haskell-aeson-pretty
+haskell-aeson
 haskell-assoc
 haskell-attoparsec-iso8601
 haskell-base-compat-batteries
@@ -18,14 +19,13 @@ haskell-http-conduit
 haskell-ipynb
 haskell-pandoc-lua-marshal
 haskell-pandoc-types
-haskell-path
 haskell-path-io
+haskell-path
 haskell-profunctors
 haskell-semialign
 haskell-semigroupoids
-haskell-ShellCheck
-haskell-skylighting
 haskell-skylighting-core
+haskell-skylighting
 haskell-strict
 haskell-texmath
 haskell-these

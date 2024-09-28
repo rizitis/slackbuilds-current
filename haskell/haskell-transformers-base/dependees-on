@@ -1,13 +1,13 @@
 haskell-citeproc
-haskell-conduit
 haskell-conduit-extra
+haskell-conduit
 haskell-cryptonite-conduit
 haskell-enclosed-exceptions
 haskell-free
 haskell-fsnotify
 haskell-hpack
-haskell-http-client
 haskell-http-client-tls
+haskell-http-client
 haskell-http-conduit
 haskell-libyaml
 haskell-lifted-async
@@ -20,8 +20,8 @@ haskell-resource-pool
 haskell-resourcet
 haskell-sandi
 haskell-shelly
-haskell-skylighting
 haskell-skylighting-core
+haskell-skylighting
 haskell-transformers-base
 haskell-xml-conduit
 haskell-yaml

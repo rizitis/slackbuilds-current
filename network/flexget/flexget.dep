@@ -32,6 +32,7 @@ python3-zc.lockfile
 python3-semantic-version
 python3-typing-extensions
 python3-setuptools-rust-opt
+rust-opt
 python3-maturin
 python3-pydantic-core
 python3-annotated-types
