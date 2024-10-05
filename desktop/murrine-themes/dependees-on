@@ -46,7 +46,7 @@ mysql-workbench
 netcat-openbsd
 numix-blue-theme
 numix-gtk-theme
-nwg-shell.tmp
+nwg-shell
 octave
 openGLRefToMan
 openGLRefToMan
@@ -65,7 +65,6 @@ sanoid
 scantailor-advanced
 soci
 stream2chromecast
-syncthingtray-bin
 syslog-ng
 tcpbench
 texi2html

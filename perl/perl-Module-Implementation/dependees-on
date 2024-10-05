@@ -42,3 +42,4 @@ perl-TryCatch
 perl-namespace-autoclean
 perl-namespace-clean
 perlbrew
+tio

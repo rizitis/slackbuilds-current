@@ -40,7 +40,7 @@ mtp2-fonts
 muon
 mysql-workbench
 netcat-openbsd
-nwg-shell.tmp
+nwg-shell
 octave
 openGLRefToMan
 openGLRefToMan
@@ -58,7 +58,6 @@ sanoid
 scantailor-advanced
 soci
 stream2chromecast
-syncthingtray-bin
 syslog-ng
 tcpbench
 texi2html

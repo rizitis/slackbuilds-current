@@ -1,4 +1,5 @@
 makeself
+nanosvg
 unifdef
 xdg-dbus-proxy
 libwpe

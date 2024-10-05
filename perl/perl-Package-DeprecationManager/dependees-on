@@ -6,3 +6,4 @@ perl-MooseX-Types
 perl-Package-DeprecationManager
 perl-Parse-Method-Signatures
 perl-TryCatch
+tio

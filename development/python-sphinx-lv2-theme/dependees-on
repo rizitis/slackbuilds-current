@@ -62,7 +62,8 @@ netcat-openbsd
 nwg-displays
 nwg-panel
 nwg-shell-config
-nwg-shell.tmp
+nwg-shell
+nwg-shell
 nwg-wrapper
 octave
 openGLRefToMan
@@ -90,7 +91,6 @@ sratom
 stream2chromecast
 suil
 swh-plugins-lv2
-syncthingtray-bin
 syslog-ng
 tcpbench
 texi2html

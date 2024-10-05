@@ -7,5 +7,6 @@ i3ipc
 nwg-displays
 nwg-panel
 nwg-shell-config
+nwg-shell
 nwg-wrapper
 python3-autotiling

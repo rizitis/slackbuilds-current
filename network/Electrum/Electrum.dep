@@ -3,6 +3,7 @@ QtPy
 QDarkStyle
 jsonpointer
 jsonpatch
+python3-poetry-core
 python3-pypng
 python-qrcode
 python3-hatch_fancy_pypi_readme
@@ -16,14 +17,12 @@ python3-yarl
 python3-async-timeout
 python3-frozenlist
 python3-aiosignal
-python3-poetry-core
 python3-aiohappyeyeballs
 python3-aiohttp
 python3-aiohttp-socks
 secp256k1
 python3-semantic-version
 python3-setuptools-rust-opt
-rust-opt
 python3-maturin
 cryptography
 Electrum

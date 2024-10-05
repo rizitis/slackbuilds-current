@@ -44,7 +44,7 @@ numix-folders
 numix-icon-theme-circle
 numix-icon-theme-circle
 numix-icon-theme-square
-nwg-shell.tmp
+nwg-shell
 octave
 openGLRefToMan
 openGLRefToMan
@@ -62,7 +62,6 @@ sanoid
 scantailor-advanced
 soci
 stream2chromecast
-syncthingtray-bin
 syslog-ng
 tcpbench
 texi2html

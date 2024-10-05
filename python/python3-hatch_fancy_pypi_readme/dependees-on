@@ -82,6 +82,7 @@ python3-twisted
 python3-ufolib2
 python3-unearth
 rasterio
+reuse-tool
 sickchill
 spyder
 swtpm

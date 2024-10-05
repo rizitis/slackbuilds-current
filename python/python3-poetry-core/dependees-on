@@ -6,6 +6,7 @@ email-validator
 epy
 et
 flexget
+gajim
 httpie
 ipython
 josepy
@@ -25,7 +26,9 @@ kallithea-frontend
 letsencrypt
 linkchecker
 locust
+odoo
 pelican
+python-qrcode
 python3-Flask-Babel
 python3-Flask-Security-Too
 python3-aiohappyeyeballs

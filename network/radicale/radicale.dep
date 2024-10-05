@@ -4,7 +4,6 @@ python2-dateutil
 vobject
 python3-pytz
 python3-defusedxml
-rust-opt
 python3-semantic-version
 python3-typing-extensions
 python3-setuptools-rust-opt

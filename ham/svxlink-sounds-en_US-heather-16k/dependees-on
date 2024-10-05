@@ -39,7 +39,7 @@ mtp2-fonts
 muon
 mysql-workbench
 netcat-openbsd
-nwg-shell.tmp
+nwg-shell
 octave
 openGLRefToMan
 openGLRefToMan
@@ -60,7 +60,6 @@ stream2chromecast
 svxlink-sounds-en_US-heather-16k
 svxlink-sounds-en_US-heather-16k
 svxlink
-syncthingtray-bin
 syslog-ng
 tcpbench
 texi2html

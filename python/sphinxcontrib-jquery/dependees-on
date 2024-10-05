@@ -9,7 +9,8 @@ nix
 nwg-displays
 nwg-panel
 nwg-shell-config
-nwg-shell.tmp
+nwg-shell
+nwg-shell
 nwg-wrapper
 python3-autotiling
 sphinxcontrib-jquery
