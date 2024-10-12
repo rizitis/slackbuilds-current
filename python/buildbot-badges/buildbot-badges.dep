@@ -1,8 +1,6 @@
 python3-defusedxml
 tinycss2
 cssselect2
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-pytest-runner
@@ -14,7 +12,6 @@ python3-hatch_fancy_pypi_readme
 python3-pyasn1
 python3-pyasn1-modules
 python3-semantic-version
-python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography

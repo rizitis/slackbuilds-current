@@ -1,5 +1,4 @@
 tzdata
-python3-typing-extensions
 python3-dateutil
 python3-click-repl
 click

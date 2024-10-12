@@ -1,4 +1,4 @@
-configobj
+python3-configobj
 python3-atomicwrites
 python3-ruamel.yaml
 python3-dateutil

@@ -1,6 +1,5 @@
 stockfish
 greenlet
-python3-typing-extensions
 SQLAlchemy
 python3-ptyprocess
 python3-pexpect

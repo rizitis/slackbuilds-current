@@ -6,7 +6,6 @@ python3-xcaplib
 python3-msrplib
 python3-gmpy2
 python3-semantic-version
-python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography
@@ -30,8 +29,6 @@ python3-automat
 python3-twisted
 python3-h11
 python3-sniffio
-python3-flit_scm
-python3-exceptiongroup
 python3-anyio
 python3-httpcore
 python3-poetry-core

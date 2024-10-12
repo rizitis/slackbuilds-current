@@ -5,8 +5,6 @@ python3-pdm-build-locked
 click
 python3-h11
 python3-sniffio
-python3-flit_scm
-python3-exceptiongroup
 python3-anyio
 python3-hatch_fancy_pypi_readme
 python3-httpcore

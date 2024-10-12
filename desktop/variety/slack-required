@@ -1,5 +1,5 @@
 python3-soupsieve
 BeautifulSoup4
 python2-httplib2
-configobj
+python3-configobj
 python-distutils-extra

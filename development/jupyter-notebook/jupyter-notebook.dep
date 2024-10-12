@@ -6,8 +6,6 @@ send2trash
 python3-prometheus_client
 python3-hatch_jupyter_builder
 python3-sniffio
-python3-flit_scm
-python3-exceptiongroup
 python3-anyio
 python3-tornado
 python3-ptyprocess
@@ -52,7 +50,6 @@ jupyter_server
 jupyter-notebook_shim
 jupyter-nbclassic
 python3-comm
-python3-typing-extensions
 python3-pure_eval
 python3-executing
 python3-asttokens

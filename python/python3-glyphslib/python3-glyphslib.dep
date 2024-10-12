@@ -1,8 +1,6 @@
 python3-xmldiff
 python3-setuptools-git-ls-files
 python3-pkgconfig
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-pytest-runner
@@ -51,7 +49,6 @@ python3-ufo2ft
 msgpack-python
 python3-hatch_fancy_pypi_readme
 python3-attrs
-python3-typing-extensions
 python3-cattrs
 python3-ufolib2
 python3-openstep-plist

@@ -32,6 +32,7 @@ gnome-terminal
 gnucash-docs
 gnucash
 golly
+grass
 grilo-plugins
 gui-ufw
 kicad
@@ -53,9 +54,11 @@ surf
 sushi
 therion
 veracrypt
+videomass
 webkit2gtk
 wxFormBuilder
 wxHexEditor
+wxPython4
 wxWidgets
 wxpdfdoc
 wxsvg

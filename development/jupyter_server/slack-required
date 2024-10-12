@@ -4,8 +4,6 @@ send2trash
 python3-prometheus_client
 python3-hatch_jupyter_builder
 python3-sniffio
-python3-flit_scm
-python3-exceptiongroup
 python3-anyio
 python3-tornado
 python3-ptyprocess

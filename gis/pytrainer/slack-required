@@ -18,8 +18,6 @@ python3-numpy
 cppy
 python3-kiwisolver
 python3-pkgconfig
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-pytest-runner
@@ -49,5 +47,4 @@ python3-cycler
 python3-contourpy
 python3-matplotlib
 greenlet
-python3-typing-extensions
 SQLAlchemy

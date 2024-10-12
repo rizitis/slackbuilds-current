@@ -10,7 +10,6 @@ webkit2gtk
 wxWidgets
 python3-attrdict
 python3-pathlib2
-webkit2gtk4.1
 wxPython4
 # %README%: see the unixODBC README file. 
 unixODBC

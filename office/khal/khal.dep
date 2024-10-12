@@ -3,7 +3,7 @@ click
 python3-pytz
 python2-pytz
 tzlocal
-configobj
+python3-configobj
 python3-atomicwrites
 python3-dateutil
 python3-icalendar

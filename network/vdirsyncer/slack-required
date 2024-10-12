@@ -1,8 +1,8 @@
 python3-atomicwrites
 python3-aiostream
-python3-typing-extensions
-python3-multidict
 python3-expandvars
+python3-propcache
+python3-multidict
 python3-yarl
 python3-hatch_fancy_pypi_readme
 python3-attrs

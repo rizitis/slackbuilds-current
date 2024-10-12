@@ -2,8 +2,8 @@
 +++ edelib/src/WindowUtils.cpp
 @@ -1,5 +1,5 @@
  /*
-- * $Id: WindowUtils.cpp 3106 2011-10-21 20:26:08Z karijes $
-+ * $Id: WindowUtils.cpp 3592 2014-12-02 12:48:07Z karijes $
+- * $Id$
++ * $Id$
   *
   * Window utils
   * Copyright (c) 1998-2006 by Bill Spitzak and others

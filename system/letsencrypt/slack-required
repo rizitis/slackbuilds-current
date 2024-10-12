@@ -5,7 +5,6 @@ josepy
 augeas
 python3-augeas
 python3-semantic-version
-python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography
@@ -21,4 +20,4 @@ zope.event
 zope.component
 python3-pythondialog
 python3-pytz
-configobj
+python3-configobj

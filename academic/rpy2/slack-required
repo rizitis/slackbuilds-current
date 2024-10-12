@@ -1,8 +1,6 @@
 python3-pytz
 python2-pytz
 tzlocal
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 pycparser

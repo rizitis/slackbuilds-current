@@ -11,7 +11,6 @@ libzen
 libmediainfo
 pymediainfo
 python3-semantic-version
-python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography
@@ -24,7 +23,7 @@ python3-fanart
 python3-deprecation
 python3-tvdbsimple
 imagesize
-configobj
+python3-configobj
 python-oauthlib
 requests-oauthlib
 twitter
@@ -59,8 +58,6 @@ python3-cachetools
 python3-tox
 greenlet
 SQLAlchemy
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-more-itertools

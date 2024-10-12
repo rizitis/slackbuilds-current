@@ -353,7 +353,7 @@ diff -urN nedit-5.6/doc/nc.pod nedit-5.6-patched/doc/nc.pod
 --- nedit-5.6/doc/nc.pod	2014-12-28 14:56:20.000000000 +0100
 +++ nedit-5.6-patched/doc/nc.pod	1970-01-01 01:00:00.000000000 +0100
 @@ -1,229 +0,0 @@
--# $Id: nc.pod,v 1.7 2005/03/03 14:49:37 edg Exp $
+-# $Id$
 -=pod
 -
 -=head1 NAME
@@ -918,7 +918,7 @@ diff -urN nedit-5.6/doc/ncl.pod nedit-5.6-patched/doc/ncl.pod
 --- nedit-5.6/doc/ncl.pod	1970-01-01 01:00:00.000000000 +0100
 +++ nedit-5.6-patched/doc/ncl.pod	2017-01-26 17:20:28.785455207 +0100
 @@ -0,0 +1,229 @@
-+# $Id: ncl.pod,v 1.7 2005/03/03 14:49:37 edg Exp $
++# $Id$
 +=pod
 +
 +=head1 NAME

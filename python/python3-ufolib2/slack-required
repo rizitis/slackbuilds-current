@@ -1,7 +1,5 @@
 msgpack-python
 python3-pkgconfig
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-pytest-runner
@@ -32,5 +30,4 @@ python-unicodedata2
 python3-fonttools
 python3-hatch_fancy_pypi_readme
 python3-attrs
-python3-typing-extensions
 python3-cattrs

@@ -17,8 +17,6 @@ zeromq
 python3-pyzmq
 pefile
 python3-pkgconfig
-python3-flit_scm
-python3-exceptiongroup
 python3-iniconfig
 python3-pytest
 python3-pytest-runner
@@ -67,7 +65,6 @@ libfsapfs
 libewf
 libbde
 python3-semantic-version
-python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography

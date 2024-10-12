@@ -143,7 +143,7 @@ diff -U 3 -H -b -B -d -r -N -- xbgi-364/src/Makefile xbgi-364.new/src/Makefile
 +++ xbgi-364.new/src/Makefile	1969-12-31 21:00:00.000000000 -0300
 @@ -1,79 +0,0 @@
 -#
--# $Id: Makefile,v 0.1 1993/12/10 01:24:53 king Exp king $
+-# $Id$
 -#
 -SRC = _graphfreemem.c _graphgetmem.c arc.c bar.c bar3d.c circle.c\
 -	cleardevice.c clearviewport.c closegraph.c detectgraph.c drawpoly.c\

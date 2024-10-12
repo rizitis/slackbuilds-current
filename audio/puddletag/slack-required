@@ -8,4 +8,4 @@ audioread
 pyacoustid
 Unidecode
 mutagen
-configobj
+python3-configobj

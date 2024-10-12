@@ -1,6 +1,3 @@
-python3-flit_scm
-python3-exceptiongroup
-python3-typing-extensions
 python3-pure_eval
 python3-executing
 python3-poetry-core

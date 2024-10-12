@@ -13,7 +13,7 @@ diff -3ur a/Sinthgunt/app.py b/Sinthgunt/app.py
 @@ -1,4 +1,5 @@
  #!/usr/bin/python
 +# -*- coding: utf-8 -*-
- # $Id: app.py 196 2010-11-22 18:27:50Z kare1234 $
+ # $Id$
  
  ####################
 @@ -35,17 +36,21 @@
