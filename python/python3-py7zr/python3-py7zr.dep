@@ -4,6 +4,6 @@ python3-pybcj
 python3-inflate64
 python3-multivolumefile
 python3-texttable
-pycryptodomex
+python3-pycryptodomex
 python3-brotlicffi
 python3-py7zr

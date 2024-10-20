@@ -1,4 +1,4 @@
-pycryptodomex
+python3-pycryptodomex
 python3-construct
 python3-hatch_fancy_pypi_readme
 python3-argon2-cffi-bindings

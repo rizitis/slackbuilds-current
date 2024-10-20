@@ -3,7 +3,7 @@ diff -Naur cronie-1.6.1/man/cron.8 cronie-1.6.1.patched/man/cron.8
 +++ cronie-1.6.1.patched/man/cron.8	2023-08-08 01:55:44.680979225 -0400
 @@ -22,7 +22,7 @@
  .\"
- .\" $Id$
+ .\" $Id: cron.8,v 1.8 2004/01/23 19:03:32 vixie Exp $
  .\"
 -.TH CRON "8" "2013-09-26" "cronie" "System Administration"
 +.TH CRON "8" "2023-08-08" "cronie" "System Administration"

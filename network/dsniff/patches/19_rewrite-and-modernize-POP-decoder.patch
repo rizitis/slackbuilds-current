@@ -16,7 +16,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 @@ -6,6 +6,8 @@
   * Copyright (c) 2000 Dug Song <dugsong@monkey.org>
   *
-  * $Id$
+  * $Id: decode_pop.c,v 1.4 2001/03/15 08:33:02 dugsong Exp $
 + *
 + * Rewritten by Stefan Tomanek 2011 <stefan@pico.ruhr.de>
   */

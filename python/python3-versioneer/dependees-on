@@ -8,6 +8,7 @@ ion
 pyCRAC
 python3-constantly
 python3-klein
+python3-librosa
 python3-pandas
 python3-pooch
 python3-pyogrio

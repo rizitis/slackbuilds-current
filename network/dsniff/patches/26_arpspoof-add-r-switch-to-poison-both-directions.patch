@@ -39,7 +39,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 @@ -7,6 +7,8 @@
   * Copyright (c) 1999 Dug Song <dugsong@monkey.org>
   *
-  * $Id$
+  * $Id: arpspoof.c,v 1.5 2001/03/15 08:32:58 dugsong Exp $
 + *
 + * Improved 2011 by Stefan Tomanek <stefa@pico.ruhr.de>
   */

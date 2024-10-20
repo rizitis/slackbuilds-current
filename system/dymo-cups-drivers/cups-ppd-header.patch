@@ -23,7 +23,7 @@ diff -ur dymo-cups-drivers-1.4.0.5/src/lm/CupsFilterLabelManager.h dymo-cups-dri
 @@ -50,4 +51,4 @@
  
  /*
-  * End of "$Id$".
+  * End of "$Id: CupsFilterLabelManager.h 14880 2011-03-31 16:29:05Z aleksandr $".
 - */
 \ No newline at end of file
 + */

@@ -2,6 +2,7 @@ MetaPhlAn2
 geopandas
 pandas
 pyCRAC
+python3-librosa
 python3-pandas
 python3-pooch
 python3-seaborn
