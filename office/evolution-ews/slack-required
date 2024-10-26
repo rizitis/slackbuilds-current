@@ -8,7 +8,6 @@ cogl
 clutter
 clutter-gtk
 libchamplain
-gspell
 gnome-autoar
 unifdef
 xdg-dbus-proxy

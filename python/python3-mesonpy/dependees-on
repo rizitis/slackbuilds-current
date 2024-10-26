@@ -83,7 +83,7 @@ python3-glyphslib
 python3-h5py
 python3-ipython-sql
 python3-levenshtein
-python3-librosa
+python3-librosa.tmp
 python3-matplotlib-inline
 python3-matplotlib
 python3-mesonpy

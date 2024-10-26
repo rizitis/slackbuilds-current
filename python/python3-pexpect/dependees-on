@@ -12,7 +12,6 @@ nwg-shell
 pexpect
 pychess
 python3-ipython-sql
-python3-librosa
 python3-pexpect
 python3-spyder-kernels
 spyder

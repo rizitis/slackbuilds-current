@@ -1,11 +1,14 @@
 liblxqt
+lxqt-about
 lxqt-admin
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
+lxqt-openssh-askpass
 lxqt-panel
 lxqt-policykit
 lxqt-powermanagement
+lxqt-runner
 lxqt-session
 lxqt-sudo
 qps

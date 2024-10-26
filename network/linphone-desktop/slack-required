@@ -1,4 +1,4 @@
-cmake3.30
+cmake-opt
 fltk
 spandsp
 python3-pystache
