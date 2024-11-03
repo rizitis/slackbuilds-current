@@ -1,5 +1,6 @@
 lua
 lua-filesystem
+lua51
 unifdef
 xdg-dbus-proxy
 libwpe

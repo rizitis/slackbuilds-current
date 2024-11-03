@@ -19,10 +19,10 @@ python3-cartopy
 python3-cffsubr
 python3-compreffor
 python3-fontmake
-python3-fonttools
+python3-fonttools.tmp
 python3-glyphslib
 python3-ipython-sql
-python3-librosa.tmp
+python3-librosa
 python3-lz4
 python3-matplotlib-inline
 python3-matplotlib

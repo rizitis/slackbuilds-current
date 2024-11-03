@@ -85,7 +85,11 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-# Update the interna ffmpeg to build on current
+# swig 4.3.0 removed this command line option
+# https://github.com/swig/swig/commit/86498e4
+sed -i 's|-xmllang python ||' xbmc/interfaces/swig/CMakeLists.txt
+
+# Update the internal ffmpeg to build on current
 echo 'LIBNAME=ffmpeg' > tools/depends/target/ffmpeg/FFMPEG-VERSION
 echo 'VERSION=6.1.2' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
 echo 'ARCHIVE=$(LIBNAME)-$(VERSION).tar.xz' >> tools/depends/target/ffmpeg/FFMPEG-VERSION

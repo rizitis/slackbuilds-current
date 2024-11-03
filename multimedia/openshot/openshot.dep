@@ -7,4 +7,5 @@ zeromq
 cppzmq
 libopenshot
 python3-pyzmq
+python3-PyQtWebEngine
 openshot

@@ -85,6 +85,9 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
+# upstream svn revisions 26324 and 26326
+patch -p0 < $CWD/poppler2410.patch
+
 cmake \
   -DCMAKE_C_FLAGS="$SLKCFLAGS" \
   -DCMAKE_CXX_FLAGS="$SLKCFLAGS" \

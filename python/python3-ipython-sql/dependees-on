@@ -6,5 +6,6 @@ jupyter_console
 jupyterlab
 python3-ipython-sql
 python3-ipython-sql
+python3-librosa
 python3-spyder-kernels
 spyder

@@ -1,6 +1,6 @@
 fluid-soundfont
 libmikmod
-lua
+lua51
 tolua++
 stratagus
 wargus
