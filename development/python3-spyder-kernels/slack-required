@@ -1,15 +1,14 @@
 python3-wurlitzer
 cloudpickle
+python3-nest_asyncio
 traitlets
 python3-comm
 python3-tornado
 zeromq
 python3-pyzmq
 python3-dateutil
-python3-nest_asyncio
 python3-platformdirs
 jupyter_core
-python3-entrypoints
 jupyter_client
 python3-pure_eval
 python3-executing

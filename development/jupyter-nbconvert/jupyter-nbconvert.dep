@@ -4,12 +4,9 @@ BeautifulSoup4
 python3-testpath
 python3-pandocfilters
 python3-mistune
-python3-poetry-core
-python3-tomlkit
-python3-deprecation
-jupyter_packaging
-jupyterlab_pygments
 python3-hatch-nodejs-version
+python3-hatch_jupyter_builder
+jupyterlab_pygments
 python3-platformdirs
 traitlets
 jupyter_core
@@ -23,8 +20,6 @@ python3-tornado
 zeromq
 python3-pyzmq
 python3-dateutil
-python3-nest_asyncio
-python3-entrypoints
 jupyter_client
 jupyter-nbclient
 python3-defusedxml

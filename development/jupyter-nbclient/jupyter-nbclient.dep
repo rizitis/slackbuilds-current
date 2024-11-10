@@ -12,7 +12,5 @@ python3-tornado
 zeromq
 python3-pyzmq
 python3-dateutil
-python3-nest_asyncio
-python3-entrypoints
 jupyter_client
 jupyter-nbclient

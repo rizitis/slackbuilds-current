@@ -11,17 +11,11 @@ httpie
 ipython
 josepy
 jupyter-ipykernel
-jupyter-nbclassic
-jupyter-nbconvert
 jupyter-notebook
-jupyter-notebook_shim
 jupyter-qtconsole
 jupyter_console
 jupyter_packaging
-jupyter_server
 jupyterlab
-jupyterlab_pygments
-jupyterlab_server
 kallithea-frontend
 letsencrypt
 linkchecker

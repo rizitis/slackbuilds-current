@@ -1,9 +1,12 @@
 jupyter-nbclassic
+jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
 jupyter_server
 jupyterlab
+jupyterlab_pygments
 jupyterlab_server
 pyte
 python3-hatch_jupyter_builder
+spyder
 thefuck

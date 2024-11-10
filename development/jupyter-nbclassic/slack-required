@@ -3,7 +3,6 @@ python3-websocket-client
 python3-overrides
 send2trash
 python3-prometheus_client
-python3-hatch_jupyter_builder
 python3-sniffio
 python3-anyio
 python3-tornado
@@ -16,12 +15,9 @@ BeautifulSoup4
 python3-testpath
 python3-pandocfilters
 python3-mistune
-python3-poetry-core
-python3-tomlkit
-python3-deprecation
-jupyter_packaging
-jupyterlab_pygments
 python3-hatch-nodejs-version
+python3-hatch_jupyter_builder
+jupyterlab_pygments
 python3-platformdirs
 traitlets
 jupyter_core
@@ -34,8 +30,6 @@ jupyter-nbformat
 zeromq
 python3-pyzmq
 python3-dateutil
-python3-nest_asyncio
-python3-entrypoints
 jupyter_client
 jupyter-nbclient
 python3-defusedxml

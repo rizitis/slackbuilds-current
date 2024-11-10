@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
      |-----handy-ruler------------------------------------------------------|
-wxGTK: wxGTK (cross-platform GUI toolkit)
-wxGTK:
-wxGTK: wxGTK is part of wxWidgets, a cross-platform API for writing GUI
-wxGTK: applications on multiple platforms that still utilize the native
-wxGTK: platform's controls and utilities.
-wxGTK:
-wxGTK: http://wxwidgets.org
-wxGTK:
-wxGTK:
-wxGTK:
-wxGTK:
+janet: janet (the janet programming language)
+janet:
+janet: Janet is a programming language for system scripting, expressive
+janet: automation, and extending programs written in C or C++ with user
+janet: scripting capabilities.
+janet:
+janet: There is a REPL for trying out the language, as well as the
+janet: ability to run script files.
+janet:
+janet: Homepage: https://janet-lang.org/
+janet:

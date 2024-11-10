@@ -25,7 +25,7 @@ python3-cartopy
 python3-cffsubr
 python3-compreffor
 python3-fontmake
-python3-fonttools.tmp
+python3-fonttools
 python3-gensim
 python3-glyphslib
 python3-ipython-sql

@@ -1,12 +1,3 @@
-jupyter-nbclassic
-jupyter-nbconvert
-jupyter-notebook
-jupyter-notebook_shim
 jupyter_packaging
-jupyter_server
-jupyterlab
-jupyterlab_pygments
-jupyterlab_server
 pyte
-spyder
 thefuck
