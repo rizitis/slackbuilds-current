@@ -1,4 +1,5 @@
 libmodplug
 physfs
 DevIL
+lua51
 love-legacy072

@@ -25,7 +25,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=anydesk
-VERSION=${VERSION:-6.3.3}
+VERSION=${VERSION:-6.4.0}
 BUILD=${BUILD:-1}
 RPMBUILD=${RPMBUILD:-1}
 TAG=${TAG:-_SBo}
@@ -81,5 +81,5 @@ cat $CWD/rc.anydesk > $PKG/etc/rc.d/rc.anydesk.new
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
-/sbin/makepkg -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+/sbin/makepkg -l y -p -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

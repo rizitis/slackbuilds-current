@@ -19,6 +19,7 @@ libyang
 log4c
 merkaartor
 mptcpd
+msc-generator
 nagvis
 nix
 ntopng

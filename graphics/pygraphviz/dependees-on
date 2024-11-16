@@ -17,6 +17,7 @@ libkml
 libyang
 log4c
 merkaartor
+msc-generator
 nagvis
 nix
 ntopng

@@ -1,5 +1,6 @@
 libmodplug
 physfs
 DevIL
+lua51
 love-legacy072
 nottetris2
