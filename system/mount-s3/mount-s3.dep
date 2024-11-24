@@ -1,9 +1,0 @@
-python3-pyasn1
-python3-rsa
-colorama
-jmespath
-python3-dateutil
-botocore
-s3transfer
-awscli
-mount-s3

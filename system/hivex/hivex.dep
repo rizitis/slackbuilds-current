@@ -1,7 +1,0 @@
-perl-Test-Harness
-perl-Test-Simple
-perl-IO-stringy
-ocaml
-ocamlbuild
-ocaml-findlib
-hivex

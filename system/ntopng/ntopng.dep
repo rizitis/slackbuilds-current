@@ -1,8 +1,0 @@
-libmaxminddb
-zeromq
-hiredis
-redis
-rrdtool
-graphviz
-GeoIP
-ntopng

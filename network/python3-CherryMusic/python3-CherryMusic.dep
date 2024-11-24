@@ -15,7 +15,7 @@ python3-jaraco.context
 python3-jaraco.text
 python3-jaraco.classes
 python3-jaraco.collections
-python3-pytz
+python3-dateutil
 python3-tempora
 python3-portend
 python3-cheroot

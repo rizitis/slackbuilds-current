@@ -55,6 +55,7 @@ python3-twisted
 python3-ufolib2
 rasterio
 reuse-tool
+s3ql
 sickchill
 spyder
 swtpm

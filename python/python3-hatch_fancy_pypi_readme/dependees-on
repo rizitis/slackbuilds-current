@@ -3,6 +3,7 @@ Fiona
 anki
 audible-cli
 audible
+beets
 blink-qt
 buildbot-badges
 buildbot-worker
@@ -83,6 +84,7 @@ python3-ufolib2
 python3-unearth
 rasterio
 reuse-tool
+s3ql
 sickchill
 spyder
 swtpm

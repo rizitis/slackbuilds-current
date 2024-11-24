@@ -1,6 +1,0 @@
-unifdef
-xdg-dbus-proxy
-libwpe
-wpebackend-fdo
-geoclue2
-bubblewrap

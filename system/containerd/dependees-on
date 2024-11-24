@@ -1,8 +1,0 @@
-containerd
-docker-cli
-docker-compose
-docker
-libnvidia-container
-nerdctl
-nvidia-container-toolkit
-subuser
