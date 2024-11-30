@@ -1,0 +1,14 @@
+libcpuid
+# %README%: see the gambas3 README file. 
+imlib
+unifdef
+xdg-dbus-proxy
+libwpe
+wpebackend-fdo
+geoclue2
+bubblewrap
+webkit2gtk4.1
+pangox-compat
+gtkglext
+alure
+gambas3

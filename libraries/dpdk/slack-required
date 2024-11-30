@@ -1,0 +1,5 @@
+pyelftools
+libbpf
+libmd
+libbsd
+device-tree-compiler

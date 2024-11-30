@@ -1,0 +1,12 @@
+PRGNAM="csh"
+VERSION="20230828_1"
+HOMEPAGE="https://packages.debian.org/sid/csh"
+DOWNLOAD="http://deb.debian.org/debian/pool/main/c/csh/csh_20230828.orig.tar.xz \
+          http://deb.debian.org/debian/pool/main/c/csh/csh_20230828-1.debian.tar.xz"
+MD5SUM="9917fda92d8ea01c7858f59ece134a72 \
+        f176353bf84fd41a332f3652cc5edbcb"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="%README% libbsd"
+MAINTAINER="B. Watson"
+EMAIL="urchlay@slackware.uk"

@@ -1,0 +1,10 @@
+tbb
+ispc
+openimagedenoise
+gflags
+gtest
+googlebenchmark
+glfw3
+embree
+rkcommon
+openvkl

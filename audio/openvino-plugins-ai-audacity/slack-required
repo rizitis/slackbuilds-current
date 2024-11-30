@@ -1,4 +1,5 @@
 whisper.cpp
+python3-typing-extensions
 pytorch
 OpenCL-CLHPP
 pybind11

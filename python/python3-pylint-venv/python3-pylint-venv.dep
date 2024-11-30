@@ -1,0 +1,13 @@
+python3-platformdirs
+python3-filelock
+python3-distlib
+python3-virtualenv
+python3-poetry-core
+python3-tomlkit
+python3-dill
+python3-mccabe
+python3-isort
+python3-typing-extensions
+python3-astroid
+python3-pylint
+python3-pylint-venv

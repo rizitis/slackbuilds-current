@@ -1,0 +1,11 @@
+spice-protocol
+spice
+spice-gtk
+gtk-vnc
+yajl
+libvirt
+libvirt-python
+libvirt-glib
+osinfo-db-tools
+osinfo-db
+libosinfo

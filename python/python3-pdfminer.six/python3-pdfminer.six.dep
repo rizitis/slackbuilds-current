@@ -1,0 +1,8 @@
+python3-toml
+python3-setuptools-git-versioning
+python3-semantic-version
+python3-typing-extensions
+python3-setuptools-rust-opt
+python3-maturin
+cryptography
+python3-pdfminer.six

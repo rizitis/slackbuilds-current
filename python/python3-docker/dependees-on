@@ -1,0 +1,8 @@
+docker-cli
+docker-compose
+docker
+libnvidia-container
+nvidia-container-toolkit
+python3-docker-compose
+python3-docker
+subuser

@@ -1,6 +1,7 @@
 python2-setuptools-scm
 python2-dateutil
 greenlet
+python3-typing-extensions
 SQLAlchemy
 wxPython
 Pyfa

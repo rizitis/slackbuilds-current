@@ -1,6 +1,7 @@
 python3-ipython_genutils
 sqlparse
 greenlet
+python3-typing-extensions
 SQLAlchemy
 PrettyTable
 python3-pure_eval

@@ -1,0 +1,6 @@
+openmpi
+blas
+lapack
+scalapack
+libaec
+hdf5

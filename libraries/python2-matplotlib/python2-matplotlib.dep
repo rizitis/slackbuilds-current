@@ -1,0 +1,13 @@
+singledispatch
+backports-abc
+tornado
+python2-kiwisolver
+subprocess32
+python2-toml
+python2-setuptools-scm
+functools-lru-cache
+python2-cycler
+python2-pytz
+python2-dateutil
+python2-numpy
+python2-matplotlib

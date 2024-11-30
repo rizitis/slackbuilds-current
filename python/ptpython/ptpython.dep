@@ -1,0 +1,5 @@
+python3-parso
+python3-jedi
+python3-wcwidth
+python3-prompt_toolkit
+ptpython

@@ -1,0 +1,15 @@
+Libadwaita is a GTK4 library implementing the GNOME HIG, complementing
+GTK. Libadwaita is the successor of libhandy, but for GTK4.
+
+Among other things, libadwaita provides a set of widgets built on top of
+GTK4 as well as the "Adwaita" theme, a coloring API, and a mechanism to
+make apps linked against it fit in with a system-wide dark mode
+preference.
+
+Build options:
+
+BUILDTYPE => customize build type by setting to a value recognized by
+meson; eg, BUILDTYPE=debug (defaults to 'release').
+
+GTK_DOC => set to 'true' to build API documentation; requires
+`gi-docgen` (defaults to 'false').

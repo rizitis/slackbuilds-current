@@ -1,0 +1,4 @@
+pycparser
+cffi
+portaudio
+sounddevice

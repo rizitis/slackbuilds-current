@@ -1,0 +1,10 @@
+# Created by rizitis
+--- src/su_backend.h	2014-07-11 17:40:19.000000000 +0300
++++ su_backend.h	2024-08-21 23:51:23.725197867 +0300
+@@ -36,5 +36,6 @@
+ 
+ int check_password_su(const char *username, const char *password);
+ void run_su(char *username, char *password, char *command);
++void tty_raw(int fd); // Declaration of the tty_raw function
+ 
+ #endif

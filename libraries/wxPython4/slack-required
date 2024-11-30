@@ -1,0 +1,11 @@
+python3-attrdict
+python3-pathlib2
+nanosvg
+unifdef
+xdg-dbus-proxy
+libwpe
+wpebackend-fdo
+geoclue2
+bubblewrap
+webkit2gtk
+wxWidgets

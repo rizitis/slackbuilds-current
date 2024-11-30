@@ -1,0 +1,6 @@
+chrpath
+OpenBLAS
+blas
+lapack
+suitesparse
+trilinos

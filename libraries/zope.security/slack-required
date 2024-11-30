@@ -1,0 +1,8 @@
+zope.interface
+zope.proxy
+zope.event
+zope.schema
+zope.location
+zope.i18nmessageid
+zope.hookable
+zope.component

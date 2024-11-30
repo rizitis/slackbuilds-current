@@ -1,0 +1,8 @@
+python3-text-unidecode
+python3-slugify
+python3-pyinotify
+re2
+python3-grpcio
+google-go-lang
+protoc-gen-go
+protoc-gen-go-grpc

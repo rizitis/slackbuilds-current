@@ -47,7 +47,6 @@ python3-kodipydent
 python3-langcodes
 python3-language-data
 python3-librosa
-python3-libtmux
 python3-libvcs
 python3-mailman
 python3-pdm
@@ -76,7 +75,6 @@ sshuttle
 subliminal
 sun
 thonny
-tmuxp
 toot
 twine
 vcspull

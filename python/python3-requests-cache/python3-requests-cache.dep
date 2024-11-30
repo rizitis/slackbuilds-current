@@ -2,6 +2,7 @@ python3-poetry-core
 python3-url-normalize
 python3-hatch_fancy_pypi_readme
 python3-attrs
+python3-typing-extensions
 python3-cattrs
 python3-platformdirs
 python3-requests-cache

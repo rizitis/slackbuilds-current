@@ -1,0 +1,14 @@
+python3-toml
+importlib-resources
+python3-pytz
+python3-pyrsistent
+python3-hatch_fancy_pypi_readme
+python3-attrs
+python3-jsonschema
+python3-blinker
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-dateutil
+python3-aniso8601

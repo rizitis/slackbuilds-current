@@ -1,0 +1,106 @@
+#!/bin/bash
+
+# Slackware build script for vst3sdk
+
+# Copyright 2024+ Antonio Leal, Porto Salvo, Oeiras, Portugal
+# Copyright 2024 Martin Bångens Sweden
+# All rights reserved.
+#
+# Redistribution and use of this script, with or without modification, is
+# permitted provided that the following conditions are met:
+#
+# 1. Redistributions of this script must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+#  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+#  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+#  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+#  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+#  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+#  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+#  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+#  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+#  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+cd $(dirname $0) ; CWD=$(pwd)
+
+PRGNAM=vst3sdk
+VERSION=${VERSION:-3.7.12}
+SDK_BUILD=${SDK_BUILD:-_build_20}
+BUILD=${BUILD:-1}
+TAG=${TAG:-_SBo}
+PKGTYPE=${PKGTYPE:-tgz}
+ARCH=noarch
+
+# git submodules
+BASE=f0998e7b8424b32ba275cf4218aa56beef29821c
+CMAKE=2022b265cdbcd90b37294d3fb397f9766dbe4c06
+DOC=3c2097dfbb391346744c2b76bd23304bc2ab1de8
+PLUGINTERFACES=151ecde4d6ee1c457dcce848342b162461944fe6
+PUBLIC_SDK=3fce096d6ee575479753f1aab23033d2e2ffdc6e
+TUTORIALS=cb34a713bec1b96ac31a6bd66af607b92a4abb21
+VSTGUI=17c2a7added1c966ea2b9b8199566b119bebaea5
+
+# If the variable PRINT_PACKAGE_NAME is set, then this script will report what
+# the name of the created package would be, and then exit. This information
+# could be useful to other scripts.
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+set -e
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $PRGNAM-$VERSION$SDK_BUILD
+tar xf $CWD/$PRGNAM-$VERSION$SDK_BUILD.tar.gz
+cd $PRGNAM-$VERSION$SDK_BUILD
+chown -R root:root .
+
+mkdir -p $PKG/usr/include/vst3sdk/{base,cmake,pluginterfaces,public.sdk,tutorials,vstgui4}
+mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION/doc
+mkdir -p $PKG/usr/share/pkgconfig
+cp $CWD/vst3sdk.pc $PKG/usr/share/pkgconfig
+sed -i "s/VERSION/$VERSION$SDK_BUILD/g" $PKG/usr/share/pkgconfig/vst3sdk.pc
+
+tar xvzf $CWD/vst3_base-$BASE.tar.gz --strip-components=1 -C $PKG/usr/include/vst3sdk/base
+tar xvzf $CWD/vst3_cmake-$CMAKE.tar.gz --strip-components=1 -C $PKG/usr/include/vst3sdk/cmake
+tar xvzf $CWD/vst3_doc-$DOC.tar.gz --strip-components=1 -C $PKG/usr/doc/$PRGNAM-$VERSION/doc
+tar xvzf $CWD/vst3_pluginterfaces-$PLUGINTERFACES.tar.gz --strip-components=1 -C $PKG/usr/include/vst3sdk/pluginterfaces
+tar xvzf $CWD/vst3_public_sdk-$PUBLIC_SDK.tar.gz --strip-components=1 -C $PKG/usr/include/vst3sdk/public.sdk
+tar xvzf $CWD/vst3_tutorials-$TUTORIALS.tar.gz --strip-components=1 -C $PKG/usr/include/vst3sdk/tutorials
+tar xvzf $CWD/vstgui-$VSTGUI.tar.gz --strip-components=1 -C $PKG/usr/include/vst3sdk/vstgui4
+cp CMakeLists.txt $PKG/usr/include/vst3sdk
+
+cp -a \
+  LICENSE.txt \
+  README.md \
+  VST3_License_Agreement.pdf \
+  VST3_Usage_Guidelines.pdf \
+  index.html \
+$PKG/usr/doc/$PRGNAM-$VERSION
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+
+chmod 755 $PKG/usr/include/vst3sdk
+find $PKG/usr/include/vst3sdk -type d -exec chmod 755 {} +
+find $PKG/usr/include/vst3sdk -type f -exec chmod 644 {} +
+
+chmod 755 $PKG/usr/doc/$PRGNAM-$VERSION
+find $PKG/usr/doc/$PRGNAM-$VERSION -type d -exec chmod 755 {} +
+find $PKG/usr/doc/$PRGNAM-$VERSION -type f -exec chmod 644 {} +
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

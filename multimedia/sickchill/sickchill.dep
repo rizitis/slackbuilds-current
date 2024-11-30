@@ -11,6 +11,7 @@ libzen
 libmediainfo
 pymediainfo
 python3-semantic-version
+python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography

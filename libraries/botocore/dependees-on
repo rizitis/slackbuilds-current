@@ -1,0 +1,7 @@
+aws-cdk
+awscli
+botocore
+mount-s3
+python3-boto3
+s3fs-fuse
+s3transfer

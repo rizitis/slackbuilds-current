@@ -1,0 +1,13 @@
+python3-sniffio
+python3-hatch_fancy_pypi_readme
+python3-attrs
+python3-outcome
+python3-sortedcontainers
+python3-trio
+pyfuse3
+apsw
+llfuse
+python3-pycrypto
+python3-defusedxml
+python3-dugong
+s3ql

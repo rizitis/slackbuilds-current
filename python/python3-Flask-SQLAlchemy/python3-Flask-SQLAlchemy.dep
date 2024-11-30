@@ -1,0 +1,9 @@
+greenlet
+python3-typing-extensions
+SQLAlchemy
+python3-blinker
+click
+python3-itsdangerous
+werkzeug
+Flask
+python3-Flask-SQLAlchemy

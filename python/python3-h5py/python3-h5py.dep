@@ -1,0 +1,8 @@
+python3-pkgconfig
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
+liblzf
+libaec
+hdf5
+python3-h5py

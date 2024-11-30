@@ -47,4 +47,5 @@ python3-cycler
 python3-contourpy
 python3-matplotlib
 greenlet
+python3-typing-extensions
 SQLAlchemy

@@ -1,0 +1,4 @@
+python3-argcomplete
+python3-dateutil
+postgresql
+python3-psycopg2

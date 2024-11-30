@@ -1,0 +1,7 @@
+glog
+gflags
+chrpath
+OpenBLAS
+blas
+lapack
+suitesparse

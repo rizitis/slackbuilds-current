@@ -1,0 +1,9 @@
+python3-resolvelib
+python3-toml
+importlib-resources
+python3-semantic-version
+python3-typing-extensions
+python3-setuptools-rust-opt
+python3-maturin
+cryptography
+ansible-core

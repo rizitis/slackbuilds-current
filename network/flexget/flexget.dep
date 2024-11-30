@@ -4,6 +4,7 @@ colorama
 tzdata
 python3-loguru
 pytz-deprecation-shim
+python3-typing-extensions
 python3-mdurl
 python3-markdown-it-py
 python3-poetry-core

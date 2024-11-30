@@ -1,0 +1,1 @@
+python3-setuptools_scm_git_archive

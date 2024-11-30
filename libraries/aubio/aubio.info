@@ -1,0 +1,12 @@
+PRGNAM="aubio"
+VERSION="20240102_152d681"
+HOMEPAGE="https://aubio.org/"
+DOWNLOAD="https://ponce.cc/slackware/sources/repo/aubio-20240102_152d681.tar.xz \
+          https://ponce.cc/slackware/sources/repo/waf-2.0.26"
+MD5SUM="6ada0f768d8b78308f842d8e8862c325 \
+        730623b05efa37980aa15ff34a02e990"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES=""
+MAINTAINER="Matteo Bernardini"
+EMAIL="ponce@slackbuilds.org"

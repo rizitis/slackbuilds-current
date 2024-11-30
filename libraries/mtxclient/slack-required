@@ -1,0 +1,7 @@
+gtest
+re2
+nlohmann_json
+olm
+Catch2
+spdlog
+coeurl

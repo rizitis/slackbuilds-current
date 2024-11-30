@@ -1,0 +1,10 @@
+python3-versioneer
+tzdata
+python3-pytz
+python3-dateutil
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
+python3-pandas
+python3-platformdirs
+python3-pooch

@@ -1,0 +1,129 @@
+#!/bin/bash
+
+# Slackware build script for qwt
+
+# Written by Zordrak
+# Nobbled from Slacky and sanitised for sanity :)
+# Modified by dunkyp <dunkyp@gmail.com>
+# Modified by the Slackbuilds.org project
+# Maintained 2015-2021 by Christoph Willing <chris.willing@linux.com>
+
+# 20220419 bkw: Modified by SlackBuilds.org, BUILD=3:
+# - don't build and install the example binaries by default;
+#   add EXAMPLES=yes option.
+
+# 20220222 bkw: Modified by SlackBuilds.org:
+# - add optional qt4 support.
+
+cd $(dirname $0) ; CWD=$(pwd)
+
+PRGNAM=qwt
+VERSION=${VERSION:-6.1.6}
+BUILD=${BUILD:-3}
+TAG=${TAG:-_SBo}
+PKGTYPE=${PKGTYPE:-tgz}
+
+if [ -z "$ARCH" ]; then
+  case "$( uname -m )" in
+    i?86) ARCH=i586 ;;
+    arm*) ARCH=arm ;;
+       *) ARCH=$( uname -m ) ;;
+  esac
+fi
+
+if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
+  echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
+  exit 0
+fi
+
+TMP=${TMP:-/tmp/SBo}
+PKG=$TMP/package-$PRGNAM
+OUTPUT=${OUTPUT:-/tmp}
+
+if [ "$ARCH" = "i586" ]; then
+    SLKCFLAGS="-O2 -march=i586 -mtune=i686"
+    LIBDIRSUFFIX=""
+elif [ "$ARCH" = "i686" ]; then
+    SLKCFLAGS="-O2 -march=i686 -mtune=i686"
+    LIBDIRSUFFIX=""
+elif [ "$ARCH" = "x86_64" ]; then
+    SLKCFLAGS="-O2 -fPIC"
+    LIBDIRSUFFIX="64"
+else
+    SLKCFLAGS="-O2"
+    LIBDIRSUFFIX=""
+fi
+
+set -e 
+
+rm -rf $PKG
+mkdir -p $TMP $PKG $OUTPUT
+cd $TMP
+rm -rf $PRGNAM-$VERSION
+tar xvf $CWD/$PRGNAM-$VERSION.tar.bz2
+cd $PRGNAM-$VERSION
+patch -p0 < $CWD/patch-6.1.2-config.diff
+chown -R root:root .
+find -L . \
+ \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 -o -perm 511 \) \
+ -exec chmod 755 {} \+ -o \
+ \( -perm 666 -o -perm 664 -o -perm 600 -o -perm 444 -o -perm 440 -o -perm 400 \) \
+ -exec chmod 644 {} \+
+
+# 20220419 bkw: don't build the examples by default. they're not
+# particularly useful. the sources to the examples are installed in
+# the doc dir, if users want to play with them.
+[ "${EXAMPLES:-no}" != "yes" ] &&
+  sed -i '/^QWT_CONFIG.*QwtExamples/s,^,#,' qwtconfig.pri
+
+if [ -x /usr/lib$LIBDIRSUFFIX/qt4/bin/qmake ]; then
+  mkdir -p build-qt4
+  cd build-qt4
+    qmake-qt4 .. LIBDIRSUFFIX=$LIBDIRSUFFIX
+    make CFLAGS+="$SLKCFLAGS" CXXFLAGS+="$SLKCFLAGS -std=c++11 -fPIC"
+    make install INSTALL_ROOT=$PKG
+  cd ..
+fi
+
+mkdir -p build
+cd build
+  qmake-qt5 .. LIBDIRSUFFIX=$LIBDIRSUFFIX
+  make CFLAGS+="$SLKCFLAGS" CXXFLAGS+="$SLKCFLAGS -std=c++11 -fPIC"
+  make install INSTALL_ROOT=$PKG
+cd ..
+
+# Rationalise the pkgconfig default filenames
+( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG/usr/lib${LIBDIRSUFFIX}/pkgconfig 
+  [ -f qwt.pc ]     && ln -s qwt.pc Qwt6.pc
+  [ -f Qt5Qwt6.pc ] && ln -s Qt5Qwt6.pc qwt-qt5.pc
+)
+
+find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF \
+  | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
+
+mv $PKG/usr/doc/man $PKG/usr
+rm -f $PKG/usr/man/man3/_tmp*
+gzip -9 $PKG/usr/man/man*/*
+
+PKGDOC=$PKG/usr/doc/$PRGNAM-$VERSION
+mkdir -p $PKGDOC/examples
+cp -a examples/* $PKGDOC/examples/
+if [ "${EXAMPLES:-no}" = "yes" ]; then
+  mkdir -p $PKGDOC/examples/bin
+  install -s -m0755 build/examples/bin/* $PKGDOC/examples/bin
+fi
+
+mv $PKG/usr/doc/html $PKGDOC
+cp -a CHANGES* COPYING README $PKGDOC
+cat $CWD/$PRGNAM.SlackBuild > $PKGDOC/$PRGNAM.SlackBuild
+
+mkdir -p $PKG/install
+cat $CWD/slack-desc > $PKG/install/slack-desc
+
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
+cd $PKG
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

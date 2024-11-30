@@ -1,0 +1,3 @@
+rdma-core
+numactl
+libfabric
