@@ -79,6 +79,7 @@ find -L . \
 
 patch -p1 < $CWD/poppler2410.patch
 patch -p1 < $CWD/poppler_24_11.patch
+patch -p1 < $CWD/poppler_24_12.patch
 
 # strip invalid tag
 sed -i /url/d org.inkscape.Inkscape.appdata.xml.in || exit 1

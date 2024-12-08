@@ -68,7 +68,7 @@ _bldtype=Release
 
 # source rev. and version.
 MOZC_REV=ca82d39d08df3359fdf5c653a1f56b3e95cbe2ce
-GYP_REV=caa60026e223fc501e8b337fd5086ece4028b1c6
+GYP_REV=bc83cdacf5428ab6ddcc92fd0b0fc494cc9a4d4f
 PROTOBUF_REV=fde7cf7358ec7cd69e8db9be4f1fa6a5c431386a
 ABSEIL_CPP_REV=0f3bb466b868b523cf1dc9b2aaaed65c77b28862
 BREAKPAD_REV=2022.07.12

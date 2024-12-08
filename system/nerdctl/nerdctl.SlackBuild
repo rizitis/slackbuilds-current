@@ -25,8 +25,8 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=nerdctl
-VERSION=${VERSION:-2.0.0}
-GITHASH=${GITHASH:-845e989f69d25b420ae325fedc8e70186243fd93}
+VERSION=${VERSION:-2.0.1}
+GITHASH=${GITHASH:-47f31ff2c1615c1accb85c1ce4e7882ad739102f}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -81,6 +81,11 @@ make install DESTDIR=$PKG PREFIX=/usr
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a README.md LICENSE NOTICE $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+
+if [ -d $PKG/usr/share/doc ]; then
+  mv $PKG/usr/share/doc/* $PKG/usr/doc/$PRGNAM-$VERSION
+  rm -rf $PKG/usr/share/doc
+fi
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
