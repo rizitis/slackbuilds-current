@@ -28,6 +28,7 @@ python3-aksharamukha
 python3-arabic-reshaper
 python3-basemap
 python3-black
+python3-cacheyou
 python3-cartopy
 python3-cffsubr
 python3-cinemagoer
@@ -43,6 +44,7 @@ python3-lz4
 python3-matplotlib-inline
 python3-matplotlib
 python3-obspy
+python3-pdm
 python3-pipx
 python3-platformdirs
 python3-pooch

@@ -73,13 +73,12 @@ python-gntp
 Unidecode
 python3-tornado
 msgpack-python
-virtualenv
-python3-pdm-backend
-python3-pdm-build-locked
 python3-h11
 python3-sniffio
 python3-anyio
 python3-httpcore
+python3-pdm-backend
+python3-pdm-build-locked
 python3-rfc3986
 python3-httpx
 python3-hishel
