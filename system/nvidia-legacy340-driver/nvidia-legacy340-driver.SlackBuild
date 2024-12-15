@@ -105,10 +105,7 @@ install -m 755 libvdpau_nvidia.so.$VERSION $PKG/usr/lib$LIBDIRSUFFIX/
 # For 8-series GPU if libwfb.so is missing (ie older X servers).
 install -m 755 libnvidia-wfb.so.$VERSION $PKG/usr/lib$LIBDIRSUFFIX/xorg/modules/libnvidia-wfb.so.$VERSION-nvidia
 
-install -m 644 nvidia.iif [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/etc/OpenCL/vendors/
+install -m 644 nvidia.icd $PKG/etc/OpenCL/vendors/
 
 # Add optional 32-bit support
 if [ "$ARCH" = "x86_64" -a "${COMPAT32}" = "yes" ]; then
@@ -134,9 +131,6 @@ if [ "$ARCH" = "x86_64" -a "${COMPAT32}" = "yes" ]; then
 fi
 
 # symlinks
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib$LIBDIRSUFFIX
   for i in libcuda libnvidia-cfg; do
     ln -s $i.so.$VERSION $i.so.1
@@ -153,10 +147,7 @@ cd -
 
 # symlinks for optional 32-bit support
 if [ "$ARCH" = "x86_64" -a "${COMPAT32}" = "yes" ]; then
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib
+  cd $PKG/usr/lib
     ln -sf libcuda.so.$VERSION libcuda.so.$MVERS
     ln -sf libcuda.so.$MVERS libcuda.so
     ln -sf libOpenCL.so.1.0.0 libOpenCL.so.1.0
@@ -293,9 +284,9 @@ mkdir -p $PKG/install
 sed "s/PKGVERSION/$VERSION/g" $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

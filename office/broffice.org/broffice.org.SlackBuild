@@ -117,18 +117,12 @@ rm -f *onlineupdate*.rpm # We don't want this
 for FILE in *.rpm ; do rpm2cpio < $FILE | cpio -imdv ; done
 rm -rf desktop-integration *.rpm
 mv opt usr $PKG
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 
 # Kill a broken symlink
 rm -f $PKG/usr/share/applications/broffice.org3-startcenter.desktop
 
 # Create symlinks in /usr/bin to actual binaries
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
   for FILE in \
     sbase scalc sdraw simpress smath soffice spadmin swriter unopkg ; do
@@ -142,9 +136,6 @@ rm -f opt/openoffice.org/basis3.2/share/fonts/truetype/[DL]*.ttf
 
 # Fix Exec commands in the desktop files
 # See http://bugzilla.xfce.org/show_bug.cgi?id=2430
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/broffice.org3/share/xdg/
   for APP in base calc draw impress math writer; do
     sed -i 's%Exec=broffice.org3 -%Exec=s%' $APP.desktop ;
@@ -164,9 +155,6 @@ fi
 
 # Move docs to their expected locations
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/broffice.org3
   mv README* *LICENSE* readmes licenses $PKG/usr/doc/$PRGNAM-$VERSION
 cd -
@@ -190,5 +178,8 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -c n -l y $OUTPUT/$PRGNAM-${VERSION}_${PKG_LANG}-$PKGARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

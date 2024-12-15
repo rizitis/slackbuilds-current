@@ -98,10 +98,7 @@ rm $GAMEDIR/Images/Makefile*
 install -s -m0755 $SRCNAM $SRCNAM-netd $PKG/usr/games
 
 # CLI users would probably prefer to type 'maelstrom', not 'Maelstrom'
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/games && ln -s $SRCNAM $PRGNAM )
+( cd $PKG/usr/games && ln -s $SRCNAM $PRGNAM )
 
 install -m0755 -o root -g root $CWD/maelstrom_addon_package.pl $PKG/usr/games
 
@@ -118,17 +115,11 @@ for i in 16 32 48 64; do
 done
 
 mkdir -p $PKG/usr/share/pixmaps
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/pixmaps ; ln -s ../games/$SRCNAM/icon.xpm $PRGNAM.xpm )
+( cd $PKG/usr/share/pixmaps ; ln -s ../games/$SRCNAM/icon.xpm $PRGNAM.xpm )
 
 mkdir -p $PKG/usr/man/man6
 gzip -9c $CWD/$SRCNAM.6 > $PKG/usr/man/man6/$SRCNAM.6.gz
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/man/man6
+( cd $PKG/usr/man/man6
   ln -s $SRCNAM.6.gz $PRGNAM.6.gz
   ln -s $SRCNAM.6.gz $SRCNAM-netd.6.gz )
 
@@ -142,9 +133,9 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

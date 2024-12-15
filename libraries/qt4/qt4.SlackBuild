@@ -163,10 +163,7 @@ rm -f $PKG/usr/lib${LIBDIRSUFFIX}/qt4/lib/*.la
 # 20220124 bkw: don't think we still need this, since this is no longer
 # a core Slackware package.
 # The infamous qt -> qt-${VERSION} link that keeps the full path out of .la files:
-#( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX} ; ln -sf qt qt-${VERSION} )
+#( cd $PKG/usr/lib${LIBDIRSUFFIX} ; ln -sf qt qt-${VERSION} )
 
 # Add a missing Qt.pc which is needed by KDE applications:
 mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/qt4/lib/pkgconfig
@@ -199,10 +196,7 @@ sed -i "s,-L/usr/X11R6/lib ,-L/usr/X11R6/lib${LIBDIRSUFFIX} ,g" \
   $PKG/usr/lib${LIBDIRSUFFIX}/qt4/lib/*.prl
 
 # Link the shared libraries into /usr/lib:
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}
+( cd $PKG/usr/lib${LIBDIRSUFFIX}
   for file in qt4/lib/*.so* ; do
     ln -sf $file .
   done
@@ -219,28 +213,16 @@ chmod 0644 $PKG/etc/profile.d/*  # do not make executable by default.
 # Put a ton of links to more "normal" places.  I'd just use a prefix of /usr, but it
 # creates a ton of new (and ambiguously named) /usr directories...
 mkdir -p $PKG/usr/bin
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/qt4/bin
+( cd $PKG/usr/lib${LIBDIRSUFFIX}/qt4/bin
   for file in * ; do
-    ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/bin ; ln -sf /usr/lib${LIBDIRSUFFIX}/qt4/bin/$file $file-qt4 )
+    ( cd $PKG/usr/bin ; ln -sf /usr/lib${LIBDIRSUFFIX}/qt4/bin/$file $file-qt4 )
   done
 )
 
 mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/pkgconfig
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/qt4/lib/pkgconfig
+( cd $PKG/usr/lib${LIBDIRSUFFIX}/qt4/lib/pkgconfig
   for file in *.pc ; do
-    ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/pkgconfig ; ln -sf /usr/lib${LIBDIRSUFFIX}/qt4/lib/pkgconfig/$file . )
+    ( cd $PKG/usr/lib${LIBDIRSUFFIX}/pkgconfig ; ln -sf /usr/lib${LIBDIRSUFFIX}/qt4/lib/pkgconfig/$file . )
   done
 )
 
@@ -317,10 +299,7 @@ PKGDOC=$PKG/usr/doc/$PRGNAM-$VERSION
 mkdir -p $PKGDOC
 cp -a *GPL_EXCEPTION* LICENSE* README* changes-* $PKGDOC
 if [ -d $PKG/usr/lib${LIBDIRSUFFIX}/qt4/doc/html ]; then
-  ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKGDOC
+  ( cd $PKGDOC
     ln -sf /usr/lib${LIBDIRSUFFIX}/qt4/doc/html .
   )
 fi
@@ -331,9 +310,9 @@ mkdir -p $PKG/install
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

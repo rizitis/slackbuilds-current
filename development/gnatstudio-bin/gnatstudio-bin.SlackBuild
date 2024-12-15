@@ -56,9 +56,6 @@ cd $TMP
 
 mkdir -p $PKG/opt/gnatstudio
 tar xvf $CWD/$SRC_FILE -C $PKG/opt/gnatstudio --strip-components=1
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/gnatstudio
 rm doinstall
 chown -R root:root .
@@ -78,10 +75,7 @@ chmod +x $PKG/etc/profile.d/*
 # are suppose to be symbolic links :(
 # change directory to support libs and replase those duplicate files with
 # symbolic link
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/gnatstudio/lib/gnatstudio/
+(cd $PKG/opt/gnatstudio/lib/gnatstudio/
  ln -sf libatk-1.0.so.0 libatk-1.0.so
  ln -sf libatk-bridge-2.0.so.0 libatk-bridge-2.0.so
  ln -sf libatspi.so.0 libatspi.so
@@ -142,10 +136,7 @@ cd $PKG/opt/gnatstudio/lib/gnatstudio/
  ln -sf libz.so.1 libz.so
  chmod +x libgcc_s* preloadable_libintl.so
 )
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/gnatstudio/share/gnatstudio/python/lib/python3.9/site-packages/libadalang/
+(cd $PKG/opt/gnatstudio/share/gnatstudio/python/lib/python3.9/site-packages/libadalang/
  ln -sf /opt/gnatstudio/lib/gnatstudio/libadalang.so
  ln -sf /opt/gnatstudio/lib/gnatstudio/libadasat.so
  ln -sf /opt/gnatstudio/lib/gnatstudio/libgcc_s.so.1
@@ -178,16 +169,10 @@ cd $PKG/opt/gnatstudio/share/gnatstudio/python/lib/python3.9/site-packages/libad
  ln -sf /opt/gnatstudio/lib/gnatstudio/libxmlada_unicode.so.25
  ln -sf /opt/gnatstudio/lib/gnatstudio/libxmlada_unicode.so.25.0w
 )
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/gnatstudio/share/doc/gnatstudio/html/tutorial
+(cd $PKG/opt/gnatstudio/share/doc/gnatstudio/html/tutorial
     rm -rf _static
     ln -sf /opt/gnatstudio/share/doc/gnatdoc/html/users_guide/_static
- if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/gnatstudio/share/doc/gnatstudio/html/users_guide
+ cd $PKG/opt/gnatstudio/share/doc/gnatstudio/html/users_guide
     rm -rf _static
     ln -sf /opt/gnatstudio/share/doc/gnatdoc/html/users_guide/_static
 )
@@ -206,10 +191,7 @@ cd $PKG/opt/gnatstudio/share/doc/gnatstudio/html/users_guide
  mv ${python_libexec_path}/lib/python3.9/site-packages/* ${python_share_path}/lib/python3.9/site-packages/
  rm -rf ${python_libexec_path}
 
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/gnatstudio/libexec/gnatstudio/gnathub/share/gnathub/
+( cd $PKG/opt/gnatstudio/libexec/gnatstudio/gnathub/share/gnathub/
   ln -sf /opt/gnatstudio/share/gnatstudio/python
 )
 
@@ -283,9 +265,9 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 cat $CWD/douninst.sh > $PKG/install/douninst.sh
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

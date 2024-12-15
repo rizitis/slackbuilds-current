@@ -168,10 +168,7 @@ done
 # mkdir -p $PKG/usr/lib64
 # mv -fn $PKG/usr/share/cuda/targets/x86_64-linux/lib/* $PKG/usr/lib64/
 # rm -rf $PKG/usr/share/cuda/targets/x86_64-linux/lib
-# if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/cuda
+# cd $PKG/usr/share/cuda
 # ln -sf ../../lib64 lib64
 
 # lwf: not sure this is needed. cuda is peculiar and in /opt, so it can have
@@ -180,10 +177,7 @@ cd $PKG/usr/share/cuda
 # mkdir -p $PKG/usr/include
 # mv -fn $PKG/usr/share/cuda/targets/x86_64-linux/include/* $PKG/usr/include/
 # rm -rf $PKG/usr/share/cuda/targets/x86_64-linux/include
-# ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/cuda/ ; ln -sf ../../include include )
+# ( cd $PKG/usr/share/cuda/ ; ln -sf ../../include include )
 # find $PKG/usr/include -type f | xargs chmod -c 0644
 #rm -rf $PKG/usr/share/cuda/targets
 
@@ -223,9 +217,9 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n --compress -1 $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

@@ -63,18 +63,12 @@ mkdir -p $PKG/usr/share/backgrounds/mate/luna
 mkdir -p $PKG/usr/share/wallpapers
 
 # Xfce default
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/xfce4/backdrops/
+( cd $PKG/usr/share/xfce4/backdrops/
   tar xvf $CWD/elementary-wallpapers*ubuntu*.tar.gz
   cp -f elementary-wallpapers*/*.jpg elementary-wallpapers*/extra/*.jpg .
   rm -rf elementary-wallpapers*/
 )
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/xfce4/backdrops/
+( cd $PKG/usr/share/xfce4/backdrops/
   tar xvf $CWD/$PRGNAM.tar.gz
   ls -1 *.* | while read file; do
     newfile=$(echo $file | tr ' ' '_')
@@ -92,20 +86,14 @@ find -L $PKG \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 # Wallpaper preview for KDE
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/wallpapers
+( cd $PKG/usr/share/wallpapers
   ls -1 ../xfce4/backdrops/*.* | while read file; do
     ln -s "$file" .
   done
 )
 
 # Wallpaper preview for MATE
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/backgrounds/mate/luna
+( cd $PKG/usr/share/backgrounds/mate/luna
   ls -1 ../../../xfce4/backdrops/*.* | while read file; do
     ln -s "$file" .
   done
@@ -133,10 +121,7 @@ EOF
 )
 
 # Wallpaper preview for Xfce 4.12
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/share/backgrounds/xfce
+( cd $PKG/usr/share/backgrounds/xfce
   ls -1 ../../xfce4/backdrops/*.* | while read file; do
     ln -s "$file" .
   done
@@ -149,9 +134,9 @@ cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

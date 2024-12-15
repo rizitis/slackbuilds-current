@@ -39,9 +39,9 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=recode
-VERSION=${VERSION:-3.7.14}
-GNULIBVER=${GNULIBVER:-1.0}
-BOOTSTRAPVER=${BOOTSTRAPVER:-8161486733a34d19c7b2b741fab5ade4b6a31c98}
+VERSION=${VERSION:-3.7.13}
+GNULIBVER=${GNULIBVER:-2752f1cb315fc461e3df263ab5bb03a354cf4308}
+BOOTSTRAPVER=${BOOTSTRAPVER:-037f83765b6e8f90dfabdfac4889be22a5a3f4a4}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -87,26 +87,10 @@ mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
 tar xvf $CWD/$PRGNAM-$VERSION.tar.gz
-cd $PRGNAM-$VERSION || exit
-# Extract gnulib and bootstrap with corrected paths
-mkdir -p gnulib
-mkdir -p bootstrap1
-
+cd $PRGNAM-$VERSION
+# Extract git submodule archives to correct location
 tar xvf $CWD/gnulib-$GNULIBVER.tar.gz --strip-components=1 -C gnulib/
-tar xvf $CWD/bootstrap-$BOOTSTRAPVER.tar.gz --strip-components=1 -C bootstrap1/
-
-# Copy the bootstrap script to the current directory
-cp bootstrap1/bootstrap .
-
-# Ensure the bootstrap script is executable
-chmod +x ./bootstrap
-
-# Check if bootstrap script is in the expected location
-if [ ! -f ./bootstrap ]; then
-  echo "Error: bootstrap script not found in the current directory after extraction."
-  exit 1
-fi
- 
+tar xvf $CWD/bootstrap-$BOOTSTRAPVER.tar.gz --strip-components=1 -C gl-mod/bootstrap/
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -149,8 +133,9 @@ cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

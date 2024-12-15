@@ -65,26 +65,14 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-# Apply the patch
 patch -p1 < $CWD/fix-proc-status-read.patch
 
-# Modify setup.py to correct the man page installation directory
 sed -i 's|share/man/man8|man/man8|' setup.py
 
-# Modify setup.py to replace itervalues() with values()
-sed -i 's|itervalues()|values()|g' setup.py
+python2 setup.py install --root=$PKG
 
-# Install the Python package
-python setup.py install --root=$PKG
-
-# Compress man pages
 find $PKG/usr/man -type f -exec gzip -9 {} \;
-
-# Update symlinks to point to compressed man pages
-for i in $( find $PKG/usr/man -type l ) ; do
-  ln -s $( readlink $i ).gz $i.gz
-  rm $i
-done
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a COPYING NEWS THANKS $PKG/usr/doc/$PRGNAM-$VERSION
@@ -94,4 +82,8 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

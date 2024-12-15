@@ -82,10 +82,7 @@ rm -rf $PKG
 CGO_MINOR_VERSION="$(/usr/bin/go version | awk '{ print $3 }' | sed 's/go//' | awk -F. '{ print $2 }')"
 if [[ $CGO_MINOR_VERSION -lt 18 ]] ; then
   mkdir -p $TMP $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION} $OUTPUT
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION}
+  cd $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION}
   tar xvf $CWD/go${BOOTSTRAP_VERSION}.src.tar.gz
   cd go
   chown -R root:root .
@@ -145,10 +142,7 @@ fi
 
 if [[ $CGO_MINOR_VERSION -lt 20 ]] ; then
   mkdir -p $TMP $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION2} $OUTPUT
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION2}
+  cd $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION2}
   tar xvf $CWD/go${BOOTSTRAP_VERSION2}.src.tar.gz
   cd go
   chown -R root:root .
@@ -216,9 +210,6 @@ if [[ $CGO_MINOR_VERSION -lt 18 ]] ; then
 fi
 
 mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/go${VERSION} $OUTPUT
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}/go${VERSION}
 tar xvf $CWD/go${VERSION}.src.tar.gz
 cd go
@@ -318,9 +309,9 @@ cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

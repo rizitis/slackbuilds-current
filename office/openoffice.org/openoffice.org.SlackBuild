@@ -115,15 +115,9 @@ cd -
 
 mv opt $PKG
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 
 ## Create symlinks in /usr/bin to actual binaries
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin/
   for FILE in \
     sbase scalc sdraw simpress smath soffice spadmin swriter unopkg ; do
@@ -133,9 +127,6 @@ cd $PKG/usr/bin/
 cd -
 
 ## Correct scripts so that they don't conflict with other soffice derivatives
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/${SRCNAM}${SRCSHORT}/program
   for FILE in \
     sbase scalc sdraw simpress smath spadmin swriter unopkg; do
@@ -185,9 +176,6 @@ fi
 
 ## Move docs to their expected locations
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/${SRCNAM}${SRCSHORT}
   mv README* share/readme/* $PKG/usr/doc/$PRGNAM-$VERSION
 	rmdir share/readme
@@ -208,5 +196,8 @@ find . -type d -exec chmod 755 {} \;
 find $PKG '(' -name "*.so" -o -name "*.so.*" ')' -exec chmod +x {} \;
 chmod -R u+rw,go+r-w,a-s .
 
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}-$PKGARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

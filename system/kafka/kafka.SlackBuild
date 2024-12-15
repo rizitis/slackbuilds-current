@@ -101,20 +101,14 @@ mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/{libs,bin}
 install -m 644 libs/*.jar $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/libs
 install -m 775 bin/*.sh $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin
 (
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin
+  cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin
   sed -i "s|^base_dir=.*|base_dir=/usr/lib$LIBDIRSUFFIX/$PRGNAM/|" kafka-run-class.sh
   sed -i '0,/^$/{s_^$_\n. /etc/kafka/kafka-env.sh\n_}' *.sh
 )
 
 mkdir -p $PKG/usr/bin 
 (
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/bin
+  cd $PKG/usr/bin
   for script in $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin/kafka*
   do
     script_name=$(basename $script)
@@ -140,18 +134,12 @@ install -m 644 config/connect-log4j.properties $PKG/etc/$PRGNAM/connect-log4j.pr
 install -m 644 config/connect-standalone.properties $PKG/etc/$PRGNAM/connect-standalone.properties.new
 install -m 644 $CWD/kafka-env.sh $PKG/etc/$PRGNAM/kafka-env.sh.new
 (
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/etc/$PRGNAM
+  cd $PKG/etc/$PRGNAM
   sed -i "s|^log.dirs=/tmp/kafka-logs$|log.dirs=/var/log/${PRGNAM}|" server.properties.new
   sed -i "s|@KAFKA_HOME@|/usr/lib$LIBDIRSUFFIX/$PRGNAM|" kafka-env.sh.new
 )
 (
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM
+  cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM
   ln -s ../../../etc/kafka config
 )
 chown -R $KAFKA_USER:$KAFKA_GROUP $PKG/etc/$PRGNAM
@@ -169,9 +157,9 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

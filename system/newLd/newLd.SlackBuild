@@ -196,19 +196,13 @@ chmod +x $PKG/usr/bin/ld$VERSION
 # Add a symlink since binutils's version of strings used to be called
 # "strings-GNU" on Slackware, and it's possible that people have scripts
 # that use that name:
-#( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/$PREFIX/bin ; ln -sf strings strings-GNU )
+#( cd $PKG/$PREFIX/bin ; ln -sf strings strings-GNU )
 
 ## OBSOLETE, since we're using tooldir=/usr. But we'll keep this cruft as a
 ## reference until we get the all clear on the tooldir= changes. :-)
 ## Move ldscripts to /usr/lib${LIBDIRSUFFIX}, and then put symlinks in place
 #mv $PKG/usr/${TARGET}/lib/ldscripts $PKG/usr/lib${LIBDIRSUFFIX}
-#( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/${TARGET}
+#( cd $PKG/usr/${TARGET}
 #  ln -s /usr/lib${LIBDIRSUFFIX}/ldscripts lib/ldscripts
 #  for FILE in ar as ld ld.bfd ld.gold nm objcopy objdump ranlib strip ; do
 #    if [ -r "/usr/bin/$FILE" ]; then
@@ -222,34 +216,22 @@ cd $PKG/usr/${TARGET}
 # If the requested default linker is present, make it the default:
 # Set the link differently on the system to change the default at runtime.
 #if [ -r $PKG/$PREFIX/bin/$DEFAULT_LD ]; then
-#  ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/$PREFIX/bin ; rm -f ld ; ln -sf $DEFAULT_LD ld )
+#  ( cd $PKG/$PREFIX/bin ; rm -f ld ; ln -sf $DEFAULT_LD ld )
 #fi
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 # Remove some unneeded man pages, and then compress the rest
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/man/man1; mv ld.1 ld$VERSION.1)
+(cd $PKG/usr/man/man1; mv ld.1 ld$VERSION.1)
 rm -f $PKG/usr/man/man1/{addr2line,ar,as,c++filt,dlltool,dllwrap,elfedit,gprof,nm,objcopy,objdump,ranlib,readelf,size,strings,strip,windmc,windres}.1
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/man
+( cd $PKG/usr/man
   find . -type f -exec gzip -9 {} \+
   for i in $(find . -type l) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 )
 
 # Compress info pages
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/info; mv ld.info ld$VERSION.info)
+(cd $PKG/usr/info; mv ld.info ld$VERSION.info)
 rm -f $PKG/usr/info/{as,nm,bfd,binutils,gprof}.info
 rm -f $PKG/usr/info/dir
 gzip -9 $PKG/usr/info/*
@@ -270,9 +252,9 @@ fi
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

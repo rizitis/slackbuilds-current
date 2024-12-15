@@ -106,18 +106,12 @@ install -m 775 bin/zkCleanup.sh \
    $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin
 
 (
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin
+  cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin
   sed -i "s|^ZOOBIN=\"\$(dirname \"\${ZOOBIN}\")\"|ZOOBIN=\"/usr/lib${LIBDIRSUFFIX}/$PRGNAM/bin\"|" *.sh
 )
 
 (
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/bin
+  cd $PKG/usr/bin
   ln -s ../lib${LIBDIRSUFFIX}/$PRGNAM/bin/zkServer.sh zkServer
   ln -s ../lib${LIBDIRSUFFIX}/$PRGNAM/bin/zkCli.sh zkCli
   ln -s ../lib${LIBDIRSUFFIX}/$PRGNAM/bin/zkCleanup.sh zkCleanup
@@ -136,10 +130,7 @@ install -m 644 $CWD/java.env $PKG/etc/$PRGNAM/java.env.new
 install -m 644 $CWD/zookeeper-env.sh $PKG/etc/$PRGNAM/zookeeper-env.sh.new
 chown -R $ZOOKEEPER_USER:$ZOOKEEPER_GROUP $PKG/etc/$PRGNAM
 (
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM
+  cd $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM
   ln -s /etc/zookeeper conf
 )
 
@@ -155,9 +146,9 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

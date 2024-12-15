@@ -86,25 +86,16 @@ cp -a \
 mkdir -p $PKG/var/lib/jmri/
 cp -a jython $PKG/var/lib/jmri
 chmod 1777 $PKG/var/lib/jmri/jython
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/jmri ; ln -s ../../var/lib/jmri/jython . )
+( cd $PKG/opt/jmri ; ln -s ../../var/lib/jmri/jython . )
 #
 mkdir -p $PKG/var/lib/jmri/cachedir/packages
 chmod 1777 $PKG/var/lib/jmri/cachedir/packages
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/jmri/lib ; ln -s ../../../var/lib/jmri/cachedir . )
+( cd $PKG/opt/jmri/lib ; ln -s ../../../var/lib/jmri/cachedir . )
 #
 mkdir -p $PKG/var/log/jmri
 touch $PKG/var/log/jmri/messages.log.new
 chmod 666 $PKG/var/log/jmri/messages.log.new
-( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/jmri ; ln -s ../../var/log/jmri/messages.log . )
+( cd $PKG/opt/jmri ; ln -s ../../var/log/jmri/messages.log . )
 
 # Install some profile scripts for shell init
 mkdir -p $PKG/etc/profile.d
@@ -126,9 +117,9 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh  > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

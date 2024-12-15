@@ -88,10 +88,7 @@ find $PKG/usr/man -type f -exec gzip -9 {} +
 
 if [ ${DOC_LANG} != "all" ]; then
   # Move each language-specific file to its own subdir.
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/$PRGNAM-$VERSION/doc
+  cd $PKG/opt/$PRGNAM-$VERSION/doc
   for lang in de en zh; do mkdir -p ${lang}/ulp; done
   for lang in de en;    do mv README_${lang} ${lang}/README; done
   for lang in de en;    do mv UPDATE_${lang} ${lang}/UPDATE; done
@@ -103,24 +100,15 @@ cd $PKG/opt/$PRGNAM-$VERSION/doc
   for lang in de en;    do mv ulp/make-symbol-device-package-bsdl-2011-${lang}.pdf ${lang}/ulp/make-symbol-device-package-bsdl-2011.pdf; done
 
   # Prefer the English docs as a base set.
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/$PRGNAM-$VERSION/doc/en
+  cd $PKG/opt/$PRGNAM-$VERSION/doc/en
   find . -type f -exec mv {} ../{} \;
 
   # Replace the base set with other languages.
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/$PRGNAM-$VERSION/doc/${DOC_LANG}
+  cd $PKG/opt/$PRGNAM-$VERSION/doc/${DOC_LANG}
   find . -type f -exec mv {} ../{} \;
 
   # Delete all alternate language files.
-  if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/opt/$PRGNAM-$VERSION/doc
+  cd $PKG/opt/$PRGNAM-$VERSION/doc
   for lang in de en zh; do rm -rf ${lang}; done
 fi
 
@@ -134,9 +122,9 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh  > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi

@@ -64,9 +64,6 @@ rm -rf $PRGNAM-$VERSION
 
 ar -x $CWD/${PRGNAM}_$VERSION.LINUX.GTK2-1_amd64.deb
 tar xvf data.tar.xz -C $PKG
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 
 rm -rf $PKG/usr/bin/$PRGNAM
@@ -102,42 +99,24 @@ fi
 # link 'arc' binary if exists
 if [ -x /usr/bin/arc ]; then
   mkdir -p $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res/bin/arc/
-  ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res/bin/arc ; ln -sf /usr/bin/arc arc )
+  ( cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res/bin/arc ; ln -sf /usr/bin/arc arc )
 fi
 
 # remove included 'zstd' binary who require glibc 2.34 (slackware 15.0 has glibc 2.33), link system 'zstd' binary
 # PeaZip hash checksum check will warn apropos 'zstd' hash incorrect
 if [ -x /usr/bin/zstd ]; then
   rm -r $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res/bin/zstd/zstd
-  ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res/bin/zstd ; ln -sf /usr/bin/zstd zstd )
+  ( cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res/bin/zstd ; ln -sf /usr/bin/zstd zstd )
 fi
 
 # sbopkglint will be happy with stripped 'zpaq' but PeaZip hash checksum check will warn apropos 'zpaq' hash incorrect
 strip $PKG/usr/lib64/$PRGNAM/res/bin/zpaq/zpaq
 
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/bin ; rm -rf $PRGNAM)
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/bin ; ln -sf ../lib$LIBDIRSUFFIX/$PRGNAM/$PRGNAM $PRGNAM)
+(cd $PKG/usr/bin ; rm -rf $PRGNAM)
+(cd $PKG/usr/bin ; ln -sf ../lib$LIBDIRSUFFIX/$PRGNAM/$PRGNAM $PRGNAM)
 
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res ; rm -rf share)
-(if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
-cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res ; ln -sf ../../../share/$PRGNAM share)
+(cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res ; rm -rf share)
+(cd $PKG/usr/lib$LIBDIRSUFFIX/$PRGNAM/res ; ln -sf ../../../share/$PRGNAM share)
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a $PKG/usr/share/doc/$PRGNAM/* $PKG/usr/doc/$PRGNAM-$VERSION
@@ -149,9 +128,9 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
-if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
-if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
+if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
 if [ -f $CWD/slack-required ]; then cp $CWD/slack-required  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
