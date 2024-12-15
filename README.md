@@ -7,10 +7,11 @@
   - Unfortunately I cant name it `SLACKBUILDS.TXT` as usual because slpkg not exept to find a `SLACKBUILDS.TXT` in **"ponce" repo** so if found it slpkg breaks.
   - If you want to use this repo with slpkg, edit `/etc/slpkg/repositories.toml like this:
   </ul>
-  > [PONCE]
-  > ENABLE = true
-  > MIRROR = "https://github.com/rizitis/slackbuilds-current.git"
-  >
+ ```
+ [PONCE]
+ ENABLE = true
+ MIRROR = "https://github.com/rizitis/slackbuilds-current.git"
+ ```
 
   ---
   
