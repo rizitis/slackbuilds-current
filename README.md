@@ -1,12 +1,12 @@
 **This is a weekly fork, following [ponce SlackBuilds](https://github.com/Ponce/slackbuilds) for Slackware-current.**
-<ul>
-  <li>Scripts here **are modified** for my personal with slpkg and [Captain-Slack](https://github.com/rizitis/captain-slack)!
-  <li> Generaly speaking, there is no reason for you to use this repo and SlackBuilds...exept if you use [Captain-Slack](https://github.com/rizitis/captain-slack)
-  - If you use it, then you can use this repo because all SlackBuilds here are pathed to copy the slack-required file in `/usr/doc/$PRGNAM-$VERSION/` folder. The same for `dependees-on` file if exist. This way I can have for every installed package also its dependencies in a txt file as information. Also having `dependees-on` i can easy read which packages **need** $PACKAGE.
+
+  Scripts here **are modified** for my personal use with slpkg and [Captain-Slack](https://github.com/rizitis/captain-slack)!<br>
+  Generaly speaking, there is no reason for you to use this repo and SlackBuilds...exept if you use [Captain-Slack](https://github.com/rizitis/captain-slack)<br>
+  - If you use it, then you can use this repo because all SlackBuilds here are pathed to copy the slack-required file in `/usr/doc/$PRGNAM-$VERSION/` folder. The same for `dependees-on` file if exist.
+  - This way I can have for every installed package also its dependencies in a txt file as information. Also having `dependees-on` i can easy read which packages **need** $PACKAGE.
   - The `slack-required` and `dependees-on` files was created by me, the same for `*.dep` files and `dependees-on` as and the `CUSTOM-SLACKBUILDS.TXT`
   - Unfortunately I cant name it `SLACKBUILDS.TXT` as usual because slpkg not exept to find a `SLACKBUILDS.TXT` in **"ponce" repo** so if found it slpkg breaks.
   - If you want to use this repo with slpkg, edit `/etc/slpkg/repositories.toml like this:
-  </ul>
   
  ```
  [PONCE]
