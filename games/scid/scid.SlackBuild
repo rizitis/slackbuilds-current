@@ -102,6 +102,7 @@ chown -R root:games $PKG/var/games/scid
 find $PKG/var/games/scid -type d -exec chmod 2775 {} \;
 find $PKG/var/games/scid -type f -exec chmod 0664 {} \;
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/scid
   ln -s ../../../var/games/scid/bases .
@@ -116,6 +117,7 @@ cat $CWD/scid.png > $PKG/usr/share/pixmaps/scid.png
 ## Add the manpage (Thanks to debian)
 mkdir -p $PKG/usr/man/man1
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/man/man1
   sed "s%@VERSION@%$VERSION%g" $CWD/scid.1 | gzip -9c > scid.1.gz
@@ -137,6 +139,7 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

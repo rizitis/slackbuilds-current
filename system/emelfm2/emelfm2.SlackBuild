@@ -99,6 +99,7 @@ make install \
 for i in 24 32 48 ; do
   mkdir -p $PKG/usr/share/icons/hicolor/${i}x${i}/apps
   ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/icons/hicolor/${i}x${i}/apps
     ln -s ../../../../pixmaps/emelfm2/emelfm2_${i}.png emelfm2.png
@@ -122,6 +123,7 @@ if [ "$ARCH" = "x86_64" ]; then
 fi
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

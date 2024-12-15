@@ -83,6 +83,7 @@ CGO_MINOR_VERSION="$(/usr/bin/go version | awk '{ print $3 }' | sed 's/go//' | a
 if [[ $CGO_MINOR_VERSION -lt 18 ]] ; then
   mkdir -p $TMP $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION} $OUTPUT
   if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION}
   tar xvf $CWD/go${BOOTSTRAP_VERSION}.src.tar.gz
@@ -145,6 +146,7 @@ fi
 if [[ $CGO_MINOR_VERSION -lt 20 ]] ; then
   mkdir -p $TMP $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION2} $OUTPUT
   if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}/go${BOOTSTRAP_VERSION2}
   tar xvf $CWD/go${BOOTSTRAP_VERSION2}.src.tar.gz
@@ -215,6 +217,7 @@ fi
 
 mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/go${VERSION} $OUTPUT
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}/go${VERSION}
 tar xvf $CWD/go${VERSION}.src.tar.gz
@@ -316,6 +319,7 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

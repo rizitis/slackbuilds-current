@@ -165,6 +165,7 @@ if [ "${SETCAP:-yes}" = "yes" ]; then
   # 20230719 bkw: dynamically create the list instead of hardcoding.
   # there's at least one symlink, hence find and xargs.
   BINS="$( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin && find * -type l -o -print | xargs echo )"
   sed "s,@BINS@,$BINS," < $CWD/setcap.sh >> $PKG/install/doinst.sh
@@ -174,6 +175,7 @@ cd $PKG/usr/bin && find * -type l -o -print | xargs echo )"
 fi
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

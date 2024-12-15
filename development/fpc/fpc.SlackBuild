@@ -156,6 +156,7 @@ make -j1 NOGDB=1 PREFIX=$PKG/usr install
 [ "$LIBDIRSUFFIX" = "64" ] && mv $PKG/usr/lib $PKG/usr/lib${LIBDIRSUFFIX}
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
 if [ "$SRCARCH" = "x86_64" ]; then
@@ -169,6 +170,7 @@ fi
 if [ "${SRC:-yes}" = "yes" ]; then
     mkdir -p $PKG/usr/src
     ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/src
     tar xvf $CWD/fpc-$VERSION.source.tar.gz
@@ -224,6 +226,7 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 # fix permissions for program docs and demos.

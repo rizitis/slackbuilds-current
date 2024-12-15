@@ -364,6 +364,7 @@ ANTLJAR=$(echo $CWD/antlr-*.jar | tail -1)
   # Compress and if needed symlink the man pages:
   if [ -d $PKG/usr/man ]; then
     ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/man
       for manpagedir in $(find . -type d -name "man*") ; do
@@ -380,6 +381,7 @@ cd $PKG/usr/man
   # Compress info files, if any:
   if [ -d $PKG/usr/info ]; then
     ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/info
       rm -f dir
@@ -501,6 +503,7 @@ rm -f $PKG/usr/lib/libgcj-tools.a
 
 # Fix stuff up:
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/info
   rm dir
@@ -511,6 +514,7 @@ cd $PKG/usr/info
 )
 
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
   ln -sf g++-${MAJVER} c++-${MAJVER}
@@ -523,6 +527,7 @@ cd $PKG/usr/bin
 )
 
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/man
   rm -r man7  # Part of the system gcc package
@@ -550,6 +555,7 @@ for JAVAPROG in gcj gcjh gcj-dbtool gjar gjarsigner gjavah ; do
   ln -s ${JAVAPROG}-${MAJVER} $PKG/usr/bin/${JAVAPROG}
 done
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
   for JAVALIB in usr/lib${LIBDIRSUFFIX}/gcc/${TARGET}/${VERSION}/libgcj* ; do
@@ -576,6 +582,7 @@ cat $CWD/libgcj-5.pc \
 
 # Filter all .la files (thanks much to Mark Post for the sed script):
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
   for file in $(find . -type f -name "*.la") ; do
@@ -587,6 +594,7 @@ cd $PKG
 
 ## Strip bloated binaries and libraries:
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
   find . -name "lib*so*" -exec strip --strip-unneeded "{}" \+
@@ -606,6 +614,7 @@ else
 fi
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n "$OUTPUT/${PRGNAM}-${PKGVER}-$ARCH-$BUILD$TAG.$PKGTYPE"

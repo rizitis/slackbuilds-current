@@ -74,6 +74,7 @@ cd $TMP
 rm -rf $PKG-build
 mkdir $PKG-build
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG-build
 #cp $CWD/com.tencent.wechat_${VERSION}_amd64.deb ./package.deb || cp $CWD/$content_disposition_prefix.deb ./package.deb
@@ -129,6 +130,7 @@ sed -i "s|/usr/lib|/usr/lib$LIBDIRSUFFIX|g" "$PKG"/usr/share/applications/$PRGNA
 printf '%s\n' '#!/bin/bash' 'exec /usr/lib'$LIBDIRSUFFIX'/'"$PRGNAM"'/wechat-universal.sh "$@"' | install -DTm 755 /dev/stdin $PKG/usr/bin/$PRGNAM
 ( mkdir -p $PKG/usr/bin
   if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
   ln -srf ../../bin/lsblk ./
@@ -142,6 +144,7 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

@@ -112,6 +112,7 @@ mv $PKG/usr/lib${LIBDIRSUFFIX}/$PRGNAM/$PRGNAM.1.gz $PKG/usr/man/man1
 
 mkdir -p $PKG/usr/bin
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
 ln -s ../lib${LIBDIRSUFFIX}/$PRGNAM/$PRGNAM .
@@ -138,6 +139,7 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 cat $CWD/References > $PKG/usr/doc/$PRGNAM-$VERSION/References
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

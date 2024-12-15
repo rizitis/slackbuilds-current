@@ -115,6 +115,7 @@ for FILE in *.rpm ; do rpm2cpio < $FILE | cpio -imdv ; done
 rm -rf desktop-integration *.rpm
 mv opt usr $PKG
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 
@@ -123,6 +124,7 @@ rm -f $PKG/usr/share/applications/libreoffice3-startcenter.desktop
 
 # Create symlinks in /usr/bin to actual binaries
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
   for FILE in \
@@ -153,6 +155,7 @@ cd -
 # and creates news without version number in their names.
 #
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/applications
   for APP in base calc draw impress math startcenter writer xsltfilter ; do
@@ -167,6 +170,7 @@ rm -f opt/libreoffice$SRCSHORT/share/fonts/truetype/{DejaVu,Liberation}*.ttf
 # Fix Exec commands in the desktop files
 # See http://bugzilla.xfce.org/show_bug.cgi?id=2430
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/libreoffice$SRCSHORT/share/xdg/
   for APP in base calc draw impress math writer; do
@@ -177,12 +181,14 @@ cd -
 # Move docs to their expected locations
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/libreoffice$SRCSHORT
   mv CREDITS* *LICENSE* readmes $PKG/usr/doc/$PRGNAM-$VERSION
 cd -
 # Remove executable flag from some docs
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/doc/$PRGNAM-$VERSION
   find . -type f -exec chmod -x {} \;

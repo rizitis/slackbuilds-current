@@ -206,6 +206,7 @@ fi
 # Mitigate a bug in nvidia-installer that misplaces a symlink
 # (Thanks to marco70 on LQ for catching this)
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}/gbm
 rm -f nvidia-drm_gbm.so
@@ -333,6 +334,7 @@ rm -f $PKG/usr/bin/nvidia-{installer,uninstall}
 
 # Flag multilib as needed and build package.
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION$MULTI-$TARGET-$BUILD$TAG.$PKGTYPE

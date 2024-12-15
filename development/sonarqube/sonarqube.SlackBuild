@@ -89,6 +89,7 @@ rm -rf $PKG/usr/share/$PRGNAM/data
 rm -rf $PKG/usr/share/$PRGNAM/logs
 rm -rf $PKG/usr/share/$PRGNAM/temp
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/$PRGNAM
 ln -fs ../../../etc/$PRGNAM conf
@@ -98,6 +99,7 @@ ln -fs ../../../var/tmp/$PRGNAM temp
 
 # remove the executables for the others platforms
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/$PRGNAM/bin
 find . -type d -not -name "linux-x86-64" -not -name "." -not -name "lib" | xargs rm -rf
@@ -107,6 +109,7 @@ chown -R sonar:sonar $PKG/var/{log,run,tmp,lib}/$PRGNAM
 
 mkdir $PKG/sbin
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/sbin
 ln -fs ../usr/share/$PRGNAM/bin/${BINDIR}/sonar.sh sonar.sh
@@ -120,6 +123,7 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -c n -l y $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

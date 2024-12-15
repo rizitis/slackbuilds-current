@@ -59,6 +59,7 @@ find -L . \
 
 mkdir -p $PKG/usr/share/wink
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/wink
 tar xvf $TMP/$PRGNAM-$VERSION/installdata.tar.gz
@@ -79,6 +80,7 @@ chmod a+rx $PKG/usr/bin/wink
 (
   mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}
   if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}
   ln -s /usr/lib${LIBDIRSUFFIX}/libexpat.so.1 libexpat.so.0
@@ -86,6 +88,7 @@ cd $PKG/usr/lib${LIBDIRSUFFIX}
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/doc/$PRGNAM-$VERSION
 mv $PKG/usr/share/wink/{changelog,license,readme}.txt .
@@ -95,6 +98,7 @@ mkdir $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

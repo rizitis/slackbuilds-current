@@ -86,6 +86,7 @@ rm -rf $PRGNAM-$VERSION
 mkdir -p $PRGNAM-$VERSION
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 ar p $CWD/${PRGNAM}_${VERSION}_${DEBARCH}.deb data.tar.gz | tar zxv
@@ -107,6 +108,7 @@ mkdir -p $PKG/etc/rc.d
 install -m 0755 $CWD/rc.$PRGNAM $PKG/etc/rc.d/rc.$PRGNAM
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -p -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

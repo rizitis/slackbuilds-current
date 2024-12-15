@@ -193,6 +193,7 @@ mv $PKG/usr/man/man1/htpasswd.1.gz $PKG/usr/man/man1/htpasswd-$PRGNAM.1.gz
 mv $PKG/usr/sbin/htpasswd $PKG/usr/sbin/htpasswd-$PRGNAM
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

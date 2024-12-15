@@ -68,6 +68,7 @@ cd $TMP
 tar xvf $CWD/softmaker-office-${VERSION//_/-}.tgz
 tar xvf office.tgz -C $PKG/opt/smoffice2016
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 mv opt/smoffice2016/usr/lib/dpf opt/smoffice2016

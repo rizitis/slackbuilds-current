@@ -118,6 +118,7 @@ for FILE in *.rpm ; do rpm2cpio < $FILE | cpio -imdv ; done
 rm -rf desktop-integration *.rpm
 mv opt usr $PKG
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 
@@ -126,6 +127,7 @@ rm -f $PKG/usr/share/applications/broffice.org3-startcenter.desktop
 
 # Create symlinks in /usr/bin to actual binaries
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
   for FILE in \
@@ -141,6 +143,7 @@ rm -f opt/openoffice.org/basis3.2/share/fonts/truetype/[DL]*.ttf
 # Fix Exec commands in the desktop files
 # See http://bugzilla.xfce.org/show_bug.cgi?id=2430
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/broffice.org3/share/xdg/
   for APP in base calc draw impress math writer; do
@@ -162,6 +165,7 @@ fi
 # Move docs to their expected locations
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/broffice.org3
   mv README* *LICENSE* readmes licenses $PKG/usr/doc/$PRGNAM-$VERSION

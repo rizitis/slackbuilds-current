@@ -93,6 +93,7 @@ make
 make INSTALL_PREFIX=$PKG install
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
   for file in erl erlc epmd run_erl to_erl dialyzer typer escript ; do
@@ -108,6 +109,7 @@ chmod -R u+w,go+r-w,a-s $PKG/usr/lib${LIBDIRSUFFIX}/erlang
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}/erlang
   mv COPYRIGHT README.md $PKG/usr/doc/$PRGNAM-$VERSION )
@@ -126,6 +128,7 @@ sed "s%@LIBDIR@%/usr/lib${LIBDIRSUFFIX}%g" $CWD/doinst.sh > \
   $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n -p $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

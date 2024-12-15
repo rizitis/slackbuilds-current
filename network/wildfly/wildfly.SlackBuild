@@ -64,6 +64,7 @@ tar xvzf $CWD/$PRGNAM-$VERSION$MINORVER.tar.gz
 mkdir -p $PKG/usr/share/$PRGNAM
 mv $TMP/$PRGNAM-$VERSION$MINORVER/* $PKG/usr/share/$PRGNAM
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/$PRGNAM
 chown -R wildfly:wildfly .
@@ -77,16 +78,19 @@ cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 # directory server: wildfly/standalone/* -> /var/lib/wildfly/standalone/*
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 mkdir -p $PKG/var/lib/$PRGNAM
 mv $PKG/usr/share/$PRGNAM/standalone $PKG/var/lib/$PRGNAM
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/$PRGNAM
 ln -sf ../../../var/lib/$PRGNAM/standalone
 mv $PKG/usr/share/$PRGNAM/domain $PKG/var/lib/$PRGNAM
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/$PRGNAM
 ln -sf ../../../var/lib/$PRGNAM/domain
@@ -94,15 +98,18 @@ mkdir -p $PKG/etc/$PRGNAM/{standalone,domain}
 mv $PKG/var/lib/$PRGNAM/standalone/configuration $PKG/etc/$PRGNAM/standalone/
 mv $PKG/var/lib/$PRGNAM/domain/configuration $PKG/etc/$PRGNAM/domain/
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/var/lib/$PRGNAM/standalone
 ln -sf ../../../../etc/$PRGNAM/standalone/configuration configuration
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/var/lib/$PRGNAM/domain
 ln -sf ../../../../etc/$PRGNAM/domain/configuration configuration
 mkdir -p $PKG/var/{log,tmp}/$PRGNAM/standalone
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/var/lib/$PRGNAM/standalone
 mv $PKG/var/lib/$PRGNAM/standalone/tmp/* $PKG/var/tmp/$PRGNAM/standalone/
@@ -111,6 +118,7 @@ ln -sf ../../../log/$PRGNAM/standalone log
 ln -sf ../../../tmp/$PRGNAM/standalone tmp
 mkdir -p $PKG/var/{log,tmp}/$PRGNAM/domain
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/var/lib/$PRGNAM/domain
 mv $PKG/var/lib/$PRGNAM/domain/tmp/* $PKG/var/tmp/$PRGNAM/domain/
@@ -121,6 +129,7 @@ ln -sf ../../../tmp/$PRGNAM/domain tmp
 mv $PKG/usr/share/$PRGNAM/bin/standalone.conf $PKG/etc/$PRGNAM/standalone/
 mv $PKG/usr/share/$PRGNAM/bin/domain.conf $PKG/etc/$PRGNAM/domain/
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/$PRGNAM/bin
 ln -sf ../../../../etc/$PRGNAM/standalone/standalone.conf
@@ -131,10 +140,12 @@ mkdir -p $PKG/var/lib/$PRGNAM/standalone/standalone_xml_history
 mkdir -p $PKG/var/lib/$PRGNAM/domain/domain_xml_history
 mkdir -p $PKG/var/lib/$PRGNAM/domain/host_xml_history
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/etc/$PRGNAM/standalone/configuration
 ln -sf ../../../../var/lib/$PRGNAM/standalone/standalone_xml_history
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/etc/$PRGNAM/domain/configuration
 ln -sf ../../../../var/lib/$PRGNAM/domain/domain_xml_history
@@ -162,6 +173,7 @@ chmod 0755 $PKG/usr/share/$PRGNAM/bin/*.sh
 
 mkdir -p $PKG/sbin
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/sbin
 for filename in ../usr/share/$PRGNAM/bin/*.sh; do
@@ -184,6 +196,7 @@ chown -R wildfly:wildfly $PKG/etc/$PRGNAM/{standalone,domain}
 
 # Don't overwrite existing configuration:
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 for cf in $( find etc/$PRGNAM/ -type f ); do

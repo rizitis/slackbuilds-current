@@ -12,7 +12,7 @@ menhir
 ocaml-batteries
 ocaml-camomile
 ocaml-camomile
-ocaml-findlib
+ocaml-findlib.tmp
 ocaml-num
 ocamlbuild
 omake

@@ -68,12 +68,14 @@ VERSION=${VERSION}_$ADOBE_LANG
 # Create directory structure and extract files from archives
 mkdir -p $PKG/opt $PKG/usr/bin
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt
 tar xf $TMP/AdobeReader/COMMON.TAR
 tar xf $TMP/AdobeReader/ILINXR.TAR
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt/Adobe
 
@@ -89,12 +91,14 @@ rm -r Reader9/Browser/{HowTo,install_browser_plugin}
 
 # Add symlink for binary to /usr/bin
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin ; ln -sf ../../opt/Adobe/Reader9/bin/acroread . )
 
 # Add symlink for browser plugins
 mkdir -p $PKG/usr/lib/mozilla/plugins
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib/mozilla/plugins
   ln -sf ../../../../opt/Adobe/Reader9/Browser/intellinux/nppdf.so .
@@ -103,6 +107,7 @@ cd -
 # Add symlink to AdobeReader.xml for correct mimetype
 mkdir -p $PKG/usr/share/mime/packages
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/mime/packages
   ln -sf ../../../../opt/Adobe/Reader9/Resource/Support/AdobeReader.xml .
@@ -111,6 +116,7 @@ cd -
 # Fix symlink to .desktop file
 mkdir -p $PKG/usr/share/{applications,pixmaps}
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/applications
   ln -sf ../../../opt/Adobe/Reader9/Resource/Support/AdobeReader.desktop .
@@ -118,6 +124,7 @@ cd -
 
 # Link icon to /usr/share/pixmaps
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/pixmaps
   ln -sf ../../../opt/Adobe/Reader9/Resource/Icons/48x48/AdobeReader9.png .
@@ -126,6 +133,7 @@ cd -
 # Link manpage to /usr/man/man1
 mkdir -p $PKG/usr/man/man1
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/man/man1
   ln -sf ../../../opt/Adobe/Reader9/Resource/Shell/acroread.1.gz .
@@ -152,6 +160,7 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 # Fix ownership and permissions
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 find . -type d -exec chmod 755 {} \;

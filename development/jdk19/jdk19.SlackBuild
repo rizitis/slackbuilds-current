@@ -63,6 +63,7 @@ mkdir -p $TMP $OUTPUT \
          $PKG/{install,etc/profile.d,usr/{lib${LIBDIRSUFFIX},doc/$PRGNAM-$VERSION}}
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib${LIBDIRSUFFIX}
 tar -xvf $CWD/jdk-$VERSION?linux*.tar.gz
@@ -96,6 +97,7 @@ cat $CWD/$PRGNAM.SlackBuild > $PRGNAM.SlackBuild
 cat $CWD/slack-desc > slack-desc
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 cat > etc/profile.d/$PRGNAM.sh << EOF

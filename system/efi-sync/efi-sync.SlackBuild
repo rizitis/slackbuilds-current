@@ -59,6 +59,7 @@ mkdir -p "$PKG/etc/rc.d"
 cp -R "$CWD/files/rc.efi-sync.new" "$PKG/etc/rc.d/"
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-0.2.0-$ARCH-$BUILD$TAG.$PKGTYPE

@@ -143,6 +143,7 @@ chown -R $WEBUSER:$WEBGROUP $PKG/$DOCROOT/policyd2-webui
 ### install and patch httpd include file
 install -m 0640 -D contrib/httpd/$SRCNAM-httpd.conf $PKG/etc/httpd/extra/httpd-$PRGNAM.conf.new
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/etc/httpd/extra; patch -p0 < $CWD/patches/httpd_policyd2_conf.patch; sed -i s:@DOCROOT@:$DOCROOT: $PKG/etc/httpd/extra/httpd-$PRGNAM.conf.new )
 
@@ -152,6 +153,7 @@ install -m 0755 -D $CWD/rc.policyd2 $PKG/etc/rc.d/rc.policyd2.new
 ### install and patch config file
 install -m 0640 -D $SRCNAM.conf $PKG/etc/$PRGNAM.conf.new
 ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/etc; patch -p0 < $CWD/patches/policyd2_config.patch )
 
@@ -170,6 +172,7 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 sed s:@DOCROOT@:$(echo $DOCROOT | sed s:/::): $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

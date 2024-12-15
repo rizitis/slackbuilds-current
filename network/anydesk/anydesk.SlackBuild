@@ -63,6 +63,7 @@ cd $PRGNAM-${VERSION}
 rpm2cpio $CWD/${PRGNAM}_${VERSION}-${RPMBUILD}_${ARCH}.rpm | cpio -idmv
 cp -r * $PKG
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 rm -rf usr/share/anydesk
@@ -79,6 +80,7 @@ mkdir -p $PKG/etc/rc.d/
 cat $CWD/rc.anydesk > $PKG/etc/rc.d/rc.anydesk.new
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -p -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

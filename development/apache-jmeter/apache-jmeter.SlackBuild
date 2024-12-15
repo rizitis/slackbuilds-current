@@ -66,6 +66,7 @@ cp -a bin extras lib $PKG/$JMETER_HOME/
 sed -i "s_\`dirname \\\"\$0\\\"\`_/$JMETER_HOME/bin_" $PKG/$JMETER_HOME/bin/jmeter
 sed -i "s_\`dirname \"\$0\"\`_/$JMETER_HOME/bin_" $PKG/$JMETER_HOME/bin/jmeter-server
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/bin
   ln -s ../../$JMETER_HOME/bin/jmeter
@@ -87,6 +88,7 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE

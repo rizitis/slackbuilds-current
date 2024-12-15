@@ -73,6 +73,7 @@ cd $TMP
 tar xvf $CWD/softmaker-office-${VERSION//_/-}-${SMARCH}.tgz
 tar xvf office2018.tar.lzma -C $PKG/opt/smoffice2018
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 

@@ -67,6 +67,7 @@ mkdir -p "$PKG/usr/share/pixmaps"
 mkdir -p "$PKG/usr/bin"
 mkdir -p "$PKG/opt"
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt
 install -m 755 $CWD/$SNAPNAM .

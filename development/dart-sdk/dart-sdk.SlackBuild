@@ -67,6 +67,7 @@ cd $TMP
 
 mkdir -p $PKG/opt
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/opt
 
@@ -88,6 +89,7 @@ chmod +x $PKG/opt/dart-sdk/bin/resources
 chmod +x $PKG/opt/dart-sdk/bin/resources/dartdoc/
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 chmod +rx opt/dart-sdk opt/dart-sdk/bin opt/dart-sdk/bin/snapshots/

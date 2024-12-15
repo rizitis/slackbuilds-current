@@ -78,6 +78,7 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 # below runs in 1.5 seconds and creates an identical doinst.sh. This is
 # a 1000x speedup.
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 find . -type l \

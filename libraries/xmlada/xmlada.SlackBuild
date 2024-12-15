@@ -96,6 +96,7 @@ CFLAGS="$SLKCFLAGS" \
  make prefix=$PKG/usr docdir=$PKG/usr/doc/xmlada-$VERSION install
  find $PKG/usr/ -name "*.$VERSION" | xargs strip
 (if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/include/xmlada
  rm -rf xmlada_dom.static xmlada_dom.static-pic \
@@ -115,6 +116,7 @@ cd $PKG/usr/include/xmlada
  ln -s xmlada_unicode.relocatable xmlada_unicode.static-pic
 )
 (if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/lib$LIBDIRSUFFIX
  rm lib*.so lib*.so.25.0.0
@@ -143,6 +145,7 @@ cd $PKG/usr/lib$LIBDIRSUFFIX
 
 mkdir -p $PKG/usr/doc/$PRGNAM-${VERSION}
 (if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/doc/$PRGNAM-${VERSION}/xmlada/
  rm -rf _sources
@@ -154,6 +157,7 @@ mkdir -p $PKG/install
 cp $CWD/slack-desc $PKG/install
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-${VERSION}-$ARCH-$BUILD$TAG.$PKGTYPE

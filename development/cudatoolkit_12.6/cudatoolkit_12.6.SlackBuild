@@ -169,6 +169,7 @@ done
 # mv -fn $PKG/usr/share/cuda/targets/x86_64-linux/lib/* $PKG/usr/lib64/
 # rm -rf $PKG/usr/share/cuda/targets/x86_64-linux/lib
 # if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/cuda
 # ln -sf ../../lib64 lib64
@@ -180,6 +181,7 @@ cd $PKG/usr/share/cuda
 # mv -fn $PKG/usr/share/cuda/targets/x86_64-linux/include/* $PKG/usr/include/
 # rm -rf $PKG/usr/share/cuda/targets/x86_64-linux/include
 # ( if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG/usr/share/cuda/ ; ln -sf ../../include include )
 # find $PKG/usr/include -type f | xargs chmod -c 0644
@@ -222,6 +224,7 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
+if [ -f $CWD/slack-required ]; then cp $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/install/dependees-on; fi
 cd $PKG
 /sbin/makepkg -l y -c n --compress -1 $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
