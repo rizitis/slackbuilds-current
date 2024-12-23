@@ -1,9 +1,6 @@
-gtk-layer-shell
 glm
 doctest
 wf-config
-seatd
-wlroots
 wayfire
 wf-shell
 wcm

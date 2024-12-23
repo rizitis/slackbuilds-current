@@ -1,7 +1,4 @@
-gtk-layer-shell
 glm
 doctest
 wf-config
-seatd
-wlroots
 wayfire

@@ -15,7 +15,6 @@ python3-xlib
 i3ipc
 python3-autotiling
 wlr-randr
-gtk-layer-shell
 nwg-displays
 nwg-wrapper
 nwg-shell-wallpapers
@@ -63,8 +62,6 @@ feh
 azote
 swaylock
 swayidle
-seatd
-wlroots
 sway
 swappy
 python-distutils-extra

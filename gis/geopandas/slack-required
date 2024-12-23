@@ -3,7 +3,6 @@ python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
 python3-shapely
-python3-versioneer
 tzdata
 python3-pytz
 python3-dateutil

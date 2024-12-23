@@ -1,5 +1,7 @@
 alire
+gnatcoll-bindings
 gnatcoll-core
+gnatcoll-db
 gprbuild
 libgpr
 xmlada

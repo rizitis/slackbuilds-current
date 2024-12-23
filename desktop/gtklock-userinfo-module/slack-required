@@ -3,5 +3,4 @@ python3-ptyprocess
 python3-pexpect
 mugshot
 gtk-session-lock
-gtk-layer-shell
 gtklock

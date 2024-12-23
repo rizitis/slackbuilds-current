@@ -3,7 +3,6 @@ python3-ptyprocess
 python3-pexpect
 mugshot
 gtk-session-lock
-gtk-layer-shell
 gtklock
 # %README%: see the gtklock-userinfo-module README file. 
 gtklock-userinfo-module

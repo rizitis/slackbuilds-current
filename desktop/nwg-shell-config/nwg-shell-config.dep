@@ -17,6 +17,5 @@ geographiclib-python
 geopy
 playerctl
 gtk-session-lock
-gtk-layer-shell
 gtklock
 nwg-shell-config

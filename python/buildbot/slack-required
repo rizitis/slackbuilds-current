@@ -19,7 +19,6 @@ python3-attrs
 python3-service-identity
 zope.interface
 python3-incremental
-python3-versioneer
 python3-constantly
 python3-automat
 python3-twisted

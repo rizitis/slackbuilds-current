@@ -30,10 +30,15 @@ ion
 ipython
 jellyfish
 jupyter-ipykernel
+jupyter-nbclassic
 jupyter-notebook
+jupyter-notebook_shim
 jupyter-qtconsole
 jupyter_console
+jupyter_events
+jupyter_server
 jupyterlab
+jupyterlab_server
 kallithea-frontend
 krop
 letsencrypt
@@ -83,6 +88,7 @@ python3-ipython-sql
 python3-jaraco.collections
 python3-jaraco.functools
 python3-jaraco.text
+python3-json-logger
 python3-keyring
 python3-klein
 python3-librosa

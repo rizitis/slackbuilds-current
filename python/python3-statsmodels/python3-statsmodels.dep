@@ -10,7 +10,6 @@ python3-pythran
 pybind11
 python3-scipy
 python3-patsy
-python3-versioneer
 tzdata
 python3-pytz
 python3-dateutil

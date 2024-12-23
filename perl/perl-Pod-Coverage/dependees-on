@@ -19,6 +19,7 @@ perl-Devel-OverloadInfo
 perl-Devel-PartialDump
 perl-Dist-CheckConflicts
 perl-Email-Sender
+perl-Getopt-Long-Descriptive
 perl-Linux-FD
 perl-Log-Dispatch
 perl-Mail-DMARC

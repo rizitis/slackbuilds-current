@@ -1,6 +1,5 @@
 ddcutil
 wlr-randr
-gtk-layer-shell
 SwayNotificationCenter
 python3-netifaces
 python3-dasbus

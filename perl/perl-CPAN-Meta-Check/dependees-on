@@ -1,5 +1,6 @@
 et
 perl-CPAN-Meta-Check
+perl-Getopt-Long-Descriptive
 perl-Moose
 perl-MooseX-Traits
 perl-MooseX-Types-Structured

@@ -15,6 +15,7 @@ perl-DateTime
 perl-Devel-Declare
 perl-Devel-OverloadInfo
 perl-Devel-PartialDump
+perl-Getopt-Long-Descriptive
 perl-HTML-WikiConverter-Markdown
 perl-HTML-WikiConverter
 perl-List-AllUtils

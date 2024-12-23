@@ -5,6 +5,7 @@ perl-DateTime-Format-Strptime
 perl-DateTime-Locale
 perl-DateTime-TimeZone
 perl-DateTime
+perl-Getopt-Long-Descriptive
 perl-HTML-WikiConverter-Markdown
 perl-HTML-WikiConverter
 perl-Log-Dispatch

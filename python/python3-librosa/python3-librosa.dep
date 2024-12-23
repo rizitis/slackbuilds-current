@@ -13,7 +13,6 @@ pybind11
 python3-scipy
 python3-joblib
 scikit-learn
-python3-versioneer
 tzdata
 python3-pytz
 python3-dateutil

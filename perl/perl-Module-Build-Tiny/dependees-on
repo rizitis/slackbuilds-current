@@ -63,6 +63,7 @@ perl-Feature-Compat-Try
 perl-File-Copy-Recursive
 perl-File-Download
 perl-File-Remove
+perl-Getopt-Long-Descriptive
 perl-Gtk2-Notify
 perl-HTML-FormatText-WithLinks-AndTables
 perl-HTML-FormatText-WithLinks
