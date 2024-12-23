@@ -5,7 +5,7 @@
   - If you use it, then you can use this repo because all SlackBuilds here are pathed to copy the slack-required file in `/usr/doc/$PRGNAM-$VERSION/` folder. The same for `dependees-on` file if exist.
   - This way I can have for every installed package also its dependencies in a txt file as information. Also having `dependees-on` i can easy read which packages **need** $PACKAGE.
   - The `slack-required` and `dependees-on` files was created by me, the same for `*.dep` files and `dependees-on` as and the `CUSTOM-SLACKBUILDS.TXT`
-  - Unfortunately I cant name it `SLACKBUILDS.TXT` as usual because slpkg not exept to find a `SLACKBUILDS.TXT` in **"ponce" repo** so if found it slpkg breaks.
+  - Unfortunately I cant name it `SLACKBUILDS.TXT` as usual because slpkg not exept to find a `SLACKBUILDS.TXT` in **"ponce" repo** and if found it then slpkg breaks.
   - If you want to use this repo with slpkg, edit `/etc/slpkg/repositories.toml` like this:
   
  ```
