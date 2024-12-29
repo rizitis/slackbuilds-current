@@ -1,4 +1,3 @@
 ocaml
-ocaml-findlib
 camlp5
-lablgtk
+ocaml-findlib

@@ -80,6 +80,7 @@ perl-Params-ValidationCompiler
 perl-Parse-Method-Signatures
 perl-Parser-MGC
 perl-Perl-Critic
+perl-Return-MultiLevel
 perl-Role-Tiny
 perl-SOAP-Lite
 perl-Sub-Exporter-ForMethods
@@ -87,6 +88,7 @@ perl-Sub-Override
 perl-Syntax-Keyword-Try
 perl-Test-Bits
 perl-Test-CleanNamespaces
+perl-Test-Exit
 perl-Test-Fatal
 perl-Test-File-ShareDir-Dist
 perl-Test-File-ShareDir
