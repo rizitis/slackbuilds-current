@@ -22,6 +22,7 @@ linkchecker
 locust
 odoo
 pelican
+python-fido2
 python-qrcode
 python3-Flask-Babel
 python3-Flask-Security-Too
@@ -80,3 +81,5 @@ toot
 twine
 vcspull
 vdirsyncer
+yubikey-manager-qt
+yubikey-manager

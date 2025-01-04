@@ -54,6 +54,7 @@ pyftpdlib
 pyjwt
 pymysql
 python-axolotl
+python-fido2
 python-mysql-replication
 python2-requests-kerberos
 python3-CherryMusic
@@ -139,4 +140,6 @@ twine
 urlwatch
 vdirsyncer
 w3af
+yubikey-manager-qt
+yubikey-manager
 zope.sqlalchemy

@@ -7,7 +7,7 @@ haskell-commonmark-pandoc
 haskell-hspec-core
 haskell-hspec-smallcheck
 haskell-hspec
-haskell-pandoc-lua-marshal
+haskell-pandoc-lua-marshal.tmp
 haskell-pandoc-types
 haskell-quickcheck-io
 haskell-test-framework-quickcheck2

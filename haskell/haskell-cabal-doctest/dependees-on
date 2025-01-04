@@ -18,6 +18,7 @@ jupyterlab
 kolorcontrol
 libsvm
 mptcpd
+notcurses
 pandoc
 paraview
 pitivi

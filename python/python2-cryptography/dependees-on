@@ -23,6 +23,7 @@ pyftpdlib
 pyjwt
 pymysql
 python-axolotl
+python-fido2
 python-mysql-replication
 python2-cryptography
 python2-paramiko
@@ -51,3 +52,5 @@ swtpm
 twine
 urlwatch
 w3af
+yubikey-manager-qt
+yubikey-manager

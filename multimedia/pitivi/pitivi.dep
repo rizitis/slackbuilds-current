@@ -39,6 +39,4 @@ libpeas
 gst-python
 gst-editing-services
 gsound
-gcab
-appstream-glib
 pitivi

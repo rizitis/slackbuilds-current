@@ -3,7 +3,6 @@ haskell-doctemplates
 haskell-fail
 haskell-hslua-module-text
 haskell-hslua
-haskell-pandoc-lua-marshal
 haskell-pipes
 mptcpd
 pandoc

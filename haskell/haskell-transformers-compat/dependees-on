@@ -44,7 +44,6 @@ haskell-monad-control
 haskell-monad-logger
 haskell-mono-traversable
 haskell-optparse-applicative
-haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-parser-combinators
 haskell-path-io

@@ -20,7 +20,7 @@ haskell-http-conduit
 haskell-http-types
 haskell-ipynb
 haskell-monad-logger
-haskell-pandoc-lua-marshal
+haskell-pandoc-lua-marshal.tmp
 haskell-pandoc-types
 haskell-path-io
 haskell-path

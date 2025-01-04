@@ -9,7 +9,6 @@ haskell-hpack
 haskell-hslua-aeson
 haskell-http-conduit
 haskell-ipynb
-haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io
 haskell-path

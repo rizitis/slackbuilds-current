@@ -2,7 +2,6 @@ calcure
 haskell-citeproc
 haskell-commonmark-pandoc
 haskell-deepseq-generics
-haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-texmath
 ics

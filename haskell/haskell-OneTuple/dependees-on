@@ -13,7 +13,6 @@ haskell-hslua-aeson
 haskell-http-conduit
 haskell-indexed-traversable-instances
 haskell-ipynb
-haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io
 haskell-path

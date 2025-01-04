@@ -20,7 +20,6 @@ haskell-indexed-traversable-instances
 haskell-indexed-traversable
 haskell-ipynb
 haskell-microlens-th
-haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io
 haskell-path

@@ -70,3 +70,5 @@ vdirsyncer
 watch-fs
 x_x
 youtube-dl-server
+yubikey-manager-qt
+yubikey-manager

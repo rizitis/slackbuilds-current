@@ -46,7 +46,7 @@ haskell-lifted-async
 haskell-monad-logger
 haskell-mono-traversable
 haskell-nats
-haskell-pandoc-lua-marshal
+haskell-pandoc-lua-marshal.tmp
 haskell-pandoc-types
 haskell-parser-combinators
 haskell-path-io

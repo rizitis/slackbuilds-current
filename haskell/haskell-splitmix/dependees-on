@@ -18,7 +18,7 @@ haskell-http-conduit
 haskell-libyaml
 haskell-monad-logger
 haskell-mono-traversable
-haskell-pandoc-lua-marshal
+haskell-pandoc-lua-marshal.tmp
 haskell-pandoc-types
 haskell-project-template
 haskell-publicsuffixlist

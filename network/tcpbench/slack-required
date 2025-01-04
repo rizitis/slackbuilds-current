@@ -1,4 +1,5 @@
 # %README%: see the pkgconf README file. 
 pkgconf
+libtls
 libmd
 libbsd

@@ -37,7 +37,7 @@ haskell-monad-logger
 haskell-monad-logger
 haskell-mono-traversable
 haskell-mono-traversable
-haskell-pandoc-lua-marshal
+haskell-pandoc-lua-marshal.tmp
 haskell-pandoc-types
 haskell-path-io
 haskell-path

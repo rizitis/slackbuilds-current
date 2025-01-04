@@ -32,7 +32,6 @@ haskell-hslua-packaging
 haskell-hslua
 haskell-lpeg
 haskell-lua
-haskell-pandoc-lua-marshal
 highlight
 imapfilter
 ipe

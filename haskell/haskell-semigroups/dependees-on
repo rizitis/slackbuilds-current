@@ -35,7 +35,6 @@ haskell-libyaml
 haskell-lifted-async
 haskell-monad-logger
 haskell-mono-traversable
-haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-parser-combinators
 haskell-path-io

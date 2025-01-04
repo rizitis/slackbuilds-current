@@ -21,7 +21,6 @@ gpick
 grilo-plugins
 haskell-hslua-module-text
 haskell-hslua
-haskell-pandoc-lua-marshal
 highlight
 imapfilter
 ipe
