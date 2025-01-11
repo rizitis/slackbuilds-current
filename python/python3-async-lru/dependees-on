@@ -1,4 +1,6 @@
 async
+jupyter-ipywidgets
 jupyter-notebook
+jupyter-widgetsnbextension
 jupyterlab
 python3-async-lru

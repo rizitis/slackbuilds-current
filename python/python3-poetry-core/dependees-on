@@ -11,8 +11,10 @@ httpie
 ipython
 josepy
 jupyter-ipykernel
+jupyter-ipywidgets
 jupyter-notebook
 jupyter-qtconsole
+jupyter-widgetsnbextension
 jupyter_console
 jupyter_packaging
 jupyterlab

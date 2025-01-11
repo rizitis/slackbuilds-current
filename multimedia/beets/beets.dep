@@ -9,6 +9,7 @@ chromaprint
 audioread
 pyacoustid
 python3-h11
+python3-typing-extensions
 python3-sniffio
 python3-anyio
 python3-hatch_fancy_pypi_readme
@@ -30,7 +31,6 @@ mutagen
 python3-mediafile
 python3-confuse
 python3-semantic-version
-python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 jellyfish

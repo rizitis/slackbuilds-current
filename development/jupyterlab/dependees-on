@@ -1,4 +1,6 @@
+jupyter-ipywidgets
 jupyter-notebook
+jupyter-widgetsnbextension
 jupyterlab
 pyte
 thefuck

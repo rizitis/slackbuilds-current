@@ -2,6 +2,7 @@ python3-websocket-client
 python3-overrides
 send2trash
 python3-prometheus_client
+python3-typing-extensions
 python3-sniffio
 python3-anyio
 python3-tornado
@@ -33,7 +34,6 @@ jupyter-nbclient
 python3-defusedxml
 python3-bleach
 jupyter-nbconvert
-python3-typing-extensions
 python3-json-logger
 jupyter_events
 python3-argon2-cffi-bindings

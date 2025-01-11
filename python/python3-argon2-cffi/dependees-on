@@ -1,8 +1,10 @@
 PySoundCard
 cffi
+jupyter-ipywidgets
 jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook_shim
+jupyter-widgetsnbextension
 jupyter_server
 jupyterlab
 jupyterlab_server

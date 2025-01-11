@@ -1,5 +1,9 @@
+jupyter-ipywidgets
+jupyter-ipywidgets
 jupyter-notebook
 jupyter-notebook
+jupyter-widgetsnbextension
+jupyter-widgetsnbextension
 jupyterlab
 jupyterlab
 jupyterlab_server

@@ -26,6 +26,7 @@ haskell-indexed-traversable
 haskell-ipynb
 haskell-libyaml
 haskell-monad-logger
+haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io
 haskell-path

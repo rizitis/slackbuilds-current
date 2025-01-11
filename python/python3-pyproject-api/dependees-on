@@ -15,8 +15,10 @@ grass
 image-analyzer
 ipython
 jupyter-ipykernel
+jupyter-ipywidgets
 jupyter-notebook
 jupyter-qtconsole
+jupyter-widgetsnbextension
 jupyter_console
 jupyterlab
 kolorcontrol

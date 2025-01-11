@@ -1,5 +1,6 @@
 python3-publicsuffix2
 python3-h11
+python3-typing-extensions
 python3-sniffio
 python3-anyio
 python3-hatch_fancy_pypi_readme

@@ -1,5 +1,6 @@
 msgpack-python
 python3-h11
+python3-typing-extensions
 python3-sniffio
 python3-anyio
 python3-hatch_fancy_pypi_readme
@@ -14,7 +15,6 @@ click
 python3-rfc3986
 python3-httpx
 python3-hishel
-python3-typing-extensions
 python3-mdurl
 python3-markdown-it-py
 python3-poetry-core

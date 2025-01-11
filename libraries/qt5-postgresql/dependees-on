@@ -20,6 +20,7 @@ pgsql-ogr-fdw
 pgtcl-ng
 php-pgsql
 php82
+php84
 phppgadmin
 pointcloud
 postfix-pgsql

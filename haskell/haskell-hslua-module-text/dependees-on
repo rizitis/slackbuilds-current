@@ -3,7 +3,6 @@ Fennel
 LuaBitOp
 SLADE
 Tempus-Irae
-aegisub
 alephone
 asc
 celestia
@@ -22,6 +21,7 @@ grilo-plugins
 haskell-hslua-module-text
 haskell-hslua-module-text
 haskell-hslua
+haskell-pandoc-lua-marshal
 highlight
 imapfilter
 ipe

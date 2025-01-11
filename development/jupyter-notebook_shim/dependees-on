@@ -1,7 +1,11 @@
+jupyter-ipywidgets
+jupyter-ipywidgets
 jupyter-nbclassic
 jupyter-notebook
 jupyter-notebook
 jupyter-notebook_shim
+jupyter-widgetsnbextension
+jupyter-widgetsnbextension
 jupyterlab
 pyte
 thefuck

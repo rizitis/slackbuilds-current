@@ -4,10 +4,14 @@ ipython
 ipython
 jupyter-ipykernel
 jupyter-ipykernel
+jupyter-ipywidgets
+jupyter-ipywidgets
 jupyter-notebook
 jupyter-notebook
 jupyter-qtconsole
 jupyter-qtconsole
+jupyter-widgetsnbextension
+jupyter-widgetsnbextension
 jupyter_console
 jupyter_console
 jupyterlab

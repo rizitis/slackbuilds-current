@@ -1,7 +1,9 @@
+jupyter-ipywidgets
 jupyter-nbclassic
 jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
+jupyter-widgetsnbextension
 jupyter_server
 jupyterlab
 jupyterlab_server

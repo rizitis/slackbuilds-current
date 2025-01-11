@@ -28,6 +28,8 @@ haskell-http-conduit
 haskell-http-conduit
 haskell-ipynb
 haskell-ipynb
+haskell-pandoc-lua-marshal
+haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-pandoc-types
 haskell-path-io

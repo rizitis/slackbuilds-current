@@ -1,5 +1,7 @@
 fortls
+jupyter-ipywidgets
 jupyter-notebook
+jupyter-widgetsnbextension
 jupyterlab
 jupyterlab_server
 python3-json5

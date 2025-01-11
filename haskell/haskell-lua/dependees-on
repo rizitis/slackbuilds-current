@@ -3,7 +3,6 @@ Fennel
 LuaBitOp
 SLADE
 Tempus-Irae
-aegisub
 alephone
 asc
 celestia
@@ -32,6 +31,7 @@ haskell-hslua-packaging
 haskell-hslua
 haskell-lpeg
 haskell-lua
+haskell-pandoc-lua-marshal
 highlight
 imapfilter
 ipe

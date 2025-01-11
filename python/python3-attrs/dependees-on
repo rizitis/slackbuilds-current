@@ -12,12 +12,14 @@ flexget
 git-cola
 gj2ascii
 ics
+jupyter-ipywidgets
 jupyter-nbclassic
 jupyter-nbclient
 jupyter-nbconvert
 jupyter-nbformat
 jupyter-notebook
 jupyter-notebook_shim
+jupyter-widgetsnbextension
 jupyter_events
 jupyter_server
 jupyterlab

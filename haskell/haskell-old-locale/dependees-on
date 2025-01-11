@@ -19,6 +19,7 @@ haskell-ipynb
 haskell-monad-logger
 haskell-old-locale
 haskell-old-time
+haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io
 haskell-path

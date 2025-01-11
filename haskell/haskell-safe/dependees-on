@@ -2,6 +2,7 @@ haskell-citeproc
 haskell-doclayout
 haskell-doctemplates
 haskell-errors
+haskell-pandoc-lua-marshal
 haskell-safe
 haskell-skylighting-core
 haskell-skylighting
