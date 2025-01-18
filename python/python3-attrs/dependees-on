@@ -8,6 +8,7 @@ buildbot
 calcure
 certbot-dns-cloudflare
 deluge
+deskflow
 flexget
 git-cola
 gj2ascii

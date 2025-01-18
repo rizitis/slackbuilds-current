@@ -1,5 +1,6 @@
 python3-configobj
 python3-atomicwrites
+python3-ruamel.yaml.clib
 python3-ruamel.yaml
 python3-dateutil
 python2-setuptools-scm

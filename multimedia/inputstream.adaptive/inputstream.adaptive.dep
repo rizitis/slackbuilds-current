@@ -5,7 +5,6 @@ tinyxml2
 Catch2
 spdlog
 fstrcmp
-gtest
 tinyxml
 flatbuffers
 zulu-openjdk11

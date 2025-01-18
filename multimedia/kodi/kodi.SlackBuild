@@ -3,7 +3,7 @@
 # Slackware build script for kodi
 
 # Copyright 2009-2018 Larry Hajali <larryhaja[at]gmail[dot]com>
-# Copyright 2022-2024 Jeremy Hansen <jebrhansen+SBo@gmail.com>
+# Copyright 2022-2025 Jeremy Hansen <jebrhansen+SBo@gmail.com>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -28,7 +28,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 PRGNAM=kodi
 SRCNAM=xbmc
 CODNAM=Omega
-VERSION=${VERSION:-21.1}
+VERSION=${VERSION:-21.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -85,16 +85,6 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-# swig 4.3.0 removed this command line option
-# https://github.com/swig/swig/commit/86498e4
-sed -i 's|-xmllang python ||' xbmc/interfaces/swig/CMakeLists.txt
-
-# Update the internal ffmpeg to build on current
-echo 'LIBNAME=ffmpeg' > tools/depends/target/ffmpeg/FFMPEG-VERSION
-echo 'VERSION=6.1.2' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
-echo 'ARCHIVE=$(LIBNAME)-$(VERSION).tar.xz' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
-echo 'SHA512=3a009184d971fc3168e1322d1d724aae787ed0e9c152d8d1813ea0b9099bda3b35c41fcabbd7b140560e7a8fa9fa1ffd7f0938432d5d498c43829fc6cc3d9e08' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
-
 # Autodetection of "optional" dependencies sucks. It does not work and
 # compilation will fail on each of these if not explicitly disabled.
 # Figured I'd implement my own autodetection instead of requiring
@@ -128,6 +118,14 @@ else
   FFMPEGURL="-DFFMPEG_URL=$CWD/ffmpeg-$ffmpegVER.tar.xz"
 fi
 
+# Actually now that we have the incompatible ffmpeg 7.x in current
+# we need to update the internal version...
+echo 'LIBNAME=ffmpeg' > tools/depends/target/ffmpeg/FFMPEG-VERSION
+echo 'VERSION=6.1.2' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
+echo 'ARCHIVE=$(LIBNAME)-$(VERSION).tar.xz' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
+echo 'SHA512=3a009184d971fc3168e1322d1d724aae787ed0e9c152d8d1813ea0b9099bda3b35c41fcabbd7b140560e7a8fa9fa1ffd7f0938432d5d498c43829fc6cc3d9e08' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
+
+
 # There doesn't seem to be a way to specify the url of these files
 # (eg -DGROOVY_URL didn't work for the first one). But if you place them
 # in the expected location, it won't try and download them.
@@ -136,6 +134,13 @@ cp -a $CWD/apache-groovy-binary-$groovyVER.zip \
       $CWD/commons-lang3-$comLangVER-bin.tar.gz \
       $CWD/commons-text-$comTextVER-bin.tar.gz \
       build/download
+
+# If $JAVA_HOME doesn't exist, try and source zulu-openjdk11.sh from
+# /etc/profile.d/. This ensures the build will complete if all the
+# dependencies were just built.
+if [ -z "$JAVA_HOME" ]; then
+  . /etc/profile.d/zulu-openjdk11.sh
+fi
 
 # Reasons for internal programs
 # (so I can remember in the future why we're using them)
@@ -151,6 +156,7 @@ cp -a $CWD/apache-groovy-binary-$groovyVER.zip \
     -DCMAKE_INSTALL_DOCDIR=/usr/doc/$PRGNAM-$VERSION \
     -DAPP_RENDER_SYSTEM=gl \
     -DCORE_PLATFORM_NAME="$PLATFORM" \
+    -DENABLE_INTERNAL_FMT=ON \
     -DENABLE_INTERNAL_CROSSGUID=ON \
     -DENABLE_INTERNAL_FFMPEG=$FFMPEG \
     -DENABLE_AIRTUNES=$AIRPLAY \

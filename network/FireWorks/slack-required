@@ -1,5 +1,6 @@
 python3-toml
 tqdm
+python3-ruamel.yaml.clib
 python3-ruamel.yaml
 gunicorn
 python3-blinker

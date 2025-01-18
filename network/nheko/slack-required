@@ -1,5 +1,4 @@
 cmark
-gtest
 re2
 nlohmann_json
 olm

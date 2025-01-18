@@ -2,6 +2,7 @@ Electrum
 Kallithea
 Pyfa
 SQLAlchemy
+Solaar
 alembic
 ansible-core
 ansible

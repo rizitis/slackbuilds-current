@@ -20,7 +20,6 @@ libmodplug
 libebur128
 hidapi
 gflags
-gtest
 googlebenchmark
 faad2
 chromaprint

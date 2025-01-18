@@ -1,3 +1,5 @@
+cmake-opt
+toml11
 nlohmann_json
 lowdown
 libeditline

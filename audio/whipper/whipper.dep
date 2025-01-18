@@ -1,4 +1,5 @@
 python-discid
+python3-ruamel.yaml.clib
 python3-ruamel.yaml
 python3-pycdio
 musicbrainzngs
