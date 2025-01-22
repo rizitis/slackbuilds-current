@@ -103,8 +103,7 @@ if [ -f /usr/bin/shairplay ] ; then AIRPLAY=ON; else AIRPLAY=OFF; fi
 PLATFORM="x11 gbm"
 if pkg-config --exists wayland-client++; then PLATFORM="$PLATFORM wayland"; fi
 
-mkdir -p $TMP/$PRGNAM-build
-cd $TMP/$PRGNAM-build
+
 
 # 15.0's ffmpeg is not supported in Omega, you need at least ffmpeg 6.0
 # Default to using the internal version, but allow switching to external
@@ -117,6 +116,9 @@ else
   FFMPEG="ON"
   FFMPEGURL="-DFFMPEG_URL=$CWD/ffmpeg-$ffmpegVER.tar.xz"
 fi
+# https://github.com/Ponce/slackbuilds/issues/273#issuecomment-2607387891
+mkdir -p $TMP/$PRGNAM-build
+cd $TMP/$PRGNAM-build
 
 # Actually now that we have the incompatible ffmpeg 7.x in current
 # we need to update the internal version...
