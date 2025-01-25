@@ -1,4 +1,11 @@
-libfdk-aac
-fltk
+portmidi
 portaudio
+libfdk-aac
+usrsctp
+plog
+nlohmann_json
+libsrtp2
+libjuice
+libdatachannel
+fltk
 butt

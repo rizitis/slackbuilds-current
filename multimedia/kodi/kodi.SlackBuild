@@ -103,7 +103,15 @@ if [ -f /usr/bin/shairplay ] ; then AIRPLAY=ON; else AIRPLAY=OFF; fi
 PLATFORM="x11 gbm"
 if pkg-config --exists wayland-client++; then PLATFORM="$PLATFORM wayland"; fi
 
+# Actually now that we have the incompatible ffmpeg 7.x in current
+# we need to update the internal version...
+echo 'LIBNAME=ffmpeg' > tools/depends/target/ffmpeg/FFMPEG-VERSION
+echo 'VERSION=6.1.2' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
+echo 'ARCHIVE=$(LIBNAME)-$(VERSION).tar.xz' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
+echo 'SHA512=3a009184d971fc3168e1322d1d724aae787ed0e9c152d8d1813ea0b9099bda3b35c41fcabbd7b140560e7a8fa9fa1ffd7f0938432d5d498c43829fc6cc3d9e08' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
 
+mkdir -p $TMP/$PRGNAM-build
+cd $TMP/$PRGNAM-build
 
 # 15.0's ffmpeg is not supported in Omega, you need at least ffmpeg 6.0
 # Default to using the internal version, but allow switching to external
@@ -116,17 +124,6 @@ else
   FFMPEG="ON"
   FFMPEGURL="-DFFMPEG_URL=$CWD/ffmpeg-$ffmpegVER.tar.xz"
 fi
-# https://github.com/Ponce/slackbuilds/issues/273#issuecomment-2607387891
-mkdir -p $TMP/$PRGNAM-build
-cd $TMP/$PRGNAM-build
-
-# Actually now that we have the incompatible ffmpeg 7.x in current
-# we need to update the internal version...
-echo 'LIBNAME=ffmpeg' > tools/depends/target/ffmpeg/FFMPEG-VERSION
-echo 'VERSION=6.1.2' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
-echo 'ARCHIVE=$(LIBNAME)-$(VERSION).tar.xz' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
-echo 'SHA512=3a009184d971fc3168e1322d1d724aae787ed0e9c152d8d1813ea0b9099bda3b35c41fcabbd7b140560e7a8fa9fa1ffd7f0938432d5d498c43829fc6cc3d9e08' >> tools/depends/target/ffmpeg/FFMPEG-VERSION
-
 
 # There doesn't seem to be a way to specify the url of these files
 # (eg -DGROOVY_URL didn't work for the first one). But if you place them

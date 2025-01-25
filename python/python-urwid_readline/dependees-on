@@ -1,6 +1,7 @@
 pudb
 python-urwid_readline
 python-urwid_readline
+s-tui
 speedometer
 todoman
 toot
