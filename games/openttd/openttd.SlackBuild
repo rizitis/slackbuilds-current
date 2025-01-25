@@ -81,6 +81,7 @@ cd $TMP
 rm -rf $PRGNAM-$VERSION
 tar xvf $CWD/$PRGNAM-$VERSION-source.tar.xz
 cd $PRGNAM-$VERSION
+
 if [ "$OPENDATA" == "YES" ]; then
   unzip -o $CWD/opengfx-$OPENGFX-all.zip
   tar -xvf opengfx-${OPENGFX}.tar
@@ -95,6 +96,8 @@ find -L . \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
+
+patch -p1 < $CWD/icu.patch
 
 mkdir -p build
 cd build
