@@ -26,7 +26,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=qbs
-VERSION=${VERSION:-1.16.0}
+VERSION=${VERSION:-2.5.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -86,29 +86,19 @@ cd $PRGNAM-$VERSION
 chown -R root:root .
 chmod -R a-st,u+rwX,go-w+rX .
 
-# Fix for missing *projectgeneratormanager.h*.
+CC=clang CXX=clang++ \
+	cmake -B build -G Ninja \
+		-DCMAKE_BUILD_TYPE=MinSizeRel \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DWITH_TESTS=ON \
+		-DQBS_LIBEXEC_INSTALL_DIR=lib/qbs
+	cmake --build build
 
-patch -p0 < $CWD/corelib-tools.pri.patch
+ctest -j6 --test-dir build --output-on-failure
+DESTDIR="$PKG" cmake --install build
 
-# Adjust docs location.
+	rm -rf "$PKG"/usr/share/qbs/examples/
 
-sed -i "s|share/doc/qbs|doc/qbs-$VERSION|g" doc/doc.pri
-
-qmake-qt5 qbs.pro                         \
-  QMAKE_CXXFLAGS="$SLKCFLAGS"             \
-  QBS_INSTALL_PREFIX=/usr                 \
-  QBS_LIBRARY_DIRNAME=lib$LIBDIRSUFFIX    \
-  CONFIG+=qbs_enable_project_file_updates
-
-make
-make install INSTALL_ROOT=$PKG
-
-if which qdoc-qt5 &>/dev/null; then
-  make docs
-  make install_docs INSTALL_ROOT=$PKG
-else
-  echo "qdoc-qt5 not found in PATH.  Docs won't be built nor installed."
-fi
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
