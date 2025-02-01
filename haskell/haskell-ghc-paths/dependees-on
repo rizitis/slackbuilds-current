@@ -288,7 +288,7 @@ haskell-th-lift
 haskell-th-orphans
 haskell-th-reify-many
 haskell-th-utilities
-haskell-these
+haskell-these.tmp
 haskell-time-compat
 haskell-time-locale-compat
 haskell-tls

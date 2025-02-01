@@ -1,4 +1,3 @@
-pcsc-lite
 pyscard
 python-jeepney
 python3-semantic-version
@@ -16,5 +15,4 @@ python3-keyring
 python3-poetry-core
 python-fido2
 click
-ccid
 yubikey-manager

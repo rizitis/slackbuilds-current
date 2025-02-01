@@ -15,6 +15,7 @@ cholmod
 dakota
 dbcsr
 getdp
+getfem
 gmsh
 goldencheetah
 gretl

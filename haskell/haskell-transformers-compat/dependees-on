@@ -71,7 +71,6 @@ haskell-system-filepath
 haskell-tagged
 haskell-texmath
 haskell-text-conversions
-haskell-these
 haskell-transformers-base
 haskell-transformers-compat
 haskell-vector-algorithms

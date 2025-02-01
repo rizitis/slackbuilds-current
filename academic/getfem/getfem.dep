@@ -1,3 +1,5 @@
+blas
+superlu
 OpenBLAS
 doctest
 xsimd

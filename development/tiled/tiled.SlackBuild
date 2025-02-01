@@ -84,14 +84,12 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-qbs config moduleProviders.Qt.qmakeFilePaths /usr/lib64/qt5/bin/qmake  # Point to Qt5's qmake
-qbs setup-qt /usr/lib64/qt5/bin/qmake qt6-profile
-qbs config defaultProfile qt6-profile
-qbs config projectFlags "-DQT_DISABLE_DEPRECATED_BEFORE=QT_VERSION_CHECK(5,15,0)"
-qbs config projectFlags "-DQT_NO_DEPRECATED_WARNINGS"
-qbs resolve
-qbs build -d default config:release
-qbs install config:release --install-root "$PKG"
+qbs setup-qt /usr/bin/qmake-qt5 qt5
+CFLAGS="$SLKCFLAGS" \
+CXXFLAGS="$SLKCFLAGS" \
+  qbs profile:qt5 qbs.installPrefix:"/usr" projects.Tiled.useRPaths:false
+
+qbs install --install-root $PKG
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true

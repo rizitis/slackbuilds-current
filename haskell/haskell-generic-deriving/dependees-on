@@ -32,7 +32,6 @@ haskell-strict
 haskell-texmath
 haskell-th-orphans
 haskell-th-utilities
-haskell-these
 haskell-witherable
 haskell-yaml
 mptcpd

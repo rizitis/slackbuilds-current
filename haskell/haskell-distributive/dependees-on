@@ -28,7 +28,6 @@ haskell-skylighting-core
 haskell-skylighting
 haskell-strict
 haskell-texmath
-haskell-these
 haskell-yaml
 mptcpd
 pandoc

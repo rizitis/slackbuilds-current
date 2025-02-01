@@ -61,7 +61,6 @@ haskell-system-fileio
 haskell-system-filepath
 haskell-tagged
 haskell-texmath
-haskell-these
 haskell-vector-algorithms
 haskell-void
 haskell-witherable

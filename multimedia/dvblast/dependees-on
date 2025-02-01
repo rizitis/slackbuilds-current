@@ -15,6 +15,7 @@ dakota
 dbcsr
 dvblast
 getdp
+getfem
 gmsh
 goldencheetah
 gretl

@@ -38,7 +38,6 @@ haskell-th-lift
 haskell-th-orphans
 haskell-th-reify-many
 haskell-th-utilities
-haskell-these
 haskell-unicode-collation
 haskell-witherable
 haskell-yaml
