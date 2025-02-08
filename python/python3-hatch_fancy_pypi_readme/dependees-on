@@ -47,7 +47,6 @@ python3-aiosmtpd
 python3-argon2-cffi
 python3-attrs
 python3-authheaders
-python3-automat
 python3-black
 python3-cacheyou
 python3-cattrs

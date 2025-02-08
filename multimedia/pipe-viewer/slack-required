@@ -1,3 +1,6 @@
+perl-Test-Warnings
+perl-file-slurper
+perl-io-uncompress-brotli
 perl-Term-ReadLine-Gnu
 perl-Module-Build
 perl-Test-RequiresInternet

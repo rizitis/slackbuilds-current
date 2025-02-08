@@ -1,0 +1,17 @@
+ghc
+haskell-th-abstraction
+haskell-generic-deriving
+haskell-base-orphans
+haskell-hashable
+haskell-unordered-containers
+haskell-transformers-compat
+haskell-tagged
+haskell-semigroups
+haskell-void
+haskell-indexed-traversable
+haskell-distributive
+haskell-StateVar
+haskell-contravariant
+haskell-comonad
+haskell-bifunctors
+haskell-assoc

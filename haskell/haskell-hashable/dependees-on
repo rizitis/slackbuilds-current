@@ -74,6 +74,7 @@ haskell-system-fileio
 haskell-system-filepath
 haskell-texmath
 haskell-text-short
+haskell-these
 haskell-time-compat
 haskell-tls
 haskell-typed-process

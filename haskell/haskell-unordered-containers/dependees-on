@@ -58,6 +58,7 @@ haskell-strict
 haskell-system-fileio
 haskell-system-filepath
 haskell-texmath
+haskell-these
 haskell-uniplate
 haskell-unordered-containers
 haskell-void

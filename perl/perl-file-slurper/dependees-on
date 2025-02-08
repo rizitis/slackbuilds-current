@@ -1,3 +1,5 @@
 le
 nwg-shell
 perl-file-slurper
+perl-io-uncompress-brotli
+pipe-viewer

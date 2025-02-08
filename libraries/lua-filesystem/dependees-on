@@ -43,6 +43,7 @@ luaevent
 luaexpat
 luakit
 luakit
+lualdap
 luarocks
 luasec
 luasocket

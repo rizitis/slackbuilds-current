@@ -27,11 +27,12 @@ python3-gnutls
 python3-eventlib
 greenlet
 python3-dateutil
-python3-hatch_fancy_pypi_readme
 python3-pyasn1
 python3-pyasn1-modules
+python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-service-identity
+python3-tomli-opt
 python3-incremental
 python3-hyperlink
 python3-constantly

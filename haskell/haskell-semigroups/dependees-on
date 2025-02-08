@@ -57,6 +57,7 @@ haskell-strict
 haskell-system-fileio
 haskell-system-filepath
 haskell-texmath
+haskell-these
 haskell-void
 haskell-witherable
 haskell-xml-conduit

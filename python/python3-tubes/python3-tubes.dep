@@ -1,5 +1,4 @@
 python3-characteristic
-python3-hatch_fancy_pypi_readme
 python3-pyasn1
 python3-pyasn1-modules
 python3-semantic-version
@@ -7,9 +6,11 @@ python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography
+python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-service-identity
 zope.interface
+python3-tomli-opt
 python3-incremental
 python3-hyperlink
 python3-constantly

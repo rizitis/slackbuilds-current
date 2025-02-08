@@ -35,7 +35,6 @@ python3-aiohttp
 python3-aiorpcX
 python3-aiosmtpd
 python3-attrs
-python3-automat
 python3-cattrs
 python3-cinemagoer
 python3-cloudflare

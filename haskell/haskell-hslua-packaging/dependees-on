@@ -49,6 +49,7 @@ luadbi
 luaevent
 luaexpat
 luakit
+lualdap
 luarocks
 luasec
 luasocket

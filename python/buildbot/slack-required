@@ -12,12 +12,13 @@ python3-maturin
 cryptography
 python3-txaio
 python3-autobahn
-python3-hatch_fancy_pypi_readme
 python3-pyasn1
 python3-pyasn1-modules
+python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-service-identity
 zope.interface
+python3-tomli-opt
 python3-incremental
 python3-constantly
 python3-automat

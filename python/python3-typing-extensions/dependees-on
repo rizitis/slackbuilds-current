@@ -68,7 +68,6 @@ python-mysql-replication
 python2-requests-kerberos
 python3-CherryMusic
 python3-CherryPy
-python3-Flask-Bcrypt
 python3-Flask-SQLAlchemy
 python3-Flask-Security-Too
 python3-PyPDF2
@@ -82,7 +81,7 @@ python3-async-lru
 python3-async-timeout
 python3-authheaders
 python3-autobahn
-python3-bcrypt
+python3-automat
 python3-black
 python3-cacheyou
 python3-cattrs
@@ -145,7 +144,6 @@ python3-unearth
 python3-yarl
 pytorch
 pytrainer
-radicale
 sabnzbd
 secretstorage
 sftp-cloudfs
