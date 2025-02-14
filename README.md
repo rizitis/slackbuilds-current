@@ -15,6 +15,8 @@
  
  ```
 
+**IMPORTAND INFO**: Captain-Slack is now part of new [Slackware-Commander](https://github.com/rizitis/Slackware-Commander)
+
   ---
   
 ## disclaimer
