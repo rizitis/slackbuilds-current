@@ -6,5 +6,6 @@ libnvidia-container
 libxnvctrl
 nvidia-container-toolkit
 nvidia-driver
+psensor
 river
 sunshine

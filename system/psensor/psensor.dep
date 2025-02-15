@@ -1,2 +1,5 @@
+nvidia-kernel
+nvidia-driver
+libxnvctrl
 hddtemp
 psensor

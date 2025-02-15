@@ -1,5 +1,7 @@
 ansible-core
 ansible
+buildbot-badges
+buildbot
 cadabra2
 flexget
 image-analyzer

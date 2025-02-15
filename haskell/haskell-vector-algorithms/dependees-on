@@ -33,8 +33,6 @@ haskell-infer-license
 haskell-ipynb
 haskell-libyaml
 haskell-libyaml
-haskell-monad-logger
-haskell-monad-logger
 haskell-mono-traversable
 haskell-mono-traversable
 haskell-pandoc-lua-marshal

@@ -3,5 +3,4 @@ zeromq
 hiredis
 redis
 rrdtool
-graphviz
 GeoIP

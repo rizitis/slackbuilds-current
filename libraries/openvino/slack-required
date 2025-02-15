@@ -1,6 +1,6 @@
 OpenCL-CLHPP
 pybind11
 snappy
+tbb
 pugixml
 xbyak
-oneTBB

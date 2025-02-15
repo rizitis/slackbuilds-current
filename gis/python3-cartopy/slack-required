@@ -49,7 +49,6 @@ libspatialite
 libaec
 hdf5
 netcdf
-graphviz
 uriparser
 libkml
 xerces-c

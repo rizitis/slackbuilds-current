@@ -13,6 +13,7 @@ python3-atpublic
 python3-flufl.lock
 python3-flufl.i18n
 python3-flufl.bounce
+python3-cython-opt
 python3-falcon
 python3-dateutil
 python3-publicsuffix2

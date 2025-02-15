@@ -51,6 +51,7 @@ python3-requests-cache
 python3-service-identity
 python3-sipclients3
 python3-sipsimple
+python3-treq
 python3-trio
 python3-tubes
 python3-twisted

@@ -18,4 +18,5 @@ ocaml-num
 ocamlbuild
 omake
 opam
+pdfsandwich
 unison

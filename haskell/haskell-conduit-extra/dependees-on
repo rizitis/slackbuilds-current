@@ -11,8 +11,7 @@ haskell-http-client
 haskell-http-conduit
 haskell-http-conduit
 haskell-libyaml
-haskell-monad-logger
-haskell-monad-logger
+haskell-monad-logger.tmp
 haskell-project-template
 haskell-project-template
 haskell-publicsuffixlist

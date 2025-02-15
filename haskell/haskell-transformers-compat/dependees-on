@@ -41,7 +41,6 @@ haskell-lifted-base
 haskell-microlens-mtl
 haskell-mmorph
 haskell-monad-control
-haskell-monad-logger
 haskell-mono-traversable
 haskell-optparse-applicative
 haskell-pandoc-lua-marshal

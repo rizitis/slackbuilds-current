@@ -14,7 +14,6 @@ python3-pythran
 pybind11
 python3-scipy
 libsvm
-graphviz
 uriparser
 libminizip
 libkml

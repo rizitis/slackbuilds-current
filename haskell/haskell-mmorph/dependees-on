@@ -8,7 +8,6 @@ haskell-http-client
 haskell-http-conduit
 haskell-libyaml
 haskell-mmorph
-haskell-monad-logger
 haskell-pipes
 haskell-project-template
 haskell-publicsuffixlist

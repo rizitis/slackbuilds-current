@@ -6,7 +6,6 @@ haskell-hpack
 haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
-haskell-monad-logger
 haskell-project-template
 haskell-skylighting-core
 haskell-skylighting

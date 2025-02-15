@@ -5,5 +5,4 @@ lowdown
 libeditline
 libcpuid
 jq
-graphviz
 nix

@@ -46,7 +46,6 @@ geos
 librttopo
 libspatialite
 netcdf
-graphviz
 uriparser
 libkml
 xerces-c

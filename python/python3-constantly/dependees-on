@@ -8,6 +8,7 @@ python3-constantly
 python3-klein
 python3-sipclients3
 python3-sipsimple
+python3-treq
 python3-tubes
 python3-twisted
 swtpm

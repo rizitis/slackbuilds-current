@@ -10,7 +10,6 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-iproute
-haskell-monad-logger
 haskell-network-bsd
 haskell-network-multicast
 haskell-network-multicast

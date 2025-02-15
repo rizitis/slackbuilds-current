@@ -20,4 +20,5 @@ ocamlbuild
 ocamlbuild
 omake
 opam
+pdfsandwich
 unison

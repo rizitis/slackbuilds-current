@@ -4,9 +4,9 @@ pytorch
 OpenCL-CLHPP
 pybind11
 snappy
+tbb
 pugixml
 xbyak
-oneTBB
 openvino
 nanosvg
 unifdef

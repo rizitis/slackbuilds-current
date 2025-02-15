@@ -37,7 +37,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=avidemux
-VERSION=${VERSION:-20250106_d7357a1}
+VERSION=${VERSION:-20250210_1811f45}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -94,11 +94,11 @@ find -L . \
 
 # Thanks FreeBSD guys!
 [[ "$ARCH" = "i586" ]] && \
-  zcat $CWD/extra-patch-i386-nosse.patch.gz | patch -p0
+  zcat $CWD/extra-patch-i386-nosse.patch.gz | patch -p1
 
 sed -i 's|0.19|1.0|' avidemux_plugins/ADM_videoFilters6/ass/CMakeLists.txt || exit 1
 
-bash bootStrap.bash --with-core --with-cli --with-plugins
+bash bootStrap.bash --with-core --with-cli --with-plugins --enable-qt5
 
 make -C buildCli DESTDIR="$PKG" install
 make -C buildCore DESTDIR="$PKG" install

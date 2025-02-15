@@ -1,6 +1,5 @@
 rtrlib
 protobuf-c
-graphviz
 cmocka
 libyang
 ipaddr-py

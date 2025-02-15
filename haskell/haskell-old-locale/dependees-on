@@ -16,7 +16,6 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-ipynb
-haskell-monad-logger
 haskell-old-locale
 haskell-old-time
 haskell-pandoc-lua-marshal

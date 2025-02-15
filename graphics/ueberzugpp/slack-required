@@ -1,8 +1,8 @@
 vips
+tbb
 Catch2
 spdlog
 range-v3
-oneTBB
 nlohmann_json
 libsixel
 chafa

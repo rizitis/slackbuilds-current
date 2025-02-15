@@ -2,7 +2,6 @@ haskell-citeproc
 haskell-conduit-extra
 haskell-cryptonite-conduit
 haskell-http-conduit
-haskell-monad-logger
 haskell-project-template
 haskell-rio
 haskell-skylighting-core
