@@ -8,6 +8,7 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-libyaml
+haskell-monad-logger
 haskell-project-template
 haskell-publicsuffixlist
 haskell-resourcet

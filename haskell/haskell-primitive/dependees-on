@@ -30,6 +30,7 @@ haskell-indexed-traversable-instances
 haskell-infer-license
 haskell-ipynb
 haskell-libyaml
+haskell-monad-logger
 haskell-mono-traversable
 haskell-pandoc-lua-marshal
 haskell-pandoc-types

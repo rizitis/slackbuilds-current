@@ -44,6 +44,7 @@ haskell-indexed-traversable
 haskell-ipynb
 haskell-libyaml
 haskell-lifted-async
+haskell-monad-logger
 haskell-mono-traversable
 haskell-nats
 haskell-pandoc-lua-marshal

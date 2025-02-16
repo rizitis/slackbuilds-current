@@ -12,6 +12,7 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-lifted-async
+haskell-monad-logger
 haskell-project-template
 haskell-rio
 haskell-shelly

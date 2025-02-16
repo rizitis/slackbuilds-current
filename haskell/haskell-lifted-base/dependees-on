@@ -11,6 +11,7 @@ haskell-http-conduit
 haskell-libyaml
 haskell-lifted-async
 haskell-lifted-base
+haskell-monad-logger
 haskell-project-template
 haskell-publicsuffixlist
 haskell-resourcet

@@ -195,6 +195,7 @@ haskell-mintty
 haskell-mmap
 haskell-mmorph
 haskell-monad-control
+haskell-monad-logger
 haskell-monad-loops
 haskell-monads-tf
 haskell-mono-traversable

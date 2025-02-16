@@ -25,6 +25,7 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-ipynb
+haskell-monad-logger
 haskell-pandoc-lua-marshal
 haskell-pandoc-types
 haskell-path-io

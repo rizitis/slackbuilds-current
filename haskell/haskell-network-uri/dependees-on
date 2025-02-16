@@ -19,6 +19,7 @@ haskell-http-conduit
 haskell-http-conduit
 haskell-hxt
 haskell-iproute
+haskell-monad-logger
 haskell-network-bsd
 haskell-network-multicast
 haskell-network-uri

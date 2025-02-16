@@ -17,6 +17,7 @@ haskell-http-client-tls
 haskell-http-client
 haskell-http-conduit
 haskell-libyaml
+haskell-monad-logger
 haskell-mono-traversable
 haskell-project-template
 haskell-publicsuffixlist
