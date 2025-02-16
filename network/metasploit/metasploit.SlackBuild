@@ -162,7 +162,6 @@ ln -s apps/pro/msf3 $PKG/$INSTDIR/msf3
 # Do NOT chown -R root:root or it will bork the shipped PostgreSQL
 # installation: the bitrock installer should have taken care of permissions
 cd $PKG
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required >  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi

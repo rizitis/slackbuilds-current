@@ -124,7 +124,6 @@ cat $CWD/rc.pdns-recursor > $PKG/etc/rc.d/rc.pdns-recursor.new
 mv $PKG/etc/recursor.conf-dist $PKG/etc/recursor.conf.new
 
 cd $PKG
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required >  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi

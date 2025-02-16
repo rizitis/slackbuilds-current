@@ -116,7 +116,6 @@ install -Dm0755 $CWD/xinitrc.pekwm $PKG/etc/X11/xinit/xinitrc.pekwm
 install -Dm0644 $CWD/pekwm.desktop $PKG/usr/share/applications/pekwm.desktop
 
 cd $PKG
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required >  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi

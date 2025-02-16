@@ -110,7 +110,6 @@ find $PKG -name perllocal.pod -o -name ".packlist" -o -name "*.bs" | xargs rm -f
 find $PKG -depth -type d -empty -exec rm -rf {} \;
 
 cd $PKG
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required >  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi

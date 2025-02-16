@@ -97,7 +97,6 @@ install -Dm644 atanks.desktop $PKG/usr/share/applications/atanks.desktop
 install -Dm644 atanks.png $PKG/usr/share/pixmaps/atanks.png
 
 cd $PKG
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required >  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi

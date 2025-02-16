@@ -117,7 +117,6 @@ printf "\033[32mcompress manual in ${PKG}/usr/share/doc/share/man\033[0m\n"
 find usr/share/man -name "*.[12345678n]" -exec gzip {} \;
 mv $PKG/usr/share/man $PKG/usr/
 
-if [ -f $CWD/slack-required ]; then cat $CWD/slack-required >  $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.dep; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/usr/doc/$PRGNAM-$VERSION/slack-required; fi
 if [ -f $CWD/dependees-on ]; then cat $CWD/dependees-on > $PKG/usr/doc/$PRGNAM-$VERSION/dependees-on; fi
 if [ -f $CWD/slack-required ]; then cat $CWD/slack-required > $PKG/install/slack-required; fi
