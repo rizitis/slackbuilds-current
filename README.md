@@ -26,7 +26,9 @@
  > If you use SlackBuilds from here, you use it at your own risk 100%.<br>
  > Original SlackBuilds Maintainers or SlackBuilds.org or Ponce has no responsibility about this fork!
 <p>
+  
 ---
+  
 [CURRENT.WARNING](http://ftp.slackware.com/pub/slackware/slackware64-current/CURRENT.WARNING)
 
 ```
