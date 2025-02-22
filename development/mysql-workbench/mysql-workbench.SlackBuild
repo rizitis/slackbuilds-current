@@ -35,7 +35,7 @@ VERSION_BOOST_SRC=`echo $VERSION_BOOST | tr . _`
 PRGNAM4=mysql-connector-c++
 VERSION_MYSQL_CONNECTOR=8.4.0
 PRGNAM5=gdal
-VERSION_GDAL=3.10.1
+VERSION_GDAL=3.10.2
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -185,9 +185,6 @@ find -L . \
   -o -perm 511 \) -exec chmod 755 {} \; -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
-
-# Fix for swig >= 4.3.0
-sed -i 's|SWIG_Python_AppendOutput|SWIG_AppendOutput|' library/forms/swig/{cairo,mforms}.i
 
 sed -i '/^\s*set/s| -Werror||' CMakeLists.txt
 

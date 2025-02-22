@@ -58,6 +58,7 @@ python3-pipx
 python3-unearth
 python3-userpath
 rasterio
+reuse-tool
 sickchill
 spyder
 subliminal
