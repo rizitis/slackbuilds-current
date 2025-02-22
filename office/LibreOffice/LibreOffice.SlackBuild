@@ -108,7 +108,7 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-LOLANGS=${LOLANGS:-"de es fr id it ja nl vi zh-CN"}
+LOLANGS=${LOLANGS:-"el pt_br ro ru sr hi ar ckb fa ka ko"}
 
 # By default, LibreOffice ignores MAKEFLAGS -j option and uses all available cpu cores.
 parallel=""
@@ -222,6 +222,8 @@ if pkg-config --atleast-version 24.11.0 poppler ; then poppler="--without-system
     --with-lang="$LOLANGS" \
     --enable-release-build=yes  \
     --enable-qt5 \
+    --enable-qt6 \
+    --enable-kf5 \
     --enable-python=system \
     --enable-gio \
     --disable-gstreamer-1-0 \
