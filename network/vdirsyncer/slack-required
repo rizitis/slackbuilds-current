@@ -1,5 +1,6 @@
 python3-atomicwrites
 python3-aiostream
+python3-cython-opt
 python3-expandvars
 python3-propcache
 python3-typing-extensions

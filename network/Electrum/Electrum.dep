@@ -10,6 +10,7 @@ python3-hatch_fancy_pypi_readme
 python3-attrs
 python3-aiorpcX
 python3-socks
+python3-cython-opt
 python3-expandvars
 python3-propcache
 python3-typing-extensions

@@ -1,3 +1,8 @@
+Electrum
+python3-aiohttp-socks
+python3-aiohttp
 python3-cython-opt
 python3-falcon
 python3-mailman
+python3-yarl
+vdirsyncer

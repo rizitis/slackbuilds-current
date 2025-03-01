@@ -1,3 +1,4 @@
+Ymuse
 bumblebee-status
 docker-machine-kvm
 gnome-boxes
@@ -10,6 +11,8 @@ libmodsecurity
 libvirt-glib
 libvirt-python
 libvirt
+mpd
+mpdscribble
 newsraft
 rubygem-fluentd
 rubygem-fluentd
@@ -19,3 +22,4 @@ virt-manager
 virt-viewer
 xen-nox
 xen
+xfce4-mpc-plugin
