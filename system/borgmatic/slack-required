@@ -1,6 +1,5 @@
 python3-ruamel.yaml.clib
 python3-ruamel.yaml
-colorama
 python3-pkgconfig
 msgpack-python
 borgbackup

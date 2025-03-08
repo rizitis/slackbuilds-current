@@ -78,6 +78,7 @@ python3-cffsubr
 python3-cftime
 python3-compreffor
 python3-contourpy
+python3-ffmpeg
 python3-fontmake
 python3-fonttools
 python3-gensim

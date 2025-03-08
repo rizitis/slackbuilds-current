@@ -1,8 +1,13 @@
 Electrum
+geopandas
 python3-aiohttp-socks
 python3-aiohttp
+python3-basemap
+python3-cartopy
 python3-cython-opt
 python3-falcon
 python3-mailman
+python3-obspy
+python3-pyproj
 python3-yarl
 vdirsyncer

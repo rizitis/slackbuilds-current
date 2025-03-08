@@ -36,6 +36,7 @@ python3-cycler
 python3-contourpy
 python3-matplotlib
 python3-pyshp
+python3-cython-opt
 proj
 python3-pyproj
 geos

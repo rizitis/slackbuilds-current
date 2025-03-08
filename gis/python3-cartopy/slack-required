@@ -12,6 +12,7 @@ python3-pythran
 pybind11
 python3-scipy
 python3-pyshp
+python3-cython-opt
 proj
 python3-pyproj
 python3-toml
