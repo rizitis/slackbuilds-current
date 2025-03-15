@@ -22,7 +22,6 @@ libkml
 xerces-c
 gdal
 postgis
-python3-pytz
 python3-dateutil
 OWSLib
 libspatialindex

@@ -1,6 +1,5 @@
 blas
 superlu
-OpenBLAS
 doctest
 xsimd
 python3-pyproject-metadata

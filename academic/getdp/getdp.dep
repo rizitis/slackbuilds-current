@@ -1,5 +1,4 @@
 # %README%: see the getdp README file. 
-OpenBLAS
 blas
 lapack
 arpack-ng

@@ -7,7 +7,6 @@ ViennaRNA
 ViennaRNA
 arpack-ng
 arpack
-ceres-solver
 chameleon
 chameleon
 cholmod
@@ -42,6 +41,4 @@ scikit-umfpack
 simbody
 spqr
 statsmodels
-suitesparse
-trilinos
 umfpack

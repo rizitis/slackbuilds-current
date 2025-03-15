@@ -6,7 +6,6 @@ PyAMG
 ViennaRNA
 arpack-ng
 arpack
-ceres-solver
 chameleon
 cholmod
 dakota
@@ -41,6 +40,4 @@ scikit-umfpack
 simbody
 spqr
 statsmodels
-suitesparse
-trilinos
 umfpack

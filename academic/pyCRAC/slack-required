@@ -5,7 +5,6 @@ python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
 python3-pandas
-OpenBLAS
 doctest
 xsimd
 python3-gast

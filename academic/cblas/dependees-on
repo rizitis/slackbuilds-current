@@ -9,7 +9,6 @@ arpack-ng
 arpack
 cblas
 cblas
-ceres-solver
 chameleon
 chameleon
 cholmod
@@ -46,7 +45,5 @@ scikit-umfpack
 simbody
 spqr
 statsmodels
-suitesparse
 superlu
-trilinos
 umfpack

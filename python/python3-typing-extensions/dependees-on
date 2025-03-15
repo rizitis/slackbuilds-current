@@ -1,11 +1,14 @@
+BeautifulSoup4
 Electrum
 Kallithea
 Pyfa
 SQLAlchemy
 Solaar
 alembic
+anki
 ansible-core
 ansible
+archmage
 asgiref
 audible-cli
 audible
@@ -17,6 +20,7 @@ buildbot-worker
 buildbot
 buku
 butterfly
+certbot-dns-cloudflare
 cryptography
 deluge
 dfvfs
@@ -37,6 +41,7 @@ jellyfish
 jupyter-ipykernel
 jupyter-ipywidgets
 jupyter-nbclassic
+jupyter-nbconvert
 jupyter-notebook
 jupyter-notebook_shim
 jupyter-qtconsole
@@ -62,6 +67,7 @@ pyftpdlib
 pyjwt
 pylast
 pymysql
+pysass
 python-axolotl
 python-fido2
 python-mysql-replication
@@ -90,6 +96,7 @@ python3-cattrs
 python3-celery
 python3-cheroot
 python3-cinemagoer
+python3-cloudflare
 python3-cookiecutter
 python3-django
 python3-dkimpy
@@ -128,6 +135,7 @@ python3-pydantic-core
 python3-pydantic
 python3-pylint-venv
 python3-pylint
+python3-pylyrics
 python3-pypdf
 python3-pyspf
 python3-requests-cache
@@ -147,7 +155,10 @@ python3-unearth
 python3-yarl
 pytorch
 pytrainer
+qbs
 radicale
+redo
+routersploit
 sabnzbd
 secretstorage
 sftp-cloudfs
@@ -159,9 +170,12 @@ subliminal
 swtpm
 tauonmb
 thonny
+tiled
+toot
 twine
 udsclient3
 urlwatch
+variety
 vdirsyncer
 w3af
 yubikey-manager-qt

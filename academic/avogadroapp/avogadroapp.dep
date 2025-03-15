@@ -1,6 +1,7 @@
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy
+cmake-opt
 spglib
 libmsym
 msgpack-c-cpp

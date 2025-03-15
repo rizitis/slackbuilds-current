@@ -2,5 +2,6 @@ python3-poetry-core
 python3-tomlkit
 python-urwid
 python3-wcwidth
+python3-typing-extensions
 python3-soupsieve
 BeautifulSoup4
