@@ -5,7 +5,6 @@ Flask
 anki
 beets
 buildbot-badges
-flexget
 letsencrypt
 locust
 odoo

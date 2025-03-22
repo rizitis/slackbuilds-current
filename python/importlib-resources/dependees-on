@@ -3,7 +3,6 @@ ansible
 buildbot-badges
 buildbot
 cadabra2
-flexget
 image-analyzer
 importlib-resources
 ipython

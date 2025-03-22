@@ -5,7 +5,6 @@ Flask-HTMLmin
 Flask
 anki
 beets
-flexget
 locust
 onionshare
 python3-Flask-Babel

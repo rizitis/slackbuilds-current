@@ -25,4 +25,6 @@ postgis
 python3-dateutil
 OWSLib
 libspatialindex
+gpsbabel
+cmake-opt
 qgis
