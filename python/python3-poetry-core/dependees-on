@@ -42,6 +42,7 @@ python3-cookiecutter
 python3-dkimpy
 python3-dnspython
 python3-dunamai
+python3-ffsubsync
 python3-flake8_annotations
 python3-guessit
 python3-ipython-sql

@@ -14,5 +14,4 @@ webkit2gtk
 template-glib
 libpeas
 jsonrpc-glib
-gtksourceview4
 gnome-builder

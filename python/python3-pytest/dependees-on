@@ -38,6 +38,7 @@ python2-pytest-runner
 python2-twitter
 python3-aksharamukha
 python3-arabic-reshaper
+python3-auditok
 python3-autotiling
 python3-basemap
 python3-cairocffi
@@ -46,6 +47,7 @@ python3-cffsubr
 python3-cinemagoer
 python3-compreffor
 python3-ffmpeg
+python3-ffsubsync
 python3-fontmake
 python3-fonttools
 python3-glyphslib

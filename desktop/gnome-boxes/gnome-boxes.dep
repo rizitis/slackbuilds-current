@@ -15,6 +15,5 @@ libvirt-glib
 osinfo-db-tools
 osinfo-db
 libosinfo
-gtksourceview4
 gtk-vnc
 gnome-boxes

@@ -60,6 +60,8 @@ python3-aksharamukha
 python3-aksharamukha
 python3-arabic-reshaper
 python3-arabic-reshaper
+python3-auditok
+python3-auditok
 python3-autotiling
 python3-basemap
 python3-basemap
@@ -74,6 +76,8 @@ python3-compreffor
 python3-compreffor
 python3-ffmpeg
 python3-ffmpeg
+python3-ffsubsync
+python3-ffsubsync
 python3-fontmake
 python3-fontmake
 python3-fonttools

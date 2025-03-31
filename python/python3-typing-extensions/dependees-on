@@ -32,6 +32,7 @@ ftp-cloudfs
 gajim
 gourmet
 hg-git
+holehe
 httpie
 hyfetch
 ion
@@ -102,6 +103,7 @@ python3-dkimpy
 python3-dnspython
 python3-dogpile.cache
 python3-dulwich
+python3-ffsubsync
 python3-fontmake
 python3-glances
 python3-glyphslib

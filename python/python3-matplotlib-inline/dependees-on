@@ -19,8 +19,10 @@ jupyterlab
 kolorcontrol
 paraview
 pitivi
+python3-auditok
 python3-basemap
 python3-cartopy
+python3-ffsubsync
 python3-ipython-sql
 python3-ipython-sql
 python3-librosa

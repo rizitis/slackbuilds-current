@@ -10,7 +10,7 @@ yelp-tools
 yelp
 libminizip
 gtkhtml
-tinyxml
+tinyxml2
 rarian
 biblesync
 sword

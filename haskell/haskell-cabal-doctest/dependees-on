@@ -28,10 +28,12 @@ pyCRAC
 python3-aksharamukha
 python3-arabic-reshaper
 python3-ase
+python3-auditok
 python3-basemap
 python3-cartopy
 python3-cffsubr
 python3-compreffor
+python3-ffsubsync
 python3-fontmake
 python3-fonttools
 python3-gensim
