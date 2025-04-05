@@ -29,7 +29,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=darktable
-VERSION=${VERSION:-4.8.1}
+VERSION=${VERSION:-5.0.1}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -97,6 +97,8 @@ cd build
     -DDONT_USE_INTERNAL_LUA=Off \
     -DUSE_LIBSECRET=On \
     -DBINARY_PACKAGE_BUILD=1 \
+    -DBUILD_CURVE_TOOLS=ON \
+    -DBUILD_NOISE_TOOLS=ON \
     -DCMAKE_BUILD_TYPE=Release ..
   make
   make install DESTDIR=$PKG

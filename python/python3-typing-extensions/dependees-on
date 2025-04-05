@@ -57,6 +57,7 @@ letsencrypt
 linkchecker
 locust
 mypy
+nanobind
 ndg_httpsclient
 openvino-plugins-ai-audacity
 pelican

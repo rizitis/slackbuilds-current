@@ -25,7 +25,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=netdata
-VERSION=${VERSION:-2.3.1}
+VERSION=${VERSION:-2.3.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -91,6 +91,10 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
+# logrotate needs to su to the netdata user and group before rotating logs:
+sed -e s,@NETDATA_USER@,$NETDATA_USER, -e s,@NETDATA_GROUP@,$NETDATA_GROUP, \
+  $CWD/logrotate-use-netdata-user-and-group.diff | patch -p1 --verbose
+
 # wsr
 # Somehow abseil-cpp that we have in SBo or current is too new
 # So we will use the bundled protobuf in order to build for now
@@ -111,8 +115,9 @@ cd build
     -DENABLE_ACLK=FALSE \
     -DENABLE_BUNDLED_PROTOBUF=TRUE \
     -DCMAKE_BUILD_TYPE=Release ..
-  make
-  make install/strip DESTDIR=$PKG
+  cmake --build ../build
+  DESTDIR=$PKG cmake --install ../build
+  #make install/strip DESTDIR=$PKG
 cd ..
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
@@ -132,7 +137,9 @@ chown -R $NETDATA_USER:$NETDATA_GROUP $PKG/usr/share/netdata/web
 chown -R $NETDATA_USER:$NETDATA_GROUP $PKG/etc/netdata
 
 mkdir -p $PKG/etc/rc.d/
-install -m 0644 $CWD/rc.netdata $PKG/etc/rc.d/
+sed -e s,@NETDATA_USER@,$NETDATA_USER, -e s,@NETDATA_GROUP@,$NETDATA_GROUP, $CWD/rc.netdata \
+  > $PKG/etc/rc.d/rc.netdata
+chmod 0644 $PKG/etc/rc.d/rc.netdata
 
 # handle all conf files
 cp system/netdata.conf $PKG/etc/netdata/netdata.conf.new

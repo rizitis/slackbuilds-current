@@ -2,6 +2,5 @@ yara
 python3-yara
 python3-pycryptodomex
 python3-pycrypto
-capstone
 pefile
 volatility3

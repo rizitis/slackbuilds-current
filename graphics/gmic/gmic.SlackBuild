@@ -26,8 +26,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=gmic
-VERSION=${VERSION:-3.1.6}
-COMMUNITYSRC=GMIC
+VERSION=${VERSION:-3.5.3}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -72,10 +71,7 @@ rm -rf $PRGNAM
 rm -rf $PRGNAM-community
 rm -rf $PRGNAM-qt
 tar xvf $CWD/$PRGNAM\_$VERSION.tar.gz --warning=no-unknown-keyword
-mv $PRGNAM-$VERSION $PRGNAM
-tar xvf $CWD/$COMMUNITYSRC-$VERSION.tar.gz
-mv $PRGNAM-community-$COMMUNITYSRC-$VERSION $PRGNAM-community
-cd $PRGNAM
+cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -107,6 +103,8 @@ make -j1 -C src install LIB=lib$LIBDIRSUFFIX DESTDIR="$PKG" USR="/usr"
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
+
+mv $PKG/usr/share/man $PKG/usr/man
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a COPYING* README* $PKG/usr/doc/$PRGNAM-$VERSION

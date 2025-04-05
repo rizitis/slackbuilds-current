@@ -12,6 +12,7 @@ python3-beniget
 python3-pythran
 pybind11
 python3-scipy
+htslib
 pysam
 novocraft
 tbb

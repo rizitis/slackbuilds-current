@@ -7,6 +7,9 @@ geoclue2
 bubblewrap
 webkit2gtk
 wxWidgets
+premake5
+nvidia-texture-tools
 miniupnpc
 gloox
 enet
+cxxtest
