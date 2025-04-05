@@ -65,6 +65,7 @@ TMP=${TMP:-/tmp/SBo}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
+set -e
 
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
@@ -72,53 +73,53 @@ mkdir -p $TMP $PKG $OUTPUT
 
 if [[ $COMPRESS = "deb" ]]; then
 # extract directly to $PKG/
- ar x $SRCNAM.$COMPRESS
+ ar x "$CWD"/$SRCNAM.$COMPRESS
 	rm debian-binary control.tar.*
 	tar -xJf data.tar.xz -C "$PKG" 2>/dev/null || \
     tar --use-compress-program=unzstd -xf data.tar.zst -C "$PKG" 2>/dev/null || \
     tar -xzf data.tar.gz -C "$PKG" 2>/dev/null || \
     { echo "No valid archive found!"; exit 1; }
-cd "$PKG" || exit
+cd "$PKG" || exit 1
 # Everything extracted in $PKG/ and you are in $PKG/ also.
 
 elif
 [[ $COMPRESS = "pkg.tar.zst" ]]; then
 # extract directly to $PKG/
-tar --use-compress-program=unzstd -xf *.$COMPRESS -C "$PKG" || tar -I unzstd -xf *.$COMPRESS -C "$PKG" 2>/dev/null || \
+tar --use-compress-program=unzstd -xf "$CWD"/*.$COMPRESS -C "$PKG" || tar -I unzstd -xf "$CWD"/*.$COMPRESS -C "$PKG" 2>/dev/null || \
     { echo "No valid archive found!"; exit 1; }
-cd "$PKG" || exit
+cd "$PKG" || exit 1
 # Everything extracted in $PKG/ and you are in $PKG/ also.
 
 elif
  [[ $COMPRESS == "AppImage" ]]; then
   mv "$CWD"/"$SRCNAM"*."$COMPRESS" "$TMP"/"$SRCNAM-$VERSION"."$COMPRESS"
  chmod +x "$TMP"/"$SRCNAM-$VERSION"."$COMPRESS"
- pushd "$TMP" || exit
+ pushd "$TMP" || exit 1
  ./"$SRCNAM-$VERSION"."$COMPRESS" --appimage-extract 2>/dev/null || \
     { echo "No valid $COMPRESS found!"; exit 1; }
- popd || exit
+ popd || exit 1
  mv "$TMP"/squashfs-root "$TMP"/"$PRGNAM-$VERSION"
- cd "$TMP"/"$PRGNAM-$VERSION" || exit
+ cd "$TMP"/"$PRGNAM-$VERSION" || exit 1
 # You are now^ in "$TMP"/"$PRGNAM-$VERSION" ready to install files in $PKG/
 
 elif
 # extract to $TMP/
  [[ $COMPRESS == "snap" ]]; then
- cd "$TMP" || exit
+ cd "$TMP" || exit 1
  unsquashfs -d "$CWD"/"$SRCNAM"."$COMPRESS" 2>/dev/null || \
     { echo "No valid archive found!"; exit 1; }
  mv squashfs-root "$PRGNAM-$VERSION"
- cd  "$PRGNAM-$VERSION" || exit
+ cd  "$PRGNAM-$VERSION" || exit 1
 # You are now^ in "$TMP"/"$PRGNAM-$VERSION" ready to install files in $PKG/
 
 elif
  [[ $COMPRESS = "rpm" ]]; then
 # extract to $PKG/
- rpm -Kv "$SRCNAM.$COMPRESS" 2>/dev/null || \
+ rpm -Kv "$CWD"/"$SRCNAM.$COMPRESS" 2>/dev/null || \
     { echo "No valid archive found!"; exit 1; }
- rpm2cpio "$SRCNAM"."$COMPRESS" > "$TMP"/"$SRCNAM"."$COMPRESS".cpio 2>/dev/null || \
+ rpm2cpio "$CWD"/"$SRCNAM"."$COMPRESS" > "$TMP"/"$SRCNAM"."$COMPRESS".cpio 2>/dev/null || \
     { echo "No valid .cpio found in $TMP"; exit 1; }
- cd "$PKG" || exit
+ cd "$PKG" || exit 1
  cpio -idv < "$TMP"/"$SRCNAM"."$COMPRESS".cpio 2>/dev/null || \
     { echo "Extract cpio to $PKG failed!"; exit 1; }
 # Everything extracted in $PKG/ and you are in $PKG/ also.
@@ -173,7 +174,7 @@ fi
 find "$PKG"/usr/doc/"$PRGNAM"-"$VERSION" -type f -exec chmod 644 {} \;
 fi
 
-set -e
+
 
 cat "$CWD"/$PRGNAM.SlackBuild > $PKG/usr/doc/"$PRGNAM-$VERSION"/$PRGNAM.SlackBuild
 
