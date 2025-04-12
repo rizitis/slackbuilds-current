@@ -44,6 +44,7 @@ grass
 grass
 guitarix
 image-analyzer
+inkscape
 ipython
 jalv
 jupyter-ipykernel
@@ -175,9 +176,11 @@ spglib
 spyder
 survex
 survex
+textext
 therion
 ttfautohint-py
 tuxguitar
 velocyto
 veusz
 xdot
+xtrkcad

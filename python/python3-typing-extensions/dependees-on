@@ -31,6 +31,7 @@ eyeD3
 ftp-cloudfs
 gajim
 gourmet
+grass
 hg-git
 holehe
 httpie
@@ -52,6 +53,7 @@ jupyter_server
 jupyterlab
 jupyterlab_server
 kallithea-frontend
+kicad
 krop
 letsencrypt
 linkchecker
@@ -152,6 +154,7 @@ python3-treq
 python3-tubes
 python3-twisted
 python3-typing-extensions
+python3-typing-inspection
 python3-ufolib2
 python3-unearth
 python3-yarl
@@ -179,7 +182,9 @@ udsclient3
 urlwatch
 variety
 vdirsyncer
+videomass
 w3af
+wxPython4
 yubikey-manager-qt
 yubikey-manager
 zope.sqlalchemy

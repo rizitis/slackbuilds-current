@@ -1,4 +1,5 @@
 python3-pubsub
+python3-typing-extensions
 python3-attrdict
 python3-pathlib2
 nanosvg
@@ -8,7 +9,7 @@ libwpe
 wpebackend-fdo
 geoclue2
 bubblewrap
-webkit2gtk
+webkit2gtk4.1
 wxWidgets
 wxPython4
 videomass

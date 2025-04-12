@@ -32,6 +32,7 @@ gr-osmosdr
 grass
 guitarix
 image-analyzer
+inkscape
 ipython
 jalv
 jupyter-ipykernel
@@ -128,8 +129,10 @@ snuggs
 spglib
 spyder
 survex
+textext
 ttfautohint-py
 tuxguitar
 velocyto
 veusz
 xdot
+xtrkcad

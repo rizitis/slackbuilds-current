@@ -3,9 +3,3 @@ python3-typing-extensions
 python3-setuptools-rust-opt
 python3-maturin
 cryptography
-python3-bcrypt
-python2-wheel
-pycparser
-cffi
-pynacl
-python3-paramiko

@@ -1,10 +1,10 @@
+gnome-desktop
 xdg-desktop-portal-gtk
 xdg-desktop-portal-gnome
 libgnomekbd
 gsound
 geocode-glib
 libgweather
-gnome-desktop
 geoclue2
 libgusb
 colord

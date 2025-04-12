@@ -25,8 +25,8 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=inkscape
-VERSION=${VERSION:-1.4}
-EXTRAVER=${EXTRAVER:-2024-10-09_e7c3feb100}
+VERSION=${VERSION:-1.4.1}
+EXTRAVER=${EXTRAVER:-2025-03-30_93de688d07}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -77,11 +77,6 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-patch -p1 < $CWD/patches/poppler2410.patch
-patch -p1 < $CWD/patches/poppler_24_11.patch
-patch -p1 < $CWD/patches/0001-Fix-building-with-poppler-24.12.0.patch
-patch -p1 < $CWD/patches/0001-Fix-building-with-poppler-25.02.0_final.patch
-
 # strip invalid tag
 sed -i /url/d org.inkscape.Inkscape.appdata.xml.in || exit 1
 
@@ -112,6 +107,7 @@ cd build
     -DBUILD_SHARED_LIBS=ON \
     -DWITH_GRAPHICS_MAGICK=ON \
     -DWITH_IMAGE_MAGICK=OFF \
+    -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
     ..
   make
   make install DESTDIR=$PKG

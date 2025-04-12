@@ -4,6 +4,7 @@ libwpe
 wpebackend-fdo
 geoclue2
 bubblewrap
+webkit2gtk4.1
 webkit2gtk
 yelp-xsl
 yelp-tools

@@ -1,0 +1,9 @@
+flatpak-builder
+flatpak
+gdm
+gfi
+gnome-control-center
+gnome-shell
+gnome-terminal
+xdg-desktop-portal-gnome
+xdg-desktop-portal-gtk

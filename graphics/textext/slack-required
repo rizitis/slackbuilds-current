@@ -4,7 +4,9 @@ double-conversion
 scour
 pstoedit
 potrace
-python2-numpy
+python3-pyproject-metadata
+python3-mesonpy
+python3-numpy
 libcdr
 dos2unix
 gdl
