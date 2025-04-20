@@ -1,6 +1,5 @@
 Electrum
 Fiona
-anki
 blink-qt
 buildbot-badges
 buildbot-worker
@@ -43,10 +42,12 @@ python3-flake8_annotations
 python3-fontmake
 python3-glyphslib
 python3-jsonlines
+python3-jsonschema-specifications
 python3-jsonschema
 python3-klein
 python3-mailman
 python3-outcome
+python3-referencing
 python3-requests-cache
 python3-service-identity
 python3-sipclients3

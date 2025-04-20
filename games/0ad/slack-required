@@ -1,15 +1,4 @@
-nanosvg
-unifdef
-xdg-dbus-proxy
-libwpe
-wpebackend-fdo
-geoclue2
-bubblewrap
-webkit2gtk4.1
-wxWidgets
-premake5
-nvidia-texture-tools
+wxGTK3
 miniupnpc
 gloox
 enet
-cxxtest

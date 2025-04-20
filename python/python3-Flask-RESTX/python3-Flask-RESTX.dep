@@ -1,9 +1,15 @@
 python3-toml
 importlib-resources
 python3-pytz
-python3-pyrsistent
 python3-hatch_fancy_pypi_readme
 python3-attrs
+python3-semantic-version
+python3-typing-extensions
+python3-setuptools-rust-opt
+python3-maturin
+python3-rpds-py
+python3-referencing
+python3-jsonschema-specifications
 python3-jsonschema
 python3-blinker
 click

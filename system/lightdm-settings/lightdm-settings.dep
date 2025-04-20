@@ -1,0 +1,6 @@
+setproctitle
+libgnomekbd
+xapp
+lightdm
+lightdm-slick-greeter
+lightdm-settings

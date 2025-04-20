@@ -1,6 +1,5 @@
 Electrum
 Fiona
-anki
 audible-cli
 audible
 beets
@@ -66,6 +65,7 @@ python3-inflect
 python3-jaraco.collections
 python3-jaraco.text
 python3-jsonlines
+python3-jsonschema-specifications
 python3-jsonschema
 python3-klein
 python3-lsp-black
@@ -75,6 +75,7 @@ python3-pdm
 python3-pydantic
 python3-pykeepass
 python3-pyspf
+python3-referencing
 python3-requests-cache
 python3-service-identity
 python3-sipclients3

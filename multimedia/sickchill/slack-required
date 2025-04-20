@@ -74,6 +74,7 @@ python-gntp
 Unidecode
 python3-tornado
 msgpack-python
+python3-id
 python3-h11
 python3-sniffio
 python3-anyio

@@ -134,8 +134,10 @@ python3-hatch-nodejs-version
 python3-hatch_jupyter_builder
 jupyterlab_pygments
 python3-fastjsonschema
-python3-pyrsistent
 python3-attrs
+python3-rpds-py
+python3-referencing
+python3-jsonschema-specifications
 python3-jsonschema
 jupyter-nbformat
 jupyter-nbclient

@@ -1,4 +1,5 @@
 msgpack-python
+python3-id
 python3-h11
 python3-typing-extensions
 python3-sniffio
