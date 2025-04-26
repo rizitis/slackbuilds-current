@@ -11,10 +11,13 @@ colorama
 python3-typing-extensions
 python3-soupsieve
 BeautifulSoup4
+python3-mdurl
+python3-markdown-it-py
+python3-poetry-core
+python3-rich
 click
 python3-h11
 python3-anyio
 python3-httpcore
-python3-rfc3986
 python3-httpx
 holehe

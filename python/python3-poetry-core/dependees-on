@@ -1,11 +1,16 @@
 Electrum
 Kallithea
+audible-cli
+audible
 beautysh
+beets
 blink-qt
 email-validator
 epy
 et
+eyeD3
 gajim
+holehe
 httpie
 ipython
 josepy
@@ -23,6 +28,7 @@ linkchecker
 locust
 odoo
 pelican
+pylast
 python-fido2
 python-qrcode
 python3-Flask-Babel
@@ -45,6 +51,8 @@ python3-dunamai
 python3-ffsubsync
 python3-flake8_annotations
 python3-guessit
+python3-hishel
+python3-httpx
 python3-ipython-sql
 python3-kodipydent
 python3-langcodes
@@ -66,6 +74,7 @@ python3-spyder-kernels
 python3-stack_data
 python3-tinydb
 python3-tomlkit
+python3-unearth
 python3-validators
 python3-xdg-base-dirs
 reuse-tool
@@ -75,6 +84,7 @@ spf-engine
 spyder
 sshuttle
 subliminal
+tauonmb
 thonny
 toot
 twine

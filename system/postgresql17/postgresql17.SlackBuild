@@ -28,7 +28,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 PRGNAM=postgresql17
 SRCNAM=postgresql
 VERSION=${VERSION:-17.4}
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
 
@@ -103,6 +103,10 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
+export CC="clang"
+export CPP="clang-cpp"
+export CXX="clang++"
+
 CFLAGS="$SLKCFLAGS" \
 PYTHON="/usr/bin/python3" \
 ./configure \
@@ -119,7 +123,6 @@ PYTHON="/usr/bin/python3" \
   --with-python \
   --with-libxml \
   --with-libxslt \
-  --enable-thread-safety \
   --with-system-tzdata=/usr/share/zoneinfo \
   --$NLS-nls \
   --build=$ARCH-slackware-linux

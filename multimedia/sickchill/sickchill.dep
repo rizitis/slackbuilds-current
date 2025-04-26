@@ -80,12 +80,11 @@ python3-sniffio
 python3-anyio
 python3-httpcore
 python3-pdm-build-locked
-python3-rfc3986
-python3-httpx
-python3-hishel
 python3-mdurl
 python3-markdown-it-py
 python3-rich
+python3-httpx
+python3-hishel
 requests-toolbelt
 python3-cachecontrol
 python3-unearth

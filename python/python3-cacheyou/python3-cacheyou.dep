@@ -12,14 +12,13 @@ python3-distlib
 python3-virtualenv
 python3-pdm-backend
 python3-pdm-build-locked
-click
-python3-rfc3986
-python3-httpx
-python3-hishel
 python3-mdurl
 python3-markdown-it-py
 python3-poetry-core
 python3-rich
+click
+python3-httpx
+python3-hishel
 requests-toolbelt
 python3-cachecontrol
 python3-unearth
