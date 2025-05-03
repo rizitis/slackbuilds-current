@@ -54,6 +54,7 @@ python3-guessit
 python3-hishel
 python3-httpx
 python3-ipython-sql
+python3-knowit
 python3-kodipydent
 python3-langcodes
 python3-language-data
@@ -67,6 +68,7 @@ python3-pydocstyle
 python3-pylint-venv
 python3-pylint
 python3-pyspf
+python3-requests-cache
 python3-rich
 python3-sipclients3
 python3-sipsimple
@@ -74,6 +76,7 @@ python3-spyder-kernels
 python3-stack_data
 python3-tinydb
 python3-tomlkit
+python3-trakit
 python3-unearth
 python3-validators
 python3-xdg-base-dirs

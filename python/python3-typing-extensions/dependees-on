@@ -127,6 +127,7 @@ python3-jsonschema-specifications
 python3-jsonschema
 python3-keyring
 python3-klein
+python3-knowit
 python3-librosa
 python3-lsp-black
 python3-lsp-server
@@ -140,6 +141,7 @@ python3-paginate_sqlalchemy
 python3-paramiko
 python3-pdfminer.six
 python3-pdm
+python3-pint
 python3-portend
 python3-psycopg3
 python3-pydantic-core

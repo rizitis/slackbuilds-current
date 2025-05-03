@@ -3,7 +3,7 @@
 # Slackware build script for libfm
 
 # Copyright 2010 Chris Abela <chris.abela@maltats.com>
-# Copyright 2013-2024 Matteo Bernardini <ponce@slackbuilds.org>, Pisa, Italy
+# Copyright 2013-2025 Matteo Bernardini <ponce@slackbuilds.org>, Pisa, Italy
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -26,7 +26,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=libfm
-VERSION=${VERSION:-20230916_5346a53}
+VERSION=${VERSION:-1.4.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -83,11 +83,9 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-patch -p1 < $CWD/gcc14.patch
-
 NOCONFIGURE=1 sh autogen.sh || true
 
-CFLAGS="$SLKCFLAGS" \
+CFLAGS="$SLKCFLAGS -std=gnu17" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
   --prefix=/usr \

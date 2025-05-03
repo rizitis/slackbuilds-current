@@ -5,11 +5,12 @@
 # Written by Kyle Guinn <elyk03@gmail.com>
 # Updated by Rainer Wittmaack <ningo@gmx.net>
 # Updated by Andrew Brouwers, abrouwers at gmail d0t com (13.0, 64-bit)
+# Updated by Matteo Bernardini, ponce at slackbuilds d0t org
 
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=xmms2
-VERSION=${VERSION:-"0.9.3"}
+VERSION=${VERSION:-"0.9.5"}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -60,8 +61,6 @@ find -L . \
   -o -perm 511 \) -exec chmod 755 {} + -o \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} +
-
-patch -p1 < $CWD/ffmpeg-7.patch
 
 export CCFLAGS="$SLKCFLAGS"
 export CXXFLAGS="$SLKCFLAGS"
