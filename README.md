@@ -27,11 +27,9 @@
  > Original SlackBuilds Maintainers or SlackBuilds.org or Ponce has no responsibility about this fork!
 <p>
   
----
-  
-[CURRENT.WARNING](http://ftp.slackware.com/pub/slackware/slackware64-current/CURRENT.WARNING)
-
-```
+- - -
+Standard Slackware-current disclaimer follows...
+<details>
 Standard disclaimer follows... putting this back since some folks forgot ;-)
 
 Welcome to Slackware-current!
@@ -75,8 +73,7 @@ work just fine... BUT DON'T COUNT ON IT)
 
 Enjoy! :)
 
----
 Patrick J. Volkerding
-volkerdi@slackware.com
-```
+`volkerdi@slackware.com`
+</details>
 
