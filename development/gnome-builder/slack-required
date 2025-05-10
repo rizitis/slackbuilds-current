@@ -3,7 +3,6 @@ libdazzle
 sysprof
 libgit2
 libgit2-glib
-cmark
 unifdef
 xdg-dbus-proxy
 libwpe

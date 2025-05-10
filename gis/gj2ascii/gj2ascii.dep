@@ -1,5 +1,6 @@
 python3-hatch_fancy_pypi_readme
 python3-attrs
+python3-packaging-opt
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy

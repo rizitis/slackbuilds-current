@@ -9,6 +9,7 @@ python3-pyproject-api
 colorama
 python3-cachetools
 python3-tox
+python3-packaging-opt
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy

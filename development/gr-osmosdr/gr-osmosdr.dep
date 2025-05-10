@@ -1,5 +1,6 @@
 Catch2
 spdlog
+python3-packaging-opt
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy

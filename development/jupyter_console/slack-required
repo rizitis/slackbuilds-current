@@ -22,6 +22,7 @@ pickleshare
 pybind11
 python3-toml
 importlib-resources
+python3-packaging-opt
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy

@@ -3,6 +3,7 @@ python-colour
 colorama
 openrazer-kernel
 python-daemonize
+python3-packaging-opt
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy

@@ -7,6 +7,7 @@ robin-map
 pybind11
 opencolorio
 openimageio
+python3-packaging-opt
 python3-pyproject-metadata
 python3-mesonpy
 python3-numpy

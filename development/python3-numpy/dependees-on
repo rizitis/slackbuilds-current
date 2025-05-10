@@ -11,6 +11,7 @@ ardour
 audacity
 avogadroapp
 avogadrolibs
+beets
 cadabra2
 dimod
 dwave-greedy
@@ -88,6 +89,7 @@ python3-gensim
 python3-glyphslib
 python3-h5py
 python3-ipython-sql
+python3-lap
 python3-levenshtein
 python3-librosa
 python3-matplotlib-inline
