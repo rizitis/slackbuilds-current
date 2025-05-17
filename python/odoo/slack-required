@@ -16,7 +16,6 @@ html2text
 greenlet
 gevent
 num2words
-wkhtmltopdf
 ebaysdk
 suds-jurko
 python3-poetry-core

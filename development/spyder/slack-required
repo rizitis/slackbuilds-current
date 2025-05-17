@@ -46,6 +46,7 @@ colorama
 python3-cachetools
 python3-tox
 python3-lz4
+python3-cython-opt
 python3-uharfbuzz
 python3-fs
 python3-zopfli
