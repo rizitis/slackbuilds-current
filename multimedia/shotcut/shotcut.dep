@@ -1,4 +1,8 @@
+cpuinfo
+svt-av1
+vamp-plugin-sdk
 ladspa_sdk
+rubberband
 x264
 jack
 shotcut

@@ -24,7 +24,6 @@ gnome-photos
 gnome-shell
 gnome-terminal
 gnucash-docs
-gnucash
 grilo-plugins
 gui-ufw
 libgdata
@@ -33,7 +32,6 @@ lutris
 minigalaxy
 nyxt
 pytrainer
-shotwell
 surf
 sushi
 webkit2gtk

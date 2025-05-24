@@ -69,7 +69,9 @@ find -L . \
 # This is needed with the newer icu: thanks to perrin4869 on LQ!
 sed -i "s|CXX_STANDARD\ 11|CXX_STANDARD\ 17|" CMakeLists.txt
 
-cmake -DCMAKE_INSTALL_PREFIX="/usr/" -DCMAKE_INSTALL_MANDIR="/usr/man/" ./
+# Fix for cmake >= 4.x, thanks to Ivan Kovmir!
+cmake -DCMAKE_INSTALL_PREFIX="/usr/" -DCMAKE_INSTALL_MANDIR="/usr/man/" \
+  -DCMAKE_POLICY_VERSION_MINIMUM=3.10 -Wno-dev ./
 
 make
 make install DESTDIR=$PKG

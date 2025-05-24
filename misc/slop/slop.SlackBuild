@@ -39,9 +39,6 @@ if [ -z "$ARCH" ]; then
   esac
 fi
 
-# If the variable PRINT_PACKAGE_NAME is set, then this script will report what
-# the name of the created package would be, and then exit. This information
-# could be useful to other scripts.
 if [ ! -z "${PRINT_PACKAGE_NAME}" ]; then
   echo "$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE"
   exit 0
@@ -83,7 +80,8 @@ find -L . \
 # This is needed with the newer icu: thanks to perrin4869 on LQ!
 sed -i "s|CXX_STANDARD\ 11|CXX_STANDARD\ 17|" CMakeLists.txt
 
-cmake ./
+# Fix building with cmake >= 4.x, thanks to Ivan Kovmir
+cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.10 -Wno-dev ./
 make
 make install DESTDIR=$PKG
 

@@ -1,9 +1,4 @@
 ion
-python3-CherryMusic
-python3-CherryPy
-python3-inflect
-python3-jaraco.collections
-python3-jaraco.text
 python3-pydantic
 python3-typing-inspection
 tio

@@ -35,8 +35,6 @@ pycp
 pylast
 pysolfc-extra-cardsets
 pysolfc
-python3-CherryMusic
-python3-CherryPy
 python3-Flask-RESTX
 python3-Flask-Security-Too
 python3-aiohttp-socks
@@ -61,9 +59,6 @@ python3-hatch_fancy_pypi_readme
 python3-hishel
 python3-httpcore
 python3-httpx
-python3-inflect
-python3-jaraco.collections
-python3-jaraco.text
 python3-jsonlines
 python3-jsonschema-specifications
 python3-jsonschema

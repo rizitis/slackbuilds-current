@@ -117,7 +117,6 @@ python3-glyphslib
 python3-hishel
 python3-httpcore
 python3-httpx
-python3-inflect
 python3-ipython-sql
 python3-jaraco.collections
 python3-jaraco.functools
